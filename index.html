@@ -1,0 +1,941 @@
+<title>Guard the Flock</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap">
+
+<style>
+/* ── Design tokens ──────────────────────────────────────────────────────────
+   Layout: single-column editorial, wide reading column, section dividers
+   Color: deep chapel navy + warm parchment + crimson accent
+   Type: Lora display/body (gravitas, trust), Inter utility
+   ─────────────────────────────────────────────────────────────────────────── */
+:root {
+  --bg:          #F7F4EF;
+  --bg-alt:      #EDE8E0;
+  --fg:          #1C1916;
+  --fg-muted:    #5C5550;
+  --accent:      #8B1C2E;
+  --accent-soft: #F0D8DC;
+  --border:      #D4CCC2;
+  --card-bg:     #FFFFFF;
+  --link:        #5C2A35;
+  --warn-bg:     #FFF8E1;
+  --warn-border: #D4A017;
+  --safe-bg:     #E8F4EC;
+  --safe-border: #2E7D52;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:          #141210;
+    --bg-alt:      #1E1C19;
+    --fg:          #EDE8E0;
+    --fg-muted:    #9C9590;
+    --accent:      #C94B60;
+    --accent-soft: #2D1318;
+    --border:      #302C28;
+    --card-bg:     #1C1916;
+    --link:        #E07080;
+    --warn-bg:     #2A2410;
+    --warn-border: #C49020;
+    --safe-bg:     #0E2218;
+    --safe-border: #3E9D62;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg:          #141210;
+  --bg-alt:      #1E1C19;
+  --fg:          #EDE8E0;
+  --fg-muted:    #9C9590;
+  --accent:      #C94B60;
+  --accent-soft: #2D1318;
+  --border:      #302C28;
+  --card-bg:     #1C1916;
+  --link:        #E07080;
+  --warn-bg:     #2A2410;
+  --warn-border: #C49020;
+  --safe-bg:     #0E2218;
+  --safe-border: #3E9D62;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  padding-inline: 20px;
+  padding-block: 0;
+}
+
+/* ── Typographic scale ───────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: 'Lora', Georgia, serif;
+  text-wrap: balance;
+  line-height: 1.25;
+}
+h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 600; margin: 0; }
+h2 { font-size: clamp(1.25rem, 3vw, 1.6rem); font-weight: 600; margin: 0 0 0.75rem; }
+h3 { font-size: 1.1rem; font-weight: 600; margin: 0 0 0.5rem; }
+h4 { font-size: 0.95rem; font-weight: 600; font-style: italic; margin: 0 0 0.25rem; }
+
+p { margin: 0 0 1rem; }
+p:last-child { margin-bottom: 0; }
+a { color: var(--link); }
+a:hover { color: var(--accent); }
+
+.eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* ── Layout wrapper ──────────────────────────────────────────────────────── */
+.page-wrap {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+/* ── Header / Hero ───────────────────────────────────────────────────────── */
+.site-header {
+  padding-block: 48px 36px;
+  border-bottom: 2px solid var(--accent);
+}
+.site-header .eyebrow { margin-bottom: 12px; }
+.site-header p {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--fg-muted);
+  max-width: 56ch;
+  margin-top: 14px;
+}
+
+/* ── Nav tabs ────────────────────────────────────────────────────────────── */
+.nav-tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding-block: 20px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  background: var(--bg);
+  z-index: 10;
+}
+.nav-tab {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--fg-muted);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.nav-tab:hover { background: var(--bg-alt); color: var(--fg); }
+.nav-tab.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* ── Sections ────────────────────────────────────────────────────────────── */
+.section { padding-block: 40px; border-bottom: 1px solid var(--border); display: none; }
+.section.active { display: block; }
+
+/* ── Warning banner ──────────────────────────────────────────────────────── */
+.banner {
+  border-left: 4px solid var(--warn-border);
+  background: var(--warn-bg);
+  padding: 14px 18px;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 28px;
+  font-size: 0.9rem;
+}
+.banner.safe {
+  border-left-color: var(--safe-border);
+  background: var(--safe-bg);
+}
+.banner strong { color: var(--fg); }
+
+/* ── Cards ───────────────────────────────────────────────────────────────── */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+.card .card-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.card p { font-size: 0.9rem; color: var(--fg-muted); }
+
+/* ── Sign list ───────────────────────────────────────────────────────────── */
+.signs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.signs-list li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.sign-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+.sign-text strong { display: block; font-size: 0.95rem; margin-bottom: 2px; }
+.sign-text span { font-size: 0.875rem; color: var(--fg-muted); }
+
+/* ── Resource links ──────────────────────────────────────────────────────── */
+.resource-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+.resource-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.resource-info { min-width: 0; flex: 1; }
+.resource-info h4 { color: var(--fg); }
+.resource-info p { font-size: 0.875rem; color: var(--fg-muted); margin-top: 2px; }
+.resource-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tag-book   { background: var(--accent-soft); color: var(--accent); }
+.tag-org    { background: var(--safe-bg); color: var(--safe-border); }
+.tag-news   { background: var(--warn-bg); color: #7A6010; }
+.tag-site   { background: var(--bg-alt); color: var(--fg-muted); }
+.tag-my     { background: #E8F0FB; color: #1A3F8F; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag-my { background: #0D1A33; color: #7AABF5; } }
+:root[data-theme="dark"] .tag-my { background: #0D1A33; color: #7AABF5; }
+
+/* ── Help / crisis contacts ──────────────────────────────────────────────── */
+.help-region { margin-bottom: 36px; }
+.help-region h3 { margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.region-flag { font-size: 1.2rem; }
+.hotline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+.hotline-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.hotline-card .hc-name { font-weight: 600; font-size: 0.95rem; margin-bottom: 2px; }
+.hotline-card .hc-scope { font-size: 0.78rem; color: var(--fg-muted); margin-bottom: 8px; }
+.hotline-card .hc-number {
+  font-family: 'Lora', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+.hotline-card .hc-note { font-size: 0.8rem; color: var(--fg-muted); margin-top: 4px; }
+.hotline-card .hc-link { font-size: 0.82rem; display: block; margin-top: 6px; }
+
+/* ── Steps ───────────────────────────────────────────────────────────────── */
+.steps { counter-reset: step; display: flex; flex-direction: column; gap: 16px; margin-top: 20px; }
+.step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+.step::before {
+  counter-increment: step;
+  content: counter(step);
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step-body strong { display: block; margin-bottom: 4px; }
+.step-body p { font-size: 0.875rem; color: var(--fg-muted); margin: 0; }
+
+/* ── Quote block ─────────────────────────────────────────────────────────── */
+.pull-quote {
+  border-left: 3px solid var(--accent);
+  padding: 12px 20px;
+  margin: 28px 0;
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--fg-muted);
+}
+
+/* ── Accordion ───────────────────────────────────────────────────────────── */
+.faq { display: flex; flex-direction: column; gap: 8px; margin-top: 20px; }
+.faq-item { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.faq-q {
+  width: 100%;
+  background: var(--card-bg);
+  border: none;
+  padding: 14px 18px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--fg);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.faq-q:hover { background: var(--bg-alt); }
+.faq-q .chevron { transition: transform 0.2s; flex-shrink: 0; color: var(--fg-muted); }
+.faq-q[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+.faq-a {
+  display: none;
+  padding: 0 18px 14px;
+  background: var(--card-bg);
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+}
+.faq-a.open { display: block; }
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+footer {
+  padding-block: 32px 40px;
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+  text-align: center;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 500px) {
+  .nav-tabs { gap: 6px; }
+  .resource-item { flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; }
+}
+</style>
+
+<div class="page-wrap">
+
+  <!-- Header -->
+  <header class="site-header">
+    <p class="eyebrow">A resource guide</p>
+    <h1>Guard the Flock</h1>
+    <p>Understanding spiritual abuse — what it is, how to recognize it, and how to find help and healing.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav-tabs" role="tablist" aria-label="Guide sections">
+    <button class="nav-tab active" role="tab" aria-selected="true" data-tab="what">What Is It?</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="signs">Warning Signs</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">How to Respond</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="resources">Resources</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="help">Get Help</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="faq">FAQ</button>
+  </nav>
+
+  <!-- ── Tab: What Is It? ───────────────────────────────────────────────── -->
+  <section class="section active" id="tab-what" role="tabpanel">
+    <div class="banner">
+      <strong>This is educational material only.</strong> If you or someone you know is in immediate danger, please contact emergency services or a crisis line in your country.
+    </div>
+
+    <p class="eyebrow">Definition</p>
+    <h2>Spiritual abuse is a misuse of religious authority to control, harm, or exploit.</h2>
+
+    <p>It can happen in any faith community — large or small, traditional or progressive, high-profile or local. The abuser is typically someone in a position of spiritual trust: a pastor, priest, elder, cell group leader, or mentor.</p>
+
+    <div class="pull-quote">
+      "Spiritual abuse occurs when a person in religious authority uses that position to manipulate, coerce, or exploit another person in ways that damage their spiritual health, emotional wellbeing, or basic dignity."
+    </div>
+
+    <p>Unlike overt physical or financial crimes, spiritual abuse often operates quietly. Victims frequently stay silent because they fear judgment, are told to "submit," or genuinely cannot name what is happening to them. The harm is real: research consistently links exposure to religious coercion with anxiety, depression, religious trauma, and damaged relationships.</p>
+
+    <h3 style="margin-top: 28px; margin-bottom: 12px;">Common forms</h3>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Spiritual coercion</div>
+        <p>Using God, Scripture, or divine authority as a threat to force compliance or silence dissent.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Authoritarian control</div>
+        <p>Demanding absolute obedience to leadership and punishing independent thought or questions.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Shunning &amp; isolation</div>
+        <p>Cutting off or threatening to cut off someone from their community if they leave or speak out.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Financial exploitation</div>
+        <p>Pressuring excessive financial giving while leadership lives lavishly or is never held accountable.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Spiritual bypassing</div>
+        <p>Using religious language to dismiss real psychological or physical harm — "just pray more" for abuse.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Accountability avoidance</div>
+        <p>Leaders who place themselves above any accountability structure, board, or oversight body.</p>
+      </div>
+    </div>
+
+    <p style="margin-top: 28px; font-size: 0.875rem; color: var(--fg-muted);">Note: Not every difficult church experience is spiritual abuse. Theological disagreements, imperfect leadership, and church conflict are not the same as abuse. This guide is concerned with patterns of deliberate coercion, exploitation, and harm.</p>
+  </section>
+
+  <!-- ── Tab: Warning Signs ─────────────────────────────────────────────── -->
+  <section class="section" id="tab-signs" role="tabpanel">
+    <p class="eyebrow">Red flags</p>
+    <h2>Patterns that often signal something is wrong</h2>
+    <p>No single sign is definitive on its own. Look for clusters of behaviors that persist over time and are directed at multiple people.</p>
+
+    <ul class="signs-list">
+      <li>
+        <div class="sign-icon">🔒</div>
+        <div class="sign-text">
+          <strong>Unquestioned authority</strong>
+          <span>Leaders who claim their word is God's word and frame any questioning as sin, rebellion, or a lack of faith.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">🚪</div>
+        <div class="sign-text">
+          <strong>Leaving is dangerous</strong>
+          <span>Members are told that leaving the church means leaving God's protection, losing their salvation, or will result in social exile.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">🤫</div>
+        <div class="sign-text">
+          <strong>Enforced silence</strong>
+          <span>Complaints or concerns are suppressed, reframed as gossip, or met with immediate spiritual punishment.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">👁️</div>
+        <div class="sign-text">
+          <strong>Excessive surveillance</strong>
+          <span>Leadership demands detailed knowledge of members' finances, relationships, and private life as a condition of belonging.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">💸</div>
+        <div class="sign-text">
+          <strong>Financial opacity</strong>
+          <span>Church finances are never disclosed to members; pressure to give is tied to spiritual blessing or judgment.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">😔</div>
+        <div class="sign-text">
+          <strong>Shame as a tool</strong>
+          <span>Sermons or private conversations regularly make members feel worthless, broken, or uniquely sinful — outside the normal conviction of conscience.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">🏝️</div>
+        <div class="sign-text">
+          <strong>Isolation from outside relationships</strong>
+          <span>Members are gradually discouraged from maintaining close friendships or family ties outside the group.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">⚖️</div>
+        <div class="sign-text">
+          <strong>No accountability structures</strong>
+          <span>There is no board, eldership, or external body that has genuine authority over the senior leader.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">🔄</div>
+        <div class="sign-text">
+          <strong>Repeated unexplained departures</strong>
+          <span>Staff and long-time members leave frequently without explanation; their departures are never honestly acknowledged.</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ── Tab: How to Respond ────────────────────────────────────────────── -->
+  <section class="section" id="tab-respond" role="tabpanel">
+    <p class="eyebrow">If you are affected</p>
+    <h2>Taking steps toward safety and healing</h2>
+
+    <div class="banner safe">
+      <strong>You are not alone, and this is not your fault.</strong> Spiritual abuse is a form of manipulation that often makes victims feel responsible. Please reach out for support.
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-body">
+          <strong>Name what you're experiencing</strong>
+          <p>Start by reading about spiritual abuse so you can recognize the patterns. Many survivors say that simply having language for their experience was the first step toward healing.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Talk to a trusted person outside the community</strong>
+          <p>Find a friend, family member, or counselor who is not connected to the church in question. An outside perspective matters.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Document what happened</strong>
+          <p>Keep a private record: dates, what was said, who was present, and how it affected you. This is for your own clarity and may be important if you later decide to report formally.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Seek professional support</strong>
+          <p>A counselor or therapist with experience in religious trauma can help significantly. Look for someone familiar with "Religious Trauma Syndrome" or faith-sensitive counseling.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Report to the appropriate body</strong>
+          <p>Depending on your denomination, there may be an official complaints process. For criminal matters (assault, financial fraud, sexual abuse), contact civil authorities. Spiritual abuse organizations can advise on reporting processes.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Take your time</strong>
+          <p>Healing from spiritual abuse is not linear. You may still love the faith while grieving what happened to you. That tension is normal and does not have to be resolved quickly.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 36px; margin-bottom: 12px;">If you are a leader or witness</h3>
+    <p>If you observe patterns of spiritual abuse in your community, you have a responsibility to act — and acting well requires wisdom.</p>
+    <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
+      <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
+      <li>Escalate to a denominational body, external board, or pastoral care network.</li>
+      <li>Do not conduct informal "trials" or confront accusers as a group — this re-traumatises.</li>
+      <li>Bring in an independent external reviewer for serious allegations.</li>
+      <li>Prioritise the safety of the affected person over the reputation of the institution.</li>
+    </ul>
+  </section>
+
+  <!-- ── Tab: Resources ─────────────────────────────────────────────────── -->
+  <section class="section" id="tab-resources" role="tabpanel">
+    <p class="eyebrow">Verified external resources</p>
+    <h2>Books, organisations, and sites for further reading</h2>
+    <p style="font-size: 0.875rem; color: var(--fg-muted); margin-bottom: 4px;">All links open in a new tab. These are independently published resources — inclusion here is not an endorsement of every position they hold.</p>
+
+    <div class="resource-list">
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Subtle Power of Spiritual Abuse — David Johnson &amp; Jeff VanVonderen</h4>
+          <p>One of the earliest and most widely cited books identifying the patterns of spiritually abusive systems. Written from a Christian pastoral perspective.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Recovering from Religious Trauma — Dr. Marlene Winell</h4>
+          <p>Psychologist Winell coined the term "Religious Trauma Syndrome." Her work documents the psychological impact of high-control religious environments.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Churches, Cults and Spiritual Abuse — Martin Thorburn</h4>
+          <p>A pastoral resource examining the overlap between cult-like dynamics and mainstream church settings, with case studies from the Asia-Pacific region.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>GRACE (Godly Response to Abuse in the Christian Environment)</h4>
+          <p>A US-based nonprofit offering independent investigations, training and resources for churches dealing with abuse. graceresponse.com</p>
+          <p><a href="https://www.graceresponse.com" target="_blank" rel="noopener noreferrer">graceresponse.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-org">Organisation</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Spiritual Abuse Podcast</h4>
+          <p>Survivor stories, expert interviews, and denominational case studies. A good entry point for understanding how abuse operates across different church cultures. Available on major podcast platforms.</p>
+        </div>
+        <span class="resource-tag tag-site">Podcast</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Religion News Service — Institutional Abuse Coverage</h4>
+          <p>Verified journalism covering documented cases of clergy misconduct and institutional cover-ups across denominations globally.</p>
+          <p><a href="https://religionnews.com" target="_blank" rel="noopener noreferrer">religionnews.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-news">News</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Wartburg Watch</h4>
+          <p>A long-running blog that documents and discusses abuse cases in evangelical and Reformed churches. Includes survivor testimonies and investigative write-ups with source links.</p>
+          <p><a href="https://www.thewartburgwatch.com" target="_blank" rel="noopener noreferrer">thewartburgwatch.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Blog / Watchdog</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Bare Marriage (formerly Sheila Wray Gregoire)</h4>
+          <p>Research-based writing on harmful teaching within Christian marriage and purity culture contexts, with a focus on evidence and survivor voices.</p>
+          <p><a href="https://baremarriage.com" target="_blank" rel="noopener noreferrer">baremarriage.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Research / Blog</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Kairos Research Centre — Malaysia</h4>
+          <p>KRC is Malaysia's leading Christian research body, producing church health, leadership accountability, and pastoral practice frameworks relevant to Malaysian church contexts.</p>
+          <p><a href="https://www.kairos.org.my" target="_blank" rel="noopener noreferrer">kairos.org.my ↗</a></p>
+        </div>
+        <span class="resource-tag tag-my">Malaysia</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>National Evangelical Christian Fellowship Malaysia (NECF)</h4>
+          <p>NECF is the umbrella body for evangelical churches in Malaysia. Its Ethics &amp; Social Concerns Committee has addressed pastoral misconduct. A starting point for formal denominational complaints.</p>
+          <p><a href="https://necf.org.my" target="_blank" rel="noopener noreferrer">necf.org.my ↗</a></p>
+        </div>
+        <span class="resource-tag tag-my">Malaysia</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Micah Asia</h4>
+          <p>A regional network of Christian development and advocacy organisations across Asia. Publishes resources on just and accountable leadership in the Asian church context.</p>
+          <p><a href="https://www.micahasia.com" target="_blank" rel="noopener noreferrer">micahasia.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-org">Asia</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Christian Federation of Malaysia (CFM)</h4>
+          <p>The CFM brings together Catholic, Protestant, and evangelical bodies in Malaysia. For inter-denominational concerns or escalations that cross church networks, CFM can sometimes provide referral guidance.</p>
+          <p><a href="https://www.cfm.org.my" target="_blank" rel="noopener noreferrer">cfm.org.my ↗</a></p>
+        </div>
+        <span class="resource-tag tag-my">Malaysia</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Tab: Get Help ─────────────────────────────────────────────────── -->
+  <section class="section" id="tab-help" role="tabpanel">
+    <p class="eyebrow">Crisis &amp; counselling contacts</p>
+    <h2>Where to reach out — Malaysia &amp; globally</h2>
+
+    <div class="banner safe">
+      <strong>If you are in immediate danger, call 999 (Malaysia) or your local emergency number.</strong> The contacts below are for mental health support, counselling, and pastoral care — not emergency response.
+    </div>
+
+    <p style="font-size: 0.875rem; color: var(--fg-muted); margin-bottom: 28px;">Phone numbers and hours are correct to the best of our knowledge but may change. Please verify before relying on them. Copy the number and call directly — phone links may not work inside all apps.</p>
+
+    <!-- Malaysia -->
+    <div class="help-region">
+      <h3><span class="region-flag">🇲🇾</span> Malaysia</h3>
+      <div class="hotline-grid">
+
+        <div class="hotline-card">
+          <div class="hc-name">Befrienders KL</div>
+          <div class="hc-scope">Emotional support &amp; crisis listening — all faiths</div>
+          <div class="hc-number">03-7627 2929</div>
+          <div class="hc-note">24 hours, 7 days. Free, confidential, non-judgmental.</div>
+          <a class="hc-link" href="https://www.befrienderskl.org" target="_blank" rel="noopener noreferrer">befrienderskl.org ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Talian Kasih 15999</div>
+          <div class="hc-scope">Women &amp; family welfare, abuse cases — Ministry of Women</div>
+          <div class="hc-number">15999</div>
+          <div class="hc-note">24 hours. For domestic abuse, family crises, and referrals to shelters.</div>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">MIASA Helpline</div>
+          <div class="hc-scope">Mental illness awareness — peer support &amp; referrals</div>
+          <div class="hc-number">1800-18-9199</div>
+          <div class="hc-note">Mon–Fri 9 am–5 pm. Free mental health peer support.</div>
+          <a class="hc-link" href="https://www.miasa.org.my" target="_blank" rel="noopener noreferrer">miasa.org.my ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">All Women's Action Society (AWAM)</div>
+          <div class="hc-scope">Survivors of abuse — counselling &amp; legal referrals</div>
+          <div class="hc-number">03-7877 0224</div>
+          <div class="hc-note">Office hours. Counselling and support for abuse survivors.</div>
+          <a class="hc-link" href="https://www.awam.org.my" target="_blank" rel="noopener noreferrer">awam.org.my ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Christian Counselling Malaysia (CCM)</div>
+          <div class="hc-scope">Faith-sensitive counselling — pastoral trauma &amp; religious harm</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Search "Christian Counselling Malaysia" for practitioners offering faith-integrated therapy. The CCM network connects trained counsellors across churches.</div>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Lembaga Hasil Dalam Negeri / MACC</div>
+          <div class="hc-scope">Financial crimes &amp; fraud reporting — civil route</div>
+          <div class="hc-number">1800-88-5858 (MACC)</div>
+          <div class="hc-note">For financial exploitation or fraud by religious organisations. MACC Hotline is open 24 hrs for reporting.</div>
+          <a class="hc-link" href="https://www.sprm.gov.my" target="_blank" rel="noopener noreferrer">sprm.gov.my ↗</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Singapore -->
+    <div class="help-region">
+      <h3><span class="region-flag">🇸🇬</span> Singapore</h3>
+      <div class="hotline-grid">
+
+        <div class="hotline-card">
+          <div class="hc-name">Samaritans of Singapore (SOS)</div>
+          <div class="hc-scope">Crisis support — emotional distress &amp; suicide prevention</div>
+          <div class="hc-number">1800-221 4444</div>
+          <div class="hc-note">24 hours, 7 days. Free and confidential.</div>
+          <a class="hc-link" href="https://www.sos.org.sg" target="_blank" rel="noopener noreferrer">sos.org.sg ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">TAFEP / Ministry of Home Affairs</div>
+          <div class="hc-scope">Religious harmony &amp; complaints against religious bodies</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">For concerns involving registered religious organisations, the MHA's Community Engagement division handles formal complaints. Report via police or MHA online portal.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Global -->
+    <div class="help-region">
+      <h3><span class="region-flag">🌐</span> Global &amp; Online</h3>
+      <div class="hotline-grid">
+
+        <div class="hotline-card">
+          <div class="hc-name">GRACE — Independent Church Investigations</div>
+          <div class="hc-scope">US-based; accepts international referrals for serious cases</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Non-profit that conducts independent third-party investigations into church abuse. Can advise on process internationally.</div>
+          <a class="hc-link" href="https://www.graceresponse.com" target="_blank" rel="noopener noreferrer">graceresponse.com ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Spiritual Abuse Resources (SAR)</div>
+          <div class="hc-scope">Online community &amp; peer support for survivors worldwide</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Online peer support forums and resource lists for survivors of high-control religious environments. Available in multiple languages.</div>
+          <a class="hc-link" href="https://www.spiritualabuseresources.com" target="_blank" rel="noopener noreferrer">spiritualabuseresources.com ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Psychology Today Therapist Finder</div>
+          <div class="hc-scope">Find a therapist specialising in religious trauma globally</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Filter by "religious trauma" or "spiritual abuse" under Issues. Many therapists offer international telehealth sessions.</div>
+          <a class="hc-link" href="https://www.psychologytoday.com/us/therapists" target="_blank" rel="noopener noreferrer">psychologytoday.com ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Religious Trauma Institute</div>
+          <div class="hc-scope">Research, training &amp; therapist directory for religious trauma</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Maintains a global directory of therapists trained specifically in religious trauma. Free educational resources for survivors and practitioners.</div>
+          <a class="hc-link" href="https://www.religioustraumainstitute.com" target="_blank" rel="noopener noreferrer">religioustraumainstitute.com ↗</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="banner" style="margin-top: 8px;">
+      <strong>Important disclaimer:</strong> Phone numbers and organisation details change. Always verify contacts are current before sharing them with someone in crisis. Where possible, call ahead yourself.
+    </div>
+
+  </section>
+
+  <!-- ── Tab: FAQ ───────────────────────────────────────────────────────── -->
+  <section class="section" id="tab-faq" role="tabpanel">
+    <p class="eyebrow">Common questions</p>
+    <h2>Frequently asked questions</h2>
+
+    <div class="faq">
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Can spiritual abuse happen in a healthy, Bible-believing church?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Yes. Doctrinal orthodoxy does not prevent abuse. Abuse is about power dynamics and accountability — or the lack of it — not about a church's theological position. Many documented cases have occurred in churches with otherwise sound teaching.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Is confronting leadership always the right step?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Not always — and not first. Confronting an abusive leader directly, especially alone, can be dangerous or counterproductive. The priority is the safety of the affected person. External reporting to denominational bodies, civil authorities, or independent reviewers is often more effective and safer.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Does reporting mean the church has to close or the pastor has to leave?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Not necessarily. Reporting triggers an investigation; what happens next depends on what the investigation finds and the response of the institution. Genuine repentance, structural reform, and appropriate accountability measures can sometimes allow a community to heal without dissolution — but protecting victims must come first.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          What if I'm not sure whether what I experienced was "really" abuse?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Uncertainty is extremely common among survivors, often because the abusive environment itself cultivated self-doubt. If you felt persistently controlled, shamed, silenced, or afraid — and that experience was connected to someone exercising spiritual authority over you — it is worth talking to a counselor regardless of how you label it. Your experience deserves to be taken seriously.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Can someone recover their faith after spiritual abuse?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Many people do — though the path looks different for everyone. Some find a healthier faith community; some take years away from institutional religion; some reconstruct their beliefs significantly. The point is that people have the right to pursue faith, or not, without coercion. A counselor experienced with religious trauma can support any of these paths.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          As a cell group leader, what can I do to prevent this in my own context?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Proactive steps include: welcoming questions and dissent as healthy; never framing your guidance as spiritually binding; encouraging members to maintain relationships outside the group; being transparent about your own accountability structures; and actively pointing people to professional counselors for pastoral care rather than taking on all care yourself. Healthy authority is always accountable authority.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Guard the Flock · A public educational resource · Content compiled from published books, established organisations, and verified journalism.</p>
+    <p style="margin-top: 4px;">This site does not identify, rate, or list individual churches, leaders, or pastors. For case-specific journalism, see the Resources tab.</p>
+  </footer>
+
+</div>
+
+<script>
+  // Tab navigation
+  const tabs = document.querySelectorAll('.nav-tab');
+  const panels = document.querySelectorAll('.section');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab;
+      tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      panels.forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      const panel = document.getElementById('tab-' + target);
+      if (panel) panel.classList.add('active');
+
+      // Remember tab
+      try { localStorage.setItem('gtf-tab', target); } catch(e) {}
+    });
+  });
+
+  // Restore remembered tab
+  try {
+    const saved = localStorage.getItem('gtf-tab');
+    if (saved) {
+      const t = document.querySelector('[data-tab="' + saved + '"]');
+      if (t) t.click();
+    }
+  } catch(e) {}
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      const answer = btn.nextElementSibling;
+      if (answer) answer.classList.toggle('open', !expanded);
+    });
+  });
+</script>
