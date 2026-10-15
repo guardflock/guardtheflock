@@ -1200,8 +1200,12 @@ footer {
     { name: 'Straits Times',          url: 'https://www.straitstimes.com/news/singapore/rss.xml',                       cat: 'asia' },
   ];
 
-  const PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=';
   const MAX_PER_FEED = 5;
+  // Two CORS proxy options — tries primary first, falls back to secondary
+  const PROXIES = [
+    url => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
+    url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+  ];
 
   function timeAgo(dateStr) {
     try {
@@ -1214,10 +1218,30 @@ footer {
     } catch(e) { return ''; }
   }
 
+  function parseRSS(xmlText) {
+    try {
+      const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
+      const items = [...doc.querySelectorAll('item, entry')].slice(0, MAX_PER_FEED);
+      return items.map(el => {
+        const txt = s => (el.querySelector(s) || {}).textContent || '';
+        const attr = (s, a) => (el.querySelector(s) || {}).getAttribute?.(a) || '';
+        const link = txt('link') || attr('link', 'href') || txt('id') || '';
+        const date = txt('pubDate') || txt('published') || txt('updated') || txt('dc\\:date') || '';
+        const title = txt('title').replace(/<!\[CDATA\[|\]\]>/g,'').trim();
+        return { title, link: link.trim(), date };
+      }).filter(i => i.title && i.link);
+    } catch(e) { return []; }
+  }
+
+  function sanitize(str) {
+    return str.replace(/&amp;/g,'&').replace(/&#039;/g,"'").replace(/&quot;/g,'"')
+              .replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/<[^>]+>/g,'').substring(0,180);
+  }
+
   function renderFeed(items, activeFilter) {
     const feed = document.getElementById('news-feed');
     if (!items.length) {
-      feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines loaded. Check your internet connection and try refreshing.</div>';
+      feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines loaded yet — still fetching, or all feeds timed out. Try Refresh.</div>';
       return;
     }
     const filtered = activeFilter === 'all' ? items : items.filter(i => i.cat === activeFilter);
@@ -1225,11 +1249,10 @@ footer {
       feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines for this filter yet.</div>';
       return;
     }
-    // Sort newest first
     filtered.sort((a,b) => new Date(b.date) - new Date(a.date));
     feed.innerHTML = filtered.map(item => `
       <div class="news-item" data-cat="${item.cat}">
-        <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
+        <a href="${item.link}" target="_blank" rel="noopener noreferrer">${sanitize(item.title)}</a>
         <div class="news-meta">
           <span class="news-source-tag">${item.source}</span>
           <span class="news-age">${timeAgo(item.date)}</span>
@@ -1241,25 +1264,32 @@ footer {
   let activeFilter = 'all';
   let loaded = 0;
 
+  async function fetchWithProxy(url, proxyIdx) {
+    const proxyUrl = PROXIES[proxyIdx](url);
+    const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    // allorigins wraps in { contents: "..." }, corsproxy returns raw text
+    return data.contents !== undefined ? data.contents : await res.text();
+  }
+
   async function fetchFeed(src) {
-    try {
-      const res = await fetch(PROXY + encodeURIComponent(src.url) + '&count=' + MAX_PER_FEED, { signal: AbortSignal.timeout(8000) });
-      const data = await res.json();
-      if (data.status === 'ok' && data.items) {
-        data.items.slice(0, MAX_PER_FEED).forEach(item => {
-          allItems.push({
-            title:  (item.title || '').replace(/&amp;/g,'&').replace(/&#039;/g,"'").replace(/&quot;/g,'"').substring(0,180),
-            link:   item.link || item.url || '#',
-            date:   item.pubDate || item.published || '',
-            source: src.name,
-            cat:    src.cat,
-          });
-        });
-      }
-    } catch(e) { /* feed failed silently */ }
+    let xml = null;
+    for (let i = 0; i < PROXIES.length; i++) {
+      try {
+        xml = await fetchWithProxy(src.url, i);
+        if (xml && xml.length > 100) break;
+      } catch(e) { xml = null; }
+    }
+    if (xml) {
+      const parsed = parseRSS(xml);
+      parsed.forEach(item => {
+        allItems.push({ ...item, source: src.name, cat: src.cat });
+      });
+    }
     loaded++;
     const status = document.getElementById('news-status');
-    if (status) status.textContent = `Loaded ${loaded} of ${RSS_SOURCES.length} sources…`;
+    if (status) status.textContent = `Loading… ${loaded} of ${RSS_SOURCES.length} sources`;
     renderFeed(allItems, activeFilter);
   }
 
@@ -1268,10 +1298,10 @@ footer {
     loaded = 0;
     const feed = document.getElementById('news-feed');
     const status = document.getElementById('news-status');
-    if (feed) feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">Loading headlines…</div>';
+    if (feed) feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">Fetching headlines from ' + RSS_SOURCES.length + ' sources…</div>';
     if (status) status.textContent = '';
     await Promise.all(RSS_SOURCES.map(fetchFeed));
-    if (status) status.textContent = `${allItems.length} headlines from ${loaded} sources · ${new Date().toLocaleTimeString('en-MY',{hour:'2-digit',minute:'2-digit'})}`;
+    if (status) status.textContent = `${allItems.length} headlines from ${RSS_SOURCES.length} sources · ${new Date().toLocaleTimeString('en-MY',{hour:'2-digit',minute:'2-digit'})}`;
   }
 
   // Load feeds when the news tab is first activated
