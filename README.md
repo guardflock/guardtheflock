@@ -1,45 +1,76 @@
 # Guard the Flock
 
-A free, public educational resource on spiritual abuse — what it is, how to recognise it, and how to find help and healing.
+**A free, public educational resource on spiritual abuse**—what it is, how to recognise it, and where to find support and further reading.
 
 🌐 **Live site:** [jamescwk.github.io/guardtheflock](https://jamescwk.github.io/guardtheflock)
 
----
+## Current version
 
-## What this site covers
+**v7.0.0** — scheduled news snapshots replace client-side RSS proxy requests. See [Versioning](#versioning) and the [changelog](CHANGELOG.md).
 
-- **What Is Spiritual Abuse?** — Definition and common forms
-- **Warning Signs** — Nine specific red flags with plain descriptions
-- **How to Respond** — Steps for survivors and for leaders/witnesses
-- **Resources** — Verified books, organisations, and journalism (Malaysia, Asia, and global)
-- **Get Help** — Crisis hotlines and counselling contacts for Malaysia 🇲🇾, Singapore 🇸🇬, and globally 🌐
-- **FAQ** — Including guidance for cell group leaders and pastoral workers
+## What the site covers
 
-## Who this is for
+- **What Is Spiritual Abuse?** — a definition and common forms
+- **Warning Signs** — nine patterns to help readers identify concerning behaviour
+- **How to Respond** — guidance for people affected and for leaders or witnesses
+- **Resources** — books, organisations, and journalism from Malaysia, Asia, and globally
+- **Documented Cases** — links to independent reporting, with distinctions between allegations, convictions, and settlements
+- **Latest News** — recent publisher headlines, including The Roys Report, displayed as links to their original reporting
+- **Get Help** — support contacts for Malaysia, Singapore, and globally
+- **FAQ** — including guidance for cell-group leaders and pastoral workers
 
-- Survivors trying to name what happened to them
-- Pastors, cell group leaders, and church workers who want to lead well
-- Anyone who suspects something is wrong in their community and needs language and next steps
+## Important scope and editorial notes
 
-## What this site is NOT
+This site is educational material, not a complaints platform. It does **not** name, rate, or maintain a database of individual churches, pastors, or leaders. Headlines and case links are provided by independent publishers. A reported allegation is not a finding of guilt; a settlement is not necessarily an admission of wrongdoing. Please read the linked publisher's reporting and verify time-sensitive support contacts before relying on them.
 
-This site does **not** name, rate, or list individual churches, pastors, or leaders. It is an educational resource only, not a complaints platform.
+## Latest News: how it works
+
+The browser no longer fetches publisher feeds through public CORS proxies. A GitHub Actions workflow runs every four hours, and can also be started manually from **Actions → Update latest news snapshot → Run workflow**. It fetches the configured public RSS/Atom feeds, normalizes valid article titles, HTTPS links, dates, publisher names, and categories, then writes a bounded snapshot to `data/news.json`. The static site reads that same-origin JSON file; if it cannot be loaded, it shows a clear unavailable message and keeps the separately linked resources available.
+
+The workflow needs no API keys or repository secrets. It uses the repository's `GITHUB_TOKEN` with `contents: write` to commit a changed snapshot. Ensure GitHub Actions are enabled and the repository's workflow token has permission to write contents. Scheduled runs use GitHub's UTC schedule and can be delayed by GitHub during high load. Individual publisher feeds may be unavailable, rate-limited, or change format; the generator continues when a feed fails and reports that feed as a workflow warning. If all feeds fail, it preserves the prior snapshot rather than replacing good data with an empty file.
+
+Run the generator locally with Python 3:
+
+```sh
+python scripts/update_news.py
+```
+
+It uses only the Python standard library. To add or remove a source, edit the `SOURCES` list in `scripts/update_news.py`, ensure its `cat` matches one of the filter categories (`accountability`, `mainstreamreligion`, `catholic`, `evangelical`, or `asia`), then run the generator and validate the resulting JSON. Feed availability varies by runtime and geography, so local failures do not necessarily indicate the GitHub runner will see the same result.
+
+## Development and deployment
+
+This is a static site hosted with GitHub Pages. The main page is `index.html`; there is no frontend build step or package install. Open `index.html` in a browser for a visual check. The news tab works locally when `data/news.json` is present; direct `file://` URLs may restrict JSON fetches, so use a local static HTTP server when testing that tab. GitHub Pages serves the JSON over HTTP after it has been pushed and deployed.
+
+## Versioning
+
+The project uses [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`.
+
+- **MAJOR**: incompatible changes to the site's public structure or content/data contract.
+- **MINOR**: backward-compatible features or substantial new sections.
+- **PATCH**: backward-compatible fixes, corrections, and maintenance.
+
+The version is documented in `VERSION` and changes are recorded in `CHANGELOG.md`. Version labels are repository release metadata; they do not alter the static page's runtime. Tag releases as `vX.Y.Z` when publishing a GitHub Release.
+
+## Wiki
+
+The repository wiki is maintained separately by GitHub and is not included in a normal clone. See [`docs/wiki/`](docs/wiki/) for the maintained wiki source pages, including the home/overview, news feed operations, and support/resources guidance. When the wiki pages change, publish their contents to the GitHub Wiki if that feature is enabled for the repository.
 
 ## Contributing
 
-Contributions are welcome — especially:
-- Additional crisis contacts for other countries
-- Corrections to phone numbers or URLs (they change)
-- Additional verified book/organisation resources
-- Translations into Bahasa Malaysia or Mandarin
+Contributions are welcome, especially:
 
-Please open a Pull Request or file an Issue.
+- Additional, verified support contacts for other countries
+- Corrections to phone numbers, availability, or URLs
+- Additional reputable books and organisations
+- Translations into Bahasa Malaysia or Mandarin
+- Fixes to the feed generator or accessible page behaviour
+
+Please open an Issue or Pull Request. Do not submit private survivor information or unverified allegations about identifiable individuals.
 
 ## License
 
-MIT License — free to use, adapt, and share with attribution.
+MIT License — free to use, adapt, and share with attribution. See [`LICENSE`](LICENSE).
 
 ## Credits
 
-Built by [James CWK](https://github.com/jamescwk) with assistance from Claude (Anthropic).  
-Content sourced from published books, established organisations, and verified journalism.
+Built by [James CWK](https://github.com/jamescwk) with assistance from Claude (Anthropic). Content is sourced from published books, established organisations, and journalism. News articles remain the property and responsibility of their publishers.

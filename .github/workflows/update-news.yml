@@ -1,0 +1,46 @@
+name: Update latest news snapshot
+
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_news.py"
+      - ".github/workflows/update-news.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch and normalize RSS feeds
+        run: python scripts/update_news.py
+
+      - name: Commit changed snapshot
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo "News snapshot is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "chore: refresh latest news snapshot"
+          git push
