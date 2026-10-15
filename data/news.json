@@ -1,31 +1,150 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T19:55:05.819188Z",
+  "updatedAt": "2026-10-15T23:05:24.378095Z",
   "sourcesUpdated": 19,
   "sources": [
     "Spiritual Sounding Board",
     "Christianity Today",
     "Religion News Service",
     "Baptist News Global",
-    "Christian Headlines",
-    "The Wartburg Watch",
     "The Guardian — Religion",
+    "The Wartburg Watch",
+    "Christian Headlines",
     "National Catholic Reporter",
+    "Surviving Church",
     "Christian Post",
     "The Roys Report",
-    "Charisma News",
     "Channel NewsAsia",
-    "Crux — Catholic News",
+    "Charisma News",
     "Straits Times",
+    "Crux — Catholic News",
     "Abuse Tracker (Bishop Accountability)",
-    "Surviving Church",
     "MinistryWatch",
-    "Relevant Magazine",
-    "ECA Global"
+    "ECA Global",
+    "Relevant Magazine"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "Porsche Mission S looks to the past to shape its next super sports car",
+      "link": "https://www.channelnewsasia.com/obsessions/porsche-mission-s-mid-engined-super-sports-car-6464211",
+      "date": "2026-10-15T22:51:04Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Netflix names former Disney executive Rice as new content chief as Bajaria departs",
+      "link": "https://www.channelnewsasia.com/business/netflix-names-former-disney-executive-rice-new-content-chief-bajaria-departs-6464266",
+      "date": "2026-10-15T22:46:14Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Singapore haze: Air quality very unhealthy in central region; PM2.5 reading high in east",
+      "link": "https://www.channelnewsasia.com/singapore/haze-oct-16-psi-pm-25-6459416",
+      "date": "2026-10-15T22:33:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Haze in S’pore: Air quality worsens overnight as PSI hits ‘very unhealthy’ range in central region",
+      "link": "https://www.straitstimes.com/singapore/haze-in-spore-air-quality-worsens-overnight-as-psi-hits-very-unhealthy-range-in-central-region",
+      "date": "2026-10-15T22:17:29Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Commentary: India’s ‘cockroach’ youth are proving hard to crush",
+      "link": "https://www.channelnewsasia.com/commentary/india-modi-cockroach-party-protests-bjp-youth-6462581",
+      "date": "2026-10-15T22:00:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "‘AI lowers the capital needed’: India’s drug discovery push faces test of human trials",
+      "link": "https://www.channelnewsasia.com/asia/ai-lowers-capital-needed-indias-drug-discovery-push-faces-test-human-trials-6462176",
+      "date": "2026-10-15T22:00:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "How a four-member government team turned red-light cameras into speed enforcers in 3 months",
+      "link": "https://www.channelnewsasia.com/singapore/road-safety-speeding-traffic-police-ogp-6461926",
+      "date": "2026-10-15T22:00:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Commentary: This is an era of Davids, not Goliaths",
+      "link": "https://www.channelnewsasia.com/commentary/era-davids-not-goliaths-geopolitics-6461811",
+      "date": "2026-10-15T21:59:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "US stocks end higher as AI shares stabilise",
+      "link": "https://www.channelnewsasia.com/world/us-stocks-end-higher-ai-shares-stabilise-6464161",
+      "date": "2026-10-15T21:57:03Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Russell Brand, author of conversion book, goes on trial on rape charges in London",
+      "link": "https://roysreport.com/russell-brand-author-of-conversion-book-goes-on-trial-on-rape-charges-in-london/",
+      "date": "2026-10-15T21:35:44Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Catholic archbishop stirs debate for blessing AI-generated icon: 'Have we no shame?'",
+      "link": "https://www.christianpost.com/news/catholic-archbishop-stirs-debate-for-blessing-ai-generated-icon.html",
+      "date": "2026-10-15T21:26:51Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "In rare joint statement, evangelicals and Catholic bishops urge compassionate immigration laws",
+      "link": "https://religionnews.com/2026/10/15/evangelicals-and-catholic-bishops-says-compassion-and-wisdoms-should-shape-immigration-laws/",
+      "date": "2026-10-15T21:12:42Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "'Breaking Bad' actor RJ Mitte identified as Christian before taking his own life",
+      "link": "https://www.christianpost.com/news/breaking-bad-actor-rj-mitte-took-his-own-life-spokesperson.html",
+      "date": "2026-10-15T20:32:37Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "'At all cost'? Catholic's challenge to Talarico on abortion raises moral questions",
+      "link": "https://www.ncronline.org/news/all-cost-catholics-challenge-talarico-abortion-raises-moral-questions",
+      "date": "2026-10-15T20:03:36Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "When Did Christians Become Afraid of Our Own Names?",
+      "link": "https://www.crosswalk.com/headlines/contributors/guest-commentary/evangelical-identity-christian-labels.html",
+      "date": "2026-10-15T20:01:00Z",
+      "source": "Christian Headlines",
+      "cat": "evangelical"
+    },
+    {
+      "title": "From Gran Turismo 7 to a smartphone with a second screen: How Xiaomi is linking cars, homes and devices",
+      "link": "https://www.straitstimes.com/tech/gran-turismo-7-smartphone-xiaomi-human-car-home-ecosystem",
+      "date": "2026-10-15T20:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Facing the heat at home: How vulnerable households are getting some cool help",
+      "link": "https://www.straitstimes.com/singapore/facing-the-heat-how-vulnerable-households-are-getting-some-cool-help-kdk-fans-capitol-distributors",
+      "date": "2026-10-15T20:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
     {
       "title": "James Talarico Compares Political Opponents to Goliath, Takes Aim at the Ten Commandments",
       "link": "https://mycharisma.com/news/james-talarico-compares-political-opponents-to-goliath-takes-aim-at-the-ten-commandments/",
@@ -48,25 +167,11 @@
       "cat": "accountability"
     },
     {
-      "title": "Explainer-Why CoreWeave's troubles are rattling the AI boom",
-      "link": "https://www.channelnewsasia.com/business/explainer-why-coreweaves-troubles-are-rattling-ai-boom-6463906",
-      "date": "2026-10-15T19:25:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "NFL-League pouring resources into flag football training, development ahead of LA28",
-      "link": "https://www.channelnewsasia.com/sport/nfl-league-pouring-resources-flag-football-training-development-ahead-la28-6463886",
-      "date": "2026-10-15T19:20:52Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Martinez apologises for Man United criticism after Carrick talks",
-      "link": "https://www.channelnewsasia.com/sport/martinez-apologises-man-united-criticism-after-carrick-talks-6463851",
-      "date": "2026-10-15T18:53:51Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
+      "title": "Trump cancels planned livestream of Nidal Hasan execution amid backlash",
+      "link": "https://www.christianpost.com/news/trump-cancels-planned-livestream-of-nidal-hasan-execution.html",
+      "date": "2026-10-15T19:17:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
     },
     {
       "title": "Author says Evangelicals have overlooked parts of Scripture in debate over spiritual gifts in 'UnRedacted'",
@@ -90,25 +195,11 @@
       "cat": "accountability"
     },
     {
-      "title": "Germany warns against bringing Russia back into G20 fold",
-      "link": "https://www.channelnewsasia.com/world/germany-russia-g20-us-bangkok-meeting-6463326",
-      "date": "2026-10-15T18:22:27Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "The danger of a woman’s word",
       "link": "https://baptistnews.com/article/the-danger-of-a-womans-word/",
       "date": "2026-10-15T18:07:32Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
-    },
-    {
-      "title": "Carlos Alcaraz accepts wild-card berth in Vienna",
-      "link": "https://www.channelnewsasia.com/sport/carlos-alcaraz-accepts-wild-card-berth-in-vienna-6463631",
-      "date": "2026-10-15T18:07:09Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "15,000-Member Texas Megachurch Weighs United Methodist Church Exit as Legal Battle Escalates",
@@ -132,32 +223,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "FIFA to amend Article 27 of disciplinary code after Balogun case",
-      "link": "https://www.channelnewsasia.com/sport/fifa-amend-article-27-disciplinary-code-after-balogun-case-6463341",
-      "date": "2026-10-15T17:49:11Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Amazon launches two new portable AI listening devices",
-      "link": "https://www.channelnewsasia.com/business/amazon-launches-two-new-portable-ai-listening-devices-6463321",
-      "date": "2026-10-15T17:43:44Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "'The Chosen' Unveils Dramatic Season 6 Trailer: First Look at Jesus' Final Hours",
       "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/the-chosen-unveils-dramatic-season-6-trailer-first-look-at-jesus-final-hours.html",
       "date": "2026-10-15T17:38:00Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
-      "link": "https://www.channelnewsasia.com/business/anthropic-grants-outside-evaluator-metr-employee-level-access-in-ai-safety-push-6463306",
-      "date": "2026-10-15T17:35:15Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Watch: 'The Chosen' Season 6 trailer reveals Jesus' final hours before crucifixion",
@@ -321,6 +391,13 @@
       "cat": "evangelical"
     },
     {
+      "title": "Former IMRSN Church volunteer pastor arrested in charges of family violence, child indecency",
+      "link": "https://www.christianpost.com/news/ex-imrsn-church-volunteer-arrested-for-family-violence.html",
+      "date": "2026-10-15T15:13:29Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
       "title": "MLB Faces Backlash Over Risqué Ads During Playoffs: 'Parents Shouldn't Have to Worry'",
       "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/mlb-faces-backlash-over-risque-ads-during-playoffs-parents-shouldnt-have-to-worry.html",
       "date": "2026-10-15T15:10:00Z",
@@ -370,24 +447,10 @@
       "cat": "asia"
     },
     {
-      "title": "Have Christians been getting Jesus’ most famous sermon wrong for 2,000 years?",
-      "link": "https://religionnews.com/2026/10/15/have-christians-been-getting-jesus-most-famous-sermon-wrong-for-2000-years/",
-      "date": "2026-10-15T14:57:46Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "Boxing Champion Tyson Fury Credits God for His Success: ‘All Glory Must Go to God’",
       "link": "https://www.crosswalk.com/headlines/contributors/guest-commentary/boxing-champion-tyson-fury-gives-god-all-the-glory-without-him-i-am-nothing.html",
       "date": "2026-10-15T14:36:00Z",
       "source": "Christian Headlines",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Christian therapists sue Nebraska city over therapy ban that threatens imprisonment, sanctions",
-      "link": "https://www.christianpost.com/news/christian-therapists-sue-nebraska-city-over-therapy-ban.html",
-      "date": "2026-10-15T14:36:00Z",
-      "source": "Christian Post",
       "cat": "evangelical"
     },
     {
@@ -447,13 +510,6 @@
       "cat": "asia"
     },
     {
-      "title": "Library board overrules staff, removes sexually explicit books from teen section",
-      "link": "https://www.christianpost.com/news/sc-library-board-removes-explicit-books-from-teen-section.html",
-      "date": "2026-10-15T13:54:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Worcester Diocese should listen to victims, publish list of credibly accused priests",
       "link": "https://www.bishop-accountability.org/2026/10/worcester-diocese-should-listen-to-victims/",
       "date": "2026-10-15T13:52:57Z",
@@ -510,27 +566,6 @@
       "cat": "asia"
     },
     {
-      "title": "Man jailed for offering bribe to site manager to illegally dump 10 lorries of chicken compost in Tuas",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/man-jailed-for-offering-bribe-to-site-manager-to-illegally-dump-10-lorries-of-chicken-compost-in",
-      "date": "2026-10-15T10:07:04Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Rules governing tech can’t be monopolised by a handful of powerful states, big tech firms: Vivian",
-      "link": "https://www.straitstimes.com/tech/rules-governing-tech-cant-be-monopolised-by-a-handful-of-powerful-states-big-tech-firms-vivian",
-      "date": "2026-10-15T10:03:56Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "What We Know—and Cannot Know—About Elisabeth Elliot’s Sexuality",
-      "link": "https://www.christianitytoday.com/2026/10/elisabeth-elliots-sexuality-virginia-mollenkott-william-stell-lucy-austen/",
-      "date": "2026-10-15T10:00:00Z",
-      "source": "Christianity Today",
-      "cat": "evangelical"
-    },
-    {
       "title": "Is the Declaration of Independence a Christian Document?",
       "link": "https://www.christianitytoday.com/2026/10/declaration-of-independence-christian-document-john-fea/",
       "date": "2026-10-15T10:00:00Z",
@@ -543,20 +578,6 @@
       "date": "2026-10-15T10:00:00Z",
       "source": "Christianity Today",
       "cat": "evangelical"
-    },
-    {
-      "title": "Ubisoft slashes 70 jobs in Singapore; experts point to financial woes, not AI",
-      "link": "https://www.straitstimes.com/tech/ubisoft-slashes-70-jobs-in-singapore-experts-point-to-financials-woes-not-ai",
-      "date": "2026-10-15T09:37:13Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Alberta bishops urge Catholics to have concern for neighbors when voting in referendum",
-      "link": "https://www.ncronline.org/news/alberta-bishops-urge-catholics-have-concern-neighbors-when-voting-referendum",
-      "date": "2026-10-15T08:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "Pope Leo XIV’s cancer diagnosis raises questions about the future and the very recent past",
@@ -578,20 +599,6 @@
       "date": "2026-10-15T04:43:31Z",
       "source": "MinistryWatch",
       "cat": "accountability"
-    },
-    {
-      "title": "Why is it wrong for us to be jealous, but not for God?",
-      "link": "https://www.christianpost.com/voices/why-is-it-wrong-for-us-to-be-jealous-but-not-for-god.html",
-      "date": "2026-10-15T04:04:34Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "What was the Protestant Reformation?",
-      "link": "https://www.christianpost.com/voices/what-was-the-protestant-reformation.html",
-      "date": "2026-10-15T04:02:30Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "LGBTQ-Focused Ministry Disputes ‘Conversion Therapy’ Accusation Founder: ‘Church not complete without same-sex attracted people’",
@@ -727,13 +734,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Michael W. Smith Among Christian Leaders Set to Gather at National Mall to Pray for America",
-      "link": "https://www.crosswalk.com/headlines/contributors/elizabeth-delaney/michael-w-smith-among-christian-leaders-set-to-gather-at-national-mall-to-pray-for-america.html",
-      "date": "2026-10-14T13:15:00Z",
-      "source": "Christian Headlines",
-      "cat": "evangelical"
-    },
-    {
       "title": "3 Myths You Might Be Believing About Anxiety",
       "link": "https://relevantmagazine.com/life5/wellness/mentalhealth/3-myths-you-might-be-believing-about-anxiety/",
       "date": "2026-10-14T13:05:26Z",
@@ -825,6 +825,13 @@
       "cat": "evangelical"
     },
     {
+      "title": "Q&A: ‘The Shack’ Author Wm. Paul Young on Christa Pike’s Botched Execution",
+      "link": "https://www.christianitytoday.com/2026/10/qa-the-shack-wm-paul-young-christa-pike-execution-riverbend/",
+      "date": "2026-10-13T10:00:00Z",
+      "source": "Christianity Today",
+      "cat": "evangelical"
+    },
+    {
       "title": "The Demise of the G3 Conference: And They Wanted to Educate All of Us in Sound™ Biblical Theology?",
       "link": "https://thewartburgwatch.com/2026/10/12/the-demise-of-the-g3-conference-and-they-wanted-to-educate-all-of-us-in-sound-biblical-theology/",
       "date": "2026-10-13T01:31:24Z",
@@ -849,13 +856,6 @@
       "title": "Ex-Sunday school teacher at Kentucky Baptist church jailed on teen grooming charges",
       "link": "https://roysreport.com/ex-sunday-school-teacher-at-kentucky-baptist-church-jailed-on-teen-grooming-charges/",
       "date": "2026-10-12T19:10:45Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
-      "title": "Kentucky Southern Baptist pastor faces five additional sex crime charges",
-      "link": "https://roysreport.com/kentucky-southern-baptist-pastor-faces-five-additional-sex-crime-charges/",
-      "date": "2026-10-12T18:40:38Z",
       "source": "The Roys Report",
       "cat": "accountability"
     },
