@@ -365,6 +365,76 @@ a:hover { color: var(--accent); }
 }
 .faq-a.open { display: block; }
 
+/* ── News feed ───────────────────────────────────────────────────────────── */
+.news-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 12px;
+  align-items: start;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+.news-item:hover { background: var(--bg-alt); }
+.news-item a {
+  font-size: .9rem;
+  font-weight: 500;
+  color: var(--fg);
+  text-decoration: none;
+  line-height: 1.4;
+  grid-column: 1;
+}
+.news-item a:hover { color: var(--accent); text-decoration: underline; }
+.news-meta {
+  font-size: .75rem;
+  color: var(--fg-muted);
+  grid-column: 1;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.news-source-tag {
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  white-space: nowrap;
+}
+.news-age { color: var(--fg-muted); }
+.news-section-head {
+  font-family: 'Inter', sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  padding: 18px 0 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 4px;
+}
+/* filter buttons */
+.nf-btn {
+  padding: 5px 13px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--fg-muted);
+  font-family: 'Inter', sans-serif;
+  font-size: .78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.nf-btn:hover { background: var(--bg-alt); color: var(--fg); }
+.nf-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
 /* ── Footer ──────────────────────────────────────────────────────────────── */
 footer {
   padding-block: 32px 40px;
@@ -400,6 +470,7 @@ footer {
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">How to Respond</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="resources">Resources</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="cases">Documented Cases</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="news">Latest News</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="help">Get Help</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="faq">FAQ</button>
   </nav>
@@ -827,6 +898,36 @@ footer {
 
   </section>
 
+  <!-- ── Tab: Latest News ──────────────────────────────────────────────── -->
+  <section class="section" id="tab-news" role="tabpanel">
+    <p class="eyebrow">Live feed — updates on page load</p>
+    <h2>Latest News</h2>
+    <p style="color:var(--fg-muted);font-size:.9rem;margin-bottom:1.5rem;">Headlines pulled in real time from verified Christian accountability and religion news sources. Click any headline to read the full article at its source. Refreshes each time you open this tab.</p>
+
+    <div style="display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1.5rem;align-items:center;">
+      <button id="news-refresh" style="padding:6px 16px;border:1px solid var(--accent);border-radius:20px;background:transparent;color:var(--accent);font-family:'Inter',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;">↻ Refresh</button>
+      <span id="news-status" style="font-size:.8rem;color:var(--fg-muted);"></span>
+    </div>
+
+    <!-- Filter buttons -->
+    <div id="news-filters" style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem;">
+      <button class="nf-btn active" data-filter="all">All Sources</button>
+      <button class="nf-btn" data-filter="accountability">Accountability</button>
+      <button class="nf-btn" data-filter="mainstreamreligion">Religion News</button>
+      <button class="nf-btn" data-filter="catholic">Catholic</button>
+      <button class="nf-btn" data-filter="evangelical">Evangelical</button>
+      <button class="nf-btn" data-filter="asia">Asia / MY / SG</button>
+    </div>
+
+    <div id="news-feed" style="display:flex;flex-direction:column;gap:2px;">
+      <div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">Loading headlines…</div>
+    </div>
+
+    <div class="warn-box" style="margin-top:2rem;font-size:.82rem;">
+      <strong>Note:</strong> Headlines are fetched directly from each publisher's RSS feed. Guard the Flock does not write, edit, or endorse the content of any article. An article reporting an allegation is not a finding of guilt.
+    </div>
+  </section>
+
   <!-- ── Tab: Get Help ─────────────────────────────────────────────────── -->
   <section class="section" id="tab-help" role="tabpanel">
     <p class="eyebrow">Crisis &amp; counselling contacts</p>
@@ -1066,6 +1167,137 @@ footer {
       if (t) t.click();
     }
   } catch(e) {}
+
+  // ── Latest News RSS feed loader ──────────────────────────────────────────
+  const RSS_SOURCES = [
+    // Accountability & watchdog
+    { name: 'The Roys Report',        url: 'https://roysreport.com/feed/',                                              cat: 'accountability' },
+    { name: 'The Wartburg Watch',     url: 'https://www.thewartburgwatch.com/feed/',                                    cat: 'accountability' },
+    { name: 'MinistryWatch',          url: 'https://ministrywatch.com/feed/',                                           cat: 'accountability' },
+    { name: 'Spiritual Sounding Board', url: 'https://spiritualsoundingboard.com/feed/',                                cat: 'accountability' },
+    { name: 'Surviving Church',       url: 'https://survivingchurch.org/feed/',                                         cat: 'accountability' },
+    { name: 'Abuse Tracker (Bishop Accountability)', url: 'https://www.bishop-accountability.org/category/news-archive/abusetracker/feed/', cat: 'accountability' },
+    { name: 'ECA Global',             url: 'https://www.ecaglobal.org/feed/',                                           cat: 'accountability' },
+    { name: 'SNAP Network',           url: 'https://www.snapnetwork.org/rss.xml',                                       cat: 'accountability' },
+    // Mainstream religion news
+    { name: 'Religion News Service',  url: 'https://religionnews.com/feed/',                                            cat: 'mainstreamreligion' },
+    { name: 'Christianity Today',     url: 'https://www.christianitytoday.com/ct/rss/all/',                             cat: 'evangelical' },
+    { name: 'Christian Post',         url: 'https://www.christianpost.com/rss',                                         cat: 'evangelical' },
+    { name: 'Baptist News Global',    url: 'https://baptistnews.com/feed/',                                             cat: 'evangelical' },
+    { name: 'Charisma News',          url: 'https://www.charismanews.com/feed',                                         cat: 'evangelical' },
+    { name: 'Christian Headlines',    url: 'https://www.christianheadlines.com/rss',                                    cat: 'evangelical' },
+    { name: 'Relevant Magazine',      url: 'https://relevantmagazine.com/feed/',                                        cat: 'evangelical' },
+    { name: 'The Guardian — Religion', url: 'https://www.theguardian.com/world/religion/rss',                           cat: 'mainstreamreligion' },
+    { name: 'AP News — Religion',     url: 'https://rsshub.app/ap/topics/apf-religion',                                 cat: 'mainstreamreligion' },
+    // Catholic sources
+    { name: 'Catholic News Agency',   url: 'https://www.catholicnewsagency.com/feed',                                   cat: 'catholic' },
+    { name: 'National Catholic Reporter', url: 'https://www.ncronline.org/rss.xml',                                     cat: 'catholic' },
+    { name: 'Crux — Catholic News',   url: 'https://cruxnow.com/feed/',                                                 cat: 'catholic' },
+    // Asia / Malaysia / Singapore
+    { name: 'The Star (MY)',          url: 'https://www.thestar.com.my/rss/News/Nation/',                               cat: 'asia' },
+    { name: 'Malay Mail',             url: 'https://www.malaymail.com/feed',                                            cat: 'asia' },
+    { name: 'Channel NewsAsia',       url: 'https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml',      cat: 'asia' },
+    { name: 'Straits Times',          url: 'https://www.straitstimes.com/news/singapore/rss.xml',                       cat: 'asia' },
+  ];
+
+  const PROXY = 'https://api.rss2json.com/v1/api.json?rss_url=';
+  const MAX_PER_FEED = 5;
+
+  function timeAgo(dateStr) {
+    try {
+      const diff = (Date.now() - new Date(dateStr).getTime()) / 1000;
+      if (diff < 60) return 'just now';
+      if (diff < 3600) return Math.floor(diff/60) + 'm ago';
+      if (diff < 86400) return Math.floor(diff/3600) + 'h ago';
+      if (diff < 604800) return Math.floor(diff/86400) + 'd ago';
+      return new Date(dateStr).toLocaleDateString('en-MY', {day:'numeric',month:'short'});
+    } catch(e) { return ''; }
+  }
+
+  function renderFeed(items, activeFilter) {
+    const feed = document.getElementById('news-feed');
+    if (!items.length) {
+      feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines loaded. Check your internet connection and try refreshing.</div>';
+      return;
+    }
+    const filtered = activeFilter === 'all' ? items : items.filter(i => i.cat === activeFilter);
+    if (!filtered.length) {
+      feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines for this filter yet.</div>';
+      return;
+    }
+    // Sort newest first
+    filtered.sort((a,b) => new Date(b.date) - new Date(a.date));
+    feed.innerHTML = filtered.map(item => `
+      <div class="news-item" data-cat="${item.cat}">
+        <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
+        <div class="news-meta">
+          <span class="news-source-tag">${item.source}</span>
+          <span class="news-age">${timeAgo(item.date)}</span>
+        </div>
+      </div>`).join('');
+  }
+
+  let allItems = [];
+  let activeFilter = 'all';
+  let loaded = 0;
+
+  async function fetchFeed(src) {
+    try {
+      const res = await fetch(PROXY + encodeURIComponent(src.url) + '&count=' + MAX_PER_FEED, { signal: AbortSignal.timeout(8000) });
+      const data = await res.json();
+      if (data.status === 'ok' && data.items) {
+        data.items.slice(0, MAX_PER_FEED).forEach(item => {
+          allItems.push({
+            title:  (item.title || '').replace(/&amp;/g,'&').replace(/&#039;/g,"'").replace(/&quot;/g,'"').substring(0,180),
+            link:   item.link || item.url || '#',
+            date:   item.pubDate || item.published || '',
+            source: src.name,
+            cat:    src.cat,
+          });
+        });
+      }
+    } catch(e) { /* feed failed silently */ }
+    loaded++;
+    const status = document.getElementById('news-status');
+    if (status) status.textContent = `Loaded ${loaded} of ${RSS_SOURCES.length} sources…`;
+    renderFeed(allItems, activeFilter);
+  }
+
+  async function loadAllFeeds() {
+    allItems = [];
+    loaded = 0;
+    const feed = document.getElementById('news-feed');
+    const status = document.getElementById('news-status');
+    if (feed) feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">Loading headlines…</div>';
+    if (status) status.textContent = '';
+    await Promise.all(RSS_SOURCES.map(fetchFeed));
+    if (status) status.textContent = `${allItems.length} headlines from ${loaded} sources · ${new Date().toLocaleTimeString('en-MY',{hour:'2-digit',minute:'2-digit'})}`;
+  }
+
+  // Load feeds when the news tab is first activated
+  let newsLoaded = false;
+  document.querySelectorAll('.nav-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.dataset.tab === 'news' && !newsLoaded) {
+        newsLoaded = true;
+        loadAllFeeds();
+      }
+    });
+  });
+
+  // Refresh button
+  const refreshBtn = document.getElementById('news-refresh');
+  if (refreshBtn) refreshBtn.addEventListener('click', () => { newsLoaded = true; loadAllFeeds(); });
+
+  // Filter buttons
+  document.querySelectorAll('.nf-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.nf-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.filter;
+      renderFeed(allItems, activeFilter);
+    });
+  });
 
   // FAQ accordion
   document.querySelectorAll('.faq-q').forEach(btn => {
