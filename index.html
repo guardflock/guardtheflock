@@ -169,11 +169,20 @@ a:hover { color: var(--accent); }
 .banner strong { color: var(--fg); }
 
 /* ── Cards ───────────────────────────────────────────────────────────────── */
-.card-grid {
+.card-grid, .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 16px;
   margin-top: 20px;
+}
+
+/* ── Warn box (used in Documented Cases tab) ─────────────────────────────── */
+.warn-box {
+  border-left: 4px solid var(--warn-border);
+  background: var(--warn-bg);
+  padding: 14px 18px;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.9rem;
 }
 .card {
   background: var(--card-bg);
