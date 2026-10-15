@@ -408,6 +408,7 @@ a:hover { color: var(--accent); }
   white-space: nowrap;
 }
 .news-age { color: var(--fg-muted); }
+.news-author { color: var(--fg-muted); }
 .news-section-head {
   font-family: 'Inter', sans-serif;
   font-size: .72rem;
@@ -902,7 +903,7 @@ footer {
   <section class="section" id="tab-news" role="tabpanel">
     <p class="eyebrow">Updated automatically throughout the day</p>
     <h2>Latest News</h2>
-    <p style="color:var(--fg-muted);font-size:.9rem;margin-bottom:1.5rem;">Recent headlines from Christian accountability and religion news sources. Select a headline to read the original reporting. The list is refreshed automatically; use Refresh to check for a newer snapshot.</p>
+    <p style="color:var(--fg-muted);font-size:.9rem;margin-bottom:1.5rem;">Priority coverage from specialist church-accountability publishers. The Roys Report and other listed watchdog sources appear first, with authors and writers credited when the publisher supplies that information. Only reporting related to spiritual or sexual abuse, church financial misconduct, safeguarding, or institutional accountability is included. General news is excluded.</p>
 
     <div style="display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1.5rem;align-items:center;">
       <button id="news-refresh" style="padding:6px 16px;border:1px solid var(--accent);border-radius:20px;background:transparent;color:var(--accent);font-family:'Inter',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;">↻ Refresh</button>
@@ -911,12 +912,12 @@ footer {
 
     <!-- Filter buttons -->
     <div id="news-filters" style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem;">
-      <button class="nf-btn active" data-filter="all">All Sources</button>
+      <button class="nf-btn active" data-filter="all">Priority sources</button>
       <button class="nf-btn" data-filter="accountability">Accountability</button>
-      <button class="nf-btn" data-filter="mainstreamreligion">Religion News</button>
-      <button class="nf-btn" data-filter="catholic">Catholic</button>
-      <button class="nf-btn" data-filter="evangelical">Evangelical</button>
-      <button class="nf-btn" data-filter="asia">Asia / MY / SG</button>
+      <button class="nf-btn" data-filter="sexual-abuse">Sexual abuse</button>
+      <button class="nf-btn" data-filter="spiritual-abuse">Spiritual abuse &amp; coercion</button>
+      <button class="nf-btn" data-filter="financial-misconduct">Financial misconduct</button>
+      <button class="nf-btn" data-filter="institutional-accountability">Institutional accountability</button>
     </div>
 
     <div id="news-feed" style="display:flex;flex-direction:column;gap:2px;">
@@ -1197,12 +1198,17 @@ footer {
       feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines for this filter yet.</div>';
       return;
     }
-    filtered.sort((a,b) => new Date(b.date) - new Date(a.date));
+    const priority = new Map((window.GTF_NEWS_PRIORITY || []).map((name, index) => [name, index]));
+    filtered.sort((a,b) => {
+      const sourceOrder = (priority.get(a.source) ?? 999) - (priority.get(b.source) ?? 999);
+      return sourceOrder || (new Date(b.date) - new Date(a.date));
+    });
     feed.innerHTML = filtered.map(item => `
       <div class="news-item" data-cat="${item.cat}">
         <a href="${item.link}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
         <div class="news-meta">
           <span class="news-source-tag">${item.source}</span>
+          ${item.author ? `<span class="news-author">By ${escapeHtml(item.author)}</span>` : ''}
           <span class="news-age">${timeAgo(item.date)}</span>
         </div>
       </div>`).join('');
@@ -1257,12 +1263,14 @@ footer {
         title: item.title.substring(0, 180),
         link: item.link,
         date: item.date || '',
+        author: typeof item.author === 'string' ? item.author.substring(0, 100) : '',
         source: item.source || 'Publisher',
-        cat: item.cat || 'mainstreamreligion'
+      cat: item.cat || 'accountability'
       }));
     loaded = Array.isArray(data.sources)
       ? data.sources.length
       : (Number(data.sourcesUpdated) || new Set(allItems.map(item => item.source)).size);
+    window.GTF_NEWS_PRIORITY = Array.isArray(data.sourcePriority) ? data.sourcePriority : [];
     renderFeed(allItems, activeFilter);
     const updated = data.updatedAt ? new Date(data.updatedAt) : null;
     const validUpdated = updated && !Number.isNaN(updated.getTime());

@@ -6,7 +6,7 @@
 
 ## Current version
 
-**v7.0.0** — scheduled news snapshots replace client-side RSS proxy requests. See [Versioning](#versioning) and the [changelog](CHANGELOG.md).
+**v7.4.0** — the focused news feed prioritizes specialist accountability publishers and displays publisher-provided bylines. See [Versioning](#versioning) and the [changelog](CHANGELOG.md).
 
 ## What the site covers
 
@@ -15,7 +15,7 @@
 - **How to Respond** — guidance for people affected and for leaders or witnesses
 - **Resources** — books, organisations, and journalism from Malaysia, Asia, and globally
 - **Documented Cases** — links to independent reporting, with distinctions between allegations, convictions, and settlements
-- **Latest News** — recent publisher headlines, including The Roys Report, displayed as links to their original reporting
+- **Latest News** — focused reporting on spiritual/sexual abuse, church financial misconduct, and institutional accountability, prioritizing The Roys Report and other specialist sites; publisher-provided authors are shown when available. General news is excluded.
 - **Get Help** — support contacts for Malaysia, Singapore, and globally
 - **FAQ** — including guidance for cell-group leaders and pastoral workers
 
@@ -25,7 +25,7 @@ This site is educational material, not a complaints platform. It does **not** na
 
 ## Latest News: how it works
 
-The browser no longer fetches publisher feeds through public CORS proxies. A GitHub Actions workflow runs every four hours, and can also be started manually from **Actions → Update latest news snapshot → Run workflow**. It fetches the configured public RSS/Atom feeds, normalizes valid article titles, HTTPS links, dates, publisher names, and categories, then writes a bounded snapshot to `data/news.json`. The static site reads that same-origin JSON file; if it cannot be loaded, it shows a clear unavailable message and keeps the separately linked resources available.
+The browser no longer fetches publisher feeds through public CORS proxies. A GitHub Actions workflow runs every four hours, and can also be started manually from **Actions → Update latest news snapshot → Run workflow**. It fetches the configured public RSS/Atom feeds, keeps only stories that match both a church/faith-community context and a substantive abuse, misconduct, financial fraud, or accountability topic, and writes a bounded snapshot to `data/news.json`. General religion and world news are intentionally excluded. Repeated URLs and near-identical descriptions of the same incident from one publisher are deduplicated, while distinct follow-up reporting is retained. Sources are displayed in their configured priority order, led by The Roys Report; publisher-provided authors are included when available. The static site reads that same-origin JSON file; if it cannot be loaded, it shows a clear unavailable message and keeps the separately linked resources available.
 
 The workflow needs no API keys or repository secrets. It uses the repository's `GITHUB_TOKEN` with `contents: write` to commit a changed snapshot. Ensure GitHub Actions are enabled and the repository's workflow token has permission to write contents. Scheduled runs use GitHub's UTC schedule and can be delayed by GitHub during high load. Individual publisher feeds may be unavailable, rate-limited, or change format; the generator continues when a feed fails and reports that feed as a workflow warning. If all feeds fail, it preserves the prior snapshot rather than replacing good data with an empty file.
 
@@ -35,7 +35,7 @@ Run the generator locally with Python 3:
 python scripts/update_news.py
 ```
 
-It uses only the Python standard library. To add or remove a source, edit the `SOURCES` list in `scripts/update_news.py`, ensure its `cat` matches one of the filter categories (`accountability`, `mainstreamreligion`, `catholic`, `evangelical`, or `asia`), then run the generator and validate the resulting JSON. Feed availability varies by runtime and geography, so local failures do not necessarily indicate the GitHub runner will see the same result.
+It uses only the Python standard library. To add or remove a source, edit the `SOURCES` list in `scripts/update_news.py`; keep it focused on church accountability or abuse reporting. Tune `CONTEXT_TERMS`, `TOPIC_TERMS`, and `EXCLUSION_TERMS` conservatively, then run the generator and validate the resulting JSON. Categories are `sexual-abuse`, `spiritual-abuse`, `financial-misconduct`, and `institutional-accountability`. Feed availability varies by runtime and geography, so local failures do not necessarily indicate the GitHub runner will see the same result.
 
 ## Development and deployment
 

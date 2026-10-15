@@ -2,6 +2,38 @@
 
 Notable changes to Guard the Flock are recorded here. This project uses Semantic Versioning; see [README.md](README.md#versioning).
 
+## [7.4.0] - 2026-10-15
+
+### Changed
+- Prioritized the listed specialist sources in Latest News, led by The Roys Report, with newest stories first within each publisher.
+- Added author/writer bylines from publisher RSS/Atom metadata when available; bylines are omitted rather than inferred when absent.
+- Updated README and wiki guidance for source ordering and byline attribution.
+
+## [7.3.0] - 2026-10-15
+
+### Changed
+- Prioritized listed specialist church-accountability publishers in Latest News, led by The Roys Report.
+- Added bylines when author/creator metadata is available in the publisher's feed.
+- Preserved publisher attribution when feeds omit writer metadata; the site does not infer authors.
+
+## [7.2.0] - 2026-10-15
+
+### Changed
+- Narrowed Latest News to explicit spiritual/sexual abuse, church financial misconduct, and institutional accountability topics.
+- Removed broad religion, national, and regional news feeds that admitted unrelated headlines.
+- Added context-plus-topic filtering against RSS titles and summaries and issue-specific UI filters.
+- Regenerated `data/news.json` with only relevant stories.
+- Added same-case deduplication to reduce repeated publisher rewrites while preserving distinct follow-up reporting.
+
+## [7.1.0] - 2026-10-15
+
+### Changed
+- Focused Latest News on church-related spiritual/sexual abuse, clergy misconduct, church financial fraud, safeguarding, and institutional accountability.
+- Removed general religion, national, and regional news feeds from the source list.
+- Added relevance filtering using feed titles and descriptions; unrelated items are excluded.
+- Replaced broad source filters with issue-focused categories.
+- Updated README and wiki operations guidance to document the relevance rules.
+
 ## [7.0.0] - 2026-10-15
 
 ### Changed
