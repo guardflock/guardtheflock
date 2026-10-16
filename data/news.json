@@ -1,93 +1,177 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T23:05:24.378095Z",
+  "updatedAt": "2026-10-16T04:36:50.986679Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Spiritual Sounding Board",
-    "Christianity Today",
     "Religion News Service",
+    "Christianity Today",
+    "Spiritual Sounding Board",
     "Baptist News Global",
-    "The Guardian — Religion",
     "The Wartburg Watch",
+    "The Guardian — Religion",
     "Christian Headlines",
-    "National Catholic Reporter",
     "Surviving Church",
+    "National Catholic Reporter",
     "Christian Post",
     "The Roys Report",
     "Channel NewsAsia",
     "Charisma News",
+    "Abuse Tracker (Bishop Accountability)",
     "Straits Times",
     "Crux — Catholic News",
-    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
-    "ECA Global",
-    "Relevant Magazine"
+    "Relevant Magazine",
+    "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Porsche Mission S looks to the past to shape its next super sports car",
-      "link": "https://www.channelnewsasia.com/obsessions/porsche-mission-s-mid-engined-super-sports-car-6464211",
-      "date": "2026-10-15T22:51:04Z",
+      "title": "Country diary: A three-day perambulation around my own parish | Simon Lockett",
+      "link": "https://www.theguardian.com/environment/2026/oct/16/country-diary-a-three-day-perambulation-around-my-own-parish",
+      "date": "2026-10-16T04:30:50Z",
+      "source": "The Guardian — Religion",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "NTU student creates website that estimates how many cigarettes’ worth of haze you've breathed in",
+      "link": "https://www.channelnewsasia.com/living/singapore-haze-tracker-ntu-student-6464691",
+      "date": "2026-10-16T04:26:04Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Netflix names former Disney executive Rice as new content chief as Bajaria departs",
-      "link": "https://www.channelnewsasia.com/business/netflix-names-former-disney-executive-rice-new-content-chief-bajaria-departs-6464266",
-      "date": "2026-10-15T22:46:14Z",
+      "title": "Singapore-listed First Resources points to El Nino, says haze-linked fires were outside its operations",
+      "link": "https://www.channelnewsasia.com/singapore/haze-el-nino-first-resources-indonesia-6464761",
+      "date": "2026-10-16T04:13:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Singapore haze: Air quality very unhealthy in central region; PM2.5 reading high in east",
-      "link": "https://www.channelnewsasia.com/singapore/haze-oct-16-psi-pm-25-6459416",
-      "date": "2026-10-15T22:33:00Z",
+      "title": "Malaysia's economy grows 5.3% year-on-year in Q3: Advance estimate",
+      "link": "https://www.channelnewsasia.com/business/malaysia-economy-growth-q3-official-advance-estimate-6464966",
+      "date": "2026-10-16T04:06:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Haze in S’pore: Air quality worsens overnight as PSI hits ‘very unhealthy’ range in central region",
+      "title": "Pope Leo lung cancer surgery: what kind of operation did he have and what happens next?",
+      "link": "https://www.theguardian.com/world/2026/oct/16/pope-leo-lung-cancer-surgery-lobectomy",
+      "date": "2026-10-16T04:00:51Z",
+      "source": "The Guardian — Religion",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Indonesian stocks dive 11% as MSCI weighs market reclassification",
+      "link": "https://www.channelnewsasia.com/business/indonesia-stocks-msci-weigh-market-reclassification-6464081",
+      "date": "2026-10-16T03:43:30Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "China says can 'easily win' confrontation with Philippines",
+      "link": "https://www.channelnewsasia.com/east-asia/china-easily-win-confrontation-philippines-6464791",
+      "date": "2026-10-16T03:28:20Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Kiss confident Nawaqanitawase will return to the Wallabies fold",
+      "link": "https://www.channelnewsasia.com/sport/kiss-confident-nawaqanitawase-will-return-wallabies-fold-6464861",
+      "date": "2026-10-16T03:17:25Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "G7 to launch exercises to guard against AI cyber attacks",
+      "link": "https://www.channelnewsasia.com/business/g7-launch-exercises-guard-against-ai-cyber-attacks-6464781",
+      "date": "2026-10-16T02:57:21Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "World Bank's Banga sets goal of quintupling critical minerals financing in five years",
+      "link": "https://www.channelnewsasia.com/business/world-banks-banga-sets-goal-quintupling-critical-minerals-financing-in-five-years-6464786",
+      "date": "2026-10-16T02:56:37Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "This Is How Montell Jordan Does It Now",
+      "link": "https://relevantmagazine.com/magazine/this-is-how-they-do-it-now-montell-and-kristin-jordan-on-faith-marriage-and-doing-it-afraid/",
+      "date": "2026-10-16T02:48:15Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
+      "title": "16 Christians Are Killed Every Day in Nigeria, New Report Says",
+      "link": "https://relevantmagazine.com/justice/16-christians-are-killed-every-day-in-nigeria-new-report-says/",
+      "date": "2026-10-16T02:37:32Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Cross Island Line: Traffic to be diverted in Ang Mo Kio Ave 3 amid suspension of tunnelling works",
+      "link": "https://www.straitstimes.com/singapore/transport/cross-island-line-traffic-to-be-diverted-in-ang-mo-kio-ave-3-amid-suspension-of-tunnelling-works",
+      "date": "2026-10-16T02:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Stewards, Not Owners, of Every Dollar The Wichtermans see wealth, time, and work as tools for Kingdom impact, not personal security.",
+      "link": "https://ministrywatch.com/stewards-not-owners-of-every-dollar/",
+      "date": "2026-10-16T01:43:32Z",
+      "source": "MinistryWatch",
+      "cat": "accountability"
+    },
+    {
+      "title": "MinistryWatch 1000 Database Tops 1,800 Ministries — and Counting Plus, other notable ministry happenings from this week.",
+      "link": "https://ministrywatch.com/ministrywatch-1000-database-tops-1800-ministries-and-counting/",
+      "date": "2026-10-16T01:30:50Z",
+      "source": "MinistryWatch",
+      "cat": "accountability"
+    },
+    {
+      "title": "S’pore is experiencing its 12th consecutive day of unhealthy air, the longest since 2015 haze crisis",
+      "link": "https://www.straitstimes.com/singapore/environment/spore-is-experiencing-its-12th-consecutive-day-of-unhealthy-air-the-longest-since-2015-haze-crisis",
+      "date": "2026-10-16T01:10:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Is Trump making Russia great again?",
+      "link": "https://baptistnews.com/article/is-trump-making-russia-great-again/",
+      "date": "2026-10-16T00:54:03Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Bloomscrolling and the Christian Call to Guard Your Mind",
+      "link": "https://www.crosswalk.com/headlines/contributors/guest-commentary/bloomscrolling-christians-guard-your-mind.html",
+      "date": "2026-10-16T00:48:00Z",
+      "source": "Christian Headlines",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Talarico claims Bible is 'silent' on abortion, says 10-year-old girls 'need abortion care'",
+      "link": "https://www.christianpost.com/news/talarico-challenged-over-claim-that-bible-is-silent-on-abortion.html",
+      "date": "2026-10-16T00:19:30Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Haze in S’pore: Air quality worsens as PM2.5 in ‘high’ range across all regions",
       "link": "https://www.straitstimes.com/singapore/haze-in-spore-air-quality-worsens-overnight-as-psi-hits-very-unhealthy-range-in-central-region",
       "date": "2026-10-15T22:17:29Z",
       "source": "Straits Times",
       "cat": "asia"
     },
     {
-      "title": "Commentary: India’s ‘cockroach’ youth are proving hard to crush",
-      "link": "https://www.channelnewsasia.com/commentary/india-modi-cockroach-party-protests-bjp-youth-6462581",
-      "date": "2026-10-15T22:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "‘AI lowers the capital needed’: India’s drug discovery push faces test of human trials",
-      "link": "https://www.channelnewsasia.com/asia/ai-lowers-capital-needed-indias-drug-discovery-push-faces-test-human-trials-6462176",
-      "date": "2026-10-15T22:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "How a four-member government team turned red-light cameras into speed enforcers in 3 months",
-      "link": "https://www.channelnewsasia.com/singapore/road-safety-speeding-traffic-police-ogp-6461926",
-      "date": "2026-10-15T22:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Commentary: This is an era of Davids, not Goliaths",
-      "link": "https://www.channelnewsasia.com/commentary/era-davids-not-goliaths-geopolitics-6461811",
-      "date": "2026-10-15T21:59:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "US stocks end higher as AI shares stabilise",
-      "link": "https://www.channelnewsasia.com/world/us-stocks-end-higher-ai-shares-stabilise-6464161",
-      "date": "2026-10-15T21:57:03Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
+      "title": "Seattle pastor who planned new social media platform charged with $13 million fraud",
+      "link": "https://roysreport.com/seattle-pastor-who-planned-new-social-media-platform-charged-with-13-million-fraud/",
+      "date": "2026-10-15T21:36:28Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
     },
     {
       "title": "Russell Brand, author of conversion book, goes on trial on rape charges in London",
@@ -132,15 +216,15 @@
       "cat": "evangelical"
     },
     {
-      "title": "From Gran Turismo 7 to a smartphone with a second screen: How Xiaomi is linking cars, homes and devices",
-      "link": "https://www.straitstimes.com/tech/gran-turismo-7-smartphone-xiaomi-human-car-home-ecosystem",
+      "title": "Facing the heat at home: How vulnerable households are getting some cool help",
+      "link": "https://www.straitstimes.com/singapore/facing-the-heat-how-vulnerable-households-are-getting-some-cool-help-kdk-fans-capitol-distributors",
       "date": "2026-10-15T20:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
     {
-      "title": "Facing the heat at home: How vulnerable households are getting some cool help",
-      "link": "https://www.straitstimes.com/singapore/facing-the-heat-how-vulnerable-households-are-getting-some-cool-help-kdk-fans-capitol-distributors",
+      "title": "From Gran Turismo 7 to a smartphone with a second screen: How Xiaomi is linking cars, homes and devices",
+      "link": "https://www.straitstimes.com/tech/gran-turismo-7-smartphone-xiaomi-human-car-home-ecosystem",
       "date": "2026-10-15T20:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
@@ -207,13 +291,6 @@
       "date": "2026-10-15T18:02:01Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Seattle pastor who planned new social media platform charged with $13 million fraud",
-      "link": "https://roysreport.com/seattle-pastor-who-planned-new-social-media-platform-charged-with-13-million-fraud/",
-      "date": "2026-10-15T18:01:28Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
     },
     {
       "title": "Jim Bakker's daughter apologizes for harm caused by family's ministry, urges LGBT donations",
@@ -391,13 +468,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Former IMRSN Church volunteer pastor arrested in charges of family violence, child indecency",
-      "link": "https://www.christianpost.com/news/ex-imrsn-church-volunteer-arrested-for-family-violence.html",
-      "date": "2026-10-15T15:13:29Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "MLB Faces Backlash Over Risqué Ads During Playoffs: 'Parents Shouldn't Have to Worry'",
       "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/mlb-faces-backlash-over-risque-ads-during-playoffs-parents-shouldnt-have-to-worry.html",
       "date": "2026-10-15T15:10:00Z",
@@ -464,13 +534,6 @@
       "title": "Why the Mica Miller story didn’t surprise me",
       "link": "https://baptistnews.com/article/why-the-mica-miller-story-didnt-surprise-me/",
       "date": "2026-10-15T14:27:51Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "If Dolly Parton can give from the heart, so can Elon Musk",
-      "link": "https://baptistnews.com/article/if-dolly-parton-can-give-from-the-heart-so-can-elon-musk/",
-      "date": "2026-10-15T14:22:17Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
     },
@@ -550,20 +613,6 @@
       "date": "2026-10-15T13:19:29Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
-    },
-    {
-      "title": "Quicker cross-border cooperation needed to disrupt scams and crimes: S’pore, international police",
-      "link": "https://www.straitstimes.com/singapore/quicker-cross-border-cooperation-needed-to-disrupt-scams-and-crimes-spore-international-police",
-      "date": "2026-10-15T12:50:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Wait list for kidney hits 10-year high; NKF actively encouraging living donor transplants",
-      "link": "https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants",
-      "date": "2026-10-15T11:30:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Is the Declaration of Independence a Christian Document?",
@@ -664,13 +713,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Hurricane Isaias Relief Plus, poll misunderstandings, Grand Canyon University Law School, remembering Sgt. York.",
-      "link": "https://ministrywatch.com/hurricane-isaias-relief/",
-      "date": "2026-10-14T20:36:51Z",
-      "source": "MinistryWatch",
-      "cat": "accountability"
-    },
-    {
       "title": "When the Church Is an Entertainment Venue and a Rather Bad One at That. The Clueless Pastor Says”I Don’t Know What to Call It.”",
       "link": "https://thewartburgwatch.com/2026/10/14/when-the-church-is-an-entertainment-venue-and-a-rather-bad-one-at-that-the-clueless-pastor-saysi-dont-know-what-to-call-it/",
       "date": "2026-10-14T20:00:19Z",
@@ -713,25 +755,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Kendrick Brothers' Newest Film Is Unlike Anything They've Made Before: 'We're Excited'",
-      "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/kendrick-brothers-newest-film-unlike-anything-theyve-made-before-were-excited.html",
-      "date": "2026-10-14T15:05:00Z",
-      "source": "Christian Headlines",
-      "cat": "evangelical"
-    },
-    {
       "title": "Pope Leo is eating and recovering after cancer surgery, his doctors say",
       "link": "https://cruxnow.com/vatican/2026/10/pope-leo-is-eating-and-recovering-after-cancer-surgery-his-doctors-say/",
       "date": "2026-10-14T14:23:27Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Calvary Chapel Costa Mesa Settles $12M Sexual Abuse Lawsuit Lawsuit alleged church knew of leader’s history of violence and failed to protect a single mother who worked at the chur",
-      "link": "https://ministrywatch.com/calvary-chapel-costa-mesa-settles-12m-sexual-abuse-lawsuit/",
-      "date": "2026-10-14T14:13:51Z",
-      "source": "MinistryWatch",
-      "cat": "accountability"
     },
     {
       "title": "3 Myths You Might Be Believing About Anxiety",
@@ -837,34 +865,6 @@
       "date": "2026-10-13T01:31:24Z",
       "source": "The Wartburg Watch",
       "cat": "accountability"
-    },
-    {
-      "title": "Archbishop of US military condemns Pentagon plans to livestream execution",
-      "link": "https://www.theguardian.com/us-news/2026/oct/12/archbishop-timothy-broglio-military-pentagon-livestreamed-execution",
-      "date": "2026-10-12T20:33:21Z",
-      "source": "The Guardian — Religion",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Wheaton College student killed in tragic freight train accident",
-      "link": "https://roysreport.com/wheaton-college-student-killed-in-tragic-freight-train-accident/",
-      "date": "2026-10-12T19:11:00Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
-      "title": "Ex-Sunday school teacher at Kentucky Baptist church jailed on teen grooming charges",
-      "link": "https://roysreport.com/ex-sunday-school-teacher-at-kentucky-baptist-church-jailed-on-teen-grooming-charges/",
-      "date": "2026-10-12T19:10:45Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
-      "title": "Sam Altman Is ‘Very Uncomfortable’ With People Treating AI Like a Religion",
-      "link": "https://relevantmagazine.com/culture/tech-gaming/sam-altman-is-very-uncomfortable-with-people-treating-ai-like-a-religion/",
-      "date": "2026-10-12T16:59:51Z",
-      "source": "Relevant Magazine",
-      "cat": "evangelical"
     }
   ]
 }
