@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T18:32:07.133034Z",
+  "updatedAt": "2026-10-17T22:23:13.331217Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Christianity Today",
     "Spiritual Sounding Board",
     "Religion News Service",
+    "Christianity Today",
     "Baptist News Global",
     "The Wartburg Watch",
+    "The Guardian — Religion",
     "Christian Headlines",
     "National Catholic Reporter",
-    "The Guardian — Religion",
     "Christian Post",
-    "Charisma News",
     "Surviving Church",
     "The Roys Report",
-    "Abuse Tracker (Bishop Accountability)",
-    "Straits Times",
-    "Crux — Catholic News",
     "Channel NewsAsia",
+    "Straits Times",
+    "Charisma News",
+    "Abuse Tracker (Bishop Accountability)",
+    "Crux — Catholic News",
     "MinistryWatch",
     "Relevant Magazine",
     "ECA Global"
@@ -27,39 +27,102 @@
   "itemCount": 120,
   "items": [
     {
+      "title": "Dubois stops Wardley in second round to retain WBO heavyweight title",
+      "link": "https://www.channelnewsasia.com/sport/dubois-stops-wardley-in-second-round-retain-wbo-heavyweight-title-6469061",
+      "date": "2026-10-17T22:08:33Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "These Military Leaders Are Protecting Democracy with Admiral Michael E. Smith",
+      "link": "https://religionnews.com/2026/10/17/these-military-leaders-are-protecting-democracy-with-admiral-michael-e-smith/",
+      "date": "2026-10-17T22:08:20Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Commentary: Fossil fuels are winning the battle for easy money",
+      "link": "https://www.channelnewsasia.com/commentary/fossil-fuels-easy-money-international-islamic-trade-finance-corp-6465576",
+      "date": "2026-10-17T22:00:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "These marathon runners will give up their personal best to save a life",
+      "link": "https://www.channelnewsasia.com/singapore/medic-runner-singapore-international-marathon-6388846",
+      "date": "2026-10-17T22:00:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Israeli settlers attack European diplomats, beat French mayor",
+      "link": "https://www.channelnewsasia.com/world/israeli-settlers-attack-european-diplomats-beat-french-mayor-6469036",
+      "date": "2026-10-17T21:37:56Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "From weekend markets to a matcha network: How Kevin Chee built Matchaya",
+      "link": "https://www.channelnewsasia.com/people/matchaya-kevin-chee-singapore-matcha-6457691",
+      "date": "2026-10-17T21:34:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Inter earn 3-1 comeback win at Bologna, Roma beat Genoa 2-0",
+      "link": "https://www.channelnewsasia.com/sport/inter-earn-3-1-comeback-win-bologna-roma-beat-genoa-2-0-6469041",
+      "date": "2026-10-17T21:25:07Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Horse racing-Loughnane becomes Britain's youngest champion jockey since 1923",
+      "link": "https://www.channelnewsasia.com/sport/horse-racing-loughnane-becomes-britains-youngest-champion-jockey-1923-6469046",
+      "date": "2026-10-17T21:24:14Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Dembele atones for penalty miss in PSG win at Strasbourg",
+      "link": "https://www.channelnewsasia.com/sport/dembele-atones-penalty-miss-in-psg-win-strasbourg-6469026",
+      "date": "2026-10-17T21:06:04Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Cloaked in grey: The causes and effects of haze in Singapore",
+      "link": "https://www.straitstimes.com/singapore/environment/cloaked-in-grey-the-causes-and-effects-of-haze-in-singapore",
+      "date": "2026-10-17T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Nueva denuncia de pedofilia contra sacerdote peruano José Antúnez de Mayolo, exmiembro de la CVR",
+      "link": "https://www.bishop-accountability.org/2026/10/nueva-denuncia-de-pedofilia-contra-sacerdote-peruano-jose-antunez-de-mayolo-exmiembro-de-la-cvr/",
+      "date": "2026-10-17T20:52:07Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "She transferred over $700 over PayNow to see her idol, but never received the tickets",
+      "link": "https://www.straitstimes.com/singapore/she-transferred-over-700-over-paynow-to-see-her-idol-but-never-received-the-tickets",
+      "date": "2026-10-17T20:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Calvary Chapel pastor, wife killed outside home in Mexico; police detain suspect",
+      "link": "https://www.christianpost.com/news/calvary-chapel-irapuato-pastor-wife-killed-outside-home.html",
+      "date": "2026-10-17T19:06:47Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
       "title": "Pope Leo's surgeon says he should be fit for Latin America tour",
       "link": "https://www.ncronline.org/vatican/vatican-news/pope-leos-surgeon-says-he-should-be-fit-latin-america-tour",
       "date": "2026-10-17T18:18:22Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "Police and protesters clash in some of France's worst unrest in years",
-      "link": "https://www.channelnewsasia.com/world/police-and-protesters-clash-in-some-frances-worst-unrest-in-years-6468581",
-      "date": "2026-10-17T18:03:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "City's flying start comes at a cost, with Haaland limping off",
-      "link": "https://www.channelnewsasia.com/sport/citys-flying-start-comes-cost-haaland-limping-6468576",
-      "date": "2026-10-17T17:55:56Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Barcola shines as Liverpool labour to 2-1 win over Brentford",
-      "link": "https://www.channelnewsasia.com/sport/barcola-shines-liverpool-labour-2-1-win-over-brentford-6468556",
-      "date": "2026-10-17T17:28:11Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Chelsea's Martinez suffered concussion after collision at Everton, says Alonso",
-      "link": "https://www.channelnewsasia.com/sport/chelseas-martinez-suffered-concussion-after-collision-everton-says-alonso-6468516",
-      "date": "2026-10-17T16:56:47Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Pope Leo's brother shares his own cancer battle, the role of faith and his 1 request",
@@ -97,25 +160,11 @@
       "cat": "catholic"
     },
     {
-      "title": "Dortmund slip up with goalless draw at Union, Karetsas injured",
-      "link": "https://www.channelnewsasia.com/sport/dortmund-slip-up-goalless-draw-union-karetsas-injured-6468471",
-      "date": "2026-10-17T15:47:52Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Pope Leo returns to the Vatican 4 days after lung cancer surgery",
       "link": "https://cruxnow.com/vatican/2026/10/pope-leo-returns-to-the-vatican-4-days-after-lung-cancer-surgery/",
       "date": "2026-10-17T14:52:21Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Australia still undecided on starting XI for second test v S Africa",
-      "link": "https://www.channelnewsasia.com/sport/australia-still-undecided-starting-xi-second-test-v-s-africa-6468416",
-      "date": "2026-10-17T14:33:41Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Christianity Today pulls, then restores, Elisabeth Elliot sexuality article",
@@ -139,13 +188,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Haaland double helps Man City win, Neto brace cheers Chelsea",
-      "link": "https://www.channelnewsasia.com/sport/haaland-double-helps-man-city-win-neto-brace-cheers-chelsea-6468341",
-      "date": "2026-10-17T13:46:25Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Pope Leo discharged from hospital after cancer operation",
       "link": "https://www.theguardian.com/world/2026/oct/17/pope-leo-discharged-from-hospital-after-cancer-operation",
       "date": "2026-10-17T13:41:49Z",
@@ -165,13 +207,6 @@
       "date": "2026-10-17T13:35:08Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "She had to rebuild her life after losing her husband. Now this mother of 3 helps others find their footing",
-      "link": "https://www.channelnewsasia.com/cna-insider/up-close/single-mother-children-charity-zarina-jaffar-6451711",
-      "date": "2026-10-17T13:30:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Woman arrested for drink driving after accident in Amoy Street; 2 people taken to hospital",
@@ -244,13 +279,6 @@
       "cat": "asia"
     },
     {
-      "title": "Pedestrian dies after accident with car in Geylang; driver arrested",
-      "link": "https://www.straitstimes.com/singapore/pedestrian-dies-after-accident-with-car-in-geylang-driver-arrested",
-      "date": "2026-10-17T08:36:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "New book carries Ignatian prayer into myths and fairy tales",
       "link": "https://www.ncronline.org/culture/book-reviews/new-book-carries-ignatian-prayer-myths-and-fairy-tales",
       "date": "2026-10-17T08:00:00Z",
@@ -270,13 +298,6 @@
       "date": "2026-10-17T08:00:00Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "New safety, maintenance standard in the works as Singapore’s skyrise greenery booms",
-      "link": "https://www.straitstimes.com/singapore/new-safety-standard-in-the-works-as-singapores-skyrise-greenery-booms",
-      "date": "2026-10-17T07:49:31Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "'We're in business to be a glorifier of God': Chick-fil-A CEO talks decision to close on Sundays, LGBT controversy",
@@ -398,13 +419,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Wheaton College student fatally struck by train shortly after leaving church",
-      "link": "https://www.christianpost.com/news/wheaton-college-student-fatally-struck-by-train.html",
-      "date": "2026-10-16T19:59:44Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "‘A Good Decision’ or ‘Travesty of Justice’? Christians React to Trump’s Execution Livestream Reversal",
       "link": "https://www.crosswalk.com/headlines/contributors/guest-commentary/a-good-decision-or-travesty-of-justice-christians-react-to-trumps-execution-livestream-reversal.html",
       "date": "2026-10-16T19:30:00Z",
@@ -503,13 +517,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Update: Bishops across Latin America urge prayers for Pope Leo as trip hangs in the balance",
-      "link": "https://www.bishop-accountability.org/2026/10/update-bishops-across-latin-america-urge-prayers-for-pope-leo-as-trip-hangs-in-the-balance/",
-      "date": "2026-10-16T13:55:16Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
       "title": "Dallas megachurch to vote on leaving UMC",
       "link": "https://baptistnews.com/article/dallas-megachurch-to-vote-on-leaving-umc/",
       "date": "2026-10-16T13:27:29Z",
@@ -550,13 +557,6 @@
       "date": "2026-10-16T12:10:44Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "The mystery within the street names of a Jerusalem neighborhood",
-      "link": "https://religionnews.com/2026/10/16/the-mystery-of-a-jerusalem-neighborhood/",
-      "date": "2026-10-16T12:00:50Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
     },
     {
       "title": "Israeli settlers attack olive harvest of Christian villagers in the West Bank",
