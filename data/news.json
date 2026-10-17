@@ -1,31 +1,108 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T15:41:29.831510Z",
+  "updatedAt": "2026-10-17T18:32:07.133034Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Spiritual Sounding Board",
     "Christianity Today",
-    "Baptist News Global",
+    "Spiritual Sounding Board",
     "Religion News Service",
+    "Baptist News Global",
     "The Wartburg Watch",
     "Christian Headlines",
-    "The Guardian — Religion",
     "National Catholic Reporter",
+    "The Guardian — Religion",
     "Christian Post",
+    "Charisma News",
     "Surviving Church",
     "The Roys Report",
+    "Abuse Tracker (Bishop Accountability)",
+    "Straits Times",
     "Crux — Catholic News",
     "Channel NewsAsia",
-    "Straits Times",
     "MinistryWatch",
-    "Abuse Tracker (Bishop Accountability)",
     "Relevant Magazine",
-    "ECA Global",
-    "Charisma News"
+    "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "Pope Leo's surgeon says he should be fit for Latin America tour",
+      "link": "https://www.ncronline.org/vatican/vatican-news/pope-leos-surgeon-says-he-should-be-fit-latin-america-tour",
+      "date": "2026-10-17T18:18:22Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Police and protesters clash in some of France's worst unrest in years",
+      "link": "https://www.channelnewsasia.com/world/police-and-protesters-clash-in-some-frances-worst-unrest-in-years-6468581",
+      "date": "2026-10-17T18:03:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "City's flying start comes at a cost, with Haaland limping off",
+      "link": "https://www.channelnewsasia.com/sport/citys-flying-start-comes-cost-haaland-limping-6468576",
+      "date": "2026-10-17T17:55:56Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Barcola shines as Liverpool labour to 2-1 win over Brentford",
+      "link": "https://www.channelnewsasia.com/sport/barcola-shines-liverpool-labour-2-1-win-over-brentford-6468556",
+      "date": "2026-10-17T17:28:11Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Chelsea's Martinez suffered concussion after collision at Everton, says Alonso",
+      "link": "https://www.channelnewsasia.com/sport/chelseas-martinez-suffered-concussion-after-collision-everton-says-alonso-6468516",
+      "date": "2026-10-17T16:56:47Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Pope Leo's brother shares his own cancer battle, the role of faith and his 1 request",
+      "link": "https://www.ncronline.org/news/pope-leos-brother-shares-his-own-cancer-battle-role-faith-and-his-1-request",
+      "date": "2026-10-17T16:51:58Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "New Lawsuits Against Chicago Archdiocese Allege Widespread Sexual Abuse at South Side Parish",
+      "link": "https://www.bishop-accountability.org/2026/10/new-lawsuits-against-chicago-archdiocese/",
+      "date": "2026-10-17T16:38:57Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "‘Kansas is behind’: Advocates say state needs stronger laws to prevent abuse in schools",
+      "link": "https://www.bishop-accountability.org/2026/10/kansas-is-behind/",
+      "date": "2026-10-17T16:33:05Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "M.I.T. Scientist Wins $6 Million in Sexual Harassment Defamation Suit",
+      "link": "https://www.bishop-accountability.org/2026/10/mit-scientist-wins-6-million/",
+      "date": "2026-10-17T16:25:01Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Archbishop Hicks hosts his first Al Smith dinner; NYPD commissioner, Cardinal Dolan honored",
+      "link": "https://www.ncronline.org/news/archbishop-hicks-hosts-his-first-al-smith-dinner-nypd-commissioner-cardinal-dolan-honored",
+      "date": "2026-10-17T16:23:43Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Dortmund slip up with goalless draw at Union, Karetsas injured",
+      "link": "https://www.channelnewsasia.com/sport/dortmund-slip-up-goalless-draw-union-karetsas-injured-6468471",
+      "date": "2026-10-17T15:47:52Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
     {
       "title": "Pope Leo returns to the Vatican 4 days after lung cancer surgery",
       "link": "https://cruxnow.com/vatican/2026/10/pope-leo-returns-to-the-vatican-4-days-after-lung-cancer-surgery/",
@@ -62,8 +139,8 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Neto double fires Chelsea past Everton but Martinez head injury mars win",
-      "link": "https://www.channelnewsasia.com/sport/neto-double-fires-chelsea-past-everton-martinez-head-injury-mars-win-6468341",
+      "title": "Haaland double helps Man City win, Neto brace cheers Chelsea",
+      "link": "https://www.channelnewsasia.com/sport/haaland-double-helps-man-city-win-neto-brace-cheers-chelsea-6468341",
       "date": "2026-10-17T13:46:25Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
@@ -104,38 +181,10 @@
       "cat": "asia"
     },
     {
-      "title": "Few use Singapore haze shelters, but visitors welcome respite from heat",
-      "link": "https://www.channelnewsasia.com/singapore/singapore-haze-shelters-heat-visitors-community-centres-6468211",
-      "date": "2026-10-17T13:13:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "India's 'cockroach' movement founder released a day after detention",
-      "link": "https://www.channelnewsasia.com/asia/india-cockroach-movement-founder-released-abhijeet-dipke-6468291",
-      "date": "2026-10-17T12:52:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "SM Lee calls for renewed tripartite ties to safeguard port jobs amid AI, trade headwinds",
       "link": "https://www.straitstimes.com/singapore/jobs/sm-lee-calls-for-renewed-tripartite-ties-to-safeguard-port-jobs-amid-ai-trade-headwinds",
       "date": "2026-10-17T12:30:00Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "South Africa still mulling over permutations for second test against Australia",
-      "link": "https://www.channelnewsasia.com/sport/south-africa-still-mulling-over-permutations-second-test-against-australia-6468271",
-      "date": "2026-10-17T12:18:25Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Consumers urged not to overbuy N95 masks; major retailers are 'actively replenishing' stocks: CASE",
-      "link": "https://www.channelnewsasia.com/singapore/n95-masks-stock-shortage-haze-case-6468201",
-      "date": "2026-10-17T11:45:58Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -165,13 +214,6 @@
       "date": "2026-10-17T10:30:00Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Pope Leo will leave hospital, return to Vatican on Oct 17: Holy See",
-      "link": "https://www.channelnewsasia.com/world/pope-leo-will-leave-hospital-return-vatican-oct-17-holy-see-6468156",
-      "date": "2026-10-17T10:14:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Katie Zacharia Out of Her Role as White House Press Secretary",
@@ -398,32 +440,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "'The Shack' author Paul Young returns with a sequel set on Death Row",
-      "link": "https://www.ncronline.org/culture/book-reviews/shack-author-paul-young-returns-sequel-set-death-row",
-      "date": "2026-10-16T16:36:15Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "Oregon bishops offer prayers following Silver Rail school shooting",
-      "link": "https://www.ncronline.org/news/oregon-bishops-offer-prayers-following-silver-rail-school-shooting",
-      "date": "2026-10-16T16:18:30Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
       "title": "‘Capital Punishment Is Pro-Life’: Pastor Robert Jeffress Defends Biblical Case for Death Penalty",
       "link": "https://www.crosswalk.com/headlines/contributors/maina-mwaura/capital-punishment-is-pro-life-pastor-robert-jeffress-defends-biblical-case-for-death-penalty.html",
       "date": "2026-10-16T16:09:00Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "First images released of Pope Leo after cancer surgery, celebrating Mass at hospital",
-      "link": "https://www.ncronline.org/vatican/vatican-news/first-images-released-pope-leo-after-cancer-surgery-celebrating-mass-hospital",
-      "date": "2026-10-16T16:08:30Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "Jamie MacDonald Had No Plan for Any of This",
@@ -485,20 +506,6 @@
       "title": "Update: Bishops across Latin America urge prayers for Pope Leo as trip hangs in the balance",
       "link": "https://www.bishop-accountability.org/2026/10/update-bishops-across-latin-america-urge-prayers-for-pope-leo-as-trip-hangs-in-the-balance/",
       "date": "2026-10-16T13:55:16Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Bishop urges Church to make abuse prevention a lasting culture",
-      "link": "https://www.bishop-accountability.org/2026/10/bishop-urges-church-to-make/",
-      "date": "2026-10-16T13:48:32Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Court filings identify 22 more priests accused of child sexual abuse in RI | Exclusive",
-      "link": "https://www.bishop-accountability.org/2026/10/court-filings-identify-22-more-priests-accused-of-child-sexual-abuse-in-ri-exclusive/",
-      "date": "2026-10-16T13:32:04Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
     },
@@ -753,13 +760,6 @@
       "date": "2026-10-15T15:19:20Z",
       "source": "Relevant Magazine",
       "cat": "evangelical"
-    },
-    {
-      "title": "Rev. George Clements orchestrated a ‘decades-long child sex ring’ at South Side parish, new lawsuits say",
-      "link": "https://www.bishop-accountability.org/2026/10/rev-george-clements-orchestrated/",
-      "date": "2026-10-15T14:19:19Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
     },
     {
       "title": "Catholics pray around the world for the pope's health – video",
