@@ -1,31 +1,136 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T12:13:31.841561Z",
+  "updatedAt": "2026-10-17T15:41:29.831510Z",
   "sourcesUpdated": 19,
   "sources": [
     "Spiritual Sounding Board",
-    "Religion News Service",
     "Christianity Today",
-    "The Guardian — Religion",
     "Baptist News Global",
+    "Religion News Service",
     "The Wartburg Watch",
     "Christian Headlines",
+    "The Guardian — Religion",
     "National Catholic Reporter",
     "Christian Post",
-    "The Roys Report",
     "Surviving Church",
-    "Channel NewsAsia",
-    "Charisma News",
-    "Straits Times",
+    "The Roys Report",
     "Crux — Catholic News",
+    "Channel NewsAsia",
+    "Straits Times",
     "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
     "Relevant Magazine",
-    "ECA Global"
+    "ECA Global",
+    "Charisma News"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "Pope Leo returns to the Vatican 4 days after lung cancer surgery",
+      "link": "https://cruxnow.com/vatican/2026/10/pope-leo-returns-to-the-vatican-4-days-after-lung-cancer-surgery/",
+      "date": "2026-10-17T14:52:21Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "Australia still undecided on starting XI for second test v S Africa",
+      "link": "https://www.channelnewsasia.com/sport/australia-still-undecided-starting-xi-second-test-v-s-africa-6468416",
+      "date": "2026-10-17T14:33:41Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Christianity Today pulls, then restores, Elisabeth Elliot sexuality article",
+      "link": "https://roysreport.com/christianity-today-pulls-then-restores-elisabeth-elliot-sexuality-article/",
+      "date": "2026-10-17T14:29:52Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "These previously unnamed clergy are accused of child sexual abuse",
+      "link": "https://www.bishop-accountability.org/2026/10/these-previously-unnamed-clergy/",
+      "date": "2026-10-17T14:21:22Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Pope Leo leaves Rome’s Gemelli hospital 4 days after lung cancer surgery",
+      "link": "https://religionnews.com/2026/10/17/pope-leo-leaves-romes-gemelli-hospital-4-days-after-lung-cancer-surgery/",
+      "date": "2026-10-17T13:57:32Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Neto double fires Chelsea past Everton but Martinez head injury mars win",
+      "link": "https://www.channelnewsasia.com/sport/neto-double-fires-chelsea-past-everton-martinez-head-injury-mars-win-6468341",
+      "date": "2026-10-17T13:46:25Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Pope Leo discharged from hospital after cancer operation",
+      "link": "https://www.theguardian.com/world/2026/oct/17/pope-leo-discharged-from-hospital-after-cancer-operation",
+      "date": "2026-10-17T13:41:49Z",
+      "source": "The Guardian — Religion",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "John Doe 20 v. Archdiocese of Chicago",
+      "link": "https://www.bishop-accountability.org/2026/10/john-doe-20-v-archdiocese-of-chicago/",
+      "date": "2026-10-17T13:35:24Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Pope Leo leaves hospital, returns to Vatican earlier than planned after operation",
+      "link": "https://www.ncronline.org/vatican/vatican-news/pope-leo-leaves-hospital-returns-vatican-earlier-planned-after-operation",
+      "date": "2026-10-17T13:35:08Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "She had to rebuild her life after losing her husband. Now this mother of 3 helps others find their footing",
+      "link": "https://www.channelnewsasia.com/cna-insider/up-close/single-mother-children-charity-zarina-jaffar-6451711",
+      "date": "2026-10-17T13:30:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Woman arrested for drink driving after accident in Amoy Street; 2 people taken to hospital",
+      "link": "https://www.straitstimes.com/singapore/woman-arrested-for-drink-driving-after-accident-in-amoy-street-2-people-taken-to-hospital",
+      "date": "2026-10-17T13:15:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Few use Singapore haze shelters, but visitors welcome respite from heat",
+      "link": "https://www.channelnewsasia.com/singapore/singapore-haze-shelters-heat-visitors-community-centres-6468211",
+      "date": "2026-10-17T13:13:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "India's 'cockroach' movement founder released a day after detention",
+      "link": "https://www.channelnewsasia.com/asia/india-cockroach-movement-founder-released-abhijeet-dipke-6468291",
+      "date": "2026-10-17T12:52:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "SM Lee calls for renewed tripartite ties to safeguard port jobs amid AI, trade headwinds",
+      "link": "https://www.straitstimes.com/singapore/jobs/sm-lee-calls-for-renewed-tripartite-ties-to-safeguard-port-jobs-amid-ai-trade-headwinds",
+      "date": "2026-10-17T12:30:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "South Africa still mulling over permutations for second test against Australia",
+      "link": "https://www.channelnewsasia.com/sport/south-africa-still-mulling-over-permutations-second-test-against-australia-6468271",
+      "date": "2026-10-17T12:18:25Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
     {
       "title": "Consumers urged not to overbuy N95 masks; major retailers are 'actively replenishing' stocks: CASE",
       "link": "https://www.channelnewsasia.com/singapore/n95-masks-stock-shortage-haze-case-6468201",
@@ -63,7 +168,7 @@
     },
     {
       "title": "Pope Leo will leave hospital, return to Vatican on Oct 17: Holy See",
-      "link": "https://www.channelnewsasia.com/asia/pope-leo-will-leave-hospital-return-vatican-oct-17-holy-see-6468156",
+      "link": "https://www.channelnewsasia.com/world/pope-leo-will-leave-hospital-return-vatican-oct-17-holy-see-6468156",
       "date": "2026-10-17T10:14:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
@@ -76,31 +181,10 @@
       "cat": "evangelical"
     },
     {
-      "title": "Sri Lanka suffers nationwide electricity blackout",
-      "link": "https://www.channelnewsasia.com/asia/sri-lanka-blackout-6468131",
-      "date": "2026-10-17T09:26:14Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers",
-      "link": "https://www.channelnewsasia.com/business/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropics-clark-tells-policymakers-6468116",
-      "date": "2026-10-17T09:14:49Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Haze in Singapore: Before and after photos",
       "link": "https://www.straitstimes.com/singapore/haze-in-singapore-before-and-after-photos",
       "date": "2026-10-17T09:10:36Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "PM Wong to visit Qatar, UAE in first trip to Middle East since taking office",
-      "link": "https://www.channelnewsasia.com/singapore/lawrence-wong-qatar-uae-middle-east-visit-6468046",
-      "date": "2026-10-17T09:00:00Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -115,13 +199,6 @@
       "link": "https://www.straitstimes.com/singapore/pedestrian-whose-body-was-found-on-pie-had-been-hit-by-minibus-in-jurong-west-driver-arrested",
       "date": "2026-10-17T08:50:00Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Rennie promises All Blacks will stick to their guns at World Cup",
-      "link": "https://www.channelnewsasia.com/sport/rennie-promises-all-blacks-will-stick-their-guns-world-cup-6468106",
-      "date": "2026-10-17T08:37:53Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -160,20 +237,6 @@
       "cat": "asia"
     },
     {
-      "title": "All Blacks thump Wallabies in Sydney on the back of brilliant first half",
-      "link": "https://www.channelnewsasia.com/sport/all-blacks-thump-wallabies-in-sydney-back-brilliant-first-half-6468066",
-      "date": "2026-10-17T07:41:18Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Jayawardene leaves role as Mumbai Indians head coach",
-      "link": "https://www.channelnewsasia.com/sport/jayawardene-leaves-role-mumbai-indians-head-coach-6468071",
-      "date": "2026-10-17T07:41:03Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "'We're in business to be a glorifier of God': Chick-fil-A CEO talks decision to close on Sundays, LGBT controversy",
       "link": "https://www.christianpost.com/news/chick-fil-a-ceo-andrew-cathy-talks-decision-to-close-on-sundays.html",
       "date": "2026-10-17T06:09:21Z",
@@ -186,13 +249,6 @@
       "date": "2026-10-17T05:09:28Z",
       "source": "Christian Post",
       "cat": "evangelical"
-    },
-    {
-      "title": "Singapore to accredit first five TCM providers under broader Chinese-Western medicine push",
-      "link": "https://www.straitstimes.com/singapore/singapore-to-accredit-first-five-tcm-providers-under-broader-chinese-western-medicine-push",
-      "date": "2026-10-17T05:03:29Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Former Trump diplomat Morse Tan pleads not guilty to defaming South Korean president",
@@ -214,13 +270,6 @@
       "date": "2026-10-17T04:03:42Z",
       "source": "Christian Post",
       "cat": "evangelical"
-    },
-    {
-      "title": "As Singapore moves to ease academic pressure, why are parents more stressed than ever?",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/as-singapore-moves-to-ease-academic-pressure-why-are-parents-more-stressed-than-ever",
-      "date": "2026-10-17T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "‘The Chosen’ actor backs Talarico as both Senate candidates court faith voters",
@@ -503,13 +552,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Florida churches turn backpack drives into a gateway to immigration advocacy",
-      "link": "https://religionnews.com/2026/10/16/florida-churches-turn-backpack-drives-into-a-gateway-to-immigrant-advocacy/",
-      "date": "2026-10-16T11:30:47Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "Israeli settlers attack olive harvest of Christian villagers in the West Bank",
       "link": "https://cruxnow.com/church-in-the-middle-east/2026/10/israeli-settlers-attack-olive-harvest-of-christian-villagers-in-the-west-bank/",
       "date": "2026-10-16T11:29:53Z",
@@ -527,13 +569,6 @@
       "title": "Woman charged for praying outside abortion centre tells Crux Now that pro-lifers face ‘two-tier’ policing",
       "link": "https://cruxnow.com/church-in-uk-and-ireland/2026/10/woman-charged-for-praying-outside-abortion-centre-tells-crux-now-that-pro-lifers-face-two-tier-policing/",
       "date": "2026-10-16T11:08:49Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
-      "title": "Trump, after bipartisan and Catholic backlash, says Pentagon won’t livestream execution of Fort Hood shooter",
-      "link": "https://cruxnow.com/church-in-the-usa/2026/10/trump-after-bipartisan-and-catholic-backlash-says-pentagon-wont-livestream-execution-of-fort-hood-shooter/",
-      "date": "2026-10-16T10:12:00Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
     },
@@ -564,13 +599,6 @@
       "date": "2026-10-16T10:00:00Z",
       "source": "Christianity Today",
       "cat": "evangelical"
-    },
-    {
-      "title": "In midterms, Catholic voters must keep national parks in mind",
-      "link": "https://www.ncronline.org/opinion/midterms-catholic-voters-must-keep-national-parks-mind",
-      "date": "2026-10-16T08:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "Exclusive Brethren head denies knowing church members were volunteering for Liberal party during 2025 election",
@@ -741,20 +769,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Pope Leo is eating, celebrating Mass and walking after cancer surgery, but trip is in question",
-      "link": "https://www.bishop-accountability.org/2026/10/pope-leo-is-eating-celebrating-mass/",
-      "date": "2026-10-15T13:59:48Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Worcester Diocese should listen to victims, publish list of credibly accused priests",
-      "link": "https://www.bishop-accountability.org/2026/10/worcester-diocese-should-listen-to-victims/",
-      "date": "2026-10-15T13:52:57Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
       "title": "What We Know—and Cannot Know—About Elisabeth Elliot’s Sexuality",
       "link": "https://www.christianitytoday.com/2026/10/elisabeth-elliots-sexuality-virginia-mollenkott-william-stell-lucy-austen/",
       "date": "2026-10-15T10:00:00Z",
@@ -851,20 +865,6 @@
       "date": "2026-10-14T10:00:00Z",
       "source": "Christianity Today",
       "cat": "evangelical"
-    },
-    {
-      "title": "Iranian woman handed death sentence for ‘blasphemy’ in social media post",
-      "link": "https://www.theguardian.com/global-development/2026/oct/14/najmeh-amini-blasphemy-death-sentence-insulting-prophet",
-      "date": "2026-10-14T04:00:44Z",
-      "source": "The Guardian — Religion",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Wheaton College student told to consider response to God’s love moments before he was killed by a train",
-      "link": "https://roysreport.com/wheaton-college-student-told-to-consider-response-to-gods-love-moments-before-he-was-killed-by-a-train/",
-      "date": "2026-10-13T22:48:18Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
     }
   ]
 }
