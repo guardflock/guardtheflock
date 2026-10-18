@@ -1,43 +1,155 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T12:38:31.354040Z",
+  "updatedAt": "2026-10-18T18:40:03.925539Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Religion News Service",
     "Spiritual Sounding Board",
     "Christianity Today",
+    "Religion News Service",
     "Baptist News Global",
-    "The Guardian — Religion",
-    "Christian Headlines",
-    "Christian Post",
     "The Wartburg Watch",
+    "Christian Post",
+    "Christian Headlines",
+    "The Guardian — Religion",
     "National Catholic Reporter",
-    "Surviving Church",
-    "Channel NewsAsia",
     "The Roys Report",
-    "Straits Times",
+    "Surviving Church",
     "Charisma News",
-    "Crux — Catholic News",
+    "Channel NewsAsia",
+    "Straits Times",
     "MinistryWatch",
-    "Abuse Tracker (Bishop Accountability)",
+    "Relevant Magazine",
+    "Crux — Catholic News",
     "ECA Global",
-    "Relevant Magazine"
+    "Abuse Tracker (Bishop Accountability)"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Personal mobility aid catches fire at Yishun HDB block, no injuries reported",
-      "link": "https://www.straitstimes.com/singapore/personal-mobility-aid-catches-fire-at-yishun-hdb-block-no-injuries-reported",
-      "date": "2026-10-18T12:24:42Z",
+      "title": "Anthropic to commit 5% stake to new public benefit fund",
+      "link": "https://www.channelnewsasia.com/business/anthropic-commit-5-stake-new-public-benefit-fund-6470326",
+      "date": "2026-10-18T18:18:33Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "At least 4 killed in major fire at Canadian military base",
+      "link": "https://www.channelnewsasia.com/world/least-4-killed-in-major-fire-canadian-military-base-6469826",
+      "date": "2026-10-18T18:17:57Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Brighton's patience pays off as Huerzeler helps Seagulls soar",
+      "link": "https://www.channelnewsasia.com/sport/brightons-patience-pays-huerzeler-helps-seagulls-soar-6469921",
+      "date": "2026-10-18T17:55:15Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Zelenskyy speaks to US envoys amid Trump spat",
+      "link": "https://www.channelnewsasia.com/world/zelenskyy-speaks-us-envoys-amid-trump-spat-6469886",
+      "date": "2026-10-18T17:53:50Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Trump endorses Netanyahu in Israeli election",
+      "link": "https://www.channelnewsasia.com/world/trump-endorses-netanyahu-in-israeli-election-6469761",
+      "date": "2026-10-18T16:59:22Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Barcelona hit by double injury blow before PSG trip",
+      "link": "https://www.channelnewsasia.com/sport/barcelona-hit-double-injury-blow-psg-trip-6469836",
+      "date": "2026-10-18T16:26:11Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Man United show fight but familiar flaws remain in Leeds draw",
+      "link": "https://www.channelnewsasia.com/sport/man-united-show-fight-familiar-flaws-remain-in-leeds-draw-6469831",
+      "date": "2026-10-18T16:08:44Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "This week in Christian history: 'The Message' author dies; Edict of Nantes revoked",
+      "link": "https://www.christianpost.com/news/this-week-in-christian-history-the-message-author-dies.html",
+      "date": "2026-10-18T15:55:26Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Leverkusen's Schick strikes to end Freiburg's unbeaten run",
+      "link": "https://www.channelnewsasia.com/sport/leverkusens-schick-strikes-end-freiburgs-unbeaten-run-6469801",
+      "date": "2026-10-18T15:42:24Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "The upside of anger: can fury be one of the deepest forms of human compassion? | Making sense of it",
+      "link": "https://www.theguardian.com/commentisfree/2026/oct/19/the-upside-of-anger-fury-as-compassion-philosophy-wisdom",
+      "date": "2026-10-18T14:00:02Z",
+      "source": "The Guardian — Religion",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Car crashes into private home in Katong, knocking down part of wall",
+      "link": "https://www.straitstimes.com/singapore/car-crashes-into-private-home-in-katong-knocking-down-part-of-wall",
+      "date": "2026-10-18T13:20:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
     {
-      "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports",
-      "link": "https://www.channelnewsasia.com/business/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-reports-6469576",
-      "date": "2026-10-18T12:08:28Z",
-      "source": "Channel NewsAsia",
+      "title": "Mangaluru Police arrest absconding priest for sexually abusing minor boy",
+      "link": "https://www.bishop-accountability.org/2026/10/mangaluru-police-arrest-absconding-priest/",
+      "date": "2026-10-18T12:55:16Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Uncertainty Over Pope’s Health Fuels Familiar Debate Over Vatican’s Candor",
+      "link": "https://www.bishop-accountability.org/2026/10/uncertainty-over-popes-health-fuels-familiar-debate/",
+      "date": "2026-10-18T12:52:15Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Pope Leo health update: Pope Leo XIV returns to Vatican, doctor shares major verdict on trip to Uruguay, Peru, Argentina",
+      "link": "https://www.bishop-accountability.org/2026/10/pope-leo-health-update/",
+      "date": "2026-10-18T12:49:12Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
+      "link": "https://www.bishop-accountability.org/2026/10/pope-leo-pledges-gradual-return/",
+      "date": "2026-10-18T12:43:44Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
+      "link": "https://www.ncronline.org/vatican/vatican-news/pope-leo-tells-faithful-st-peters-square-he-will-gradually-resume-duties-after",
+      "date": "2026-10-18T12:40:58Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Pope Leo tells faithful in St. Peter’s Square he will gradually resume duties after cancer surgery",
+      "link": "https://www.bishop-accountability.org/2026/10/pope-leo-tells-faithful/",
+      "date": "2026-10-18T12:40:15Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Personal mobility aid catches fire at Yishun HDB block, no injuries reported",
+      "link": "https://www.straitstimes.com/singapore/personal-mobility-aid-catches-fire-at-yishun-hdb-block-no-injuries-reported",
+      "date": "2026-10-18T12:24:42Z",
+      "source": "Straits Times",
       "cat": "asia"
     },
     {
@@ -55,20 +167,6 @@
       "cat": "catholic"
     },
     {
-      "title": "Davidovich Fokina overcomes Jodar to claim Shanghai crown",
-      "link": "https://www.channelnewsasia.com/sport/davidovich-fokina-overcomes-jodar-claim-shanghai-crown-6469551",
-      "date": "2026-10-18T11:35:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
-      "link": "https://www.channelnewsasia.com/world/pope-leo-gradually-resume-duties-vatican-cancer-surgery-6469501",
-      "date": "2026-10-18T11:20:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Investigation of 9 Banks Finds ‘Irrefutable Evidence’ that Religious Groups Were Targeted",
       "link": "https://mycharisma.com/news/investigation-of-9-banks-finds-irrefutable-evidence-that-religious-groups-were-targeted/",
       "date": "2026-10-18T11:00:00Z",
@@ -83,7 +181,7 @@
       "cat": "asia"
     },
     {
-      "title": "Contributions of Indian Muslims hailed as Bencoolen Mosque celebrates 200 years",
+      "title": "Contributions of Indian Muslims lauded as Bencoolen Mosque celebrates 200 years",
       "link": "https://www.straitstimes.com/singapore/contributions-of-indian-muslims-hailed-as-bencoolen-mosque-celebrates-200-years",
       "date": "2026-10-18T10:45:00Z",
       "source": "Straits Times",
@@ -97,46 +195,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Accenture looks to sell Chinese operations for up to $1.5 billion, FT reports",
-      "link": "https://www.channelnewsasia.com/business/accenture-looks-sell-chinese-operations-up-15-billion-ft-reports-6469506",
-      "date": "2026-10-18T10:24:24Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports",
-      "link": "https://www.channelnewsasia.com/business/microsoft-pulls-out-uk-data-center-deal-nscale-telegraph-reports-6469486",
-      "date": "2026-10-18T10:01:16Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "‘One of a Kind’ Pastor Serving in Trump Administration Dies at Age 47",
       "link": "https://mycharisma.com/news/one-of-a-kind-pastor-serving-in-trump-administration-dies-at-age-47/",
       "date": "2026-10-18T10:00:00Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "'Record' 855 people arrested over Paris protest violence",
-      "link": "https://www.channelnewsasia.com/world/france-paris-protest-violence-people-arrested-police-6469426",
-      "date": "2026-10-18T09:45:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Australia's Smith says head blow left him anxious in first test concussion scare",
-      "link": "https://www.channelnewsasia.com/sport/australias-smith-says-head-blow-left-him-anxious-in-first-test-concussion-scare-6469461",
-      "date": "2026-10-18T09:27:40Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Japan to launch historic round-trip mission to Mars moon",
-      "link": "https://www.channelnewsasia.com/east-asia/japan-launch-historic-round-trip-mission-mars-moon-6469436",
-      "date": "2026-10-18T09:20:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Car skids, crashes into wall at Tampines HDB block",
@@ -170,13 +233,6 @@
       "title": "Haze in Singapore: Runners train in mall, families head for indoor playgrounds",
       "link": "https://www.straitstimes.com/singapore/haze-in-singapore-runners-train-in-malls-families-head-for-indoor-playgrounds",
       "date": "2026-10-18T05:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Hom Yoga to close permanently following Valley Point redevelopment, Orchard Central exit",
-      "link": "https://www.straitstimes.com/singapore/hom-yoga-to-close-permanently-following-valley-point-redevelopment-orchard-central-exit",
-      "date": "2026-10-18T05:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
@@ -237,20 +293,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Nueva denuncia de pedofilia contra sacerdote peruano José Antúnez de Mayolo, exmiembro de la CVR",
-      "link": "https://www.bishop-accountability.org/2026/10/nueva-denuncia-de-pedofilia-contra-sacerdote-peruano-jose-antunez-de-mayolo-exmiembro-de-la-cvr/",
-      "date": "2026-10-17T20:52:07Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Calvary Chapel pastor, wife killed outside home in Mexico; police detain suspect",
-      "link": "https://www.christianpost.com/news/calvary-chapel-irapuato-pastor-wife-killed-outside-home.html",
-      "date": "2026-10-17T19:06:47Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Pope Leo's surgeon says he should be fit for Latin America tour",
       "link": "https://www.ncronline.org/vatican/vatican-news/pope-leos-surgeon-says-he-should-be-fit-latin-america-tour",
       "date": "2026-10-17T18:18:22Z",
@@ -307,13 +349,6 @@
       "cat": "accountability"
     },
     {
-      "title": "These previously unnamed clergy are accused of child sexual abuse",
-      "link": "https://www.bishop-accountability.org/2026/10/these-previously-unnamed-clergy/",
-      "date": "2026-10-17T14:21:22Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
       "title": "Pope Leo leaves Rome’s Gemelli hospital 4 days after lung cancer surgery",
       "link": "https://religionnews.com/2026/10/17/pope-leo-leaves-romes-gemelli-hospital-4-days-after-lung-cancer-surgery/",
       "date": "2026-10-17T13:57:32Z",
@@ -326,13 +361,6 @@
       "date": "2026-10-17T13:41:49Z",
       "source": "The Guardian — Religion",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "John Doe 20 v. Archdiocese of Chicago",
-      "link": "https://www.bishop-accountability.org/2026/10/john-doe-20-v-archdiocese-of-chicago/",
-      "date": "2026-10-17T13:35:24Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
     },
     {
       "title": "Pope Leo leaves hospital, returns to Vatican earlier than planned after operation",
@@ -372,13 +400,6 @@
     {
       "title": "New book carries Ignatian prayer into myths and fairy tales",
       "link": "https://www.ncronline.org/culture/book-reviews/new-book-carries-ignatian-prayer-myths-and-fairy-tales",
-      "date": "2026-10-17T08:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "In cases of sexual assault, may we not be Doubting Thomases",
-      "link": "https://www.ncronline.org/spirituality/cases-sexual-assault-may-we-not-be-doubting-thomases",
       "date": "2026-10-17T08:00:00Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
@@ -529,20 +550,6 @@
       "date": "2026-10-16T15:09:57Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
-    },
-    {
-      "title": "Papal trip could face changes after surgery",
-      "link": "https://www.bishop-accountability.org/2026/10/papal-trip-could-face-changes-after-surgery/",
-      "date": "2026-10-16T14:03:40Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "The Vatican maintains Pope Leo XIV’s trip to South America despite the cancer diagnosis",
-      "link": "https://www.bishop-accountability.org/2026/10/the-vatican-maintains-pope-leo-xivs-trip/",
-      "date": "2026-10-16T13:58:13Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
     },
     {
       "title": "Dallas megachurch to vote on leaving UMC",
@@ -855,13 +862,6 @@
     {
       "title": "We Can Only Imagine. But Do We?",
       "link": "https://www.christianitytoday.com/2026/10/beholding-christ-nancy-guthrie/",
-      "date": "2026-10-14T10:00:00Z",
-      "source": "Christianity Today",
-      "cat": "evangelical"
-    },
-    {
-      "title": "How to Survive the Intellectual Strait of Hormuz",
-      "link": "https://www.christianitytoday.com/2026/10/artificial-intelligence-human-training-bias/",
       "date": "2026-10-14T10:00:00Z",
       "source": "Christianity Today",
       "cat": "evangelical"
