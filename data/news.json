@@ -1,86 +1,219 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T04:39:04.393567Z",
+  "updatedAt": "2026-10-18T12:38:31.354040Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Spiritual Sounding Board",
     "Religion News Service",
-    "Baptist News Global",
+    "Spiritual Sounding Board",
     "Christianity Today",
-    "The Wartburg Watch",
-    "Surviving Church",
+    "Baptist News Global",
     "The Guardian — Religion",
     "Christian Headlines",
-    "National Catholic Reporter",
     "Christian Post",
+    "The Wartburg Watch",
+    "National Catholic Reporter",
+    "Surviving Church",
     "Channel NewsAsia",
     "The Roys Report",
     "Straits Times",
-    "ECA Global",
     "Charisma News",
-    "Abuse Tracker (Bishop Accountability)",
     "Crux — Catholic News",
     "MinistryWatch",
+    "Abuse Tracker (Bishop Accountability)",
+    "ECA Global",
     "Relevant Magazine"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "‘Failure points you to the solution’: Students win HTX award for pushing past setbacks in research",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/failure-points-you-to-the-solution-students-win-htx-award-for-pushing-past-setbacks-in-research",
-      "date": "2026-10-18T04:00:00Z",
+      "title": "Personal mobility aid catches fire at Yishun HDB block, no injuries reported",
+      "link": "https://www.straitstimes.com/singapore/personal-mobility-aid-catches-fire-at-yishun-hdb-block-no-injuries-reported",
+      "date": "2026-10-18T12:24:42Z",
       "source": "Straits Times",
       "cat": "asia"
     },
     {
-      "title": "F&B businesses struggle as haze conditions worsen",
-      "link": "https://www.straitstimes.com/singapore/fb-businesses-struggle-as-haze-conditions-worsen",
-      "date": "2026-10-18T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Hiring is just the first step. Can Singapore keep workers with disabilities in their jobs?",
-      "link": "https://www.straitstimes.com/singapore/community/hiring-is-just-the-first-step-can-singapore-keep-workers-with-disabilities-in-their-jobs",
-      "date": "2026-10-18T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Home buyers using more cash and CPF for down payment even as mortgage loans rise",
-      "link": "https://www.straitstimes.com/singapore/housing/homebuyers-using-more-cash-and-cpf-for-downpayment-even-as-mortgage-loans-rise",
-      "date": "2026-10-18T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Why you should talk to your child about drugs",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/why-you-should-talk-to-your-child-about-drugs",
-      "date": "2026-10-18T03:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Western brands under pressure as 'pre-owned' luxury booms in China",
-      "link": "https://www.channelnewsasia.com/east-asia/western-brands-under-pressure-pre-owned-luxury-booms-in-china-6469201",
-      "date": "2026-10-18T03:40:00Z",
+      "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports",
+      "link": "https://www.channelnewsasia.com/business/samsung-use-tsmc-technology-nvidias-next-generation-memory-chips-seoul-newspaper-reports-6469576",
+      "date": "2026-10-18T12:08:28Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Walsh surprised by 50m freestyle short course world record",
-      "link": "https://www.channelnewsasia.com/sport/walsh-surprised-50m-freestyle-short-course-world-record-6469206",
-      "date": "2026-10-18T03:30:23Z",
+      "title": "Malaysia’s Firefly cancels Seletar-Subang flights for 10th day due to haze",
+      "link": "https://www.straitstimes.com/singapore/malaysias-firefly-cancels-seletar-subang-flights-for-10th-day-due-to-haze",
+      "date": "2026-10-18T11:58:23Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Pope Leo tells faithful in St. Peter’s Square he will gradually resume duties after cancer surgery",
+      "link": "https://cruxnow.com/vatican/2026/10/pope-leo-tells-faithful-in-st-peters-square-he-will-gradually-resume-duties-after-cancer-surgery/",
+      "date": "2026-10-18T11:35:59Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "Davidovich Fokina overcomes Jodar to claim Shanghai crown",
+      "link": "https://www.channelnewsasia.com/sport/davidovich-fokina-overcomes-jodar-claim-shanghai-crown-6469551",
+      "date": "2026-10-18T11:35:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Which rule made the biggest difference in managing my children’s screen time?",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/which-rule-made-the-biggest-difference-in-managing-my-childrens-screen-time",
-      "date": "2026-10-18T03:15:00Z",
+      "title": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
+      "link": "https://www.channelnewsasia.com/world/pope-leo-gradually-resume-duties-vatican-cancer-surgery-6469501",
+      "date": "2026-10-18T11:20:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Investigation of 9 Banks Finds ‘Irrefutable Evidence’ that Religious Groups Were Targeted",
+      "link": "https://mycharisma.com/news/investigation-of-9-banks-finds-irrefutable-evidence-that-religious-groups-were-targeted/",
+      "date": "2026-10-18T11:00:00Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "PSI forecast to be between 101 and 190 on Oct 19, says NEA",
+      "link": "https://www.straitstimes.com/singapore/psi-forecast-to-be-between-100-and-190-on-oct-19-says-nea",
+      "date": "2026-10-18T10:59:41Z",
       "source": "Straits Times",
       "cat": "asia"
+    },
+    {
+      "title": "Contributions of Indian Muslims hailed as Bencoolen Mosque celebrates 200 years",
+      "link": "https://www.straitstimes.com/singapore/contributions-of-indian-muslims-hailed-as-bencoolen-mosque-celebrates-200-years",
+      "date": "2026-10-18T10:45:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Conservative Commentator Steven Crowder Tells CNN and James Talarico to ‘Lawyer Up’ After They Allegedly Stole His Trademark for Town Hall",
+      "link": "https://mycharisma.com/news/conservative-commentator-steven-crowder-tells-cnn-and-james-talarico-to-lawyer-up-after-they-allegedly-stole-his-trademark-for-town-hall/",
+      "date": "2026-10-18T10:30:00Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Accenture looks to sell Chinese operations for up to $1.5 billion, FT reports",
+      "link": "https://www.channelnewsasia.com/business/accenture-looks-sell-chinese-operations-up-15-billion-ft-reports-6469506",
+      "date": "2026-10-18T10:24:24Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Microsoft pulls out of UK data center deal with Nscale, Telegraph reports",
+      "link": "https://www.channelnewsasia.com/business/microsoft-pulls-out-uk-data-center-deal-nscale-telegraph-reports-6469486",
+      "date": "2026-10-18T10:01:16Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "‘One of a Kind’ Pastor Serving in Trump Administration Dies at Age 47",
+      "link": "https://mycharisma.com/news/one-of-a-kind-pastor-serving-in-trump-administration-dies-at-age-47/",
+      "date": "2026-10-18T10:00:00Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "'Record' 855 people arrested over Paris protest violence",
+      "link": "https://www.channelnewsasia.com/world/france-paris-protest-violence-people-arrested-police-6469426",
+      "date": "2026-10-18T09:45:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Australia's Smith says head blow left him anxious in first test concussion scare",
+      "link": "https://www.channelnewsasia.com/sport/australias-smith-says-head-blow-left-him-anxious-in-first-test-concussion-scare-6469461",
+      "date": "2026-10-18T09:27:40Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Japan to launch historic round-trip mission to Mars moon",
+      "link": "https://www.channelnewsasia.com/east-asia/japan-launch-historic-round-trip-mission-mars-moon-6469436",
+      "date": "2026-10-18T09:20:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Car skids, crashes into wall at Tampines HDB block",
+      "link": "https://www.straitstimes.com/singapore/car-skids-crashes-into-wall-at-tampines-hdb-block",
+      "date": "2026-10-18T08:45:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Beware of scammers impersonating investment personalities, financial gurus: Police",
+      "link": "https://www.straitstimes.com/singapore/beware-of-scammers-impersonating-investment-personalities-financial-gurus-police",
+      "date": "2026-10-18T08:05:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "'To see the face of God in wartime': A Jesuit's mission in Siberia",
+      "link": "https://www.ncronline.org/news/see-face-god-wartime-jesuits-mission-siberia",
+      "date": "2026-10-18T08:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "From Pius XI to Leo XIV: World Mission Day marks 100 years",
+      "link": "https://www.ncronline.org/opinion/guest-voices/pius-xi-leo-xiv-world-mission-day-marks-100-years",
+      "date": "2026-10-18T08:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Haze in Singapore: Runners train in mall, families head for indoor playgrounds",
+      "link": "https://www.straitstimes.com/singapore/haze-in-singapore-runners-train-in-malls-families-head-for-indoor-playgrounds",
+      "date": "2026-10-18T05:45:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Hom Yoga to close permanently following Valley Point redevelopment, Orchard Central exit",
+      "link": "https://www.straitstimes.com/singapore/hom-yoga-to-close-permanently-following-valley-point-redevelopment-orchard-central-exit",
+      "date": "2026-10-18T05:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Travel: In St. John’s, a different side of Canada",
+      "link": "https://www.christianpost.com/news/travel-in-st-johns-a-different-side-of-canada.html",
+      "date": "2026-10-18T04:07:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Yes, LGBT identity really is in free fall among American teens",
+      "link": "https://www.christianpost.com/voices/yes-lgbt-identity-really-is-in-free-fall-among-american-teens.html",
+      "date": "2026-10-18T04:06:05Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "4 truths to speak when envy says you’re not enough",
+      "link": "https://www.christianpost.com/voices/4-truths-to-speak-when-envy-says-youre-not-enough.html",
+      "date": "2026-10-18T04:04:24Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Christianity Today republishes article about Elisabeth Elliot's sexuality",
+      "link": "https://www.christianpost.com/news/christianity-today-posts-controversial-elisabeth-elliot-article.html",
+      "date": "2026-10-18T04:02:57Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Episcopal Church membership has dropped by nearly 350K since 2015",
+      "link": "https://www.christianpost.com/news/episcopal-church-membership-dropped-by-nearly-350k-since-2015.html",
+      "date": "2026-10-18T04:00:09Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
     },
     {
       "title": "The untold story of Christian music: Who controls the worship songs we sing?",
@@ -90,13 +223,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Indonesia drops 2.4 tonnes of dry ice over South Sumatra to tackle haze",
-      "link": "https://www.channelnewsasia.com/asia/indonesia-drops-24-tonnes-dry-ice-over-south-sumatra-tackle-haze-6469171",
-      "date": "2026-10-18T02:55:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Tony Dungy on NBC exit: ‘They don’t always appreciate you speaking about your faith’",
       "link": "https://www.christianpost.com/news/tony-dungy-talks-faith-pro-life-activism-and-exit-from-nbc.html",
       "date": "2026-10-18T02:22:37Z",
@@ -104,60 +230,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Johor schools, educational institutions to reman closed for 5 more days",
-      "link": "https://www.channelnewsasia.com/asia/johor-schools-educational-institutions-reman-closed-5-more-days-6469131",
-      "date": "2026-10-18T01:42:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Singapore haze: Air quality remains very unhealthy in west, unhealthy in other regions",
-      "link": "https://www.channelnewsasia.com/singapore/haze-oct-18-psi-west-remains-very-unhealthy-6468376",
-      "date": "2026-10-17T23:22:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Haze in S’pore: PSI hits new high in west; air quality remains unhealthy across other regions",
-      "link": "https://www.straitstimes.com/singapore/air-quality-in-most-of-singapore-unhealthy-as-haze-persists-psi-in-west-very-unhealthy",
-      "date": "2026-10-17T23:20:57Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "BigBang XX: Cosmos in Singapore – a triumphant return for the K-pop legends",
-      "link": "https://www.channelnewsasia.com/entertainment/bigbang-singapore-2026-concert-review-6468981",
-      "date": "2026-10-17T22:56:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "5 gastrointestinal symptoms you should never ignore, according to doctors",
-      "link": "https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716",
-      "date": "2026-10-17T22:55:30Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "I visited Salzburg's new Sound Of Music museum and cycled on a bike named Julie Andrews",
-      "link": "https://www.channelnewsasia.com/travel/sound-music-museum-salzburg-austria-6441126",
-      "date": "2026-10-17T22:53:47Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "These Military Leaders Are Protecting Democracy with Admiral Michael E. Smith",
       "link": "https://religionnews.com/2026/10/17/these-military-leaders-are-protecting-democracy-with-admiral-michael-e-smith/",
       "date": "2026-10-17T22:08:20Z",
       "source": "Religion News Service",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Cloaked in grey: The causes and effects of haze in Singapore",
-      "link": "https://www.straitstimes.com/singapore/environment/cloaked-in-grey-the-causes-and-effects-of-haze-in-singapore",
-      "date": "2026-10-17T21:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Nueva denuncia de pedofilia contra sacerdote peruano José Antúnez de Mayolo, exmiembro de la CVR",
@@ -307,48 +384,6 @@
       "cat": "catholic"
     },
     {
-      "title": "In praise of a wild, unfettered God",
-      "link": "https://www.ncronline.org/spirituality/soul-seeing/praise-wild-unfettered-god",
-      "date": "2026-10-17T08:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "'We're in business to be a glorifier of God': Chick-fil-A CEO talks decision to close on Sundays, LGBT controversy",
-      "link": "https://www.christianpost.com/news/chick-fil-a-ceo-andrew-cathy-talks-decision-to-close-on-sundays.html",
-      "date": "2026-10-17T06:09:21Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Former Trump diplomat Morse Tan pleads not guilty to defaming South Korean president",
-      "link": "https://www.christianpost.com/news/former-trump-diplomat-morse-tan-pleads-not-guilty-in-south-korea.html",
-      "date": "2026-10-17T04:55:14Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Pastor Appreciation Month: 3 reasons not to drop the title ‘reverend'",
-      "link": "https://www.christianpost.com/voices/pastor-appreciation-month-3-reasons-the-title-reverend-matters.html",
-      "date": "2026-10-17T04:20:17Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Rubio must press India on bill that could let state seize church property",
-      "link": "https://www.christianpost.com/voices/rubio-must-press-india-on-bill-that-could-seize-church-property.html",
-      "date": "2026-10-17T04:03:42Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "‘The Chosen’ actor backs Talarico as both Senate candidates court faith voters",
-      "link": "https://www.christianpost.com/news/the-chosen-actor-endorses-james-talarico-for-us-senate.html",
-      "date": "2026-10-17T03:14:52Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "From piercings to purification: Thailand’s 2026 vegetarian festival – in pictures",
       "link": "https://www.theguardian.com/world/gallery/2026/oct/17/thailand-2026-vegetarian-festival-in-pictures",
       "date": "2026-10-17T01:47:27Z",
@@ -389,13 +424,6 @@
       "date": "2026-10-16T20:25:39Z",
       "source": "Religion News Service",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Pope Leo calls Putin from hospital urging ceasefire, aid to starving Ukrainians",
-      "link": "https://www.ncronline.org/news/pope-leo-calls-putin-hospital-urging-ceasefire-aid-starving-ukrainians",
-      "date": "2026-10-16T20:20:39Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "Americans who go to church and trust science are also more likely to believe in ghosts and curses, new research shows",
@@ -573,13 +601,6 @@
       "cat": "catholic"
     },
     {
-      "title": "Woman charged for praying outside abortion centre tells Crux Now that pro-lifers face ‘two-tier’ policing",
-      "link": "https://cruxnow.com/church-in-uk-and-ireland/2026/10/woman-charged-for-praying-outside-abortion-centre-tells-crux-now-that-pro-lifers-face-two-tier-policing/",
-      "date": "2026-10-16T11:08:49Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
       "title": "Farewell Service",
       "link": "https://survivingchurch.org/2026/10/16/farewell-service/?utm_source=rss&utm_medium=rss&utm_campaign=farewell-service",
       "date": "2026-10-16T10:01:16Z",
@@ -706,13 +727,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "James Talarico Compares Political Opponents to Goliath, Takes Aim at the Ten Commandments",
-      "link": "https://mycharisma.com/news/james-talarico-compares-political-opponents-to-goliath-takes-aim-at-the-ten-commandments/",
-      "date": "2026-10-15T19:51:28Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
       "title": "R. Scott Pace Installed as Southeastern Seminary’s New President Third new SBC seminary leader this year signals generational transition underway.",
       "link": "https://ministrywatch.com/scott-pace-installed-as-southeastern-seminarys-new-president/",
       "date": "2026-10-15T19:38:16Z",
@@ -725,20 +739,6 @@
       "date": "2026-10-15T18:23:58Z",
       "source": "MinistryWatch",
       "cat": "accountability"
-    },
-    {
-      "title": "15,000-Member Texas Megachurch Weighs United Methodist Church Exit as Legal Battle Escalates",
-      "link": "https://mycharisma.com/news/15000-member-texas-megachurch-weighs-united-methodist-church-exit-as-legal-battle-escalates/",
-      "date": "2026-10-15T18:02:01Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Christian Teacher Loses Job After Student Asks About Her Pro-Life Beliefs",
-      "link": "https://mycharisma.com/news/christian-teacher-loses-job-after-student-asks-about-her-pro-life-beliefs/",
-      "date": "2026-10-15T17:13:24Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
     },
     {
       "title": "Hegseth church allies backed plan for ‘public’ execution of Fort Hood shooter",
