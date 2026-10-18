@@ -1,77 +1,133 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T18:40:03.925539Z",
+  "updatedAt": "2026-10-18T22:27:19.725083Z",
   "sourcesUpdated": 19,
   "sources": [
     "Spiritual Sounding Board",
-    "Christianity Today",
     "Religion News Service",
+    "Christianity Today",
     "Baptist News Global",
+    "The Guardian — Religion",
     "The Wartburg Watch",
     "Christian Post",
     "Christian Headlines",
-    "The Guardian — Religion",
     "National Catholic Reporter",
     "The Roys Report",
+    "Channel NewsAsia",
     "Surviving Church",
     "Charisma News",
-    "Channel NewsAsia",
     "Straits Times",
+    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
     "Relevant Magazine",
     "Crux — Catholic News",
-    "ECA Global",
-    "Abuse Tracker (Bishop Accountability)"
+    "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Anthropic to commit 5% stake to new public benefit fund",
-      "link": "https://www.channelnewsasia.com/business/anthropic-commit-5-stake-new-public-benefit-fund-6470326",
-      "date": "2026-10-18T18:18:33Z",
+      "title": "Haze in Singapore: Air quality improves but most regions remain in unhealthy band",
+      "link": "https://www.straitstimes.com/singapore/haze-in-singapore-air-quality-improves-but-most-regions-remain-in-unhealthy-band",
+      "date": "2026-10-18T22:15:27Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Whither the Evangelical Press Association? The recent vote to change the group’s name was a mistake, but it can be undone.",
+      "link": "https://ministrywatch.com/whither-the-evangelical-press-association/",
+      "date": "2026-10-18T22:08:03Z",
+      "source": "MinistryWatch",
+      "cat": "accountability"
+    },
+    {
+      "title": "Commentary: Could devastating Nepal floods catalyse action at climate talks?",
+      "link": "https://www.channelnewsasia.com/commentary/nepal-floods-climate-compensation-un-loss-damage-6465406",
+      "date": "2026-10-18T22:00:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "At least 4 killed in major fire at Canadian military base",
-      "link": "https://www.channelnewsasia.com/world/least-4-killed-in-major-fire-canadian-military-base-6469826",
-      "date": "2026-10-18T18:17:57Z",
+      "title": "No easy gig: China's push to better protect platform workers faces hurdles",
+      "link": "https://www.channelnewsasia.com/east-asia/china-gig-workers-draft-rules-protection-6459661",
+      "date": "2026-10-18T22:00:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Brighton's patience pays off as Huerzeler helps Seagulls soar",
-      "link": "https://www.channelnewsasia.com/sport/brightons-patience-pays-huerzeler-helps-seagulls-soar-6469921",
-      "date": "2026-10-18T17:55:15Z",
+      "title": "CNA Explains: What workers and bosses need to know about the dismissal of pregnant staff",
+      "link": "https://www.channelnewsasia.com/singapore/cna-explains-fire-legitimate-pregnant-maternity-leave-6454801",
+      "date": "2026-10-18T22:00:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Zelenskyy speaks to US envoys amid Trump spat",
-      "link": "https://www.channelnewsasia.com/world/zelenskyy-speaks-us-envoys-amid-trump-spat-6469886",
-      "date": "2026-10-18T17:53:50Z",
+      "title": "Commentary: Why have screens replaced socialising?",
+      "link": "https://www.channelnewsasia.com/commentary/cost-living-dining-out-nightlife-reading-social-interaction-6469516",
+      "date": "2026-10-18T21:59:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Trump endorses Netanyahu in Israeli election",
-      "link": "https://www.channelnewsasia.com/world/trump-endorses-netanyahu-in-israeli-election-6469761",
-      "date": "2026-10-18T16:59:22Z",
+      "title": "Andy Stanley to step down as pastor of North Point Community Church next year",
+      "link": "https://www.christianpost.com/news/andy-stanley-to-step-down-as-senior-pastor-next-year.html",
+      "date": "2026-10-18T21:50:54Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Australia's Challenger gets takeover bid from unit of Japan's Daiichi Life",
+      "link": "https://www.channelnewsasia.com/business/australias-challenger-gets-takeover-bid-unit-japans-daiichi-life-6470476",
+      "date": "2026-10-18T21:48:12Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Barcelona hit by double injury blow before PSG trip",
-      "link": "https://www.channelnewsasia.com/sport/barcelona-hit-double-injury-blow-psg-trip-6469836",
-      "date": "2026-10-18T16:26:11Z",
+      "title": "Mbappe double helps Real Madrid sweep aside Sevilla ahead of El Clasico",
+      "link": "https://www.channelnewsasia.com/sport/mbappe-double-helps-real-madrid-sweep-aside-sevilla-ahead-el-clasico-6470441",
+      "date": "2026-10-18T21:17:27Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Man United show fight but familiar flaws remain in Leeds draw",
-      "link": "https://www.channelnewsasia.com/sport/man-united-show-fight-familiar-flaws-remain-in-leeds-draw-6469831",
-      "date": "2026-10-18T16:08:44Z",
+      "title": "Danish duo fire high-flying Lazio to 3-0 win over Juventus",
+      "link": "https://www.channelnewsasia.com/sport/danish-duo-fire-high-flying-lazio-3-0-win-over-juventus-6470431",
+      "date": "2026-10-18T21:07:05Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "askST Jobs: My boss takes credit for my ideas and achievements. What can I do?",
+      "link": "https://www.straitstimes.com/singapore/jobs/askst-jobs-my-boss-takes-credit-for-my-ideas-and-achievements-what-can-i-do",
+      "date": "2026-10-18T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "SIA pilots could not avoid turbulence on 2025 flight that led to crew member fracturing ankle: Report",
+      "link": "https://www.straitstimes.com/singapore/transport/sia-crew-member-fractures-ankle-on-manila-spore-flight-during-air-turbulence",
+      "date": "2026-10-18T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Mirror life and why we should avoid creating it",
+      "link": "https://www.straitstimes.com/singapore/health/mirror-life-and-why-we-should-avoid-creating-it",
+      "date": "2026-10-18T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Singapore to step up surveillance of three infectious diseases from Oct 31",
+      "link": "https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31",
+      "date": "2026-10-18T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Why Singapore’s sake drinkers are moving beyond familiar brands",
+      "link": "https://www.channelnewsasia.com/experiences/singapore-sake-drinkers-trend-6451981",
+      "date": "2026-10-18T20:39:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
@@ -81,13 +137,6 @@
       "date": "2026-10-18T15:55:26Z",
       "source": "Christian Post",
       "cat": "evangelical"
-    },
-    {
-      "title": "Leverkusen's Schick strikes to end Freiburg's unbeaten run",
-      "link": "https://www.channelnewsasia.com/sport/leverkusens-schick-strikes-end-freiburgs-unbeaten-run-6469801",
-      "date": "2026-10-18T15:42:24Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "The upside of anger: can fury be one of the deepest forms of human compassion? | Making sense of it",
@@ -174,20 +223,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "PSI forecast to be between 101 and 190 on Oct 19, says NEA",
-      "link": "https://www.straitstimes.com/singapore/psi-forecast-to-be-between-100-and-190-on-oct-19-says-nea",
-      "date": "2026-10-18T10:59:41Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Contributions of Indian Muslims lauded as Bencoolen Mosque celebrates 200 years",
-      "link": "https://www.straitstimes.com/singapore/contributions-of-indian-muslims-hailed-as-bencoolen-mosque-celebrates-200-years",
-      "date": "2026-10-18T10:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Conservative Commentator Steven Crowder Tells CNN and James Talarico to ‘Lawyer Up’ After They Allegedly Stole His Trademark for Town Hall",
       "link": "https://mycharisma.com/news/conservative-commentator-steven-crowder-tells-cnn-and-james-talarico-to-lawyer-up-after-they-allegedly-stole-his-trademark-for-town-hall/",
       "date": "2026-10-18T10:30:00Z",
@@ -202,20 +237,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Car skids, crashes into wall at Tampines HDB block",
-      "link": "https://www.straitstimes.com/singapore/car-skids-crashes-into-wall-at-tampines-hdb-block",
-      "date": "2026-10-18T08:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Beware of scammers impersonating investment personalities, financial gurus: Police",
-      "link": "https://www.straitstimes.com/singapore/beware-of-scammers-impersonating-investment-personalities-financial-gurus-police",
-      "date": "2026-10-18T08:05:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "'To see the face of God in wartime': A Jesuit's mission in Siberia",
       "link": "https://www.ncronline.org/news/see-face-god-wartime-jesuits-mission-siberia",
       "date": "2026-10-18T08:00:00Z",
@@ -228,13 +249,6 @@
       "date": "2026-10-18T08:00:00Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "Haze in Singapore: Runners train in mall, families head for indoor playgrounds",
-      "link": "https://www.straitstimes.com/singapore/haze-in-singapore-runners-train-in-malls-families-head-for-indoor-playgrounds",
-      "date": "2026-10-18T05:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Travel: In St. John’s, a different side of Canada",
@@ -275,13 +289,6 @@
       "title": "The untold story of Christian music: Who controls the worship songs we sing?",
       "link": "https://www.christianpost.com/video/the-untold-story-of-who-controls-christian-worship-music.html",
       "date": "2026-10-18T03:09:28Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Tony Dungy on NBC exit: ‘They don’t always appreciate you speaking about your faith’",
-      "link": "https://www.christianpost.com/news/tony-dungy-talks-faith-pro-life-activism-and-exit-from-nbc.html",
-      "date": "2026-10-18T02:22:37Z",
       "source": "Christian Post",
       "cat": "evangelical"
     },
@@ -800,13 +807,6 @@
       "title": "Ep. 654: Operation Blessing, Surveying Polls, Developments in Christian Higher Ed, and More",
       "link": "https://ministrywatch.com/ep-654-operation-blessing-surveying-polls-developments-in-christian-higher-ed-and-more/",
       "date": "2026-10-15T04:43:31Z",
-      "source": "MinistryWatch",
-      "cat": "accountability"
-    },
-    {
-      "title": "LGBTQ-Focused Ministry Disputes ‘Conversion Therapy’ Accusation Founder: ‘Church not complete without same-sex attracted people’",
-      "link": "https://ministrywatch.com/lgbtq-focused-ministry-disputes-conversion-therapy-accusation/",
-      "date": "2026-10-14T23:30:13Z",
       "source": "MinistryWatch",
       "cat": "accountability"
     },
