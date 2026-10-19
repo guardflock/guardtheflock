@@ -1,33 +1,145 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T22:27:19.725083Z",
+  "updatedAt": "2026-10-19T04:47:03.677059Z",
   "sourcesUpdated": 19,
   "sources": [
     "Spiritual Sounding Board",
-    "Religion News Service",
     "Christianity Today",
     "Baptist News Global",
-    "The Guardian — Religion",
+    "Religion News Service",
     "The Wartburg Watch",
-    "Christian Post",
     "Christian Headlines",
+    "The Guardian — Religion",
+    "Christian Post",
     "National Catholic Reporter",
+    "ECA Global",
     "The Roys Report",
-    "Channel NewsAsia",
-    "Surviving Church",
-    "Charisma News",
+    "Crux — Catholic News",
     "Straits Times",
+    "Channel NewsAsia",
     "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
     "Relevant Magazine",
-    "Crux — Catholic News",
-    "ECA Global"
+    "Surviving Church",
+    "Charisma News"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Haze in Singapore: Air quality improves but most regions remain in unhealthy band",
+      "title": "Year-long internships offered to 3,000 tertiary students to counter AI threat to entry-level jobs",
+      "link": "https://www.straitstimes.com/singapore/year-long-internships-offered-to-3000-tertiary-students-to-counter-ai-threat-to-entry-level-jobs",
+      "date": "2026-10-19T04:31:57Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Safety comes first for squishy toy fans, S’pore retailers amid rise in fakes",
+      "link": "https://www.straitstimes.com/singapore/safety-comes-first-for-squishy-toy-fans-spore-retailers-amid-rise-in-fakes",
+      "date": "2026-10-19T04:30:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "After years of frustration, Davidovich Fokina wins third title of 2026",
+      "link": "https://www.channelnewsasia.com/sport/after-years-frustration-davidovich-fokina-wins-third-title-2026-6470961",
+      "date": "2026-10-19T04:28:46Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Beijing's population expected to become super-aged by 2035",
+      "link": "https://www.channelnewsasia.com/east-asia/china-beijing-population-super-aged-2035-6470641",
+      "date": "2026-10-19T04:17:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "BTS' Arirang surpasses 5 billion Spotify streams as group hits 10 billion streams in a year",
+      "link": "https://www.channelnewsasia.com/entertainment/bts-arirang-spotify-2026-6470771",
+      "date": "2026-10-19T04:16:41Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "One year after Louvre heist, where are the missing jewels?",
+      "link": "https://www.channelnewsasia.com/world/france-louvre-jewel-heist-missing-6470926",
+      "date": "2026-10-19T04:15:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Honeymoon over for Wallabies coach Kiss after another bout of 'Bledis-woe'",
+      "link": "https://www.channelnewsasia.com/sport/honeymoon-over-wallabies-coach-kiss-after-another-bout-bledis-woe-6470906",
+      "date": "2026-10-19T04:07:07Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Most of YouTrip services down in Singapore, Thailand amid ‘major outage’",
+      "link": "https://www.straitstimes.com/singapore/most-of-youtrip-services-down-in-singapore-amid-major-outage",
+      "date": "2026-10-19T04:06:10Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Should Christian wives take their husband’s last name?",
+      "link": "https://www.christianpost.com/voices/should-christian-wives-take-their-husbands-last-name.html",
+      "date": "2026-10-19T04:00:59Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Man, 73, gets jail for raping, molesting underage daughter",
+      "link": "https://www.channelnewsasia.com/singapore/73-man-jail-rape-daughter-6470836",
+      "date": "2026-10-19T03:46:59Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Actress and model Kaia Gerber shares heartfelt tribute to late brother Presley",
+      "link": "https://www.channelnewsasia.com/entertainment/kaia-gerber-pays-tribute-brother-presley-6470806",
+      "date": "2026-10-19T03:42:29Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Andy Stanley sets exit plan from North Point Church",
+      "link": "https://baptistnews.com/article/andy-stanley-sets-exit-plan-from-north-point-church/",
+      "date": "2026-10-19T03:40:53Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "YouTrip faces ‘major outage’ across most services in Singapore and Thailand",
+      "link": "https://www.channelnewsasia.com/singapore/youtrip-major-outage-wallet-exchange-services-6470841",
+      "date": "2026-10-19T03:37:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Man to be charged after allegedly stealing wedding money box at hotel in Beach Road",
+      "link": "https://www.straitstimes.com/singapore/man-to-be-charged-after-allegedly-stealing-wedding-money-box-at-hotel-in-beach-road",
+      "date": "2026-10-19T03:05:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Singapore to host BTS THE CITY ARIRANG, first and only stop of citywide fan experience in S-E Asia",
+      "link": "https://www.straitstimes.com/singapore/singapore-to-host-bts-the-city-arirang-first-and-only-stop-of-city-wide-fan-experience-in-se-asia",
+      "date": "2026-10-19T01:26:45Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "ST Live: Major YouTrip outage, jail for 73-year-old man who raped and molested daughter",
+      "link": "https://www.straitstimes.com/singapore/st-live-news-as-it-happens5",
+      "date": "2026-10-18T23:40:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Haze situation in S’pore improves with ‘normal’ PM2.5 readings in all regions",
       "link": "https://www.straitstimes.com/singapore/haze-in-singapore-air-quality-improves-but-most-regions-remain-in-unhealthy-band",
       "date": "2026-10-18T22:15:27Z",
       "source": "Straits Times",
@@ -41,94 +153,17 @@
       "cat": "accountability"
     },
     {
-      "title": "Commentary: Could devastating Nepal floods catalyse action at climate talks?",
-      "link": "https://www.channelnewsasia.com/commentary/nepal-floods-climate-compensation-un-loss-damage-6465406",
-      "date": "2026-10-18T22:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "No easy gig: China's push to better protect platform workers faces hurdles",
-      "link": "https://www.channelnewsasia.com/east-asia/china-gig-workers-draft-rules-protection-6459661",
-      "date": "2026-10-18T22:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "CNA Explains: What workers and bosses need to know about the dismissal of pregnant staff",
-      "link": "https://www.channelnewsasia.com/singapore/cna-explains-fire-legitimate-pregnant-maternity-leave-6454801",
-      "date": "2026-10-18T22:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Commentary: Why have screens replaced socialising?",
-      "link": "https://www.channelnewsasia.com/commentary/cost-living-dining-out-nightlife-reading-social-interaction-6469516",
-      "date": "2026-10-18T21:59:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Andy Stanley to step down as pastor of North Point Community Church next year",
+      "title": "Andy Stanley to step down as head of North Point Community Church next year",
       "link": "https://www.christianpost.com/news/andy-stanley-to-step-down-as-senior-pastor-next-year.html",
       "date": "2026-10-18T21:50:54Z",
       "source": "Christian Post",
       "cat": "evangelical"
     },
     {
-      "title": "Australia's Challenger gets takeover bid from unit of Japan's Daiichi Life",
-      "link": "https://www.channelnewsasia.com/business/australias-challenger-gets-takeover-bid-unit-japans-daiichi-life-6470476",
-      "date": "2026-10-18T21:48:12Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Mbappe double helps Real Madrid sweep aside Sevilla ahead of El Clasico",
-      "link": "https://www.channelnewsasia.com/sport/mbappe-double-helps-real-madrid-sweep-aside-sevilla-ahead-el-clasico-6470441",
-      "date": "2026-10-18T21:17:27Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Danish duo fire high-flying Lazio to 3-0 win over Juventus",
-      "link": "https://www.channelnewsasia.com/sport/danish-duo-fire-high-flying-lazio-3-0-win-over-juventus-6470431",
-      "date": "2026-10-18T21:07:05Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "askST Jobs: My boss takes credit for my ideas and achievements. What can I do?",
-      "link": "https://www.straitstimes.com/singapore/jobs/askst-jobs-my-boss-takes-credit-for-my-ideas-and-achievements-what-can-i-do",
-      "date": "2026-10-18T21:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "SIA pilots could not avoid turbulence on 2025 flight that led to crew member fracturing ankle: Report",
       "link": "https://www.straitstimes.com/singapore/transport/sia-crew-member-fractures-ankle-on-manila-spore-flight-during-air-turbulence",
       "date": "2026-10-18T21:00:00Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Mirror life and why we should avoid creating it",
-      "link": "https://www.straitstimes.com/singapore/health/mirror-life-and-why-we-should-avoid-creating-it",
-      "date": "2026-10-18T21:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Singapore to step up surveillance of three infectious diseases from Oct 31",
-      "link": "https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31",
-      "date": "2026-10-18T21:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Why Singapore’s sake drinkers are moving beyond familiar brands",
-      "link": "https://www.channelnewsasia.com/experiences/singapore-sake-drinkers-trend-6451981",
-      "date": "2026-10-18T20:39:00Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -144,13 +179,6 @@
       "date": "2026-10-18T14:00:02Z",
       "source": "The Guardian — Religion",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Car crashes into private home in Katong, knocking down part of wall",
-      "link": "https://www.straitstimes.com/singapore/car-crashes-into-private-home-in-katong-knocking-down-part-of-wall",
-      "date": "2026-10-18T13:20:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Mangaluru Police arrest absconding priest for sexually abusing minor boy",
@@ -193,20 +221,6 @@
       "date": "2026-10-18T12:40:15Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
-    },
-    {
-      "title": "Personal mobility aid catches fire at Yishun HDB block, no injuries reported",
-      "link": "https://www.straitstimes.com/singapore/personal-mobility-aid-catches-fire-at-yishun-hdb-block-no-injuries-reported",
-      "date": "2026-10-18T12:24:42Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Malaysia’s Firefly cancels Seletar-Subang flights for 10th day due to haze",
-      "link": "https://www.straitstimes.com/singapore/malaysias-firefly-cancels-seletar-subang-flights-for-10th-day-due-to-haze",
-      "date": "2026-10-18T11:58:23Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Pope Leo tells faithful in St. Peter’s Square he will gradually resume duties after cancer surgery",
@@ -282,13 +296,6 @@
       "title": "Episcopal Church membership has dropped by nearly 350K since 2015",
       "link": "https://www.christianpost.com/news/episcopal-church-membership-dropped-by-nearly-350k-since-2015.html",
       "date": "2026-10-18T04:00:09Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "The untold story of Christian music: Who controls the worship songs we sing?",
-      "link": "https://www.christianpost.com/video/the-untold-story-of-who-controls-christian-worship-music.html",
-      "date": "2026-10-18T03:09:28Z",
       "source": "Christian Post",
       "cat": "evangelical"
     },
@@ -704,13 +711,6 @@
       "date": "2026-10-16T01:30:50Z",
       "source": "MinistryWatch",
       "cat": "accountability"
-    },
-    {
-      "title": "Is Trump making Russia great again?",
-      "link": "https://baptistnews.com/article/is-trump-making-russia-great-again/",
-      "date": "2026-10-16T00:54:03Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
     },
     {
       "title": "Bloomscrolling and the Christian Call to Guard Your Mind",
