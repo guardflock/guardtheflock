@@ -2,6 +2,51 @@
 
 Notable changes to Guard the Flock are recorded here. This project uses Semantic Versioning; see [README.md](README.md#versioning).
 
+## [8.2.0] - 2026-10-20
+
+### Changed
+- Added the cell/small-group Discussion Guide under Resources (it is retained in Warning Signs & Discernment for cross-reference).
+
+### Added
+- Added *A Church Called Tov* by Scot McKnight and Laura Barringer, the Logos Spiritual Abuse Recovery Guide, and Tears of Eden to Resources.
+
+## [8.2.1] - 2026-10-20
+
+### Changed
+- Consolidated the Resources/Discussion Guide updates with the audited link repairs into one release bundle.
+- Clarified publisher attribution and corrected the status notes in the link-audit handoff.
+
+## [8.1.0] - 2026-10-20
+
+### Changed
+- Corrected confirmed broken, mismatched, or unrelated external resource/case links based on the link audit.
+- Removed the missing social preview image declaration and set the canonical Open Graph URL to the GitHub Pages site.
+- Replaced dead archive paths with verified publisher pages/searches where appropriate; removed unsafe or unverified organization domains.
+- Added the complete `link-audit-report.md` handoff with status, limitations, and remaining human verification items.
+- Documented private FreshRSS as an optional discovery tool only; the public site remains manually curated with no auto-published feed.
+
+## [8.0.0] - 2026-10-20
+
+### Changed
+- Removed the automated Latest News tab and RSS pipeline so broad or unrelated headlines are not published automatically.
+- Retained the manually curated case-specific links in Documented Cases, including Roy's Report references.
+- Updated README and wiki guidance to describe the manual research and curation workflow.
+
+### Removed
+- Removed the feed generator, generated `data/news.json`, and scheduled RSS workflow.
+- Documented FreshRSS as an optional private reader for discovering candidate stories that are manually reviewed before being added as case links.
+
+## [7.5.0] - 2026-10-20
+
+### Changed
+- Repaired confirmed broken journalism/resource links and removed unrelated or unsafe destinations.
+- Replaced dead topic URLs with current search pages only where a relevant search is available; relabeled broad destinations honestly.
+- Replaced ProPublica's dead topic/series links with its live church-abuse investigation series.
+- Corrected the Open Graph canonical URL and removed the missing social preview image reference.
+
+### Removed
+- Removed links to the CFM loan site, unverified spiritual-abuse domain, and broken general-news/search destinations.
+
 ## [7.4.0] - 2026-10-15
 
 ### Changed

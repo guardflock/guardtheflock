@@ -9,11 +9,14 @@ This is educational material, not a complaints or church-rating platform. It doe
 ## Content care
 
 - Prefer established, independently published sources.
+- Manually curate specific case links in Documented Cases. A private RSS reader such as FreshRSS can help discover candidates, but review the original report before adding a link.
 - Attribute reporting and link directly to the publisher.
 - Do not convert an allegation into a statement of fact or guilt.
 - Use content warnings when links may contain descriptions of abuse.
 - Do not solicit or publish private survivor details.
 - Review contact details periodically; crisis and counselling information can change.
+- Audit external links periodically; distinguish confirmed broken links from publisher bot blocks, paywalls, or transient network failures. Do not replace a broken link with an unrelated general-news page.
+- Resources include a copy of the cell/small-group Discussion Guide, *A Church Called Tov*, the Logos recovery guide, and Tears of Eden. The guide also appears with the discernment framework. Check publishers/providers for current details.
 
 ## Contributing
 

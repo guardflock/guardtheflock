@@ -5,8 +5,7 @@ Welcome to the project guide for **Guard the Flock**, a free educational resourc
 ## Quick links
 
 - [About the project](About-the-project.md)
-- [Latest News operations](Latest-News-operations.md)
-- [Support and resource guidelines](Support-and-resource-guidelines.md)
+- [Support and case-curation guidelines](Support-and-resource-guidelines.md)
 - [Versioning and changelog](../../README.md#versioning)
 
 ## Live site and source
