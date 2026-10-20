@@ -1,4 +1,15 @@
-<title>Guard the Flock</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guard the Flock — Understanding Spiritual Abuse</title>
+<meta name="description" content="A free, public guide to understanding spiritual abuse — what it is, warning signs, how to discern healthy leadership, and where to find help.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Guard the Flock — Understanding Spiritual Abuse">
+<meta property="og:description" content="A free resource for understanding spiritual abuse — warning signs, a biblical discernment framework, documented cases, and crisis support.">
+<meta property="og:image" content="https://guardtheflock.netlify.app/og-cover.png">
+<meta property="og:url" content="https://guardtheflock.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Guard the Flock — Understanding Spiritual Abuse">
+<meta name="twitter:description" content="A free resource for understanding spiritual abuse — warning signs, a biblical discernment framework, documented cases, and crisis support.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap">
 
 <style>
@@ -436,6 +447,119 @@ a:hover { color: var(--accent); }
 .nf-btn:hover { background: var(--bg-alt); color: var(--fg); }
 .nf-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 
+/* ── Discernment section ──────────────────────────────────────────────────── */
+.discern-intro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 24px 0 32px;
+}
+.discern-stage {
+  border-radius: 10px;
+  padding: 18px 16px;
+  text-align: center;
+}
+.discern-stage .ds-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: .85rem;
+  margin-bottom: 8px;
+}
+.discern-stage .ds-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: .95rem;
+  display: block;
+  margin-bottom: 6px;
+}
+.discern-stage .ds-body {
+  font-size: .82rem;
+  color: var(--fg-muted);
+  line-height: 1.5;
+}
+.ds-good  { background: var(--safe-bg);  border: 1px solid var(--safe-border); }
+.ds-good  .ds-num { background: var(--safe-border); color: #fff; }
+.ds-warn  { background: var(--warn-bg);  border: 1px solid var(--warn-border); }
+.ds-warn  .ds-num { background: var(--warn-border); color: #fff; }
+.ds-taste { background: var(--accent-soft); border: 1px solid var(--accent); }
+.ds-taste .ds-num { background: var(--accent); color: #fff; }
+
+.four-tests {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin: 20px 0 28px;
+}
+.test-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 16px;
+}
+.test-card .tc-label {
+  font-family: 'Inter', sans-serif;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.test-card .tc-q {
+  font-size: .88rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 10px;
+  color: var(--fg);
+}
+.test-card .tc-verses {
+  font-size: .72rem;
+  color: var(--fg-muted);
+  font-style: italic;
+}
+.fruit-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 24px;
+}
+.fruit-tag {
+  background: var(--safe-bg);
+  border: 1px solid var(--safe-border);
+  color: var(--safe-border);
+  font-family: 'Inter', sans-serif;
+  font-size: .78rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+.scripture-pull {
+  border-left: 3px solid var(--accent);
+  padding: 14px 18px;
+  background: var(--bg-alt);
+  border-radius: 0 8px 8px 0;
+  margin: 20px 0;
+  font-style: italic;
+  font-size: .9rem;
+  line-height: 1.65;
+  color: var(--fg);
+}
+.scripture-pull cite {
+  display: block;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: 8px;
+}
+
 /* ── Footer ──────────────────────────────────────────────────────────────── */
 footer {
   padding-block: 32px 40px;
@@ -467,7 +591,7 @@ footer {
   <!-- Navigation -->
   <nav class="nav-tabs" role="tablist" aria-label="Guide sections">
     <button class="nav-tab active" role="tab" aria-selected="true" data-tab="what">What Is It?</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="signs">Warning Signs</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="signs">Warning Signs &amp; Discernment</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">How to Respond</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="resources">Resources</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="cases">Documented Cases</button>
@@ -595,6 +719,143 @@ footer {
         </div>
       </li>
     </ul>
+
+    <!-- ── Discernment section ── -->
+    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">Spiritual discernment</p>
+    <h3 style="font-size: 1.4rem; margin-bottom: 10px;">How to Test the Fruit</h3>
+
+    <div class="scripture-pull">
+      "Watch out for false prophets. They come to you in sheep's clothing, but inwardly they are ferocious wolves. By their fruit you will recognise them."
+      <cite>Matthew 7:15–16</cite>
+    </div>
+
+    <p style="font-size: .92rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 24px;">
+      Scripture calls every believer to discern — not just pastors or elders. This is not suspicion or cynicism; it is faithful stewardship of your spiritual life. The test of a tree is its fruit, but fruit takes time to ripen. Harmful patterns rarely announce themselves. They emerge gradually, under pressure, and across repeated situations. Here is a practical framework for evaluating a spiritual environment wisely.
+    </p>
+
+    <div class="discern-intro">
+      <div class="discern-stage ds-good">
+        <span class="ds-num">1</span>
+        <span class="ds-title">Looks Good</span>
+        <span class="ds-body">A new church or leader may appear fruitful, gifted, and anointed. First impressions can genuinely be good — this is normal. Healthy communities exist.</span>
+      </div>
+      <div class="discern-stage ds-warn">
+        <span class="ds-num">2</span>
+        <span class="ds-title">Something Feels Off</span>
+        <span class="ds-body">Over time, small things accumulate — a reaction that didn't sit right, a silenced question, a pattern in who gets shamed. Pay attention. Your unease is data.</span>
+      </div>
+      <div class="discern-stage ds-taste">
+        <span class="ds-num">3</span>
+        <span class="ds-title">Taste and See</span>
+        <span class="ds-body">Now apply deliberate tests. Scripture gives us four dimensions to examine — not to judge, but to exercise the discernment God calls us to.</span>
+      </div>
+    </div>
+
+    <p style="font-size: .78rem; color: var(--fg-muted); margin-bottom: 20px;">
+      <em>"But solid food is for the mature, who by constant use have trained themselves to distinguish good from evil." — Hebrews 5:14</em>
+    </p>
+
+    <h4 style="font-family: 'Inter', sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--fg-muted); margin-bottom: 14px;">4 Tests for a Spiritual Leader</h4>
+
+    <div class="four-tests">
+      <div class="test-card">
+        <div class="tc-label">① Gospel</div>
+        <div class="tc-q">Are they faithful to the orthodox gospel and the full counsel of Scripture? Or do they emphasise only a narrow expression?</div>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">A healthy teacher does not cherry-pick comforting passages and ignore hard ones. Watch for selective theology that always serves the leader's agenda.</p>
+        <div class="tc-verses">Galatians 1:6–9 · 1 John 4:1–6</div>
+      </div>
+      <div class="test-card">
+        <div class="tc-label">② Character</div>
+        <div class="tc-q">Does their life reflect Christlike self-denial, humility, meekness, truthfulness and self-sacrifice?</div>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">Competence can be performed. Character is revealed in how a leader behaves when they don't get their way, when they are corrected, and how they treat the powerless.</p>
+        <div class="tc-verses">Titus 1:5–9 · 1 Timothy 3:1–7</div>
+      </div>
+      <div class="test-card">
+        <div class="tc-label">③ Influence</div>
+        <div class="tc-q">Is their leadership open, trusting, and cooperative? Or opaque, cliquish, possessive, territorial, and suspicious of outsiders?</div>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">Shepherds draw people toward God and toward community. Leaders who become gatekeepers between you and God, or between you and your family, are misusing their role.</p>
+        <div class="tc-verses">Acts 20:28–31 · 2 Corinthians 11:19–20</div>
+      </div>
+      <div class="test-card">
+        <div class="tc-label">④ Accountability</div>
+        <div class="tc-q">Are they themselves under authority? Can they be corrected? Is their leadership positively peer-reviewed by other credible leaders?</div>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">No healthy leader operates alone. A genuine shepherd welcomes outside accountability. Resistance to oversight is one of the strongest predictors of abuse.</p>
+        <div class="tc-verses">Proverbs 11:14, 12:1 · Matthew 18:15–17</div>
+      </div>
+    </div>
+
+    <div class="warn-box" style="margin-bottom: 28px;">
+      <strong>A word of caution:</strong> Bad fruit does not always show quickly. It takes time, pressure, and repeated situations to become visible. Do not rush to condemn based on one incident, and do not dismiss a pattern because you have also seen good. Jesus said <em>"by their fruit you will recognise them"</em> — fruit, not a single act.
+    </div>
+
+    <h4 style="font-family: 'Inter', sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--fg-muted); margin-bottom: 12px;">What Good Fruit Looks Like</h4>
+    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 14px;">The benchmark is not charisma, crowd size, or miracles. Scripture describes good fruit in relational and character terms — traits that cannot be faked indefinitely (Galatians 5:22–23):</p>
+    <div class="fruit-grid">
+      <span class="fruit-tag">Love</span>
+      <span class="fruit-tag">Joy</span>
+      <span class="fruit-tag">Peace</span>
+      <span class="fruit-tag">Patience</span>
+      <span class="fruit-tag">Kindness</span>
+      <span class="fruit-tag">Goodness</span>
+      <span class="fruit-tag">Faithfulness</span>
+      <span class="fruit-tag">Gentleness</span>
+      <span class="fruit-tag">Self-control</span>
+    </div>
+    <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.65; margin-bottom: 4px;">
+      Ask: does time spent with this leader <em>increase</em> these qualities in the people around them — including those who have left, those who challenge them, and those with no status to offer? Or does the community become more anxious, more dependent, and more isolated from the wider body of Christ?
+    </p>
+
+    <div class="scripture-pull" style="margin-top: 24px;">
+      "Dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world."
+      <cite>1 John 4:1</cite>
+    </div>
+
+    <!-- ── Discussion Guide ── -->
+    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">For cell groups &amp; small groups</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Discussion Guide</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 22px;">
+      Use these questions to open a conversation in your cell group or small group. You do not need to have experienced spiritual abuse to benefit — developing discernment is a normal part of spiritual maturity. Take one or two questions per session rather than rushing through all five.
+    </p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-body">
+          <strong>How do you personally know when something is spiritually "off"?</strong>
+          <p>Share a time you had a gut feeling something wasn't right in a spiritual environment. What did you notice, and how did you respond? What would you do differently now?</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Apply the 4 Tests to a leader you trust.</strong>
+          <p>Using Gospel, Character, Influence, and Accountability as your framework, describe what good fruit looks like in a leader you respect. Which of the four is hardest to evaluate honestly, and why?</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>What makes it hard to raise concerns in a church?</strong>
+          <p>Read Matthew 18:15–17. What structures or attitudes make correction feel unsafe? What would a community that genuinely welcomed accountability look like in practice?</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>How would you respond if someone came to you with concerns about their church?</strong>
+          <p>What would you say? What questions would you ask? What would you be careful <em>not</em> to do? Role-play the conversation in pairs.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>What fruit are you producing?</strong>
+          <p>Hebrews 5:14 says discernment is trained through "constant use." In what area of your own leadership or relationships could you grow in gentleness, truthfulness, or accountability? Pray in pairs for one specific area.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner safe" style="margin-top: 24px;">
+      <strong>If this conversation surfaces real concerns:</strong> Move to the <strong>How to Respond</strong> tab for practical next steps. If someone in your group is in an unsafe situation, the <strong>Get Help</strong> tab has direct crisis contacts.
+    </div>
+
   </section>
 
   <!-- ── Tab: How to Respond ────────────────────────────────────────────── -->
@@ -654,6 +915,32 @@ footer {
       <li>Bring in an independent external reviewer for serious allegations.</li>
       <li>Prioritise the safety of the affected person over the reputation of the institution.</li>
     </ul>
+
+    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
+    <h3 style="font-size: 1.1rem; margin-bottom: 10px;">Used the 4 Tests and something is wrong?</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 16px;">
+      If you applied the discernment framework in the <strong>Warning Signs &amp; Discernment</strong> tab and you are now more certain that something is wrong, the steps below are your practical path forward. You do not have to act on everything at once.
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 8px;">
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">First</div>
+        <strong style="font-size: .88rem;">Name it privately</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Write down what you observed, when, and who was affected. Having language for it matters — look at the Warning Signs list.</p>
+      </div>
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Second</div>
+        <strong style="font-size: .88rem;">Talk to someone outside</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">A trusted friend, family member, or counsellor not connected to the community. Your perspective needs an outside check before you act.</p>
+      </div>
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Third</div>
+        <strong style="font-size: .88rem;">Escalate appropriately</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Follow Matthew 18 process where safe to do so. For criminal matters, go directly to civil authorities — do not wait for internal church processes.</p>
+      </div>
+    </div>
+    <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 12px;">
+      If you or someone you know is in immediate distress, go straight to the <strong>Get Help</strong> tab for direct crisis contacts.
+    </p>
   </section>
 
   <!-- ── Tab: Resources ─────────────────────────────────────────────────── -->
