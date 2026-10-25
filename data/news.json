@@ -1,64 +1,113 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T19:05:24.277306Z",
+  "updatedAt": "2026-10-25T22:36:16.299953Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Religion News Service",
-    "Christianity Today",
     "Spiritual Sounding Board",
+    "Christianity Today",
+    "Religion News Service",
     "Baptist News Global",
-    "The Guardian — Religion",
-    "The Wartburg Watch",
-    "Christian Post",
     "Christian Headlines",
-    "National Catholic Reporter",
+    "The Wartburg Watch",
+    "The Guardian — Religion",
+    "Christian Post",
     "Crux — Catholic News",
+    "National Catholic Reporter",
     "Surviving Church",
-    "Channel NewsAsia",
     "The Roys Report",
+    "Channel NewsAsia",
     "Straits Times",
     "Charisma News",
-    "ECA Global",
-    "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
+    "MinistryWatch",
+    "ECA Global",
     "Relevant Magazine"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "UK's Burnham says he is open to discussing EU free movement",
-      "link": "https://www.channelnewsasia.com/world/uks-burnham-says-he-open-discussing-eu-free-movement-6491281",
-      "date": "2026-10-25T18:46:21Z",
+      "title": "Australia's NEXTDC CEO to forgo fiscal 2027 bonuses after forecast cut, project delay",
+      "link": "https://www.channelnewsasia.com/business/australias-nextdc-ceo-forgo-fiscal-2027-bonuses-after-forecast-cut-project-delay-6491626",
+      "date": "2026-10-25T22:25:14Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Winless United leave Carrick hanging by a thread after Bournemouth loss",
-      "link": "https://www.channelnewsasia.com/sport/winless-united-leave-carrick-hanging-thread-after-bournemouth-loss-6491376",
-      "date": "2026-10-25T18:42:02Z",
+      "title": "Real Madrid defeat Barcelona at Camp Nou to halve gap to LaLiga leaders",
+      "link": "https://www.channelnewsasia.com/sport/real-madrid-defeat-barcelona-camp-nou-halve-gap-laliga-leaders-6491606",
+      "date": "2026-10-25T22:14:09Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "NFL-Paris game played in festive atmosphere after fresh demonstrations",
-      "link": "https://www.channelnewsasia.com/sport/nfl-paris-game-played-in-festive-atmosphere-after-fresh-demonstrations-6491356",
-      "date": "2026-10-25T18:19:03Z",
+      "title": "Beyond bold statements: The evolving design philosophy of Singapore designer Colin Seah",
+      "link": "https://www.channelnewsasia.com/people/colin-seah-ministry-design-singapore-6481671",
+      "date": "2026-10-25T22:11:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Trump campaigns in Michigan a day after Obama rallies Democrats",
-      "link": "https://www.channelnewsasia.com/world/trump-campaigns-in-michigan-day-after-obama-rallies-democrats-6490341",
-      "date": "2026-10-25T17:52:00Z",
+      "title": "Haze in Singapore: Normal PM2.5 readings and good to moderate 24-hour PSI islandwide",
+      "link": "https://www.straitstimes.com/singapore/environment/haze-in-singapore-normal-pm2-5-readings-and-good-to-moderate-24-hour-psi-islandwide",
+      "date": "2026-10-25T22:10:49Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Commentary: Why work from home doesn’t mean work from anywhere",
+      "link": "https://www.channelnewsasia.com/commentary/work-home-not-anywhere-employers-policy-6487366",
+      "date": "2026-10-25T22:00:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Swashbuckling Liverpool seize their moment in 2-0 win over Brighton",
-      "link": "https://www.channelnewsasia.com/sport/swashbuckling-liverpool-seize-their-moment-in-2-0-win-over-brighton-6490801",
-      "date": "2026-10-25T17:39:23Z",
+      "title": "Not every maritime threat needs a warship: Why Singapore is turning to offshore patrol vessels",
+      "link": "https://www.channelnewsasia.com/singapore/singapore-navy-warship-offshore-patrol-vessel-maritime-security-6478186",
+      "date": "2026-10-25T22:00:00Z",
       "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Antonelli wins US Grand Prix but must wait for title",
+      "link": "https://www.channelnewsasia.com/sport/antonelli-wins-us-grand-prix-must-wait-title-6491576",
+      "date": "2026-10-25T21:52:31Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Brazil pauses presidential vote count after Supreme Court extends voting hours",
+      "link": "https://www.channelnewsasia.com/world/brazil-pauses-presidential-vote-count-after-supreme-court-extends-voting-hours-6490261",
+      "date": "2026-10-25T21:50:10Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Storms batter Europe hitting power supplies, flights and phones",
+      "link": "https://www.channelnewsasia.com/world/storms-batter-europe-hitting-power-supplies-flights-and-phones-6491546",
+      "date": "2026-10-25T21:31:12Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "More than fixing things: Singapore’s volunteer-led movement builds community muscle",
+      "link": "https://www.straitstimes.com/singapore/more-than-fixing-things-singapores-volunteer-led-movement-builds-community-muscle",
+      "date": "2026-10-25T21:30:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "askST Jobs: My colleagues get more flexibility because of family commitments. What about me?",
+      "link": "https://www.straitstimes.com/singapore/jobs/askst-jobs-my-colleagues-get-more-flexibility-because-of-family-commitments-what-about-me",
+      "date": "2026-10-25T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Blue oasis in a shipping lane",
+      "link": "https://www.straitstimes.com/singapore/environment/blue-oasis-in-a-shipping-lane",
+      "date": "2026-10-25T21:00:00Z",
+      "source": "Straits Times",
       "cat": "asia"
     },
     {
@@ -76,13 +125,6 @@
       "cat": "catholic"
     },
     {
-      "title": "Liverpool grab home win, Man United slump to another defeat as pressure mounts on Carrick",
-      "link": "https://www.channelnewsasia.com/sport/liverpool-grab-home-win-man-united-slump-another-defeat-pressure-mounts-carrick-6490731",
-      "date": "2026-10-25T16:15:50Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Milwaukee archbishop who prayed with Trump apologizes, says bishops were 'manipulated'",
       "link": "https://www.ncronline.org/news/milwaukee-archbishop-who-prayed-trump-apologizes-says-bishops-were-manipulated-white-house",
       "date": "2026-10-25T15:26:55Z",
@@ -94,13 +136,6 @@
       "link": "https://www.straitstimes.com/singapore/nsf-arrested-after-sneaking-into-female-toilet-and-jumping-from-building-to-evade-officers",
       "date": "2026-10-25T15:01:47Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Rallying-Dakar Rally 2027 will not be held in Saudi Arabia, organisers say",
-      "link": "https://www.channelnewsasia.com/sport/rallying-dakar-rally-2027-will-not-be-held-in-saudi-arabia-organisers-say-6490676",
-      "date": "2026-10-25T15:00:36Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -146,30 +181,9 @@
       "cat": "accountability"
     },
     {
-      "title": "Alpine skiing-Brazil's Pinheiro Braathen wins season-opening men's giant slalom",
-      "link": "https://www.channelnewsasia.com/sport/alpine-skiing-brazils-pinheiro-braathen-wins-season-opening-mens-giant-slalom-6490591",
-      "date": "2026-10-25T13:39:22Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Pre-school teacher who overcame childhood abuse among 11 awarded President’s Challenge fellowships",
       "link": "https://www.straitstimes.com/singapore/parenting-education/preschool-teacher-who-overcame-childhood-abuse-among-11-awarded-presidents-challenge-fellowships",
       "date": "2026-10-25T12:30:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "PSI forecast to be in ‘good to moderate’ range on Oct 26; showers over S’pore may reduce haze",
-      "link": "https://www.straitstimes.com/singapore/psi-forecast-to-be-in-good-to-moderate-range-on-oct-26-showers-over-spore-may-reduce-haze",
-      "date": "2026-10-25T12:03:35Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Nursing home staff to be trained in end-of-life care under Dover Park Hospice, NTUC Health tie-up",
-      "link": "https://www.straitstimes.com/singapore/health/nursing-home-staff-to-be-trained-in-end-of-life-care-under-dover-park-hospice-ntuc-health-tie-up",
-      "date": "2026-10-25T12:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
@@ -200,20 +214,6 @@
       "date": "2026-10-25T11:29:48Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Motorists advised to avoid areas in Jurong West over risk of flash floods",
-      "link": "https://www.straitstimes.com/singapore/motorists-advised-to-avoid-part-of-jalan-boon-lay-over-risk-of-flash-floods",
-      "date": "2026-10-25T10:49:19Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "SAF puts mobile anti-drone system and airborne 5G network to the test at Exercise Wallaby",
-      "link": "https://www.straitstimes.com/singapore/saf-puts-mobile-anti-drone-system-and-airborne-5g-network-to-the-test-at-exercise-wallaby",
-      "date": "2026-10-25T10:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Democrat Senate Candidates Refuse to Tell Voters Where They Stand on Packing the Supreme Court",
