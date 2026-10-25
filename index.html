@@ -1,0 +1,2228 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guard the Flock — Understanding Spiritual Abuse</title>
+<meta name="description" content="A free, public guide to understanding spiritual abuse — what it is, warning signs, how to discern healthy leadership, and where to find help.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Guard the Flock — Understanding Spiritual Abuse">
+<meta property="og:description" content="A free resource for understanding spiritual abuse — warning signs, a biblical discernment framework, documented cases, and crisis support.">
+<meta property="og:image" content="https://guardtheflock.netlify.app/og-cover.png">
+<meta property="og:url" content="https://guardtheflock.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Guard the Flock — Understanding Spiritual Abuse">
+<meta name="twitter:description" content="A free resource for understanding spiritual abuse — warning signs, a biblical discernment framework, documented cases, and crisis support.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap">
+
+<style>
+/* ── Design tokens ──────────────────────────────────────────────────────────
+   Layout: single-column editorial, wide reading column, section dividers
+   Color: deep chapel navy + warm parchment + crimson accent
+   Type: Lora display/body (gravitas, trust), Inter utility
+   ─────────────────────────────────────────────────────────────────────────── */
+:root {
+  --bg:          #F7F4EF;
+  --bg-alt:      #EDE8E0;
+  --fg:          #1C1916;
+  --fg-muted:    #5C5550;
+  --accent:      #8B1C2E;
+  --accent-soft: #F0D8DC;
+  --border:      #D4CCC2;
+  --card-bg:     #FFFFFF;
+  --link:        #5C2A35;
+  --warn-bg:     #FFF8E1;
+  --warn-border: #D4A017;
+  --safe-bg:     #E8F4EC;
+  --safe-border: #2E7D52;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:          #141210;
+    --bg-alt:      #1E1C19;
+    --fg:          #EDE8E0;
+    --fg-muted:    #9C9590;
+    --accent:      #C94B60;
+    --accent-soft: #2D1318;
+    --border:      #302C28;
+    --card-bg:     #1C1916;
+    --link:        #E07080;
+    --warn-bg:     #2A2410;
+    --warn-border: #C49020;
+    --safe-bg:     #0E2218;
+    --safe-border: #3E9D62;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg:          #141210;
+  --bg-alt:      #1E1C19;
+  --fg:          #EDE8E0;
+  --fg-muted:    #9C9590;
+  --accent:      #C94B60;
+  --accent-soft: #2D1318;
+  --border:      #302C28;
+  --card-bg:     #1C1916;
+  --link:        #E07080;
+  --warn-bg:     #2A2410;
+  --warn-border: #C49020;
+  --safe-bg:     #0E2218;
+  --safe-border: #3E9D62;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  padding-inline: 20px;
+  padding-block: 0;
+}
+
+/* ── Typographic scale ───────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: 'Lora', Georgia, serif;
+  text-wrap: balance;
+  line-height: 1.25;
+}
+h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 600; margin: 0; }
+h2 { font-size: clamp(1.25rem, 3vw, 1.6rem); font-weight: 600; margin: 0 0 0.75rem; }
+h3 { font-size: 1.1rem; font-weight: 600; margin: 0 0 0.5rem; }
+h4 { font-size: 0.95rem; font-weight: 600; font-style: italic; margin: 0 0 0.25rem; }
+
+p { margin: 0 0 1rem; }
+p:last-child { margin-bottom: 0; }
+a { color: var(--link); }
+a:hover { color: var(--accent); }
+
+.eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* ── Layout wrapper ──────────────────────────────────────────────────────── */
+.page-wrap {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+/* ── Header / Hero ───────────────────────────────────────────────────────── */
+.site-header {
+  padding-block: 48px 36px;
+  border-bottom: 2px solid var(--accent);
+}
+.site-header .eyebrow { margin-bottom: 12px; }
+.site-header p {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--fg-muted);
+  max-width: 56ch;
+  margin-top: 14px;
+}
+
+/* ── Nav tabs ────────────────────────────────────────────────────────────── */
+.nav-tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding-block: 20px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  background: var(--bg);
+  z-index: 10;
+}
+.nav-tab {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--fg-muted);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.nav-tab:hover { background: var(--bg-alt); color: var(--fg); }
+.nav-tab.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* ── Sections ────────────────────────────────────────────────────────────── */
+.section { padding-block: 40px; border-bottom: 1px solid var(--border); display: none; }
+.section.active { display: block; }
+
+/* ── Warning banner ──────────────────────────────────────────────────────── */
+.banner {
+  border-left: 4px solid var(--warn-border);
+  background: var(--warn-bg);
+  padding: 14px 18px;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 28px;
+  font-size: 0.9rem;
+}
+.banner.safe {
+  border-left-color: var(--safe-border);
+  background: var(--safe-bg);
+}
+.banner strong { color: var(--fg); }
+
+/* ── Cards ───────────────────────────────────────────────────────────────── */
+.card-grid, .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* ── Warn box (used in Documented Cases tab) ─────────────────────────────── */
+.warn-box {
+  border-left: 4px solid var(--warn-border);
+  background: var(--warn-bg);
+  padding: 14px 18px;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.9rem;
+}
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+.card .card-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.card p { font-size: 0.9rem; color: var(--fg-muted); }
+
+/* ── Sign list ───────────────────────────────────────────────────────────── */
+.signs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.signs-list li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.sign-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+.sign-text strong { display: block; font-size: 0.95rem; margin-bottom: 2px; }
+.sign-text span { font-size: 0.875rem; color: var(--fg-muted); }
+
+/* ── Resource links ──────────────────────────────────────────────────────── */
+.resource-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+.resource-item {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.resource-info { min-width: 0; flex: 1; }
+.resource-info h4 { color: var(--fg); }
+.resource-info p { font-size: 0.875rem; color: var(--fg-muted); margin-top: 2px; }
+.resource-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.tag-book   { background: var(--accent-soft); color: var(--accent); }
+.tag-org    { background: var(--safe-bg); color: var(--safe-border); }
+.tag-news   { background: var(--warn-bg); color: #7A6010; }
+.tag-site   { background: var(--bg-alt); color: var(--fg-muted); }
+.tag-my     { background: #E8F0FB; color: #1A3F8F; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag-my { background: #0D1A33; color: #7AABF5; } }
+:root[data-theme="dark"] .tag-my { background: #0D1A33; color: #7AABF5; }
+
+/* ── Help / crisis contacts ──────────────────────────────────────────────── */
+.help-region { margin-bottom: 36px; }
+.help-region h3 { margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.region-flag { font-size: 1.2rem; }
+.hotline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+.hotline-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.hotline-card .hc-name { font-weight: 600; font-size: 0.95rem; margin-bottom: 2px; }
+.hotline-card .hc-scope { font-size: 0.78rem; color: var(--fg-muted); margin-bottom: 8px; }
+.hotline-card .hc-number {
+  font-family: 'Lora', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+.hotline-card .hc-note { font-size: 0.8rem; color: var(--fg-muted); margin-top: 4px; }
+.hotline-card .hc-link { font-size: 0.82rem; display: block; margin-top: 6px; }
+
+/* ── Steps ───────────────────────────────────────────────────────────────── */
+.steps { counter-reset: step; display: flex; flex-direction: column; gap: 16px; margin-top: 20px; }
+.step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+.step::before {
+  counter-increment: step;
+  content: counter(step);
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step-body strong { display: block; margin-bottom: 4px; }
+.step-body p { font-size: 0.875rem; color: var(--fg-muted); margin: 0; }
+
+/* ── Quote block ─────────────────────────────────────────────────────────── */
+.pull-quote {
+  border-left: 3px solid var(--accent);
+  padding: 12px 20px;
+  margin: 28px 0;
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--fg-muted);
+}
+
+/* ── Accordion ───────────────────────────────────────────────────────────── */
+.faq { display: flex; flex-direction: column; gap: 8px; margin-top: 20px; }
+.faq-item { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.faq-q {
+  width: 100%;
+  background: var(--card-bg);
+  border: none;
+  padding: 14px 18px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--fg);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.faq-q:hover { background: var(--bg-alt); }
+.faq-q .chevron { transition: transform 0.2s; flex-shrink: 0; color: var(--fg-muted); }
+.faq-q[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+.faq-a {
+  display: none;
+  padding: 0 18px 14px;
+  background: var(--card-bg);
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+}
+.faq-a.open { display: block; }
+
+/* ── News feed ───────────────────────────────────────────────────────────── */
+.news-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 12px;
+  align-items: start;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+.news-item:hover { background: var(--bg-alt); }
+.news-item a {
+  font-size: .9rem;
+  font-weight: 500;
+  color: var(--fg);
+  text-decoration: none;
+  line-height: 1.4;
+  grid-column: 1;
+}
+.news-item a:hover { color: var(--accent); text-decoration: underline; }
+.news-meta {
+  font-size: .75rem;
+  color: var(--fg-muted);
+  grid-column: 1;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.news-source-tag {
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  white-space: nowrap;
+}
+.news-age { color: var(--fg-muted); }
+.news-author { color: var(--fg-muted); }
+.news-section-head {
+  font-family: 'Inter', sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  padding: 18px 0 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 4px;
+}
+/* filter buttons */
+.nf-btn {
+  padding: 5px 13px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--fg-muted);
+  font-family: 'Inter', sans-serif;
+  font-size: .78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.nf-btn:hover { background: var(--bg-alt); color: var(--fg); }
+.nf-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ── Discernment section ──────────────────────────────────────────────────── */
+.discern-intro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 24px 0 32px;
+}
+.discern-stage {
+  border-radius: 10px;
+  padding: 18px 16px;
+  text-align: center;
+}
+.discern-stage .ds-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: .85rem;
+  margin-bottom: 8px;
+}
+.discern-stage .ds-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: .95rem;
+  display: block;
+  margin-bottom: 6px;
+}
+.discern-stage .ds-body {
+  font-size: .82rem;
+  color: var(--fg-muted);
+  line-height: 1.5;
+}
+.ds-good  { background: var(--safe-bg);  border: 1px solid var(--safe-border); }
+.ds-good  .ds-num { background: var(--safe-border); color: #fff; }
+.ds-warn  { background: var(--warn-bg);  border: 1px solid var(--warn-border); }
+.ds-warn  .ds-num { background: var(--warn-border); color: #fff; }
+.ds-taste { background: var(--accent-soft); border: 1px solid var(--accent); }
+.ds-taste .ds-num { background: var(--accent); color: #fff; }
+
+.four-tests {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+  margin: 20px 0 28px;
+}
+.test-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 16px;
+}
+.test-card .tc-label {
+  font-family: 'Inter', sans-serif;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.test-card .tc-q {
+  font-size: .88rem;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 10px;
+  color: var(--fg);
+}
+.test-card .tc-verses {
+  font-size: .72rem;
+  color: var(--fg-muted);
+  font-style: italic;
+}
+.fruit-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 24px;
+}
+.fruit-tag {
+  background: var(--safe-bg);
+  border: 1px solid var(--safe-border);
+  color: var(--safe-border);
+  font-family: 'Inter', sans-serif;
+  font-size: .78rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+.scripture-pull {
+  border-left: 3px solid var(--accent);
+  padding: 14px 18px;
+  background: var(--bg-alt);
+  border-radius: 0 8px 8px 0;
+  margin: 20px 0;
+  font-style: italic;
+  font-size: .9rem;
+  line-height: 1.65;
+  color: var(--fg);
+}
+.scripture-pull cite {
+  display: block;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: 8px;
+}
+
+/* ── Decision Tree ───────────────────────────────────────────────────────── */
+.dtree { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 28px; margin-top: 24px; }
+.dtree-start { text-align: center; background: var(--accent); color: #fff; border-radius: 8px; padding: 14px 20px; font-weight: 700; font-size: 1rem; margin-bottom: 20px; }
+.dtree-row { display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+.dtree-question { flex: 1 1 220px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; font-size: .875rem; }
+.dtree-question strong { display: block; font-size: .82rem; color: var(--fg-muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+.dtree-arrow { color: var(--accent); font-weight: 700; align-self: center; font-size: 1.1rem; }
+.dtree-dest { flex: 1 1 160px; background: var(--accent); color: #fff; border-radius: 8px; padding: 10px 14px; font-size: .82rem; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+
+/* ── Pattern Cards (Wolves tab) ──────────────────────────────────────────── */
+.pattern-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; margin-top: 24px; }
+.pattern-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.pattern-card .p-icon { font-size: 1.6rem; margin-bottom: 8px; }
+.pattern-card h4 { font-size: .95rem; font-weight: 700; margin: 0 0 6px; color: var(--fg); }
+.pattern-card p { font-size: .82rem; color: var(--fg-muted); margin: 0 0 10px; line-height: 1.55; }
+.pattern-card .p-verse { font-size: .75rem; color: var(--accent); font-weight: 600; letter-spacing: .04em; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 8px; }
+.pattern-card .p-looks { font-size: .78rem; color: var(--fg); background: var(--surface); border-radius: 6px; padding: 8px 10px; margin-top: 6px; }
+
+/* ── Leaders Self-Audit ──────────────────────────────────────────────────── */
+.audit-list { list-style: none; padding: 0; margin: 16px 0; display: flex; flex-direction: column; gap: 10px; }
+.audit-list li { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; font-size: .875rem; display: flex; gap: 12px; align-items: flex-start; line-height: 1.5; }
+.audit-list li::before { content: "□"; font-size: 1.1rem; color: var(--accent); flex-shrink: 0; margin-top: 1px; }
+
+/* ── Bible Study Curriculum ──────────────────────────────────────────────── */
+.study-session { background: var(--card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+.study-session-header { padding: 18px 20px; display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; cursor: pointer; user-select: none; }
+.study-session-header:hover { background: var(--surface); }
+.study-session-num { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+.study-session-title { font-size: 1rem; font-weight: 700; color: var(--fg); margin: 0; }
+.study-session-meta { font-size: .78rem; color: var(--fg-muted); margin-top: 4px; }
+.study-session-toggle { color: var(--accent); font-size: 1.3rem; flex-shrink: 0; transition: transform .2s; }
+.study-session[data-open="true"] .study-session-toggle { transform: rotate(180deg); }
+.study-session-body { display: none; padding: 0 20px 20px; border-top: 1px solid var(--border); }
+.study-session[data-open="true"] .study-session-body { display: block; }
+.study-block { margin-top: 16px; }
+.study-block h5 { font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); margin: 0 0 8px; }
+.study-q { background: var(--surface); border-radius: 8px; padding: 12px 14px; font-size: .85rem; margin-bottom: 8px; line-height: 1.55; }
+.study-q strong { color: var(--fg); display: block; margin-bottom: 4px; }
+.study-q .hint { font-size: .78rem; color: var(--fg-muted); margin-top: 6px; }
+.study-redflag { background: #fff3cd; border: 1px solid #f5c842; border-radius: 8px; padding: 14px 16px; font-size: .85rem; margin-top: 12px; line-height: 1.55; }
+.study-redflag strong { display: block; color: #856404; margin-bottom: 4px; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
+@media (prefers-color-scheme: dark) { .study-redflag { background: #3d2f00; border-color: #7a6000; } .study-redflag strong { color: #ffd166; } }
+.study-nextstep { background: var(--card); border-left: 3px solid var(--accent); padding: 12px 16px; border-radius: 0 8px 8px 0; font-size: .85rem; margin-top: 12px; }
+.study-nextstep strong { display: block; font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin-bottom: 4px; }
+
+/* ── Silence Explainer ───────────────────────────────────────────────────── */
+.silence-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 16px; margin-top: 20px; }
+.silence-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
+.silence-card .s-emoji { font-size: 1.5rem; margin-bottom: 8px; }
+.silence-card h4 { font-size: .9rem; font-weight: 700; margin: 0 0 6px; }
+.silence-card p { font-size: .8rem; color: var(--fg-muted); margin: 0; line-height: 1.55; }
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+footer {
+  padding-block: 32px 40px;
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+  text-align: center;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 500px) {
+  .nav-tabs { gap: 6px; }
+  .resource-item { flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; }
+}
+</style>
+
+<div class="page-wrap">
+
+  <!-- Header -->
+  <header class="site-header">
+    <p class="eyebrow">A resource guide</p>
+    <h1>Guard the Flock</h1>
+    <p>Understanding spiritual abuse — what it is, how to recognize it, and how to find help and healing.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav-tabs" role="tablist" aria-label="Guide sections">
+    <button class="nav-tab active" role="tab" aria-selected="true" data-tab="what">What Is It?</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="signs">Warning Signs &amp; Discernment</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">How to Respond</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="resources">Resources</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="study">Bible Study</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="wolves">Wolves &amp; Patterns</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="cases">Documented Cases</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="news">Latest News</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="help">Get Help</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="faq">FAQ</button>
+  </nav>
+
+  <!-- ── Tab: What Is It? ───────────────────────────────────────────────── -->
+  <section class="section active" id="tab-what" role="tabpanel">
+    <div class="banner">
+      <strong>This is educational material only.</strong> If you or someone you know is in immediate danger, please contact emergency services or a crisis line in your country.
+    </div>
+
+    <p class="eyebrow">Definition</p>
+    <h2>Spiritual abuse is a misuse of religious authority to control, harm, or exploit.</h2>
+
+    <p>It can happen in any faith community — large or small, traditional or progressive, high-profile or local. The abuser is typically someone in a position of spiritual trust: a pastor, priest, elder, cell group leader, or mentor.</p>
+
+    <div class="pull-quote">
+      "Spiritual abuse occurs when a person in religious authority uses that position to manipulate, coerce, or exploit another person in ways that damage their spiritual health, emotional wellbeing, or basic dignity."
+    </div>
+
+    <p>Unlike overt physical or financial crimes, spiritual abuse often operates quietly. Victims frequently stay silent because they fear judgment, are told to "submit," or genuinely cannot name what is happening to them. The harm is real: research consistently links exposure to religious coercion with anxiety, depression, religious trauma, and damaged relationships.</p>
+
+    <h3 style="margin-top: 28px; margin-bottom: 12px;">Common forms</h3>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Spiritual coercion</div>
+        <p>Using God, Scripture, or divine authority as a threat to force compliance or silence dissent.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Authoritarian control</div>
+        <p>Demanding absolute obedience to leadership and punishing independent thought or questions.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Shunning &amp; isolation</div>
+        <p>Cutting off or threatening to cut off someone from their community if they leave or speak out.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Financial exploitation</div>
+        <p>Pressuring excessive financial giving while leadership lives lavishly or is never held accountable.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Spiritual bypassing</div>
+        <p>Using religious language to dismiss real psychological or physical harm — "just pray more" for abuse.</p>
+      </div>
+      <div class="card">
+        <div class="card-label">Accountability avoidance</div>
+        <p>Leaders who place themselves above any accountability structure, board, or oversight body.</p>
+      </div>
+    </div>
+
+    <p style="margin-top: 28px; font-size: 0.875rem; color: var(--fg-muted);">Note: Not every difficult church experience is spiritual abuse. Theological disagreements, imperfect leadership, and church conflict are not the same as abuse. This guide is concerned with patterns of deliberate coercion, exploitation, and harm.</p>
+  </section>
+
+  <!-- ── Tab: Warning Signs ─────────────────────────────────────────────── -->
+  <section class="section" id="tab-signs" role="tabpanel">
+    <p class="eyebrow">Red flags</p>
+    <h2>Patterns that often signal something is wrong</h2>
+    <p>No single sign is definitive on its own. Look for clusters of behaviors that persist over time and are directed at multiple people.</p>
+
+    <ul class="signs-list">
+      <li>
+        <div class="sign-icon">🔒</div>
+        <div class="sign-text">
+          <strong>Unquestioned authority</strong>
+          <span>Leaders who claim their word is God's word and frame any questioning as sin, rebellion, or a lack of faith.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">🚪</div>
+        <div class="sign-text">
+          <strong>Leaving is dangerous</strong>
+          <span>Members are told that leaving the church means leaving God's protection, losing their salvation, or will result in social exile.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">🤫</div>
+        <div class="sign-text">
+          <strong>Enforced silence</strong>
+          <span>Complaints or concerns are suppressed, reframed as gossip, or met with immediate spiritual punishment.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">👁️</div>
+        <div class="sign-text">
+          <strong>Excessive surveillance</strong>
+          <span>Leadership demands detailed knowledge of members' finances, relationships, and private life as a condition of belonging.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">💸</div>
+        <div class="sign-text">
+          <strong>Financial opacity</strong>
+          <span>Church finances are never disclosed to members; pressure to give is tied to spiritual blessing or judgment.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">😔</div>
+        <div class="sign-text">
+          <strong>Shame as a tool</strong>
+          <span>Sermons or private conversations regularly make members feel worthless, broken, or uniquely sinful — outside the normal conviction of conscience.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">🏝️</div>
+        <div class="sign-text">
+          <strong>Isolation from outside relationships</strong>
+          <span>Members are gradually discouraged from maintaining close friendships or family ties outside the group.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">⚖️</div>
+        <div class="sign-text">
+          <strong>No accountability structures</strong>
+          <span>There is no board, eldership, or external body that has genuine authority over the senior leader.</span>
+        </div>
+      </li>
+      <li>
+        <div class="sign-icon">🔄</div>
+        <div class="sign-text">
+          <strong>Repeated unexplained departures</strong>
+          <span>Staff and long-time members leave frequently without explanation; their departures are never honestly acknowledged.</span>
+        </div>
+      </li>
+    </ul>
+
+    <!-- ── Discernment section ── -->
+    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">Spiritual discernment</p>
+    <h3 style="font-size: 1.4rem; margin-bottom: 10px;">How to Test the Fruit</h3>
+
+    <div class="scripture-pull">
+      "Watch out for false prophets. They come to you in sheep's clothing, but inwardly they are ferocious wolves. By their fruit you will recognise them."
+      <cite>Matthew 7:15–16</cite>
+    </div>
+
+    <p style="font-size: .92rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 24px;">
+      Scripture calls every believer to discern — not just pastors or elders. This is not suspicion or cynicism; it is faithful stewardship of your spiritual life. The test of a tree is its fruit, but fruit takes time to ripen. Harmful patterns rarely announce themselves. They emerge gradually, under pressure, and across repeated situations. Here is a practical framework for evaluating a spiritual environment wisely.
+    </p>
+
+    <div class="discern-intro">
+      <div class="discern-stage ds-good">
+        <span class="ds-num">1</span>
+        <span class="ds-title">Looks Good</span>
+        <span class="ds-body">A new church or leader may appear fruitful, gifted, and anointed. First impressions can genuinely be good — this is normal. Healthy communities exist.</span>
+      </div>
+      <div class="discern-stage ds-warn">
+        <span class="ds-num">2</span>
+        <span class="ds-title">Something Feels Off</span>
+        <span class="ds-body">Over time, small things accumulate — a reaction that didn't sit right, a silenced question, a pattern in who gets shamed. Pay attention. Your unease is data.</span>
+      </div>
+      <div class="discern-stage ds-taste">
+        <span class="ds-num">3</span>
+        <span class="ds-title">Taste and See</span>
+        <span class="ds-body">Now apply deliberate tests. Scripture gives us four dimensions to examine — not to judge, but to exercise the discernment God calls us to.</span>
+      </div>
+    </div>
+
+    <p style="font-size: .78rem; color: var(--fg-muted); margin-bottom: 20px;">
+      <em>"But solid food is for the mature, who by constant use have trained themselves to distinguish good from evil." — Hebrews 5:14</em>
+    </p>
+
+    <h4 style="font-family: 'Inter', sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--fg-muted); margin-bottom: 14px;">4 Tests for a Spiritual Leader</h4>
+
+    <div class="four-tests">
+      <div class="test-card">
+        <div class="tc-label">① Gospel</div>
+        <div class="tc-q">Are they faithful to the orthodox gospel and the full counsel of Scripture? Or do they emphasise only a narrow expression?</div>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">A healthy teacher does not cherry-pick comforting passages and ignore hard ones. Watch for selective theology that always serves the leader's agenda.</p>
+        <div class="tc-verses">Galatians 1:6–9 · 1 John 4:1–6</div>
+      </div>
+      <div class="test-card">
+        <div class="tc-label">② Character</div>
+        <div class="tc-q">Does their life reflect Christlike self-denial, humility, meekness, truthfulness and self-sacrifice?</div>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">Competence can be performed. Character is revealed in how a leader behaves when they don't get their way, when they are corrected, and how they treat the powerless.</p>
+        <div class="tc-verses">Titus 1:5–9 · 1 Timothy 3:1–7</div>
+      </div>
+      <div class="test-card">
+        <div class="tc-label">③ Influence</div>
+        <div class="tc-q">Is their leadership open, trusting, and cooperative? Or opaque, cliquish, possessive, territorial, and suspicious of outsiders?</div>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">Shepherds draw people toward God and toward community. Leaders who become gatekeepers between you and God, or between you and your family, are misusing their role.</p>
+        <div class="tc-verses">Acts 20:28–31 · 2 Corinthians 11:19–20</div>
+      </div>
+      <div class="test-card">
+        <div class="tc-label">④ Accountability</div>
+        <div class="tc-q">Are they themselves under authority? Can they be corrected? Is their leadership positively peer-reviewed by other credible leaders?</div>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">No healthy leader operates alone. A genuine shepherd welcomes outside accountability. Resistance to oversight is one of the strongest predictors of abuse.</p>
+        <div class="tc-verses">Proverbs 11:14, 12:1 · Matthew 18:15–17</div>
+      </div>
+    </div>
+
+    <div class="warn-box" style="margin-bottom: 28px;">
+      <strong>A word of caution:</strong> Bad fruit does not always show quickly. It takes time, pressure, and repeated situations to become visible. Do not rush to condemn based on one incident, and do not dismiss a pattern because you have also seen good. Jesus said <em>"by their fruit you will recognise them"</em> — fruit, not a single act.
+    </div>
+
+    <h4 style="font-family: 'Inter', sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--fg-muted); margin-bottom: 12px;">What Good Fruit Looks Like</h4>
+    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 14px;">The benchmark is not charisma, crowd size, or miracles. Scripture describes good fruit in relational and character terms — traits that cannot be faked indefinitely (Galatians 5:22–23):</p>
+    <div class="fruit-grid">
+      <span class="fruit-tag">Love</span>
+      <span class="fruit-tag">Joy</span>
+      <span class="fruit-tag">Peace</span>
+      <span class="fruit-tag">Patience</span>
+      <span class="fruit-tag">Kindness</span>
+      <span class="fruit-tag">Goodness</span>
+      <span class="fruit-tag">Faithfulness</span>
+      <span class="fruit-tag">Gentleness</span>
+      <span class="fruit-tag">Self-control</span>
+    </div>
+    <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.65; margin-bottom: 4px;">
+      Ask: does time spent with this leader <em>increase</em> these qualities in the people around them — including those who have left, those who challenge them, and those with no status to offer? Or does the community become more anxious, more dependent, and more isolated from the wider body of Christ?
+    </p>
+
+    <div class="scripture-pull" style="margin-top: 24px;">
+      "Dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world."
+      <cite>1 John 4:1</cite>
+    </div>
+
+    <!-- ── Decision Tree ── -->
+    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">Not sure where to start?</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Something Feels Wrong — Where Do I Go?</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 20px; line-height: 1.65;">Use this triage to find the most relevant section of this guide for what you are experiencing.</p>
+
+    <div class="dtree">
+      <div class="dtree-start">Something feels wrong at my church or with a leader</div>
+
+      <div class="dtree-row">
+        <div class="dtree-question"><strong>Ask yourself</strong> Is it about what is being <em>taught</em> — the gospel, money, prosperity, obedience?</div>
+        <div class="dtree-arrow">→</div>
+        <div class="dtree-dest">📖 Test the Doctrine<br><span style="font-weight:400;font-size:.78rem;">See Bible Study tab — Session 2</span></div>
+      </div>
+
+      <div class="dtree-row">
+        <div class="dtree-question"><strong>Ask yourself</strong> Is it about a leader's <em>behaviour</em> — how they treat people, their private life, power over others?</div>
+        <div class="dtree-arrow">→</div>
+        <div class="dtree-dest">🔍 Test the Character<br><span style="font-weight:400;font-size:.78rem;">See Bible Study tab — Session 3</span></div>
+      </div>
+
+      <div class="dtree-row">
+        <div class="dtree-question"><strong>Ask yourself</strong> Is it about how the church handles <em>complaints, conflict, or finances</em> — who checks who?</div>
+        <div class="dtree-arrow">→</div>
+        <div class="dtree-dest">⚖️ Test Accountability<br><span style="font-weight:400;font-size:.78rem;">See Bible Study tab — Session 4</span></div>
+      </div>
+
+      <div class="dtree-row">
+        <div class="dtree-question"><strong>Ask yourself</strong> Are <em>you personally</em> being manipulated, shamed, isolated, or controlled?</div>
+        <div class="dtree-arrow">→</div>
+        <div class="dtree-dest">🚩 Warning Signs<br><span style="font-weight:400;font-size:.78rem;">See list above on this tab</span></div>
+      </div>
+
+      <div class="dtree-row">
+        <div class="dtree-question"><strong>Ask yourself</strong> Are you unsure what to do now — speak up, stay, or leave?</div>
+        <div class="dtree-arrow">→</div>
+        <div class="dtree-dest">🧭 How to Respond<br><span style="font-weight:400;font-size:.78rem;">See How to Respond tab</span></div>
+      </div>
+
+      <div class="dtree-row">
+        <div class="dtree-question"><strong>Ask yourself</strong> Is someone in immediate danger or is this a safeguarding emergency?</div>
+        <div class="dtree-arrow">→</div>
+        <div class="dtree-dest">🆘 Get Help Now<br><span style="font-weight:400;font-size:.78rem;">See Get Help tab — crisis contacts</span></div>
+      </div>
+    </div>
+
+    <!-- ── Discussion Guide ── -->
+    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">For cell groups &amp; small groups</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Discussion Guide</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 22px;">
+      Use these questions to open a conversation in your cell group or small group. You do not need to have experienced spiritual abuse to benefit — developing discernment is a normal part of spiritual maturity. Take one or two questions per session rather than rushing through all five.
+    </p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-body">
+          <strong>How do you personally know when something is spiritually "off"?</strong>
+          <p>Share a time you had a gut feeling something wasn't right in a spiritual environment. What did you notice, and how did you respond? What would you do differently now?</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Apply the 4 Tests to a leader you trust.</strong>
+          <p>Using Gospel, Character, Influence, and Accountability as your framework, describe what good fruit looks like in a leader you respect. Which of the four is hardest to evaluate honestly, and why?</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>What makes it hard to raise concerns in a church?</strong>
+          <p>Read Matthew 18:15–17. What structures or attitudes make correction feel unsafe? What would a community that genuinely welcomed accountability look like in practice?</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>How would you respond if someone came to you with concerns about their church?</strong>
+          <p>What would you say? What questions would you ask? What would you be careful <em>not</em> to do? Role-play the conversation in pairs.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>What fruit are you producing?</strong>
+          <p>Hebrews 5:14 says discernment is trained through "constant use." In what area of your own leadership or relationships could you grow in gentleness, truthfulness, or accountability? Pray in pairs for one specific area.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner safe" style="margin-top: 24px;">
+      <strong>If this conversation surfaces real concerns:</strong> Move to the <strong>How to Respond</strong> tab for practical next steps. If someone in your group is in an unsafe situation, the <strong>Get Help</strong> tab has direct crisis contacts.
+    </div>
+
+  </section>
+
+  <!-- ── Tab: How to Respond ────────────────────────────────────────────── -->
+  <section class="section" id="tab-respond" role="tabpanel">
+    <p class="eyebrow">If you are affected</p>
+    <h2>Taking steps toward safety and healing</h2>
+
+    <div class="banner safe">
+      <strong>You are not alone, and this is not your fault.</strong> Spiritual abuse is a form of manipulation that often makes victims feel responsible. Please reach out for support.
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-body">
+          <strong>Name what you're experiencing</strong>
+          <p>Start by reading about spiritual abuse so you can recognize the patterns. Many survivors say that simply having language for their experience was the first step toward healing.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Talk to a trusted person outside the community</strong>
+          <p>Find a friend, family member, or counselor who is not connected to the church in question. An outside perspective matters.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Document what happened</strong>
+          <p>Keep a private record: dates, what was said, who was present, and how it affected you. This is for your own clarity and may be important if you later decide to report formally.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Seek professional support</strong>
+          <p>A counselor or therapist with experience in religious trauma can help significantly. Look for someone familiar with "Religious Trauma Syndrome" or faith-sensitive counseling.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Report to the appropriate body</strong>
+          <p>Depending on your denomination, there may be an official complaints process. For criminal matters (assault, financial fraud, sexual abuse), contact civil authorities. Spiritual abuse organizations can advise on reporting processes.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Take your time</strong>
+          <p>Healing from spiritual abuse is not linear. You may still love the faith while grieving what happened to you. That tension is normal and does not have to be resolved quickly.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 36px; margin-bottom: 12px;">If you are a leader or witness</h3>
+    <p>If you observe patterns of spiritual abuse in your community, you have a responsibility to act — and acting well requires wisdom.</p>
+    <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
+      <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
+      <li>Escalate to a denominational body, external board, or pastoral care network.</li>
+      <li>Do not conduct informal "trials" or confront accusers as a group — this re-traumatises.</li>
+      <li>Bring in an independent external reviewer for serious allegations.</li>
+      <li>Prioritise the safety of the affected person over the reputation of the institution.</li>
+    </ul>
+
+    <!-- ── Leaders Self-Audit ── -->
+    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">For pastors, elders &amp; cell leaders</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Guard Your Own Flock — A Leaders' Self-Audit</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 4px; line-height: 1.65;">
+      Ezekiel 34:10 — <em>"I will hold them accountable for my flock."</em> Honest leaders ask hard questions of themselves before others ask for them.
+    </p>
+
+    <h4 style="font-size: .9rem; font-weight: 700; margin: 20px 0 8px;">Personal Accountability</h4>
+    <ul class="audit-list">
+      <li>Do I have peers who can speak hard truth to me — without career risk, social cost, or loss of my favour?</li>
+      <li>Has someone on my team ever disagreed with me publicly? How did I respond — and what does that response say?</li>
+      <li>Have I ever used spiritual language to end a conversation I should have had?</li>
+      <li>Can someone make a formal complaint about me to a body that does not report to me?</li>
+      <li>Do I know the difference between protecting someone from gossip and shielding misconduct from scrutiny?</li>
+      <li>When I am challenged, do I listen for truth — or do I move immediately to defend my position?</li>
+    </ul>
+
+    <h4 style="font-size: .9rem; font-weight: 700; margin: 20px 0 8px;">Structural Safeguards Checklist</h4>
+    <ul class="audit-list">
+      <li>Is there a designated safeguarding officer who is independent of the senior pastor?</li>
+      <li>Is our safeguarding/conduct policy written down, published, and reviewed at least annually?</li>
+      <li>Do all roles with access to children or youth require background screening?</li>
+      <li>Is there a clear reporting pathway that bypasses senior leadership if they are the subject of a complaint?</li>
+      <li>Does our church have external oversight — a presbytery, network, or accountability body with real authority?</li>
+      <li>Are our financial accounts reviewed by someone who is not employed by or closely connected to the church?</li>
+    </ul>
+
+    <div class="banner" style="margin-top: 20px; font-size: .85rem;">
+      <strong>If you answered "no" or "I don't know" to several of these:</strong> That is not a judgment — it is a starting point. The <strong>Bible Study</strong> tab (Session 4) and the <strong>Resources</strong> tab have practical tools to help you build healthy structures.
+    </div>
+
+    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
+    <h3 style="font-size: 1.1rem; margin-bottom: 10px;">Used the 4 Tests and something is wrong?</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 16px;">
+      If you applied the discernment framework in the <strong>Warning Signs &amp; Discernment</strong> tab and you are now more certain that something is wrong, the steps below are your practical path forward. You do not have to act on everything at once.
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 8px;">
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">First</div>
+        <strong style="font-size: .88rem;">Name it privately</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Write down what you observed, when, and who was affected. Having language for it matters — look at the Warning Signs list.</p>
+      </div>
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Second</div>
+        <strong style="font-size: .88rem;">Talk to someone outside</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">A trusted friend, family member, or counsellor not connected to the community. Your perspective needs an outside check before you act.</p>
+      </div>
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Third</div>
+        <strong style="font-size: .88rem;">Escalate appropriately</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Follow Matthew 18 process where safe to do so. For criminal matters, go directly to civil authorities — do not wait for internal church processes.</p>
+      </div>
+    </div>
+    <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 12px;">
+      If you or someone you know is in immediate distress, go straight to the <strong>Get Help</strong> tab for direct crisis contacts.
+    </p>
+  </section>
+
+  <!-- ── Tab: Resources ─────────────────────────────────────────────────── -->
+  <section class="section" id="tab-resources" role="tabpanel">
+    <p class="eyebrow">Verified external resources</p>
+    <h2>Books, organisations, and sites for further reading</h2>
+    <p style="font-size: 0.875rem; color: var(--fg-muted); margin-bottom: 4px;">All links open in a new tab. These are independently published resources — inclusion here is not an endorsement of every position they hold.</p>
+
+    <div class="resource-list">
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Subtle Power of Spiritual Abuse — David Johnson &amp; Jeff VanVonderen</h4>
+          <p>One of the earliest and most widely cited books identifying the patterns of spiritually abusive systems. Written from a Christian pastoral perspective. The foundational text for this field.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>A Church Called Tov — Scot McKnight &amp; Laura Barringer</h4>
+          <p>Directly addresses toxic church culture and what a "Tov" (Hebrew: good) church looks like instead. Practical and biblically grounded. Widely used in pastoral training post-2020.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Redeeming Power — Diane Langberg</h4>
+          <p>Trauma-informed, widely used by counsellors and church safeguarding teams. Langberg is a psychologist and theologian who addresses how power is misused in spiritual contexts. One of the most recommended books in this space.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>When Narcissism Comes to Church — Chuck DeGroat</h4>
+          <p>A counsellor and theologian examines narcissistic leadership patterns in church contexts — how they form, what they look like, and why they are so difficult to address without institutional courage.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Recovering from Religious Trauma — Dr. Marlene Winell</h4>
+          <p>Psychologist Winell coined the term "Religious Trauma Syndrome." Her work documents the psychological impact of high-control religious environments.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Churches, Cults and Spiritual Abuse — Martin Thorburn</h4>
+          <p>A pastoral resource examining the overlap between cult-like dynamics and mainstream church settings, with case studies from the Asia-Pacific region.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>GRACE (Godly Response to Abuse in the Christian Environment)</h4>
+          <p>A US-based nonprofit offering independent investigations, training and resources for churches dealing with abuse.</p>
+          <p><a href="https://www.graceresponse.com" target="_blank" rel="noopener noreferrer">graceresponse.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-org">Organisation</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Thirtyone:eight — UK Church Safeguarding</h4>
+          <p>The UK's leading independent church safeguarding consultancy, providing training, policy frameworks, and independent investigations for churches and Christian organisations.</p>
+          <p><a href="https://thirtyoneeight.org" target="_blank" rel="noopener noreferrer">thirtyoneeight.org ↗</a></p>
+        </div>
+        <span class="resource-tag tag-org">Organisation</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Church Clarity — Policy Transparency Project</h4>
+          <p>A crowd-sourced project that documents what policies churches publicly hold, helping people make informed decisions about where they attend. Focuses on transparency, not rating.</p>
+          <p><a href="https://churchclarity.org" target="_blank" rel="noopener noreferrer">churchclarity.org ↗</a></p>
+        </div>
+        <span class="resource-tag tag-org">Transparency</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Roys Report Podcast — Spiritual Abuse Series</h4>
+          <p>Julie Roys' investigative podcast covers specific cases and broader patterns. Particularly relevant episodes: <em>How to Identify &amp; Recover from Spiritual Abuse</em>, <em>Spiritually Abusive Leaders in the Church</em>, and <em>Escaping and Healing from Abusive Churches</em>.</p>
+          <p><a href="https://roysreport.com/podcast/how-to-identify-recover-from-spiritual-abuse/" target="_blank" rel="noopener noreferrer">roysreport.com/podcast ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Podcast</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Spiritual Abuse Podcast</h4>
+          <p>Survivor stories, expert interviews, and denominational case studies. A good entry point for understanding how abuse operates across different church cultures. Available on major podcast platforms.</p>
+        </div>
+        <span class="resource-tag tag-site">Podcast</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Religion News Service — Institutional Abuse Coverage</h4>
+          <p>Verified journalism covering documented cases of clergy misconduct and institutional cover-ups across denominations globally.</p>
+          <p><a href="https://religionnews.com" target="_blank" rel="noopener noreferrer">religionnews.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-news">News</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Wartburg Watch</h4>
+          <p>A long-running blog that documents and discusses abuse cases in evangelical and Reformed churches. Includes survivor testimonies and investigative write-ups with source links.</p>
+          <p><a href="https://www.thewartburgwatch.com" target="_blank" rel="noopener noreferrer">thewartburgwatch.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Blog / Watchdog</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Bare Marriage (formerly Sheila Wray Gregoire)</h4>
+          <p>Research-based writing on harmful teaching within Christian marriage and purity culture contexts, with a focus on evidence and survivor voices.</p>
+          <p><a href="https://baremarriage.com" target="_blank" rel="noopener noreferrer">baremarriage.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Research / Blog</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Kairos Research Centre — Malaysia</h4>
+          <p>KRC is Malaysia's leading Christian research body, producing church health, leadership accountability, and pastoral practice frameworks relevant to Malaysian church contexts.</p>
+          <p><a href="https://www.kairos.org.my" target="_blank" rel="noopener noreferrer">kairos.org.my ↗</a></p>
+        </div>
+        <span class="resource-tag tag-my">Malaysia</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>National Evangelical Christian Fellowship Malaysia (NECF)</h4>
+          <p>NECF is the umbrella body for evangelical churches in Malaysia. Its Ethics &amp; Social Concerns Committee has addressed pastoral misconduct. A starting point for formal denominational complaints.</p>
+          <p><a href="https://necf.org.my" target="_blank" rel="noopener noreferrer">necf.org.my ↗</a></p>
+        </div>
+        <span class="resource-tag tag-my">Malaysia</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Micah Asia</h4>
+          <p>A regional network of Christian development and advocacy organisations across Asia. Publishes resources on just and accountable leadership in the Asian church context.</p>
+          <p><a href="https://www.micahasia.com" target="_blank" rel="noopener noreferrer">micahasia.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-org">Asia</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Christian Federation of Malaysia (CFM)</h4>
+          <p>The CFM brings together Catholic, Protestant, and evangelical bodies in Malaysia. For inter-denominational concerns or escalations that cross church networks, CFM can sometimes provide referral guidance.</p>
+          <p><a href="https://www.cfm.org.my" target="_blank" rel="noopener noreferrer">cfm.org.my ↗</a></p>
+        </div>
+        <span class="resource-tag tag-my">Malaysia</span>
+      </div>
+
+    </div>
+
+    <!-- ── Why Good People Stay Silent ── -->
+    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">Understanding the psychology</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Why Good People Stay Silent</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 20px; line-height: 1.65;">
+      Documented cases repeatedly show that many people close to serious abuse knew — or sensed — something was wrong, yet said nothing for years. This is not cowardice. These are the dynamics that produce silence.
+    </p>
+
+    <div class="silence-grid">
+      <div class="silence-card">
+        <div class="s-emoji">✨</div>
+        <h4>The Halo Effect</h4>
+        <p>A leader who appears highly gifted, anointed, or fruitful triggers an unconscious assumption that their character must match their impact. Warning signs are reinterpreted as misunderstandings.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">📅</div>
+        <h4>Sunk Cost</h4>
+        <p>"I've given 15 years to this church." The more deeply invested a person is — time, money, relationships, identity — the more painful it is to accept that something is fundamentally wrong.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">🪞</div>
+        <h4>Fear of Being Wrong</h4>
+        <p>"What if I'm the divisive one?" Abusive systems are skilled at making the person with concerns doubt themselves. The fear of false accusation can silence legitimate concern indefinitely.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">📖</div>
+        <h4>Spiritual Weaponising</h4>
+        <p>"Touch not God's anointed." Phrases from Scripture, used out of context and without their safeguards, become tools that make questioning feel like sin against God.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">🔇</div>
+        <h4>Isolation from Outside Perspective</h4>
+        <p>When a church or community becomes the primary source of relationships, worldview, and identity, there is no outside voice to reality-check what is being experienced.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">⚖️</div>
+        <h4>Institutional Loyalty</h4>
+        <p>Well-meaning leaders suppress concerns to "protect the church's witness." But protecting the institution over the person is the opposite of the shepherd's calling in Ezekiel 34.</p>
+      </div>
+    </div>
+
+    <div class="banner" style="margin-top: 24px; font-size: .85rem;">
+      <strong>This is not about suspicion:</strong> Understanding why silence happens helps communities create environments where concerns can be raised safely — so the silence is broken before years of harm accumulate.
+    </div>
+
+  </section>
+
+  <!-- ── Tab: Bible Study ──────────────────────────────────────────────── -->
+  <section class="section" id="tab-study" role="tabpanel">
+    <p class="eyebrow">Five-session small group curriculum</p>
+    <h2>Tested by the Word</h2>
+    <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:8px;">A complete Bible study series for cell groups, home groups, and small groups. Each session is 45–60 minutes and follows the same rhythm: Context → Icebreaker → Main passages → Discussion breakouts → Closing application. No prior theological training required.</p>
+
+    <div class="banner" style="margin-bottom:24px;font-size:.85rem;">
+      <strong>Facilitator guardrails:</strong> Keep Scripture central. Do not turn sessions into speculation about named leaders or churches. If someone discloses abuse, prioritise safety and independent help — do not require private confrontation first.
+    </div>
+
+    <!-- Session 1 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 1</div>
+          <p class="study-session-title">What Does a True Shepherd Look Like?</p>
+          <p class="study-session-meta">Ezekiel 34:1–16 · John 10:1–18 · 1 Peter 5:1–4 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">A faithful shepherd cares for God's people rather than using them for personal gain.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Ezekiel 34 confronts Israel's shepherds for benefiting themselves while neglecting the flock. In John 10, Jesus identifies himself as the Good Shepherd who lays down his life. In 1 Peter 5, elders are called to shepherd willingly, eagerly, and by example — not domineering over people.</p>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">Think of a teacher, mentor, manager, or pastor who genuinely cared for you. What did they do that showed it? (Keep examples general — do not name or expose anyone.)</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">Ezekiel 34:1–10, 34:11–16 · John 10:11–18 · 1 Peter 5:2–3</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — Unfaithful Shepherds (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> In Ezekiel 34:2–6, list what the shepherds do and what they fail to do.<div class="hint">Notice feeding themselves, exploiting the flock, neglecting the weak/sick/injured, failing to seek the lost, ruling harshly.</div></div>
+          <div class="study-q"><strong>Interpretation:</strong> Why is God's response in verses 7–10 so serious?</div>
+          <div class="study-q"><strong>Application:</strong> What might "feeding oneself on the flock" look like today?<div class="hint">Consider using people for status, money, influence, labour, or unquestioning loyalty.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — The Good Shepherd vs. the Hired Hand (10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> In Ezekiel 34:11–16, what actions does God promise? What does Jesus do in John 10:11–18?</div>
+          <div class="study-q"><strong>Interpretation:</strong> What makes the Good Shepherd different from the hired hand when danger comes?<div class="hint">The contrast is commitment and care, not whether a leader receives a salary.</div></div>
+          <div class="study-q"><strong>Application:</strong> What would these qualities look like in a pastor or cell leader?</div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — How Should Leaders Use Authority? (8–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What three contrasts does 1 Peter 5:2–3 make about how elders should shepherd?<div class="hint">Willingly not under compulsion; eagerly not for shameful gain; as examples not domineering.</div></div>
+          <div class="study-q"><strong>Application:</strong> Where could these principles challenge any of us who influence others — at home, in church, or while discipling someone?</div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A cell leader repeatedly pressures exhausted members to take on more tasks, saying that refusing shows they do not love God. Members who question decisions are called immature. Those who comply receive recognition. What observable behaviours concern you? What further context would you need before drawing a conclusion?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Reach out to one person who may need encouragement. Listen, ask what support would help, and offer prayer or practical care without expecting anything in return.
+        </div>
+      </div>
+    </div>
+
+    <!-- Session 2 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 2</div>
+          <p class="study-session-title">Testing Doctrine: What Gospel Are They Preaching?</p>
+          <p class="study-session-meta">Galatians 1:6–9 · 2 Corinthians 11:1–15 · 1 John 4:1–6 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">A message can sound spiritual and impressive yet distort the gospel; teaching must be tested against the apostolic witness to Christ. Not every disagreement about a secondary doctrine is "another gospel" — the focus is serious distortion of how people are reconciled to God.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">In Galatians, Paul is alarmed the churches are turning to a different gospel. In 2 Corinthians 11, he warns false apostles can present themselves impressively. In 1 John 4, believers are told to test the spirits rather than believe every spiritual claim.</p>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">What can make a speaker or message seem trustworthy before you have checked whether it is true? (e.g. confidence, emotional stories, apparent success, popularity, promises that match our hopes)</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">Galatians 1:6–9 · 2 Corinthians 11:3–4, 11:13–15 · 1 John 4:1–6</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — Why Is "Another Gospel" So Serious? (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> In Galatians 1:6–9, what has happened to the Galatians, and how strongly does Paul respond?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why does Paul place the message above the status of the messenger?<div class="hint">The gospel is not ours to redesign. Even a respected or supernatural-seeming messenger must be tested against the truth already delivered.</div></div>
+          <div class="study-q"><strong>Application:</strong> What questions help us test a teaching before accepting or sharing it?<div class="hint">What does it say about Jesus, sin, grace, the cross, resurrection, repentance, and faith? Does it fit the wider witness of Scripture?</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — When False Teaching Looks Impressive (10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What characteristics of the "false apostles" appear in 2 Corinthians 11:3–15?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why might charisma, sacrifice, spiritual language, or apparent success make discernment harder?</div>
+          <div class="study-q"><strong>Application:</strong> How can a group evaluate teaching fairly without becoming cynical?<div class="hint">Read the full passage in context, compare with core Christian teaching, ask honest questions, seek mature counsel.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — Blessing, Prosperity, and the Cross (8–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What does 1 John 4:1–6 tell believers to test, and what role does the truth about Jesus play?</div>
+          <div class="study-q"><strong>Interpretation:</strong> What is the difference between thanking God for provision and making prosperity the measure of faith?<div class="hint">The gospel is not a guarantee that faithful people will become wealthy, avoid suffering, or get every desired outcome.</div></div>
+          <div class="study-q"><strong>Application:</strong> If a speaker implies that giving a certain amount guarantees wealth or healing, what questions should we ask?</div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A popular speaker says Christians who give generously will receive a guaranteed financial return from God. People who remain poor are told they lack faith. The speaker cites Bible verses but gives little attention to suffering, repentance, or the cross. Which claims need testing? What additional information would you want?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Choose one claim you have heard recently. Read its cited passage in full context and compare with the surrounding chapter before accepting or forwarding it.
+        </div>
+      </div>
+    </div>
+
+    <!-- Session 3 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 3</div>
+          <p class="study-session-title">Testing Character: What Does Their Private Life Show?</p>
+          <p class="study-session-meta">1 Timothy 3:1–7 · Titus 1:5–9 · Matthew 23:1–12, 25–28 · 1 Timothy 5:17–20 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Biblical leadership is tested by sustained character and integrity, not gifts, public image, or a polished platform. These qualifications describe credible, observable patterns of maturity — not sinless perfection.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">In 1 Timothy 3 and Titus 1, Paul describes character expected of overseers — emphasising self-control, faithfulness, hospitality, and a good reputation, not just talent. In Matthew 23, Jesus warns against leaders whose public appearance hides inner corruption. 1 Timothy 5 addresses honouring elders and handling accusations responsibly.</p>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">What makes you trust someone with an important responsibility? What might cause that trust to weaken?</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">1 Timothy 3:1–7 · Titus 1:5–9 · Matthew 23:1–12, 25–28 · 1 Timothy 5:17–20</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — What Kind of Character Is Required? (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> Which qualifications in 1 Timothy 3:1–7 and Titus 1:5–9 describe character and relationships rather than public ability?<div class="hint">Self-control, gentleness, not quarrelsome or arrogant, faithfulness in family life, hospitality, not greedy, good reputation.</div></div>
+          <div class="study-q"><strong>Interpretation:</strong> Why do these lists place so much weight on everyday character?</div>
+          <div class="study-q"><strong>Application:</strong> Which qualities are easiest to imitate briefly, and which become visible only over time?</div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — Appearance Versus Integrity (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> In Matthew 23:1–12 and 25–28, what contrast does Jesus make between outward appearance and inward reality?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why can a strong public ministry or impressive gift distract people from character concerns?<div class="hint">Visible results are easy to celebrate; private integrity is harder to assess. Gifts and impact do not cancel moral responsibility.</div></div>
+          <div class="study-q"><strong>Application:</strong> How can a church assess character fairly — without gossip, invasive curiosity, or impossible standards?</div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — Honour and Accountability Together (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What do 1 Timothy 5:17–20 say about honouring elders and receiving accusations against them?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why might Paul require more than an unverified accusation, while also insisting persistent sin be addressed?<div class="hint">Leaders can be unfairly accused; safeguards must not become a shield against credible evidence or ongoing harm.</div></div>
+          <div class="study-q"><strong>Application:</strong> What would a fair process look like if a concern about a leader arose?</div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A gifted leader is widely admired for preaching and ministry growth. Several people independently raise concerns about repeated humiliating treatment of staff. The leader says critics are jealous and points to the ministry's success as proof of God's approval. What should the church examine? What should NOT be treated as proof either way?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Choose one character quality — gentleness, honesty, self-control, or hospitality — and ask a trusted person how they see you practising it. Receive feedback without defensiveness.
+        </div>
+      </div>
+    </div>
+
+    <!-- Session 4 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 4</div>
+          <p class="study-session-title">Testing Accountability: Who Watches the Watchers?</p>
+          <p class="study-session-meta">Acts 20:28–31 · Hebrews 13:17 · Matthew 18:15–20 · 1 Timothy 5:19–20 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Christian leadership carries real authority, but it is not absolute; leaders and churches must guard the flock and address wrongdoing responsibly.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">In Acts 20, Paul warns the Ephesian elders that destructive teachers may arise even from among their own number. Hebrews 13:17 calls believers to respond to leaders who watch over their souls, while other passages establish accountability and careful processes for addressing sin.</p>
+        </div>
+        <div class="study-block">
+          <h5>Safety Principle</h5>
+          <div class="banner" style="font-size:.82rem;margin:0;">No Bible passage should be used to require someone to remain in danger, conceal abuse, destroy evidence, or submit to unlawful or abusive demands. Immediate safety and appropriate independent support take priority.</div>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">Think of a time when a person in authority handled disagreement well. What did they do that made the process feel fair?</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">Acts 20:28–31 · Hebrews 13:17 · Matthew 18:15–20 · 1 Timothy 5:19–20</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — The Warning from Acts 20 (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What does Paul tell the elders to do, and what dangers does he warn about?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why does Paul include the possibility of danger "from among your own selves"?<div class="hint">A leadership role does not make a person immune to temptation or misuse of influence. Accountability cannot depend only on trusting leaders to police themselves.</div></div>
+          <div class="study-q"><strong>Application:</strong> What practices help a church notice problems early and respond fairly?<div class="hint">Clear conduct policies, more than one trusted leader, transparent finances, safe reporting routes, independent review for serious allegations.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — What Are the Limits of Obedience? (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What reason does Hebrews 13:17 give for responding to leaders, and what responsibility does it place on leaders?<div class="hint">Leaders keep watch over souls and will give an account — the verse is about responsible spiritual oversight, not unlimited personal control.</div></div>
+          <div class="study-q"><strong>Interpretation:</strong> How can we read Hebrews 13:17 alongside Acts 20:28–31 and 1 Timothy 5:19–20?</div>
+          <div class="study-q"><strong>Application:</strong> What should someone do if a leader demands secrecy about harm, or forbids them from seeking outside help?</div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — Who Watches the Watchers? (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What steps appear in Matthew 18:15–20? What safeguards appear in 1 Timothy 5:19–20?</div>
+          <div class="study-q"><strong>Application:</strong> What questions would you ask to understand your church's accountability structure?<div class="hint">Who receives complaints about senior leaders? Is there an independent route? Who oversees safeguarding and finances? Can people report without retaliation?</div></div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A senior leader tells a member not to contact anyone outside the church about alleged misconduct because "the Bible says to obey your leaders" and "we must protect the church's witness." The member fears retaliation. Why is this use of Hebrews 13:17 wrong? What would a safer next step be?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Without naming or accusing anyone, identify your church's published or clearly designated safeguarding and complaint route. If none is clear, ask a trusted, appropriate person how the process works.
+        </div>
+      </div>
+    </div>
+
+    <!-- Session 5 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 5</div>
+          <p class="study-session-title">Responding Wisely: What Do We Do?</p>
+          <p class="study-session-meta">Matthew 18:15–17 · Proverbs 11:14 · Ephesians 5:11–13 · Romans 16:17–18 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Faithful response requires truth, proportion, wise counsel, and protection of people — not gossip, denial, or reflexive division. <strong>Important:</strong> match the response to the concern. Ordinary conflict, doctrinal error, leadership misconduct, abuse, and possible crimes are not all handled the same way.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Matthew 18 addresses seeking a person who has sinned. Proverbs 11:14 commends wise counsel. Ephesians 5 calls believers to expose works of darkness. Romans 16:17–18 warns against divisive people who deceive. Matthew 18 should never be turned into a rule requiring private confrontation with an abuser before seeking safety.</p>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">If you notice a problem in a group you care about, what might make it difficult to raise the concern?</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">Matthew 18:15–17 · Proverbs 11:14 · Ephesians 5:11–13 · Romans 16:17–18 · 1 Timothy 5:19–20</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — What Is Matthew 18 Trying to Achieve? (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What sequence does Matthew 18:15–17 describe, and what happens if the person listens?</div>
+          <div class="study-q"><strong>Application:</strong> What changes if the concern involves abuse, threats, coercion, a crime, or a serious power imbalance?<div class="hint">Safety and independent reporting take priority. Do not require a private confrontation or use the passage to delay protection or lawful reporting.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — Division, Discernment, and Speaking Truth (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What behaviours are criticised in Romans 16:17–18? What does Ephesians 5:11–13 say about works of darkness?</div>
+          <div class="study-q"><strong>Interpretation:</strong> What is the difference between raising a substantiated concern for protection and spreading an unverified story?<div class="hint">Responsible reporting is factual, proportionate, directed to people able to help. Gossip spreads claims unnecessarily or for revenge or status.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — Choose a Wise Next Step (9–10 min)</h5>
+          <p style="font-size:.85rem;margin-bottom:8px;">For each scenario, ask: What do we know? What don't we know? Who can help? What protects people and preserves fairness?</p>
+          <div class="study-q">A member feels repeatedly dismissed by a cell leader after a disagreement about scheduling.</div>
+          <div class="study-q">A teacher repeatedly presents teaching that appears to contradict the gospel.</div>
+          <div class="study-q">Several people report credible intimidation by a senior leader who controls the internal complaint process.</div>
+          <div class="study-q">Someone forwards an anonymous social-media accusation with no supporting details.</div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A person raises a concern about a ministry leader. Others immediately say, "Don't cause division — Matthew 18 says you must speak to the leader privately first." The concern, however, includes threats and possible abuse. Why is that response incomplete? What should happen first?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Write a simple response plan: (1) identify what is known, (2) assess immediate safety, (3) consult an appropriate and independent person, (4) use the right reporting or accountability channel.
+        </div>
+      </div>
+    </div>
+
+    <div class="banner" style="margin-top:24px;font-size:.85rem;">
+      <strong>Download the full Facilitator Guide:</strong> The complete guide with facilitator notes, timing breakdowns, and interpretive cautions is attached to this project. Ask your cell group leader or pastor for a copy.
+    </div>
+
+  </section>
+
+  <!-- ── Tab: Wolves & Patterns ─────────────────────────────────────────── -->
+  <section class="section" id="tab-wolves" role="tabpanel">
+    <p class="eyebrow">What documented cases reveal</p>
+    <h2>Wolves in the Flock — Recurring Patterns</h2>
+    <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:8px;">
+      This site does not rate, list, or publish claims about named individuals or churches. This page documents <em>patterns</em> — recurring dynamics that appear across independently investigated cases worldwide. Each pattern is grounded in Scripture.
+    </p>
+    <p style="font-size:.82rem;color:var(--fg-muted);margin-bottom:24px;">For verified case journalism, see the <strong>Latest News</strong> tab and the <strong>Documented Cases</strong> tab.</p>
+
+    <div class="pattern-grid">
+
+      <div class="pattern-card">
+        <div class="p-icon">🐑</div>
+        <h4>The Charming Predator</h4>
+        <p>Warm, gifted, apparently above reproach — and often genuinely helpful to many people. The harm is targeted, private, and denied. Victims are not believed because the public image is so compelling.</p>
+        <div class="p-looks"><strong>What it looks like:</strong> Years of private harm, public gifting used as alibi, victims silenced by their own doubt and others' loyalty to the leader.</div>
+        <div class="p-verse">📖 Matthew 7:15 — "in sheep's clothing"</div>
+      </div>
+
+      <div class="pattern-card">
+        <div class="p-icon">🏛️</div>
+        <h4>The Institution That Protects Itself</h4>
+        <p>When an allegation surfaces, the first response is to protect the church's "witness," not the person harmed. Statements are vague. NDAs are offered. Transitions are managed quietly.</p>
+        <div class="p-looks"><strong>What it looks like:</strong> "We have addressed the matter internally." No independent review. The affected person receives less care than the institution's reputation.</div>
+        <div class="p-verse">📖 Ezekiel 34:4 — "You have not sought the lost"</div>
+      </div>
+
+      <div class="pattern-card">
+        <div class="p-icon">🔄</div>
+        <h4>The Quick Return</h4>
+        <p>A leader steps down or is removed — then within 12–24 months is re-platformed elsewhere, often by people who "believe in restoration" but have not verified that accountability was completed.</p>
+        <div class="p-looks"><strong>What it looks like:</strong> A new church, podcast, or platform. No public accountability process. Victims are still healing while the leader is celebrated.</div>
+        <div class="p-verse">📖 1 Timothy 3:7 — "a good reputation with outsiders"</div>
+      </div>
+
+      <div class="pattern-card">
+        <div class="p-icon">🔇</div>
+        <h4>The Silenced Victim</h4>
+        <p>The person who speaks up is labelled "bitter," "divisive," or "rebellious." Their character is questioned. Others distance themselves. The concern is never addressed — only the person raising it.</p>
+        <div class="p-looks"><strong>What it looks like:</strong> Spiritual language used to discredit. Social exclusion from the community. The complaint is treated as the problem.</div>
+        <div class="p-verse">📖 Proverbs 31:8 — "Speak up for those who cannot speak"</div>
+      </div>
+
+      <div class="pattern-card">
+        <div class="p-icon">🕸️</div>
+        <h4>The Networked Blind Eye</h4>
+        <p>Other leaders in the same network, denomination, or movement were aware of concerns — but said nothing publicly. Peer loyalty, shared funding, or platform connections produced institutional silence.</p>
+        <div class="p-looks"><strong>What it looks like:</strong> Leaders who "knew nothing" despite documented prior concerns. Shared stages, endorsements, and cross-promotion continuing even after early red flags.</div>
+        <div class="p-verse">📖 Leviticus 5:1 — "if you witness wrongdoing and do not report it"</div>
+      </div>
+
+      <div class="pattern-card">
+        <div class="p-icon">👑</div>
+        <h4>The Spiritual Debt Trap</h4>
+        <p>"Touch not God's anointed" and "submit to your covering" — used without context or safeguard — create a spiritual debt that makes questioning the leader feel like rebellion against God.</p>
+        <div class="p-looks"><strong>What it looks like:</strong> Questions are met with Scripture that sounds definitive but is applied without balance. Disagreement is spiritualised into a faith problem.</div>
+        <div class="p-verse">📖 Acts 17:11 — the Bereans "examined the Scriptures daily"</div>
+      </div>
+
+      <div class="pattern-card">
+        <div class="p-icon">💰</div>
+        <h4>Financial Entitlement as Anointing</h4>
+        <p>Lavish personal spending is framed as evidence of God's blessing. Giving is presented as a transaction with God. Financial questioning is treated as an attack on the ministry.</p>
+        <div class="p-looks"><strong>What it looks like:</strong> Private jets, luxury real estate, personal use of ministry funds. "Seed faith" language used to solicit funds from vulnerable people.</div>
+        <div class="p-verse">📖 1 Peter 5:2 — "not pursuing dishonest gain"</div>
+      </div>
+
+      <div class="pattern-card">
+        <div class="p-icon">📊</div>
+        <h4>Metrics as Proof of God's Favour</h4>
+        <p>Growth numbers — attendance, giving, social media reach — are used as evidence that God endorses both the ministry and the leader's conduct. Scrutiny is reframed as attacking "what God is doing."</p>
+        <div class="p-looks"><strong>What it looks like:</strong> "Look at what God is building here" used to deflect character concerns. Past fruit invoked to excuse present failures.</div>
+        <div class="p-verse">📖 Matthew 7:22–23 — "Lord, did we not prophesy in your name?"</div>
+      </div>
+
+    </div>
+
+    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <h3 style="font-size: 1.2rem; margin-bottom: 12px;">What These Patterns Have in Common</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.75; margin-bottom: 12px;">
+      Across documented cases — from megachurches to small networks — five conditions consistently appear: <strong>(1) concentrated, unaccountable power</strong>; <strong>(2) institutional loyalty placed above the welfare of individuals</strong>; <strong>(3) a culture where questioning is spiritualised as sin</strong>; <strong>(4) no independent external oversight</strong>; and <strong>(5) a charismatic leader whose public gift is used as an alibi for private failure.</strong>
+    </p>
+    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.75;">
+      None of these patterns is inevitable. Healthy churches and leaders exist. The goal is not suspicion — it is the structural and spiritual conditions that make healthy leadership possible and harm visible when it occurs.
+    </p>
+
+    <div class="scripture-pull" style="margin-top: 28px;">
+      "Keep watch over yourselves and all the flock of which the Holy Spirit has made you overseers. Be shepherds of the church of God, which he bought with his own blood. I know that after I leave, savage wolves will come in among you and will not spare the flock. Even from your own number men will arise and distort the truth."
+      <cite>Acts 20:28–30</cite>
+    </div>
+
+  </section>
+
+  <!-- ── Tab: Documented Cases ─────────────────────────────────────────── -->
+  <section class="section" id="tab-cases" role="tabpanel">
+    <p class="eyebrow">Verified journalism &amp; documented patterns</p>
+    <h2>Documented Cases</h2>
+
+    <div class="warn-box" style="margin-bottom:2rem;">
+      <strong>Editorial note:</strong> This page does <em>not</em> maintain its own database of named individuals. Every entry below links out to verified journalism — newspapers, wire services, or established investigative outlets — that carries its own editorial standards and legal responsibility. An allegation reported in journalism is not a finding of guilt; a conviction is a matter of public court record. We distinguish these throughout.
+    </div>
+
+    <p style="margin-bottom:2rem;color:var(--fg-muted);">Why document this at all? Because patterns become visible only when cases are collected. Awareness of documented abuse in Christian contexts helps communities ask better questions, spot similar dynamics early, and stop dismissing concerns as "just gossip." The journalism linked here has been verified, published, and, where relevant, updated with legal outcomes.</p>
+
+    <!-- Category cards -->
+    <h3 style="margin-bottom:1rem;">Cases by Offence Category</h3>
+    <div class="cards">
+
+      <div class="card">
+        <div style="font-size:1.5rem;margin-bottom:.5rem;">⚠️</div>
+        <h4>Sexual Abuse &amp; Assault</h4>
+        <p>The most widely documented category globally. Cases range from assault of adult congregants to child sexual abuse (CSA) carried out by clergy, youth workers, and mission leaders. Enabling structures — NDAs, pastoral cover, "forgiveness" pressure — are a recurring pattern.</p>
+        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
+          <li><a href="https://www.reuters.com/investigates/special-report/usa-southernbaptist/" target="_blank" rel="noopener">Reuters: Southern Baptist sexual abuse investigation (US)</a></li>
+          <li><a href="https://apnews.com/hub/church-abuse" target="_blank" rel="noopener">AP News: Church Abuse hub — ongoing coverage</a></li>
+          <li><a href="https://www.christianitytoday.com/ct/topics/s/sexual-abuse/" target="_blank" rel="noopener">Christianity Today: Sexual Abuse topic archive</a></li>
+          <li><a href="https://www.bbc.co.uk/news/topics/c77jz3mdxpyt/church-abuse" target="_blank" rel="noopener">BBC: Church Abuse coverage</a></li>
+          <li><a href="https://thewartburgwatch.com/category/sexual-abuse/" target="_blank" rel="noopener">The Wartburg Watch: Sexual Abuse category</a></li>
+          <li><a href="https://roysreport.com/category/sexual-abuse/" target="_blank" rel="noopener">The Roys Report: Sexual Abuse investigations</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div style="font-size:1.5rem;margin-bottom:.5rem;">💰</div>
+        <h4>Financial Fraud &amp; Exploitation</h4>
+        <p>Misappropriation of tithes, offerings, and building funds; fraudulent investment schemes; undisclosed personal enrichment. Court convictions in this category are relatively common because financial crimes leave documentary evidence.</p>
+        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
+          <li><a href="https://religionnews.com/tag/money/" target="_blank" rel="noopener">Religion News Service: Money &amp; Ministry tag</a></li>
+          <li><a href="https://www.christianitytoday.com/ct/topics/f/finances/" target="_blank" rel="noopener">Christianity Today: Finances archive</a></li>
+          <li><a href="https://ministrywatch.com/category/news/" target="_blank" rel="noopener">MinistryWatch: Ministry accountability news</a></li>
+          <li><a href="https://roysreport.com/category/fraud-and-financial/" target="_blank" rel="noopener">The Roys Report: Fraud &amp; Financial investigations</a></li>
+          <li><a href="https://www.propublica.org/series/gospel-of-prosperity" target="_blank" rel="noopener">ProPublica: Gospel of Prosperity investigative series</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div style="font-size:1.5rem;margin-bottom:.5rem;">⚖️</div>
+        <h4>Trafficking &amp; Forced Labour</h4>
+        <p>A smaller but serious documented category: mission organisations or church networks implicated in labour trafficking (domestic workers, overseas "volunteers"), and cases of sexual trafficking enabled by religious authority. ECPAT and IJM have documented Asia-Pacific cases.</p>
+        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
+          <li><a href="https://www.ijm.org/our-work/trafficking" target="_blank" rel="noopener">International Justice Mission: Trafficking work</a></li>
+          <li><a href="https://religionnews.com/tag/human-trafficking/" target="_blank" rel="noopener">Religion News Service: Human Trafficking tag</a></li>
+          <li><a href="https://apnews.com/hub/human-trafficking" target="_blank" rel="noopener">AP News: Human Trafficking hub</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div style="font-size:1.5rem;margin-bottom:.5rem;">✝️</div>
+        <h4>Deaths &amp; Criminal Negligence</h4>
+        <p>Includes cases where religious practices directly caused death (faith-healing denial of medical care, cult-related violence, missions accidents covered up) and negligent oversight where foreseeable harm was ignored. Some cases involve manslaughter or homicide convictions.</p>
+        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
+          <li><a href="https://www.theguardian.com/world/religion" target="_blank" rel="noopener">The Guardian: Religion section — international coverage</a></li>
+          <li><a href="https://religionnews.com/" target="_blank" rel="noopener">Religion News Service — wire service covering these cases globally</a></li>
+          <li><a href="https://apnews.com/hub/religion" target="_blank" rel="noopener">AP News: Religion hub</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div style="font-size:1.5rem;margin-bottom:.5rem;">🔒</div>
+        <h4>Coercive Control &amp; Misconduct</h4>
+        <p>Extramarital affairs by senior leaders covered up institutionally; sexual misconduct between leaders and congregants (where genuine consent is complicated by spiritual authority); and coercive control patterns including isolating members from family, controlling finances, and punishing dissent.</p>
+        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
+          <li><a href="https://www.christianitytoday.com/ct/topics/p/pastoral-misconduct/" target="_blank" rel="noopener">Christianity Today: Pastoral Misconduct archive</a></li>
+          <li><a href="https://thewartburgwatch.com/category/church-discipline-abuse/" target="_blank" rel="noopener">The Wartburg Watch: Church Discipline Abuse</a></li>
+          <li><a href="https://roysreport.com/category/spiritual-abuse/" target="_blank" rel="noopener">The Roys Report: Spiritual Abuse &amp; Misconduct</a></li>
+          <li><a href="https://churchclarity.org/" target="_blank" rel="noopener">Church Clarity: Policy transparency project</a></li>
+        </ul>
+      </div>
+
+    </div><!-- /cards -->
+
+    <!-- Regional journalism -->
+    <h3 style="margin-top:2.5rem;margin-bottom:1rem;">Regional Coverage</h3>
+    <div class="cards">
+
+      <div class="card">
+        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem;">
+          <span style="font-size:1.2rem;">🌏</span>
+          <strong>Asia-Pacific</strong>
+        </div>
+        <p style="font-size:.9rem;">Documented cases across South Korea (mega-church leaders), Singapore, Philippines, and Malaysia. Coverage is sparser than Western sources but growing — often broken by local news outlets and amplified by regional Christian media.</p>
+        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
+          <li><a href="https://www.straitstimes.com/tags/church" target="_blank" rel="noopener">The Straits Times (SG): Church tag</a></li>
+          <li><a href="https://www.channelnewsasia.com/singapore/church" target="_blank" rel="noopener">Channel NewsAsia: Church coverage (SG)</a></li>
+          <li><a href="https://thestar.com.my/search?q=church" target="_blank" rel="noopener">The Star (MY): Church search</a></li>
+          <li><a href="https://www.malaymail.com/search?q=church+abuse" target="_blank" rel="noopener">Malay Mail (MY): Church abuse search</a></li>
+          <li><a href="https://religionnews.com/tag/south-korea/" target="_blank" rel="noopener">Religion News Service: South Korea coverage</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem;">
+          <span style="font-size:1.2rem;">🌐</span>
+          <strong>Global Investigations</strong>
+        </div>
+        <p style="font-size:.9rem;">Long-form investigative journalism aggregating cases across denominations and borders. These are the most thorough documented records publicly available.</p>
+        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
+          <li><a href="https://www.bbc.co.uk/news/topics/c77jz3mdxpyt/church-abuse" target="_blank" rel="noopener">BBC: Church Abuse — multi-country investigations</a></li>
+          <li><a href="https://roysreport.com/" target="_blank" rel="noopener">The Roys Report — Julie Roys; investigative accountability journalism on Christian leaders and organisations</a></li>
+          <li><a href="https://thewartburgwatch.com/" target="_blank" rel="noopener">The Wartburg Watch — long-running US evangelical accountability blog</a></li>
+          <li><a href="https://religionnews.com/" target="_blank" rel="noopener">Religion News Service — independent wire service</a></li>
+          <li><a href="https://www.propublica.org/topics/religion" target="_blank" rel="noopener">ProPublica: Religion investigations</a></li>
+          <li><a href="https://www.nytimes.com/topic/subject/sex-abuse-by-clergy" target="_blank" rel="noopener">New York Times: Clergy sex abuse topic</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Disclaimer footer -->
+    <div class="warn-box" style="margin-top:2.5rem;border-color:var(--safe-border);background:var(--safe-bg);">
+      <strong>Important distinctions:</strong><br>
+      <ul style="margin-top:.5rem;padding-left:1.2rem;">
+        <li><strong>Allegation</strong> — reported by journalism or named in a lawsuit; not a finding of guilt</li>
+        <li><strong>Conviction</strong> — found guilty in a court of law; a matter of public record</li>
+        <li><strong>Settlement</strong> — financial settlement, which may or may not include admission of wrongdoing</li>
+      </ul>
+      This site does not independently verify, rate, or list individual churches, leaders, or pastors. All linked journalism has been produced by independent editorial organisations and is their responsibility.
+    </div>
+
+  </section>
+
+  <!-- ── Tab: Latest News ──────────────────────────────────────────────── -->
+  <section class="section" id="tab-news" role="tabpanel">
+    <p class="eyebrow">Updated automatically throughout the day</p>
+    <h2>Latest News</h2>
+    <p style="color:var(--fg-muted);font-size:.9rem;margin-bottom:1rem;">Priority coverage from specialist church-accountability publishers. The Roys Report and other listed watchdog sources appear first, with authors and writers credited when the publisher supplies that information. Only reporting related to spiritual or sexual abuse, church financial misconduct, safeguarding, or institutional accountability is included. General news is excluded.</p>
+
+    <div style="background:var(--card);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:14px 16px;margin-bottom:1.5rem;font-size:.85rem;line-height:1.65;">
+      <strong style="display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.07em;color:var(--accent);margin-bottom:6px;">📰 How to read these stories</strong>
+      As you read each story, ask four questions: <strong>Who was harmed?</strong> — <strong>Who knew?</strong> — <strong>Who spoke up, and who stayed silent?</strong> — <strong>Who was ultimately protected: the person harmed, or the institution?</strong> These questions reveal the pattern behind the headline.
+    </div>
+
+    <div style="display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1.5rem;align-items:center;">
+      <button id="news-refresh" style="padding:6px 16px;border:1px solid var(--accent);border-radius:20px;background:transparent;color:var(--accent);font-family:'Inter',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;">↻ Refresh</button>
+      <span id="news-status" style="font-size:.8rem;color:var(--fg-muted);"></span>
+    </div>
+
+    <!-- Filter buttons -->
+    <div id="news-filters" style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem;">
+      <button class="nf-btn active" data-filter="all">Priority sources</button>
+      <button class="nf-btn" data-filter="accountability">Accountability</button>
+      <button class="nf-btn" data-filter="sexual-abuse">Sexual abuse</button>
+      <button class="nf-btn" data-filter="spiritual-abuse">Spiritual abuse &amp; coercion</button>
+      <button class="nf-btn" data-filter="financial-misconduct">Financial misconduct</button>
+      <button class="nf-btn" data-filter="institutional-accountability">Institutional accountability</button>
+    </div>
+
+    <div id="news-feed" style="display:flex;flex-direction:column;gap:2px;">
+      <div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">Loading the latest published headlines…</div>
+    </div>
+
+    <div class="warn-box" style="margin-top:2rem;font-size:.82rem;">
+      <strong>Note:</strong> Headlines and links are provided by the publishers. Guard the Flock does not write, edit, or endorse the content of any article. An article reporting an allegation is not a finding of guilt.
+    </div>
+  </section>
+
+  <!-- ── Tab: Get Help ─────────────────────────────────────────────────── -->
+  <section class="section" id="tab-help" role="tabpanel">
+    <p class="eyebrow">Crisis &amp; counselling contacts</p>
+    <h2>Where to reach out — Malaysia &amp; globally</h2>
+
+    <div class="banner safe">
+      <strong>If you are in immediate danger, call 999 (Malaysia) or your local emergency number.</strong> The contacts below are for mental health support, counselling, and pastoral care — not emergency response.
+    </div>
+
+    <p style="font-size: 0.875rem; color: var(--fg-muted); margin-bottom: 28px;">Phone numbers and hours are correct to the best of our knowledge but may change. Please verify before relying on them. Copy the number and call directly — phone links may not work inside all apps.</p>
+
+    <!-- Malaysia -->
+    <div class="help-region">
+      <h3><span class="region-flag">🇲🇾</span> Malaysia</h3>
+      <div class="hotline-grid">
+
+        <div class="hotline-card">
+          <div class="hc-name">Befrienders KL</div>
+          <div class="hc-scope">Emotional support &amp; crisis listening — all faiths</div>
+          <div class="hc-number">03-7627 2929</div>
+          <div class="hc-note">24 hours, 7 days. Free, confidential, non-judgmental.</div>
+          <a class="hc-link" href="https://www.befrienderskl.org" target="_blank" rel="noopener noreferrer">befrienderskl.org ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Talian Kasih 15999</div>
+          <div class="hc-scope">Women &amp; family welfare, abuse cases — Ministry of Women</div>
+          <div class="hc-number">15999</div>
+          <div class="hc-note">24 hours. For domestic abuse, family crises, and referrals to shelters.</div>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">MIASA Helpline</div>
+          <div class="hc-scope">Mental illness awareness — peer support &amp; referrals</div>
+          <div class="hc-number">1800-18-9199</div>
+          <div class="hc-note">Mon–Fri 9 am–5 pm. Free mental health peer support.</div>
+          <a class="hc-link" href="https://www.miasa.org.my" target="_blank" rel="noopener noreferrer">miasa.org.my ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">All Women's Action Society (AWAM)</div>
+          <div class="hc-scope">Survivors of abuse — counselling &amp; legal referrals</div>
+          <div class="hc-number">03-7877 0224</div>
+          <div class="hc-note">Office hours. Counselling and support for abuse survivors.</div>
+          <a class="hc-link" href="https://www.awam.org.my" target="_blank" rel="noopener noreferrer">awam.org.my ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Christian Counselling Malaysia (CCM)</div>
+          <div class="hc-scope">Faith-sensitive counselling — pastoral trauma &amp; religious harm</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Search "Christian Counselling Malaysia" for practitioners offering faith-integrated therapy. The CCM network connects trained counsellors across churches.</div>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Lembaga Hasil Dalam Negeri / MACC</div>
+          <div class="hc-scope">Financial crimes &amp; fraud reporting — civil route</div>
+          <div class="hc-number">1800-88-5858 (MACC)</div>
+          <div class="hc-note">For financial exploitation or fraud by religious organisations. MACC Hotline is open 24 hrs for reporting.</div>
+          <a class="hc-link" href="https://www.sprm.gov.my" target="_blank" rel="noopener noreferrer">sprm.gov.my ↗</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Singapore -->
+    <div class="help-region">
+      <h3><span class="region-flag">🇸🇬</span> Singapore</h3>
+      <div class="hotline-grid">
+
+        <div class="hotline-card">
+          <div class="hc-name">Samaritans of Singapore (SOS)</div>
+          <div class="hc-scope">Crisis support — emotional distress &amp; suicide prevention</div>
+          <div class="hc-number">1800-221 4444</div>
+          <div class="hc-note">24 hours, 7 days. Free and confidential.</div>
+          <a class="hc-link" href="https://www.sos.org.sg" target="_blank" rel="noopener noreferrer">sos.org.sg ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">TAFEP / Ministry of Home Affairs</div>
+          <div class="hc-scope">Religious harmony &amp; complaints against religious bodies</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">For concerns involving registered religious organisations, the MHA's Community Engagement division handles formal complaints. Report via police or MHA online portal.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Global -->
+    <div class="help-region">
+      <h3><span class="region-flag">🌐</span> Global &amp; Online</h3>
+      <div class="hotline-grid">
+
+        <div class="hotline-card">
+          <div class="hc-name">GRACE — Independent Church Investigations</div>
+          <div class="hc-scope">US-based; accepts international referrals for serious cases</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Non-profit that conducts independent third-party investigations into church abuse. Can advise on process internationally.</div>
+          <a class="hc-link" href="https://www.graceresponse.com" target="_blank" rel="noopener noreferrer">graceresponse.com ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Spiritual Abuse Resources (SAR)</div>
+          <div class="hc-scope">Online community &amp; peer support for survivors worldwide</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Online peer support forums and resource lists for survivors of high-control religious environments. Available in multiple languages.</div>
+          <a class="hc-link" href="https://www.spiritualabuseresources.com" target="_blank" rel="noopener noreferrer">spiritualabuseresources.com ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Psychology Today Therapist Finder</div>
+          <div class="hc-scope">Find a therapist specialising in religious trauma globally</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Filter by "religious trauma" or "spiritual abuse" under Issues. Many therapists offer international telehealth sessions.</div>
+          <a class="hc-link" href="https://www.psychologytoday.com/us/therapists" target="_blank" rel="noopener noreferrer">psychologytoday.com ↗</a>
+        </div>
+
+        <div class="hotline-card">
+          <div class="hc-name">Religious Trauma Institute</div>
+          <div class="hc-scope">Research, training &amp; therapist directory for religious trauma</div>
+          <div class="hc-number">—</div>
+          <div class="hc-note">Maintains a global directory of therapists trained specifically in religious trauma. Free educational resources for survivors and practitioners.</div>
+          <a class="hc-link" href="https://www.religioustraumainstitute.com" target="_blank" rel="noopener noreferrer">religioustraumainstitute.com ↗</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="banner" style="margin-top: 8px;">
+      <strong>Important disclaimer:</strong> Phone numbers and organisation details change. Always verify contacts are current before sharing them with someone in crisis. Where possible, call ahead yourself.
+    </div>
+
+  </section>
+
+  <!-- ── Tab: FAQ ───────────────────────────────────────────────────────── -->
+  <section class="section" id="tab-faq" role="tabpanel">
+    <p class="eyebrow">Common questions</p>
+    <h2>Frequently asked questions</h2>
+
+    <div class="faq">
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Can spiritual abuse happen in a healthy, Bible-believing church?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Yes. Doctrinal orthodoxy does not prevent abuse. Abuse is about power dynamics and accountability — or the lack of it — not about a church's theological position. Many documented cases have occurred in churches with otherwise sound teaching.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Is confronting leadership always the right step?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Not always — and not first. Confronting an abusive leader directly, especially alone, can be dangerous or counterproductive. The priority is the safety of the affected person. External reporting to denominational bodies, civil authorities, or independent reviewers is often more effective and safer.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Does reporting mean the church has to close or the pastor has to leave?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Not necessarily. Reporting triggers an investigation; what happens next depends on what the investigation finds and the response of the institution. Genuine repentance, structural reform, and appropriate accountability measures can sometimes allow a community to heal without dissolution — but protecting victims must come first.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          What if I'm not sure whether what I experienced was "really" abuse?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Uncertainty is extremely common among survivors, often because the abusive environment itself cultivated self-doubt. If you felt persistently controlled, shamed, silenced, or afraid — and that experience was connected to someone exercising spiritual authority over you — it is worth talking to a counselor regardless of how you label it. Your experience deserves to be taken seriously.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Can someone recover their faith after spiritual abuse?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Many people do — though the path looks different for everyone. Some find a healthier faith community; some take years away from institutional religion; some reconstruct their beliefs significantly. The point is that people have the right to pursue faith, or not, without coercion. A counselor experienced with religious trauma can support any of these paths.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          As a cell group leader, what can I do to prevent this in my own context?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          Proactive steps include: welcoming questions and dissent as healthy; never framing your guidance as spiritually binding; encouraging members to maintain relationships outside the group; being transparent about your own accountability structures; and actively pointing people to professional counselors for pastoral care rather than taking on all care yourself. Healthy authority is always accountable authority.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Guard the Flock · A public educational resource · Content compiled from published books, established organisations, and verified journalism.</p>
+    <p style="margin-top: 4px;">This site does not identify, rate, or list individual churches, leaders, or pastors. For case-specific journalism, see the Resources tab.</p>
+  </footer>
+
+</div>
+
+<script>
+  // Tab navigation
+  const tabs = document.querySelectorAll('.nav-tab');
+  const panels = document.querySelectorAll('.section');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab;
+      tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      panels.forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      const panel = document.getElementById('tab-' + target);
+      if (panel) panel.classList.add('active');
+
+      // Remember tab
+      try { localStorage.setItem('gtf-tab', target); } catch(e) {}
+    });
+  });
+
+  // Restore remembered tab
+  try {
+    const saved = localStorage.getItem('gtf-tab');
+    if (saved) {
+      const t = document.querySelector('[data-tab="' + saved + '"]');
+      if (t) t.click();
+    }
+  } catch(e) {}
+
+  // ── Latest News RSS feed loader ──────────────────────────────────────────
+  // The scheduled GitHub Action builds this static snapshot from publisher RSS.
+  const NEWS_DATA_URL = 'data/news.json';
+  const NEWS_DATA_BACKUP_URL = 'https://raw.githubusercontent.com/guardflock/guardtheflock/main/data/news.json';
+  const NEWS_TIMEOUT_MS = 12000;
+
+  function timeAgo(dateStr) {
+    try {
+      const diff = (Date.now() - new Date(dateStr).getTime()) / 1000;
+      if (!Number.isFinite(diff) || diff < 0) return '';
+      if (diff < 60) return 'just now';
+      if (diff < 3600) return Math.floor(diff/60) + 'm ago';
+      if (diff < 86400) return Math.floor(diff/3600) + 'h ago';
+      if (diff < 604800) return Math.floor(diff/86400) + 'd ago';
+      return new Date(dateStr).toLocaleDateString('en-MY', {day:'numeric',month:'short'});
+    } catch(e) { return ''; }
+  }
+
+  function renderFeed(items, activeFilter) {
+    const feed = document.getElementById('news-feed');
+    if (!items.length) {
+      feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines are available right now. Please try Refresh later or use the publisher links in Documented Cases.</div>';
+      return;
+    }
+    const filtered = activeFilter === 'all' ? items : items.filter(i => i.cat === activeFilter);
+    if (!filtered.length) {
+      feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines for this filter yet.</div>';
+      return;
+    }
+    const priority = new Map((window.GTF_NEWS_PRIORITY || []).map((name, index) => [name, index]));
+    filtered.sort((a,b) => {
+      const sourceOrder = (priority.get(a.source) ?? 999) - (priority.get(b.source) ?? 999);
+      return sourceOrder || (new Date(b.date) - new Date(a.date));
+    });
+    feed.innerHTML = filtered.map(item => `
+      <div class="news-item" data-cat="${item.cat}">
+        <a href="${item.link}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+        <div class="news-meta">
+          <span class="news-source-tag">${item.source}</span>
+          ${item.author ? `<span class="news-author">By ${escapeHtml(item.author)}</span>` : ''}
+          <span class="news-age">${timeAgo(item.date)}</span>
+        </div>
+      </div>`).join('');
+  }
+
+  let allItems = [];
+  let activeFilter = 'all';
+  let loaded = 0;
+
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, char => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    })[char]);
+  }
+
+  async function loadNewsData(url) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), NEWS_TIMEOUT_MS);
+    try {
+      const response = await fetch(url, { cache: 'no-store', signal: controller.signal });
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      const data = await response.json();
+      if (!data || !Array.isArray(data.items)) throw new Error('Invalid news data');
+      return data;
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  async function loadAllFeeds() {
+    allItems = [];
+    loaded = 0;
+    const feed = document.getElementById('news-feed');
+    const status = document.getElementById('news-status');
+    if (feed) feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">Loading the latest published headlines…</div>';
+    if (status) status.textContent = '';
+    let data = null;
+    try {
+      data = await loadNewsData(NEWS_DATA_URL);
+    } catch (primaryError) {
+      try {
+        data = await loadNewsData(NEWS_DATA_BACKUP_URL);
+      } catch (backupError) {
+        if (feed) feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">The latest news snapshot is temporarily unavailable. Please try again later or use the publisher links in Documented Cases.</div>';
+        if (status) status.textContent = 'News data could not be loaded.';
+        return;
+      }
+    }
+    allItems = data.items
+      .filter(item => item && typeof item.title === 'string' && typeof item.link === 'string' && /^https:\/\//i.test(item.link))
+      .map(item => ({
+        title: item.title.substring(0, 180),
+        link: item.link,
+        date: item.date || '',
+        author: typeof item.author === 'string' ? item.author.substring(0, 100) : '',
+        source: item.source || 'Publisher',
+      cat: item.cat || 'accountability'
+      }));
+    loaded = Array.isArray(data.sources)
+      ? data.sources.length
+      : (Number(data.sourcesUpdated) || new Set(allItems.map(item => item.source)).size);
+    window.GTF_NEWS_PRIORITY = Array.isArray(data.sourcePriority) ? data.sourcePriority : [];
+    renderFeed(allItems, activeFilter);
+    const updated = data.updatedAt ? new Date(data.updatedAt) : null;
+    const validUpdated = updated && !Number.isNaN(updated.getTime());
+    if (status) status.textContent = allItems.length
+      ? `${allItems.length} headlines · ${loaded} sources · updated ${validUpdated ? updated.toLocaleString('en-MY', { dateStyle: 'medium', timeStyle: 'short' }) : 'recently'}`
+      : 'No headlines were available in the latest snapshot.';
+  }
+
+  // Load feeds when the news tab is first activated
+  let newsLoaded = false;
+  document.querySelectorAll('.nav-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.dataset.tab === 'news' && !newsLoaded) {
+        newsLoaded = true;
+        loadAllFeeds();
+      }
+    });
+  });
+
+  // Refresh button
+  const refreshBtn = document.getElementById('news-refresh');
+  if (refreshBtn) refreshBtn.addEventListener('click', () => { newsLoaded = true; loadAllFeeds(); });
+
+  // Filter buttons
+  document.querySelectorAll('.nf-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.nf-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.filter;
+      renderFeed(allItems, activeFilter);
+    });
+  });
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      const answer = btn.nextElementSibling;
+      if (answer) answer.classList.toggle('open', !expanded);
+    });
+  });
+</script>
