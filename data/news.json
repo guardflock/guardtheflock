@@ -1,31 +1,80 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T22:36:16.299953Z",
+  "updatedAt": "2026-10-26T00:28:35.137653Z",
   "sourcesUpdated": 19,
   "sources": [
+    "Abuse Tracker (Bishop Accountability)",
     "Spiritual Sounding Board",
-    "Christianity Today",
     "Religion News Service",
+    "Christianity Today",
     "Baptist News Global",
-    "Christian Headlines",
     "The Wartburg Watch",
     "The Guardian — Religion",
-    "Christian Post",
     "Crux — Catholic News",
+    "Christian Post",
     "National Catholic Reporter",
+    "Christian Headlines",
+    "Straits Times",
+    "Channel NewsAsia",
     "Surviving Church",
     "The Roys Report",
-    "Channel NewsAsia",
-    "Straits Times",
     "Charisma News",
-    "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch",
     "ECA Global",
+    "MinistryWatch",
     "Relevant Magazine"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "Wolff hails Antonelli's best race yet after US victory",
+      "link": "https://www.channelnewsasia.com/sport/wolff-hails-antonellis-best-race-yet-after-us-victory-6491761",
+      "date": "2026-10-26T00:05:19Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "ST Live: News as it happens",
+      "link": "https://www.straitstimes.com/singapore/st-live-news-as-it-happens6",
+      "date": "2026-10-25T23:41:38Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Serbia's Vucic concedes defeat in historic election win for student protest movement",
+      "link": "https://www.channelnewsasia.com/world/serbia-election-vucic-concede-defeat-student-protest-movement-6491631",
+      "date": "2026-10-25T23:40:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Mourinho gives Real Madrid the answers to Barcelona test in return to Clasico",
+      "link": "https://www.channelnewsasia.com/sport/mourinho-gives-real-madrid-answers-barcelona-test-in-return-clasico-6491706",
+      "date": "2026-10-25T23:33:20Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Oil prices down almost $1 in early trading",
+      "link": "https://www.channelnewsasia.com/business/oil-prices-down-almost-1-in-early-trading-6491701",
+      "date": "2026-10-25T23:24:45Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Want to get ahead at work? This behavioural psychologist turns career challenges into games",
+      "link": "https://www.channelnewsasia.com/women/ritika-datta-career-development-games-6441876",
+      "date": "2026-10-25T23:20:29Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Anthropic's Claude accessed Georgia state vote count information behind paywall, Axios reports",
+      "link": "https://www.channelnewsasia.com/business/anthropics-claude-accessed-georgia-state-vote-count-information-behind-paywall-axios-reports-6491646",
+      "date": "2026-10-25T22:48:06Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
     {
       "title": "Australia's NEXTDC CEO to forgo fiscal 2027 bonuses after forecast cut, project delay",
       "link": "https://www.channelnewsasia.com/business/australias-nextdc-ceo-forgo-fiscal-2027-bonuses-after-forecast-cut-project-delay-6491626",
@@ -41,52 +90,10 @@
       "cat": "asia"
     },
     {
-      "title": "Beyond bold statements: The evolving design philosophy of Singapore designer Colin Seah",
-      "link": "https://www.channelnewsasia.com/people/colin-seah-ministry-design-singapore-6481671",
-      "date": "2026-10-25T22:11:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Haze in Singapore: Normal PM2.5 readings and good to moderate 24-hour PSI islandwide",
       "link": "https://www.straitstimes.com/singapore/environment/haze-in-singapore-normal-pm2-5-readings-and-good-to-moderate-24-hour-psi-islandwide",
       "date": "2026-10-25T22:10:49Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Commentary: Why work from home doesn’t mean work from anywhere",
-      "link": "https://www.channelnewsasia.com/commentary/work-home-not-anywhere-employers-policy-6487366",
-      "date": "2026-10-25T22:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Not every maritime threat needs a warship: Why Singapore is turning to offshore patrol vessels",
-      "link": "https://www.channelnewsasia.com/singapore/singapore-navy-warship-offshore-patrol-vessel-maritime-security-6478186",
-      "date": "2026-10-25T22:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Antonelli wins US Grand Prix but must wait for title",
-      "link": "https://www.channelnewsasia.com/sport/antonelli-wins-us-grand-prix-must-wait-title-6491576",
-      "date": "2026-10-25T21:52:31Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Brazil pauses presidential vote count after Supreme Court extends voting hours",
-      "link": "https://www.channelnewsasia.com/world/brazil-pauses-presidential-vote-count-after-supreme-court-extends-voting-hours-6490261",
-      "date": "2026-10-25T21:50:10Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Storms batter Europe hitting power supplies, flights and phones",
-      "link": "https://www.channelnewsasia.com/world/storms-batter-europe-hitting-power-supplies-flights-and-phones-6491546",
-      "date": "2026-10-25T21:31:12Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -104,7 +111,7 @@
       "cat": "asia"
     },
     {
-      "title": "Blue oasis in a shipping lane",
+      "title": "Sisters’ Islands Marine Park designated Singapore’s first ‘Hope Spot’",
       "link": "https://www.straitstimes.com/singapore/environment/blue-oasis-in-a-shipping-lane",
       "date": "2026-10-25T21:00:00Z",
       "source": "Straits Times",
@@ -179,13 +186,6 @@
       "date": "2026-10-25T14:06:50Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
-    },
-    {
-      "title": "Pre-school teacher who overcame childhood abuse among 11 awarded President’s Challenge fellowships",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/preschool-teacher-who-overcame-childhood-abuse-among-11-awarded-presidents-challenge-fellowships",
-      "date": "2026-10-25T12:30:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Erika Kirk Furious About ‘Grossly Out of Line’ Proposal for Tyler Robinson Trial",
