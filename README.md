@@ -63,4 +63,4 @@ MIT License — free to use, adapt, and share with attribution. See [`LICENSE`](
 
 ## Credits
 
-Built by [James CWK](https://github.com/jamescwk) with assistance from Claude (Anthropic). Content is sourced from published books, established organisations, and journalism. News articles remain the property and responsibility of their publishers.
+Built with assistance from Claude (Anthropic). Content is sourced from published books, established organisations, and journalism. News articles remain the property and responsibility of their publishers.
