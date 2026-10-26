@@ -186,6 +186,31 @@ a:hover { color: var(--accent); }
   margin-top: 20px;
 }
 
+/* ── Case evidence badges (Documented Cases tab) ────────────────────────── */
+.case-list { display: flex; flex-direction: column; gap: 1.25rem; margin-bottom: 2rem; }
+.case-item { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.1rem 1.4rem; }
+.case-item-header { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: .6rem; margin-bottom: .65rem; }
+.case-item-name { font-size: .97rem; font-weight: 700; margin: 0 0 .2rem; }
+.case-item-cat { font-size: .78rem; color: var(--fg-muted); }
+.case-item-badges { display: flex; flex-wrap: wrap; gap: .3rem; flex-shrink: 0; }
+.case-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: .7rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
+.badge-independent { background: #dbeafe; color: #1d4ed8; }
+.badge-institutional { background: #fef3c7; color: #92400e; }
+.badge-criminal { background: #fee2e2; color: #991b1b; }
+.badge-civil { background: #f3e8ff; color: #6b21a8; }
+.badge-historical { background: #f1f5f9; color: #475569; }
+.case-item-body { font-size: .88rem; line-height: 1.65; }
+.case-item-meta { font-size: .78rem; color: var(--fg-muted); margin-top: .6rem; }
+.case-item-sources { font-size: .82rem; padding-left: 1.2rem; margin-top: .4rem; color: var(--fg-muted); }
+.case-note { font-size: .8rem; font-style: italic; background: var(--warn-bg); border-left: 3px solid var(--warn-border); padding: .5rem .75rem; border-radius: 0 4px 4px 0; margin-top: .6rem; }
+@media (prefers-color-scheme: dark) {
+  .badge-independent { background: #1e3a5f; color: #93c5fd; }
+  .badge-institutional { background: #3d2b0a; color: #fcd34d; }
+  .badge-criminal { background: #3b0f0f; color: #fca5a5; }
+  .badge-civil { background: #2e1065; color: #d8b4fe; }
+  .badge-historical { background: #1e293b; color: #94a3b8; }
+}
+
 /* ── Warn box (used in Documented Cases tab) ─────────────────────────────── */
 .warn-box {
   border-left: 4px solid var(--warn-border);
@@ -1140,15 +1165,6 @@ footer {
 
       <div class="resource-item">
         <div class="resource-info">
-          <h4>Church Clarity — Policy Transparency Project</h4>
-          <p>A crowd-sourced project that documents what policies churches publicly hold, helping people make informed decisions about where they attend. Focuses on transparency, not rating.</p>
-          <p><a href="https://churchclarity.org" target="_blank" rel="noopener noreferrer">churchclarity.org ↗</a></p>
-        </div>
-        <span class="resource-tag tag-org">Transparency</span>
-      </div>
-
-      <div class="resource-item">
-        <div class="resource-info">
           <h4>The Roys Report Podcast — Spiritual Abuse Series</h4>
           <p>Julie Roys' investigative podcast covers specific cases and broader patterns. Particularly relevant episodes: <em>How to Identify &amp; Recover from Spiritual Abuse</em>, <em>Spiritually Abusive Leaders in the Church</em>, and <em>Escaping and Healing from Abusive Churches</em>.</p>
           <p><a href="https://roysreport.com/podcast/how-to-identify-recover-from-spiritual-abuse/" target="_blank" rel="noopener noreferrer">roysreport.com/podcast ↗</a></p>
@@ -1170,11 +1186,12 @@ footer {
 
       <div class="resource-item">
         <div class="resource-info">
-          <h4>Bare Marriage (formerly Sheila Wray Gregoire)</h4>
-          <p>Research-based writing on harmful teaching within Christian marriage and purity culture contexts, with a focus on evidence and survivor voices.</p>
-          <p><a href="https://baremarriage.com" target="_blank" rel="noopener noreferrer">baremarriage.com ↗</a></p>
+          <h4>Protestant Accountability</h4>
+          <p>A publicly searchable database of documented allegations, findings, and disciplinary actions involving Protestant ministers and organisations, launched September 2026. Currently holds over 2,700 records drawn from court records, journalism, and church investigation reports.</p>
+          <p style="font-size:.82rem;color:var(--fg-muted);margin-top:.4rem;"><em>Discovery and cross-reference tool only — not an independent investigative body. Individual entries should be checked against primary documents and reputable reporting before being relied upon.</em></p>
+          <p><a href="https://protestantaccountability.org" target="_blank" rel="noopener noreferrer">protestantaccountability.org ↗</a></p>
         </div>
-        <span class="resource-tag tag-site">Research / Blog</span>
+        <span class="resource-tag tag-site">Database</span>
       </div>
 
 
@@ -1632,6 +1649,206 @@ footer {
 
     <p style="margin-bottom:2rem;color:var(--fg-muted);">Why document this at all? Because patterns become visible only when cases are collected. Awareness of documented abuse in Christian contexts helps communities ask better questions, spot similar dynamics early, and stop dismissing concerns as "just gossip." The journalism linked here has been verified, published, and, where relevant, updated with legal outcomes.</p>
 
+    <!-- ── Individual Named Cases ─────────────────────────────────────────── -->
+    <h3 style="margin-bottom:.5rem;">Individual Named Cases</h3>
+    <p style="font-size:.88rem;color:var(--fg-muted);margin-bottom:1.5rem;">Specific cases drawn from independent journalism and official investigations, most recent first. Each carries an evidence status label — see the FAQ for what these mean. An allegation is not a finding; a civil lawsuit is not a conviction; an institutional report is not a criminal charge.</p>
+
+    <div class="case-list">
+
+      <!-- Seth Sung Kim / HMCC -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Seth Sung Kim &mdash; Harvest Mission Community Church</h4>
+            <div class="case-item-cat">Sexual Misconduct &nbsp;&middot;&nbsp; 2026</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-institutional">Institutional finding</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>Seth Sung Kim, founding senior pastor of Harvest Mission Community Church (HMCC) — a multinational network with campuses in Michigan, Austin, Chicago, and several Asian cities — was permanently disqualified from ministry by church elders in 2026 following an internal investigation into alleged sexual misconduct. The church released a public statement acknowledging the findings and the removal.</p>
+          <p class="case-item-meta"><strong>Institutional response:</strong> Elders permanently disqualified Kim from ministry; church issued a public disclosure statement. &nbsp;|&nbsp; <strong>Last verified:</strong> Oct 2026</p>
+          <p class="case-item-meta"><strong>Note:</strong> This is a church-issued finding, not a criminal conviction or independent third-party investigation.</p>
+          <ul class="case-item-sources">
+            <li><a href="https://roysreport.com/harvest-mission-churches-permanently-disqualify-founding-pastor-seth-kim-over-alleged-sexual-misconduct/" target="_blank" rel="noopener">The Roys Report: Harvest Mission churches permanently disqualify Seth Kim</a></li>
+            <li><a href="https://www.christiandaily.com/news/michigan-church-discloses-misconduct-allegations-against-founding-pastor-seth-kim" target="_blank" rel="noopener">Christian Daily International: Michigan church discloses misconduct allegations</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Denis Roy / Brownsburg Vineyard -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Denis Roy &mdash; Brownsburg Vineyard Church</h4>
+            <div class="case-item-cat">Sexual Misconduct &nbsp;&middot;&nbsp; 2026</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-independent">Independent investigation</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>An independent investigation commissioned by Vineyard USA found that Denis Roy, former lead pastor of Brownsburg Vineyard Church (Indiana), committed clergy sexual abuse against multiple women in two states. The investigation also found that church and denominational leadership had received prior reports and failed to act on them.</p>
+          <p class="case-item-meta"><strong>Institutional response:</strong> Roy had previously resigned. Vineyard USA acknowledged safeguarding failures and committed to structural reforms. &nbsp;|&nbsp; <strong>Last verified:</strong> Mar 2026</p>
+          <ul class="case-item-sources">
+            <li><a href="https://ministrywatch.com/investigation-finds-former-vineyard-usa-pastor-committed-clergy-sexual-abuse/" target="_blank" rel="noopener">MinistryWatch: Investigation finds former Vineyard USA pastor committed clergy sexual abuse</a></li>
+            <li><a href="https://youarecurrent.com/2026/03/07/investigation-finds-former-brownsburg-pastor-committed-clergy-sexual-abuse/" target="_blank" rel="noopener">You Are Current: Investigation finds former Brownsburg pastor committed clergy sexual abuse</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Daniel Meyer / Vineyard Delaware County -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Daniel Meyer &mdash; Vineyard Church Delaware County</h4>
+            <div class="case-item-cat">Sexual Misconduct (Counselling) &nbsp;&middot;&nbsp; 2026</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-civil">Civil lawsuit pending</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>A civil lawsuit filed in May 2026 alleges that Daniel Meyer, former lead pastor of Vineyard Church Delaware County (Ohio), groomed and sexually abused adult women during pastoral counselling sessions. The lawsuit names both Meyer and the church as defendants, alleging the church failed to protect congregants from a foreseeable risk.</p>
+          <p class="case-item-meta"><strong>Status:</strong> Civil lawsuit; allegations have not been adjudicated. Meyer has not been criminally charged. &nbsp;|&nbsp; <strong>Last verified:</strong> May 2026</p>
+          <ul class="case-item-sources">
+            <li><a href="https://roysreport.com/former-ohio-pastor-sued-for-alleged-sexual-abuse-during-counseling-sessions/" target="_blank" rel="noopener">The Roys Report: Former Ohio pastor sued for alleged sexual abuse during counseling sessions</a></li>
+            <li><a href="https://abc6onyourside.com/news/local/lawsuit-alleges-ex-ohio-pastor-groomed-abused-women-in-counseling-at-delaware-co-church-vineyard-church-daniel-meyer" target="_blank" rel="noopener">ABC6 Columbus: Lawsuit alleges ex-pastor groomed, abused women in counseling</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- John-Paul Miller / Mica Miller -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">John-Paul Miller &mdash; Solid Rock Church</h4>
+            <div class="case-item-cat">Coercive Control / Cyberstalking &nbsp;&middot;&nbsp; 2025&ndash;ongoing</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-criminal">Criminal charges pending</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>John-Paul Miller, former pastor of Solid Rock Church (South Carolina), was indicted by a federal grand jury in December 2025 on charges of cyberstalking and making false statements to federal investigators. The charges relate to alleged conduct against his estranged wife Mica Miller, who died by suicide in April 2024. Her death prompted an FBI investigation.</p>
+          <div class="case-note"><strong>Editorial caution:</strong> Miller has <em>not</em> been charged in connection with Mica Miller's death. The charges are cyberstalking and making false statements only. He has pleaded not guilty. Trial was delayed for the sixth time in September 2026 and is now set for January 2027. Do not infer criminal responsibility for her death from the charges as filed.</div>
+          <p class="case-item-meta"><strong>Last verified:</strong> Oct 2026 &nbsp;|&nbsp; Trial pending Jan 2027 term</p>
+          <ul class="case-item-sources">
+            <li><a href="https://www.jubileecast.com/articles/39719/20260925/john-paul-miller-s-federal-trial-delayed-for-a-sixth-time%E2%80%94why-is-the-case-still-waiting.htm" target="_blank" rel="noopener">Jubilee Cast: Trial delayed for sixth time (Sep 2026)</a></li>
+            <li><a href="https://www.wmbfnews.com/2026/01/12/former-pastor-linked-mica-miller-investigation-pleads-not-guilty-federal-charges/" target="_blank" rel="noopener">WMBF News: Former pastor pleads not guilty to federal charges</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mike Bickle / IHOPKC -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Mike Bickle &mdash; International House of Prayer Kansas City (IHOPKC)</h4>
+            <div class="case-item-cat">Sexual Misconduct &nbsp;&middot;&nbsp; 2025</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-independent">Independent investigation</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>An independent investigation by Investigations Counsel Group (ICG), released February 2025, identified 17 survivors and found that Mike Bickle, founder of IHOPKC, engaged in sexual misconduct with multiple women over several decades. Bickle had been removed from ministry in late 2023 following initial disclosures. The investigation also found that IHOPKC leadership had failed to act on reports it received.</p>
+          <p class="case-item-meta"><strong>What is disputed:</strong> Several potential witnesses declined to participate in the investigation. &nbsp;|&nbsp; <strong>Institutional response:</strong> IHOPKC is undergoing significant leadership and structural reform. &nbsp;|&nbsp; <strong>Last verified:</strong> Feb 2025</p>
+          <ul class="case-item-sources">
+            <li><a href="https://www.christianitytoday.com/ct/2025/february/ihopkc-mike-bickle-independent-investigation-report.html" target="_blank" rel="noopener">Christianity Today: IHOPKC independent investigation report</a></li>
+            <li><a href="https://roysreport.com/category/ihopkc/" target="_blank" rel="noopener">The Roys Report: IHOPKC coverage</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Robert Morris / Gateway Church -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Robert Morris &mdash; Gateway Church</h4>
+            <div class="case-item-cat">Child Sexual Abuse &nbsp;&middot;&nbsp; 2024</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-institutional">Institutional finding</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>Robert Morris, founder and long-serving lead pastor of Gateway Church (Southlake, Texas), resigned in June 2024 after survivor Cindy Clemishire publicly disclosed that Morris had sexually abused her beginning when she was 12 years old in 1982. A subsequent church investigation found that four elders had prior knowledge of the allegations and failed to act. Further survivors subsequently came forward.</p>
+          <p class="case-item-meta"><strong>Institutional response:</strong> Morris resigned; four elders removed; independent review commissioned; Gateway issued a public apology to survivors. &nbsp;|&nbsp; <strong>Last verified:</strong> Jun 2024</p>
+          <ul class="case-item-sources">
+            <li><a href="https://roysreport.com/category/gateway-church/" target="_blank" rel="noopener">The Roys Report: Gateway Church coverage</a></li>
+            <li><a href="https://www.christianitytoday.com/ct/2024/june/robert-morris-gateway-church-sexual-abuse-resignation.html" target="_blank" rel="noopener">Christianity Today: Robert Morris resigns from Gateway Church</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mike Pilavachi / Soul Survivor -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Mike Pilavachi &mdash; Soul Survivor</h4>
+            <div class="case-item-cat">Spiritual Abuse &nbsp;&middot;&nbsp; 2023</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-institutional">Institutional finding (Church of England)</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>Mike Pilavachi, founder of the Soul Survivor movement — an influential UK Christian youth organisation — stepped aside in April 2023 after a Church of England safeguarding investigation substantiated allegations of spiritual abuse. The investigation found that Pilavachi had required younger male leaders to engage in intimate physical contact with him over many years, framed within discipleship relationships.</p>
+          <p class="case-item-meta"><strong>Institutional response:</strong> Soul Survivor cancelled its 2023 festival; the Church of England safeguarding process continues. Pilavachi has not returned to public ministry. &nbsp;|&nbsp; <strong>Last verified:</strong> 2023</p>
+          <ul class="case-item-sources">
+            <li><a href="https://www.theguardian.com/world/2023/apr/04/soul-survivor-founder-mike-pilavachi-steps-aside-after-safeguarding-concerns-raised" target="_blank" rel="noopener">The Guardian: Soul Survivor founder steps aside after safeguarding concerns</a></li>
+            <li><a href="https://premierchristianity.com/home/what-has-happened-to-mike-pilavachi/17099.article" target="_blank" rel="noopener">Premier Christianity: What has happened to Mike Pilavachi?</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bill Hybels / Willow Creek -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Bill Hybels &mdash; Willow Creek Community Church</h4>
+            <div class="case-item-cat">Sexual Misconduct &nbsp;&middot;&nbsp; 2019 &mdash; Historical</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-institutional">Institutional finding (IAG)</span>
+            <span class="case-badge badge-historical">Historical</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>Bill Hybels, founding senior pastor of Willow Creek Community Church (South Barrington, Illinois), resigned in April 2018 amid multiple allegations of sexual harassment and misconduct. An Independent Advisory Group (IAG) commissioned by the church completed its investigation in February 2019 and found the allegations credible. The investigation also found that church leadership had dismissed and mishandled earlier reports over many years.</p>
+          <p class="case-item-meta"><strong>Institutional response:</strong> Hybels resigned; multiple senior pastors subsequently resigned; church undertook structural governance reform. &nbsp;|&nbsp; <strong>Last verified:</strong> Feb 2019</p>
+          <ul class="case-item-sources">
+            <li><a href="https://www.christianitytoday.com/ct/2019/february-web-only/willow-creek-iag-report-bill-hybels-misconduct.html" target="_blank" rel="noopener">Christianity Today: Willow Creek IAG report on Bill Hybels</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Ravi Zacharias / RZIM -->
+      <div class="case-item">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Ravi Zacharias &mdash; RZIM</h4>
+            <div class="case-item-cat">Sexual Misconduct &nbsp;&middot;&nbsp; 2021 &mdash; Historical</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-independent">Independent investigation</span>
+            <span class="case-badge badge-historical">Historical</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>An independent investigation by law firm Miller &amp; Martin, commissioned by RZIM and released in January 2021, found substantial and credible evidence that Ravi Zacharias — the late founder of Ravi Zacharias International Ministries — had sexually abused multiple women over many years, including massage therapists at spas he co-owned. The investigation found that RZIM leadership had failed to act on credible prior complaints, and that Zacharias had used his ministry position to facilitate access to victims.</p>
+          <p class="case-item-meta"><strong>Institutional response:</strong> RZIM released the full report publicly, issued an apology to survivors, committed to a victim support fund, and subsequently disbanded. Former staff publicly acknowledged institutional failures. &nbsp;|&nbsp; <strong>Last verified:</strong> Jan 2021</p>
+          <ul class="case-item-sources">
+            <li><a href="https://www.christianitytoday.com/ct/2021/february/ravi-zacharias-rzim-investigation-sexual-abuse.html" target="_blank" rel="noopener">Christianity Today: RZIM investigation finds evidence of sexual abuse</a></li>
+            <li><a href="https://roysreport.com/category/ravi-zacharias/" target="_blank" rel="noopener">The Roys Report: Ravi Zacharias coverage</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div><!-- /case-list -->
+
     <!-- Category cards -->
     <h3 style="margin-bottom:1rem;">Cases by Offence Category</h3>
     <div class="cards">
@@ -1693,7 +1910,6 @@ footer {
           <li><a href="https://www.christianitytoday.com/ct/topics/p/pastoral-misconduct/" target="_blank" rel="noopener">Christianity Today: Pastoral Misconduct archive</a></li>
           <li><a href="https://thewartburgwatch.com/category/church-discipline-abuse/" target="_blank" rel="noopener">The Wartburg Watch: Church Discipline Abuse</a></li>
           <li><a href="https://roysreport.com/category/spiritual-abuse/" target="_blank" rel="noopener">The Roys Report: Spiritual Abuse &amp; Misconduct</a></li>
-          <li><a href="https://churchclarity.org/" target="_blank" rel="noopener">Church Clarity: Policy transparency project</a></li>
         </ul>
       </div>
 
@@ -1738,13 +1954,16 @@ footer {
 
     <!-- Disclaimer footer -->
     <div class="warn-box" style="margin-top:2.5rem;border-color:var(--safe-border);background:var(--safe-bg);">
-      <strong>Important distinctions:</strong><br>
+      <strong>Evidence status labels explained:</strong>
       <ul style="margin-top:.5rem;padding-left:1.2rem;">
-        <li><strong>Allegation</strong> — reported by journalism or named in a lawsuit; not a finding of guilt</li>
-        <li><strong>Conviction</strong> — found guilty in a court of law; a matter of public record</li>
-        <li><strong>Settlement</strong> — financial settlement, which may or may not include admission of wrongdoing</li>
+        <li><strong>Independent investigation</strong> — conducted by a third party (law firm, external body) engaged specifically to investigate the matter</li>
+        <li><strong>Institutional finding</strong> — the organisation's own review or advisory group found the complaint substantiated</li>
+        <li><strong>Criminal charges pending</strong> — a formal indictment has been returned; no verdict has been reached; the accused is presumed innocent</li>
+        <li><strong>Civil lawsuit pending</strong> — a lawsuit has been filed; allegations have not been adjudicated</li>
+        <li><strong>Historical</strong> — the case is closed and the primary findings are no longer in active dispute</li>
       </ul>
-      This site does not independently verify, rate, or list individual churches, leaders, or pastors. All linked journalism has been produced by independent editorial organisations and is their responsibility.
+      <p style="margin-top:.75rem;font-size:.85rem;"><strong>Allegation</strong> — reported by journalism or named in a lawsuit; not a finding of guilt. <strong>Conviction</strong> — found guilty in a court of law; a matter of public record. <strong>Settlement</strong> — financial settlement, which may or may not include admission of wrongdoing.</p>
+      <p style="margin-top:.5rem;font-size:.85rem;">This site does not independently verify, rate, or list individual churches, leaders, or pastors. All linked journalism has been produced by independent editorial organisations and is their responsibility.</p>
     </div>
 
   </section>
@@ -1813,6 +2032,36 @@ footer {
         </button>
         <div class="faq-a">
           Proactive steps include: welcoming questions and dissent as healthy; never framing your guidance as spiritually binding; encouraging members to maintain relationships outside the group; being transparent about your own accountability structures; and actively pointing people to professional counselors for pastoral care rather than taking on all care yourself. Healthy authority is always accountable authority.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          What do the evidence status labels in the Documented Cases tab mean?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          <p>Each named case in the Documented Cases tab carries a badge describing the strongest evidence currently available. These labels are not rankings of how serious a case is — they describe the nature of the evidence.</p>
+          <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;line-height:1.7;">
+            <li><strong>Independent investigation</strong> — conducted by a third party (external law firm, safeguarding body, or review panel) specifically engaged to investigate the matter. The strongest form of non-criminal accountability.</li>
+            <li><strong>Institutional finding</strong> — the organisation's own leadership, board, or advisory group reviewed the matter and found concerns substantiated. Stronger than a bare allegation, but less independent than an external investigation.</li>
+            <li><strong>Criminal charges pending</strong> — a formal indictment has been returned by a grand jury or equivalent. This means a court found probable cause, but no verdict has been reached. The accused is presumed innocent until proven guilty.</li>
+            <li><strong>Civil lawsuit pending</strong> — a lawsuit has been filed in a civil court. Allegations in a lawsuit have not been adjudicated; they are the plaintiff's claims, not judicial findings.</li>
+            <li><strong>Historical</strong> — the primary investigative findings are no longer in active dispute and the case has been substantially concluded. The organisation involved may no longer exist.</li>
+          </ul>
+          <p style="margin-top:.75rem;">A criminal conviction is not the only legitimate basis for documenting abuse. An independent investigation or an institutional admission can establish serious harm. However, what each label establishes — and does not establish — is always stated in the individual case entry.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Why are named individuals documented on this site?
+          <svg class="chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,6 8,10 12,6"/></svg>
+        </button>
+        <div class="faq-a">
+          <p>The Documented Cases section exists to help readers recognise patterns, not to maintain a list of disgraced people. Each named case was selected because it illustrates one or more recurring dynamics — how spiritual authority can be misused, how institutions handle (or fail to handle) complaints, and what independent accountability looks like in practice.</p>
+          <p style="margin-top:.75rem;">All named cases link to published journalism or official investigation reports from independent editorial organisations. This site does not make its own investigative findings. Where a case involves pending charges or unresolved civil litigation, that is stated clearly in the entry. Where the accused person has responded publicly, that response is reflected.</p>
+          <p style="margin-top:.75rem;">If a significant new outcome changes a case's status — a verdict, an appeal outcome, a settled lawsuit, a new investigation — the relevant entry will be updated. Verified corrections can be sent via the contact details in the repository.</p>
         </div>
       </div>
 
