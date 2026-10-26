@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T00:28:35.137653Z",
+  "updatedAt": "2026-10-26T04:53:09.876531Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Abuse Tracker (Bishop Accountability)",
     "Spiritual Sounding Board",
-    "Religion News Service",
     "Christianity Today",
+    "Religion News Service",
     "Baptist News Global",
-    "The Wartburg Watch",
     "The Guardian — Religion",
+    "The Wartburg Watch",
+    "Christian Headlines",
+    "National Catholic Reporter",
     "Crux — Catholic News",
     "Christian Post",
-    "National Catholic Reporter",
-    "Christian Headlines",
-    "Straits Times",
-    "Channel NewsAsia",
     "Surviving Church",
+    "Channel NewsAsia",
+    "Straits Times",
     "The Roys Report",
     "Charisma News",
     "ECA Global",
+    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
     "Relevant Magazine"
   ],
@@ -27,93 +27,135 @@
   "itemCount": 120,
   "items": [
     {
-      "title": "Wolff hails Antonelli's best race yet after US victory",
-      "link": "https://www.channelnewsasia.com/sport/wolff-hails-antonellis-best-race-yet-after-us-victory-6491761",
-      "date": "2026-10-26T00:05:19Z",
+      "title": "‘Clearly disinformation’: Singapore embassy denies claims Indonesian public figures met ambassador",
+      "link": "https://www.channelnewsasia.com/asia/indonesia-singapore-embassy-jakarta-denies-meeting-ambassador-6492031",
+      "date": "2026-10-26T04:46:05Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "ST Live: News as it happens",
+      "title": "Missing: Man, 73, last seen in Telok Kurau on Oct 25",
+      "link": "https://www.straitstimes.com/singapore/missing-man-73-last-seen-in-telok-kurau-on-oct-25",
+      "date": "2026-10-26T04:35:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "President's Challenge Night 2026 raises over S$11 million",
+      "link": "https://www.channelnewsasia.com/entertainment/presidents-challenge-night-2026-fundraiser-donations-6491876",
+      "date": "2026-10-26T04:33:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "First international flight takes off from new Sydney airport",
+      "link": "https://www.channelnewsasia.com/world/first-international-flight-new-western-sydney-airport-6492126",
+      "date": "2026-10-26T04:22:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Franklin Graham extols Republican values",
+      "link": "https://baptistnews.com/article/franklin-graham-extols-republican-values/",
+      "date": "2026-10-26T04:14:52Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Training public officers at global firms part of new initiatives to grow S’pore nuclear talent",
+      "link": "https://www.straitstimes.com/singapore/environment/training-public-officers-at-global-firms-part-of-new-initiatives-to-grow-spore-nuclear-talent",
+      "date": "2026-10-26T04:08:09Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Singapore leaders send condolences to Jordan after deadly church attack",
+      "link": "https://www.straitstimes.com/singapore/singapore-leaders-send-condolences-to-jordan-after-deadly-church-attack",
+      "date": "2026-10-26T04:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Singapore leaders condemn deadly church attack in Jordan, convey condolences to victims' families",
+      "link": "https://www.channelnewsasia.com/singapore/singapore-leaders-condemn-jordan-church-attack-6492041",
+      "date": "2026-10-26T03:58:46Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Man dies after landslide hits two-storey house in Penang",
+      "link": "https://www.channelnewsasia.com/asia/malaysia-penang-landslide-man-dead-stop-work-order-6491996",
+      "date": "2026-10-26T03:51:31Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "India's Infosys falls after cutting revenue growth forecast for fiscal 2027",
+      "link": "https://www.channelnewsasia.com/business/indias-infosys-falls-after-cutting-revenue-growth-forecast-fiscal-2027-6492101",
+      "date": "2026-10-26T03:50:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Singapore’s estimated geothermal resource potential more than 60 times annual electricity consumption: EMA",
+      "link": "https://www.channelnewsasia.com/singapore/geothermal-energy-potential-siew-study-survey-6491981",
+      "date": "2026-10-26T03:40:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Bank of Japan's hawkish pause to leave scope for December hike",
+      "link": "https://www.channelnewsasia.com/business/bank-japans-hawkish-pause-leave-scope-december-hike-6492061",
+      "date": "2026-10-26T03:33:32Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "S’pore to drill deeper into geothermal energy after promising results of its potential: Tan See Leng",
+      "link": "https://www.straitstimes.com/singapore/environment/spore-to-drill-deeper-into-geothermal-energy-after-promising-results-of-its-potential-tan-see-leng",
+      "date": "2026-10-26T03:08:41Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Howerton calls Zach Lambert a ‘heretic’ but welcomes Bo French",
+      "link": "https://baptistnews.com/article/howerton-calls-zach-lambert-a-heretic-but-welcomes-bo-french/",
+      "date": "2026-10-26T02:31:38Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "DHS says Christian blogger Samuel Sey, arrested by ICE, will be deported",
+      "link": "https://religionnews.com/2026/10/25/dhs-says-christian-blogger-samuel-sey-arrested-by-ice-will-be-deported/",
+      "date": "2026-10-26T02:25:55Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "IMDA escalates Simba probe over intentional spectrum misuse; operating licence at risk",
+      "link": "https://www.straitstimes.com/tech/imda-escalates-simba-probe-over-intentional-spectrum-misuse-at-over-100-sites-operating-licence-at",
+      "date": "2026-10-26T01:59:17Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "S’pore to tap diverse energy sources, explore new tech, to weather resource nationalism: Tan See Leng",
+      "link": "https://www.straitstimes.com/singapore/environment/spore-to-tap-diverse-energy-sources-explore-new-tech-to-weather-resource-nationalism-tan-see-leng",
+      "date": "2026-10-26T01:49:47Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "ST Live: S’pore to drill deeper into geothermal energy, first ‘Hope Spot’, Kimi Antonelli",
       "link": "https://www.straitstimes.com/singapore/st-live-news-as-it-happens6",
       "date": "2026-10-25T23:41:38Z",
       "source": "Straits Times",
       "cat": "asia"
     },
     {
-      "title": "Serbia's Vucic concedes defeat in historic election win for student protest movement",
-      "link": "https://www.channelnewsasia.com/world/serbia-election-vucic-concede-defeat-student-protest-movement-6491631",
-      "date": "2026-10-25T23:40:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Mourinho gives Real Madrid the answers to Barcelona test in return to Clasico",
-      "link": "https://www.channelnewsasia.com/sport/mourinho-gives-real-madrid-answers-barcelona-test-in-return-clasico-6491706",
-      "date": "2026-10-25T23:33:20Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Oil prices down almost $1 in early trading",
-      "link": "https://www.channelnewsasia.com/business/oil-prices-down-almost-1-in-early-trading-6491701",
-      "date": "2026-10-25T23:24:45Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Want to get ahead at work? This behavioural psychologist turns career challenges into games",
-      "link": "https://www.channelnewsasia.com/women/ritika-datta-career-development-games-6441876",
-      "date": "2026-10-25T23:20:29Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Anthropic's Claude accessed Georgia state vote count information behind paywall, Axios reports",
-      "link": "https://www.channelnewsasia.com/business/anthropics-claude-accessed-georgia-state-vote-count-information-behind-paywall-axios-reports-6491646",
-      "date": "2026-10-25T22:48:06Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Australia's NEXTDC CEO to forgo fiscal 2027 bonuses after forecast cut, project delay",
-      "link": "https://www.channelnewsasia.com/business/australias-nextdc-ceo-forgo-fiscal-2027-bonuses-after-forecast-cut-project-delay-6491626",
-      "date": "2026-10-25T22:25:14Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Real Madrid defeat Barcelona at Camp Nou to halve gap to LaLiga leaders",
-      "link": "https://www.channelnewsasia.com/sport/real-madrid-defeat-barcelona-camp-nou-halve-gap-laliga-leaders-6491606",
-      "date": "2026-10-25T22:14:09Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Haze in Singapore: Normal PM2.5 readings and good to moderate 24-hour PSI islandwide",
       "link": "https://www.straitstimes.com/singapore/environment/haze-in-singapore-normal-pm2-5-readings-and-good-to-moderate-24-hour-psi-islandwide",
       "date": "2026-10-25T22:10:49Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "More than fixing things: Singapore’s volunteer-led movement builds community muscle",
-      "link": "https://www.straitstimes.com/singapore/more-than-fixing-things-singapores-volunteer-led-movement-builds-community-muscle",
-      "date": "2026-10-25T21:30:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "askST Jobs: My colleagues get more flexibility because of family commitments. What about me?",
-      "link": "https://www.straitstimes.com/singapore/jobs/askst-jobs-my-colleagues-get-more-flexibility-because-of-family-commitments-what-about-me",
-      "date": "2026-10-25T21:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Sisters’ Islands Marine Park designated Singapore’s first ‘Hope Spot’",
-      "link": "https://www.straitstimes.com/singapore/environment/blue-oasis-in-a-shipping-lane",
-      "date": "2026-10-25T21:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
@@ -139,20 +181,6 @@
       "cat": "catholic"
     },
     {
-      "title": "NSF arrested after sneaking into women’s toilet and jumping from building to evade officers",
-      "link": "https://www.straitstimes.com/singapore/nsf-arrested-after-sneaking-into-female-toilet-and-jumping-from-building-to-evade-officers",
-      "date": "2026-10-25T15:01:47Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "PAP party leadership renewal rests on co-option next, with four spots to fill on top committee",
-      "link": "https://www.straitstimes.com/singapore/politics/pap-party-leadership-renewal-rests-on-co-option-next-with-four-spots-to-fill",
-      "date": "2026-10-25T15:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Chicago priest reinstated after investigation into allegation of sexual abuse of minor: Archdiocese",
       "link": "https://www.bishop-accountability.org/2026/10/chicago-priest-reinstated/",
       "date": "2026-10-25T14:23:17Z",
@@ -172,13 +200,6 @@
       "date": "2026-10-25T14:15:07Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
-    },
-    {
-      "title": "WP regrets Indonesia’s move to cut gas exports to S’pore, stresses importance of honouring contracts",
-      "link": "https://www.straitstimes.com/singapore/politics/wp-regrets-indonesias-move-to-cut-gas-exports-to-spore-stresses-importance-of-honouring-contracts",
-      "date": "2026-10-25T14:10:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "New York’s archdiocese and survivors of clergy abuse agree to $800 million legal settlement",
@@ -461,7 +482,7 @@
       "cat": "accountability"
     },
     {
-      "title": "When Justice and Mercy Seem to Collide, What Does Scripture Ask of Us",
+      "title": "When Justice and Mercy Seem to Collide, What Does Scripture Ask of Us?",
       "link": "https://www.crosswalk.com/headlines/contributors/guest-commentary/failed-execution-justice-mercy-human-dignity.html",
       "date": "2026-10-23T22:54:00Z",
       "source": "Christian Headlines",
@@ -601,20 +622,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Catholic Church’s ‘Theological Pornography’ Continues to Harm LGBTQI+ People 40 Years On",
-      "link": "https://baptistnews.com/article/catholic-churchs-theological-pornography-continues-to-harm-lgbtqi-people-40-years-on/",
-      "date": "2026-10-23T15:52:26Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Trimming faith codes cuts too deep",
-      "link": "https://baptistnews.com/article/trimming-faith-codes-cuts-too-deep/",
-      "date": "2026-10-23T15:51:10Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
       "title": "Authorities said Elizabeth Struhs was ‘safe’. So why did the eight-year-old die?",
       "link": "https://www.theguardian.com/australia-news/2026/oct/24/elizabeth-struhs-death-inquest-what-went-wrong-ntwnfb",
       "date": "2026-10-23T14:00:31Z",
@@ -683,13 +690,6 @@
       "date": "2026-10-22T23:13:42Z",
       "source": "The Roys Report",
       "cat": "accountability"
-    },
-    {
-      "title": "Multisite churches — also known as franchises — are now a staple of American life",
-      "link": "https://religionnews.com/2026/10/22/multisite-churches-also-known-as-franchises-are-now-a-staple-of-american-life/",
-      "date": "2026-10-22T21:48:19Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
     },
     {
       "title": "It Costs the Average American an Hour of Work to Buy 10 Staple Groceries. In Some Countries, It Takes More Than 19 Days",
