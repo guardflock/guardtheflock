@@ -22,7 +22,7 @@ OUTPUT = ROOT / "data" / "news.json"
 ITEMS_PER_FEED = 8
 MAX_ITEMS = 120
 REQUEST_TIMEOUT = 15
-USER_AGENT = "GuardTheFlockNewsBot/1.0 (+https://github.com/jamescwk/guardtheflock)"
+USER_AGENT = "GuardTheFlockNewsBot/1.0 (+https://github.com/guardflock/guardtheflock)"
 
 SOURCES = [
     {"name": "The Roys Report", "url": "https://roysreport.com/feed/", "cat": "accountability"},
