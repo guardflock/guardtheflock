@@ -1,36 +1,337 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T15:14:30.263823Z",
+  "updatedAt": "2026-10-26T21:02:43.552698Z",
   "sourcesUpdated": 19,
   "sources": [
+    "Christianity Today",
     "Spiritual Sounding Board",
     "Religion News Service",
-    "Christianity Today",
-    "The Guardian — Religion",
+    "Baptist News Global",
     "The Wartburg Watch",
+    "The Guardian — Religion",
     "Christian Headlines",
+    "Crux — Catholic News",
     "Christian Post",
     "National Catholic Reporter",
-    "Crux — Catholic News",
-    "The Roys Report",
     "Surviving Church",
     "Channel NewsAsia",
-    "Charisma News",
     "Straits Times",
-    "Baptist News Global",
-    "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch",
+    "The Roys Report",
+    "Charisma News",
     "ECA Global",
+    "MinistryWatch",
+    "Abuse Tracker (Bishop Accountability)",
     "Relevant Magazine"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "YouTuber who claims to have predicted Trump’s assassination attempt warns against ‘AI metamorphosis’",
-      "link": "https://www.christianpost.com/news/brandon-biggs-warns-against-ai-metamorphosis.html",
-      "date": "2026-10-26T15:12:54Z",
+      "title": "‘A never-ending effort’: She chases down illicit product peddlers in Geylang",
+      "link": "https://www.straitstimes.com/singapore/a-never-ending-effort-she-chases-down-illicit-product-peddlers-in-geylang",
+      "date": "2026-10-26T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "As more pre-school owners in S’pore look to sell, buyers give centres a new life",
+      "link": "https://www.straitstimes.com/singapore/community/as-more-pre-school-owners-in-spore-look-to-sell-new-buyers-give-centres-a-second-life",
+      "date": "2026-10-26T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Dozens of Mail-in Ballots Found in Seattle Dumpster as Dems Claim Election System Is Secure",
+      "link": "https://mycharisma.com/news/dozens-of-mail-in-ballots-found-in-seattle-dumpster-as-dems-claim-election-system-is-secure/",
+      "date": "2026-10-26T20:52:02Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Apple says it will replace iPhone Duo units showing screen problems",
+      "link": "https://www.channelnewsasia.com/business/apple-says-it-will-replace-iphone-duo-units-showing-screen-problems-6494391",
+      "date": "2026-10-26T20:43:01Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Wall Street banks, Blackstone line up $63 billion to finance Broadcom chips for Anthropic",
+      "link": "https://www.channelnewsasia.com/business/wall-street-banks-blackstone-line-up-63-billion-finance-broadcom-chips-anthropic-6494381",
+      "date": "2026-10-26T20:31:59Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "‘Jesus Is Lord’ Sign Raises Questions After Christian Man Killed in Shocking Home Invasion",
+      "link": "https://mycharisma.com/news/jesus-is-lord-sign-raises-questions-after-christian-man-killed-in-shocking-home-invasion/",
+      "date": "2026-10-26T20:31:26Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "UN-commissioned experts say Gaza ceasefire has not stopped Israel from committing genocide",
+      "link": "https://www.channelnewsasia.com/world/un-commissioned-experts-say-gaza-ceasefire-has-not-stopped-israel-committing-genocide-6494281",
+      "date": "2026-10-26T20:29:10Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Pastor Arrested for Praying and Protesting Outside Chinese Embassy in DC",
+      "link": "https://mycharisma.com/news/pastor-arrested-for-praying-and-protesting-outside-chinese-embassy-in-dc/",
+      "date": "2026-10-26T20:22:43Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "US rabbi barred from entering Israel on trip to help Palestinians harvest olives",
+      "link": "https://religionnews.com/2026/10/26/u-s-rabbi-barred-from-entering-israel-on-trip-to-help-palestinians-harvest-olives/",
+      "date": "2026-10-26T20:22:16Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Leinster's Furlong cited over alleged genital grabbing",
+      "link": "https://www.channelnewsasia.com/sport/leinsters-furlong-cited-over-alleged-genital-grabbing-6494351",
+      "date": "2026-10-26T20:13:35Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Ohio pastor announces second wife, embraces polygamy",
+      "link": "https://roysreport.com/ohio-pastor-announces-second-wife-embraces-polygamy/",
+      "date": "2026-10-26T20:09:26Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Fired Northview Church Pastor CJ Johnson launches new church",
+      "link": "https://www.christianpost.com/news/fired-northview-church-pastor-cj-johnson-launches-new-church.html",
+      "date": "2026-10-26T19:40:52Z",
       "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Skydance offers buyouts to some employees to cut costs after Warner Bros merger",
+      "link": "https://www.channelnewsasia.com/business/skydance-offers-buyouts-some-employees-cut-costs-after-warner-bros-merger-6494286",
+      "date": "2026-10-26T19:29:33Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Dozens Killed in Attacks Targeting Christians in Ethiopia",
+      "link": "https://mycharisma.com/news/dozens-killed-in-attacks-targeting-christians-in-ethiopia/",
+      "date": "2026-10-26T19:19:44Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Megachurch Pastor Russell Evans says Christians must be 'transformers, not conformers'",
+      "link": "https://www.christianpost.com/news/russell-evans-christians-must-be-transformers-not-conformers.html",
+      "date": "2026-10-26T19:15:03Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "LIV Golf appoints former TaylorMade CEO Mark King as senior adviser",
+      "link": "https://www.channelnewsasia.com/sport/liv-golf-appoints-former-taylormade-ceo-mark-king-senior-adviser-6494246",
+      "date": "2026-10-26T19:02:52Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Machado ready to meet Venezuela leader after shock return",
+      "link": "https://www.channelnewsasia.com/world/machado-rodriguez-venezuela-return-exile-talks-eu-6494226",
+      "date": "2026-10-26T18:58:48Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "$1 Billion to Protect US Houses of Worship: Jewish Leader Reveals Speaker Mike Johnson’s Surprising Response to Security Bill",
+      "link": "https://mycharisma.com/news/1-billion-to-protect-us-houses-of-worship-jewish-leader-reveals-speaker-mike-johnsons-surprising-response-to-security-bill/",
+      "date": "2026-10-26T18:55:04Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Alibaba AI model secretly tried to reach Beijing server in test, rival Cohere says",
+      "link": "https://www.channelnewsasia.com/business/alibaba-ai-model-secretly-tried-reach-beijing-server-in-test-rival-cohere-says-6494236",
+      "date": "2026-10-26T18:51:23Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Ohio pastor reveals he’s had 2 wives for 3 years: Having only 1 wife is 'unbiblical'",
+      "link": "https://www.christianpost.com/news/ohio-pastor-reveals-hes-had-2-wives-for-3-years.html",
+      "date": "2026-10-26T18:37:37Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "In Israel: The congregations that stayed",
+      "link": "https://baptistnews.com/article/in-israel-the-congregations-that-stayed/",
+      "date": "2026-10-26T18:30:38Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Trump’s Justice Department drops discrimination cases",
+      "link": "https://baptistnews.com/article/trumps-justice-department-drops-discrimination-cases/",
+      "date": "2026-10-26T18:08:57Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Gov. Sanders mixes bad religion with bad politics",
+      "link": "https://baptistnews.com/article/gov-sanders-mixes-bad-religion-with-bad-politics/",
+      "date": "2026-10-26T17:53:11Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Colton Dixon offers Christian response to Halloween with haunting new song ‘Bones’",
+      "link": "https://www.christianpost.com/news/colton-dixon-offers-christian-response-to-halloween-with-bones.html",
+      "date": "2026-10-26T17:42:40Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Florida church, school allowed suspected child predator to work with children, lawsuits say",
+      "link": "https://www.christianpost.com/news/fl-church-school-sued-over-youth-pastors-sexual-abuse.html",
+      "date": "2026-10-26T17:42:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Descendants and Jesuits find a path toward healing through 'What We Inherit'",
+      "link": "https://www.ncronline.org/culture/descendants-and-jesuits-find-path-toward-healing-through-what-we-inherit",
+      "date": "2026-10-26T17:28:34Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "How ultra-Orthodox Jews — and issues surrounding them — may shape Israel’s election",
+      "link": "https://religionnews.com/2026/10/26/how-ultra-orthodox-jews-and-issues-surrounding-them-may-shape-israels-election/",
+      "date": "2026-10-26T17:19:30Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "3 Gunmen Captured After Deadly Attack on Christian Church",
+      "link": "https://mycharisma.com/news/3-gunmen-captured-after-deadly-attack-on-christian-church/",
+      "date": "2026-10-26T17:17:50Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Why ultra-Orthodox parties hold so much sway in Israeli politics",
+      "link": "https://religionnews.com/2026/10/26/why-ultra-orthodox-parties-hold-so-much-sway-in-israeli-politics/",
+      "date": "2026-10-26T16:44:16Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "New York’s archdiocese and survivors of clergy abuse agree to $800 million legal settlement",
+      "link": "https://religionnews.com/2026/10/26/new-yorks-archdiocese-and-survivors-of-clergy-abuse-agree-to-800-million-legal-settlement/",
+      "date": "2026-10-26T16:42:37Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Israel presses ahead with West Bank army operation days before election",
+      "link": "https://religionnews.com/2026/10/26/israel-presses-ahead-with-west-bank-army-operation-days-before-election/",
+      "date": "2026-10-26T16:39:33Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+      "link": "https://religionnews.com/2026/10/26/gunmen-open-fire-at-a-church-during-a-funeral-in-jordan-killing-7-and-wounding-40/",
+      "date": "2026-10-26T16:37:10Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Archaeologists identify early Christian church previously only known about through letters",
+      "link": "https://www.christianpost.com/news/archaeologists-identify-early-christian-church-in-italy.html",
+      "date": "2026-10-26T16:32:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "In India, police shootings of alleged cow smugglers raise alarm about impunity and bias",
+      "link": "https://religionnews.com/2026/10/26/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/",
+      "date": "2026-10-26T16:31:53Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "In conversation with Shively T.J. Smith",
+      "link": "https://baptistnews.com/article/in-conversation-with-shively-t-j-smith/",
+      "date": "2026-10-26T15:55:13Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Lutheran synod to install first female bishop on Reformation Day",
+      "link": "https://www.christianpost.com/news/pennsylvania-based-elca-synod-to-install-first-female-bishop.html",
+      "date": "2026-10-26T15:54:50Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "88-Year-Old Pastor Dies After Plane Crashes Into Vehicle",
+      "link": "https://mycharisma.com/news/88-year-old-pastor-dies-after-plane-crashes-into-vehicle/",
+      "date": "2026-10-26T15:54:19Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Former Boko Haram Militants Become Evangelists in Northern Nigeria",
+      "link": "https://roysreport.com/former-boko-haram-militants-become-evangelists-in-northern-nigeria/",
+      "date": "2026-10-26T15:53:35Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Lula da Silva defeats Flávio Bolsonaro in historic runoff, assumes fourth term in polarized Brazil",
+      "link": "https://www.christianpost.com/news/lula-da-silva-defeats-flvio-bolsonaro-in-historic-runoff-and-ass.html",
+      "date": "2026-10-26T15:49:06Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "‘Are You Jewish?’ Chilling Detail Emerges After NYC Rabbi Syringe Attack",
+      "link": "https://mycharisma.com/news/are-you-jewish-chilling-detail-emerges-after-nyc-rabbi-syringe-attack/",
+      "date": "2026-10-26T15:46:59Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Catholic bishops take heat for praying over Trump",
+      "link": "https://baptistnews.com/article/catholic-bishops-take-heat-for-praying-over-trump/",
+      "date": "2026-10-26T15:30:03Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Multisite Churches — Known as Franchises — Now a Staple of American Life New study finds that many multisite churches have started new location by merging with another church.",
+      "link": "https://ministrywatch.com/multisite-churches-known-as-franchises-now-a-staple-of-american-life/",
+      "date": "2026-10-26T15:27:32Z",
+      "source": "MinistryWatch",
+      "cat": "accountability"
+    },
+    {
+      "title": "New lawsuit claims late Bishop Gelineau abused an altar boy",
+      "link": "https://www.bishop-accountability.org/2026/10/new-lawsuit-claims-late-bishop-gelineau-abused/",
+      "date": "2026-10-26T15:16:35Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Israel’s global image is deteriorating. Why isn’t it a bigger issue in the election?",
+      "link": "https://baptistnews.com/article/israels-global-image-is-deteriorating-why-isnt-it-a-bigger-issue-in-the-election/",
+      "date": "2026-10-26T15:15:27Z",
+      "source": "Baptist News Global",
       "cat": "evangelical"
     },
     {
@@ -76,20 +377,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Unconventional AI buys Israeli chip startup NeuReality to speed product development",
-      "link": "https://www.channelnewsasia.com/business/unconventional-ai-buys-israeli-chip-startup-neureality-speed-product-development-6493726",
-      "date": "2026-10-26T15:01:20Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Nearly Half Of Republicans See This 1 Quality As A Threat — And It Speaks Volumes About Their Priorities",
-      "link": "https://baptistnews.com/article/nearly-half-of-republicans-see-this-1-quality-as-a-threat-and-it-speaks-volumes-about-their-priorities/",
-      "date": "2026-10-26T15:00:03Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
       "title": "This Is a Monumental, Unprecedented Achievement by the Survivors",
       "link": "https://www.bishop-accountability.org/2026/10/this-is-a-monumental-unprecedented-achievement/",
       "date": "2026-10-26T14:59:07Z",
@@ -109,41 +396,6 @@
       "date": "2026-10-26T14:49:28Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "Netanyahu touts Trump endorsement on eve of vote, suggests they may restart war on Iran",
-      "link": "https://www.channelnewsasia.com/world/netanyahu-touts-trump-endorsement-eve-vote-suggests-they-may-restart-war-iran-6493331",
-      "date": "2026-10-26T14:48:18Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Roux de Bezieux set to lead French Alps 2030 committee, source says",
-      "link": "https://www.channelnewsasia.com/sport/roux-de-bezieux-set-lead-french-alps-2030-committee-source-says-6493631",
-      "date": "2026-10-26T14:41:46Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Over 200 rabbis urge Senate hopeful El-Sayed to promote Jewish inclusion in Democratic party",
-      "link": "https://www.christianpost.com/news/rabbis-urge-senate-hopeful-el-sayed-to-promote-jewish-inclusion.html",
-      "date": "2026-10-26T14:28:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Church mourns longtime pastor who died days after plane’s landing gear strikes vehicle",
-      "link": "https://www.christianpost.com/news/church-mourns-pastor-who-died-days-after-plane-strikes-vehicle.html",
-      "date": "2026-10-26T14:21:50Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Chwalinska withdraws from Tokyo Open due to thigh injury",
-      "link": "https://www.channelnewsasia.com/sport/chwalinska-withdraws-tokyo-open-due-thigh-injury-6493571",
-      "date": "2026-10-26T14:21:42Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Waiting for the 2026 Catholic report on clergy sexual abuse",
@@ -195,25 +447,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Napoli coach Allegri handed two-match ban over outbursts in Roma clash",
-      "link": "https://www.channelnewsasia.com/sport/napoli-coach-allegri-handed-two-match-ban-over-outbursts-in-roma-clash-6493456",
-      "date": "2026-10-26T13:50:37Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Can You Build Wealth and Still Follow Jesus? Yes, But Define ‘Enough’ First.",
       "link": "https://relevantmagazine.com/life5/career-money/can-you-build-wealth-and-still-follow-jesus-yes-but-define-enough-first/",
       "date": "2026-10-26T13:49:36Z",
       "source": "Relevant Magazine",
       "cat": "evangelical"
-    },
-    {
-      "title": "Anthropic's IPO: A close look at AI frontrunner's rapid growth, spiraling costs",
-      "link": "https://www.channelnewsasia.com/business/anthropics-ipo-close-look-ai-frontrunners-rapid-growth-spiraling-costs-6493421",
-      "date": "2026-10-26T13:31:43Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Malik Willis Points to Jesus after Leading Dolphins to First Victory of Season",
@@ -230,60 +468,11 @@
       "cat": "accountability"
     },
     {
-      "title": "Australia give Smith chance to prove fitness ahead of decider",
-      "link": "https://www.channelnewsasia.com/sport/australia-give-smith-chance-prove-fitness-ahead-decider-6493371",
-      "date": "2026-10-26T13:14:38Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Espart ruled out for seven weeks as Barca lose another defender to injury",
-      "link": "https://www.channelnewsasia.com/sport/espart-ruled-out-seven-weeks-barca-lose-another-defender-injury-6493376",
-      "date": "2026-10-26T13:14:17Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Christian Blogger Samuel Sey Arrested by ICE, Faces Deportation DHS says Sey overstayed his visa, supporters blame arrest on clerical mix-up.",
       "link": "https://ministrywatch.com/christian-blogger-samuel-sey-arrested-by-ice-faces-deportation/",
       "date": "2026-10-26T13:12:47Z",
       "source": "MinistryWatch",
       "cat": "accountability"
-    },
-    {
-      "title": "New York Archdiocese agrees to $800 million settlement over abuse litigation",
-      "link": "https://www.bishop-accountability.org/2026/10/new-york-archdiocese-agrees-to-800/",
-      "date": "2026-10-26T13:10:28Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "‘Students are hungry for God’s Word’: Southern Baptist Gateway Seminary reports record enrollment",
-      "link": "https://www.christianpost.com/news/gateway-seminary-reports-record-enrollment.html",
-      "date": "2026-10-26T13:01:11Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "School District Lifts Restrictions on Christian Student Groups",
-      "link": "https://mycharisma.com/news/school-district-lifts-restrictions-on-christian-student-groups/",
-      "date": "2026-10-26T12:53:43Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Netanyahu Publicly Warns About The Possibility Of Nuclear War In The Middle East",
-      "link": "https://mycharisma.com/news/netanyahu-publicly-warns-about-the-possibility-of-nuclear-war-in-the-middle-east/",
-      "date": "2026-10-26T12:49:11Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Israeli security forces on high alert ahead of Tuesday’s elections",
-      "link": "https://www.christianpost.com/news/israeli-security-forces-on-high-alert-ahead-of-tuesdays-election.html",
-      "date": "2026-10-26T12:18:55Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "Movie review: ‘Your Mother, Your Mother, Your Mother’",
@@ -349,27 +538,6 @@
       "cat": "asia"
     },
     {
-      "title": "Megan Khung case: Woman who took videos of abuse, helped dispose of body convicted",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/megan-khung-case-woman-who-took-videos-of-abuse-helped-dispose-of-body-convicted",
-      "date": "2026-10-26T10:14:14Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Dinesh D’Souza on biblical archaeology, prophecy and the last days",
-      "link": "https://www.christianpost.com/video/dinesh-dsouza-on-biblical-archaeology-prophecy-and-last-days.html",
-      "date": "2026-10-26T10:10:22Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "A Kentucky man becomes the first humanist granted religious exemption from AI",
-      "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-      "date": "2026-10-26T10:00:55Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "Died: Klaus Krogh, Pioneer in Bible Design and Accessibility",
       "link": "https://www.christianitytoday.com/2026/10/obit-klaus-krogh-bible-design-typeface-dyslexia/",
       "date": "2026-10-26T10:00:00Z",
@@ -384,24 +552,10 @@
       "cat": "evangelical"
     },
     {
-      "title": "SAF revamps active infantry battalions with drone suite, real-time battle map",
-      "link": "https://www.straitstimes.com/singapore/saf-revamps-active-infantry-battalions-with-drone-suite-real-time-battle-map",
-      "date": "2026-10-26T10:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Catholic bishops regret White House prayer photo with Trump, say it was used politically",
       "link": "https://cruxnow.com/church-in-the-usa/2026/10/catholic-bishops-regret-white-house-prayer-photo-with-trump-say-it-was-used-politically/",
       "date": "2026-10-26T08:21:48Z",
       "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
-      "title": "US Catholic voters weigh democracy, integrity as midterms approach",
-      "link": "https://www.ncronline.org/news/us-catholic-voters-weigh-democracy-integrity-midterms-approach",
-      "date": "2026-10-26T08:00:00Z",
-      "source": "National Catholic Reporter",
       "cat": "catholic"
     },
     {
@@ -419,39 +573,11 @@
       "cat": "catholic"
     },
     {
-      "title": "The Texas trans pamphlet may be a hoax. The ideology it describes isn’t",
-      "link": "https://www.christianpost.com/voices/the-texas-trans-pamphlet-may-be-a-hoax-the-ideology-isnt.html",
-      "date": "2026-10-26T07:06:59Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "James Talarico and the Bible’s silence on abortion, take 2",
-      "link": "https://www.christianpost.com/voices/james-talarico-and-the-bibles-silence-on-abortion-take-two.html",
-      "date": "2026-10-26T07:06:57Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Franklin Graham extols Republican values",
-      "link": "https://baptistnews.com/article/franklin-graham-extols-republican-values/",
-      "date": "2026-10-26T04:14:52Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Howerton calls Zach Lambert a ‘heretic’ but welcomes Bo French",
-      "link": "https://baptistnews.com/article/howerton-calls-zach-lambert-a-heretic-but-welcomes-bo-french/",
-      "date": "2026-10-26T02:31:38Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "DHS says Christian blogger Samuel Sey, arrested by ICE, will be deported",
-      "link": "https://religionnews.com/2026/10/25/dhs-says-christian-blogger-samuel-sey-arrested-by-ice-will-be-deported/",
-      "date": "2026-10-26T02:25:55Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
+      "title": "US Catholic voters weigh democracy, integrity as midterms approach",
+      "link": "https://www.ncronline.org/news/us-catholic-voters-weigh-democracy-integrity-midterms-approach",
+      "date": "2026-10-26T08:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
     },
     {
       "title": "Editorial: Bishops' prayer for Trump may have been sincere. For Trump, it was pure politics.",
@@ -468,13 +594,6 @@
       "cat": "catholic"
     },
     {
-      "title": "Erika Kirk Furious About ‘Grossly Out of Line’ Proposal for Tyler Robinson Trial",
-      "link": "https://mycharisma.com/news/erika-kirk-furious-about-grossly-out-of-line-proposal-for-tyler-robinson-trial/",
-      "date": "2026-10-25T12:00:00Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
       "title": "New DDF doc highlights dangers of ‘mission creep’",
       "link": "https://cruxnow.com/news-analysis/2026/10/new-ddf-doc-highlights-dangers-of-mission-creep/",
       "date": "2026-10-25T11:46:37Z",
@@ -482,25 +601,11 @@
       "cat": "catholic"
     },
     {
-      "title": "Austin Shooter Was Fired by Tesla After He Struck Woman Who ‘Accidentally Stepped on His Prayer Rug’",
-      "link": "https://mycharisma.com/news/austin-shooter-was-fired-by-tesla-after-he-struck-woman-who-accidentally-stepped-on-his-prayer-rug/",
-      "date": "2026-10-25T11:30:00Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
       "title": "New York’s archdiocese and survivors of clergy abuse agree to $800 million legal settlement",
       "link": "https://cruxnow.com/church-in-the-usa/2026/10/new-yorks-archdiocese-and-survivors-of-clergy-abuse-agree-to-800-million-legal-settlement/",
       "date": "2026-10-25T11:29:48Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Democrat Senate Candidates Refuse to Tell Voters Where They Stand on Packing the Supreme Court",
-      "link": "https://mycharisma.com/news/democrat-senate-candidates-refuse-to-tell-voters-where-they-stand-on-packing-the-supreme-court/",
-      "date": "2026-10-25T10:00:00Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
     },
     {
       "title": "From March Madness miracles to a season opener in Rome: The story of Catholic college hoops",
@@ -524,13 +629,6 @@
       "cat": "catholic"
     },
     {
-      "title": "“Nauseously Optimistic”: The 2026 Vote Through A Legal Lens",
-      "link": "https://religionnews.com/2026/10/24/nauseously-optimistic-the-2026-vote-through-a-legal-lens/",
-      "date": "2026-10-24T22:08:40Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "New York archdiocese finalizing $800m settlement with clergy sex abuse survivors",
       "link": "https://www.theguardian.com/us-news/2026/oct/24/new-york-archdiocese-800m-settlement-sexual-abuse",
       "date": "2026-10-24T21:33:24Z",
@@ -538,24 +636,10 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Brazilian bishops release letter opposing Trump-backed candidate Flávio Bolsonaro",
-      "link": "https://www.ncronline.org/news/brazilian-bishops-release-letter-opposing-trump-backed-candidate-fl-vio-bolsonaro",
-      "date": "2026-10-24T21:02:36Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
       "title": "After the Washington Wizards Lost to the Raptors, They Invited Scottie Barnes Into Their Prayer Circle",
       "link": "https://relevantmagazine.com/culture/sports/scottie-barnes-put-his-postgame-tv-interview-on-hold-to-pray-with-the-team-he-just-beat/",
       "date": "2026-10-24T20:01:12Z",
       "source": "Relevant Magazine",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Here’s a clue about the fake trans mailers",
-      "link": "https://baptistnews.com/article/heres-a-clue-about-the-fake-trans-mailers/",
-      "date": "2026-10-24T19:51:33Z",
-      "source": "Baptist News Global",
       "cat": "evangelical"
     },
     {
@@ -580,45 +664,10 @@
       "cat": "accountability"
     },
     {
-      "title": "Pro-Life Group Drops $1.1 Million Bomb on Ohio Dems Over Ninth-Month Abortion Support",
-      "link": "https://mycharisma.com/news/pro-life-group-drops-1-1-million-bomb-on-ohio-dems-over-ninth-month-abortion-support/",
-      "date": "2026-10-24T12:00:00Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Alan Dershowitz Says It’s ‘Very Likely’ Ilhan Omar Ends Up Being Deported",
-      "link": "https://mycharisma.com/news/alan-dershowitz-says-its-very-likely-ilhan-omar-ends-up-being-deported/",
-      "date": "2026-10-24T11:30:00Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Police: Utah Man Who Fantasized Online About Blowing Up Synagogue Found with Multiple Homemade Bombs",
-      "link": "https://mycharisma.com/news/police-utah-man-who-fantasized-online-about-blowing-up-synagogue-found-with-multiple-homemade-bombs/",
-      "date": "2026-10-24T11:00:00Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
       "title": "Video Roundtable: When Is It OK to Cancel Church?",
       "link": "https://www.christianitytoday.com/2026/10/canceling-church/",
       "date": "2026-10-24T10:00:00Z",
       "source": "Christianity Today",
-      "cat": "evangelical"
-    },
-    {
-      "title": "El-Sayed’s campaign test: Can he win over Black and Jewish voters?",
-      "link": "https://religionnews.com/2026/10/24/the-test-of-abdul-el-sayeds-campaign-for-senate-can-he-win-over-over-black-and-jewish-voters/",
-      "date": "2026-10-24T05:05:38Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "35 clergy and family of clergy appeal for no vote at HPUMC",
-      "link": "https://baptistnews.com/article/35-clergy-and-family-of-clergy-appeal-for-no-vote-at-hpumc/",
-      "date": "2026-10-24T01:32:33Z",
-      "source": "Baptist News Global",
       "cat": "evangelical"
     },
     {
@@ -678,39 +727,11 @@
       "cat": "accountability"
     },
     {
-      "title": "Catholic bishops pray over Trump days before midterms",
-      "link": "https://religionnews.com/2026/10/23/catholic-bishops-pray-over-trump-days-before-midterms/",
-      "date": "2026-10-23T18:59:09Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Michigan’s US Senate race deeply divides the state’s Jews",
-      "link": "https://religionnews.com/2026/10/23/race-senate-michigans-jewish-voters-midterms/",
-      "date": "2026-10-23T18:44:11Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "Pope Leo XIV cancels Assisi trip on doctors’ advice as he recovers from surgery",
       "link": "https://cruxnow.com/vatican/2026/10/pope-leo-xiv-cancels-assisi-trip-on-doctors-advice-as-he-recovers-from-surgery/",
       "date": "2026-10-23T18:24:41Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Reformation Sunday asks Christians a question: What is power for?",
-      "link": "https://religionnews.com/2026/10/23/reformation-sunday-asks-christians-a-question-what-is-power-for/",
-      "date": "2026-10-23T17:25:52Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "‘We don’t mind the killing; we just don’t want to watch it’",
-      "link": "https://baptistnews.com/article/we-dont-mind-the-killing-we-just-dont-want-to-watch-it/",
-      "date": "2026-10-23T16:47:02Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
     },
     {
       "title": "At least 9 killed at church shooting in Jordan",
@@ -766,20 +787,6 @@
       "link": "https://ministrywatch.com/former-lifeway-employee-charged-with-theft-forgery/",
       "date": "2026-10-22T23:36:08Z",
       "source": "MinistryWatch",
-      "cat": "accountability"
-    },
-    {
-      "title": "Missionary who housed 100+ Haitian boys arrested on sexual abuse charges",
-      "link": "https://roysreport.com/missionary-who-housed-100-haitian-boys-arrested-on-sexual-abuse-charges/",
-      "date": "2026-10-22T23:14:48Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
-      "title": "Bob Jones University suspends employee accused of child sexual exploitation",
-      "link": "https://roysreport.com/bob-jones-university-suspends-employee-accused-of-child-sexual-exploitation/",
-      "date": "2026-10-22T23:13:42Z",
-      "source": "The Roys Report",
       "cat": "accountability"
     },
     {
@@ -856,13 +863,6 @@
       "title": "Christian Universities Offer Education to Students With Intellectual Disabilities Specialized programs emphasize life skills, job readiness, and personal growth.",
       "link": "https://ministrywatch.com/christian-universities-offer-education-to-students-with-intellectual-disabilities/",
       "date": "2026-10-22T00:47:10Z",
-      "source": "MinistryWatch",
-      "cat": "accountability"
-    },
-    {
-      "title": "Ep. 657: Medication Abortions, Christianity Today, Narnia, Museum of the Bible",
-      "link": "https://ministrywatch.com/ep-657-medication-abortions-christianity-today-narnia-museum-of-the-bible/",
-      "date": "2026-10-21T23:41:30Z",
       "source": "MinistryWatch",
       "cat": "accountability"
     }
