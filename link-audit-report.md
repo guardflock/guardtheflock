@@ -2,7 +2,7 @@
 
 **Audit date:** 2026-10-20  
 **Repository revision audited:** `ef56b72537002a53ad2442facb7841589755bb08` (`ef56b72`, `main`); local repairs uncommitted  
-**Pages URL:** <https://jamescwk.github.io/guardtheflock/>  
+**Pages URL:** <https://guardflock.github.io/guardtheflock/>  
 **Prior Netlify URL found in social metadata:** <https://guardtheflock.netlify.app/>
 
 **Repair status:** Local `index.html` repairs are uncommitted. The remainder of this report includes the first audit inventory and the follow-up repair/test record.
@@ -21,7 +21,7 @@
 | Old target | Current action / recommendation | Verification |
 |---|---|---|
 | `https://guardtheflock.netlify.app/og-cover.png` | Removed the non-existent `og:image` declaration. | Both Pages and Netlify returned 404 for that file. |
-| `og:url` pointing to Netlify | Changed canonical Open Graph URL to `https://jamescwk.github.io/guardtheflock/`. | Pages is the README’s stated live site. |
+| `og:url` pointing to Netlify | Changed canonical Open Graph URL to `https://guardflock.github.io/guardtheflock/`. | Pages is the README’s stated live site. |
 | Kairos Centre target `kairosresearch.com` | Removed the hyperlink; left an explicit note that the target domain belongs to an unrelated Ohio AI research business and needs verification. | Current destination title/about content was unrelated. |
 | CFM `cfm.org.my` | Removed the hyperlink and left a warning pending verification of CFM’s current official site. | Target title was “KiraLoan”, unrelated to CFM. |
 | `www.micahasia.com` | Replaced with `https://micahglobal.org`. | Micah Global site and Asia network are live. Verify this is the intended organization/editorial recommendation before treating it as a substitute for the former Micah Asia domain. |
@@ -56,7 +56,7 @@ Statuses below were checked with HTTP HEAD/GET or web fetch on 2026-10-20. A 401
 
 | Link | Status | Notes |
 |---|---|---|
-| `https://jamescwk.github.io/guardtheflock/` (`og:url`) | 200 | Canonical project URL; deployed HTML was stale during this audit. |
+| `https://guardflock.github.io/guardtheflock/` (`og:url`) | 200 | Canonical project URL; deployed HTML was stale during this audit. |
 | Google Fonts stylesheet | 200 | Font stylesheet; system fallback is configured. |
 | `og:image` | Removed | No image file existed at old Netlify URL; add a real image file before restoring the tag. |
 
