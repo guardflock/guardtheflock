@@ -602,6 +602,55 @@ a:hover { color: var(--accent); }
 .pattern-card .p-verse { font-size: .75rem; color: var(--accent); font-weight: 600; letter-spacing: .04em; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 8px; }
 .pattern-card .p-looks { font-size: .78rem; color: var(--fg); background: var(--surface); border-radius: 6px; padding: 8px 10px; margin-top: 6px; }
 
+
+/* ── In-tab jump navigation ─────────────────────────────────────────────── */
+.tab-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 32px;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.tab-toc a {
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  transition: background .15s, border-color .15s;
+}
+.tab-toc a:hover,
+.tab-toc a:focus {
+  background: var(--card);
+  border-color: var(--accent);
+  outline: none;
+}
+/* ── Section headings with accent bar ──────────────────────────────────── */
+.sec-head {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 0 0 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent);
+  scroll-margin-top: 72px;
+}
+.sec-sub {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 0 0 10px;
+  scroll-margin-top: 72px;
+}
+/* ensure all anchored headings have scroll offset */
+[id] { scroll-margin-top: 68px; }
+
 /* ── Narcissism Guide ────────────────────────────────────────────────────── */
 .narc-intro { font-size: .9rem; color: var(--fg-muted); line-height: 1.75; margin-bottom: 24px; }
 .narc-table { width: 100%; border-collapse: collapse; font-size: .85rem; margin-top: 16px; margin-bottom: 8px; }
@@ -718,7 +767,13 @@ footer {
     </div>
 
     <p class="eyebrow">Definition &amp; context</p>
-    <h2>Spiritual abuse is a misuse of religious authority to control, harm, or exploit.</h2>
+    <h2 id="understand-what" class="sec-head">Spiritual abuse is a misuse of religious authority to control, harm, or exploit.</h2>
+
+    <nav class="tab-toc" aria-label="Jump to section">
+      <a href="#understand-what">What is spiritual abuse?</a>
+      <a href="#understand-forms">Common forms</a>
+      <a href="#understand-silence">Why good people stay silent</a>
+    </nav>
 
     <p>It can happen in any faith community — large or small, traditional or progressive, high-profile or local. The abuser is typically someone in a position of spiritual trust: a pastor, priest, elder, cell group leader, or mentor.</p>
 
@@ -728,7 +783,7 @@ footer {
 
     <p>Unlike overt physical or financial crimes, spiritual abuse often operates quietly. Victims frequently stay silent because they fear judgment, are told to "submit," or genuinely cannot name what is happening to them. The harm is real: clinical experience and a growing body of research link sustained exposure to religious coercion with anxiety, depression, psychological trauma, and damaged relationships.</p>
 
-    <h3 style="margin-top: 28px; margin-bottom: 12px;">Common forms</h3>
+    <h3 id="understand-forms" class="sec-sub" style="margin-top: 28px; margin-bottom: 12px; scroll-margin-top: 68px;">Common forms</h3>
     <div class="card-grid">
       <div class="card">
         <div class="card-label">Spiritual coercion</div>
@@ -761,7 +816,7 @@ footer {
     <!-- ── Why Good People Stay Silent ── -->
     <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">Understanding the psychology</p>
-    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Why Good People Stay Silent</h3>
+    <h3 id="understand-silence" class="sec-sub" style="font-size: 1.3rem; margin-bottom: 8px; scroll-margin-top: 68px;">Why Good People Stay Silent</h3>
     <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 20px; line-height: 1.65;">
       Documented cases repeatedly show that many people close to serious abuse knew — or sensed — something was wrong, yet said nothing for years. This is not cowardice. These are the dynamics that produce silence.
     </p>
@@ -808,7 +863,17 @@ footer {
   <!-- ── Tab: Discern ────────────────────────────────────────────────────── -->
   <section class="section" id="tab-discern" role="tabpanel">
     <p class="eyebrow">Red flags</p>
-    <h2>Patterns that often signal something is wrong</h2>
+    <h2 id="discern-signs" class="sec-head">Patterns that often signal something is wrong</h2>
+
+    <nav class="tab-toc" aria-label="Jump to section">
+      <a href="#discern-signs">Warning signs</a>
+      <a href="#discern-tests">Testing the fruit</a>
+      <a href="#discern-decision">Decision tree</a>
+      <a href="#discern-discussion">Discussion guide</a>
+      <a href="#discern-narcissism">Narcissistic behaviour</a>
+      <a href="#discern-pattern">PATTERN worksheet</a>
+      <a href="#discern-patterns">Patterns enabling harm</a>
+    </nav>
     <p>No single sign is definitive on its own. Look for clusters of behaviors that persist over time and are directed at multiple people.</p>
 
     <ul class="signs-list">
@@ -880,7 +945,7 @@ footer {
     <!-- ── Discernment section ── -->
     <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">Spiritual discernment</p>
-    <h3 style="font-size: 1.4rem; margin-bottom: 10px;">How to Test the Fruit</h3>
+    <h3 id="discern-tests" class="sec-sub" style="font-size: 1.4rem; margin-bottom: 10px; scroll-margin-top: 68px;">How to Test the Fruit</h3>
 
     <div class="scripture-pull">
       "Watch out for false prophets. They come to you in sheep's clothing, but inwardly they are ferocious wolves. By their fruit you will recognise them."
@@ -971,7 +1036,7 @@ footer {
     <!-- ── Decision Tree ── -->
     <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">Not sure where to start?</p>
-    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Something Feels Wrong — Where Do I Go?</h3>
+    <h3 id="discern-decision" class="sec-sub" style="font-size: 1.3rem; margin-bottom: 8px; scroll-margin-top: 68px;">Something Feels Wrong — Where Do I Go?</h3>
     <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 20px; line-height: 1.65;">Use this triage to find the most relevant section of this guide for what you are experiencing.</p>
 
     <div class="dtree">
@@ -1017,7 +1082,7 @@ footer {
     <!-- ── Discussion Guide ── -->
     <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">For cell groups &amp; small groups</p>
-    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Discussion Guide</h3>
+    <h3 id="discern-discussion" class="sec-sub" style="font-size: 1.3rem; margin-bottom: 8px; scroll-margin-top: 68px;">Discussion Guide</h3>
     <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 22px;">
       Use these questions to open a conversation in your cell group or small group. You do not need to have experienced spiritual abuse to benefit — developing discernment is a normal part of spiritual maturity. Take one or two questions per session rather than rushing through all five.
     </p>
@@ -1061,7 +1126,7 @@ footer {
     <!-- ── Narcissism Guide ── -->
     <hr style="margin: 48px 0 32px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">Discernment guide</p>
-    <h3 style="font-size: 1.3rem; margin-bottom: 14px;">Understanding Narcissistic Behaviour in Church Leadership</h3>
+    <h3 id="discern-narcissism" class="sec-sub" style="font-size: 1.3rem; margin-bottom: 14px; scroll-margin-top: 68px;">Understanding Narcissistic Behaviour in Church Leadership</h3>
 
     <p class="narc-intro">
       Narcissistic traits can include a strong need for admiration, entitlement, difficulty receiving criticism, and reduced attention to other people's needs. These traits vary in degree, and a clinical diagnosis such as Narcissistic Personality Disorder can only be assessed by an appropriately qualified professional. Spiritual abuse is different: it concerns the misuse of spiritual authority to control, exploit, or harm. The two can overlap, but neither automatically proves the other. <strong>You do not need to diagnose a leader to recognise harmful behaviour or seek help.</strong>
@@ -1141,7 +1206,7 @@ footer {
     <!-- ── PATTERN Worksheet ── -->
     <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">Reflection worksheet</p>
-    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">The PATTERN Worksheet</h3>
+    <h3 id="discern-pattern" class="sec-sub" style="font-size: 1.3rem; margin-bottom: 8px; scroll-margin-top: 68px;">The PATTERN Worksheet</h3>
     <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 8px;">
       Use PATTERN as a reflection prompt — not a numerical score or diagnosis. For each area, ask yourself: (1) What did I observe? (2) Is this repeated and corroborated? (3) What impact did it have? (4) What safe, proportionate next step is available?
     </p>
@@ -1191,7 +1256,7 @@ footer {
     <hr style="margin: 48px 0 32px; border: none; border-top: 1px solid var(--border);">
     <!-- ── Patterns That Enable Harm (moved from Wolves & Patterns tab) ── -->
 <p class="eyebrow">What documented cases reveal</p>
-    <h2>Patterns That Enable Harm</h2>
+    <h2 id="discern-patterns" class="sec-head" style="margin-top: 8px;">Patterns That Enable Harm</h2>
     <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:8px;">
       This section documents <em>recurring patterns</em> — dynamics that appear across independently investigated cases worldwide. These are possible patterns observed in some documented cases, not universal rules. Each pattern is grounded in Scripture.
     </p>
@@ -1285,7 +1350,13 @@ footer {
   <!-- ── Tab: Get Help / Respond ──────────────────────────────────────────── -->
   <section class="section" id="tab-respond" role="tabpanel">
     <p class="eyebrow">If you are affected</p>
-    <h2>Get Help / Respond</h2>
+    <h2 id="respond-steps" class="sec-head">Get Help / Respond</h2>
+
+    <nav class="tab-toc" aria-label="Jump to section">
+      <a href="#respond-steps">Steps to take</a>
+      <a href="#respond-leader">For leaders &amp; witnesses</a>
+      <a href="#respond-tests">Used the 4 tests?</a>
+    </nav>
 
     <div class="banner safe">
       <strong>You are not alone, and this is not your fault.</strong> Spiritual abuse is a form of manipulation that often makes victims feel responsible. Please reach out for support.
@@ -1330,7 +1401,7 @@ footer {
       </div>
     </div>
 
-    <h3 style="margin-top: 36px; margin-bottom: 12px;">If you are a leader or witness</h3>
+    <h3 id="respond-leader" class="sec-sub" style="margin-top: 36px; margin-bottom: 12px; scroll-margin-top: 68px;">If you are a leader or witness</h3>
     <p>If you observe patterns of spiritual abuse in your community, you have a responsibility to act — and acting well requires wisdom.</p>
     <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
       <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
@@ -1343,7 +1414,7 @@ footer {
 
 
     <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
-    <h3 style="font-size: 1.1rem; margin-bottom: 10px;">Used the 4 Tests and something is wrong?</h3>
+    <h3 id="respond-tests" class="sec-sub" style="font-size: 1.1rem; margin-bottom: 10px; scroll-margin-top: 68px;">Used the 4 Tests and something is wrong?</h3>
     <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 16px;">
       If you applied the discernment framework in the <strong>Discern</strong> tab and you are now more certain that something is wrong, the steps below are your practical path forward. You do not have to act on everything at once.
     </p>
@@ -1372,7 +1443,12 @@ footer {
   <!-- ── Tab: For Church Leaders ─────────────────────────────────────────── -->
   <section class="section" id="tab-leaders" role="tabpanel">
     <p class="eyebrow">For pastors, elders &amp; leaders</p>
-    <h2>For Church Leaders</h2>
+    <h2 id="leaders-top" class="sec-head">For Church Leaders</h2>
+
+    <nav class="tab-toc" aria-label="Jump to section">
+      <a href="#leaders-disclosure">Receiving a concern</a>
+      <a href="#leaders-audit">Leaders' self-audit</a>
+    </nav>
 
     <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:20px;">
       Leaders have a particular responsibility — both to prevent harm and to respond well when concerns are raised. This section provides a self-audit for ongoing accountability and guidance for those receiving a disclosure or concern.
@@ -1382,7 +1458,7 @@ footer {
       <strong>If someone has disclosed abuse to you:</strong> Listen without interrupting, believe the person's experience, do not promise absolute confidentiality (statutory obligations may apply), do not confront the accused person alone, and prioritise the safety of the person harmed over the reputation of the institution.
     </div>
 
-    <h3 style="margin-top: 12px; margin-bottom: 12px;">If you receive a concern or disclosure</h3>
+    <h3 id="leaders-disclosure" class="sec-sub" style="margin-top: 12px; margin-bottom: 12px; scroll-margin-top: 68px;">If you receive a concern or disclosure</h3>
     <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
       <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
       <li>Escalate to a denominational body, external board, or pastoral care network.</li>
@@ -1394,7 +1470,7 @@ footer {
     <!-- ── Leaders Self-Audit ── -->
     <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">For pastors, elders &amp; cell leaders</p>
-    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Guard Your Own Flock — A Leaders' Self-Audit</h3>
+    <h3 id="leaders-audit" class="sec-sub" style="font-size: 1.3rem; margin-bottom: 8px; scroll-margin-top: 68px;">Guard Your Own Flock — A Leaders' Self-Audit</h3>
     <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 4px; line-height: 1.65;">
       Ezekiel 34:10 — <em>"I will hold them accountable for my flock."</em> Honest leaders ask hard questions of themselves before others ask for them.
     </p>
@@ -1428,7 +1504,13 @@ footer {
   <!-- ── Tab: Documented Cases ─────────────────────────────────────────── -->
   <section class="section" id="tab-cases" role="tabpanel">
     <p class="eyebrow">Reported cases &amp; documented patterns</p>
-    <h2>Documented Cases</h2>
+    <h2 id="cases-top" class="sec-head">Documented Cases</h2>
+
+    <nav class="tab-toc" aria-label="Jump to section">
+      <a href="#cases-individual">Individual named cases</a>
+      <a href="#cases-category">By offence category</a>
+      <a href="#cases-regional">Regional coverage</a>
+    </nav>
 
     <div class="warn-box" style="margin-bottom:2rem;">
       <strong>Editorial note:</strong> This page does <em>not</em> maintain its own database of named individuals. Each entry below cites published journalism, official investigation reports, or court records; this site does not itself adjudicate allegations. Each source has its own editorial standards, scope, and limitations. An allegation is not a finding; a civil lawsuit is not a criminal conviction; an institutional report is not a court verdict. We distinguish these throughout.
@@ -1437,7 +1519,7 @@ footer {
     <p style="margin-bottom:2rem;color:var(--fg-muted);">Why document this at all? Because patterns become visible only when cases are collected. Awareness of documented abuse in Christian contexts helps communities ask better questions, spot similar dynamics early, and stop dismissing concerns as "just gossip." The journalism linked here has been verified, published, and, where relevant, updated with legal outcomes.</p>
 
     <!-- ── Individual Named Cases ─────────────────────────────────────────── -->
-    <h3 style="margin-bottom:.5rem;">Individual Named Cases</h3>
+    <h3 id="cases-individual" class="sec-sub" style="margin-bottom:.5rem; scroll-margin-top: 68px;">Individual Named Cases</h3>
     <p style="font-size:.88rem;color:var(--fg-muted);margin-bottom:1.5rem;">Specific cases drawn from independent journalism and official investigations, most recent first. Each carries an evidence status label — see the FAQ (linked in the footer) for what these mean. An allegation is not a finding; a civil lawsuit is not a conviction; an institutional report is not a criminal charge.</p>
 
     <div class="case-list">
@@ -1638,7 +1720,7 @@ footer {
     </div><!-- /case-list -->
 
     <!-- Category cards -->
-    <h3 style="margin-bottom:1rem;">Cases by Offence Category</h3>
+    <h3 id="cases-category" class="sec-sub" style="margin-bottom:1rem; scroll-margin-top: 68px;">Cases by Offence Category</h3>
     <div class="cards">
 
       <div class="card">
@@ -1704,7 +1786,7 @@ footer {
     </div><!-- /cards -->
 
     <!-- Regional journalism -->
-    <h3 style="margin-top:2.5rem;margin-bottom:1rem;">Regional Coverage</h3>
+    <h3 id="cases-regional" class="sec-sub" style="margin-top:2.5rem;margin-bottom:1rem; scroll-margin-top: 68px;">Regional Coverage</h3>
     <div class="cards">
 
       <div class="card">
@@ -1759,8 +1841,13 @@ footer {
   <!-- ── Tab: Study & Resources ──────────────────────────────────────────── -->
   <section class="section" id="tab-study-resources" role="tabpanel">
     <p class="eyebrow">Bible study &amp; resources</p>
-    <h2>Study &amp; Resources</h2>
-    <h3 style="font-size:1.25rem;margin-bottom:10px;">Tested by the Word — Five-Session Bible Study</h3>
+    <h2 id="study-top" class="sec-head">Study &amp; Resources</h2>
+
+    <nav class="tab-toc" aria-label="Jump to section">
+      <a href="#study-bible">Five-session Bible study</a>
+      <a href="#study-resources">Books, organisations &amp; sites</a>
+    </nav>
+    <h3 id="study-bible" class="sec-sub" style="font-size:1.25rem;margin-bottom:10px; scroll-margin-top: 68px;">Tested by the Word — Five-Session Bible Study</h3>
     <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:8px;">A complete Bible study series for cell groups, home groups, and small groups. Each session is 45–60 minutes and follows the same rhythm: Context → Icebreaker → Main passages → Discussion breakouts → Closing application. No prior theological training required.</p>
 
     <div class="banner" style="margin-bottom:24px;font-size:.85rem;">
@@ -2054,7 +2141,7 @@ footer {
     </div>
     <hr style="margin: 48px 0 32px; border: none; border-top: 1px solid var(--border);">
     <!-- ── Resources (moved from Resources tab) ── -->
-    <h3 style="font-size:1.25rem;margin-bottom:10px;">Books, Organisations &amp; Sites</h3>
+    <h3 id="study-resources" class="sec-sub" style="font-size:1.25rem;margin-bottom:10px; scroll-margin-top: 68px;">Books, Organisations &amp; Sites</h3>
 <p class="eyebrow">Selected resources</p>
     <h2>Books, organisations, and sites for further reading</h2>
     <p style="font-size: 0.875rem; color: var(--fg-muted); margin-bottom: 4px;">All links open in a new tab. These are selected resources from established publishers and organisations. Inclusion is not an endorsement of every position they hold; each source has its own scope and limitations.</p>
