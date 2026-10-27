@@ -678,6 +678,36 @@ a:hover { color: var(--accent); }
   .pw-row { grid-template-columns: 32px 1fr; }
   .pw-prompt { grid-column: 2; }
 }
+/* ── Safety Triage ───────────────────────────────────────────────────────── */
+.triage-box { background: #fff8f0; border: 2px solid #f59e0b; border-radius: 12px; padding: 20px 22px; margin-bottom: 28px; }
+@media (prefers-color-scheme: dark) { .triage-box { background: #2d1f00; border-color: #d97706; } }
+.triage-box h4 { font-size: .85rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #92400e; margin: 0 0 14px; }
+@media (prefers-color-scheme: dark) { .triage-box h4 { color: #fcd34d; } }
+.triage-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.triage-item { background: rgba(255,255,255,.6); border: 1px solid rgba(245,158,11,.3); border-radius: 8px; padding: 12px 14px; font-size: .85rem; line-height: 1.55; }
+@media (prefers-color-scheme: dark) { .triage-item { background: rgba(0,0,0,.25); border-color: rgba(217,119,6,.3); } }
+.triage-item .ti-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #b45309; margin-bottom: 4px; }
+@media (prefers-color-scheme: dark) { .triage-item .ti-label { color: #fbbf24; } }
+.triage-item strong { display: block; color: var(--fg); margin-bottom: 2px; }
+/* ── Disclosure Protocol ─────────────────────────────────────────────────── */
+.protocol-list { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-direction: column; gap: 12px; counter-reset: protocol; }
+.protocol-list li { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px 14px; font-size: .875rem; line-height: 1.6; display: flex; gap: 14px; align-items: flex-start; counter-increment: protocol; }
+.protocol-list li::before { content: counter(protocol); min-width: 26px; height: 26px; background: var(--accent); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: .75rem; font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+.protocol-list li strong { display: block; color: var(--fg); margin-bottom: 4px; }
+.protocol-list li span { color: var(--fg-muted); }
+/* ── Governance Checklist ────────────────────────────────────────────────── */
+.gov-area { background: var(--card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 16px; overflow: hidden; }
+.gov-area-header { padding: 14px 18px; display: flex; align-items: center; gap: 12px; cursor: pointer; user-select: none; }
+.gov-area-header:hover { background: var(--surface); }
+.gov-area-icon { font-size: 1.2rem; flex-shrink: 0; }
+.gov-area-title { font-size: .95rem; font-weight: 700; color: var(--fg); flex: 1; }
+.gov-area-toggle { color: var(--accent); font-size: 1.1rem; transition: transform .2s; }
+.gov-area[data-open="true"] .gov-area-toggle { transform: rotate(180deg); }
+.gov-area-body { display: none; padding: 0 18px 16px; border-top: 1px solid var(--border); }
+.gov-area[data-open="true"] .gov-area-body { display: block; }
+.gov-checklist { list-style: none; padding: 0; margin: 12px 0 0; display: flex; flex-direction: column; gap: 8px; }
+.gov-checklist li { font-size: .85rem; color: var(--fg-muted); line-height: 1.55; display: flex; gap: 10px; align-items: flex-start; }
+.gov-checklist li::before { content: "☐"; color: var(--accent); font-size: 1rem; flex-shrink: 0; }
 /* ── Leaders Self-Audit ──────────────────────────────────────────────────── */
 .audit-list { list-style: none; padding: 0; margin: 16px 0; display: flex; flex-direction: column; gap: 10px; }
 .audit-list li { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; font-size: .875rem; display: flex; gap: 12px; align-items: flex-start; line-height: 1.5; }
@@ -1358,86 +1388,117 @@ footer {
       <a href="#respond-tests">Used the 4 tests?</a>
     </nav>
 
+    <!-- Safety triage -->
+    <div class="triage-box">
+      <h4>⚠ Before you proceed — check your situation</h4>
+      <div class="triage-grid">
+        <div class="triage-item">
+          <div class="ti-label">🚨 Immediate danger</div>
+          <strong>Call 999 now</strong>
+          If you or someone else is in immediate physical danger, do not wait — contact emergency services first.
+        </div>
+        <div class="triage-item">
+          <div class="ti-label">👶 Child or youth at risk</div>
+          <strong>Report to civil authorities</strong>
+          If a child or young person may be at risk of harm, contact your local child protection services or police immediately. Do not refer this to church leadership first.
+        </div>
+        <div class="triage-item">
+          <div class="ti-label">⚖ Criminal matter</div>
+          <strong>Go to the police</strong>
+          For assault, sexual abuse, financial fraud, or other criminal acts — report to civil authorities. Do not wait for an internal church process to conclude.
+        </div>
+        <div class="triage-item">
+          <div class="ti-label">💬 In crisis now</div>
+          <strong>Befrienders KL: 03-7627 2929</strong>
+          Emotional support, free and confidential. Available daily 24 hours.
+        </div>
+      </div>
+    </div>
+
     <div class="banner safe">
       <strong>You are not alone, and this is not your fault.</strong> Spiritual abuse is a form of manipulation that often makes victims feel responsible. Please reach out for support.
     </div>
 
+    <!-- Stage 1: Immediate -->
+    <h2 id="respond-steps" class="sec-head" style="margin-top: 32px;">Steps to Take</h2>
+    <p class="eyebrow" style="margin: 0 0 16px;">Stage 1 · Immediate</p>
     <div class="steps">
       <div class="step">
         <div class="step-body">
           <strong>Name what you're experiencing</strong>
-          <p>Start by reading about spiritual abuse so you can recognize the patterns. Many survivors say that simply having language for their experience was the first step toward healing.</p>
+          <p>Start by reading about spiritual abuse so you can recognise the patterns. Many survivors say that simply having language for their experience was the first step toward healing. Look at the Warning Signs in the <strong>Discern</strong> tab.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-body">
           <strong>Talk to a trusted person outside the community</strong>
-          <p>Find a friend, family member, or counselor who is not connected to the church in question. An outside perspective matters.</p>
+          <p>Find a friend, family member, or counsellor who is <em>not</em> connected to the church in question. An outside perspective is essential — insiders may minimise or reframe what you experienced.</p>
         </div>
       </div>
+    </div>
+
+    <!-- Stage 2: Short-term -->
+    <p class="eyebrow" style="margin: 28px 0 16px;">Stage 2 · Short-term</p>
+    <div class="steps">
       <div class="step">
         <div class="step-body">
           <strong>Document what happened</strong>
-          <p>Keep a private record: dates, what was said, who was present, and how it affected you. This is for your own clarity and may be important if you later decide to report formally.</p>
+          <p>Keep a private written record: dates, what was said, who was present, and how it affected you. Store it somewhere only you can access. This is for your own clarity and may be important if you later decide to report formally.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-body">
           <strong>Seek professional support</strong>
-          <p>A counselor or therapist with experience in religious trauma can help significantly. Look for someone familiar with faith-sensitive counselling or religious trauma. Note: "Religious Trauma Syndrome" is a descriptive term used by some practitioners and writers — it is not a formally recognised clinical diagnosis, but the experiences it describes are real and well-documented.</p>
+          <p>A counsellor or therapist with experience in religious trauma can help significantly. Look for someone familiar with faith-sensitive counselling. Note: "Religious Trauma Syndrome" is a descriptive term used by some practitioners — it is not a formally recognised clinical diagnosis, but the experiences it describes are real and well-documented.</p>
         </div>
       </div>
+    </div>
+
+    <!-- Stage 3: Longer-term -->
+    <p class="eyebrow" style="margin: 28px 0 16px;">Stage 3 · Longer-term</p>
+    <div class="steps">
       <div class="step">
         <div class="step-body">
           <strong>Report to the appropriate body</strong>
-          <p>Depending on your denomination, there may be an official complaints process. For criminal matters (assault, financial fraud, sexual abuse), contact civil authorities. Spiritual abuse organizations can advise on reporting processes.</p>
+          <p>Depending on your denomination, there may be an official complaints process. For criminal matters (assault, financial fraud, sexual abuse), contact civil authorities directly — do not wait for internal processes. Spiritual abuse organisations can advise on reporting pathways.</p>
         </div>
       </div>
       <div class="step">
         <div class="step-body">
           <strong>Take your time</strong>
-          <p>Healing from spiritual abuse is not linear. You may still love the faith while grieving what happened to you. That tension is normal and does not have to be resolved quickly.</p>
+          <p>Healing from spiritual abuse is not linear. You may still love the faith while grieving what happened to you. That tension is normal and does not have to be resolved quickly. Recovery takes the time it takes.</p>
         </div>
       </div>
     </div>
 
-    <h3 id="respond-leader" class="sec-sub" style="margin-top: 36px; margin-bottom: 12px; scroll-margin-top: 68px;">If you are a leader or witness</h3>
-    <p>If you observe patterns of spiritual abuse in your community, you have a responsibility to act — and acting well requires wisdom.</p>
-    <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
-      <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
-      <li>Escalate to a denominational body, external board, or pastoral care network.</li>
-      <li>Do not conduct informal "trials" or confront accusers as a group — this re-traumatises.</li>
-      <li>Bring in an independent external reviewer for serious allegations.</li>
-      <li>Prioritise the safety of the affected person over the reputation of the institution.</li>
-    </ul>
-
-
+    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
+    <h3 id="respond-leader" class="sec-sub" style="margin-bottom: 10px; scroll-margin-top: 68px;">If you are a leader or witness</h3>
+    <p style="font-size: .9rem; color: var(--fg-muted); line-height: 1.7;">
+      If you observe patterns of spiritual abuse in your community, you have a responsibility to act carefully and wisely. The <a href="#" onclick="document.querySelector('[data-tab=leaders]').click();return false;" style="color:var(--accent);text-decoration:none;font-weight:600;">For Church Leaders</a> tab has a full disclosure protocol and governance checklist to guide you.
+    </p>
 
     <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
     <h3 id="respond-tests" class="sec-sub" style="font-size: 1.1rem; margin-bottom: 10px; scroll-margin-top: 68px;">Used the 4 Tests and something is wrong?</h3>
     <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 16px;">
-      If you applied the discernment framework in the <strong>Discern</strong> tab and you are now more certain that something is wrong, the steps below are your practical path forward. You do not have to act on everything at once.
+      If you applied the discernment framework in the <strong>Discern</strong> tab and you are now more certain that something is wrong, the steps above are your practical path forward. You do not have to act on everything at once.
     </p>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 8px;">
-      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
-        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">First</div>
+      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">First</div>
         <strong style="font-size: .88rem;">Name it privately</strong>
-        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Write down what you observed, when, and who was affected. Having language for it matters — look at the Warning Signs list.</p>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Write down what you observed, when, and who was affected. Having language for it matters — review the Warning Signs.</p>
       </div>
-      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
-        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Second</div>
+      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Second</div>
         <strong style="font-size: .88rem;">Talk to someone outside</strong>
         <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">A trusted friend, family member, or counsellor not connected to the community. Your perspective needs an outside check before you act.</p>
       </div>
-      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
-        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Third</div>
+      <div style="background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Third</div>
         <strong style="font-size: .88rem;">Escalate appropriately</strong>
         <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Follow Matthew 18 process where safe to do so. For criminal matters, go directly to civil authorities — do not wait for internal church processes.</p>
       </div>
     </div>
-    <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 12px;">
-      If you or someone you know is in immediate distress, call 999 (Malaysia) or your local emergency number, or contact Befrienders KL at 03-7627 2929.
-    </p>
   </section>
 
   <!-- ── Tab: For Church Leaders ─────────────────────────────────────────── -->
@@ -1447,25 +1508,154 @@ footer {
 
     <nav class="tab-toc" aria-label="Jump to section">
       <a href="#leaders-disclosure">Receiving a concern</a>
+      <a href="#leaders-governance">Governance checklist</a>
       <a href="#leaders-audit">Leaders' self-audit</a>
     </nav>
 
     <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:20px;">
-      Leaders have a particular responsibility — both to prevent harm and to respond well when concerns are raised. This section provides a self-audit for ongoing accountability and guidance for those receiving a disclosure or concern.
+      Leaders have a particular responsibility — both to prevent harm and to respond well when concerns are raised. This section provides a step-by-step disclosure protocol, a governance checklist for structural safeguards, and a self-audit for personal accountability.
     </p>
 
     <div class="banner safe" style="margin-bottom:28px;">
-      <strong>If someone has disclosed abuse to you:</strong> Listen without interrupting, believe the person's experience, do not promise absolute confidentiality (statutory obligations may apply), do not confront the accused person alone, and prioritise the safety of the person harmed over the reputation of the institution.
+      <strong>If someone has disclosed abuse to you:</strong> Listen without interrupting. Believe the person's experience. Do not promise absolute confidentiality — statutory obligations may apply. Do not confront the accused alone. Prioritise the safety of the person harmed over the reputation of the institution.
     </div>
 
-    <h3 id="leaders-disclosure" class="sec-sub" style="margin-top: 12px; margin-bottom: 12px; scroll-margin-top: 68px;">If you receive a concern or disclosure</h3>
-    <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
-      <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
-      <li>Escalate to a denominational body, external board, or pastoral care network.</li>
-      <li>Do not conduct informal "trials" or confront accusers as a group — this re-traumatises.</li>
-      <li>Bring in an independent external reviewer for serious allegations.</li>
-      <li>Prioritise the safety of the affected person over the reputation of the institution.</li>
-    </ul>
+    <h3 id="leaders-disclosure" class="sec-sub" style="margin-top: 12px; margin-bottom: 16px; scroll-margin-top: 68px;">7-Step Disclosure Protocol</h3>
+    <p style="font-size:.88rem;color:var(--fg-muted);line-height:1.65;margin-bottom:16px;">When someone brings a concern or allegation to you, how you respond in the first hours matters enormously. Follow these steps in order.</p>
+    <ol class="protocol-list">
+      <li>
+        <div>
+          <strong>Receive with care — listen without fixing</strong>
+          <span>Let the person speak without interruption. Avoid reassuring statements like "I'm sure it was a misunderstanding" — these minimise. Your role at this stage is to hear, not to judge or resolve. Acknowledge that what they've shared took courage.</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Assess for immediate safety</strong>
+          <span>Ask calmly: "Are you safe right now?" If there is any risk of ongoing physical harm, or if a child or youth is involved, this becomes a child-protection or civil-authority matter — act accordingly before any internal process begins.</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Clarify what confidentiality you can and cannot offer</strong>
+          <span>Be honest early: you may have a statutory duty to report (especially where minors are involved), and you cannot guarantee that the allegation stays private if it reaches a threshold of seriousness. Do not make promises you cannot keep.</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Document what was shared</strong>
+          <span>As soon as possible, write down the person's account in their words — not your interpretation. Note the date, time, location of the conversation, and who was present. Store this securely and separately from general church records.</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Do not investigate alone — and do not confront the accused</strong>
+          <span>An informal confrontation by you or a small group risks re-traumatising the person who came forward, alerting the accused to cover tracks, and undermining any formal process that follows. Refer to an independent body at this point.</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Escalate to an independent body</strong>
+          <span>Refer the matter to your denominational oversight body, an external pastoral care network, or a designated safeguarding officer who is independent of you. For criminal matters — assault, sexual abuse, financial fraud — report to civil authorities. The church process does not replace the civil process.</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong>Follow up with the person who came forward</strong>
+          <span>Let them know what you have done and what happens next. Silence after a disclosure is its own harm. Offer to connect them with pastoral care or professional counselling. Keep checking in as the process unfolds.</span>
+        </div>
+      </li>
+    </ol>
+
+    <!-- ── Governance Checklist ── -->
+    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow" style="margin-bottom: 8px;">Structural safeguards</p>
+    <h3 id="leaders-governance" class="sec-sub" style="font-size: 1.3rem; margin-bottom: 10px; scroll-margin-top: 68px;">Governance Checklist</h3>
+    <p style="font-size:.88rem;color:var(--fg-muted);line-height:1.65;margin-bottom:20px;">
+      Healthy churches build safeguards into their structures — not because leaders cannot be trusted, but because accountability protects everyone. Use this checklist to review where your community stands.
+    </p>
+
+    <div class="gov-area" data-open="true">
+      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+        <span class="gov-area-icon">📮</span>
+        <span class="gov-area-title">1. Independent complaint routes</span>
+        <span class="gov-area-toggle">▾</span>
+      </div>
+      <div class="gov-area-body">
+        <ul class="gov-checklist">
+          <li>There is a formal complaints process that does not require going through the senior pastor first.</li>
+          <li>Complaints about senior leadership can be received by an external denominational body or independent board.</li>
+          <li>The complaints process is written, publicly available to members, and reviewed annually.</li>
+          <li>Members know how to access the process without fear of retaliation.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="gov-area">
+      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+        <span class="gov-area-icon">⚖️</span>
+        <span class="gov-area-title">2. Conflicts of interest</span>
+        <span class="gov-area-toggle">▾</span>
+      </div>
+      <div class="gov-area-body">
+        <ul class="gov-checklist">
+          <li>There is a written conflict-of-interest policy for elders, board members, and staff.</li>
+          <li>Family members of senior leadership do not hold decision-making authority in the same body without declared and managed conflicts.</li>
+          <li>Decisions on matters where a leader has a personal interest are made by others or with declared recusal.</li>
+          <li>Property, salary, and significant contracts require approval from those without a personal stake.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="gov-area">
+      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+        <span class="gov-area-icon">🧒</span>
+        <span class="gov-area-title">3. Child &amp; youth safeguarding</span>
+        <span class="gov-area-toggle">▾</span>
+      </div>
+      <div class="gov-area-body">
+        <ul class="gov-checklist">
+          <li>All roles with regular access to children or youth require background checks before appointment.</li>
+          <li>A designated safeguarding officer exists, independent of the senior pastor.</li>
+          <li>A two-adult rule (no adult alone with a child) is applied across all children's and youth programmes.</li>
+          <li>The safeguarding policy is reviewed annually and all relevant staff and volunteers are trained.</li>
+          <li>Statutory reporting obligations under local law are understood, documented, and followed.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="gov-area">
+      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+        <span class="gov-area-icon">💰</span>
+        <span class="gov-area-title">4. Financial oversight</span>
+        <span class="gov-area-toggle">▾</span>
+      </div>
+      <div class="gov-area-body">
+        <ul class="gov-checklist">
+          <li>Financial accounts are reviewed or audited by an independent person not employed by or closely connected to the church.</li>
+          <li>Significant expenditure above a defined threshold requires approval from more than one person.</li>
+          <li>No individual has sole authority over both approving and making payments.</li>
+          <li>Summary financial information is shared with the congregation at least annually.</li>
+          <li>Pastors' salaries and expenses are set by a process that does not include the pastor.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="gov-area" style="margin-bottom: 0;">
+      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+        <span class="gov-area-icon">🛡️</span>
+        <span class="gov-area-title">5. Anti-retaliation practices</span>
+        <span class="gov-area-toggle">▾</span>
+      </div>
+      <div class="gov-area-body">
+        <ul class="gov-checklist">
+          <li>There is a written policy protecting members and staff who raise concerns in good faith from retaliation.</li>
+          <li>Leaders can articulate the difference between protecting someone from gossip and shielding misconduct from scrutiny.</li>
+          <li>No member has been asked to sign a non-disclosure agreement covering internal conduct matters.</li>
+          <li>Leadership publicly affirms that raising concerns is an act of faithfulness, not disloyalty.</li>
+        </ul>
+      </div>
+    </div>
 
     <!-- ── Leaders Self-Audit ── -->
     <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
