@@ -653,7 +653,17 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; }
 }
-</style>
+
+  /* ── FAQ standalone (not a tabbed section) ───────────── */
+  .faq-standalone {
+    max-width: 740px;
+    margin: 56px auto 0;
+    padding: 0 20px 56px;
+    border-top: 1px solid var(--border);
+  }
+  .faq-standalone .eyebrow { margin-top: 32px; }
+  .faq-standalone h2 { margin-bottom: 24px; }
+  </style>
 
 <div class="page-wrap">
 
@@ -666,23 +676,21 @@ footer {
 
   <!-- Navigation -->
   <nav class="nav-tabs" role="tablist" aria-label="Guide sections">
-    <button class="nav-tab active" role="tab" aria-selected="true" data-tab="what">What Is It?</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="signs">Warning Signs &amp; Discernment</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">How to Respond</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="resources">Resources</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="study">Bible Study</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="wolves">Wolves &amp; Patterns</button>
+    <button class="nav-tab active" role="tab" aria-selected="true" data-tab="understand">Understand</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="discern">Discern</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">Get Help / Respond</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="leaders">For Church Leaders</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="cases">Documented Cases</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="faq">FAQ</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="study-resources">Study &amp; Resources</button>
   </nav>
 
-  <!-- ── Tab: What Is It? ───────────────────────────────────────────────── -->
-  <section class="section active" id="tab-what" role="tabpanel">
+  <!-- ── Tab: Understand ─────────────────────────────────────────────────── -->
+  <section class="section active" id="tab-understand" role="tabpanel">
     <div class="banner">
       <strong>This is educational material only.</strong> If you or someone you know is in immediate danger, please contact emergency services or a crisis line in your country.
     </div>
 
-    <p class="eyebrow">Definition</p>
+    <p class="eyebrow">Definition &amp; context</p>
     <h2>Spiritual abuse is a misuse of religious authority to control, harm, or exploit.</h2>
 
     <p>It can happen in any faith community — large or small, traditional or progressive, high-profile or local. The abuser is typically someone in a position of spiritual trust: a pastor, priest, elder, cell group leader, or mentor.</p>
@@ -691,7 +699,7 @@ footer {
       "Spiritual abuse occurs when a person in religious authority uses that position to manipulate, coerce, or exploit another person in ways that damage their spiritual health, emotional wellbeing, or basic dignity."
     </div>
 
-    <p>Unlike overt physical or financial crimes, spiritual abuse often operates quietly. Victims frequently stay silent because they fear judgment, are told to "submit," or genuinely cannot name what is happening to them. The harm is real: research consistently links exposure to religious coercion with anxiety, depression, religious trauma, and damaged relationships.</p>
+    <p>Unlike overt physical or financial crimes, spiritual abuse often operates quietly. Victims frequently stay silent because they fear judgment, are told to "submit," or genuinely cannot name what is happening to them. The harm is real: clinical experience and a growing body of research link sustained exposure to religious coercion with anxiety, depression, psychological trauma, and damaged relationships.</p>
 
     <h3 style="margin-top: 28px; margin-bottom: 12px;">Common forms</h3>
     <div class="card-grid">
@@ -722,10 +730,56 @@ footer {
     </div>
 
     <p style="margin-top: 28px; font-size: 0.875rem; color: var(--fg-muted);">Note: Not every difficult church experience is spiritual abuse. Theological disagreements, imperfect leadership, and church conflict are not the same as abuse. This guide is concerned with patterns of deliberate coercion, exploitation, and harm.</p>
+
+    <!-- ── Why Good People Stay Silent ── -->
+    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">Understanding the psychology</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Why Good People Stay Silent</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 20px; line-height: 1.65;">
+      Documented cases repeatedly show that many people close to serious abuse knew — or sensed — something was wrong, yet said nothing for years. This is not cowardice. These are the dynamics that produce silence.
+    </p>
+
+    <div class="silence-grid">
+      <div class="silence-card">
+        <div class="s-emoji">✨</div>
+        <h4>The Halo Effect</h4>
+        <p>A leader who appears highly gifted, anointed, or fruitful triggers an unconscious assumption that their character must match their impact. Warning signs are reinterpreted as misunderstandings.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">📅</div>
+        <h4>Sunk Cost</h4>
+        <p>"I've given 15 years to this church." The more deeply invested a person is — time, money, relationships, identity — the more painful it is to accept that something is fundamentally wrong.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">🪞</div>
+        <h4>Fear of Being Wrong</h4>
+        <p>"What if I'm the divisive one?" Abusive systems are skilled at making the person with concerns doubt themselves. The fear of false accusation can silence legitimate concern indefinitely.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">📖</div>
+        <h4>Spiritual Weaponising</h4>
+        <p>"Touch not God's anointed." Phrases from Scripture, used out of context and without their safeguards, become tools that make questioning feel like sin against God.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">🔇</div>
+        <h4>Isolation from Outside Perspective</h4>
+        <p>When a church or community becomes the primary source of relationships, worldview, and identity, there is no outside voice to reality-check what is being experienced.</p>
+      </div>
+      <div class="silence-card">
+        <div class="s-emoji">⚖️</div>
+        <h4>Institutional Loyalty</h4>
+        <p>Well-meaning leaders suppress concerns to "protect the church's witness." But protecting the institution over the person is the opposite of the shepherd's calling in Ezekiel 34.</p>
+      </div>
+    </div>
+
+    <div class="banner" style="margin-top: 24px; font-size: .85rem;">
+      <strong>This is not about suspicion:</strong> Understanding why silence happens helps communities create environments where concerns can be raised safely — so the silence is broken before years of harm accumulate.
+    </div>
+
   </section>
 
-  <!-- ── Tab: Warning Signs ─────────────────────────────────────────────── -->
-  <section class="section" id="tab-signs" role="tabpanel">
+  <!-- ── Tab: Discern ────────────────────────────────────────────────────── -->
+  <section class="section" id="tab-discern" role="tabpanel">
     <p class="eyebrow">Red flags</p>
     <h2>Patterns that often signal something is wrong</h2>
     <p>No single sign is definitive on its own. Look for clusters of behaviors that persist over time and are directed at multiple people.</p>
@@ -856,7 +910,7 @@ footer {
       <div class="test-card">
         <div class="tc-label">④ Accountability</div>
         <div class="tc-q">Are they themselves under authority? Can they be corrected? Is their leadership positively peer-reviewed by other credible leaders?</div>
-        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">No healthy leader operates alone. A genuine shepherd welcomes outside accountability. Resistance to oversight is one of the strongest predictors of abuse.</p>
+        <p style="font-size: .82rem; color: var(--fg-muted); line-height: 1.5; margin-bottom: 8px;">No healthy leader operates alone. A genuine shepherd welcomes outside accountability. Persistent resistance to independent oversight is an important warning sign, especially when combined with coercion, retaliation, or repeated misconduct.</p>
         <div class="tc-verses">Proverbs 11:14, 12:1 · Matthew 18:15–17</div>
       </div>
     </div>
@@ -899,19 +953,19 @@ footer {
       <div class="dtree-row">
         <div class="dtree-question"><strong>Ask yourself</strong> Is it about what is being <em>taught</em> — the gospel, money, prosperity, obedience?</div>
         <div class="dtree-arrow">→</div>
-        <div class="dtree-dest">📖 Test the Doctrine<br><span style="font-weight:400;font-size:.78rem;">See Bible Study tab — Session 2</span></div>
+        <div class="dtree-dest">📖 Test the Doctrine<br><span style="font-weight:400;font-size:.78rem;">See Study &amp; Resources — Session 2</span></div>
       </div>
 
       <div class="dtree-row">
         <div class="dtree-question"><strong>Ask yourself</strong> Is it about a leader's <em>behaviour</em> — how they treat people, their private life, power over others?</div>
         <div class="dtree-arrow">→</div>
-        <div class="dtree-dest">🔍 Test the Character<br><span style="font-weight:400;font-size:.78rem;">See Bible Study tab — Session 3</span></div>
+        <div class="dtree-dest">🔍 Test the Character<br><span style="font-weight:400;font-size:.78rem;">See Study &amp; Resources — Session 3</span></div>
       </div>
 
       <div class="dtree-row">
         <div class="dtree-question"><strong>Ask yourself</strong> Is it about how the church handles <em>complaints, conflict, or finances</em> — who checks who?</div>
         <div class="dtree-arrow">→</div>
-        <div class="dtree-dest">⚖️ Test Accountability<br><span style="font-weight:400;font-size:.78rem;">See Bible Study tab — Session 4</span></div>
+        <div class="dtree-dest">⚖️ Test Accountability<br><span style="font-weight:400;font-size:.78rem;">See Study &amp; Resources — Session 4</span></div>
       </div>
 
       <div class="dtree-row">
@@ -923,7 +977,7 @@ footer {
       <div class="dtree-row">
         <div class="dtree-question"><strong>Ask yourself</strong> Are you unsure what to do now — speak up, stay, or leave?</div>
         <div class="dtree-arrow">→</div>
-        <div class="dtree-dest">🧭 How to Respond<br><span style="font-weight:400;font-size:.78rem;">See How to Respond tab</span></div>
+        <div class="dtree-dest">🧭 Get Help / Respond<br><span style="font-weight:400;font-size:.78rem;">See Get Help / Respond tab</span></div>
       </div>
 
       <div class="dtree-row">
@@ -975,591 +1029,23 @@ footer {
     </div>
 
     <div class="banner safe" style="margin-top: 24px;">
-      <strong>If this conversation surfaces real concerns:</strong> Move to the <strong>How to Respond</strong> tab for practical next steps. If someone in your group is in an unsafe situation, call emergency services or contact a local counselling helpline directly.
+      <strong>If this conversation surfaces real concerns:</strong> Move to the <strong>Get Help / Respond</strong> tab for practical next steps. If someone in your group is in an unsafe situation, call emergency services or contact a local counselling helpline directly.
     </div>
-
-  </section>
-
-  <!-- ── Tab: How to Respond ────────────────────────────────────────────── -->
-  <section class="section" id="tab-respond" role="tabpanel">
-    <p class="eyebrow">If you are affected</p>
-    <h2>Taking steps toward safety and healing</h2>
-
-    <div class="banner safe">
-      <strong>You are not alone, and this is not your fault.</strong> Spiritual abuse is a form of manipulation that often makes victims feel responsible. Please reach out for support.
-    </div>
-
-    <div class="steps">
-      <div class="step">
-        <div class="step-body">
-          <strong>Name what you're experiencing</strong>
-          <p>Start by reading about spiritual abuse so you can recognize the patterns. Many survivors say that simply having language for their experience was the first step toward healing.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-body">
-          <strong>Talk to a trusted person outside the community</strong>
-          <p>Find a friend, family member, or counselor who is not connected to the church in question. An outside perspective matters.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-body">
-          <strong>Document what happened</strong>
-          <p>Keep a private record: dates, what was said, who was present, and how it affected you. This is for your own clarity and may be important if you later decide to report formally.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-body">
-          <strong>Seek professional support</strong>
-          <p>A counselor or therapist with experience in religious trauma can help significantly. Look for someone familiar with "Religious Trauma Syndrome" or faith-sensitive counseling.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-body">
-          <strong>Report to the appropriate body</strong>
-          <p>Depending on your denomination, there may be an official complaints process. For criminal matters (assault, financial fraud, sexual abuse), contact civil authorities. Spiritual abuse organizations can advise on reporting processes.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-body">
-          <strong>Take your time</strong>
-          <p>Healing from spiritual abuse is not linear. You may still love the faith while grieving what happened to you. That tension is normal and does not have to be resolved quickly.</p>
-        </div>
-      </div>
-    </div>
-
-    <h3 style="margin-top: 36px; margin-bottom: 12px;">If you are a leader or witness</h3>
-    <p>If you observe patterns of spiritual abuse in your community, you have a responsibility to act — and acting well requires wisdom.</p>
-    <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
-      <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
-      <li>Escalate to a denominational body, external board, or pastoral care network.</li>
-      <li>Do not conduct informal "trials" or confront accusers as a group — this re-traumatises.</li>
-      <li>Bring in an independent external reviewer for serious allegations.</li>
-      <li>Prioritise the safety of the affected person over the reputation of the institution.</li>
-    </ul>
-
-    <!-- ── Leaders Self-Audit ── -->
-    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
-    <p class="eyebrow">For pastors, elders &amp; cell leaders</p>
-    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Guard Your Own Flock — A Leaders' Self-Audit</h3>
-    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 4px; line-height: 1.65;">
-      Ezekiel 34:10 — <em>"I will hold them accountable for my flock."</em> Honest leaders ask hard questions of themselves before others ask for them.
-    </p>
-
-    <h4 style="font-size: .9rem; font-weight: 700; margin: 20px 0 8px;">Personal Accountability</h4>
-    <ul class="audit-list">
-      <li>Do I have peers who can speak hard truth to me — without career risk, social cost, or loss of my favour?</li>
-      <li>Has someone on my team ever disagreed with me publicly? How did I respond — and what does that response say?</li>
-      <li>Have I ever used spiritual language to end a conversation I should have had?</li>
-      <li>Can someone make a formal complaint about me to a body that does not report to me?</li>
-      <li>Do I know the difference between protecting someone from gossip and shielding misconduct from scrutiny?</li>
-      <li>When I am challenged, do I listen for truth — or do I move immediately to defend my position?</li>
-    </ul>
-
-    <h4 style="font-size: .9rem; font-weight: 700; margin: 20px 0 8px;">Structural Safeguards Checklist</h4>
-    <ul class="audit-list">
-      <li>Is there a designated safeguarding officer who is independent of the senior pastor?</li>
-      <li>Is our safeguarding/conduct policy written down, published, and reviewed at least annually?</li>
-      <li>Do all roles with access to children or youth require background screening?</li>
-      <li>Is there a clear reporting pathway that bypasses senior leadership if they are the subject of a complaint?</li>
-      <li>Does our church have external oversight — a presbytery, network, or accountability body with real authority?</li>
-      <li>Are our financial accounts reviewed by someone who is not employed by or closely connected to the church?</li>
-    </ul>
-
-    <div class="banner" style="margin-top: 20px; font-size: .85rem;">
-      <strong>If you answered "no" or "I don't know" to several of these:</strong> That is not a judgment — it is a starting point. The <strong>Bible Study</strong> tab (Session 4) and the <strong>Resources</strong> tab have practical tools to help you build healthy structures.
-    </div>
-
-    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
-    <h3 style="font-size: 1.1rem; margin-bottom: 10px;">Used the 4 Tests and something is wrong?</h3>
-    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 16px;">
-      If you applied the discernment framework in the <strong>Warning Signs &amp; Discernment</strong> tab and you are now more certain that something is wrong, the steps below are your practical path forward. You do not have to act on everything at once.
-    </p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 8px;">
-      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
-        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">First</div>
-        <strong style="font-size: .88rem;">Name it privately</strong>
-        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Write down what you observed, when, and who was affected. Having language for it matters — look at the Warning Signs list.</p>
-      </div>
-      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
-        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Second</div>
-        <strong style="font-size: .88rem;">Talk to someone outside</strong>
-        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">A trusted friend, family member, or counsellor not connected to the community. Your perspective needs an outside check before you act.</p>
-      </div>
-      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
-        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Third</div>
-        <strong style="font-size: .88rem;">Escalate appropriately</strong>
-        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Follow Matthew 18 process where safe to do so. For criminal matters, go directly to civil authorities — do not wait for internal church processes.</p>
-      </div>
-    </div>
-    <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 12px;">
-      If you or someone you know is in immediate distress, call 999 (Malaysia) or your local emergency number, or contact Befrienders KL at 03-7627 2929.
-    </p>
-  </section>
-
-  <!-- ── Tab: Resources ─────────────────────────────────────────────────── -->
-  <section class="section" id="tab-resources" role="tabpanel">
-    <p class="eyebrow">Verified external resources</p>
-    <h2>Books, organisations, and sites for further reading</h2>
-    <p style="font-size: 0.875rem; color: var(--fg-muted); margin-bottom: 4px;">All links open in a new tab. These are independently published resources — inclusion here is not an endorsement of every position they hold.</p>
-
-    <div class="resource-list">
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>The Subtle Power of Spiritual Abuse — David Johnson &amp; Jeff VanVonderen</h4>
-          <p>One of the earliest and most widely cited books identifying the patterns of spiritually abusive systems. Written from a Christian pastoral perspective. The foundational text for this field.</p>
-        </div>
-        <span class="resource-tag tag-book">Book</span>
-      </div>
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>A Church Called Tov — Scot McKnight &amp; Laura Barringer</h4>
-          <p>Directly addresses toxic church culture and what a "Tov" (Hebrew: good) church looks like instead. Practical and biblically grounded. Widely used in pastoral training post-2020.</p>
-        </div>
-        <span class="resource-tag tag-book">Book</span>
-      </div>
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>Redeeming Power — Diane Langberg</h4>
-          <p>Trauma-informed, widely used by counsellors and church safeguarding teams. Langberg is a psychologist and theologian who addresses how power is misused in spiritual contexts. One of the most recommended books in this space.</p>
-        </div>
-        <span class="resource-tag tag-book">Book</span>
-      </div>
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>When Narcissism Comes to Church — Chuck DeGroat</h4>
-          <p>A counsellor and theologian examines narcissistic leadership patterns in church contexts — how they form, what they look like, and why they are so difficult to address without institutional courage.</p>
-        </div>
-        <span class="resource-tag tag-book">Book</span>
-      </div>
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>Recovering from Religious Trauma — Dr. Marlene Winell</h4>
-          <p>Psychologist Winell coined the term "Religious Trauma Syndrome." Her work documents the psychological impact of high-control religious environments.</p>
-        </div>
-        <span class="resource-tag tag-book">Book</span>
-      </div>
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>Churches, Cults and Spiritual Abuse — Martin Thorburn</h4>
-          <p>A pastoral resource examining the overlap between cult-like dynamics and mainstream church settings, with case studies from the Asia-Pacific region.</p>
-        </div>
-        <span class="resource-tag tag-book">Book</span>
-      </div>
-
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>Thirtyone:eight — UK Church Safeguarding</h4>
-          <p>The UK's leading independent church safeguarding consultancy, providing training, policy frameworks, and independent investigations for churches and Christian organisations.</p>
-          <p><a href="https://thirtyoneeight.org" target="_blank" rel="noopener noreferrer">thirtyoneeight.org ↗</a></p>
-        </div>
-        <span class="resource-tag tag-org">Organisation</span>
-      </div>
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>The Roys Report Podcast — Spiritual Abuse Series</h4>
-          <p>Julie Roys' investigative podcast covers specific cases and broader patterns. Particularly relevant episodes: <em>How to Identify &amp; Recover from Spiritual Abuse</em>, <em>Spiritually Abusive Leaders in the Church</em>, and <em>Escaping and Healing from Abusive Churches</em>.</p>
-          <p><a href="https://roysreport.com/podcast/how-to-identify-recover-from-spiritual-abuse/" target="_blank" rel="noopener noreferrer">roysreport.com/podcast ↗</a></p>
-        </div>
-        <span class="resource-tag tag-site">Podcast</span>
-      </div>
-
-
-
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>The Wartburg Watch</h4>
-          <p>A long-running blog that documents and discusses abuse cases in evangelical and Reformed churches. Includes survivor testimonies and investigative write-ups with source links.</p>
-          <p><a href="https://www.thewartburgwatch.com" target="_blank" rel="noopener noreferrer">thewartburgwatch.com ↗</a></p>
-        </div>
-        <span class="resource-tag tag-site">Blog / Watchdog</span>
-      </div>
-
-      <div class="resource-item">
-        <div class="resource-info">
-          <h4>Protestant Accountability</h4>
-          <p>A publicly searchable database of documented allegations, findings, and disciplinary actions involving Protestant ministers and organisations, launched September 2026. Currently holds over 2,700 records drawn from court records, journalism, and church investigation reports.</p>
-          <p style="font-size:.82rem;color:var(--fg-muted);margin-top:.4rem;"><em>Discovery and cross-reference tool only — not an independent investigative body. Individual entries should be checked against primary documents and reputable reporting before being relied upon.</em></p>
-          <p><a href="https://protestantaccountability.org" target="_blank" rel="noopener noreferrer">protestantaccountability.org ↗</a></p>
-        </div>
-        <span class="resource-tag tag-site">Database</span>
-      </div>
-
-
-
-
-
-    </div>
-
-    <!-- ── Why Good People Stay Silent ── -->
-    <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
-    <p class="eyebrow">Understanding the psychology</p>
-    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Why Good People Stay Silent</h3>
-    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 20px; line-height: 1.65;">
-      Documented cases repeatedly show that many people close to serious abuse knew — or sensed — something was wrong, yet said nothing for years. This is not cowardice. These are the dynamics that produce silence.
-    </p>
-
-    <div class="silence-grid">
-      <div class="silence-card">
-        <div class="s-emoji">✨</div>
-        <h4>The Halo Effect</h4>
-        <p>A leader who appears highly gifted, anointed, or fruitful triggers an unconscious assumption that their character must match their impact. Warning signs are reinterpreted as misunderstandings.</p>
-      </div>
-      <div class="silence-card">
-        <div class="s-emoji">📅</div>
-        <h4>Sunk Cost</h4>
-        <p>"I've given 15 years to this church." The more deeply invested a person is — time, money, relationships, identity — the more painful it is to accept that something is fundamentally wrong.</p>
-      </div>
-      <div class="silence-card">
-        <div class="s-emoji">🪞</div>
-        <h4>Fear of Being Wrong</h4>
-        <p>"What if I'm the divisive one?" Abusive systems are skilled at making the person with concerns doubt themselves. The fear of false accusation can silence legitimate concern indefinitely.</p>
-      </div>
-      <div class="silence-card">
-        <div class="s-emoji">📖</div>
-        <h4>Spiritual Weaponising</h4>
-        <p>"Touch not God's anointed." Phrases from Scripture, used out of context and without their safeguards, become tools that make questioning feel like sin against God.</p>
-      </div>
-      <div class="silence-card">
-        <div class="s-emoji">🔇</div>
-        <h4>Isolation from Outside Perspective</h4>
-        <p>When a church or community becomes the primary source of relationships, worldview, and identity, there is no outside voice to reality-check what is being experienced.</p>
-      </div>
-      <div class="silence-card">
-        <div class="s-emoji">⚖️</div>
-        <h4>Institutional Loyalty</h4>
-        <p>Well-meaning leaders suppress concerns to "protect the church's witness." But protecting the institution over the person is the opposite of the shepherd's calling in Ezekiel 34.</p>
-      </div>
-    </div>
-
-    <div class="banner" style="margin-top: 24px; font-size: .85rem;">
-      <strong>This is not about suspicion:</strong> Understanding why silence happens helps communities create environments where concerns can be raised safely — so the silence is broken before years of harm accumulate.
-    </div>
-
-  </section>
-
-  <!-- ── Tab: Bible Study ──────────────────────────────────────────────── -->
-  <section class="section" id="tab-study" role="tabpanel">
-    <p class="eyebrow">Five-session small group curriculum</p>
-    <h2>Tested by the Word</h2>
-    <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:8px;">A complete Bible study series for cell groups, home groups, and small groups. Each session is 45–60 minutes and follows the same rhythm: Context → Icebreaker → Main passages → Discussion breakouts → Closing application. No prior theological training required.</p>
-
-    <div class="banner" style="margin-bottom:24px;font-size:.85rem;">
-      <strong>Facilitator guardrails:</strong> Keep Scripture central. Do not turn sessions into speculation about named leaders or churches. If someone discloses abuse, prioritise safety and independent help — do not require private confrontation first.
-    </div>
-
-    <!-- Session 1 -->
-    <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
-        <div>
-          <div class="study-session-num">Session 1</div>
-          <p class="study-session-title">What Does a True Shepherd Look Like?</p>
-          <p class="study-session-meta">Ezekiel 34:1–16 · John 10:1–18 · 1 Peter 5:1–4 · 50–58 min</p>
-        </div>
-        <div class="study-session-toggle">▼</div>
-      </div>
-      <div class="study-session-body">
-        <div class="study-block">
-          <h5>Big Idea</h5>
-          <p style="font-size:.85rem;line-height:1.6;">A faithful shepherd cares for God's people rather than using them for personal gain.</p>
-        </div>
-        <div class="study-block">
-          <h5>Context (4 min)</h5>
-          <p style="font-size:.85rem;line-height:1.6;">Ezekiel 34 confronts Israel's shepherds for benefiting themselves while neglecting the flock. In John 10, Jesus identifies himself as the Good Shepherd who lays down his life. In 1 Peter 5, elders are called to shepherd willingly, eagerly, and by example — not domineering over people.</p>
-        </div>
-        <div class="study-block">
-          <h5>Icebreaker (4 min)</h5>
-          <div class="study-q">Think of a teacher, mentor, manager, or pastor who genuinely cared for you. What did they do that showed it? (Keep examples general — do not name or expose anyone.)</div>
-        </div>
-        <div class="study-block">
-          <h5>Read (5 min)</h5>
-          <p style="font-size:.85rem;">Ezekiel 34:1–10, 34:11–16 · John 10:11–18 · 1 Peter 5:2–3</p>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 1 — Unfaithful Shepherds (9 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> In Ezekiel 34:2–6, list what the shepherds do and what they fail to do.<div class="hint">Notice feeding themselves, exploiting the flock, neglecting the weak/sick/injured, failing to seek the lost, ruling harshly.</div></div>
-          <div class="study-q"><strong>Interpretation:</strong> Why is God's response in verses 7–10 so serious?</div>
-          <div class="study-q"><strong>Application:</strong> What might "feeding oneself on the flock" look like today?<div class="hint">Consider using people for status, money, influence, labour, or unquestioning loyalty.</div></div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 2 — The Good Shepherd vs. the Hired Hand (10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> In Ezekiel 34:11–16, what actions does God promise? What does Jesus do in John 10:11–18?</div>
-          <div class="study-q"><strong>Interpretation:</strong> What makes the Good Shepherd different from the hired hand when danger comes?<div class="hint">The contrast is commitment and care, not whether a leader receives a salary.</div></div>
-          <div class="study-q"><strong>Application:</strong> What would these qualities look like in a pastor or cell leader?</div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 3 — How Should Leaders Use Authority? (8–10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What three contrasts does 1 Peter 5:2–3 make about how elders should shepherd?<div class="hint">Willingly not under compulsion; eagerly not for shameful gain; as examples not domineering.</div></div>
-          <div class="study-q"><strong>Application:</strong> Where could these principles challenge any of us who influence others — at home, in church, or while discipling someone?</div>
-        </div>
-        <div class="study-redflag">
-          <strong>🚩 Red Flag Scenario</strong>
-          A cell leader repeatedly pressures exhausted members to take on more tasks, saying that refusing shows they do not love God. Members who question decisions are called immature. Those who comply receive recognition. What observable behaviours concern you? What further context would you need before drawing a conclusion?
-        </div>
-        <div class="study-nextstep">
-          <strong>Safe Next Step</strong>
-          Reach out to one person who may need encouragement. Listen, ask what support would help, and offer prayer or practical care without expecting anything in return.
-        </div>
-      </div>
-    </div>
-
-    <!-- Session 2 -->
-    <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
-        <div>
-          <div class="study-session-num">Session 2</div>
-          <p class="study-session-title">Testing Doctrine: What Gospel Are They Preaching?</p>
-          <p class="study-session-meta">Galatians 1:6–9 · 2 Corinthians 11:1–15 · 1 John 4:1–6 · 50–58 min</p>
-        </div>
-        <div class="study-session-toggle">▼</div>
-      </div>
-      <div class="study-session-body">
-        <div class="study-block">
-          <h5>Big Idea</h5>
-          <p style="font-size:.85rem;line-height:1.6;">A message can sound spiritual and impressive yet distort the gospel; teaching must be tested against the apostolic witness to Christ. Not every disagreement about a secondary doctrine is "another gospel" — the focus is serious distortion of how people are reconciled to God.</p>
-        </div>
-        <div class="study-block">
-          <h5>Context (4 min)</h5>
-          <p style="font-size:.85rem;line-height:1.6;">In Galatians, Paul is alarmed the churches are turning to a different gospel. In 2 Corinthians 11, he warns false apostles can present themselves impressively. In 1 John 4, believers are told to test the spirits rather than believe every spiritual claim.</p>
-        </div>
-        <div class="study-block">
-          <h5>Icebreaker (4 min)</h5>
-          <div class="study-q">What can make a speaker or message seem trustworthy before you have checked whether it is true? (e.g. confidence, emotional stories, apparent success, popularity, promises that match our hopes)</div>
-        </div>
-        <div class="study-block">
-          <h5>Read (5 min)</h5>
-          <p style="font-size:.85rem;">Galatians 1:6–9 · 2 Corinthians 11:3–4, 11:13–15 · 1 John 4:1–6</p>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 1 — Why Is "Another Gospel" So Serious? (9 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> In Galatians 1:6–9, what has happened to the Galatians, and how strongly does Paul respond?</div>
-          <div class="study-q"><strong>Interpretation:</strong> Why does Paul place the message above the status of the messenger?<div class="hint">The gospel is not ours to redesign. Even a respected or supernatural-seeming messenger must be tested against the truth already delivered.</div></div>
-          <div class="study-q"><strong>Application:</strong> What questions help us test a teaching before accepting or sharing it?<div class="hint">What does it say about Jesus, sin, grace, the cross, resurrection, repentance, and faith? Does it fit the wider witness of Scripture?</div></div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 2 — When False Teaching Looks Impressive (10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What characteristics of the "false apostles" appear in 2 Corinthians 11:3–15?</div>
-          <div class="study-q"><strong>Interpretation:</strong> Why might charisma, sacrifice, spiritual language, or apparent success make discernment harder?</div>
-          <div class="study-q"><strong>Application:</strong> How can a group evaluate teaching fairly without becoming cynical?<div class="hint">Read the full passage in context, compare with core Christian teaching, ask honest questions, seek mature counsel.</div></div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 3 — Blessing, Prosperity, and the Cross (8–10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What does 1 John 4:1–6 tell believers to test, and what role does the truth about Jesus play?</div>
-          <div class="study-q"><strong>Interpretation:</strong> What is the difference between thanking God for provision and making prosperity the measure of faith?<div class="hint">The gospel is not a guarantee that faithful people will become wealthy, avoid suffering, or get every desired outcome.</div></div>
-          <div class="study-q"><strong>Application:</strong> If a speaker implies that giving a certain amount guarantees wealth or healing, what questions should we ask?</div>
-        </div>
-        <div class="study-redflag">
-          <strong>🚩 Red Flag Scenario</strong>
-          A popular speaker says Christians who give generously will receive a guaranteed financial return from God. People who remain poor are told they lack faith. The speaker cites Bible verses but gives little attention to suffering, repentance, or the cross. Which claims need testing? What additional information would you want?
-        </div>
-        <div class="study-nextstep">
-          <strong>Safe Next Step</strong>
-          Choose one claim you have heard recently. Read its cited passage in full context and compare with the surrounding chapter before accepting or forwarding it.
-        </div>
-      </div>
-    </div>
-
-    <!-- Session 3 -->
-    <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
-        <div>
-          <div class="study-session-num">Session 3</div>
-          <p class="study-session-title">Testing Character: What Does Their Private Life Show?</p>
-          <p class="study-session-meta">1 Timothy 3:1–7 · Titus 1:5–9 · Matthew 23:1–12, 25–28 · 1 Timothy 5:17–20 · 50–58 min</p>
-        </div>
-        <div class="study-session-toggle">▼</div>
-      </div>
-      <div class="study-session-body">
-        <div class="study-block">
-          <h5>Big Idea</h5>
-          <p style="font-size:.85rem;line-height:1.6;">Biblical leadership is tested by sustained character and integrity, not gifts, public image, or a polished platform. These qualifications describe credible, observable patterns of maturity — not sinless perfection.</p>
-        </div>
-        <div class="study-block">
-          <h5>Context (4 min)</h5>
-          <p style="font-size:.85rem;line-height:1.6;">In 1 Timothy 3 and Titus 1, Paul describes character expected of overseers — emphasising self-control, faithfulness, hospitality, and a good reputation, not just talent. In Matthew 23, Jesus warns against leaders whose public appearance hides inner corruption. 1 Timothy 5 addresses honouring elders and handling accusations responsibly.</p>
-        </div>
-        <div class="study-block">
-          <h5>Icebreaker (4 min)</h5>
-          <div class="study-q">What makes you trust someone with an important responsibility? What might cause that trust to weaken?</div>
-        </div>
-        <div class="study-block">
-          <h5>Read (5 min)</h5>
-          <p style="font-size:.85rem;">1 Timothy 3:1–7 · Titus 1:5–9 · Matthew 23:1–12, 25–28 · 1 Timothy 5:17–20</p>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 1 — What Kind of Character Is Required? (9 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> Which qualifications in 1 Timothy 3:1–7 and Titus 1:5–9 describe character and relationships rather than public ability?<div class="hint">Self-control, gentleness, not quarrelsome or arrogant, faithfulness in family life, hospitality, not greedy, good reputation.</div></div>
-          <div class="study-q"><strong>Interpretation:</strong> Why do these lists place so much weight on everyday character?</div>
-          <div class="study-q"><strong>Application:</strong> Which qualities are easiest to imitate briefly, and which become visible only over time?</div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 2 — Appearance Versus Integrity (9–10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> In Matthew 23:1–12 and 25–28, what contrast does Jesus make between outward appearance and inward reality?</div>
-          <div class="study-q"><strong>Interpretation:</strong> Why can a strong public ministry or impressive gift distract people from character concerns?<div class="hint">Visible results are easy to celebrate; private integrity is harder to assess. Gifts and impact do not cancel moral responsibility.</div></div>
-          <div class="study-q"><strong>Application:</strong> How can a church assess character fairly — without gossip, invasive curiosity, or impossible standards?</div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 3 — Honour and Accountability Together (9–10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What do 1 Timothy 5:17–20 say about honouring elders and receiving accusations against them?</div>
-          <div class="study-q"><strong>Interpretation:</strong> Why might Paul require more than an unverified accusation, while also insisting persistent sin be addressed?<div class="hint">Leaders can be unfairly accused; safeguards must not become a shield against credible evidence or ongoing harm.</div></div>
-          <div class="study-q"><strong>Application:</strong> What would a fair process look like if a concern about a leader arose?</div>
-        </div>
-        <div class="study-redflag">
-          <strong>🚩 Red Flag Scenario</strong>
-          A gifted leader is widely admired for preaching and ministry growth. Several people independently raise concerns about repeated humiliating treatment of staff. The leader says critics are jealous and points to the ministry's success as proof of God's approval. What should the church examine? What should NOT be treated as proof either way?
-        </div>
-        <div class="study-nextstep">
-          <strong>Safe Next Step</strong>
-          Choose one character quality — gentleness, honesty, self-control, or hospitality — and ask a trusted person how they see you practising it. Receive feedback without defensiveness.
-        </div>
-      </div>
-    </div>
-
-    <!-- Session 4 -->
-    <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
-        <div>
-          <div class="study-session-num">Session 4</div>
-          <p class="study-session-title">Testing Accountability: Who Watches the Watchers?</p>
-          <p class="study-session-meta">Acts 20:28–31 · Hebrews 13:17 · Matthew 18:15–20 · 1 Timothy 5:19–20 · 50–58 min</p>
-        </div>
-        <div class="study-session-toggle">▼</div>
-      </div>
-      <div class="study-session-body">
-        <div class="study-block">
-          <h5>Big Idea</h5>
-          <p style="font-size:.85rem;line-height:1.6;">Christian leadership carries real authority, but it is not absolute; leaders and churches must guard the flock and address wrongdoing responsibly.</p>
-        </div>
-        <div class="study-block">
-          <h5>Context (4 min)</h5>
-          <p style="font-size:.85rem;line-height:1.6;">In Acts 20, Paul warns the Ephesian elders that destructive teachers may arise even from among their own number. Hebrews 13:17 calls believers to respond to leaders who watch over their souls, while other passages establish accountability and careful processes for addressing sin.</p>
-        </div>
-        <div class="study-block">
-          <h5>Safety Principle</h5>
-          <div class="banner" style="font-size:.82rem;margin:0;">No Bible passage should be used to require someone to remain in danger, conceal abuse, destroy evidence, or submit to unlawful or abusive demands. Immediate safety and appropriate independent support take priority.</div>
-        </div>
-        <div class="study-block">
-          <h5>Icebreaker (4 min)</h5>
-          <div class="study-q">Think of a time when a person in authority handled disagreement well. What did they do that made the process feel fair?</div>
-        </div>
-        <div class="study-block">
-          <h5>Read (5 min)</h5>
-          <p style="font-size:.85rem;">Acts 20:28–31 · Hebrews 13:17 · Matthew 18:15–20 · 1 Timothy 5:19–20</p>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 1 — The Warning from Acts 20 (9 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What does Paul tell the elders to do, and what dangers does he warn about?</div>
-          <div class="study-q"><strong>Interpretation:</strong> Why does Paul include the possibility of danger "from among your own selves"?<div class="hint">A leadership role does not make a person immune to temptation or misuse of influence. Accountability cannot depend only on trusting leaders to police themselves.</div></div>
-          <div class="study-q"><strong>Application:</strong> What practices help a church notice problems early and respond fairly?<div class="hint">Clear conduct policies, more than one trusted leader, transparent finances, safe reporting routes, independent review for serious allegations.</div></div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 2 — What Are the Limits of Obedience? (9–10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What reason does Hebrews 13:17 give for responding to leaders, and what responsibility does it place on leaders?<div class="hint">Leaders keep watch over souls and will give an account — the verse is about responsible spiritual oversight, not unlimited personal control.</div></div>
-          <div class="study-q"><strong>Interpretation:</strong> How can we read Hebrews 13:17 alongside Acts 20:28–31 and 1 Timothy 5:19–20?</div>
-          <div class="study-q"><strong>Application:</strong> What should someone do if a leader demands secrecy about harm, or forbids them from seeking outside help?</div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 3 — Who Watches the Watchers? (9–10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What steps appear in Matthew 18:15–20? What safeguards appear in 1 Timothy 5:19–20?</div>
-          <div class="study-q"><strong>Application:</strong> What questions would you ask to understand your church's accountability structure?<div class="hint">Who receives complaints about senior leaders? Is there an independent route? Who oversees safeguarding and finances? Can people report without retaliation?</div></div>
-        </div>
-        <div class="study-redflag">
-          <strong>🚩 Red Flag Scenario</strong>
-          A senior leader tells a member not to contact anyone outside the church about alleged misconduct because "the Bible says to obey your leaders" and "we must protect the church's witness." The member fears retaliation. Why is this use of Hebrews 13:17 wrong? What would a safer next step be?
-        </div>
-        <div class="study-nextstep">
-          <strong>Safe Next Step</strong>
-          Without naming or accusing anyone, identify your church's published or clearly designated safeguarding and complaint route. If none is clear, ask a trusted, appropriate person how the process works.
-        </div>
-      </div>
-    </div>
-
-    <!-- Session 5 -->
-    <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
-        <div>
-          <div class="study-session-num">Session 5</div>
-          <p class="study-session-title">Responding Wisely: What Do We Do?</p>
-          <p class="study-session-meta">Matthew 18:15–17 · Proverbs 11:14 · Ephesians 5:11–13 · Romans 16:17–18 · 50–58 min</p>
-        </div>
-        <div class="study-session-toggle">▼</div>
-      </div>
-      <div class="study-session-body">
-        <div class="study-block">
-          <h5>Big Idea</h5>
-          <p style="font-size:.85rem;line-height:1.6;">Faithful response requires truth, proportion, wise counsel, and protection of people — not gossip, denial, or reflexive division. <strong>Important:</strong> match the response to the concern. Ordinary conflict, doctrinal error, leadership misconduct, abuse, and possible crimes are not all handled the same way.</p>
-        </div>
-        <div class="study-block">
-          <h5>Context (4 min)</h5>
-          <p style="font-size:.85rem;line-height:1.6;">Matthew 18 addresses seeking a person who has sinned. Proverbs 11:14 commends wise counsel. Ephesians 5 calls believers to expose works of darkness. Romans 16:17–18 warns against divisive people who deceive. Matthew 18 should never be turned into a rule requiring private confrontation with an abuser before seeking safety.</p>
-        </div>
-        <div class="study-block">
-          <h5>Icebreaker (4 min)</h5>
-          <div class="study-q">If you notice a problem in a group you care about, what might make it difficult to raise the concern?</div>
-        </div>
-        <div class="study-block">
-          <h5>Read (5 min)</h5>
-          <p style="font-size:.85rem;">Matthew 18:15–17 · Proverbs 11:14 · Ephesians 5:11–13 · Romans 16:17–18 · 1 Timothy 5:19–20</p>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 1 — What Is Matthew 18 Trying to Achieve? (9 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What sequence does Matthew 18:15–17 describe, and what happens if the person listens?</div>
-          <div class="study-q"><strong>Application:</strong> What changes if the concern involves abuse, threats, coercion, a crime, or a serious power imbalance?<div class="hint">Safety and independent reporting take priority. Do not require a private confrontation or use the passage to delay protection or lawful reporting.</div></div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 2 — Division, Discernment, and Speaking Truth (9–10 min)</h5>
-          <div class="study-q"><strong>Observation:</strong> What behaviours are criticised in Romans 16:17–18? What does Ephesians 5:11–13 say about works of darkness?</div>
-          <div class="study-q"><strong>Interpretation:</strong> What is the difference between raising a substantiated concern for protection and spreading an unverified story?<div class="hint">Responsible reporting is factual, proportionate, directed to people able to help. Gossip spreads claims unnecessarily or for revenge or status.</div></div>
-        </div>
-        <div class="study-block">
-          <h5>Breakout 3 — Choose a Wise Next Step (9–10 min)</h5>
-          <p style="font-size:.85rem;margin-bottom:8px;">For each scenario, ask: What do we know? What don't we know? Who can help? What protects people and preserves fairness?</p>
-          <div class="study-q">A member feels repeatedly dismissed by a cell leader after a disagreement about scheduling.</div>
-          <div class="study-q">A teacher repeatedly presents teaching that appears to contradict the gospel.</div>
-          <div class="study-q">Several people report credible intimidation by a senior leader who controls the internal complaint process.</div>
-          <div class="study-q">Someone forwards an anonymous social-media accusation with no supporting details.</div>
-        </div>
-        <div class="study-redflag">
-          <strong>🚩 Red Flag Scenario</strong>
-          A person raises a concern about a ministry leader. Others immediately say, "Don't cause division — Matthew 18 says you must speak to the leader privately first." The concern, however, includes threats and possible abuse. Why is that response incomplete? What should happen first?
-        </div>
-        <div class="study-nextstep">
-          <strong>Safe Next Step</strong>
-          Write a simple response plan: (1) identify what is known, (2) assess immediate safety, (3) consult an appropriate and independent person, (4) use the right reporting or accountability channel.
-        </div>
-      </div>
-    </div>
-
-    <div class="banner" style="margin-top:24px;font-size:.85rem;">
-      <strong>Download the full Facilitator Guide:</strong> The complete guide with facilitator notes, timing breakdowns, and interpretive cautions is attached here (<a href="Guarding_the_Flock_Study_Guide.docx" download>Download PDF</a>).
-    </div>
-
-  </section>
-
-  <!-- ── Tab: Wolves & Patterns ─────────────────────────────────────────── -->
-  <section class="section" id="tab-wolves" role="tabpanel">
-    <p class="eyebrow">What documented cases reveal</p>
-    <h2>Wolves in the Flock — Recurring Patterns</h2>
+    <hr style="margin: 48px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <!-- ── Patterns That Enable Harm (moved from Wolves & Patterns tab) ── -->
+<p class="eyebrow">What documented cases reveal</p>
+    <h2>Patterns That Enable Harm</h2>
     <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:8px;">
-      This site does not rate, list, or publish claims about named individuals or churches. This page documents <em>patterns</em> — recurring dynamics that appear across independently investigated cases worldwide. Each pattern is grounded in Scripture.
+      This section documents <em>recurring patterns</em> — dynamics that appear across independently investigated cases worldwide. These are possible patterns observed in some documented cases, not universal rules. Each pattern is grounded in Scripture.
     </p>
-    <p style="font-size:.82rem;color:var(--fg-muted);margin-bottom:24px;">For verified case journalism, see the <strong>Documented Cases</strong> tab.</p>
+    <p style="font-size:.82rem;color:var(--fg-muted);margin-bottom:24px;">For specific case studies, see the <strong>Documented Cases</strong> tab.</p>
 
     <div class="pattern-grid">
 
       <div class="pattern-card">
         <div class="p-icon">🐑</div>
-        <h4>The Charming Predator</h4>
-        <p>Warm, gifted, apparently above reproach — and often genuinely helpful to many people. The harm is targeted, private, and denied. Victims are not believed because the public image is so compelling.</p>
+        <h4>Charisma and Hidden Harm</h4>
+        <p>A leader can be warm, gifted, and genuinely helpful to many people while causing targeted harm to specific individuals in private. The public image makes it harder for those affected to be believed, and harder for communities to acknowledge a pattern.</p>
         <div class="p-looks"><strong>What it looks like:</strong> Years of private harm, public gifting used as alibi, victims silenced by their own doubt and others' loyalty to the leader.</div>
         <div class="p-verse">📖 Matthew 7:15 — "in sheep's clothing"</div>
       </div>
@@ -1636,22 +1122,166 @@ footer {
       <cite>Acts 20:28–30</cite>
     </div>
 
+
+  </section>
+
+  <!-- ── Tab: Get Help / Respond ──────────────────────────────────────────── -->
+  <section class="section" id="tab-respond" role="tabpanel">
+    <p class="eyebrow">If you are affected</p>
+    <h2>Get Help / Respond</h2>
+
+    <div class="banner safe">
+      <strong>You are not alone, and this is not your fault.</strong> Spiritual abuse is a form of manipulation that often makes victims feel responsible. Please reach out for support.
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-body">
+          <strong>Name what you're experiencing</strong>
+          <p>Start by reading about spiritual abuse so you can recognize the patterns. Many survivors say that simply having language for their experience was the first step toward healing.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Talk to a trusted person outside the community</strong>
+          <p>Find a friend, family member, or counselor who is not connected to the church in question. An outside perspective matters.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Document what happened</strong>
+          <p>Keep a private record: dates, what was said, who was present, and how it affected you. This is for your own clarity and may be important if you later decide to report formally.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Seek professional support</strong>
+          <p>A counselor or therapist with experience in religious trauma can help significantly. Look for someone familiar with faith-sensitive counselling or religious trauma. Note: "Religious Trauma Syndrome" is a descriptive term used by some practitioners and writers — it is not a formally recognised clinical diagnosis, but the experiences it describes are real and well-documented.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Report to the appropriate body</strong>
+          <p>Depending on your denomination, there may be an official complaints process. For criminal matters (assault, financial fraud, sexual abuse), contact civil authorities. Spiritual abuse organizations can advise on reporting processes.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-body">
+          <strong>Take your time</strong>
+          <p>Healing from spiritual abuse is not linear. You may still love the faith while grieving what happened to you. That tension is normal and does not have to be resolved quickly.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 36px; margin-bottom: 12px;">If you are a leader or witness</h3>
+    <p>If you observe patterns of spiritual abuse in your community, you have a responsibility to act — and acting well requires wisdom.</p>
+    <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
+      <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
+      <li>Escalate to a denominational body, external board, or pastoral care network.</li>
+      <li>Do not conduct informal "trials" or confront accusers as a group — this re-traumatises.</li>
+      <li>Bring in an independent external reviewer for serious allegations.</li>
+      <li>Prioritise the safety of the affected person over the reputation of the institution.</li>
+    </ul>
+
+
+
+    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
+    <h3 style="font-size: 1.1rem; margin-bottom: 10px;">Used the 4 Tests and something is wrong?</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 16px;">
+      If you applied the discernment framework in the <strong>Discern</strong> tab and you are now more certain that something is wrong, the steps below are your practical path forward. You do not have to act on everything at once.
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 8px;">
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">First</div>
+        <strong style="font-size: .88rem;">Name it privately</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Write down what you observed, when, and who was affected. Having language for it matters — look at the Warning Signs list.</p>
+      </div>
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Second</div>
+        <strong style="font-size: .88rem;">Talk to someone outside</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">A trusted friend, family member, or counsellor not connected to the community. Your perspective needs an outside check before you act.</p>
+      </div>
+      <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-family: 'Inter', sans-serif; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px;">Third</div>
+        <strong style="font-size: .88rem;">Escalate appropriately</strong>
+        <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 5px; line-height: 1.5;">Follow Matthew 18 process where safe to do so. For criminal matters, go directly to civil authorities — do not wait for internal church processes.</p>
+      </div>
+    </div>
+    <p style="font-size: .8rem; color: var(--fg-muted); margin-top: 12px;">
+      If you or someone you know is in immediate distress, call 999 (Malaysia) or your local emergency number, or contact Befrienders KL at 03-7627 2929.
+    </p>
+  </section>
+
+  <!-- ── Tab: For Church Leaders ─────────────────────────────────────────── -->
+  <section class="section" id="tab-leaders" role="tabpanel">
+    <p class="eyebrow">For pastors, elders &amp; leaders</p>
+    <h2>For Church Leaders</h2>
+
+    <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:20px;">
+      Leaders have a particular responsibility — both to prevent harm and to respond well when concerns are raised. This section provides a self-audit for ongoing accountability and guidance for those receiving a disclosure or concern.
+    </p>
+
+    <div class="banner safe" style="margin-bottom:28px;">
+      <strong>If someone has disclosed abuse to you:</strong> Listen without interrupting, believe the person's experience, do not promise absolute confidentiality (statutory obligations may apply), do not confront the accused person alone, and prioritise the safety of the person harmed over the reputation of the institution.
+    </div>
+
+    <h3 style="margin-top: 12px; margin-bottom: 12px;">If you receive a concern or disclosure</h3>
+    <ul style="padding-left: 20px; color: var(--fg-muted); font-size: 0.9rem; line-height: 1.8;">
+      <li>Take concerns from members seriously and never reframe them as gossip by default.</li>
+      <li>Escalate to a denominational body, external board, or pastoral care network.</li>
+      <li>Do not conduct informal "trials" or confront accusers as a group — this re-traumatises.</li>
+      <li>Bring in an independent external reviewer for serious allegations.</li>
+      <li>Prioritise the safety of the affected person over the reputation of the institution.</li>
+    </ul>
+
+    <!-- ── Leaders Self-Audit ── -->
+    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">For pastors, elders &amp; cell leaders</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">Guard Your Own Flock — A Leaders' Self-Audit</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); margin-bottom: 4px; line-height: 1.65;">
+      Ezekiel 34:10 — <em>"I will hold them accountable for my flock."</em> Honest leaders ask hard questions of themselves before others ask for them.
+    </p>
+
+    <h4 style="font-size: .9rem; font-weight: 700; margin: 20px 0 8px;">Personal Accountability</h4>
+    <ul class="audit-list">
+      <li>Do I have peers who can speak hard truth to me — without career risk, social cost, or loss of my favour?</li>
+      <li>Has someone on my team ever disagreed with me publicly? How did I respond — and what does that response say?</li>
+      <li>Have I ever used spiritual language to end a conversation I should have had?</li>
+      <li>Can someone make a formal complaint about me to a body that does not report to me?</li>
+      <li>Do I know the difference between protecting someone from gossip and shielding misconduct from scrutiny?</li>
+      <li>When I am challenged, do I listen for truth — or do I move immediately to defend my position?</li>
+    </ul>
+
+    <h4 style="font-size: .9rem; font-weight: 700; margin: 20px 0 8px;">Structural Safeguards Checklist</h4>
+    <ul class="audit-list">
+      <li>Is there a designated safeguarding officer who is independent of the senior pastor?</li>
+      <li>Is our safeguarding/conduct policy written down, published, and reviewed at least annually?</li>
+      <li>Do all roles with access to children or youth require background screening?</li>
+      <li>Is there a clear reporting pathway that bypasses senior leadership if they are the subject of a complaint?</li>
+      <li>Does our church have external oversight — a presbytery, network, or accountability body with real authority?</li>
+      <li>Are our financial accounts reviewed by someone who is not employed by or closely connected to the church?</li>
+    </ul>
+
+    <div class="banner" style="margin-top: 20px; font-size: .85rem;">
+      <strong>If you answered "no" or "I don't know" to several of these:</strong> That is not a judgment — it is a starting point. The <strong>Study &amp; Resources</strong> tab has practical tools — including Session 4 of the Bible Study — to help you build healthy structures.
+    </div>
+
   </section>
 
   <!-- ── Tab: Documented Cases ─────────────────────────────────────────── -->
   <section class="section" id="tab-cases" role="tabpanel">
-    <p class="eyebrow">Verified journalism &amp; documented patterns</p>
+    <p class="eyebrow">Reported cases &amp; documented patterns</p>
     <h2>Documented Cases</h2>
 
     <div class="warn-box" style="margin-bottom:2rem;">
-      <strong>Editorial note:</strong> This page does <em>not</em> maintain its own database of named individuals. Every entry below links out to verified journalism — newspapers, wire services, or established investigative outlets — that carries its own editorial standards and legal responsibility. An allegation reported in journalism is not a finding of guilt; a conviction is a matter of public court record. We distinguish these throughout.
+      <strong>Editorial note:</strong> This page does <em>not</em> maintain its own database of named individuals. Each entry below cites published journalism, official investigation reports, or court records; this site does not itself adjudicate allegations. Each source has its own editorial standards, scope, and limitations. An allegation is not a finding; a civil lawsuit is not a criminal conviction; an institutional report is not a court verdict. We distinguish these throughout.
     </div>
 
     <p style="margin-bottom:2rem;color:var(--fg-muted);">Why document this at all? Because patterns become visible only when cases are collected. Awareness of documented abuse in Christian contexts helps communities ask better questions, spot similar dynamics early, and stop dismissing concerns as "just gossip." The journalism linked here has been verified, published, and, where relevant, updated with legal outcomes.</p>
 
     <!-- ── Individual Named Cases ─────────────────────────────────────────── -->
     <h3 style="margin-bottom:.5rem;">Individual Named Cases</h3>
-    <p style="font-size:.88rem;color:var(--fg-muted);margin-bottom:1.5rem;">Specific cases drawn from independent journalism and official investigations, most recent first. Each carries an evidence status label — see the FAQ for what these mean. An allegation is not a finding; a civil lawsuit is not a conviction; an institutional report is not a criminal charge.</p>
+    <p style="font-size:.88rem;color:var(--fg-muted);margin-bottom:1.5rem;">Specific cases drawn from independent journalism and official investigations, most recent first. Each carries an evidence status label — see the FAQ (linked in the footer) for what these mean. An allegation is not a finding; a civil lawsuit is not a conviction; an institutional report is not a criminal charge.</p>
 
     <div class="case-list">
 
@@ -1961,7 +1591,7 @@ footer {
         <li><strong>Institutional finding</strong> — the organisation's own review or advisory group found the complaint substantiated</li>
         <li><strong>Criminal charges pending</strong> — a formal indictment has been returned; no verdict has been reached; the accused is presumed innocent</li>
         <li><strong>Civil lawsuit pending</strong> — a lawsuit has been filed; allegations have not been adjudicated</li>
-        <li><strong>Historical</strong> — the case is closed and the primary findings are no longer in active dispute</li>
+        <li><strong>Historical reporting</strong> — the primary investigation or reporting occurred some years ago; see individual entries for current status</li>
       </ul>
       <p style="margin-top:.75rem;font-size:.85rem;"><strong>Allegation</strong> — reported by journalism or named in a lawsuit; not a finding of guilt. <strong>Conviction</strong> — found guilty in a court of law; a matter of public record. <strong>Settlement</strong> — financial settlement, which may or may not include admission of wrongdoing.</p>
       <p style="margin-top:.5rem;font-size:.85rem;">This site does not independently verify, rate, or list individual churches, leaders, or pastors. All linked journalism has been produced by independent editorial organisations and is their responsibility.</p>
@@ -1969,8 +1599,411 @@ footer {
 
   </section>
 
-  <!-- ── Tab: FAQ ───────────────────────────────────────────────────────── -->
-  <section class="section" id="tab-faq" role="tabpanel">
+  <!-- ── Tab: Study & Resources ──────────────────────────────────────────── -->
+  <section class="section" id="tab-study-resources" role="tabpanel">
+    <p class="eyebrow">Bible study &amp; resources</p>
+    <h2>Study &amp; Resources</h2>
+    <h3 style="font-size:1.25rem;margin-bottom:10px;">Tested by the Word — Five-Session Bible Study</h3>
+    <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:8px;">A complete Bible study series for cell groups, home groups, and small groups. Each session is 45–60 minutes and follows the same rhythm: Context → Icebreaker → Main passages → Discussion breakouts → Closing application. No prior theological training required.</p>
+
+    <div class="banner" style="margin-bottom:24px;font-size:.85rem;">
+      <strong>Facilitator guardrails:</strong> Keep Scripture central. Do not turn sessions into speculation about named leaders or churches. If someone discloses abuse, prioritise safety and independent help — do not require private confrontation first.
+    </div>
+
+    <!-- Session 1 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 1</div>
+          <p class="study-session-title">What Does a True Shepherd Look Like?</p>
+          <p class="study-session-meta">Ezekiel 34:1–16 · John 10:1–18 · 1 Peter 5:1–4 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">A faithful shepherd cares for God's people rather than using them for personal gain.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Ezekiel 34 confronts Israel's shepherds for benefiting themselves while neglecting the flock. In John 10, Jesus identifies himself as the Good Shepherd who lays down his life. In 1 Peter 5, elders are called to shepherd willingly, eagerly, and by example — not domineering over people.</p>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">Think of a teacher, mentor, manager, or pastor who genuinely cared for you. What did they do that showed it? (Keep examples general — do not name or expose anyone.)</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">Ezekiel 34:1–10, 34:11–16 · John 10:11–18 · 1 Peter 5:2–3</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — Unfaithful Shepherds (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> In Ezekiel 34:2–6, list what the shepherds do and what they fail to do.<div class="hint">Notice feeding themselves, exploiting the flock, neglecting the weak/sick/injured, failing to seek the lost, ruling harshly.</div></div>
+          <div class="study-q"><strong>Interpretation:</strong> Why is God's response in verses 7–10 so serious?</div>
+          <div class="study-q"><strong>Application:</strong> What might "feeding oneself on the flock" look like today?<div class="hint">Consider using people for status, money, influence, labour, or unquestioning loyalty.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — The Good Shepherd vs. the Hired Hand (10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> In Ezekiel 34:11–16, what actions does God promise? What does Jesus do in John 10:11–18?</div>
+          <div class="study-q"><strong>Interpretation:</strong> What makes the Good Shepherd different from the hired hand when danger comes?<div class="hint">The contrast is commitment and care, not whether a leader receives a salary.</div></div>
+          <div class="study-q"><strong>Application:</strong> What would these qualities look like in a pastor or cell leader?</div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — How Should Leaders Use Authority? (8–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What three contrasts does 1 Peter 5:2–3 make about how elders should shepherd?<div class="hint">Willingly not under compulsion; eagerly not for shameful gain; as examples not domineering.</div></div>
+          <div class="study-q"><strong>Application:</strong> Where could these principles challenge any of us who influence others — at home, in church, or while discipling someone?</div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A cell leader repeatedly pressures exhausted members to take on more tasks, saying that refusing shows they do not love God. Members who question decisions are called immature. Those who comply receive recognition. What observable behaviours concern you? What further context would you need before drawing a conclusion?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Reach out to one person who may need encouragement. Listen, ask what support would help, and offer prayer or practical care without expecting anything in return.
+        </div>
+      </div>
+    </div>
+
+    <!-- Session 2 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 2</div>
+          <p class="study-session-title">Testing Doctrine: What Gospel Are They Preaching?</p>
+          <p class="study-session-meta">Galatians 1:6–9 · 2 Corinthians 11:1–15 · 1 John 4:1–6 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">A message can sound spiritual and impressive yet distort the gospel; teaching must be tested against the apostolic witness to Christ. Not every disagreement about a secondary doctrine is "another gospel" — the focus is serious distortion of how people are reconciled to God.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">In Galatians, Paul is alarmed the churches are turning to a different gospel. In 2 Corinthians 11, he warns false apostles can present themselves impressively. In 1 John 4, believers are told to test the spirits rather than believe every spiritual claim.</p>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">What can make a speaker or message seem trustworthy before you have checked whether it is true? (e.g. confidence, emotional stories, apparent success, popularity, promises that match our hopes)</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">Galatians 1:6–9 · 2 Corinthians 11:3–4, 11:13–15 · 1 John 4:1–6</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — Why Is "Another Gospel" So Serious? (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> In Galatians 1:6–9, what has happened to the Galatians, and how strongly does Paul respond?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why does Paul place the message above the status of the messenger?<div class="hint">The gospel is not ours to redesign. Even a respected or supernatural-seeming messenger must be tested against the truth already delivered.</div></div>
+          <div class="study-q"><strong>Application:</strong> What questions help us test a teaching before accepting or sharing it?<div class="hint">What does it say about Jesus, sin, grace, the cross, resurrection, repentance, and faith? Does it fit the wider witness of Scripture?</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — When False Teaching Looks Impressive (10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What characteristics of the "false apostles" appear in 2 Corinthians 11:3–15?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why might charisma, sacrifice, spiritual language, or apparent success make discernment harder?</div>
+          <div class="study-q"><strong>Application:</strong> How can a group evaluate teaching fairly without becoming cynical?<div class="hint">Read the full passage in context, compare with core Christian teaching, ask honest questions, seek mature counsel.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — Blessing, Prosperity, and the Cross (8–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What does 1 John 4:1–6 tell believers to test, and what role does the truth about Jesus play?</div>
+          <div class="study-q"><strong>Interpretation:</strong> What is the difference between thanking God for provision and making prosperity the measure of faith?<div class="hint">The gospel is not a guarantee that faithful people will become wealthy, avoid suffering, or get every desired outcome.</div></div>
+          <div class="study-q"><strong>Application:</strong> If a speaker implies that giving a certain amount guarantees wealth or healing, what questions should we ask?</div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A popular speaker says Christians who give generously will receive a guaranteed financial return from God. People who remain poor are told they lack faith. The speaker cites Bible verses but gives little attention to suffering, repentance, or the cross. Which claims need testing? What additional information would you want?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Choose one claim you have heard recently. Read its cited passage in full context and compare with the surrounding chapter before accepting or forwarding it.
+        </div>
+      </div>
+    </div>
+
+    <!-- Session 3 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 3</div>
+          <p class="study-session-title">Testing Character: What Does Their Private Life Show?</p>
+          <p class="study-session-meta">1 Timothy 3:1–7 · Titus 1:5–9 · Matthew 23:1–12, 25–28 · 1 Timothy 5:17–20 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Biblical leadership is tested by sustained character and integrity, not gifts, public image, or a polished platform. These qualifications describe credible, observable patterns of maturity — not sinless perfection.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">In 1 Timothy 3 and Titus 1, Paul describes character expected of overseers — emphasising self-control, faithfulness, hospitality, and a good reputation, not just talent. In Matthew 23, Jesus warns against leaders whose public appearance hides inner corruption. 1 Timothy 5 addresses honouring elders and handling accusations responsibly.</p>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">What makes you trust someone with an important responsibility? What might cause that trust to weaken?</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">1 Timothy 3:1–7 · Titus 1:5–9 · Matthew 23:1–12, 25–28 · 1 Timothy 5:17–20</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — What Kind of Character Is Required? (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> Which qualifications in 1 Timothy 3:1–7 and Titus 1:5–9 describe character and relationships rather than public ability?<div class="hint">Self-control, gentleness, not quarrelsome or arrogant, faithfulness in family life, hospitality, not greedy, good reputation.</div></div>
+          <div class="study-q"><strong>Interpretation:</strong> Why do these lists place so much weight on everyday character?</div>
+          <div class="study-q"><strong>Application:</strong> Which qualities are easiest to imitate briefly, and which become visible only over time?</div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — Appearance Versus Integrity (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> In Matthew 23:1–12 and 25–28, what contrast does Jesus make between outward appearance and inward reality?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why can a strong public ministry or impressive gift distract people from character concerns?<div class="hint">Visible results are easy to celebrate; private integrity is harder to assess. Gifts and impact do not cancel moral responsibility.</div></div>
+          <div class="study-q"><strong>Application:</strong> How can a church assess character fairly — without gossip, invasive curiosity, or impossible standards?</div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — Honour and Accountability Together (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What do 1 Timothy 5:17–20 say about honouring elders and receiving accusations against them?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why might Paul require more than an unverified accusation, while also insisting persistent sin be addressed?<div class="hint">Leaders can be unfairly accused; safeguards must not become a shield against credible evidence or ongoing harm.</div></div>
+          <div class="study-q"><strong>Application:</strong> What would a fair process look like if a concern about a leader arose?</div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A gifted leader is widely admired for preaching and ministry growth. Several people independently raise concerns about repeated humiliating treatment of staff. The leader says critics are jealous and points to the ministry's success as proof of God's approval. What should the church examine? What should NOT be treated as proof either way?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Choose one character quality — gentleness, honesty, self-control, or hospitality — and ask a trusted person how they see you practising it. Receive feedback without defensiveness.
+        </div>
+      </div>
+    </div>
+
+    <!-- Session 4 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 4</div>
+          <p class="study-session-title">Testing Accountability: Who Watches the Watchers?</p>
+          <p class="study-session-meta">Acts 20:28–31 · Hebrews 13:17 · Matthew 18:15–20 · 1 Timothy 5:19–20 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Christian leadership carries real authority, but it is not absolute; leaders and churches must guard the flock and address wrongdoing responsibly.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">In Acts 20, Paul warns the Ephesian elders that destructive teachers may arise even from among their own number. Hebrews 13:17 calls believers to respond to leaders who watch over their souls, while other passages establish accountability and careful processes for addressing sin.</p>
+        </div>
+        <div class="study-block">
+          <h5>Safety Principle</h5>
+          <div class="banner" style="font-size:.82rem;margin:0;">No Bible passage should be used to require someone to remain in danger, conceal abuse, destroy evidence, or submit to unlawful or abusive demands. Immediate safety and appropriate independent support take priority.</div>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">Think of a time when a person in authority handled disagreement well. What did they do that made the process feel fair?</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">Acts 20:28–31 · Hebrews 13:17 · Matthew 18:15–20 · 1 Timothy 5:19–20</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — The Warning from Acts 20 (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What does Paul tell the elders to do, and what dangers does he warn about?</div>
+          <div class="study-q"><strong>Interpretation:</strong> Why does Paul include the possibility of danger "from among your own selves"?<div class="hint">A leadership role does not make a person immune to temptation or misuse of influence. Accountability cannot depend only on trusting leaders to police themselves.</div></div>
+          <div class="study-q"><strong>Application:</strong> What practices help a church notice problems early and respond fairly?<div class="hint">Clear conduct policies, more than one trusted leader, transparent finances, safe reporting routes, independent review for serious allegations.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — What Are the Limits of Obedience? (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What reason does Hebrews 13:17 give for responding to leaders, and what responsibility does it place on leaders?<div class="hint">Leaders keep watch over souls and will give an account — the verse is about responsible spiritual oversight, not unlimited personal control.</div></div>
+          <div class="study-q"><strong>Interpretation:</strong> How can we read Hebrews 13:17 alongside Acts 20:28–31 and 1 Timothy 5:19–20?</div>
+          <div class="study-q"><strong>Application:</strong> What should someone do if a leader demands secrecy about harm, or forbids them from seeking outside help?</div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — Who Watches the Watchers? (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What steps appear in Matthew 18:15–20? What safeguards appear in 1 Timothy 5:19–20?</div>
+          <div class="study-q"><strong>Application:</strong> What questions would you ask to understand your church's accountability structure?<div class="hint">Who receives complaints about senior leaders? Is there an independent route? Who oversees safeguarding and finances? Can people report without retaliation?</div></div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A senior leader tells a member not to contact anyone outside the church about alleged misconduct because "the Bible says to obey your leaders" and "we must protect the church's witness." The member fears retaliation. Why is this use of Hebrews 13:17 wrong? What would a safer next step be?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Without naming or accusing anyone, identify your church's published or clearly designated safeguarding and complaint route. If none is clear, ask a trusted, appropriate person how the process works.
+        </div>
+      </div>
+    </div>
+
+    <!-- Session 5 -->
+    <div class="study-session" data-open="false">
+      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+        <div>
+          <div class="study-session-num">Session 5</div>
+          <p class="study-session-title">Responding Wisely: What Do We Do?</p>
+          <p class="study-session-meta">Matthew 18:15–17 · Proverbs 11:14 · Ephesians 5:11–13 · Romans 16:17–18 · 50–58 min</p>
+        </div>
+        <div class="study-session-toggle">▼</div>
+      </div>
+      <div class="study-session-body">
+        <div class="study-block">
+          <h5>Big Idea</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Faithful response requires truth, proportion, wise counsel, and protection of people — not gossip, denial, or reflexive division. <strong>Important:</strong> match the response to the concern. Ordinary conflict, doctrinal error, leadership misconduct, abuse, and possible crimes are not all handled the same way.</p>
+        </div>
+        <div class="study-block">
+          <h5>Context (4 min)</h5>
+          <p style="font-size:.85rem;line-height:1.6;">Matthew 18 addresses seeking a person who has sinned. Proverbs 11:14 commends wise counsel. Ephesians 5 calls believers to expose works of darkness. Romans 16:17–18 warns against divisive people who deceive. Matthew 18 should never be turned into a rule requiring private confrontation with an abuser before seeking safety.</p>
+        </div>
+        <div class="study-block">
+          <h5>Icebreaker (4 min)</h5>
+          <div class="study-q">If you notice a problem in a group you care about, what might make it difficult to raise the concern?</div>
+        </div>
+        <div class="study-block">
+          <h5>Read (5 min)</h5>
+          <p style="font-size:.85rem;">Matthew 18:15–17 · Proverbs 11:14 · Ephesians 5:11–13 · Romans 16:17–18 · 1 Timothy 5:19–20</p>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 1 — What Is Matthew 18 Trying to Achieve? (9 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What sequence does Matthew 18:15–17 describe, and what happens if the person listens?</div>
+          <div class="study-q"><strong>Application:</strong> What changes if the concern involves abuse, threats, coercion, a crime, or a serious power imbalance?<div class="hint">Safety and independent reporting take priority. Do not require a private confrontation or use the passage to delay protection or lawful reporting.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 2 — Division, Discernment, and Speaking Truth (9–10 min)</h5>
+          <div class="study-q"><strong>Observation:</strong> What behaviours are criticised in Romans 16:17–18? What does Ephesians 5:11–13 say about works of darkness?</div>
+          <div class="study-q"><strong>Interpretation:</strong> What is the difference between raising a substantiated concern for protection and spreading an unverified story?<div class="hint">Responsible reporting is factual, proportionate, directed to people able to help. Gossip spreads claims unnecessarily or for revenge or status.</div></div>
+        </div>
+        <div class="study-block">
+          <h5>Breakout 3 — Choose a Wise Next Step (9–10 min)</h5>
+          <p style="font-size:.85rem;margin-bottom:8px;">For each scenario, ask: What do we know? What don't we know? Who can help? What protects people and preserves fairness?</p>
+          <div class="study-q">A member feels repeatedly dismissed by a cell leader after a disagreement about scheduling.</div>
+          <div class="study-q">A teacher repeatedly presents teaching that appears to contradict the gospel.</div>
+          <div class="study-q">Several people report credible intimidation by a senior leader who controls the internal complaint process.</div>
+          <div class="study-q">Someone forwards an anonymous social-media accusation with no supporting details.</div>
+        </div>
+        <div class="study-redflag">
+          <strong>🚩 Red Flag Scenario</strong>
+          A person raises a concern about a ministry leader. Others immediately say, "Don't cause division — Matthew 18 says you must speak to the leader privately first." The concern, however, includes threats and possible abuse. Why is that response incomplete? What should happen first?
+        </div>
+        <div class="study-nextstep">
+          <strong>Safe Next Step</strong>
+          Write a simple response plan: (1) identify what is known, (2) assess immediate safety, (3) consult an appropriate and independent person, (4) use the right reporting or accountability channel.
+        </div>
+      </div>
+    </div>
+
+    <div class="banner" style="margin-top:24px;font-size:.85rem;">
+      <strong>Download the full Facilitator Guide:</strong> The complete guide with facilitator notes, timing breakdowns, and interpretive cautions is attached here (<a href="Guarding_the_Flock_Study_Guide.docx" download>Download PDF</a>).
+    </div>
+    <hr style="margin: 48px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <!-- ── Resources (moved from Resources tab) ── -->
+    <h3 style="font-size:1.25rem;margin-bottom:10px;">Books, Organisations &amp; Sites</h3>
+<p class="eyebrow">Selected resources</p>
+    <h2>Books, organisations, and sites for further reading</h2>
+    <p style="font-size: 0.875rem; color: var(--fg-muted); margin-bottom: 4px;">All links open in a new tab. These are selected resources from established publishers and organisations. Inclusion is not an endorsement of every position they hold; each source has its own scope and limitations.</p>
+
+    <div class="resource-list">
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Subtle Power of Spiritual Abuse — David Johnson &amp; Jeff VanVonderen</h4>
+          <p>One of the earliest and most widely cited books identifying the patterns of spiritually abusive systems. Written from a Christian pastoral perspective. The foundational text for this field.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>A Church Called Tov — Scot McKnight &amp; Laura Barringer</h4>
+          <p>Directly addresses toxic church culture and what a "Tov" (Hebrew: good) church looks like instead. Practical and biblically grounded. Widely used in pastoral training post-2020.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Redeeming Power — Diane Langberg</h4>
+          <p>Trauma-informed, widely used by counsellors and church safeguarding teams. Langberg is a psychologist and theologian who addresses how power is misused in spiritual contexts. One of the most recommended books in this space.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>When Narcissism Comes to Church — Chuck DeGroat</h4>
+          <p>A counsellor and theologian examines narcissistic leadership patterns in church contexts — how they form, what they look like, and why they are so difficult to address without institutional courage.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Recovering from Religious Trauma — Dr. Marlene Winell</h4>
+          <p>Psychologist Winell coined the term "Religious Trauma Syndrome." Her work documents the psychological impact of high-control religious environments.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Churches, Cults and Spiritual Abuse — Martin Thorburn</h4>
+          <p>A pastoral resource examining the overlap between cult-like dynamics and mainstream church settings, with case studies from the Asia-Pacific region.</p>
+        </div>
+        <span class="resource-tag tag-book">Book</span>
+      </div>
+
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Thirtyone:eight — UK Church Safeguarding</h4>
+          <p>The UK's leading independent church safeguarding consultancy, providing training, policy frameworks, and independent investigations for churches and Christian organisations.</p>
+          <p><a href="https://thirtyoneeight.org" target="_blank" rel="noopener noreferrer">thirtyoneeight.org ↗</a></p>
+        </div>
+        <span class="resource-tag tag-org">Organisation</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Roys Report Podcast — Spiritual Abuse Series</h4>
+          <p>Julie Roys' investigative podcast covers specific cases and broader patterns. Particularly relevant episodes: <em>How to Identify &amp; Recover from Spiritual Abuse</em>, <em>Spiritually Abusive Leaders in the Church</em>, and <em>Escaping and Healing from Abusive Churches</em>.</p>
+          <p><a href="https://roysreport.com/podcast/how-to-identify-recover-from-spiritual-abuse/" target="_blank" rel="noopener noreferrer">roysreport.com/podcast ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Podcast</span>
+      </div>
+
+
+
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>The Wartburg Watch</h4>
+          <p>A long-running blog that documents and discusses abuse cases in evangelical and Reformed churches. Includes survivor testimonies and investigative write-ups with source links.</p>
+          <p><a href="https://www.thewartburgwatch.com" target="_blank" rel="noopener noreferrer">thewartburgwatch.com ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Blog / Watchdog</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
+          <h4>Protestant Accountability</h4>
+          <p>A publicly searchable database of documented allegations, findings, and disciplinary actions involving Protestant ministers and organisations, launched September 2026. Currently holds over 2,700 records drawn from court records, journalism, and church investigation reports.</p>
+          <p style="font-size:.82rem;color:var(--fg-muted);margin-top:.4rem;"><em>Discovery and cross-reference tool only — not an independent investigative body. Individual entries should be checked against primary documents and reputable reporting before being relied upon.</em></p>
+          <p><a href="https://protestantaccountability.org" target="_blank" rel="noopener noreferrer">protestantaccountability.org ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Database</span>
+      </div>
+
+
+
+
+
+    </div>
+
+
+  </section>
+
+  <!-- ── FAQ anchor (not a main tab) ────────────────────────────────────── -->
+  <section id="faq-anchor" class="faq-standalone" role="complementary" aria-label="Frequently Asked Questions">
     <p class="eyebrow">Common questions</p>
     <h2>Frequently asked questions</h2>
 
@@ -2046,9 +2079,9 @@ footer {
           <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;line-height:1.7;">
             <li><strong>Independent investigation</strong> — conducted by a third party (external law firm, safeguarding body, or review panel) specifically engaged to investigate the matter. The strongest form of non-criminal accountability.</li>
             <li><strong>Institutional finding</strong> — the organisation's own leadership, board, or advisory group reviewed the matter and found concerns substantiated. Stronger than a bare allegation, but less independent than an external investigation.</li>
-            <li><strong>Criminal charges pending</strong> — a formal indictment has been returned by a grand jury or equivalent. This means a court found probable cause, but no verdict has been reached. The accused is presumed innocent until proven guilty.</li>
+            <li><strong>Criminal charges pending</strong> — criminal charges have been formally filed or an indictment returned. The applicable procedure and standard of proof vary by jurisdiction. No verdict has been reached; the accused is presumed innocent until proven guilty.</li>
             <li><strong>Civil lawsuit pending</strong> — a lawsuit has been filed in a civil court. Allegations in a lawsuit have not been adjudicated; they are the plaintiff's claims, not judicial findings.</li>
-            <li><strong>Historical</strong> — the primary investigative findings are no longer in active dispute and the case has been substantially concluded. The organisation involved may no longer exist.</li>
+            <li><strong>Historical reporting</strong> — the primary investigation or reporting occurred some years ago. This describes the age of the primary source, not the current status of the case or the resolution of all disputed matters. Where a current legal or investigative status exists, it is stated in the case entry.</li>
           </ul>
           <p style="margin-top:.75rem;">A criminal conviction is not the only legitimate basis for documenting abuse. An independent investigation or an institutional admission can establish serious harm. However, what each label establishes — and does not establish — is always stated in the individual case entry.</p>
         </div>
@@ -2070,8 +2103,9 @@ footer {
   </section>
 
   <footer>
-    <p>Guard the Flock · A public educational resource · Content compiled from published books, established organisations, and verified journalism.</p>
-    <p style="margin-top: 4px;">This site does not identify, rate, or list individual churches, leaders, or pastors. For case-specific journalism, see the Resources tab.</p>
+    <p>Guard the Flock &middot; A public educational resource &middot; Content compiled from published books, established organisations, and verified journalism.</p>
+    <p style="margin-top: 4px;">This site does not identify, rate, or list individual churches, leaders, or pastors.</p>
+    <p style="margin-top: 8px; font-size: 0.85rem;"><a href="#faq-anchor" style="color:var(--fg-muted);">FAQ</a></p>
   </footer>
 
 </div>
