@@ -2374,14 +2374,37 @@ footer {
     });
   });
 
-  // Restore remembered tab
-  try {
-    const saved = localStorage.getItem('gtf-tab');
-    if (saved) {
-      const t = document.querySelector('[data-tab="' + saved + '"]');
-      if (t) t.click();
+  // Restore remembered tab or activate tab for a deep-link anchor
+  (function() {
+    // 1. If URL has a #hash, find which tab contains that anchor and activate it
+    const hash = window.location.hash.slice(1);
+    if (hash) {
+      const target = document.getElementById(hash);
+      if (target) {
+        const panel = target.closest('.section[id^="tab-"]');
+        if (panel) {
+          const tabKey = panel.id.replace('tab-', '');
+          const btn = document.querySelector('[data-tab="' + tabKey + '"]');
+          if (btn) {
+            btn.click();
+            // Let the DOM settle, then scroll to the anchor
+            requestAnimationFrame(function() {
+              requestAnimationFrame(function() { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+            });
+            return; // skip localStorage restore so the anchor wins
+          }
+        }
+      }
     }
-  } catch(e) {}
+    // 2. Fall back to remembered tab
+    try {
+      const saved = localStorage.getItem('gtf-tab');
+      if (saved) {
+        const t = document.querySelector('[data-tab="' + saved + '"]');
+        if (t) t.click();
+      }
+    } catch(e) {}
+  })();
 
   // ── Latest News RSS feed loader ──────────────────────────────────────────
   // The scheduled GitHub Action builds this static snapshot from publisher RSS.
