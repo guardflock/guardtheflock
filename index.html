@@ -602,6 +602,33 @@ a:hover { color: var(--accent); }
 .pattern-card .p-verse { font-size: .75rem; color: var(--accent); font-weight: 600; letter-spacing: .04em; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 8px; }
 .pattern-card .p-looks { font-size: .78rem; color: var(--fg); background: var(--surface); border-radius: 6px; padding: 8px 10px; margin-top: 6px; }
 
+/* ── Narcissism Guide ────────────────────────────────────────────────────── */
+.narc-intro { font-size: .9rem; color: var(--fg-muted); line-height: 1.75; margin-bottom: 24px; }
+.narc-table { width: 100%; border-collapse: collapse; font-size: .85rem; margin-top: 16px; margin-bottom: 8px; }
+.narc-table th { text-align: left; padding: 10px 14px; background: var(--surface); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); border-bottom: 2px solid var(--border); }
+.narc-table td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.55; }
+.narc-table tr:last-child td { border-bottom: none; }
+.narc-table td:first-child { font-weight: 700; color: var(--fg); white-space: nowrap; padding-right: 18px; }
+.narc-table td:nth-child(2) { color: var(--fg-muted); }
+.narc-table td:nth-child(3) { color: var(--fg); font-style: italic; }
+@media (max-width: 640px) {
+  .narc-table thead { display: none; }
+  .narc-table, .narc-table tbody, .narc-table tr, .narc-table td { display: block; }
+  .narc-table tr { margin-bottom: 16px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+  .narc-table td { border: none; padding: 4px 0; }
+  .narc-table td:first-child { font-size: .9rem; margin-bottom: 4px; }
+}
+/* ── PATTERN Worksheet ───────────────────────────────────────────────────── */
+.pattern-worksheet { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+.pw-row { display: grid; grid-template-columns: 36px 1fr 1.5fr; gap: 14px; align-items: start; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+.pw-letter { font-size: 1.5rem; font-weight: 900; color: var(--accent); line-height: 1; align-self: center; }
+.pw-focus { font-weight: 700; font-size: .9rem; color: var(--fg); }
+.pw-focus span { display: block; font-weight: 400; font-size: .8rem; color: var(--fg-muted); margin-top: 2px; }
+.pw-prompt { font-size: .85rem; color: var(--fg-muted); line-height: 1.6; font-style: italic; }
+@media (max-width: 560px) {
+  .pw-row { grid-template-columns: 32px 1fr; }
+  .pw-prompt { grid-column: 2; }
+}
 /* ── Leaders Self-Audit ──────────────────────────────────────────────────── */
 .audit-list { list-style: none; padding: 0; margin: 16px 0; display: flex; flex-direction: column; gap: 10px; }
 .audit-list li { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; font-size: .875rem; display: flex; gap: 12px; align-items: flex-start; line-height: 1.5; }
@@ -1031,6 +1058,136 @@ footer {
     <div class="banner safe" style="margin-top: 24px;">
       <strong>If this conversation surfaces real concerns:</strong> Move to the <strong>Get Help / Respond</strong> tab for practical next steps. If someone in your group is in an unsafe situation, call emergency services or contact a local counselling helpline directly.
     </div>
+    <!-- ── Narcissism Guide ── -->
+    <hr style="margin: 48px 0 32px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">Discernment guide</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 14px;">Understanding Narcissistic Behaviour in Church Leadership</h3>
+
+    <p class="narc-intro">
+      Narcissistic traits can include a strong need for admiration, entitlement, difficulty receiving criticism, and reduced attention to other people's needs. These traits vary in degree, and a clinical diagnosis such as Narcissistic Personality Disorder can only be assessed by an appropriately qualified professional. Spiritual abuse is different: it concerns the misuse of spiritual authority to control, exploit, or harm. The two can overlap, but neither automatically proves the other. <strong>You do not need to diagnose a leader to recognise harmful behaviour or seek help.</strong>
+    </p>
+
+    <div class="banner" style="margin-bottom: 28px;">
+      <strong>Important cautions:</strong> No single behaviour listed below proves narcissism or abuse — assess repetition, context, impact, and corroboration. Do not infer intent or diagnosis from personality style, introversion, confidence, awkwardness, or a single conflict. A person can act abusively without a personality disorder; a person with narcissistic traits is not automatically abusive. This guide is educational, not a validated clinical instrument. Focus on the <em>conduct and the safeguards needed</em>, not on assigning a label.
+    </div>
+
+    <h4 style="font-size: 1rem; margin-bottom: 6px;">Ten Behavioural Patterns</h4>
+    <p style="font-size: .82rem; color: var(--fg-muted); margin-bottom: 12px;">Each row describes observable examples and a discernment question to help evaluate the pattern — not to diagnose.</p>
+
+    <div style="overflow-x: auto;">
+    <table class="narc-table">
+      <thead>
+        <tr>
+          <th>Pattern</th>
+          <th>Observable examples</th>
+          <th>Discernment question</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1. Excessive need for admiration</td>
+          <td>Claims disproportionate credit; resents others' recognition; expects special treatment.</td>
+          <td>Can the leader celebrate others without redirecting attention to themselves?</td>
+        </tr>
+        <tr>
+          <td>2. Persistent rejection of correction</td>
+          <td>Treats questions as disloyalty; repeatedly retaliates against good-faith feedback.</td>
+          <td>Can people disagree safely and see concerns considered fairly?</td>
+        </tr>
+        <tr>
+          <td>3. Limited empathy in practice</td>
+          <td>Dismisses distress when it inconveniences the leader; centres intentions over impact.</td>
+          <td>Does the leader make a genuine effort to understand people affected?</td>
+        </tr>
+        <tr>
+          <td>4. Entitlement / double standards</td>
+          <td>Demands compliance but evades the standards imposed on others.</td>
+          <td>Is the leader subject to meaningful, fair accountability?</td>
+        </tr>
+        <tr>
+          <td>5. Spiritual or emotional manipulation</td>
+          <td>Uses guilt, fear, divine claims, or loyalty language to bypass consent and questions.</td>
+          <td>Can people use conscience and seek outside counsel without threats?</td>
+        </tr>
+        <tr>
+          <td>6. Blame-shifting</td>
+          <td>Repeatedly externalises responsibility; apologies avoid naming conduct or repair.</td>
+          <td>Can the leader acknowledge specific actions and make changes?</td>
+        </tr>
+        <tr>
+          <td>7. Public / private mismatch</td>
+          <td>Public humility contrasts with repeated private humiliation or domination.</td>
+          <td>Is there a sustained, corroborated pattern — not just one awkward interaction?</td>
+        </tr>
+        <tr>
+          <td>8. Retaliation against complainants</td>
+          <td>Removal, shaming, exposure of private information, or reputational attacks after concerns are raised.</td>
+          <td>Are complainants protected from retaliation and heard impartially?</td>
+        </tr>
+        <tr>
+          <td>9. Loyalty over truth</td>
+          <td>Rewards agreement, marginalises dissent, treats critics as enemies before checking facts.</td>
+          <td>Can truth be spoken even when it is uncomfortable for leadership?</td>
+        </tr>
+        <tr>
+          <td>10. Unaccountable systems</td>
+          <td>Senior leader controls complaint route, oversight, information, or decision-making.</td>
+          <td>Can an independent body review concerns about the senior leader?</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <!-- ── PATTERN Worksheet ── -->
+    <hr style="margin: 40px 0 28px; border: none; border-top: 1px solid var(--border);">
+    <p class="eyebrow">Reflection worksheet</p>
+    <h3 style="font-size: 1.3rem; margin-bottom: 8px;">The PATTERN Worksheet</h3>
+    <p style="font-size: .88rem; color: var(--fg-muted); line-height: 1.7; margin-bottom: 8px;">
+      Use PATTERN as a reflection prompt — not a numerical score or diagnosis. For each area, ask yourself: (1) What did I observe? (2) Is this repeated and corroborated? (3) What impact did it have? (4) What safe, proportionate next step is available?
+    </p>
+
+    <div class="pattern-worksheet">
+      <div class="pw-row">
+        <div class="pw-letter">P</div>
+        <div class="pw-focus">Power <span>Use of authority</span></div>
+        <div class="pw-prompt">Is authority used to serve and equip people, or to secure personal control?</div>
+      </div>
+      <div class="pw-row">
+        <div class="pw-letter">A</div>
+        <div class="pw-focus">Accountability <span>Real independence</span></div>
+        <div class="pw-prompt">Can the leader be corrected by people with genuine independence?</div>
+      </div>
+      <div class="pw-row">
+        <div class="pw-letter">T</div>
+        <div class="pw-focus">Treatment of others <span>Dissenters &amp; the vulnerable</span></div>
+        <div class="pw-prompt">How are dissenters, vulnerable people, and those with little status treated?</div>
+      </div>
+      <div class="pw-row">
+        <div class="pw-letter">T</div>
+        <div class="pw-focus">Truthfulness <span>Facts &amp; blame</span></div>
+        <div class="pw-prompt">Are facts acknowledged, or are there repeated distortions and blame shifts?</div>
+      </div>
+      <div class="pw-row">
+        <div class="pw-letter">E</div>
+        <div class="pw-focus">Empathy <span>Impact on affected people</span></div>
+        <div class="pw-prompt">Are the needs and experiences of affected people taken seriously?</div>
+      </div>
+      <div class="pw-row">
+        <div class="pw-letter">R</div>
+        <div class="pw-focus">Response to correction <span>Listen or punish?</span></div>
+        <div class="pw-prompt">Does the leader listen and repair, or punish people who raise concerns?</div>
+      </div>
+      <div class="pw-row">
+        <div class="pw-letter">N</div>
+        <div class="pw-focus">Nature of the pattern <span>Persistence &amp; harm</span></div>
+        <div class="pw-prompt">Is the behaviour persistent, across multiple relationships, and causing harm?</div>
+      </div>
+    </div>
+
+    <div class="banner safe" style="margin-top: 24px; margin-bottom: 8px;">
+      <strong>If the PATTERN worksheet raises serious concerns:</strong> You do not have to act alone. Move to the <strong>Get Help / Respond</strong> tab for practical next steps, or the <strong>For Church Leaders</strong> tab if you are in a position to respond.
+    </div>
+
     <hr style="margin: 48px 0 32px; border: none; border-top: 1px solid var(--border);">
     <!-- ── Patterns That Enable Harm (moved from Wolves & Patterns tab) ── -->
 <p class="eyebrow">What documented cases reveal</p>
