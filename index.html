@@ -691,6 +691,16 @@ a:hover { color: var(--accent); }
 .case-filter-btn[data-filter="all"].active { background: var(--fg); border-color: var(--fg); color: var(--bg); }
 .case-count-badge { font-size: .75rem; color: var(--fg-muted); margin-left: auto; padding: 4px 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 20px; }
 .case-item[data-hidden="true"] { display: none; }
+/* ── Case Theme Index ────────────────────────────────────────────────────── */
+.case-theme-index { display: flex; flex-direction: column; gap: 16px; margin-bottom: 2rem; }
+.theme-block { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+.theme-label { font-size: .85rem; font-weight: 700; color: var(--fg); margin-bottom: 6px; }
+.theme-desc { font-size: .78rem; color: var(--fg-muted); line-height: 1.65; margin-bottom: 10px; }
+.theme-case-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.theme-case-list li { font-size: .82rem; display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.theme-case-list a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.theme-case-list a:hover { text-decoration: underline; }
+.theme-badge { font-size: .7rem; background: var(--bg-alt); color: var(--fg-muted); border: 1px solid var(--border); border-radius: 10px; padding: 1px 7px; white-space: nowrap; }
 /* ── Correction Policy ───────────────────────────────────────────────────── */
 .correction-policy { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; margin-top: 28px; font-size: .83rem; line-height: 1.7; color: var(--fg-muted); }
 .correction-policy h4 { font-size: .85rem; font-weight: 700; color: var(--fg); margin: 0 0 8px; }
@@ -1132,7 +1142,7 @@ footer {
       <div class="dtree-row">
         <div class="dtree-question"><strong>Ask yourself</strong> Is someone in immediate danger or is this a safeguarding emergency?</div>
         <div class="dtree-arrow">→</div>
-        <div class="dtree-dest">🆘 Get Help Now<br><span style="font-weight:400;font-size:.78rem;">Call 999 (MY) or local emergency services</span></div>
+        <div class="dtree-dest">🆘 Get Help Now<br><span style="font-weight:400;font-size:.78rem;">Call 999 (Malaysia) or your local emergency services</span></div>
       </div>
     </div>
 
@@ -1418,11 +1428,12 @@ footer {
     <!-- Safety triage -->
     <div class="triage-box">
       <h4>⚠ Before you proceed — check your situation</h4>
+      <p style="font-size:.78rem;color:#92400e;margin-bottom:10px;line-height:1.55;"><strong>Location matters.</strong> Emergency numbers, child-protection obligations, reporting channels, and legal procedures differ by country. The contact details below include <strong>Malaysian services</strong>. If you are in another country, please contact your local emergency services or relevant safeguarding authority — do not rely solely on the numbers listed here.</p>
       <div class="triage-grid">
         <div class="triage-item">
           <div class="ti-label">🚨 Immediate danger</div>
-          <strong>Call 999 now</strong>
-          If you or someone else is in immediate physical danger, do not wait — contact emergency services first.
+          <strong>Call emergency services now</strong>
+          If you or someone else is in immediate physical danger, do not wait. In Malaysia: call <strong>999</strong>. In other countries: call your local emergency number.
         </div>
         <div class="triage-item">
           <div class="ti-label">👶 Child or youth at risk</div>
@@ -1437,7 +1448,7 @@ footer {
         <div class="triage-item">
           <div class="ti-label">💬 In crisis now</div>
           <strong>Befrienders KL: 03-7627 2929</strong>
-          Emotional support, free and confidential. Available daily 24 hours.
+          Emotional support, free and confidential. Available daily 24 hours. <em>(Malaysia only — if you are elsewhere, search for a local crisis line.)</em>
         </div>
       </div>
     </div>
@@ -1725,7 +1736,7 @@ footer {
 
     <nav class="tab-toc" aria-label="Jump to section">
       <a href="#cases-individual">Individual named cases</a>
-      <a href="#cases-category">By offence category</a>
+      <a href="#cases-category">Browse by theme</a>
       <a href="#cases-regional">Regional coverage</a>
     </nav>
 
@@ -1754,7 +1765,7 @@ footer {
     <div class="case-list" id="case-list">
 
       <!-- Seth Sung Kim / HMCC -->
-      <div class="case-item" data-badge="institutional" data-cat="sexual-misconduct">
+      <div class="case-item" id="case-seth-kim" data-badge="institutional" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Seth Sung Kim &mdash; Harvest Mission Community Church</h4>
@@ -1776,7 +1787,7 @@ footer {
       </div>
 
       <!-- Denis Roy / Brownsburg Vineyard -->
-      <div class="case-item" data-badge="independent" data-cat="sexual-misconduct">
+      <div class="case-item" id="case-denis-roy" data-badge="independent" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability safeguarding-harm">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Denis Roy &mdash; Brownsburg Vineyard Church</h4>
@@ -1797,7 +1808,7 @@ footer {
       </div>
 
       <!-- Daniel Meyer / Vineyard Delaware County -->
-      <div class="case-item" data-badge="civil" data-cat="sexual-misconduct">
+      <div class="case-item" id="case-daniel-meyer" data-badge="civil" data-cat="sexual-misconduct" data-theme="sexual-abuse safeguarding-harm">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Daniel Meyer &mdash; Vineyard Church Delaware County</h4>
@@ -1818,7 +1829,7 @@ footer {
       </div>
 
       <!-- John-Paul Miller / Mica Miller -->
-      <div class="case-item" data-badge="criminal" data-cat="coercive-control">
+      <div class="case-item" id="case-jp-miller" data-badge="criminal" data-cat="coercive-control" data-theme="spiritual-abuse-control safeguarding-harm">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">John-Paul Miller &mdash; Solid Rock Church</h4>
@@ -1840,7 +1851,7 @@ footer {
       </div>
 
       <!-- Mike Bickle / IHOPKC -->
-      <div class="case-item" data-badge="independent" data-cat="sexual-misconduct">
+      <div class="case-item" id="case-mike-bickle" data-badge="independent" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability safeguarding-harm">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Mike Bickle &mdash; International House of Prayer Kansas City (IHOPKC)</h4>
@@ -1861,7 +1872,7 @@ footer {
       </div>
 
       <!-- Robert Morris / Gateway Church -->
-      <div class="case-item" data-badge="institutional" data-cat="sexual-misconduct">
+      <div class="case-item" id="case-robert-morris" data-badge="institutional" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability safeguarding-harm">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Robert Morris &mdash; Gateway Church</h4>
@@ -1872,7 +1883,7 @@ footer {
           </div>
         </div>
         <div class="case-item-body">
-          <p>Robert Morris, founder and long-serving lead pastor of Gateway Church (Southlake, Texas), resigned in June 2024 after survivor Cindy Clemishire publicly disclosed that Morris had sexually abused her beginning when she was 12 years old in 1982. A subsequent church investigation found that four elders had prior knowledge of the allegations and failed to act. Further survivors subsequently came forward.</p>
+          <p>Robert Morris, founder and long-serving lead pastor of Gateway Church (Southlake, Texas), resigned in June 2024 after survivor Cindy Clemishire publicly disclosed allegations that Morris had sexually abused her beginning when she was 12 years old in 1982. A subsequent church investigation found that four elders had prior knowledge of the allegations and failed to act. Further survivors subsequently came forward with additional disclosures.</p>
           <p class="case-item-meta"><strong>Institutional response:</strong> Morris resigned; four elders removed; independent review commissioned; Gateway issued a public apology to survivors. &nbsp;|&nbsp; <strong>Last verified:</strong> Jun 2024</p>
           <ul class="case-item-sources">
             <li><a href="https://roysreport.com/category/gateway-church/" target="_blank" rel="noopener">The Roys Report: Gateway Church coverage</a></li>
@@ -1882,7 +1893,7 @@ footer {
       </div>
 
       <!-- Mike Pilavachi / Soul Survivor -->
-      <div class="case-item" data-badge="institutional" data-cat="spiritual-abuse">
+      <div class="case-item" id="case-mike-pilavachi" data-badge="institutional" data-cat="spiritual-abuse" data-theme="spiritual-abuse-control safeguarding-harm institutional-accountability">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Mike Pilavachi &mdash; Soul Survivor</h4>
@@ -1904,7 +1915,7 @@ footer {
       </div>
 
       <!-- Bill Hybels / Willow Creek -->
-      <div class="case-item" data-badge="institutional historical" data-cat="sexual-misconduct">
+      <div class="case-item" id="case-bill-hybels" data-badge="institutional historical" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability safeguarding-harm">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Bill Hybels &mdash; Willow Creek Community Church</h4>
@@ -1925,7 +1936,7 @@ footer {
       </div>
 
       <!-- Ravi Zacharias / RZIM -->
-      <div class="case-item" data-badge="independent historical" data-cat="sexual-misconduct">
+      <div class="case-item" id="case-ravi-zacharias" data-badge="independent historical" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability safeguarding-harm">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Ravi Zacharias &mdash; RZIM</h4>
@@ -1948,71 +1959,65 @@ footer {
 
     </div><!-- /case-list -->
 
-    <!-- Category cards -->
-    <h3 id="cases-category" class="sec-sub" style="margin-bottom:1rem; scroll-margin-top: 68px;">Cases by Offence Category</h3>
-    <div class="cards">
+    <!-- Category index -->
+    <h3 id="cases-category" class="sec-sub" style="margin-bottom:.5rem; scroll-margin-top: 68px;">Browse Cases by Misconduct and Safeguarding Theme</h3>
+    <p style="font-size:.83rem;color:var(--fg-muted);line-height:1.65;margin-bottom:1.25rem;">Explore the documented cases by the themes they address. Categories describe the subject matter covered in published reporting and documents; they do not, by themselves, establish criminal guilt. A case may appear under more than one theme. Evidence status and sources are shown in each individual entry above.</p>
 
-      <div class="card">
-        <div style="font-size:1.5rem;margin-bottom:.5rem;">⚠️</div>
-        <h4>Sexual Abuse &amp; Assault</h4>
-        <p>The most widely documented category globally. Cases range from assault of adult congregants to child sexual abuse (CSA) carried out by clergy, youth workers, and mission leaders. Enabling structures — NDAs, pastoral cover, "forgiveness" pressure — are a recurring pattern.</p>
-        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
-          <li><a href="https://www.reuters.com/investigates/special-report/usa-southernbaptist/" target="_blank" rel="noopener">Reuters: Southern Baptist sexual abuse investigation (US)</a></li>
-          <li><a href="https://apnews.com/hub/church-abuse" target="_blank" rel="noopener">AP News: Church Abuse hub — ongoing coverage</a></li>
-          <li><a href="https://www.christianitytoday.com/ct/topics/s/sexual-abuse/" target="_blank" rel="noopener">Christianity Today: Sexual Abuse topic archive</a></li>
-          <li><a href="https://www.bbc.co.uk/news/topics/c77jz3mdxpyt/church-abuse" target="_blank" rel="noopener">BBC: Church Abuse coverage</a></li>
-          <li><a href="https://thewartburgwatch.com/category/sexual-abuse/" target="_blank" rel="noopener">The Wartburg Watch: Sexual Abuse category</a></li>
-          <li><a href="https://roysreport.com/category/sexual-abuse/" target="_blank" rel="noopener">The Roys Report: Sexual Abuse investigations</a></li>
+    <div class="case-theme-index" role="list" aria-label="Browse cases by theme">
+
+      <div class="theme-block" role="listitem">
+        <div class="theme-label">Sexual Abuse and Misconduct</div>
+        <p class="theme-desc">Cases involving documented allegations, investigations, or findings related to sexual misconduct, sexual abuse, or inappropriate sexual conduct by those in positions of spiritual authority. Does not imply a criminal conviction unless stated in the case entry.</p>
+        <ul class="theme-case-list">
+          <li><a href="#case-seth-kim">Seth Sung Kim — Harvest Mission Community Church</a> <span class="theme-badge">Institutional finding</span></li>
+          <li><a href="#case-denis-roy">Denis Roy — Brownsburg Vineyard Church</a> <span class="theme-badge">Independent investigation</span></li>
+          <li><a href="#case-daniel-meyer">Daniel Meyer — Vineyard Church Delaware County</a> <span class="theme-badge">Civil lawsuit pending</span></li>
+          <li><a href="#case-mike-bickle">Mike Bickle — IHOPKC</a> <span class="theme-badge">Independent investigation</span></li>
+          <li><a href="#case-robert-morris">Robert Morris — Gateway Church</a> <span class="theme-badge">Institutional finding</span></li>
+          <li><a href="#case-bill-hybels">Bill Hybels — Willow Creek Community Church</a> <span class="theme-badge">Institutional finding · Historical</span></li>
+          <li><a href="#case-ravi-zacharias">Ravi Zacharias — RZIM</a> <span class="theme-badge">Independent investigation · Historical</span></li>
         </ul>
       </div>
 
-      <div class="card">
-        <div style="font-size:1.5rem;margin-bottom:.5rem;">💰</div>
-        <h4>Financial Fraud &amp; Exploitation</h4>
-        <p>Misappropriation of tithes, offerings, and building funds; fraudulent investment schemes; undisclosed personal enrichment. Court convictions in this category are relatively common because financial crimes leave documentary evidence.</p>
-        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
-          <li><a href="https://religionnews.com/tag/money/" target="_blank" rel="noopener">Religion News Service: Money &amp; Ministry tag</a></li>
-          <li><a href="https://www.christianitytoday.com/ct/topics/f/finances/" target="_blank" rel="noopener">Christianity Today: Finances archive</a></li>
-          <li><a href="https://ministrywatch.com/category/news/" target="_blank" rel="noopener">MinistryWatch: Ministry accountability news</a></li>
-          <li><a href="https://roysreport.com/category/fraud-and-financial/" target="_blank" rel="noopener">The Roys Report: Fraud &amp; Financial investigations</a></li>
-          <li><a href="https://www.propublica.org/series/gospel-of-prosperity" target="_blank" rel="noopener">ProPublica: Gospel of Prosperity investigative series</a></li>
+      <div class="theme-block" role="listitem">
+        <div class="theme-label">Spiritual Abuse and Coercive Control</div>
+        <p class="theme-desc">Cases where published reporting or official findings describe documented patterns of spiritual authority being used to coerce, control, isolate, intimidate, or exploit. Does not constitute a diagnosis of any individual.</p>
+        <ul class="theme-case-list">
+          <li><a href="#case-jp-miller">John-Paul Miller — Solid Rock Church</a> <span class="theme-badge">Criminal charges pending</span></li>
+          <li><a href="#case-mike-pilavachi">Mike Pilavachi — Soul Survivor</a> <span class="theme-badge">Institutional finding (Church of England)</span></li>
         </ul>
       </div>
 
-      <div class="card">
-        <div style="font-size:1.5rem;margin-bottom:.5rem;">⚖️</div>
-        <h4>Trafficking &amp; Forced Labour</h4>
-        <p>A smaller but serious documented category: mission organisations or church networks implicated in labour trafficking (domestic workers, overseas "volunteers"), and cases of sexual trafficking enabled by religious authority. ECPAT and IJM have documented Asia-Pacific cases.</p>
-        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
-          <li><a href="https://www.ijm.org/our-work/trafficking" target="_blank" rel="noopener">International Justice Mission: Trafficking work</a></li>
-          <li><a href="https://religionnews.com/tag/human-trafficking/" target="_blank" rel="noopener">Religion News Service: Human Trafficking tag</a></li>
-          <li><a href="https://apnews.com/hub/human-trafficking" target="_blank" rel="noopener">AP News: Human Trafficking hub</a></li>
+      <div class="theme-block" role="listitem">
+        <div class="theme-label">Institutional Failures and Accountability</div>
+        <p class="theme-desc">Cases where reporting or official findings address an organisation's response — or failure to respond — to known concerns. Includes cases where leadership received prior reports and failed to act.</p>
+        <ul class="theme-case-list">
+          <li><a href="#case-seth-kim">Seth Sung Kim — Harvest Mission Community Church</a> <span class="theme-badge">Institutional finding</span></li>
+          <li><a href="#case-denis-roy">Denis Roy — Brownsburg Vineyard Church</a> <span class="theme-badge">Independent investigation</span></li>
+          <li><a href="#case-mike-bickle">Mike Bickle — IHOPKC</a> <span class="theme-badge">Independent investigation</span></li>
+          <li><a href="#case-robert-morris">Robert Morris — Gateway Church</a> <span class="theme-badge">Institutional finding</span></li>
+          <li><a href="#case-mike-pilavachi">Mike Pilavachi — Soul Survivor</a> <span class="theme-badge">Institutional finding (Church of England)</span></li>
+          <li><a href="#case-bill-hybels">Bill Hybels — Willow Creek Community Church</a> <span class="theme-badge">Institutional finding · Historical</span></li>
+          <li><a href="#case-ravi-zacharias">Ravi Zacharias — RZIM</a> <span class="theme-badge">Independent investigation · Historical</span></li>
         </ul>
       </div>
 
-      <div class="card">
-        <div style="font-size:1.5rem;margin-bottom:.5rem;">✝️</div>
-        <h4>Deaths &amp; Criminal Negligence</h4>
-        <p>Includes cases where religious practices directly caused death (faith-healing denial of medical care, cult-related violence, missions accidents covered up) and negligent oversight where foreseeable harm was ignored. Some cases involve manslaughter or homicide convictions.</p>
-        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
-          <li><a href="https://www.theguardian.com/world/religion" target="_blank" rel="noopener">The Guardian: Religion section — international coverage</a></li>
-          <li><a href="https://religionnews.com/" target="_blank" rel="noopener">Religion News Service — wire service covering these cases globally</a></li>
-          <li><a href="https://apnews.com/hub/religion" target="_blank" rel="noopener">AP News: Religion hub</a></li>
+      <div class="theme-block" role="listitem">
+        <div class="theme-label">Safeguarding Failures and Harm</div>
+        <p class="theme-desc">Cases where a matter materially concerns safeguarding systems, safeguarding failures, or documented harm — particularly where vulnerable people were placed at risk by structures or decisions within the organisation.</p>
+        <ul class="theme-case-list">
+          <li><a href="#case-denis-roy">Denis Roy — Brownsburg Vineyard Church</a> <span class="theme-badge">Independent investigation</span></li>
+          <li><a href="#case-daniel-meyer">Daniel Meyer — Vineyard Church Delaware County</a> <span class="theme-badge">Civil lawsuit pending</span></li>
+          <li><a href="#case-jp-miller">John-Paul Miller — Solid Rock Church</a> <span class="theme-badge">Criminal charges pending</span></li>
+          <li><a href="#case-mike-bickle">Mike Bickle — IHOPKC</a> <span class="theme-badge">Independent investigation</span></li>
+          <li><a href="#case-robert-morris">Robert Morris — Gateway Church</a> <span class="theme-badge">Institutional finding</span></li>
+          <li><a href="#case-mike-pilavachi">Mike Pilavachi — Soul Survivor</a> <span class="theme-badge">Institutional finding (Church of England)</span></li>
+          <li><a href="#case-bill-hybels">Bill Hybels — Willow Creek Community Church</a> <span class="theme-badge">Institutional finding · Historical</span></li>
+          <li><a href="#case-ravi-zacharias">Ravi Zacharias — RZIM</a> <span class="theme-badge">Independent investigation · Historical</span></li>
         </ul>
       </div>
 
-      <div class="card">
-        <div style="font-size:1.5rem;margin-bottom:.5rem;">🔒</div>
-        <h4>Coercive Control &amp; Misconduct</h4>
-        <p>Extramarital affairs by senior leaders covered up institutionally; sexual misconduct between leaders and congregants (where genuine consent is complicated by spiritual authority); and coercive control patterns including isolating members from family, controlling finances, and punishing dissent.</p>
-        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
-          <li><a href="https://www.christianitytoday.com/ct/topics/p/pastoral-misconduct/" target="_blank" rel="noopener">Christianity Today: Pastoral Misconduct archive</a></li>
-          <li><a href="https://thewartburgwatch.com/category/church-discipline-abuse/" target="_blank" rel="noopener">The Wartburg Watch: Church Discipline Abuse</a></li>
-          <li><a href="https://roysreport.com/category/spiritual-abuse/" target="_blank" rel="noopener">The Roys Report: Spiritual Abuse &amp; Misconduct</a></li>
-        </ul>
-      </div>
-
-    </div><!-- /cards -->
+    </div><!-- /case-theme-index -->
 
     <!-- Regional journalism -->
     <h3 id="cases-regional" class="sec-sub" style="margin-top:2.5rem;margin-bottom:1rem; scroll-margin-top: 68px;">Regional Coverage</h3>
@@ -2062,7 +2067,7 @@ footer {
         <li><strong>Historical reporting</strong> — the primary investigation or reporting occurred some years ago; see individual entries for current status</li>
       </ul>
       <p style="margin-top:.75rem;font-size:.85rem;"><strong>Allegation</strong> — reported by journalism or named in a lawsuit; not a finding of guilt. <strong>Conviction</strong> — found guilty in a court of law; a matter of public record. <strong>Settlement</strong> — financial settlement, which may or may not include admission of wrongdoing.</p>
-      <p style="margin-top:.5rem;font-size:.85rem;">This site does not independently verify, rate, or list individual churches, leaders, or pastors. All linked journalism has been produced by independent editorial organisations and is their responsibility.</p>
+      <p style="margin-top:.5rem;font-size:.85rem;"><strong>Editorial scope and limitations:</strong> Guard the Flock is an educational resource that summarises selected cases using published journalism, official records, institutional statements, and investigation reports. We aim to represent the available evidence fairly, distinguish allegations from established findings, and link to relevant sources. We do not conduct independent investigations, determine guilt, or provide legal findings. Inclusion in the case library does not, by itself, establish wrongdoing. Readers should consult the original sources and consider the evidence status, limitations, and subsequent developments described in each entry. All linked journalism has been produced by independent editorial organisations and is their responsibility.</p>
     </div>
 
     <div class="correction-policy">
@@ -2093,6 +2098,7 @@ footer {
     <nav class="tab-toc" aria-label="Jump to section">
       <a href="#study-bible">Five-session Bible study</a>
       <a href="#study-resources">Books, organisations &amp; sites</a>
+      <a href="#study-reporting">Reporting &amp; research resources</a>
     </nav>
     <h3 id="study-bible" class="sec-sub" style="font-size:1.25rem;margin-bottom:10px; scroll-margin-top: 68px;">Tested by the Word — Five-Session Bible Study</h3>
     <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:8px;">A complete Bible study series for cell groups, home groups, and small groups. Each session is 45–60 minutes and follows the same rhythm: Context → Icebreaker → Main passages → Discussion breakouts → Closing application. No prior theological training required.</p>
@@ -2289,7 +2295,7 @@ footer {
         </div>
         <div class="study-block">
           <h5>Safety Principle</h5>
-          <div class="banner" style="font-size:.82rem;margin:0;">No Bible passage should be used to require someone to remain in danger, conceal abuse, destroy evidence, or submit to unlawful or abusive demands. Immediate safety and appropriate independent support take priority.</div>
+          <div class="banner" style="font-size:.82rem;margin:0;">Accountability must protect people, not merely preserve order. When concerns involve abuse, threats, coercion, or possible criminal conduct, immediate safety and appropriate independent reporting take priority. Do not require private confrontation or an internal church process before someone can seek protection or contact civil authorities.<br><br>No Bible passage should be used to require someone to remain in danger, conceal abuse, destroy evidence, or submit to unlawful or abusive demands.</div>
         </div>
         <div class="study-block">
           <h5>Icebreaker (4 min)</h5>
@@ -2638,7 +2644,7 @@ footer {
       <a href="#leaders-top" onclick="document.querySelector('[data-tab=leaders]').click();return false;">For Leaders</a>
     </div>
     <p>Guard the Flock &middot; A public educational resource &middot; Content compiled from published books, established organisations, and verified journalism.</p>
-    <p style="margin-top: 4px;">This site does not identify, rate, or list individual churches, leaders, or pastors.</p>
+    <p style="margin-top: 4px;">Guard the Flock summarises selected cases from published sources. It does not conduct independent investigations, determine guilt, or provide legal findings. Inclusion in any case entry does not, by itself, establish wrongdoing.</p>
   </footer>
 
 </div>
