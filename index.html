@@ -678,6 +678,19 @@ a:hover { color: var(--accent); }
   .pw-row { grid-template-columns: 32px 1fr; }
   .pw-prompt { grid-column: 2; }
 }
+/* ── Case Filter Bar ─────────────────────────────────────────────────────── */
+.case-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px; align-items: center; }
+.case-filter-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--fg-muted); margin-right: 4px; }
+.case-filter-btn { font-size: .75rem; font-weight: 600; padding: 5px 12px; border-radius: 20px; border: 1px solid var(--border); background: var(--surface); color: var(--fg-muted); cursor: pointer; transition: background .15s, border-color .15s, color .15s; white-space: nowrap; }
+.case-filter-btn:hover { border-color: var(--accent); color: var(--fg); }
+.case-filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.case-filter-btn[data-filter="all"].active { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+.case-count-badge { font-size: .75rem; color: var(--fg-muted); margin-left: auto; padding: 4px 10px; background: var(--surface); border: 1px solid var(--border); border-radius: 20px; }
+.case-item[data-hidden="true"] { display: none; }
+/* ── Correction Policy ───────────────────────────────────────────────────── */
+.correction-policy { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; margin-top: 28px; font-size: .83rem; line-height: 1.7; color: var(--fg-muted); }
+.correction-policy h4 { font-size: .85rem; font-weight: 700; color: var(--fg); margin: 0 0 8px; }
+.correction-policy a { color: var(--accent); text-decoration: none; }
 /* ── Safety Triage ───────────────────────────────────────────────────────── */
 .triage-box { background: #fff8f0; border: 2px solid #f59e0b; border-radius: 12px; padding: 20px 22px; margin-bottom: 28px; }
 @media (prefers-color-scheme: dark) { .triage-box { background: #2d1f00; border-color: #d97706; } }
@@ -1712,10 +1725,22 @@ footer {
     <h3 id="cases-individual" class="sec-sub" style="margin-bottom:.5rem; scroll-margin-top: 68px;">Individual Named Cases</h3>
     <p style="font-size:.88rem;color:var(--fg-muted);margin-bottom:1.5rem;">Specific cases drawn from independent journalism and official investigations, most recent first. Each carries an evidence status label — see the FAQ (linked in the footer) for what these mean. An allegation is not a finding; a civil lawsuit is not a conviction; an institutional report is not a criminal charge.</p>
 
-    <div class="case-list">
+    <!-- Filter bar -->
+    <div class="case-filter-bar" id="case-filter-bar">
+      <span class="case-filter-label">Filter:</span>
+      <button class="case-filter-btn active" data-filter="all">All cases</button>
+      <button class="case-filter-btn" data-filter="independent">Independent investigation</button>
+      <button class="case-filter-btn" data-filter="institutional">Institutional finding</button>
+      <button class="case-filter-btn" data-filter="criminal">Criminal charges</button>
+      <button class="case-filter-btn" data-filter="civil">Civil lawsuit</button>
+      <button class="case-filter-btn" data-filter="historical">Historical</button>
+      <span class="case-count-badge" id="case-count">10 cases</span>
+    </div>
+
+    <div class="case-list" id="case-list">
 
       <!-- Seth Sung Kim / HMCC -->
-      <div class="case-item">
+      <div class="case-item" data-badge="institutional" data-cat="sexual-misconduct">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Seth Sung Kim &mdash; Harvest Mission Community Church</h4>
@@ -1737,7 +1762,7 @@ footer {
       </div>
 
       <!-- Denis Roy / Brownsburg Vineyard -->
-      <div class="case-item">
+      <div class="case-item" data-badge="independent" data-cat="sexual-misconduct">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Denis Roy &mdash; Brownsburg Vineyard Church</h4>
@@ -1758,7 +1783,7 @@ footer {
       </div>
 
       <!-- Daniel Meyer / Vineyard Delaware County -->
-      <div class="case-item">
+      <div class="case-item" data-badge="civil" data-cat="sexual-misconduct">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Daniel Meyer &mdash; Vineyard Church Delaware County</h4>
@@ -1779,7 +1804,7 @@ footer {
       </div>
 
       <!-- John-Paul Miller / Mica Miller -->
-      <div class="case-item">
+      <div class="case-item" data-badge="criminal" data-cat="coercive-control">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">John-Paul Miller &mdash; Solid Rock Church</h4>
@@ -1801,7 +1826,7 @@ footer {
       </div>
 
       <!-- Mike Bickle / IHOPKC -->
-      <div class="case-item">
+      <div class="case-item" data-badge="independent" data-cat="sexual-misconduct">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Mike Bickle &mdash; International House of Prayer Kansas City (IHOPKC)</h4>
@@ -1822,7 +1847,7 @@ footer {
       </div>
 
       <!-- Robert Morris / Gateway Church -->
-      <div class="case-item">
+      <div class="case-item" data-badge="institutional" data-cat="sexual-misconduct">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Robert Morris &mdash; Gateway Church</h4>
@@ -1843,7 +1868,7 @@ footer {
       </div>
 
       <!-- Mike Pilavachi / Soul Survivor -->
-      <div class="case-item">
+      <div class="case-item" data-badge="institutional" data-cat="spiritual-abuse">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Mike Pilavachi &mdash; Soul Survivor</h4>
@@ -1865,7 +1890,7 @@ footer {
       </div>
 
       <!-- Bill Hybels / Willow Creek -->
-      <div class="case-item">
+      <div class="case-item" data-badge="institutional historical" data-cat="sexual-misconduct">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Bill Hybels &mdash; Willow Creek Community Church</h4>
@@ -1886,7 +1911,7 @@ footer {
       </div>
 
       <!-- Ravi Zacharias / RZIM -->
-      <div class="case-item">
+      <div class="case-item" data-badge="independent historical" data-cat="sexual-misconduct">
         <div class="case-item-header">
           <div>
             <h4 class="case-item-name">Ravi Zacharias &mdash; RZIM</h4>
@@ -2024,6 +2049,13 @@ footer {
       </ul>
       <p style="margin-top:.75rem;font-size:.85rem;"><strong>Allegation</strong> — reported by journalism or named in a lawsuit; not a finding of guilt. <strong>Conviction</strong> — found guilty in a court of law; a matter of public record. <strong>Settlement</strong> — financial settlement, which may or may not include admission of wrongdoing.</p>
       <p style="margin-top:.5rem;font-size:.85rem;">This site does not independently verify, rate, or list individual churches, leaders, or pastors. All linked journalism has been produced by independent editorial organisations and is their responsibility.</p>
+    </div>
+
+    <div class="correction-policy">
+      <h4>Review &amp; correction policy</h4>
+      <p>
+        Case entries are reviewed when a significant development is reported in primary sources (court verdicts, official investigation releases, public institutional statements). We do not remove cases because a subject disputes the record — we add updates. If you believe an entry contains a factual error or that a case status has materially changed, you can raise it by opening an issue on the <a href="https://github.com/guardflock/guardtheflock/issues" target="_blank" rel="noopener">GitHub repository</a>. Please include a link to a primary or independent editorial source. We do not accept corrections based on personal statements from the subject of the case.
+      </p>
     </div>
 
   </section>
@@ -2594,6 +2626,40 @@ footer {
         if (t) t.click();
       }
     } catch(e) {}
+  })();
+
+  // ── Case library filter ──────────────────────────────────────────────────
+  (function() {
+    var bar = document.getElementById('case-filter-bar');
+    var list = document.getElementById('case-list');
+    var countBadge = document.getElementById('case-count');
+    if (!bar || !list) return;
+    var cards = Array.from(list.querySelectorAll('.case-item'));
+    var total = cards.length;
+    countBadge.textContent = total + ' case' + (total !== 1 ? 's' : '');
+
+    bar.addEventListener('click', function(e) {
+      var btn = e.target.closest('.case-filter-btn');
+      if (!btn) return;
+      var filter = btn.getAttribute('data-filter');
+
+      // Toggle active state
+      Array.from(bar.querySelectorAll('.case-filter-btn')).forEach(function(b) {
+        b.classList.remove('active');
+      });
+      btn.classList.add('active');
+
+      // Show / hide case cards
+      var shown = 0;
+      cards.forEach(function(card) {
+        var badges = (card.getAttribute('data-badge') || '').split(' ');
+        var visible = filter === 'all' || badges.indexOf(filter) !== -1;
+        card.setAttribute('data-hidden', visible ? 'false' : 'true');
+        if (visible) shown++;
+      });
+      countBadge.textContent = shown + ' case' + (shown !== 1 ? 's' : '') +
+        (filter !== 'all' ? ' matching' : '');
+    });
   })();
 
   // ── Latest News RSS feed loader ──────────────────────────────────────────
