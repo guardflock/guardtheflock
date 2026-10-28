@@ -761,11 +761,21 @@ a:hover { color: var(--accent); }
 
 /* ── Footer ──────────────────────────────────────────────────────────────── */
 footer {
-  padding-block: 32px 40px;
+  padding-block: 48px 48px;
   font-size: 0.8rem;
   color: var(--fg-muted);
   text-align: center;
 }
+.footer-contact { max-width: 540px; margin: 0 auto 28px; text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px 24px; }
+.footer-contact h3 { font-size: .85rem; font-weight: 700; color: var(--fg); margin: 0 0 8px; }
+.footer-contact p { font-size: .8rem; line-height: 1.7; margin: 0 0 10px; color: var(--fg-muted); }
+.footer-contact p:last-child { margin: 0; }
+.footer-contact a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.footer-contact a:hover { text-decoration: underline; }
+.footer-contact .privacy-note { font-size: .75rem; color: var(--fg-muted); border-top: 1px solid var(--border); margin-top: 14px; padding-top: 12px; line-height: 1.65; }
+.footer-links { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+.footer-links a { color: var(--fg-muted); text-decoration: none; }
+.footer-links a:hover { color: var(--accent); }
 
 /* ── Responsive ──────────────────────────────────────────────────────────── */
 @media (max-width: 500px) {
@@ -2058,7 +2068,18 @@ footer {
     <div class="correction-policy">
       <h4>Review &amp; correction policy</h4>
       <p>
-        Case entries are reviewed when a significant development is reported in primary sources (court verdicts, official investigation releases, public institutional statements). We do not remove cases because a subject disputes the record — we add updates. If you believe an entry contains a factual error or that a case status has materially changed, you can raise it by opening an issue on the <a href="https://github.com/guardflock/guardtheflock/issues" target="_blank" rel="noopener">GitHub repository</a>. Please include a link to a primary or independent editorial source. We do not accept corrections based on personal statements from the subject of the case.
+        Case entries are reviewed when a significant development is reported in primary sources (court verdicts, official investigation releases, public institutional statements). We do not remove cases because a subject disputes the record — we add updates. If you believe an entry contains a factual error or that a case status has materially changed, please email <a href="mailto:guardtheflock@proton.me">guardtheflock@proton.me</a>. Please include a link to a primary or independent editorial source. We do not accept corrections based on personal statements from the subject of the case.
+      </p>
+    </div>
+
+    <div class="correction-policy" style="margin-top: 16px;">
+      <h4>Corrections, Responses &amp; Additional Evidence</h4>
+      <p>Accuracy, fairness, and accountability matter. If you believe a case summary contains an error, have relevant additional information, or wish to share a response or reliable supporting source, please contact us at <a href="mailto:guardtheflock@proton.me">guardtheflock@proton.me</a>.</p>
+      <p style="margin-top: 8px;">Please identify the specific case and the information concerned. Where possible, include links to relevant public sources so that we can assess the information fairly.</p>
+      <p style="margin-top: 8px;">We aim to distinguish allegations, reported claims, investigative findings, institutional findings, civil proceedings, criminal charges, convictions, acquittals, and unresolved matters accurately.</p>
+      <p style="margin-top: 8px;">We will review substantiated corrections and make appropriate amendments where warranted. A person's or organisation's response will be considered fairly, while a denial alone does not automatically override well-supported evidence. Inclusion in this resource does not, by itself, establish wrongdoing.</p>
+      <p style="margin-top: 10px; font-size: .78rem; color: var(--fg-muted); border-top: 1px solid var(--border); padding-top: 10px;">
+        <strong>A note about correspondence:</strong> Please avoid sending sensitive personal information or private documents unless they are necessary to explain your enquiry. Do not assume that correspondence is confidential or that an immediate response is possible. This email address is not an emergency reporting service. If you or someone else is in immediate danger, contact your local emergency services or appropriate safeguarding authorities.
       </p>
     </div>
 
@@ -2574,17 +2595,50 @@ footer {
         <div class="faq-a">
           <p>The Documented Cases section exists to help readers recognise patterns, not to maintain a list of disgraced people. Each named case was selected because it illustrates one or more recurring dynamics — how spiritual authority can be misused, how institutions handle (or fail to handle) complaints, and what independent accountability looks like in practice.</p>
           <p style="margin-top:.75rem;">All named cases link to published journalism or official investigation reports from independent editorial organisations. This site does not make its own investigative findings. Where a case involves pending charges or unresolved civil litigation, that is stated clearly in the entry. Where the accused person has responded publicly, that response is reflected.</p>
-          <p style="margin-top:.75rem;">If a significant new outcome changes a case's status — a verdict, an appeal outcome, a settled lawsuit, a new investigation — the relevant entry will be updated. Verified corrections can be sent via the contact details in the repository.</p>
+          <p style="margin-top:.75rem;">If a significant new outcome changes a case's status — a verdict, an appeal outcome, a settled lawsuit, a new investigation — the relevant entry will be updated. Verified corrections can be sent to <a href="mailto:guardtheflock@proton.me" style="color:var(--accent);">guardtheflock@proton.me</a>.</p>
         </div>
       </div>
 
     </div>
   </section>
 
+  <!-- ── Get in Touch ─────────────────────────────────────────────────────── -->
+  <section class="faq-standalone" aria-label="Get in Touch">
+    <p class="eyebrow">Get in touch</p>
+    <h2>Correspondence &amp; Contributions</h2>
+    <div class="correction-policy">
+      <h4>Get in Touch</h4>
+      <p>Guard the Flock is committed to helping people think carefully about spiritual abuse, safeguarding, church leadership, accountability, and biblical discernment.</p>
+      <p style="margin-top: 8px;">We welcome:</p>
+      <ul style="margin: 8px 0 8px 20px; line-height: 1.8; font-size: .83rem; color: var(--fg-muted);">
+        <li>Corrections or updates to documented cases, supported by primary sources</li>
+        <li>Responses from individuals or organisations named in case entries</li>
+        <li>Relevant books, articles, organisations, or research that would strengthen the resource</li>
+        <li>Feedback on the usefulness, clarity, or accuracy of any section</li>
+        <li>Suggestions for topics, patterns, or dynamics not yet covered</li>
+      </ul>
+      <p style="margin-top: 8px;">Please email <a href="mailto:guardtheflock@proton.me">guardtheflock@proton.me</a>. We appreciate your patience, as we may not be able to respond to every message individually.</p>
+      <p style="margin-top: 10px; font-size: .78rem; color: var(--fg-muted); border-top: 1px solid var(--border); padding-top: 10px;">
+        <strong>A note about correspondence:</strong> Please avoid sending sensitive personal information or private documents unless they are necessary to explain your enquiry. Do not assume that correspondence is confidential or that an immediate response is possible. This email address is not an emergency reporting service. If you or someone else is in immediate danger, contact your local emergency services or appropriate safeguarding authorities.
+      </p>
+    </div>
+  </section>
+
   <footer>
+    <div class="footer-contact">
+      <h3>Contact Guard the Flock</h3>
+      <p>Have a question, suggestion, correction, or resource to share? We welcome thoughtful correspondence that helps us improve the accuracy, usefulness, and integrity of this resource.</p>
+      <p>Email us at <a href="mailto:guardtheflock@proton.me">guardtheflock@proton.me</a></p>
+      <p>Please note that Guard the Flock is an educational resource, not an emergency service or a provider of legal, clinical, or counselling advice. Emails may not be monitored continuously.</p>
+      <p class="privacy-note"><strong>A note about correspondence:</strong> Please avoid sending sensitive personal information or private documents unless they are necessary to explain your enquiry. Do not assume that correspondence is confidential or that an immediate response is possible. This email address is not an emergency reporting service. If you or someone else is in immediate danger, contact your local emergency services or appropriate safeguarding authorities.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#faq-anchor">FAQ</a>
+      <a href="#cases-top" onclick="document.querySelector('[data-tab=cases]').click();return false;">Documented Cases</a>
+      <a href="#leaders-top" onclick="document.querySelector('[data-tab=leaders]').click();return false;">For Leaders</a>
+    </div>
     <p>Guard the Flock &middot; A public educational resource &middot; Content compiled from published books, established organisations, and verified journalism.</p>
     <p style="margin-top: 4px;">This site does not identify, rate, or list individual churches, leaders, or pastors.</p>
-    <p style="margin-top: 8px; font-size: 0.85rem;"><a href="#faq-anchor" style="color:var(--fg-muted);">FAQ</a></p>
   </footer>
 
 </div>
