@@ -660,6 +660,10 @@ a:hover { color: var(--accent); }
 .narc-table td:first-child { font-weight: 700; color: var(--fg); white-space: nowrap; padding-right: 18px; }
 .narc-table td:nth-child(2) { color: var(--fg-muted); }
 .narc-table td:nth-child(3) { color: var(--fg); font-style: italic; }
+@media (max-width: 560px) {
+  .triage-grid { grid-template-columns: 1fr; }
+  .triage-item { padding: 10px 12px; }
+}
 @media (max-width: 640px) {
   .narc-table thead { display: none; }
   .narc-table, .narc-table tbody, .narc-table tr, .narc-table td { display: block; }
@@ -1589,7 +1593,7 @@ footer {
     </p>
 
     <div class="gov-area" data-open="true">
-      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="gov-area-header" role="button" tabindex="0" aria-expanded="true" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open==='true'?'true':'false')">
         <span class="gov-area-icon">📮</span>
         <span class="gov-area-title">1. Independent complaint routes</span>
         <span class="gov-area-toggle">▾</span>
@@ -1605,7 +1609,7 @@ footer {
     </div>
 
     <div class="gov-area">
-      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="gov-area-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open==='true'?'true':'false')">
         <span class="gov-area-icon">⚖️</span>
         <span class="gov-area-title">2. Conflicts of interest</span>
         <span class="gov-area-toggle">▾</span>
@@ -1621,7 +1625,7 @@ footer {
     </div>
 
     <div class="gov-area">
-      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="gov-area-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open==='true'?'true':'false')">
         <span class="gov-area-icon">🧒</span>
         <span class="gov-area-title">3. Child &amp; youth safeguarding</span>
         <span class="gov-area-toggle">▾</span>
@@ -1638,7 +1642,7 @@ footer {
     </div>
 
     <div class="gov-area">
-      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="gov-area-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open==='true'?'true':'false')">
         <span class="gov-area-icon">💰</span>
         <span class="gov-area-title">4. Financial oversight</span>
         <span class="gov-area-toggle">▾</span>
@@ -1655,7 +1659,7 @@ footer {
     </div>
 
     <div class="gov-area" style="margin-bottom: 0;">
-      <div class="gov-area-header" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="gov-area-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open=this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open==='true'?'true':'false')">
         <span class="gov-area-icon">🛡️</span>
         <span class="gov-area-title">5. Anti-retaliation practices</span>
         <span class="gov-area-toggle">▾</span>
@@ -1726,9 +1730,9 @@ footer {
     <p style="font-size:.88rem;color:var(--fg-muted);margin-bottom:1.5rem;">Specific cases drawn from independent journalism and official investigations, most recent first. Each carries an evidence status label — see the FAQ (linked in the footer) for what these mean. An allegation is not a finding; a civil lawsuit is not a conviction; an institutional report is not a criminal charge.</p>
 
     <!-- Filter bar -->
-    <div class="case-filter-bar" id="case-filter-bar">
+    <div class="case-filter-bar" id="case-filter-bar" role="group" aria-label="Filter cases by evidence type">
       <span class="case-filter-label">Filter:</span>
-      <button class="case-filter-btn active" data-filter="all">All cases</button>
+      <button class="case-filter-btn active" data-filter="all" aria-label="Show all cases">All cases</button>
       <button class="case-filter-btn" data-filter="independent">Independent investigation</button>
       <button class="case-filter-btn" data-filter="institutional">Institutional finding</button>
       <button class="case-filter-btn" data-filter="criminal">Criminal charges</button>
@@ -2078,7 +2082,7 @@ footer {
 
     <!-- Session 1 -->
     <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="study-session-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open)">
         <div>
           <div class="study-session-num">Session 1</div>
           <p class="study-session-title">What Does a True Shepherd Look Like?</p>
@@ -2133,7 +2137,7 @@ footer {
 
     <!-- Session 2 -->
     <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="study-session-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open)">
         <div>
           <div class="study-session-num">Session 2</div>
           <p class="study-session-title">Testing Doctrine: What Gospel Are They Preaching?</p>
@@ -2189,7 +2193,7 @@ footer {
 
     <!-- Session 3 -->
     <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="study-session-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open)">
         <div>
           <div class="study-session-num">Session 3</div>
           <p class="study-session-title">Testing Character: What Does Their Private Life Show?</p>
@@ -2245,7 +2249,7 @@ footer {
 
     <!-- Session 4 -->
     <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="study-session-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open)">
         <div>
           <div class="study-session-num">Session 4</div>
           <p class="study-session-title">Testing Accountability: Who Watches the Watchers?</p>
@@ -2304,7 +2308,7 @@ footer {
 
     <!-- Session 5 -->
     <div class="study-session" data-open="false">
-      <div class="study-session-header" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true'">
+      <div class="study-session-header" role="button" tabindex="0" aria-expanded="false" onclick="this.parentElement.dataset.open = this.parentElement.dataset.open==='true'?'false':'true';this.setAttribute('aria-expanded',this.parentElement.dataset.open)">
         <div>
           <div class="study-session-num">Session 5</div>
           <p class="study-session-title">Responding Wisely: What Do We Do?</p>
@@ -2430,6 +2434,15 @@ footer {
 
       <div class="resource-item">
         <div class="resource-info">
+          <h4>The Roys Report — How to Spot and Survive Narcissist Pastors</h4>
+          <p>A focused episode examining how to recognise narcissistic leadership patterns in pastoral contexts, with practical guidance on surviving and recovering from a narcissistic church environment. Includes a full episode transcript.</p>
+          <p><a href="https://roysreport.com/podcast/how-to-spot-and-survive-narcissist-pastors/" target="_blank" rel="noopener noreferrer">roysreport.com/podcast ↗</a></p>
+        </div>
+        <span class="resource-tag tag-site">Podcast</span>
+      </div>
+
+      <div class="resource-item">
+        <div class="resource-info">
           <h4>The Roys Report Podcast — Spiritual Abuse Series</h4>
           <p>Julie Roys' investigative podcast covers specific cases and broader patterns. Particularly relevant episodes: <em>How to Identify &amp; Recover from Spiritual Abuse</em>, <em>Spiritually Abusive Leaders in the Church</em>, and <em>Escaping and Healing from Abusive Churches</em>.</p>
           <p><a href="https://roysreport.com/podcast/how-to-identify-recover-from-spiritual-abuse/" target="_blank" rel="noopener noreferrer">roysreport.com/podcast ↗</a></p>
@@ -2444,7 +2457,7 @@ footer {
         <div class="resource-info">
           <h4>The Wartburg Watch</h4>
           <p>A long-running blog that documents and discusses abuse cases in evangelical and Reformed churches. Includes survivor testimonies and investigative write-ups with source links.</p>
-          <p><a href="https://www.thewartburgwatch.com" target="_blank" rel="noopener noreferrer">thewartburgwatch.com ↗</a></p>
+          <p><a href="https://thewartburgwatch.com/" target="_blank" rel="noopener noreferrer">thewartburgwatch.com ↗</a></p>
         </div>
         <span class="resource-tag tag-site">Blog / Watchdog</span>
       </div>
@@ -2662,6 +2675,16 @@ footer {
     });
   })();
 
+
+  // Keyboard support for accordion headers (gov-area-header, study-session-header)
+  document.addEventListener('keydown', function(e) {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    var target = e.target;
+    if (target.classList.contains('gov-area-header') || target.classList.contains('study-session-header')) {
+      e.preventDefault();
+      target.click();
+    }
+  });
   // ── Latest News RSS feed loader ──────────────────────────────────────────
   // The scheduled GitHub Action builds this static snapshot from publisher RSS.
   const NEWS_DATA_URL = 'data/news.json';
