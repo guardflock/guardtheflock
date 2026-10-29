@@ -2773,10 +2773,10 @@ footer {
 
   <footer>
     <nav class="footer-links" aria-label="Quick links">
-      <a href="#faq-anchor" onclick="document.querySelector('[data-tab=faq]').click();return false;">FAQ</a>
-      <a href="#contact-top" onclick="document.querySelector('[data-tab=contact]').click();return false;">Contact</a>
-      <a href="#cases-top" onclick="document.querySelector('[data-tab=cases]').click();return false;">Documented Cases</a>
-      <a href="#leaders-top" onclick="document.querySelector('[data-tab=leaders]').click();return false;">For Church Leaders</a>
+      <a href="#faq-anchor" onclick="document.querySelector('[data-tab=faq]').click();document.getElementById('faq-anchor').scrollIntoView({behavior:'smooth',block:'start'});return false;">FAQ</a>
+      <a href="#contact-top" onclick="document.querySelector('[data-tab=contact]').click();document.getElementById('contact-top').scrollIntoView({behavior:'smooth',block:'start'});return false;">Contact</a>
+      <a href="#cases-top" onclick="document.querySelector('[data-tab=cases]').click();document.getElementById('cases-top').scrollIntoView({behavior:'smooth',block:'start'});return false;">Documented Cases</a>
+      <a href="#leaders-top" onclick="document.querySelector('[data-tab=leaders]').click();document.getElementById('leaders-top').scrollIntoView({behavior:'smooth',block:'start'});return false;">For Church Leaders</a>
     </nav>
     <p>Guard the Flock &middot; A public educational resource.</p>
     <p style="margin-top: 4px;">Content summarises selected published sources. It does not conduct independent investigations, determine guilt, or provide legal findings. Inclusion in a case entry does not, by itself, establish wrongdoing.</p>
