@@ -821,7 +821,68 @@ footer {
   .faq-standalone h2 { margin-bottom: 24px; }
   #tab-contact .correction-policy { margin-top: 24px; }
   .nav-tabs { row-gap: 8px; }
-  </style>
+  
+  
+  /* ── Experimental brand palette: UI refresh preview ─────────────────────── */
+  :root {
+    --bg:          #E1DBC9;
+    --bg-alt:      #D5CCB9;
+    --fg:          #3C3C3C;
+    --fg-muted:    #6B7B84;
+    --accent:      #2D4530;
+    --accent-soft: #DCE4D9;
+    --border:      #6B7B84;
+    --card-bg:     #EEE8DA;
+    --surface:     #EEE8DA;
+    --card:        #EEE8DA;
+    --link:        #2D4530;
+    color-scheme: light;
+  }
+
+  /* Keep the requested warm hierarchy and reserve pine for interaction. */
+  h1, h2, h3, h4 { color: #5E4B3B; }
+  a { color: #2D4530; }
+  a:hover, .footer-links a:hover { color: #2D4530; }
+  .nav-tab.active,
+  .nf-btn.active,
+  .nf-btn[aria-pressed="true"],
+  button[type="submit"],
+  .btn-primary,
+  .button-primary {
+    background: #2D4530;
+    border-color: #2D4530;
+    color: #E1DBC9;
+  }
+  .nav-tab.active:hover,
+  .nf-btn.active:hover,
+  button[type="submit"]:hover,
+  .btn-primary:hover,
+  .button-primary:hover {
+    background: #3C3C3C;
+    border-color: #3C3C3C;
+    color: #E1DBC9;
+  }
+  .nav-tabs {
+    border-bottom-color: #6B7B84;
+  }
+  .nav-tab {
+    border-radius: 8px;
+  }
+  .case-item, .dtree-question, .footer-contact {
+    background: #EEE8DA;
+  }
+  footer {
+    background: #3C3C3C;
+    color: #E1DBC9;
+    margin-inline: -20px;
+    padding-inline: 20px;
+  }
+  footer p, footer .footer-links a { color: #E1DBC9; }
+  footer a { color: #E1DBC9; }
+  footer a:hover { color: #D5CCB9; }
+  /* End experimental palette */
+
+</style>
 
 <div class="page-wrap">
 
