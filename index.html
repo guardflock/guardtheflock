@@ -813,13 +813,14 @@ footer {
 
   /* ── FAQ standalone (not a tabbed section) ───────────── */
   .faq-standalone {
-    max-width: 740px;
-    margin: 56px auto 0;
-    padding: 0 20px 56px;
-    border-top: 1px solid var(--border);
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 28px 20px 56px;
   }
-  .faq-standalone .eyebrow { margin-top: 32px; }
+  .faq-standalone .eyebrow { margin-top: 0; }
   .faq-standalone h2 { margin-bottom: 24px; }
+  #tab-contact .correction-policy { margin-top: 24px; }
+  .nav-tabs { row-gap: 8px; }
   </style>
 
 <div class="page-wrap">
@@ -839,6 +840,8 @@ footer {
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="leaders">For Church Leaders</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="cases">Documented Cases</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="study-resources">Study &amp; Resources</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="faq">FAQ</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="contact">Contact</button>
   </nav>
 
   <!-- ── Tab: Understand ─────────────────────────────────────────────────── -->
@@ -2640,8 +2643,9 @@ footer {
 
   </section>
 
-  <!-- ── FAQ anchor (not a main tab) ────────────────────────────────────── -->
-  <section id="faq-anchor" class="faq-standalone" role="complementary" aria-label="Frequently Asked Questions">
+  <!-- ── Tab: FAQ ────────────────────────────────────────────────────────── -->
+  <section id="tab-faq" class="section" role="tabpanel" aria-label="Frequently Asked Questions">
+    <div id="faq-anchor" class="faq-standalone">
     <p class="eyebrow">Common questions</p>
     <h2>Frequently asked questions</h2>
 
@@ -2739,14 +2743,17 @@ footer {
       </div>
 
     </div>
+  </div>
   </section>
 
-  <!-- ── Get in Touch ─────────────────────────────────────────────────────── -->
-  <section class="faq-standalone" aria-label="Get in Touch">
-    <p class="eyebrow">Get in touch</p>
-    <h2>Correspondence &amp; Contributions</h2>
+  <!-- ── Tab: Contact ─────────────────────────────────────────────────────── -->
+  <section id="tab-contact" class="section" role="tabpanel" aria-label="Contact Guard the Flock">
+    <div id="contact-top" class="faq-standalone">
+    <p class="eyebrow">Correspondence</p>
+    <h2>Contact Guard the Flock</h2>
+    <p>Corrections, relevant responses, research, and thoughtful suggestions help keep this resource accurate, fair, and useful.</p>
     <div class="correction-policy">
-      <h4>Get in Touch</h4>
+      <h4>Correspondence &amp; Contributions</h4>
       <p>Guard the Flock is committed to helping people think carefully about spiritual abuse, safeguarding, church leadership, accountability, and biblical discernment.</p>
       <p style="margin-top: 8px;">We welcome:</p>
       <ul style="margin: 8px 0 8px 20px; line-height: 1.8; font-size: .83rem; color: var(--fg-muted);">
@@ -2761,23 +2768,18 @@ footer {
         <strong>A note about correspondence:</strong> Please avoid sending sensitive personal information or private documents unless they are necessary to explain your enquiry. Do not assume that correspondence is confidential or that an immediate response is possible. This email address is not an emergency reporting service. If you or someone else is in immediate danger, contact your local emergency services or appropriate safeguarding authorities.
       </p>
     </div>
+  </div>
   </section>
 
   <footer>
-    <div class="footer-contact">
-      <h3>Contact Guard the Flock</h3>
-      <p>Have a question, suggestion, correction, or resource to share? We welcome thoughtful correspondence that helps us improve the accuracy, usefulness, and integrity of this resource.</p>
-      <p>Email us at <a href="mailto:guardtheflock@proton.me">guardtheflock@proton.me</a></p>
-      <p>Please note that Guard the Flock is an educational resource, not an emergency service or a provider of legal, clinical, or counselling advice. Emails may not be monitored continuously.</p>
-      <p class="privacy-note"><strong>A note about correspondence:</strong> Please avoid sending sensitive personal information or private documents unless they are necessary to explain your enquiry. Do not assume that correspondence is confidential or that an immediate response is possible. This email address is not an emergency reporting service. If you or someone else is in immediate danger, contact your local emergency services or appropriate safeguarding authorities.</p>
-    </div>
-    <div class="footer-links">
-      <a href="#faq-anchor">FAQ</a>
+    <nav class="footer-links" aria-label="Quick links">
+      <a href="#faq-anchor" onclick="document.querySelector('[data-tab=faq]').click();return false;">FAQ</a>
+      <a href="#contact-top" onclick="document.querySelector('[data-tab=contact]').click();return false;">Contact</a>
       <a href="#cases-top" onclick="document.querySelector('[data-tab=cases]').click();return false;">Documented Cases</a>
-      <a href="#leaders-top" onclick="document.querySelector('[data-tab=leaders]').click();return false;">For Leaders</a>
-    </div>
-    <p>Guard the Flock &middot; A public educational resource &middot; Content compiled from published books, established organisations, and verified journalism.</p>
-    <p style="margin-top: 4px;">Guard the Flock summarises selected cases from published sources. It does not conduct independent investigations, determine guilt, or provide legal findings. Inclusion in any case entry does not, by itself, establish wrongdoing.</p>
+      <a href="#leaders-top" onclick="document.querySelector('[data-tab=leaders]').click();return false;">For Church Leaders</a>
+    </nav>
+    <p>Guard the Flock &middot; A public educational resource.</p>
+    <p style="margin-top: 4px;">Content summarises selected published sources. It does not conduct independent investigations, determine guilt, or provide legal findings. Inclusion in a case entry does not, by itself, establish wrongdoing.</p>
   </footer>
 
 </div>
