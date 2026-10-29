@@ -30,55 +30,22 @@
    Type: Lora display/body (gravitas, trust), Inter utility
    ─────────────────────────────────────────────────────────────────────────── */
 :root {
-  --bg:          #F7F4EF;
-  --bg-alt:      #EDE8E0;
-  --fg:          #1C1916;
-  --fg-muted:    #5C5550;
-  --accent:      #8B1C2E;
-  --accent-soft: #F0D8DC;
-  --border:      #D4CCC2;
-  --card-bg:     #FFFFFF;
-  --link:        #5C2A35;
-  --warn-bg:     #FFF8E1;
-  --warn-border: #D4A017;
-  --safe-bg:     #E8F4EC;
-  --safe-border: #2E7D52;
+  --bg:          #E1DBC9;
+  --bg-alt:      #D5CCB9;
+  --fg:           #3C3C3C;
+  --fg-muted:     #4E5C63;
+  --accent:       #2D4530;
+  --accent-soft:  #DCE4D9;
+  --border:       #8A9699;
+  --card-bg:      #F3EEE3;
+  --card:         #F3EEE3;
+  --surface:      #F3EEE3;
+  --link:         #2D4530;
+  --warn-bg:      #F8EED5;
+  --warn-border:  #A87924;
+  --safe-bg:      #E3EADF;
+  --safe-border:  #426B4A;
   color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg:          #141210;
-    --bg-alt:      #1E1C19;
-    --fg:          #EDE8E0;
-    --fg-muted:    #9C9590;
-    --accent:      #C94B60;
-    --accent-soft: #2D1318;
-    --border:      #302C28;
-    --card-bg:     #1C1916;
-    --link:        #E07080;
-    --warn-bg:     #2A2410;
-    --warn-border: #C49020;
-    --safe-bg:     #0E2218;
-    --safe-border: #3E9D62;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg:          #141210;
-  --bg-alt:      #1E1C19;
-  --fg:          #EDE8E0;
-  --fg-muted:    #9C9590;
-  --accent:      #C94B60;
-  --accent-soft: #2D1318;
-  --border:      #302C28;
-  --card-bg:     #1C1916;
-  --link:        #E07080;
-  --warn-bg:     #2A2410;
-  --warn-border: #C49020;
-  --safe-bg:     #0E2218;
-  --safe-border: #3E9D62;
-  color-scheme: dark;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -824,62 +791,57 @@ footer {
   
   
   /* ── Experimental brand palette: UI refresh preview ─────────────────────── */
-  :root {
-    --bg:          #E1DBC9;
-    --bg-alt:      #D5CCB9;
-    --fg:          #3C3C3C;
-    --fg-muted:    #6B7B84;
-    --accent:      #2D4530;
-    --accent-soft: #DCE4D9;
-    --border:      #6B7B84;
-    --card-bg:     #EEE8DA;
-    --surface:     #EEE8DA;
-    --card:        #EEE8DA;
-    --link:        #2D4530;
-    color-scheme: light;
+  html, body { background: #E1DBC9 !important; color: #3C3C3C !important; color-scheme: light !important; }
+  body, .page-wrap, main, .section, .faq-standalone { background-color: #E1DBC9; color: #3C3C3C; }
+  h1, h2, h3, h4, .eyebrow { color: #5E4B3B; }
+  p, li, label, summary, .nav-tab, .resource-item, .case-item, .hotline-card,
+  .triage-item, .dtree-question, .protocol-list li, .study-nextstep,
+  .footer-contact, .footer-contact p { color: #3C3C3C; }
+  .eyebrow { color: #5E4B3B; }
+  a, .footer-contact a { color: #2D4530; }
+  a:hover, .footer-contact a:hover { color: #3C3C3C; }
+  .nav-tabs { border-bottom: 1px solid #6B7B84; }
+  .nav-tab { background: #E1DBC9; color: #3C3C3C; border-color: #6B7B84; }
+  .nav-tab:hover { background: #D5CCB9; color: #3C3C3C; }
+  .nav-tab.active, .nf-btn.active, .nf-btn[aria-pressed="true"],
+  button[type="submit"], .btn-primary, .button-primary {
+    background: #2D4530; border-color: #2D4530; color: #F3EEE3;
   }
-
-  /* Keep the requested warm hierarchy and reserve pine for interaction. */
-  h1, h2, h3, h4 { color: #5E4B3B; }
-  a { color: #2D4530; }
-  a:hover, .footer-links a:hover { color: #2D4530; }
-  .nav-tab.active,
-  .nf-btn.active,
-  .nf-btn[aria-pressed="true"],
-  button[type="submit"],
-  .btn-primary,
-  .button-primary {
-    background: #2D4530;
-    border-color: #2D4530;
-    color: #E1DBC9;
+  .nav-tab.active:hover, .nf-btn.active:hover, button[type="submit"]:hover,
+  .btn-primary:hover, .button-primary:hover {
+    background: #3C3C3C; border-color: #3C3C3C; color: #F3EEE3;
   }
-  .nav-tab.active:hover,
-  .nf-btn.active:hover,
-  button[type="submit"]:hover,
-  .btn-primary:hover,
-  .button-primary:hover {
-    background: #3C3C3C;
-    border-color: #3C3C3C;
-    color: #E1DBC9;
+  .nf-btn { color: #3C3C3C; border-color: #6B7B84; }
+  .nf-btn:hover { background: #D5CCB9; color: #3C3C3C; }
+  .banner, .warn-box, .triage-box { color: #3C3C3C; }
+  .case-item, .dtree-question, .footer-contact, .hotline-card,
+  .resource-item, .protocol-list li, .study-nextstep {
+    background: #F3EEE3; border-color: #8A9699;
   }
-  .nav-tabs {
-    border-bottom-color: #6B7B84;
-  }
-  .nav-tab {
-    border-radius: 8px;
-  }
-  .case-item, .dtree-question, .footer-contact {
-    background: #EEE8DA;
-  }
+  .footer-contact h3 { color: #5E4B3B; }
   footer {
-    background: #3C3C3C;
-    color: #E1DBC9;
+    background: #3C3C3C !important;
+    color: #F3EEE3 !important;
     margin-inline: -20px;
-    padding-inline: 20px;
+    padding: 40px 20px;
   }
-  footer p, footer .footer-links a { color: #E1DBC9; }
-  footer a { color: #E1DBC9; }
-  footer a:hover { color: #D5CCB9; }
+  footer p, footer li, footer a, footer .footer-links a {
+    color: #F3EEE3 !important;
+  }
+  footer a:hover, footer .footer-links a:hover { color: #D5CCB9 !important; }
+  /* Neutralise legacy dark-mode overrides in this light-only preview. */
+  @media (prefers-color-scheme: dark) {
+    html, body, .page-wrap, main, .section, .faq-standalone {
+      background: #E1DBC9 !important; color: #3C3C3C !important;
+      color-scheme: light !important;
+    }
+    h1, h2, h3, h4, .eyebrow { color: #5E4B3B !important; }
+    p, li, label, summary, .nav-tab, .resource-item, .case-item,
+    .hotline-card, .triage-item, .dtree-question { color: #3C3C3C !important; }
+    .nav-tab { background: #E1DBC9 !important; }
+    .nav-tab.active { background: #2D4530 !important; color: #F3EEE3 !important; }
+  }
+  :root[data-theme="dark"] { color-scheme: light !important; }
   /* End experimental palette */
 
 </style>
