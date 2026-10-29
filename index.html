@@ -209,6 +209,7 @@ a:hover { color: var(--accent); }
 .badge-independent { background: #dbeafe; color: #1d4ed8; }
 .badge-institutional { background: #fef3c7; color: #92400e; }
 .badge-criminal { background: #fee2e2; color: #991b1b; }
+.badge-conviction { background: #dcfce7; color: #166534; }
 .badge-civil { background: #f3e8ff; color: #6b21a8; }
 .badge-historical { background: #f1f5f9; color: #475569; }
 .case-item-body { font-size: .88rem; line-height: 1.65; }
@@ -219,6 +220,7 @@ a:hover { color: var(--accent); }
   .badge-independent { background: #1e3a5f; color: #93c5fd; }
   .badge-institutional { background: #3d2b0a; color: #fcd34d; }
   .badge-criminal { background: #3b0f0f; color: #fca5a5; }
+  .badge-conviction { background: #123321; color: #86efac; }
   .badge-civil { background: #2e1065; color: #d8b4fe; }
   .badge-historical { background: #1e293b; color: #94a3b8; }
 }
@@ -1769,12 +1771,119 @@ footer {
       <button class="case-filter-btn" data-filter="independent">Independent investigation</button>
       <button class="case-filter-btn" data-filter="institutional">Institutional finding</button>
       <button class="case-filter-btn" data-filter="criminal">Criminal charges</button>
+      <button class="case-filter-btn" data-filter="conviction">Criminal conviction / sentence</button>
       <button class="case-filter-btn" data-filter="civil">Civil lawsuit</button>
       <button class="case-filter-btn" data-filter="historical">Historical</button>
-      <span class="case-count-badge" id="case-count">10 cases</span>
+      <span class="case-count-badge" id="case-count">14 cases</span>
     </div>
 
     <div class="case-list" id="case-list">
+      <!-- Jeong Myeong-seok / JMS — first-instance sentence, separate proceeding -->
+      <div class="case-item" id="case-jeong-myeong-seok" data-badge="conviction" data-cat="sexual-misconduct" data-theme="sexual-abuse spiritual-abuse-control institutional-accountability safeguarding-harm">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Jeong Myeong-seok — Christian Gospel Mission (JMS)</h4>
+            <div class="case-item-cat">Sexual Abuse &amp; Religious Coercion &nbsp;&middot;&nbsp; Oct 2026</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-conviction">First-instance sentence</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>On 19 October 2026, the Daejeon District Court sentenced Jeong Myeong-seok, leader of the Christian Gospel Mission (also known as Jesus Morning Star or JMS), to 33 years in prison in a separate case involving sexual assaults against female followers. Yonhap reports that the case concerned 16 women and alleged offending between 2018 and 2022, with the court describing the use of religious control and influence.</p>
+          <p class="case-item-meta"><strong>Evidence status:</strong> First-instance criminal conviction and sentence. &nbsp;|&nbsp; <strong>Important distinction:</strong> This is separate from Jeong's earlier 17-year sentence, which was finalised by South Korea's Supreme Court in January 2025. The appeal status of the October 2026 sentence should be checked before any later update.</p>
+          <p class="case-item-meta"><strong>Scope note:</strong> JMS is a Christian-derived religious movement; the entry describes the court-reported case and does not imply that its conduct represents Christians generally.</p>
+          <ul class="case-item-sources">
+            <li><a href="https://en.yna.co.kr/view/AEN20261019005400315" target="_blank" rel="noopener noreferrer">Yonhap News Agency: Religious sect leader sentenced to 33 years in prison for sexual assault (19 Oct 2026)</a></li>
+            <li><a href="https://world.kbs.co.kr/service/news_view.htm?Seq_Code=204951&amp;lang=e" target="_blank" rel="noopener noreferrer">KBS World: JMS leader sentenced to 33 years for additional sexual assaults</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Christopher Saunders / Broome Diocese -->
+      <div class="case-item" id="case-christopher-saunders" data-badge="conviction" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability safeguarding-harm">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Christopher Saunders — Former Bishop of Broome</h4>
+            <div class="case-item-cat">Sexual Offences &nbsp;&middot;&nbsp; Aug–Oct 2026</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-conviction">Convicted and sentenced</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>Former Bishop of Broome Christopher Saunders was convicted of 13 sexual offences involving two young Indigenous men and sentenced in October 2026 to six years and six months in prison. The jury acquitted him of six charges concerning a third accuser. The case concerns criminal findings against Saunders, not every allegation previously reported about him.</p>
+          <p class="case-item-meta"><strong>Evidence status:</strong> Criminal conviction and sentence. &nbsp;|&nbsp; <strong>Last verified:</strong> Oct 2026</p>
+          <ul class="case-item-sources">
+            <li><a href="https://www.abc.net.au/news/2026-10-07/ex-broome-bishop-christopher-saunders-sentenced-for-sexual-abuse/107236542" target="_blank" rel="noopener noreferrer">ABC News: Former Broome bishop Christopher Saunders jailed for sexually abusing young men (7 Oct 2026)</a></li>
+            <li><a href="https://www.abc.net.au/news/2026-08-13/former-broome-bishop-christopher-saunders-guilty-sex-offences/107029324" target="_blank" rel="noopener noreferrer">ABC News: Former Broome bishop found guilty of sexual offences (13 Aug 2026)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Joseph Raja / India -->
+      <div class="case-item" id="case-joseph-raja" data-badge="conviction" data-cat="sexual-misconduct" data-theme="sexual-abuse safeguarding-harm">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Joseph Raja — Pastor in Tamil Nadu, India</h4>
+            <div class="case-item-cat">Sexual Abuse of a Minor &nbsp;&middot;&nbsp; Feb 2026</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-conviction">High Court upheld sentence</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>The Madras High Court dismissed pastor Joseph Raja's appeal and upheld his conviction and life sentence for sexually assaulting a 17-year-old girl with physical and intellectual disabilities at a church in Virudhunagar district. The Times of India reported the High Court decision in February 2026.</p>
+          <p class="case-item-meta"><strong>Evidence status:</strong> Conviction and life sentence upheld on appeal, according to the cited report. &nbsp;|&nbsp; <strong>Last verified:</strong> Feb 2026</p>
+          <ul class="case-item-sources">
+            <li><a href="https://timesofindia.indiatimes.com/city/madurai/hc-upholds-life-sentence-on-pastor-for-raping-minor-girl/articleshow/128436176.cms" target="_blank" rel="noopener noreferrer">The Times of India: High Court upholds life sentence on pastor for raping minor girl</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Mark Batolne / Philippines -->
+      <div class="case-item" id="case-mark-batolne" data-badge="conviction" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability safeguarding-harm">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Mark Batolne — Catholic Priest in Baguio, Philippines</h4>
+            <div class="case-item-cat">Rape Conviction &nbsp;&middot;&nbsp; Dec 2025</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-conviction">Criminal conviction and sentence</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>Philstar reported that a family court in Baguio convicted priest Mark Batolne of three counts of rape involving a 16-year-old student-scholar and imposed prison terms of 20 to 40 years for each count. The report states that Batolne denied the allegations during the proceedings.</p>
+          <p class="case-item-meta"><strong>Evidence status:</strong> Criminal conviction and sentence, as reported by Philstar. &nbsp;|&nbsp; <strong>Last verified:</strong> Dec 2025</p>
+          <ul class="case-item-sources">
+            <li><a href="https://www.philstar.com/nation/2025/12/19/2495351/baguio-priest-gets-life-term-rape-teen" target="_blank" rel="noopener noreferrer">The Philippine Star (Philstar): Baguio priest gets life term for rape of teen (19 Dec 2025)</a></li>
+            <li><a href="https://www.bishop-accountability.org/2025/12/baguio-priest-gets-life-term-for-rape-of-teen/" target="_blank" rel="noopener noreferrer">BishopAccountability.org: Case-specific republication of the Philippine Star report</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Southern Baptist Convention / Guidepost independent investigation -->
+      <div class="case-item" id="case-sbc-abuse-investigation" data-badge="independent institutional" data-cat="institutional-accountability" data-theme="sexual-abuse institutional-accountability safeguarding-harm">
+        <div class="case-item-header">
+          <div>
+            <h4 class="case-item-name">Southern Baptist Convention — Abuse Response Investigation</h4>
+            <div class="case-item-cat">Institutional Accountability &nbsp;&middot;&nbsp; 2022</div>
+          </div>
+          <div class="case-item-badges">
+            <span class="case-badge badge-independent">Independent investigation</span>
+            <span class="case-badge badge-institutional">Institutional accountability</span>
+          </div>
+        </div>
+        <div class="case-item-body">
+          <p>An independent investigation by Guidepost Solutions examined how the Southern Baptist Convention's Executive Committee handled sexual-abuse reports and related concerns. The report described failures in how complaints were handled and how some leaders responded to survivors and reform efforts. This entry concerns the institutional response documented in the report; it is not a finding of criminal guilt against every person or church associated with the Convention.</p>
+          <p class="case-item-meta"><strong>Evidence status:</strong> Independent investigation into institutional handling of abuse reports. &nbsp;|&nbsp; <strong>Report published:</strong> May 2022</p>
+          <ul class="case-item-sources">
+            <li><a href="https://guidepostsolutions.com/insights/media-mentions/guidepost-solutions-report-of-the-independent-investigation-of-the-southern-baptist-convention/" target="_blank" rel="noopener noreferrer">Guidepost Solutions: Report of the Independent Investigation of the Southern Baptist Convention</a></li>
+            <li><a href="https://www.baptistpress.com/wp-content/uploads/2022/05/FINAL-Guidepost-Solutions-Independent-Investigation-Report-.pdf" target="_blank" rel="noopener noreferrer">Full Guidepost Solutions independent investigation report (PDF)</a></li>
+          </ul>
+        </div>
+      </div>
+
 
       <!-- Seth Sung Kim / HMCC -->
       <div class="case-item" id="case-seth-kim" data-badge="institutional" data-cat="sexual-misconduct" data-theme="sexual-abuse institutional-accountability">
@@ -1981,6 +2090,10 @@ footer {
         <div class="theme-label">Sexual Abuse and Misconduct</div>
         <p class="theme-desc">Cases involving documented allegations, investigations, or findings related to sexual misconduct, sexual abuse, or inappropriate sexual conduct by those in positions of spiritual authority. Does not imply a criminal conviction unless stated in the case entry.</p>
         <ul class="theme-case-list">
+          <li><a href="#case-jeong-myeong-seok">Jeong Myeong-seok — Christian Gospel Mission (JMS)</a> <span class="theme-badge">First-instance sentence</span></li>
+          <li><a href="#case-christopher-saunders">Christopher Saunders — Former Bishop of Broome</a> <span class="theme-badge">Convicted and sentenced</span></li>
+          <li><a href="#case-joseph-raja">Joseph Raja — Tamil Nadu, India</a> <span class="theme-badge">High Court upheld sentence</span></li>
+          <li><a href="#case-mark-batolne">Mark Batolne — Baguio, Philippines</a> <span class="theme-badge">Criminal conviction and sentence</span></li>
           <li><a href="#case-seth-kim">Seth Sung Kim — Harvest Mission Community Church</a> <span class="theme-badge">Institutional finding</span></li>
           <li><a href="#case-denis-roy">Denis Roy — Brownsburg Vineyard Church</a> <span class="theme-badge">Independent investigation</span></li>
           <li><a href="#case-daniel-meyer">Daniel Meyer — Vineyard Church Delaware County</a> <span class="theme-badge">Civil lawsuit pending</span></li>
@@ -1995,6 +2108,7 @@ footer {
         <div class="theme-label">Spiritual Abuse and Coercive Control</div>
         <p class="theme-desc">Cases where published reporting or official findings describe documented patterns of spiritual authority being used to coerce, control, isolate, intimidate, or exploit. Does not constitute a diagnosis of any individual.</p>
         <ul class="theme-case-list">
+          <li><a href="#case-jeong-myeong-seok">Jeong Myeong-seok — Christian Gospel Mission (JMS)</a> <span class="theme-badge">First-instance sentence</span></li>
           <li><a href="#case-jp-miller">John-Paul Miller — Solid Rock Church</a> <span class="theme-badge">Criminal charges pending</span></li>
           <li><a href="#case-mike-pilavachi">Mike Pilavachi — Soul Survivor</a> <span class="theme-badge">Institutional finding (Church of England)</span></li>
         </ul>
@@ -2004,6 +2118,7 @@ footer {
         <div class="theme-label">Institutional Failures and Accountability</div>
         <p class="theme-desc">Cases where reporting or official findings address an organisation's response — or failure to respond — to known concerns. Includes cases where leadership received prior reports and failed to act.</p>
         <ul class="theme-case-list">
+          <li><a href="#case-sbc-abuse-investigation">Southern Baptist Convention — Abuse Response Investigation</a> <span class="theme-badge">Independent investigation</span></li>
           <li><a href="#case-seth-kim">Seth Sung Kim — Harvest Mission Community Church</a> <span class="theme-badge">Institutional finding</span></li>
           <li><a href="#case-denis-roy">Denis Roy — Brownsburg Vineyard Church</a> <span class="theme-badge">Independent investigation</span></li>
           <li><a href="#case-mike-bickle">Mike Bickle — IHOPKC</a> <span class="theme-badge">Independent investigation</span></li>
@@ -2018,6 +2133,11 @@ footer {
         <div class="theme-label">Safeguarding Failures and Harm</div>
         <p class="theme-desc">Cases where a matter materially concerns safeguarding systems, safeguarding failures, or documented harm — particularly where vulnerable people were placed at risk by structures or decisions within the organisation.</p>
         <ul class="theme-case-list">
+          <li><a href="#case-jeong-myeong-seok">Jeong Myeong-seok — Christian Gospel Mission (JMS)</a> <span class="theme-badge">First-instance sentence</span></li>
+          <li><a href="#case-christopher-saunders">Christopher Saunders — Former Bishop of Broome</a> <span class="theme-badge">Convicted and sentenced</span></li>
+          <li><a href="#case-joseph-raja">Joseph Raja — Tamil Nadu, India</a> <span class="theme-badge">High Court upheld sentence</span></li>
+          <li><a href="#case-mark-batolne">Mark Batolne — Baguio, Philippines</a> <span class="theme-badge">Criminal conviction and sentence</span></li>
+          <li><a href="#case-sbc-abuse-investigation">Southern Baptist Convention — Abuse Response Investigation</a> <span class="theme-badge">Independent investigation</span></li>
           <li><a href="#case-denis-roy">Denis Roy — Brownsburg Vineyard Church</a> <span class="theme-badge">Independent investigation</span></li>
           <li><a href="#case-daniel-meyer">Daniel Meyer — Vineyard Church Delaware County</a> <span class="theme-badge">Civil lawsuit pending</span></li>
           <li><a href="#case-jp-miller">John-Paul Miller — Solid Rock Church</a> <span class="theme-badge">Criminal charges pending</span></li>
@@ -2598,6 +2718,7 @@ footer {
             <li><strong>Independent investigation</strong> — conducted by a third party (external law firm, safeguarding body, or review panel) specifically engaged to investigate the matter. The strongest form of non-criminal accountability.</li>
             <li><strong>Institutional finding</strong> — the organisation's own leadership, board, or advisory group reviewed the matter and found concerns substantiated. Stronger than a bare allegation, but less independent than an external investigation.</li>
             <li><strong>Criminal charges pending</strong> — criminal charges have been formally filed or an indictment returned. The applicable procedure and standard of proof vary by jurisdiction. No verdict has been reached; the accused is presumed innocent until proven guilty.</li>
+            <li><strong>Criminal conviction / sentence</strong> — a court has convicted the person and imposed a sentence. If a decision is at first instance or an appeal status is unresolved, the case entry should say so explicitly; a conviction should not be described as final unless that status is confirmed.</li>
             <li><strong>Civil lawsuit pending</strong> — a lawsuit has been filed in a civil court. Allegations in a lawsuit have not been adjudicated; they are the plaintiff's claims, not judicial findings.</li>
             <li><strong>Historical reporting</strong> — the primary investigation or reporting occurred some years ago. This describes the age of the primary source, not the current status of the case or the resolution of all disputed matters. Where a current legal or investigative status exists, it is stated in the case entry.</li>
           </ul>
