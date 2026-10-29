@@ -790,56 +790,139 @@ footer {
   .nav-tabs { row-gap: 8px; }
   
   
-  /* ── Experimental brand palette: UI refresh preview ─────────────────────── */
-  html, body { background: #E1DBC9 !important; color: #3C3C3C !important; color-scheme: light !important; }
-  body, .page-wrap, main, .section, .faq-standalone { background-color: #E1DBC9; color: #3C3C3C; }
-  h1, h2, h3, h4, .eyebrow { color: #5E4B3B; }
-  p, li, label, summary, .nav-tab, .resource-item, .case-item, .hotline-card,
-  .triage-item, .dtree-question, .protocol-list li, .study-nextstep,
-  .footer-contact, .footer-contact p { color: #3C3C3C; }
-  .eyebrow { color: #5E4B3B; }
-  a, .footer-contact a { color: #2D4530; }
-  a:hover, .footer-contact a:hover { color: #3C3C3C; }
-  .nav-tabs { border-bottom: 1px solid #6B7B84; }
-  .nav-tab { background: #E1DBC9; color: #3C3C3C; border-color: #6B7B84; }
-  .nav-tab:hover { background: #D5CCB9; color: #3C3C3C; }
+  /* ── Refined brand palette: light, calm, readable ─────────────────────── */
+  :root {
+    --bg: #F7F5EF;
+    --bg-alt: #EEF1EA;
+    --fg: #252B27;
+    --fg-muted: #56615D;
+    --accent: #355B45;
+    --accent-soft: #E5EDE5;
+    --border: #D5DDD4;
+    --card-bg: #FFFFFF;
+    --card: #FFFFFF;
+    --surface: #FFFFFF;
+    --link: #2F6046;
+    --warn-bg: #FBF4E5;
+    --warn-border: #C69A43;
+    --safe-bg: #EAF1E8;
+    --safe-border: #638366;
+    color-scheme: light;
+  }
+
+  html, body {
+    background: #F7F5EF !important;
+    color: #252B27 !important;
+    color-scheme: light !important;
+  }
+  body, .page-wrap, main, .section, .faq-standalone {
+    background-color: #F7F5EF !important;
+    color: #252B27;
+  }
+  h1, h2, h3, h4 { color: #33483A; }
+  p, li, label, summary { color: #252B27; }
+  .eyebrow { color: #526A58; }
+  a, .footer-contact a { color: #2F6046; }
+  a:hover, .footer-contact a:hover { color: #203F2E; }
+
+  .nav-tabs {
+    background: #F7F5EF !important;
+    border-bottom: 1px solid #D5DDD4;
+  }
+  .nav-tab {
+    background: transparent;
+    color: #3F4A43;
+    border-color: #C9D3C9;
+  }
+  .nav-tab:hover { background: #EEF1EA; color: #252B27; }
   .nav-tab.active, .nf-btn.active, .nf-btn[aria-pressed="true"],
   button[type="submit"], .btn-primary, .button-primary {
-    background: #2D4530; border-color: #2D4530; color: #F3EEE3;
+    background: #355B45;
+    border-color: #355B45;
+    color: #FFFFFF;
   }
   .nav-tab.active:hover, .nf-btn.active:hover, button[type="submit"]:hover,
   .btn-primary:hover, .button-primary:hover {
-    background: #3C3C3C; border-color: #3C3C3C; color: #F3EEE3;
+    background: #294735;
+    border-color: #294735;
+    color: #FFFFFF;
   }
-  .nf-btn { color: #3C3C3C; border-color: #6B7B84; }
-  .nf-btn:hover { background: #D5CCB9; color: #3C3C3C; }
-  .banner, .warn-box, .triage-box { color: #3C3C3C; }
-  .case-item, .dtree-question, .footer-contact, .hotline-card,
-  .resource-item, .protocol-list li, .study-nextstep {
-    background: #F3EEE3; border-color: #8A9699;
+  .nf-btn { color: #33483A; border-color: #C9D3C9; }
+  .nf-btn:hover { background: #EEF1EA; color: #252B27; }
+
+  .card, .case-item, .dtree-question, .footer-contact, .hotline-card,
+  .resource-item, .protocol-list li, .study-nextstep, .step, .faq-item,
+  .faq-q, .faq-a, .news-item, .signs-list li, .pw-row, .correction-policy {
+    background-color: #FFFFFF;
+    border-color: #D5DDD4;
+    color: #252B27;
   }
-  .footer-contact h3 { color: #5E4B3B; }
+  .card p, .resource-info p, .case-item-cat, .case-item-meta,
+  .case-item-sources, .hotline-card .hc-scope, .hotline-card .hc-note,
+  .step-body p, .faq-a, .pull-quote, .pw-prompt, .correction-policy {
+    color: #56615D;
+  }
+
+  /* Safety triage: deliberately warm and distinct, never dark-mode brown. */
+  .triage-box {
+    background: #FBF4E5 !important;
+    border: 1px solid #D9BC7A !important;
+    border-left: 4px solid #B8872F !important;
+    border-radius: 10px;
+    color: #252B27 !important;
+  }
+  .triage-box h4 {
+    color: #72521B !important;
+  }
+  .triage-box p { color: #3D3B32 !important; }
+  .triage-box p strong { color: #3D3B32 !important; }
+  .triage-item {
+    background: #FFFDF8 !important;
+    border: 1px solid #E6D9BC !important;
+    color: #252B27 !important;
+  }
+  .triage-item .ti-label { color: #765820 !important; }
+  .triage-item strong { color: #252B27 !important; }
+  .triage-item a { color: #2F6046 !important; }
+
+  .banner, .warn-box {
+    background: #FBF4E5;
+    border-color: #C69A43;
+    color: #3D3B32;
+  }
+  .banner.safe { background: #EAF1E8; border-color: #638366; }
+  .case-note { background: #FBF4E5; color: #3D3B32; }
+  .footer-contact h3 { color: #33483A; }
   footer {
-    background: #3C3C3C !important;
-    color: #F3EEE3 !important;
+    background: #29362E !important;
+    color: #F7F5EF !important;
     margin-inline: -20px;
     padding: 40px 20px;
   }
   footer p, footer li, footer a, footer .footer-links a {
-    color: #F3EEE3 !important;
+    color: #F7F5EF !important;
   }
-  footer a:hover, footer .footer-links a:hover { color: #D5CCB9 !important; }
-  /* Neutralise legacy dark-mode overrides in this light-only preview. */
+  footer a:hover, footer .footer-links a:hover { color: #D8E3D7 !important; }
+
+  /* Keep this preview light even when the device prefers dark mode. */
   @media (prefers-color-scheme: dark) {
     html, body, .page-wrap, main, .section, .faq-standalone {
-      background: #E1DBC9 !important; color: #3C3C3C !important;
+      background: #F7F5EF !important;
+      color: #252B27 !important;
       color-scheme: light !important;
     }
-    h1, h2, h3, h4, .eyebrow { color: #5E4B3B !important; }
-    p, li, label, summary, .nav-tab, .resource-item, .case-item,
-    .hotline-card, .triage-item, .dtree-question { color: #3C3C3C !important; }
-    .nav-tab { background: #E1DBC9 !important; }
-    .nav-tab.active { background: #2D4530 !important; color: #F3EEE3 !important; }
+    .nav-tabs { background: #F7F5EF !important; }
+    .nav-tab { background: transparent !important; color: #3F4A43 !important; }
+    .nav-tab.active { background: #355B45 !important; color: #FFFFFF !important; }
+    .triage-box { background: #FBF4E5 !important; border-color: #D9BC7A !important; }
+    .triage-box h4, .triage-item .ti-label { color: #72521B !important; }
+    .triage-item { background: #FFFDF8 !important; color: #252B27 !important; }
+    .badge-independent { background: #DBEAFE !important; color: #1D4ED8 !important; }
+    .badge-institutional { background: #FEF3C7 !important; color: #92400E !important; }
+    .badge-criminal { background: #FEE2E2 !important; color: #991B1B !important; }
+    .badge-conviction { background: #DCFCE7 !important; color: #166534 !important; }
+    .badge-civil { background: #F3E8FF !important; color: #6B21A8 !important; }
+    .badge-historical { background: #F1F5F9 !important; color: #475569 !important; }
   }
   :root[data-theme="dark"] { color-scheme: light !important; }
   /* End experimental palette */
