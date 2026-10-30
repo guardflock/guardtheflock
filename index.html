@@ -782,6 +782,25 @@ a:hover { color: var(--accent); }
 :root[data-theme="light"] #tab-respond .triage-item strong { color: #1C1916 !important; }
 :root[data-theme="light"] #tab-respond .triage-item em { color: #5C5550 !important; }
 
+/* Fix triage contrast when the user selects Light mode on a device set to dark mode.
+   The older prefers-color-scheme rules were overriding the explicit theme toggle. */
+:root[data-theme="light"] .triage-box {
+  background: #fff8f0 !important;
+  border-color: #f59e0b !important;
+}
+:root[data-theme="light"] .triage-box h4 { color: #92400e !important; }
+:root[data-theme="light"] .triage-box > p { color: #92400e !important; }
+:root[data-theme="light"] .triage-item {
+  background: #fffdf9 !important;
+  color: #1c1916 !important;
+  border-color: rgba(245,158,11,.4) !important;
+}
+:root[data-theme="light"] .triage-item,
+:root[data-theme="light"] .triage-item strong { color: #1c1916 !important; }
+:root[data-theme="light"] .triage-item .ti-label { color: #92400e !important; }
+:root[data-theme="light"] .triage-item em { color: #5c5550 !important; }
+:root[data-theme="light"] .triage-item a { color: #8b1e3f !important; }
+
 /* ── Disclosure Protocol ─────────────────────────────────────────────────── */
 .protocol-list { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-direction: column; gap: 12px; counter-reset: protocol; }
 .protocol-list li { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px 14px; font-size: .875rem; line-height: 1.6; display: flex; gap: 14px; align-items: flex-start; counter-increment: protocol; }
