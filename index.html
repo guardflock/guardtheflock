@@ -21,7 +21,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Guard the Flock — Understanding Spiritual Abuse">
 <meta name="twitter:description" content="A free resource for understanding spiritual abuse — warning signs, a biblical discernment framework, documented cases, and crisis support.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Syne:wght@600;700;800&display=swap">
 
 <style>
 /* ── Design tokens ──────────────────────────────────────────────────────────
@@ -30,6 +30,10 @@
    Type: Lora display/body (gravitas, trust), Inter utility
    ─────────────────────────────────────────────────────────────────────────── */
 :root {
+  /* ── Font families (swapped by theme) ── */
+  --font-display: 'Lora', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  /* ── Color tokens ── */
   --bg:          #F7F4EF;
   --bg-alt:      #EDE8E0;
   --fg:          #1C1916;
@@ -43,6 +47,9 @@
   --warn-border: #D4A017;
   --safe-bg:     #E8F4EC;
   --safe-border: #2E7D52;
+  /* ── Surface alias (used in some components) ── */
+  --surface:     var(--bg-alt);
+  --card:        var(--card-bg);
   color-scheme: light;
 }
 
@@ -821,9 +828,415 @@ footer {
   .faq-standalone h2 { margin-bottom: 24px; }
   #tab-contact .correction-policy { margin-top: 24px; }
   .nav-tabs { row-gap: 8px; }
-  </style>
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   DESIGN THEME OVERRIDES  (preview branch only — remove switcher before merge)
+   Toggle via html[data-design="A" | "B" | "C"]
+   ─────────────────────────────────────────────────────────────────────────
+   A  Trust & Clarity — Advocacy-org credibility, fresh teal, clean sans
+      Target feel: Vox / The Guardian / well-funded NGO. Confident, open.
+   B  Warm Editorial  — Thoughtful millennial magazine, humanity-first
+      Target feel: Rest of World / Delayed Gratification. Reads like long-form.
+   C  Signal          — Digital-native, bold, unapologetically modern
+      Target feel: Are.na / The Pudding / Substack dark-mode crowd.
+═══════════════════════════════════════════════════════════════════════════ */
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   THEME A — Trust & Clarity
+   Palette: crisp white + deep teal + warm slate
+   Type: Plus Jakarta Sans (geometric humanist) — a modern sans that reads
+         as professional without feeling corporate or stuffy.
+   Vibe: "This is a serious, well-resourced organisation"
+══════════════════════════════════════════════════════════════════════════ */
+html[data-design="A"] {
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body:    'Plus Jakarta Sans', system-ui, sans-serif;
+  --bg:           #FAFCFC;
+  --bg-alt:       #EBF5F5;
+  --fg:           #0A1A1A;
+  --fg-muted:     #3B6060;
+  --accent:       #0A7070;
+  --accent-soft:  #C8E8E8;
+  --border:       #C0DADA;
+  --card-bg:      #FFFFFF;
+  --link:         #085858;
+  --surface:      #EBF5F5;
+  --card:         #FFFFFF;
+  --warn-bg:      #FFFAEC;
+  --warn-border:  #C49020;
+  --safe-bg:      #E4F3EB;
+  --safe-border:  #1A7040;
+  color-scheme: light;
+}
+/* typography */
+html[data-design="A"] body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 16px; line-height: 1.72; }
+html[data-design="A"] h1, html[data-design="A"] h2, html[data-design="A"] h3, html[data-design="A"] h4 { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+html[data-design="A"] h1 { font-size: clamp(2.1rem, 5.5vw, 3.2rem); font-weight: 800; letter-spacing: -0.025em; line-height: 1.1; }
+html[data-design="A"] h2 { font-size: clamp(1.25rem, 3.5vw, 1.65rem); font-weight: 700; letter-spacing: -0.015em; line-height: 1.2; }
+html[data-design="A"] h3 { font-size: 1rem; font-weight: 700; letter-spacing: -0.01em; }
+html[data-design="A"] h4 { font-size: 0.9rem; font-weight: 700; font-style: normal; letter-spacing: 0; }
+/* header */
+html[data-design="A"] .site-header {
+  border-bottom: none;
+  padding-block: 56px 36px;
+  border-left: 4px solid var(--accent);
+  padding-left: 24px;
+  margin-left: -4px;
+}
+html[data-design="A"] .site-header p { font-style: normal; font-size: 1.05rem; color: var(--fg-muted); line-height: 1.6; }
+html[data-design="A"] .eyebrow { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.7rem; letter-spacing: 0.14em; }
+/* nav tabs */
+html[data-design="A"] .nav-tab { border-radius: 6px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.01em; }
+html[data-design="A"] .nav-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+html[data-design="A"] .nav-tab:hover:not(.active) { background: var(--bg-alt); border-color: var(--accent); color: var(--accent); }
+/* cards */
+html[data-design="A"] .card { border-radius: 10px; border: 1px solid var(--border); box-shadow: 0 1px 4px rgba(10,112,112,0.07); }
+html[data-design="A"] .case-item { border-radius: 10px; border-left: 3px solid var(--accent); }
+html[data-design="A"] .hotline-card { border-radius: 10px; border-top: 3px solid var(--accent); border-left: none; }
+/* section heads */
+html[data-design="A"] .sec-head {
+  border-bottom: none;
+  padding-bottom: 0;
+  padding-left: 14px;
+  border-left: 3px solid var(--accent);
+}
+/* quotes */
+html[data-design="A"] .pull-quote {
+  border-left: 4px solid var(--accent);
+  background: var(--bg-alt);
+  font-style: normal;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--fg);
+  border-radius: 0 8px 8px 0;
+}
+html[data-design="A"] .scripture-pull { border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0; }
+/* steps */
+html[data-design="A"] .step::before { border-radius: 4px; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.8rem; font-weight: 800; }
+/* signs list */
+html[data-design="A"] .signs-list li { border-left: 3px solid var(--border); border-top: none; border-right: none; border-bottom: none; border-radius: 0 8px 8px 0; }
+/* dark mode A */
+@media (prefers-color-scheme: dark) {
+  html[data-design="A"]:not([data-theme="light"]) {
+    --bg: #041212; --bg-alt: #0A2222; --fg: #D0EDED; --fg-muted: #6AACAC;
+    --accent: #22BBBB; --accent-soft: #041E1E; --border: #143C3C;
+    --card-bg: #0A2222; --link: #44DDDD; --surface: #0A2222; --card: #0A2222;
+    color-scheme: dark;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   THEME B — Warm Editorial
+   Palette: warm cream + forest green + spiced amber
+   Type: Fraunces (variable optical serif, expressive) + DM Sans (clean body)
+   Fraunces is used by Substack, many indie publications — feels cultured
+   and writerly but not stuffy. DM Sans keeps body text breezy.
+   Vibe: "I trust this like a well-sourced long-read"
+══════════════════════════════════════════════════════════════════════════ */
+html[data-design="B"] {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --bg:           #FBF8F2;
+  --bg-alt:       #F0EAD8;
+  --fg:           #1A1208;
+  --fg-muted:     #5A4830;
+  --accent:       #1B5E3A;
+  --accent-soft:  #D4EDDF;
+  --border:       #D4C8A8;
+  --card-bg:      #FFFDF7;
+  --link:         #154D30;
+  --surface:      #F0EAD8;
+  --card:         #FFFDF7;
+  --warn-bg:      #FFF8E4;
+  --warn-border:  #A86B00;
+  --safe-bg:      #E4F2EB;
+  --safe-border:  #1B6B40;
+  color-scheme: light;
+}
+/* typography */
+html[data-design="B"] body { font-family: 'DM Sans', system-ui, sans-serif; font-size: 16.5px; line-height: 1.78; }
+html[data-design="B"] h1, html[data-design="B"] h2, html[data-design="B"] h3 { font-family: 'Fraunces', Georgia, serif; }
+html[data-design="B"] h4 { font-family: 'DM Sans', system-ui, sans-serif; font-style: normal; font-weight: 700; }
+html[data-design="B"] h1 { font-size: clamp(2.3rem, 6vw, 3.6rem); font-weight: 600; letter-spacing: -0.015em; line-height: 1.12; font-style: italic; }
+html[data-design="B"] h2 { font-size: clamp(1.3rem, 4vw, 1.9rem); font-weight: 600; letter-spacing: -0.01em; line-height: 1.22; }
+html[data-design="B"] h3 { font-size: 1.1rem; font-weight: 500; font-style: italic; }
+/* header */
+html[data-design="B"] .site-header {
+  border-bottom: none;
+  padding-block: 64px 40px;
+  background: linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%);
+  margin-inline: -20px;
+  padding-inline: 20px;
+  border-bottom: 2px solid var(--border);
+}
+html[data-design="B"] .site-header p { font-style: italic; font-size: 1.12rem; color: var(--fg-muted); line-height: 1.65; font-family: 'Fraunces', serif; }
+html[data-design="B"] .eyebrow { font-family: 'DM Sans', sans-serif; font-size: 0.72rem; letter-spacing: 0.12em; }
+/* nav tabs */
+html[data-design="B"] .nav-tab { border-radius: 24px; font-family: 'DM Sans', sans-serif; font-size: 0.82rem; font-weight: 500; }
+html[data-design="B"] .nav-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+html[data-design="B"] .nav-tab:hover:not(.active) { background: var(--bg-alt); border-color: var(--accent); color: var(--accent); }
+/* cards */
+html[data-design="B"] .card { border-radius: 14px; box-shadow: 0 2px 12px rgba(27,94,58,0.07); border-color: var(--border); }
+html[data-design="B"] .case-item { border-radius: 12px; border-color: var(--border); box-shadow: 0 1px 4px rgba(27,94,58,0.05); }
+html[data-design="B"] .hotline-card { border-radius: 12px; }
+html[data-design="B"] .step { border-radius: 12px; }
+html[data-design="B"] .step::before { font-family: 'Fraunces', serif; font-weight: 700; border-radius: 50%; }
+/* section heads */
+html[data-design="B"] .sec-head {
+  border-bottom: none;
+  padding-bottom: 0;
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+  font-style: italic;
+}
+html[data-design="B"] .sec-head::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin-top: 10px;
+}
+/* quotes */
+html[data-design="B"] .pull-quote {
+  border-left: none;
+  border-top: 3px solid var(--accent);
+  padding: 20px 0 0;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--fg);
+  background: none;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  position: relative;
+}
+html[data-design="B"] .scripture-pull { border-radius: 0 12px 12px 0; font-family: 'Fraunces', serif; }
+/* signs */
+html[data-design="B"] .signs-list li { border-radius: 12px; }
+/* dark mode B */
+@media (prefers-color-scheme: dark) {
+  html[data-design="B"]:not([data-theme="light"]) {
+    --bg: #0C0904; --bg-alt: #181204; --fg: #F0E8D4; --fg-muted: #9C8C70;
+    --accent: #4ADE80; --accent-soft: #042010; --border: #2C2010;
+    --card-bg: #141008; --link: #86EFAC; --surface: #181204; --card: #141008;
+    color-scheme: dark;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   THEME C — Signal
+   Palette: near-white + electric indigo + slate
+   Type: Syne (geometric display, favoured by creative studios) + Inter
+   Syne is striking without being aggressive — it feels like a design studio
+   or a serious independent publisher. The uppercase treatment on headings
+   creates authority without old-school heaviness.
+   Vibe: "This is the kind of site I'd share without embarrassment"
+══════════════════════════════════════════════════════════════════════════ */
+html[data-design="C"] {
+  --font-display: 'Syne', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --bg:           #F7F6FF;
+  --bg-alt:       #EDEBFF;
+  --fg:           #0C0820;
+  --fg-muted:     #484068;
+  --accent:       #4F1EAA;
+  --accent-soft:  #EBE6FF;
+  --border:       #CBBDFF;
+  --card-bg:      #FFFFFF;
+  --link:         #3B168A;
+  --surface:      #EDEBFF;
+  --card:         #FFFFFF;
+  --warn-bg:      #FFFBEA;
+  --warn-border:  #D97706;
+  --safe-bg:      #ECFDF5;
+  --safe-border:  #059669;
+  color-scheme: light;
+}
+/* typography */
+html[data-design="C"] body { font-family: 'Inter', system-ui, sans-serif; font-size: 15.5px; line-height: 1.75; }
+html[data-design="C"] h1, html[data-design="C"] h2 { font-family: 'Syne', system-ui, sans-serif; }
+html[data-design="C"] h3, html[data-design="C"] h4 { font-family: 'Inter', system-ui, sans-serif; }
+html[data-design="C"] h1 { font-size: clamp(2.6rem, 7vw, 4rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1.03; text-transform: uppercase; }
+html[data-design="C"] h2 { font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 700; letter-spacing: -0.025em; line-height: 1.18; }
+html[data-design="C"] h3 { font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+html[data-design="C"] h4 { font-size: 0.85rem; font-style: normal; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; }
+/* header */
+html[data-design="C"] .site-header {
+  border-bottom: none;
+  padding-block: 60px 36px;
+  margin-inline: -20px;
+  padding-inline: 20px;
+  background: linear-gradient(135deg, #F7F6FF 0%, #E8E4FF 50%, #F7F6FF 100%);
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+html[data-design="C"] .site-header::before {
+  content: '';
+  position: absolute;
+  top: -60px; right: -40px;
+  width: 280px; height: 280px;
+  background: radial-gradient(circle, rgba(79,30,170,0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+html[data-design="C"] .site-header p { font-style: normal; font-size: 1.05rem; color: var(--fg-muted); line-height: 1.65; }
+html[data-design="C"] .eyebrow { font-family: 'Syne', sans-serif; font-size: 0.68rem; letter-spacing: 0.22em; color: var(--accent); }
+/* nav tabs */
+html[data-design="C"] .nav-tabs { border-bottom: 2px solid var(--border); background: var(--bg); }
+html[data-design="C"] .nav-tab { border-radius: 4px; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.03em; border: 1px solid transparent; }
+html[data-design="C"] .nav-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+html[data-design="C"] .nav-tab:hover:not(.active) { background: var(--bg-alt); border-color: var(--border); color: var(--accent); }
+/* cards — sharp corner treatment with top accent bar */
+html[data-design="C"] .card { border-radius: 6px; border-top: 3px solid var(--accent); border-color: var(--border); }
+html[data-design="C"] .case-item { border-radius: 6px; border-top: 3px solid var(--accent); }
+html[data-design="C"] .hotline-card { border-radius: 6px; border-top: 3px solid var(--accent); }
+html[data-design="C"] .step { border-radius: 6px; }
+html[data-design="C"] .step::before { border-radius: 4px; font-family: 'Syne', sans-serif; font-weight: 800; font-size: 0.75rem; }
+html[data-design="C"] .signs-list li { border-radius: 6px; border-top: 2px solid var(--border); border-left: none; border-right: none; border-bottom: none; }
+/* section heads */
+html[data-design="C"] .sec-head {
+  border-bottom: none;
+  padding-bottom: 0;
+  font-family: 'Syne', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+html[data-design="C"] .sec-head::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent) 0%, rgba(79,30,170,0) 60%);
+  margin-top: 10px;
+}
+/* quotes */
+html[data-design="C"] .pull-quote {
+  border-left: none;
+  border-top: 3px solid var(--accent);
+  padding: 20px 0 0;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--fg);
+  background: none;
+}
+html[data-design="C"] .scripture-pull {
+  border-radius: 6px;
+  border-left: 3px solid var(--accent);
+  background: var(--bg-alt);
+}
+/* banner */
+html[data-design="C"] .banner { border-radius: 0 6px 6px 0; }
+/* dark mode C */
+@media (prefers-color-scheme: dark) {
+  html[data-design="C"]:not([data-theme="light"]) {
+    --bg: #07041A; --bg-alt: #0F0928; --fg: #ECE8FF; --fg-muted: #8B7FCC;
+    --accent: #9B6FFA; --accent-soft: #1A0840; --border: #2A1F54;
+    --card-bg: #0F0928; --link: #C4B5FD; --surface: #0F0928; --card: #0F0928;
+    color-scheme: dark;
+  }
+  html[data-design="C"][data-theme="dark"] .site-header::before {
+    background: radial-gradient(circle, rgba(155,111,250,0.15) 0%, transparent 70%);
+  }
+}
+
+/* ── Design Switcher (preview tool — remove before final release) ── */
+.design-switcher {
+  position: fixed;
+  bottom: 20px;
+  right: 16px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  gap: 8px;
+}
+.ds-toggle {
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.3);
+  cursor: pointer;
+  font-size: 1.3rem;
+  line-height: 1;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.25);
+  transition: transform 0.2s;
+  display: flex; align-items: center; justify-content: center;
+}
+.ds-toggle:hover { transform: scale(1.08); }
+.ds-panel {
+  display: none;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+  min-width: 170px;
+}
+.design-switcher.ds-open .ds-panel { display: block; }
+.ds-panel-label {
+  display: block;
+  font-size: .65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--fg-muted);
+  margin-bottom: 10px;
+  font-family: var(--font-body);
+}
+.ds-opt {
+  display: flex; align-items: center; gap: 10px;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: .83rem;
+  font-weight: 500;
+  color: var(--fg);
+  cursor: pointer;
+  transition: background .15s;
+  margin-bottom: 4px;
+  font-family: var(--font-body);
+}
+.ds-opt:hover { background: var(--bg-alt); }
+.ds-opt.active { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); font-weight: 700; }
+.ds-swatch {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 2px solid rgba(0,0,0,0.08);
+}
+</style>
 
 <div class="page-wrap">
+
+<!-- ── Design theme preview switcher ── remove this block before merging to main ── -->
+<div class="design-switcher" id="design-switcher">
+  <button class="ds-toggle" onclick="toggleDS()" aria-label="Preview design themes" title="Preview design themes">🎨</button>
+  <div class="ds-panel" role="menu">
+    <span class="ds-panel-label">Preview themes</span>
+    <button class="ds-opt" data-design="original" onclick="setDesign('original')" role="menuitem">
+      <span class="ds-swatch" style="background:#8B1C2E"></span>
+      <span><strong>Classic</strong><br><small style="font-size:.7rem;color:var(--fg-muted)">Crimson serif, current</small></span>
+    </button>
+    <button class="ds-opt" data-design="A" onclick="setDesign('A')" role="menuitem">
+      <span class="ds-swatch" style="background:#0A7070"></span>
+      <span><strong>A — Trust &amp; Clarity</strong><br><small style="font-size:.7rem;color:var(--fg-muted)">Teal, clean sans, NGO-feel</small></span>
+    </button>
+    <button class="ds-opt" data-design="B" onclick="setDesign('B')" role="menuitem">
+      <span class="ds-swatch" style="background:#1B5E3A"></span>
+      <span><strong>B — Warm Editorial</strong><br><small style="font-size:.7rem;color:var(--fg-muted)">Forest green, long-read vibe</small></span>
+    </button>
+    <button class="ds-opt" data-design="C" onclick="setDesign('C')" role="menuitem">
+      <span class="ds-swatch" style="background:#4F1EAA"></span>
+      <span><strong>C — Signal</strong><br><small style="font-size:.7rem;color:var(--fg-muted)">Indigo, bold, digital-native</small></span>
+    </button>
+  </div>
+</div>
+<!-- ── End design switcher ── -->
 
   <!-- Header -->
   <header class="site-header">
@@ -3018,4 +3431,47 @@ footer {
       if (answer) answer.classList.toggle('open', !expanded);
     });
   });
+
+  // ── Design theme switcher ────────────────────────────────────────────────
+  (function() {
+    const STORAGE_KEY = 'gtf-design-theme';
+    const switcher = document.getElementById('design-switcher');
+    if (!switcher) return;
+
+    function setDesign(theme) {
+      const html = document.documentElement;
+      if (theme === 'original') {
+        html.removeAttribute('data-design');
+      } else {
+        html.setAttribute('data-design', theme);
+      }
+      try { localStorage.setItem(STORAGE_KEY, theme); } catch(e) {}
+      // update active state on buttons
+      switcher.querySelectorAll('.ds-opt').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.design === theme);
+      });
+      // close panel
+      switcher.classList.remove('ds-open');
+    }
+
+    function toggleDS() {
+      switcher.classList.toggle('ds-open');
+    }
+
+    // expose globally so onclick handlers work
+    window.setDesign = setDesign;
+    window.toggleDS = toggleDS;
+
+    // restore saved theme
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) setDesign(saved);
+      else setDesign('original');
+    } catch(e) { setDesign('original'); }
+
+    // close panel on outside click
+    document.addEventListener('click', function(e) {
+      if (!switcher.contains(e.target)) switcher.classList.remove('ds-open');
+    });
+  })();
 </script>
