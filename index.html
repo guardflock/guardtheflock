@@ -773,6 +773,15 @@ a:hover { color: var(--accent); }
 .triage-item .ti-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #92400e; margin-bottom: 4px; }
 @media (prefers-color-scheme: dark) { .triage-item .ti-label { color: #fbbf24; } }
 .triage-item strong { display: block; color: var(--fg); margin-bottom: 2px; }
+/* Ensure every triage card remains readable in both themes. */
+#tab-respond .triage-item,
+#tab-respond .triage-item strong { color: var(--fg) !important; }
+#tab-respond .triage-item em { color: var(--fg-muted) !important; }
+#tab-respond .triage-item a { color: var(--link) !important; text-decoration: underline; }
+:root[data-theme="light"] #tab-respond .triage-item,
+:root[data-theme="light"] #tab-respond .triage-item strong { color: #1C1916 !important; }
+:root[data-theme="light"] #tab-respond .triage-item em { color: #5C5550 !important; }
+
 /* ── Disclosure Protocol ─────────────────────────────────────────────────── */
 .protocol-list { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-direction: column; gap: 12px; counter-reset: protocol; }
 .protocol-list li { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px 14px; font-size: .875rem; line-height: 1.6; display: flex; gap: 14px; align-items: flex-start; counter-increment: protocol; }
