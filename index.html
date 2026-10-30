@@ -765,9 +765,12 @@ a:hover { color: var(--accent); }
 .triage-box h4 { font-size: .85rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: #92400e; margin: 0 0 14px; }
 @media (prefers-color-scheme: dark) { .triage-box h4 { color: #fcd34d; } }
 .triage-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
-.triage-item { background: rgba(255,255,255,.6); border: 1px solid rgba(245,158,11,.3); border-radius: 8px; padding: 12px 14px; font-size: .85rem; line-height: 1.55; }
-@media (prefers-color-scheme: dark) { .triage-item { background: rgba(0,0,0,.25); border-color: rgba(217,119,6,.3); } }
-.triage-item .ti-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #b45309; margin-bottom: 4px; }
+.triage-item { background: rgba(255,255,255,.6); color: var(--fg); border: 1px solid rgba(245,158,11,.3); border-radius: 8px; padding: 12px 14px; font-size: .85rem; line-height: 1.55; }
+.triage-item a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+.triage-item a:hover { color: var(--accent); }
+.triage-item em { color: var(--fg-muted); }
+@media (prefers-color-scheme: dark) { .triage-item { background: rgba(0,0,0,.25); border-color: rgba(217,119,6,.3); color: var(--fg); } }
+.triage-item .ti-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #92400e; margin-bottom: 4px; }
 @media (prefers-color-scheme: dark) { .triage-item .ti-label { color: #fbbf24; } }
 .triage-item strong { display: block; color: var(--fg); margin-bottom: 2px; }
 /* ── Disclosure Protocol ─────────────────────────────────────────────────── */
