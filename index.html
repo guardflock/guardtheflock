@@ -125,6 +125,46 @@ a:hover { color: var(--accent); }
   margin-inline: auto;
 }
 
+/* ── Theme toggle button ─────────────────────────────────────────────────── */
+.theme-toggle {
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px 6px 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  cursor: pointer;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--fg-muted);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: background 0.15s, color 0.15s, border-color 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+.theme-toggle:hover {
+  background: var(--bg-alt);
+  color: var(--fg);
+  border-color: var(--accent);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+.theme-toggle .tt-icon {
+  font-size: 1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+/* hide the label on very small screens */
+@media (max-width: 380px) {
+  .theme-toggle .tt-label { display: none; }
+  .theme-toggle { padding: 8px; border-radius: 50%; }
+}
+
 /* ── Header / Hero ───────────────────────────────────────────────────────── */
 .site-header {
   padding-block: 48px 36px;
@@ -822,6 +862,12 @@ footer {
   #tab-contact .correction-policy { margin-top: 24px; }
   .nav-tabs { row-gap: 8px; }
   </style>
+
+<!-- ── Light / Dark mode toggle ── -->
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle light or dark mode" title="Toggle light/dark mode">
+  <span class="tt-icon" id="tt-icon">🌙</span>
+  <span class="tt-label" id="tt-label">Dark</span>
+</button>
 
 <div class="page-wrap">
 
@@ -3058,4 +3104,57 @@ footer {
       if (answer) answer.classList.toggle('open', !expanded);
     });
   });
+
+  // ── Light / Dark mode toggle ─────────────────────────────────────────────
+  (function() {
+    const THEME_KEY = 'gtf-colour-scheme';
+    const btn   = document.getElementById('theme-toggle');
+    const icon  = document.getElementById('tt-icon');
+    const label = document.getElementById('tt-label');
+    if (!btn) return;
+
+    // Resolve initial theme: saved preference → OS preference → light
+    function getOSPreference() {
+      try { return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+      catch(e) { return 'light'; }
+    }
+    function getSaved() {
+      try { return localStorage.getItem(THEME_KEY); } catch(e) { return null; }
+    }
+
+    function applyTheme(theme) {
+      const html = document.documentElement;
+      html.setAttribute('data-theme', theme);
+      if (theme === 'dark') {
+        icon.textContent  = '☀️';
+        label.textContent = 'Light';
+        btn.setAttribute('aria-label', 'Switch to light mode');
+        btn.setAttribute('title', 'Switch to light mode');
+      } else {
+        icon.textContent  = '🌙';
+        label.textContent = 'Dark';
+        btn.setAttribute('aria-label', 'Switch to dark mode');
+        btn.setAttribute('title', 'Switch to dark mode');
+      }
+      try { localStorage.setItem(THEME_KEY, theme); } catch(e) {}
+    }
+
+    // Initialise
+    const saved = getSaved();
+    applyTheme(saved || getOSPreference());
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+      const current = document.documentElement.getAttribute('data-theme');
+      applyTheme(current === 'dark' ? 'light' : 'dark');
+    });
+
+    // Sync when OS preference changes (e.g. auto-dark at sunset) — only if
+    // the user hasn't manually overridden
+    try {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+        if (!getSaved()) applyTheme(e.matches ? 'dark' : 'light');
+      });
+    } catch(e) {}
+  })();
 </script>
