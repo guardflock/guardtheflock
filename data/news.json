@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T20:50:07.629401Z",
+  "updatedAt": "2026-10-31T05:49:58.170239Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Spiritual Sounding Board",
     "Religion News Service",
+    "Christianity Today",
+    "Spiritual Sounding Board",
     "Baptist News Global",
     "The Guardian — Religion",
     "The Wartburg Watch",
-    "Christianity Today",
-    "Christian Headlines",
     "Christian Post",
+    "Christian Headlines",
     "Surviving Church",
-    "Crux — Catholic News",
     "The Roys Report",
+    "Crux — Catholic News",
     "National Catholic Reporter",
-    "Straits Times",
     "Channel NewsAsia",
-    "Abuse Tracker (Bishop Accountability)",
+    "Straits Times",
     "Charisma News",
+    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
     "Relevant Magazine",
     "ECA Global"
@@ -26,6 +26,174 @@
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "AI giants promise publishers new way to block some scraping",
+      "link": "https://www.channelnewsasia.com/world/ai-giants-promise-publishers-new-way-block-some-scraping-6509181",
+      "date": "2026-10-31T05:47:01Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Verstappen and Lawson get grid drops after Mexico practice clash",
+      "link": "https://www.channelnewsasia.com/sport/verstappen-and-lawson-get-grid-drops-after-mexico-practice-clash-6509186",
+      "date": "2026-10-31T05:42:14Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Hong Kong telecom company agrees to halt US operations under pressure",
+      "link": "https://www.channelnewsasia.com/business/hong-kong-telecom-company-agrees-halt-us-operations-under-pressure-6507926",
+      "date": "2026-10-31T05:20:16Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Alex Marquez takes Sepang pole as injured Martin withdraws from Malaysian GP",
+      "link": "https://www.channelnewsasia.com/sport/alex-marquez-takes-sepang-pole-injured-martin-withdraws-malaysian-gp-6509141",
+      "date": "2026-10-31T04:50:16Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "250 goods vehicles caught for various offences in LTA enforcement blitz",
+      "link": "https://www.straitstimes.com/singapore/250-goods-vehicles-caught-for-various-offences-in-lta-enforcement-blitz",
+      "date": "2026-10-31T04:15:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "China's factory activity marks third contraction in four months",
+      "link": "https://www.channelnewsasia.com/business/chinas-factory-activity-marks-third-contraction-in-four-months-6508946",
+      "date": "2026-10-31T03:58:47Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "US, South Korea, Japan vow 'complete' North Korea denuclearisation",
+      "link": "https://www.channelnewsasia.com/east-asia/us-south-korea-japan-vow-complete-north-korea-denuclearisation-6509071",
+      "date": "2026-10-31T03:34:29Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Sudanese pastor's son freed from prison, but danger remains",
+      "link": "https://www.christianpost.com/news/sudanese-pastors-son-freed-from-prison-but-danger-remains.html",
+      "date": "2026-10-31T03:00:11Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Fatal Tampines crash: Driver charged with fleeing scene where 2 people died",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/fatal-tampines-crash-driver-charged-with-fleeing-scene-where-2-people-died",
+      "date": "2026-10-31T02:22:34Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Japanese bodybuilder, 90, flexes ageless ambition on Spanish stage",
+      "link": "https://www.channelnewsasia.com/sport/japanese-bodybuilder-90-flexes-ageless-ambition-spanish-stage-6508986",
+      "date": "2026-10-31T02:09:13Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Gen Z protests hit Germany as over 160,000 expected at Halloween rallies, while France braces for more unrest",
+      "link": "https://www.channelnewsasia.com/world/germany-gen-z-protests-160000-expected-halloween-6508941",
+      "date": "2026-10-31T01:56:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "What Did Jean-Luc Picard Have That Carl Lentz Doesn’t? How About Integrity?",
+      "link": "https://thewartburgwatch.com/2026/10/30/what-did-jean-luc-picard-have-that-carl-lentz-doesnt-how-about-integrity/",
+      "date": "2026-10-31T01:39:58Z",
+      "source": "The Wartburg Watch",
+      "cat": "accountability"
+    },
+    {
+      "title": "Ohio pastor with 2 wives facing backlash after polygamy announcement: 'Raises questions about spiritual manipulation'",
+      "link": "https://www.christianpost.com/news/ohio-pastor-with-2-wives-facing-backlash-after-claiming-polygamy.html",
+      "date": "2026-10-31T01:06:53Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Boys can like pink, girls can be firefighters: Male pre-school teachers challenge gender stereotypes",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/boys-can-like-pink-girls-can-be-firefighters-male-preschool-teachers-challenge-gender-stereotypes",
+      "date": "2026-10-31T01:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Comfortable in her own skin: How a 12-year-old embraces her rare birthmark",
+      "link": "https://www.straitstimes.com/singapore/health/comfortable-in-her-own-skin-how-a-12-year-old-embraces-her-rare-birthmark",
+      "date": "2026-10-31T00:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Christian blogger Samuel Sey, arrested by ICE, has been removed to Canada, family says",
+      "link": "https://religionnews.com/2026/10/30/samuel-sey-christian-blogger-arrested-by-ice-is-now-in-canada/",
+      "date": "2026-10-30T22:50:50Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Lightning Strike Blamed for 157-Year-Old Church Fire Mt. Zion members say \"the people are still here\" as they plan to rebuild.",
+      "link": "https://ministrywatch.com/lightning-strike-blamed-for-157-year-old-church-fire/",
+      "date": "2026-10-30T22:30:56Z",
+      "source": "MinistryWatch",
+      "cat": "accountability"
+    },
+    {
+      "title": "Former Acts 29 CEO Stephen Timmis, wife Janet, face eight rape charges in UK",
+      "link": "https://roysreport.com/former-acts-29-ceo-stephen-timmis-wife-janet-face-eight-rape-charges-in-uk/",
+      "date": "2026-10-30T22:19:37Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "In another historic move, Pope Leo casts absentee US vote from Rome",
+      "link": "https://religionnews.com/2026/10/30/in-another-historic-move-pope-leo-casts-absentee-u-s-vote-from-rome/",
+      "date": "2026-10-30T21:48:24Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Mike Huckabee, Tucker Carlson feud over Israeli settler attack on US citizen: 'Deranged'",
+      "link": "https://www.christianpost.com/news/mike-huckabee-tucker-carlson-feud-over-israeli-settler-attack.html",
+      "date": "2026-10-30T21:20:06Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "What Does a \"Biblical Worldview\" Actually Look Like in Everyday Life?",
+      "link": "https://www.crosswalk.com/headlines/contributors/guest-commentary/biblical-worldview-everyday-life.html",
+      "date": "2026-10-30T21:13:00Z",
+      "source": "Christian Headlines",
+      "cat": "evangelical"
+    },
+    {
+      "title": "From electrification to climate finance, how will COP31 move the needle on climate action?",
+      "link": "https://www.straitstimes.com/singapore/environment/from-electrification-to-climate-finance-how-will-cop31-move-the-needle-on-climate-action",
+      "date": "2026-10-30T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "This Sunday, the Global Church Will Pray for 388 Million Christians Facing High Levels of Persecution",
+      "link": "https://relevantmagazine.com/justice/this-sunday-the-global-church-will-pray-for-the-388-million-christians-facing-high-levels-of-persecution/",
+      "date": "2026-10-30T20:59:55Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Whistleblower: Compassion International has no ‘off ramp’ for sponsors accused of grooming",
+      "link": "https://roysreport.com/whistleblower-compassion-international-has-no-off-ramp-for-sponsors-accused-of-grooming/",
+      "date": "2026-10-30T20:52:13Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
     {
       "title": "What Is Flying in Our Skies? 164 Black Triangle UFO Sightings Spark New Mystery",
       "link": "https://mycharisma.com/news/what-is-flying-in-our-skies-164-black-triangle-ufo-sightings-spark-new-mystery/",
@@ -41,13 +209,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "October ends with a thud for Intel, Reddit, AI stalwarts",
-      "link": "https://www.channelnewsasia.com/business/october-ends-thud-intel-reddit-ai-stalwarts-6508591",
-      "date": "2026-10-30T20:34:04Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Evangelical financier sentenced to 15 years for Georgia investment fraud",
       "link": "https://roysreport.com/evangelical-financier-sentenced-to-15-years-for-georgia-investment-fraud/",
       "date": "2026-10-30T20:29:18Z",
@@ -55,11 +216,18 @@
       "cat": "accountability"
     },
     {
-      "title": "Leclerc fastest in Mexico practice, Antonelli returns from sickness",
-      "link": "https://www.channelnewsasia.com/sport/leclerc-fastest-in-mexico-practice-antonelli-returns-sickness-6508576",
-      "date": "2026-10-30T20:28:31Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
+      "title": "Michael Wurmbrand, son of persecuted Romanian pastor and Voice of the Martyrs critic, dies at 87",
+      "link": "https://roysreport.com/michael-wurmbrand-son-of-persecuted-romanian-pastor-and-voice-of-the-martyrs-critic-dies-at-87/",
+      "date": "2026-10-30T20:20:20Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Cuban pastor’s son gets new court date as advocates dispute ICE allegations",
+      "link": "https://www.christianpost.com/news/advocates-dispute-ice-allegations-against-cuban-pastors-son.html",
+      "date": "2026-10-30T20:20:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
     },
     {
       "title": "Rod Dreher among prominent conservatives focusing fight on Groypers, Christian nationalists",
@@ -90,13 +258,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Whistleblower: Compassion International has no ‘off ramp’ for sponsors accused of grooming",
-      "link": "https://roysreport.com/whistleblower-compassion-international-has-no-off-ramp-for-sponsors-accused-of-grooming/",
-      "date": "2026-10-30T19:43:13Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
       "title": "WNBA Star Sophie Cunningham to Theo Von: ‘Nothing You Do Is Going to Separate You From God’s Love and Grace and Forgiveness’",
       "link": "https://relevantmagazine.com/culture/sports/sophie-cunningham-to-theo-von-nothing-you-do-is-going-to-separate-you-from-gods-love-and-grace-and-forgiveness/",
       "date": "2026-10-30T19:40:56Z",
@@ -111,32 +272,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran",
-      "link": "https://www.channelnewsasia.com/business/oil-jumps-2-settles-6-month-highs-fears-escalation-in-iran-6505721",
-      "date": "2026-10-30T19:26:29Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Oil prices set for fourth straight monthly gains as tanker attack highlights supply risks",
-      "link": "https://www.channelnewsasia.com/world/oil-prices-set-fourth-straight-monthly-gains-tanker-attack-highlights-supply-risks-6508426",
-      "date": "2026-10-30T18:43:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Powerful UniteUS Event at South Alabama Sees 600 Professions of Faith",
       "link": "https://www.crosswalk.com/headlines/contributors/milton-quintanilla/uniteus-event-in-alabama-sees-600-professions-of-faith.html",
       "date": "2026-10-30T18:26:00Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "Norris says he never blames equipment if a teammate beats him",
-      "link": "https://www.channelnewsasia.com/sport/norris-says-he-never-blames-equipment-if-teammate-beats-him-6508411",
-      "date": "2026-10-30T18:21:32Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Police arrest driver, passenger who fled from Tampines crash that killed motorcyclist, pregnant wife",
@@ -160,13 +300,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "China says stealth attack drone makes first takeoff, landing on amphibious ship",
-      "link": "https://www.channelnewsasia.com/world/china-says-stealth-attack-drone-makes-first-takeoff-landing-amphibious-ship-6507981",
-      "date": "2026-10-30T18:16:16Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Pope Leo XIV becomes first head of Catholic Church to vote in US election",
       "link": "https://www.christianpost.com/news/pope-leo-xiv-becomes-first-pontiff-to-vote-in-us-election.html",
       "date": "2026-10-30T18:14:00Z",
@@ -181,31 +314,10 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Alliant targets 1 GW of new data-center contracts in six months as power demand surges",
-      "link": "https://www.channelnewsasia.com/business/alliant-targets-1-gw-new-data-center-contracts-in-six-months-power-demand-surges-6507986",
-      "date": "2026-10-30T17:55:57Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "US SEC's top cop says agency is monitoring AI corporate disclosures",
-      "link": "https://www.channelnewsasia.com/business/us-secs-top-cop-says-agency-monitoring-ai-corporate-disclosures-6507991",
-      "date": "2026-10-30T17:55:27Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Is This What They Are Preparing For? ‘Financial Doomsday’ Looms As Cyberattacks And Rogue AI Agents Force Banks To Prepare For A ‘Day After’ Scenario",
       "link": "https://mycharisma.com/news/is-this-what-they-are-preparing-for-financial-doomsday-looms-as-cyberattacks-and-rogue-ai-agents-force-banks-to-prepare-for-a-day-after-scenario/",
       "date": "2026-10-30T17:10:04Z",
       "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Asheville Christian Academy says boy's claims of severe bullying are 'without merit'",
-      "link": "https://www.christianpost.com/news/nc-christian-school-says-bullying-claims-are-without-merit.html",
-      "date": "2026-10-30T16:34:00Z",
-      "source": "Christian Post",
       "cat": "evangelical"
     },
     {
@@ -227,13 +339,6 @@
       "link": "https://baptistnews.com/article/ohio-senator-condemned-for-wanting-to-ban-muslim-candidate-from-dc/",
       "date": "2026-10-30T15:54:15Z",
       "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Network launched to fund Christian school scholarships under new federal school choice program",
-      "link": "https://www.christianpost.com/news/network-launched-to-fund-christian-school-scholarships.html",
-      "date": "2026-10-30T15:35:00Z",
-      "source": "Christian Post",
       "cat": "evangelical"
     },
     {
@@ -261,13 +366,6 @@
       "title": "Chicago-area Hindu community shaken but resilient after alleged mass shooting plan was thwarted",
       "link": "https://religionnews.com/2026/10/30/chicago-area-hindu-community-shaken-but-resilient-after-alleged-mass-shooting-plan-was-thwarted/",
       "date": "2026-10-30T15:23:31Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Big 12 fines UCF $100,000 for fan behavior aimed at BYU, Mormon church",
-      "link": "https://religionnews.com/2026/10/30/big-12-fines-ucf-100000-for-fan-behavior-aimed-at-byu-mormon-church/",
-      "date": "2026-10-30T15:22:18Z",
       "source": "Religion News Service",
       "cat": "mainstreamreligion"
     },
@@ -328,13 +426,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "James O’Keefe pushes back against felony charges over undercover investigation of Minnesota elections",
-      "link": "https://www.christianpost.com/news/james-okeefe-pushes-back-against-felony-charges-over-minnesota-election-probe.html",
-      "date": "2026-10-30T15:02:26Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "‘Let nothing be forgotten’: Holocaust survivors’ memorial books honored lives lost and vibrant hometowns",
       "link": "https://baptistnews.com/article/let-nothing-be-forgotten-holocaust-survivors-memorial-books-honored-lives-lost-and-vibrant-hometowns/",
       "date": "2026-10-30T15:00:08Z",
@@ -377,30 +468,9 @@
       "cat": "evangelical"
     },
     {
-      "title": "‘Witches’ epithet hurled at abortion proponents has roots in Appalachian history",
-      "link": "https://religionnews.com/2026/10/30/witches-epithet-hurled-at-abortion-proponents-has-roots-in-appalachian-history/",
-      "date": "2026-10-30T14:27:05Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "‘Better late than never,’ says Balakrishnan on first Pakistan visit by S’pore leader in two decades",
       "link": "https://www.straitstimes.com/singapore/better-late-than-never-says-balakrishnan-on-first-pakistan-visit-by-spore-leader-in-two-decades",
       "date": "2026-10-30T14:15:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "UMC Bishop appoints new pastor to Texas megachurch that voted to disaffiliate",
-      "link": "https://www.christianpost.com/news/umc-appoints-new-leader-to-texas-megachurch-that-voted-to-leave.html",
-      "date": "2026-10-30T14:06:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Private-hire car loan curbs unlikely to bring down COE prices immediately: Motor dealers",
-      "link": "https://www.straitstimes.com/singapore/transport/private-hire-car-loan-curbs-unlikely-to-bring-down-coe-prices-immediately-motor-dealers",
-      "date": "2026-10-30T13:50:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
@@ -461,20 +531,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Make room for next generation while tapping elders’ experience: PM Wong to Chinese business leaders",
-      "link": "https://www.straitstimes.com/singapore/politics/make-room-for-next-generation-while-tapping-elders-experience-pm-wong-to-chinese-business-leaders",
-      "date": "2026-10-30T12:50:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "N.J. priest ran a retreat for boys. 2 men say he sexually abused them for years.",
-      "link": "https://www.bishop-accountability.org/2026/10/n-j-priest-ran-a-retreat-for-boys-2-men-say-he-sexually-abused-them-for-years/",
-      "date": "2026-10-30T12:48:28Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
       "title": "Mangaluru Catholic priest accused of abusing minor boys gets bail",
       "link": "https://www.bishop-accountability.org/2026/10/mangaluru-catholic-priest-accused-of-abusing-minor-boys-gets-bail/",
       "date": "2026-10-30T12:45:53Z",
@@ -489,32 +545,11 @@
       "cat": "accountability"
     },
     {
-      "title": "Evo Singapore moves regional fighting games tournament debut to Jan 2027",
-      "link": "https://www.straitstimes.com/singapore/evo-singapore-moves-regional-fighting-games-tournament-debut-to-jan-2027",
-      "date": "2026-10-30T12:38:45Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Peace or Pipe Dream? Huckabee’s Warning Exposes Challenges Facing Trump’s Gaza Plan",
       "link": "https://mycharisma.com/news/peace-or-pipe-dream-huckabees-warning-exposes-challenges-facing-trumps-gaza-plan/",
       "date": "2026-10-30T12:24:39Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Orchard Road Christmas light-up returns with Marvel installation, giant Merli and expanded carnival",
-      "link": "https://www.straitstimes.com/singapore/orchard-road-christmas-light-up-returns-with-marvel-installation-giant-merli-and-expanded-carnival",
-      "date": "2026-10-30T11:50:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Edwin Tong warns of new maritime tech risks, urges support for international law at UN",
-      "link": "https://www.straitstimes.com/singapore/politics/edwin-tong-warns-of-new-maritime-tech-risks-urges-support-for-international-law-at-un",
-      "date": "2026-10-30T11:11:21Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "How Untreated Boarding School Survivors Have Run and Harmed the Church",
@@ -664,13 +699,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Gallup: Americans Under 30 Rate Their Lives 20 Points Lower Than They Did in 2010",
-      "link": "https://relevantmagazine.com/life5/gallup-americans-under-30-rate-their-lives-20-points-lower-than-they-did-in-2010/",
-      "date": "2026-10-29T20:01:01Z",
-      "source": "Relevant Magazine",
-      "cat": "evangelical"
-    },
-    {
       "title": "MinistryWatch’s Top 10 Stories for October",
       "link": "https://ministrywatch.com/ministrywatchs-top-10-stories-for-october-2/",
       "date": "2026-10-29T19:29:31Z",
@@ -706,16 +734,16 @@
       "cat": "evangelical"
     },
     {
-      "title": "'Lost' Star Evangeline Lilly Reveals Why She Stepped Away From Hollywood: 'God Has a Plan for My Life'",
-      "link": "https://www.crosswalk.com/headlines/contributors/amber-ginter/lost-star-evangeline-lilly-reveals-why-she-stepped-away-from-hollywood-god-has-a-plan-for-my-life.html",
-      "date": "2026-10-29T15:20:00Z",
-      "source": "Christian Headlines",
-      "cat": "evangelical"
-    },
-    {
       "title": "Pope Leo XIV’s Argentina visit brings renewed scrutiny of clergy abuse scandals",
       "link": "https://www.bishop-accountability.org/2026/10/pope-leo-xivs-argentina-visit-brings-renewed-scrutiny-of-clergy-abuse-scandals/",
       "date": "2026-10-29T13:41:32Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Polish bishop convicted of failing to report clergy abuse of minors",
+      "link": "https://www.bishop-accountability.org/2026/10/polish-bishop-convicted-of-failing-to-report-clergy-abuse-of-minors/",
+      "date": "2026-10-29T13:39:39Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
     },
@@ -804,13 +832,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Usher charged with raping girl in church basement: ‘They want to keep me quiet’",
-      "link": "https://roysreport.com/usher-charged-with-raping-girl-in-church-basement-they-want-to-keep-me-quiet/",
-      "date": "2026-10-28T21:37:13Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
       "title": "Carl and Laura Lentz Hit the Social Media Influencer Trail to ‘Share’ Their Journey. What’s Going On?",
       "link": "https://thewartburgwatch.com/2026/10/28/carl-and-laura-lentz-hit-the-social-media-influencer-trail-to-share-their-journey-whats-going-on/",
       "date": "2026-10-28T21:00:05Z",
@@ -822,20 +843,6 @@
       "link": "https://ministrywatch.com/miami-pastor-returns-to-pulpit-after-elder-fraud-conviction/",
       "date": "2026-10-28T19:47:14Z",
       "source": "MinistryWatch",
-      "cat": "accountability"
-    },
-    {
-      "title": "One of the Country’s Largest UMC Churches Votes to Leave Denomination Highland Park UMC locked in bitter battle with denomination’s regional body over issues of governance.",
-      "link": "https://ministrywatch.com/one-of-the-countrys-largest-umc-churches-votes-to-leave-denomination/",
-      "date": "2026-10-28T19:27:51Z",
-      "source": "MinistryWatch",
-      "cat": "accountability"
-    },
-    {
-      "title": "One of the largest UMC churches in the country just voted to leave the denomination",
-      "link": "https://roysreport.com/one-of-the-largest-umc-churches-in-the-country-just-voted-to-leave-the-denomination/",
-      "date": "2026-10-28T17:07:05Z",
-      "source": "The Roys Report",
       "cat": "accountability"
     },
     {
@@ -858,13 +865,6 @@
       "date": "2026-10-27T01:25:50Z",
       "source": "The Wartburg Watch",
       "cat": "accountability"
-    },
-    {
-      "title": "Catholic bishops accuse Trump White House of turning prayer into campaign photo op",
-      "link": "https://www.theguardian.com/us-news/2026/oct/26/catholic-bishops-trump-white-house-prayer",
-      "date": "2026-10-26T15:05:34Z",
-      "source": "The Guardian — Religion",
-      "cat": "mainstreamreligion"
     }
   ]
 }
