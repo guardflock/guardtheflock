@@ -1,36 +1,106 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T14:34:13.066909Z",
+  "updatedAt": "2026-10-31T20:00:33.390751Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Christianity Today",
-    "Spiritual Sounding Board",
     "Religion News Service",
-    "Baptist News Global",
+    "Spiritual Sounding Board",
     "The Guardian — Religion",
+    "Christianity Today",
+    "Baptist News Global",
     "The Wartburg Watch",
     "Christian Headlines",
-    "National Catholic Reporter",
     "Crux — Catholic News",
-    "Surviving Church",
-    "The Roys Report",
     "Christian Post",
+    "National Catholic Reporter",
     "Channel NewsAsia",
+    "The Roys Report",
     "Straits Times",
+    "Charisma News",
     "MinistryWatch",
+    "Surviving Church",
     "Abuse Tracker (Bishop Accountability)",
     "Relevant Magazine",
-    "ECA Global",
-    "Charisma News"
+    "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Haze probe: Five Singapore-registered companies agree to engage assessors",
-      "link": "https://www.channelnewsasia.com/singapore/haze-probe-companies-agree-engage-assessors-6509691",
-      "date": "2026-10-31T14:27:40Z",
+      "title": "Kane misses penalty, hits post as Dortmund snatch draw",
+      "link": "https://www.channelnewsasia.com/sport/kane-misses-penalty-hits-post-dortmund-snatch-draw-6510211",
+      "date": "2026-10-31T19:43:01Z",
       "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Norris fastest in Mexico City practice ahead of Antonelli",
+      "link": "https://www.channelnewsasia.com/sport/norris-fastest-in-mexico-city-practice-ahead-antonelli-6510171",
+      "date": "2026-10-31T18:47:23Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "MotoGP confident Qatar race can go ahead despite rider pushback",
+      "link": "https://www.channelnewsasia.com/sport/motogp-confident-qatar-race-can-go-ahead-despite-rider-pushback-6509881",
+      "date": "2026-10-31T17:54:38Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Man City rue poor finishing in home loss to Brighton",
+      "link": "https://www.channelnewsasia.com/sport/man-city-rue-poor-finishing-in-home-loss-brighton-6509871",
+      "date": "2026-10-31T17:47:57Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Hadjar warned after Mexican paddock incident with F1 guest",
+      "link": "https://www.channelnewsasia.com/sport/hadjar-warned-after-mexican-paddock-incident-f1-guest-6509841",
+      "date": "2026-10-31T17:17:43Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Zaman hundred powers Pakistan to tri-series title over Sri Lanka",
+      "link": "https://www.channelnewsasia.com/sport/zaman-hundred-powers-pakistan-tri-series-title-over-sri-lanka-6509846",
+      "date": "2026-10-31T17:16:53Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Dark day for Manchester United and City after Halloween defeats",
+      "link": "https://www.channelnewsasia.com/sport/dark-day-manchester-united-and-city-after-halloween-defeats-6509831",
+      "date": "2026-10-31T17:09:08Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Alcaraz reaches first Vienna final, De Minaur upsets Zverev",
+      "link": "https://www.channelnewsasia.com/sport/alcaraz-reaches-first-vienna-final-de-minaur-upsets-zverev-6509821",
+      "date": "2026-10-31T16:31:07Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Polish diocese to appeal bishop’s conviction over abuse reporting",
+      "link": "https://www.bishop-accountability.org/2026/10/polish-diocese-to-appeal-bishops-conviction-over-abuse-reporting/",
+      "date": "2026-10-31T15:59:26Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Notre Dame residence rector cleared of anonymous online abuse allegations",
+      "link": "https://www.ncronline.org/news/notre-dame-residence-rector-cleared-anonymous-online-abuse-allegations",
+      "date": "2026-10-31T14:58:23Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Haze probe: Five Singapore-registered companies agree to engage assessors",
+      "link": "https://www.straitstimes.com/singapore/haze-probe-five-singapore-registered-companies-agree-to-engage-assessors",
+      "date": "2026-10-31T14:53:11Z",
+      "source": "Straits Times",
       "cat": "asia"
     },
     {
@@ -55,18 +125,18 @@
       "cat": "catholic"
     },
     {
+      "title": "Dinesh D’Souza on biblical archaeology, prophecy and the last days",
+      "link": "https://www.christianpost.com/video/dinesh-dsouza-on-biblical-archaeology-prophecy-and-last-days.html",
+      "date": "2026-10-31T14:10:22Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
       "title": "It’s much more than just a hoop and a prayer for Notre Dame and Villanova chaplains in Rome",
       "link": "https://cruxnow.com/vatican/2026/10/its-much-more-than-just-a-hoop-and-a-prayer-for-notre-dame-and-villanova-team-chaplains-in-rome/",
       "date": "2026-10-31T14:10:00Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Iran's supreme leader warns US, Israel against new attacks",
-      "link": "https://www.channelnewsasia.com/world/iran-supreme-leader-warn-us-israel-new-attacks-6509621",
-      "date": "2026-10-31T14:09:49Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Reformation Day: 7 lesser-known facts about Martin Luther",
@@ -132,13 +202,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Notre Dame residence rector cleared of anonymous online abuse allegations",
-      "link": "https://www.bishop-accountability.org/2026/10/notre-dame-residence-rector-cleared-of-anonymous-online-abuse-allegations/",
-      "date": "2026-10-31T12:36:25Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
       "title": "Singapore Indian Fine Arts Society moves to new campus in Bras Basah-Bugis arts district",
       "link": "https://www.straitstimes.com/singapore/singapore-indian-fine-arts-society-opens-new-campus-in-bras-basah-bugis-arts-district",
       "date": "2026-10-31T12:30:00Z",
@@ -151,13 +214,6 @@
       "date": "2026-10-31T12:27:11Z",
       "source": "Christian Post",
       "cat": "evangelical"
-    },
-    {
-      "title": "Manchester United captain Fernandes returns to starting lineup at Chelsea",
-      "link": "https://www.channelnewsasia.com/sport/manchester-united-captain-fernandes-returns-starting-lineup-chelsea-6509501",
-      "date": "2026-10-31T12:05:53Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "This rightwing evangelical was one of Trump’s biggest backers. Why isn’t he talking about the midterms?",
@@ -188,13 +244,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "US campaign for control of Congress enters final weekend",
-      "link": "https://www.channelnewsasia.com/world/us-midterm-election-campaign-congress-final-weekend-6509386",
-      "date": "2026-10-31T11:13:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "The fall of the Etsy witch",
       "link": "https://religionnews.com/2026/10/31/the-fall-of-the-etsy-witch/",
       "date": "2026-10-31T11:01:43Z",
@@ -209,13 +258,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Harmer, Rabada steer South Africa to series win over Australia",
-      "link": "https://www.channelnewsasia.com/sport/harmer-rabada-steer-south-africa-series-win-over-australia-6509451",
-      "date": "2026-10-31T10:59:47Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Elon Musk Lays Out Exactly What Dems Will Do If GOP Voters Don’t Show Up at the Polls",
       "link": "https://mycharisma.com/most-recent/elon-musk-lays-out-exactly-what-dems-will-do-if-gop-voters-dont-show-up-at-the-polls/",
       "date": "2026-10-31T10:30:00Z",
@@ -223,32 +265,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Power bills and data centers cast rare spotlight on utilities in US midterms",
-      "link": "https://www.channelnewsasia.com/business/power-bills-and-data-centers-cast-rare-spotlight-utilities-in-us-midterms-6509406",
-      "date": "2026-10-31T10:08:54Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Obscure Rule Could Block Socialists from Taking Congress",
       "link": "https://mycharisma.com/news/obscure-rule-could-block-socialists-from-taking-congress/",
       "date": "2026-10-31T10:00:00Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Residents of Russian-controlled Ukrainian town arrive in Belarus",
-      "link": "https://www.channelnewsasia.com/world/residents-russian-controlled-ukrainian-town-arrive-in-belarus-6509371",
-      "date": "2026-10-31T09:59:23Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Shooting at California Halloween store kills one, wounds six",
-      "link": "https://www.channelnewsasia.com/world/shooting-california-halloween-store-kills-one-wounds-six-6509311",
-      "date": "2026-10-31T09:02:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Look beyond cut-off points, PSLE scores when choosing secondary schools: Principals at ST forum",
@@ -321,25 +342,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Fatal Tampines crash: Driver charged with fleeing scene of accident that killed 2 people",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/fatal-tampines-crash-driver-charged-with-fleeing-scene-where-2-people-died",
-      "date": "2026-10-31T02:22:34Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "What Did Jean-Luc Picard Have That Carl Lentz Doesn’t? How About Integrity?",
       "link": "https://thewartburgwatch.com/2026/10/30/what-did-jean-luc-picard-have-that-carl-lentz-doesnt-how-about-integrity/",
       "date": "2026-10-31T01:39:58Z",
       "source": "The Wartburg Watch",
       "cat": "accountability"
-    },
-    {
-      "title": "Ohio pastor with 2 wives facing backlash after polygamy announcement: 'Raises questions about spiritual manipulation'",
-      "link": "https://www.christianpost.com/news/ohio-pastor-with-2-wives-facing-backlash-after-claiming-polygamy.html",
-      "date": "2026-10-31T01:06:53Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "Christian blogger Samuel Sey, arrested by ICE, has been removed to Canada, family says",
@@ -666,13 +673,6 @@
     {
       "title": "40 years after Cardinal Ratzinger's 'Halloween Letter,' anti-gay message lingers",
       "link": "https://www.ncronline.org/opinion/40-years-after-cardinal-ratzingers-halloween-letter-anti-gay-message-lingers",
-      "date": "2026-10-30T08:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "Villanova and Notre Dame bring college basketball to Rome. Dinner is on the line.",
-      "link": "https://www.ncronline.org/vatican/villanova-and-notre-dame-bring-college-basketball-rome-dinner-line",
       "date": "2026-10-30T08:00:00Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
