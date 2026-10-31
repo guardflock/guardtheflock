@@ -1,85 +1,113 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T20:00:33.390751Z",
+  "updatedAt": "2026-10-31T23:25:25.237433Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Religion News Service",
-    "Spiritual Sounding Board",
-    "The Guardian — Religion",
     "Christianity Today",
+    "Spiritual Sounding Board",
+    "Religion News Service",
     "Baptist News Global",
-    "The Wartburg Watch",
     "Christian Headlines",
-    "Crux — Catholic News",
-    "Christian Post",
+    "The Wartburg Watch",
     "National Catholic Reporter",
+    "Crux — Catholic News",
+    "The Guardian — Religion",
+    "Christian Post",
     "Channel NewsAsia",
-    "The Roys Report",
     "Straits Times",
-    "Charisma News",
-    "MinistryWatch",
     "Surviving Church",
+    "The Roys Report",
+    "Charisma News",
+    "ECA Global",
+    "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
-    "Relevant Magazine",
-    "ECA Global"
+    "Relevant Magazine"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Kane misses penalty, hits post as Dortmund snatch draw",
-      "link": "https://www.channelnewsasia.com/sport/kane-misses-penalty-hits-post-dortmund-snatch-draw-6510211",
-      "date": "2026-10-31T19:43:01Z",
+      "title": "Canelo defeats Mbilli by unanimous decision to reclaim super middleweight title",
+      "link": "https://www.channelnewsasia.com/sport/canelo-defeats-mbilli-unanimous-decision-reclaim-super-middleweight-title-6510386",
+      "date": "2026-10-31T23:12:38Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Norris fastest in Mexico City practice ahead of Antonelli",
-      "link": "https://www.channelnewsasia.com/sport/norris-fastest-in-mexico-city-practice-ahead-antonelli-6510171",
-      "date": "2026-10-31T18:47:23Z",
+      "title": "Vietnam cuts retail electricity price, removes gasoline tax from November 1",
+      "link": "https://www.channelnewsasia.com/business/vietnam-cuts-retail-electricity-price-removes-gasoline-tax-november-1-6510361",
+      "date": "2026-10-31T22:30:13Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "MotoGP confident Qatar race can go ahead despite rider pushback",
-      "link": "https://www.channelnewsasia.com/sport/motogp-confident-qatar-race-can-go-ahead-despite-rider-pushback-6509881",
-      "date": "2026-10-31T17:54:38Z",
+      "title": "Hamilton puts Ferrari on pole in Mexico City, Antonelli to start fourth",
+      "link": "https://www.channelnewsasia.com/sport/hamilton-puts-ferrari-pole-in-mexico-city-antonelli-start-fourth-6510356",
+      "date": "2026-10-31T22:27:26Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Man City rue poor finishing in home loss to Brighton",
-      "link": "https://www.channelnewsasia.com/sport/man-city-rue-poor-finishing-in-home-loss-brighton-6509871",
-      "date": "2026-10-31T17:47:57Z",
+      "title": "Milan earn 3-1 derby win over Inter, Roma thump Udinese 5-2",
+      "link": "https://www.channelnewsasia.com/sport/milan-earn-3-1-derby-win-over-inter-roma-thump-udinese-5-2-6510341",
+      "date": "2026-10-31T22:07:10Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Hadjar warned after Mexican paddock incident with F1 guest",
-      "link": "https://www.channelnewsasia.com/sport/hadjar-warned-after-mexican-paddock-incident-f1-guest-6509841",
-      "date": "2026-10-31T17:17:43Z",
+      "title": "Barcelona bounce back with 6-1 win over Alaves",
+      "link": "https://www.channelnewsasia.com/sport/barcelona-bounce-back-6-1-win-over-alaves-6510346",
+      "date": "2026-10-31T22:06:31Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Zaman hundred powers Pakistan to tri-series title over Sri Lanka",
-      "link": "https://www.channelnewsasia.com/sport/zaman-hundred-powers-pakistan-tri-series-title-over-sri-lanka-6509846",
-      "date": "2026-10-31T17:16:53Z",
+      "title": "Commentary: The invisible workforce helping Singapore age well",
+      "link": "https://www.channelnewsasia.com/commentary/singapore-ageing-health-community-care-career-6506566",
+      "date": "2026-10-31T22:00:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Dark day for Manchester United and City after Halloween defeats",
-      "link": "https://www.channelnewsasia.com/sport/dark-day-manchester-united-and-city-after-halloween-defeats-6509831",
-      "date": "2026-10-31T17:09:08Z",
+      "title": "Rare, roomy and pricey? Inside Singapore's niche jumbo HDB flat market",
+      "link": "https://www.channelnewsasia.com/singapore/jumbo-hdb-flat-singapore-rare-housing-market-6506081",
+      "date": "2026-10-31T22:00:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Alcaraz reaches first Vienna final, De Minaur upsets Zverev",
-      "link": "https://www.channelnewsasia.com/sport/alcaraz-reaches-first-vienna-final-de-minaur-upsets-zverev-6509821",
-      "date": "2026-10-31T16:31:07Z",
+      "title": "Malaysia wants to move away from Waze. Will drivers make the switch?",
+      "link": "https://www.channelnewsasia.com/asia/waze-tuju-navigation-app-anwar-ibrahim-malaysia-6502896",
+      "date": "2026-10-31T22:00:00Z",
       "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "More enhanced community health posts across the island to bring health services closer to seniors",
+      "link": "https://www.straitstimes.com/singapore/health/more-enhanced-community-health-posts-across-the-island-to-bring-health-services-closer-to-seniors",
+      "date": "2026-10-31T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Elderly woman granted protection order against husband after 50 years of physical, verbal abuse",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/elderly-woman-granted-protection-order-against-husband-after-50-years-of-physical-verbal-abuse",
+      "date": "2026-10-31T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Fixing the ‘bottom rung’: S’pore fresh grads urged to use, critique AI to get a leg-up in employment",
+      "link": "https://www.straitstimes.com/tech/fixing-the-bottom-rung-fresh-grads-urged-to-use-critique-ai-to-get-a-leg-up-in-employment",
+      "date": "2026-10-31T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "First published employment tribunal judgments spur worker to contest dismissal through mediation",
+      "link": "https://www.straitstimes.com/singapore/first-published-employment-tribunal-judgments-spur-worker-to-contest-dismissal-through-mediation",
+      "date": "2026-10-31T21:00:00Z",
+      "source": "Straits Times",
       "cat": "asia"
     },
     {
@@ -272,15 +300,15 @@
       "cat": "evangelical"
     },
     {
-      "title": "Look beyond cut-off points, PSLE scores when choosing secondary schools: Principals at ST forum",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/look-beyond-cut-off-points-psle-scores-when-choosing-secondary-schools-principals-at-st-forum",
+      "title": "Project Wolbachia now covers more than half of all households in Singapore",
+      "link": "https://www.straitstimes.com/singapore/environment/project-wolbachia-now-covers-more-than-half-of-all-households-in-singapore",
       "date": "2026-10-31T09:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
     {
-      "title": "Project Wolbachia now covers more than half of all households in Singapore",
-      "link": "https://www.straitstimes.com/singapore/environment/project-wolbachia-now-covers-more-than-half-of-all-households-in-singapore",
+      "title": "Look beyond cut-off points, PSLE scores when choosing secondary schools: Principals at ST forum",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/look-beyond-cut-off-points-psle-scores-when-choosing-secondary-schools-principals-at-st-forum",
       "date": "2026-10-31T09:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
@@ -305,34 +333,6 @@
       "date": "2026-10-31T08:00:00Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "After shop closure, veteran barber finds new home by renting chair in nearby salon",
-      "link": "https://www.straitstimes.com/singapore/community/after-shop-closure-veteran-barber-finds-new-home-by-renting-chair-in-nearby-salon",
-      "date": "2026-10-31T08:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "More step forward to donate bone marrow in Singapore",
-      "link": "https://www.straitstimes.com/singapore/more-step-forward-to-donate-bone-marrow-in-singapore",
-      "date": "2026-10-31T06:40:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "New mall, parks and plans for a school under Toa Payoh West masterplan",
-      "link": "https://www.straitstimes.com/singapore/new-mall-parks-and-plans-for-a-new-school-under-toa-payoh-west-masterplan",
-      "date": "2026-10-31T06:27:21Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "250 goods vehicles caught for various offences in LTA enforcement blitz",
-      "link": "https://www.straitstimes.com/singapore/250-goods-vehicles-caught-for-various-offences-in-lta-enforcement-blitz",
-      "date": "2026-10-31T04:15:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Sudanese pastor's son freed from prison, but danger remains",
