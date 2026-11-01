@@ -906,6 +906,7 @@ footer {
 </button>
 
 
+<a class="skip-link" href="#path-landing">Skip to main content</a>
 <div class="page-wrap">
 
   <!-- Header -->
@@ -944,15 +945,17 @@ footer {
 
   <!-- Navigation -->
   <nav class="nav-tabs" role="tablist" aria-label="Guide sections">
+    <button type="button" class="nav-tab nav-start-here" id="start-here-btn" aria-label="Show the path chooser landing again">Start here</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="understand">Understand</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="discern">Warning Signs &amp; Discern</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">Get Help</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="leaders">For Church Leaders</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="study-resources">Study &amp; Resources</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="cases">Documented Cases</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="faq">FAQ</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="about">About Us</button>
-    <button class="nav-tab" role="tab" aria-selected="false" data-tab="contact">Contact</button>
+    <button class="nav-tab nav-priority" role="tab" aria-selected="false" data-tab="study-resources">Study &amp; Resources</button>
+    <button class="nav-tab nav-priority" role="tab" aria-selected="false" data-tab="cases">Documented Cases</button>
+    <button class="nav-tab nav-more-item" role="tab" aria-selected="false" data-tab="faq">FAQ</button>
+    <button class="nav-tab nav-more-item" role="tab" aria-selected="false" data-tab="about">About Us</button>
+    <button class="nav-tab nav-more-item" role="tab" aria-selected="false" data-tab="contact">Contact</button>
+    <button type="button" class="nav-tab nav-more-toggle" id="nav-more-btn" aria-expanded="false" aria-controls="nav-more-panel" hidden>More</button>
   </nav>
 
   <!-- ── Tab: Understand ─────────────────────────────────────────────────── -->
@@ -1151,6 +1154,15 @@ footer {
     <!-- ── Discernment section ── -->
     <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">Spiritual discernment</p>
+    <!-- Phase 2: progressive disclosure -->
+    <div class="discern-layers">
+      <button type="button" class="layer-toggle" id="layer-deeper-btn" aria-expanded="false" data-target="discern-deeper">
+        <span class="layer-toggle-label">Go deeper — tests, decision tree &amp; study tools</span>
+        <span class="layer-toggle-hint">Optional · for careful reflection or groups</span>
+      </button>
+    </div>
+    <div id="discern-deeper" class="discern-deeper collapsed" hidden>
+
     <h3 id="discern-tests" class="sec-sub" style="font-size: 1.4rem; margin-bottom: 10px; scroll-margin-top: 68px;">How to Test the Fruit</h3>
 
     <div class="scripture-pull">
@@ -1293,7 +1305,7 @@ footer {
       Use these questions to open a conversation in your cell group or small group. You do not need to have experienced spiritual abuse to benefit — developing discernment is a normal part of spiritual maturity. Take one or two questions per session rather than rushing through all five.
     </p>
 
-    <div class="steps">
+    <div class="steps discussion-steps" id="discussion-steps">
       <div class="step">
         <div class="step-body">
           <strong>How do you personally know when something is spiritually "off"?</strong>
@@ -1558,6 +1570,8 @@ footer {
   </section>
 
   <!-- ── Tab: Get Help / Respond ──────────────────────────────────────────── -->
+  </div><!-- /discern-deeper -->
+
   <section class="section" id="tab-respond" role="tabpanel">
     <p class="eyebrow">If you are affected</p>
     <h2 id="respond-intro" class="sec-head">Get Help / Respond</h2>
@@ -1582,6 +1596,7 @@ footer {
     <div class="triage-box">
       <h4>⚠ Before you proceed — check your situation</h4>
       <p style="font-size:.78rem;color:#92400e;margin-bottom:10px;line-height:1.55;"><strong>Location matters.</strong> Emergency numbers, child-protection obligations, reporting channels, and legal procedures differ by country. The contact details below include services in <strong>Malaysia &amp; Singapore</strong>. If you are in another country, please contact your local emergency services or relevant safeguarding authority — do not rely solely on the numbers listed here.</p>
+      <p class="last-reviewed" style="font-size:.8rem;color:var(--fg-muted);margin:8px 0 12px;">Support contacts last reviewed: <time datetime="2026-11-01">1 November 2026</time>. Always verify current numbers before relying on them.</p>
       <div class="triage-grid">
         <div class="triage-item">
           <div class="ti-label">🚨 Immediate danger</div>
