@@ -1,40 +1,127 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T15:14:26.500563Z",
-  "sourcesUpdated": 16,
+  "updatedAt": "2026-11-01T20:32:08.943132Z",
+  "sourcesUpdated": 19,
   "sources": [
     "Spiritual Sounding Board",
-    "Christianity Today",
     "Religion News Service",
     "Baptist News Global",
-    "The Guardian — Religion",
+    "Christianity Today",
     "The Wartburg Watch",
-    "National Catholic Reporter",
-    "Crux — Catholic News",
     "Christian Post",
-    "Surviving Church",
     "Christian Headlines",
+    "Surviving Church",
+    "The Guardian — Religion",
+    "Crux — Catholic News",
+    "National Catholic Reporter",
     "Channel NewsAsia",
+    "The Roys Report",
     "Straits Times",
     "Charisma News",
     "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch"
+    "MinistryWatch",
+    "ECA Global",
+    "Relevant Magazine"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Alcaraz beats De Minaur to win Vienna title",
-      "link": "https://www.channelnewsasia.com/sport/alcaraz-beats-de-minaur-win-vienna-title-6511061",
-      "date": "2026-11-01T15:02:42Z",
+      "title": "Arsenal show true colours at Anfield after Fleetwood humiliation",
+      "link": "https://www.channelnewsasia.com/sport/arsenal-show-true-colours-anfield-after-fleetwood-humiliation-6511501",
+      "date": "2026-11-01T20:14:07Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "CNA Explains: Why are violent Gen Z protests breaking out across Europe?",
-      "link": "https://www.channelnewsasia.com/world/europe-youth-protests-france-germany-explainer-violence-looting-6510966",
-      "date": "2026-11-01T14:35:48Z",
+      "title": "‘I treat every senior as I would a member of my own family’: A home care nurse on finding his calling",
+      "link": "https://www.straitstimes.com/singapore/jobs/community-care-day-home-nurse-methodist-welfare-services-aic",
+      "date": "2026-11-01T20:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "From Bird Paradise to Amara Hotel: How inclusive workplaces help improve operations, strengthen teamwork",
+      "link": "https://www.straitstimes.com/singapore/disability-inclusive-workplaces-improve-operations-strengthen-teamwork-sg-enable",
+      "date": "2026-11-01T20:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Mainline Protestants are having a political moment. Can they move from protest to power?",
+      "link": "https://religionnews.com/2026/11/01/mainliners-are-having-a-moment-can-they-move-from-protest-to-political-power/",
+      "date": "2026-11-01T19:58:24Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Trump heads to Iowa, Kansas with Senate control in balance",
+      "link": "https://www.channelnewsasia.com/world/trump-heads-iowa-kansas-senate-control-in-balance-6510766",
+      "date": "2026-11-01T19:15:49Z",
       "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "German ministers vow tough response to Frankfurt riots and looting",
+      "link": "https://www.channelnewsasia.com/world/german-ministers-vow-tough-response-frankfurt-riots-and-looting-6511441",
+      "date": "2026-11-01T18:44:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Pope Leo doesn't take sides, but teases his loyalty in Villanova-Notre Dame matchup",
+      "link": "https://www.ncronline.org/vatican/pope-leo-doesnt-take-sides-teases-his-loyalty-villanova-notre-dame-matchup",
+      "date": "2026-11-01T18:41:30Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Arsenal claim top spot as Havertz seals win at Liverpool",
+      "link": "https://www.channelnewsasia.com/sport/arsenal-claim-top-spot-havertz-seals-win-liverpool-6511436",
+      "date": "2026-11-01T18:33:58Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Coventry investigate footage of fan taunting Sunderland",
+      "link": "https://www.channelnewsasia.com/sport/coventry-investigate-footage-fan-taunting-sunderland-6511421",
+      "date": "2026-11-01T18:17:15Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Chinese state TV fails to air Real Madrid match after Mbappe row",
+      "link": "https://www.channelnewsasia.com/sport/chinese-state-tv-fails-air-real-madrid-match-after-mbappe-row-6511131",
+      "date": "2026-11-01T17:35:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Real Madrid extend winning run with 3-0 victory at Racing Santander",
+      "link": "https://www.channelnewsasia.com/sport/real-madrid-extend-winning-run-3-0-victory-racing-santander-6511156",
+      "date": "2026-11-01T17:29:49Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "This week in Christian history: Sistine Chapel ceiling art revealed to public; 'Hacksaw Ridge' debuts",
+      "link": "https://www.christianpost.com/news/this-week-in-christian-history-sistine-chapel-ceiling-debuts.html",
+      "date": "2026-11-01T16:55:19Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Crew from NASA's simulated Mars mission emerges after 378 days in isolation",
+      "link": "https://www.channelnewsasia.com/business/crew-nasas-simulated-mars-mission-emerges-after-378-days-in-isolation-6511101",
+      "date": "2026-11-01T16:37:24Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "SIA pilots win praise online for safe landing in Perth amid strong winds",
+      "link": "https://www.straitstimes.com/singapore/sia-pilots-win-praise-online-for-safe-landing-in-perth-amid-strong-winds",
+      "date": "2026-11-01T16:15:00Z",
+      "source": "Straits Times",
       "cat": "asia"
     },
     {
@@ -42,13 +129,6 @@
       "link": "https://www.straitstimes.com/singapore/beyond-war-key-maritime-nations-grope-for-solutions-to-keep-waterways-open",
       "date": "2026-11-01T14:25:00Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Man City edge London Lionesses in WSL thriller",
-      "link": "https://www.channelnewsasia.com/sport/man-city-edge-london-lionesses-in-wsl-thriller-6511016",
-      "date": "2026-11-01T14:21:06Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -87,46 +167,11 @@
       "cat": "accountability"
     },
     {
-      "title": "Saibari and Gnabry ruled out indefinitely, say Bayern",
-      "link": "https://www.channelnewsasia.com/sport/saibari-and-gnabry-ruled-out-indefinitely-say-bayern-6510926",
-      "date": "2026-11-01T12:33:53Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Minnesota Democrat Says Omar’s Fraud ‘Almost Certainly True’",
       "link": "https://mycharisma.com/news/minnesota-democrat-says-omars-fraud-almost-certainly-true/",
       "date": "2026-11-01T12:00:00Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Britain's Dart claims first WTA singles title in Guangzhou",
-      "link": "https://www.channelnewsasia.com/sport/britains-dart-claims-first-wta-singles-title-in-guangzhou-6510841",
-      "date": "2026-11-01T11:53:06Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "CAF names Samson Adamu as new general secretary",
-      "link": "https://www.channelnewsasia.com/sport/caf-names-samson-adamu-new-general-secretary-6510836",
-      "date": "2026-11-01T11:45:29Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "French school blockades to restart from Monday: Student group",
-      "link": "https://www.channelnewsasia.com/world/france-protest-school-blockade-students-6510796",
-      "date": "2026-11-01T11:22:26Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "European champion Mageean dies aged 34 after cancer battle",
-      "link": "https://www.channelnewsasia.com/sport/european-champion-mageean-dies-aged-34-after-cancer-battle-6510791",
-      "date": "2026-11-01T11:17:55Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Pope’s ballot casting raises real questions",
@@ -227,27 +272,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Educate first for more constructive outcomes, says Foo Cexiang of his push for citizen participation",
-      "link": "https://www.straitstimes.com/singapore/politics/educate-first-for-more-constructive-outcomes-says-foo-cexiang-of-his-push-for-citizen-participation",
-      "date": "2026-11-01T04:01:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "A ball in your face at 60kmh: Older pickleball players more prone to eye injuries",
-      "link": "https://www.straitstimes.com/singapore/health/in-your-face-at-60kmh-older-pickleball-players-more-prone-to-eye-injuries",
-      "date": "2026-11-01T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "New MOS Foo Cexiang wants to help workers switch sectors, find jobs more quickly for those who reskill",
-      "link": "https://www.straitstimes.com/singapore/politics/new-mos-foo-cexiang-wants-to-help-workers-switch-sectors-find-jobs-quicker-for-those-who-reskill",
-      "date": "2026-11-01T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "“We Are Ready”: Attorney Extraordinaire Norm Eisen Talks 2026 Midterms and Beyond",
       "link": "https://religionnews.com/2026/10/31/we-are-ready-attorney-extraordinaire-norm-eisen-talks-2026-midterms-and-beyond/",
       "date": "2026-10-31T23:08:30Z",
@@ -302,13 +326,6 @@
       "date": "2026-10-31T14:10:00Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Reformation Day: 7 lesser-known facts about Martin Luther",
-      "link": "https://www.christianpost.com/news/reformation-day-7-lesser-known-facts-about-martin-luther.html",
-      "date": "2026-10-31T13:14:42Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "Abuse survivors to press Church on accountability during pope’s trip to South America",
@@ -381,13 +398,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Catholicism's haunting strangeness warrants celebration, says author",
-      "link": "https://www.ncronline.org/culture/book-reviews/catholicisms-haunting-strangeness-warrants-celebration-says-author",
-      "date": "2026-10-31T08:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
       "title": "Mark Kermode on restoration of 'The Devils' and the director's Catholicism",
       "link": "https://www.ncronline.org/culture/mark-kermode-restoration-devils-and-directors-catholicism",
       "date": "2026-10-31T08:00:00Z",
@@ -423,6 +433,13 @@
       "cat": "accountability"
     },
     {
+      "title": "Former Acts 29 CEO Stephen Timmis, wife Janet, face eight rape charges in UK",
+      "link": "https://roysreport.com/former-acts-29-ceo-stephen-timmis-wife-janet-face-eight-rape-charges-in-uk/",
+      "date": "2026-10-30T22:19:37Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
       "title": "In another historic move, Pope Leo casts absentee US vote from Rome",
       "link": "https://religionnews.com/2026/10/30/in-another-historic-move-pope-leo-casts-absentee-u-s-vote-from-rome/",
       "date": "2026-10-30T21:48:24Z",
@@ -435,6 +452,20 @@
       "date": "2026-10-30T21:13:00Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
+    },
+    {
+      "title": "This Sunday, the Global Church Will Pray for 388 Million Christians Facing High Levels of Persecution",
+      "link": "https://relevantmagazine.com/justice/this-sunday-the-global-church-will-pray-for-the-388-million-christians-facing-high-levels-of-persecution/",
+      "date": "2026-10-30T20:59:55Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Whistleblower: Compassion International has no ‘off ramp’ for sponsors accused of grooming",
+      "link": "https://roysreport.com/whistleblower-compassion-international-has-no-off-ramp-for-sponsors-accused-of-grooming/",
+      "date": "2026-10-30T20:52:13Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
     },
     {
       "title": "What Is Flying in Our Skies? 164 Black Triangle UFO Sightings Spark New Mystery",
@@ -451,6 +482,20 @@
       "cat": "mainstreamreligion"
     },
     {
+      "title": "Evangelical financier sentenced to 15 years for Georgia investment fraud",
+      "link": "https://roysreport.com/evangelical-financier-sentenced-to-15-years-for-georgia-investment-fraud/",
+      "date": "2026-10-30T20:29:18Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Michael Wurmbrand, son of persecuted Romanian pastor and Voice of the Martyrs critic, dies at 87",
+      "link": "https://roysreport.com/michael-wurmbrand-son-of-persecuted-romanian-pastor-and-voice-of-the-martyrs-critic-dies-at-87/",
+      "date": "2026-10-30T20:20:20Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
       "title": "Rod Dreher among prominent conservatives focusing fight on Groypers, Christian nationalists",
       "link": "https://religionnews.com/2026/10/30/rod-dreher-among-prominent-conservatives-focusing-fight-on-groypers-christian-nationalists/",
       "date": "2026-10-30T20:05:07Z",
@@ -465,18 +510,18 @@
       "cat": "mainstreamreligion"
     },
     {
+      "title": "WNBA Star Sophie Cunningham to Theo Von: ‘Nothing You Do Is Going to Separate You From God’s Love and Grace and Forgiveness’",
+      "link": "https://relevantmagazine.com/culture/sports/sophie-cunningham-to-theo-von-nothing-you-do-is-going-to-separate-you-from-gods-love-and-grace-and-forgiveness/",
+      "date": "2026-10-30T19:40:56Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
       "title": "Powerful UniteUS Event at South Alabama Sees 600 Professions of Faith",
       "link": "https://www.crosswalk.com/headlines/contributors/milton-quintanilla/uniteus-event-in-alabama-sees-600-professions-of-faith.html",
       "date": "2026-10-30T18:26:00Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "One hundred years after his death, Houdini still matters",
-      "link": "https://religionnews.com/2026/10/30/one-hundred-years-after-his-death-houdini-still-matters/",
-      "date": "2026-10-30T17:56:49Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
     },
     {
       "title": "Pope Leo votes in US midterms in first known political ballot for any pontiff",
@@ -514,6 +559,13 @@
       "cat": "catholic"
     },
     {
+      "title": "‘I Need a Little Gravy on My God’: Kirk Franklin’s New Double Album Is His Answer to 33 Years of Critics",
+      "link": "https://relevantmagazine.com/culture/music/i-need-a-little-gravy-on-my-god-kirk-franklins-new-double-album-is-his-answer-to-33-years-of-critics/",
+      "date": "2026-10-30T15:10:16Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
       "title": "Half of Christian questions on ChatGPT are attempts to understand the Bible",
       "link": "https://baptistnews.com/article/half-of-christian-questions-on-chatgpt-are-attempts-to-understand-the-bible/",
       "date": "2026-10-30T15:09:55Z",
@@ -535,10 +587,24 @@
       "cat": "evangelical"
     },
     {
+      "title": "Packers’ Josh Jacobs Says His Touchdown Celebration Is an Ode to the Gospel Song “Break Every Chain,” Not His Recent Arrest",
+      "link": "https://relevantmagazine.com/culture/sports/packers-josh-jacobs-says-his-touchdown-celebration-is-an-ode-to-the-gospel-song-break-every-chain-not-his-recent-arrest/",
+      "date": "2026-10-30T15:03:10Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
       "title": "‘Let nothing be forgotten’: Holocaust survivors’ memorial books honored lives lost and vibrant hometowns",
       "link": "https://baptistnews.com/article/let-nothing-be-forgotten-holocaust-survivors-memorial-books-honored-lives-lost-and-vibrant-hometowns/",
       "date": "2026-10-30T15:00:08Z",
       "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Pew: Americans Ages 23 to 26 Are Among the Least Religious Adults in the Country, While 18-to-22-Year-Olds Attend Church at Higher Rates Than Anyone",
+      "link": "https://relevantmagazine.com/faith/church/pew-americans-ages-23-to-26-are-among-the-least-religious-adults-in-the-country-while-18-to-22-year-olds-attend-church-at-higher-rates-than-anyone/",
+      "date": "2026-10-30T14:58:14Z",
+      "source": "Relevant Magazine",
       "cat": "evangelical"
     },
     {
@@ -633,6 +699,13 @@
       "cat": "accountability"
     },
     {
+      "title": "The Most-Searched Thing in the Bible App This Year Was Psalm 91. ‘Anxiety,’ ‘Hope’ and ‘Healing’ Weren’t Far Behind.",
+      "link": "https://relevantmagazine.com/faith/the-most-searched-thing-in-the-bible-app-this-year-was-psalm-91-anxiety-hope-and-healing-werent-far-behind/",
+      "date": "2026-10-30T03:23:50Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
       "title": "New Study Paints Complicated Picture of Religiosity Among Young Adults Amid mixed Pew findings, youngest adults outpace parents’ generation in worship attendance",
       "link": "https://ministrywatch.com/new-study-paints-complicated-picture-of-religiosity-among-young-adults/",
       "date": "2026-10-30T00:35:49Z",
@@ -640,10 +713,45 @@
       "cat": "accountability"
     },
     {
+      "title": "Whistleblower: Compassion International flagged 25K suspected grooming cases, then failed to act",
+      "link": "https://roysreport.com/compassion-international-flagged-25k-suspected-grooming-cases-then-failed-to-act/",
+      "date": "2026-10-29T22:45:02Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "UMC bishop removes ministers from Dallas’ Highland Park; church says they will stay",
+      "link": "https://roysreport.com/umc-bishop-removes-ministers-from-dallas-highland-park-church-says-they-will-stay/",
+      "date": "2026-10-29T22:43:20Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Ohio megachurch pastor Lonnie Snell fired for sexual misconduct",
+      "link": "https://roysreport.com/ohio-megachurch-pastor-lonnie-snell-fired-for-sexual-misconduct/",
+      "date": "2026-10-29T21:31:57Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
       "title": "How Can Christians Stay Christlike During a Divisive Election?",
       "link": "https://www.crosswalk.com/headlines/contributors/guest-commentary/christians-political-disagreements-election.html",
       "date": "2026-10-29T21:30:00Z",
       "source": "Christian Headlines",
+      "cat": "evangelical"
+    },
+    {
+      "title": "A Broken System Protects Traffickers, Not Girls",
+      "link": "https://relevantmagazine.com/justice/a-broken-system-protects-traffickers-not-girls/",
+      "date": "2026-10-29T20:16:40Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Researchers Say Radar Shows Chambers and Corridors Inside the Boat-Shaped Formation in Turkey That Some Believe Is Noah’s Ark",
+      "link": "https://relevantmagazine.com/current/world/researchers-are-carbon-dating-charred-wood-they-say-could-be-from-noahs-ark/",
+      "date": "2026-10-29T20:07:16Z",
+      "source": "Relevant Magazine",
       "cat": "evangelical"
     },
     {
@@ -731,6 +839,13 @@
       "cat": "evangelical"
     },
     {
+      "title": "Willow Creek praises families who went into debt to support church building project",
+      "link": "https://roysreport.com/willow-creek-praises-families-who-went-into-debt-to-support-church-building-project/",
+      "date": "2026-10-28T22:38:51Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
       "title": "Carl and Laura Lentz Hit the Social Media Influencer Trail to ‘Share’ Their Journey. What’s Going On?",
       "link": "https://thewartburgwatch.com/2026/10/28/carl-and-laura-lentz-hit-the-social-media-influencer-trail-to-share-their-journey-whats-going-on/",
       "date": "2026-10-28T21:00:05Z",
@@ -750,118 +865,6 @@
       "date": "2026-10-28T11:00:01Z",
       "source": "The Guardian — Religion",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "How rebuilding old mosques is bringing Sikhs, Hindus and Muslims together in Punjab",
-      "link": "https://www.theguardian.com/global-development/2026/oct/28/punjab-india-mosques-restored-heal-sectarian-wounds",
-      "date": "2026-10-28T07:00:02Z",
-      "source": "The Guardian — Religion",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Carl and Laura Lentz Begin the “You Still Need Us” Tour.",
-      "link": "https://thewartburgwatch.com/2026/10/26/carl-and-laura-lentz-begin-the-you-still-need-us-tour/",
-      "date": "2026-10-27T01:25:50Z",
-      "source": "The Wartburg Watch",
-      "cat": "accountability"
-    },
-    {
-      "title": "Catholic bishops accuse Trump White House of turning prayer into campaign photo op",
-      "link": "https://www.theguardian.com/us-news/2026/oct/26/catholic-bishops-trump-white-house-prayer",
-      "date": "2026-10-26T15:05:34Z",
-      "source": "The Guardian — Religion",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "New York archdiocese finalizing $800m settlement with clergy sex abuse survivors",
-      "link": "https://www.theguardian.com/us-news/2026/oct/24/new-york-archdiocese-800m-settlement-sexual-abuse",
-      "date": "2026-10-24T21:33:24Z",
-      "source": "The Guardian — Religion",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Is Christianity Today Any Different Than Those Supposedly Outing the Now Deceased Senator Lindsay Graham? (This is not a political post.)",
-      "link": "https://thewartburgwatch.com/2026/10/23/is-christianity-today-any-different-than-those-supposedly-outing-the-now-deceased-senator-lindsay-graham-this-is-not-a-political-post/",
-      "date": "2026-10-23T21:59:36Z",
-      "source": "The Wartburg Watch",
-      "cat": "accountability"
-    },
-    {
-      "title": "The Bishop Problem. Where is the next Generation of Leaders coming from?",
-      "link": "https://survivingchurch.org/2026/10/23/the-bishop-problem-where-is-the-next-generation-of-leaders-coming-from/?utm_source=rss&utm_medium=rss&utm_campaign=the-bishop-problem-where-is-the-next-generation-of-leaders-coming-from",
-      "date": "2026-10-23T10:05:51Z",
-      "source": "Surviving Church",
-      "cat": "accountability"
-    },
-    {
-      "title": "Part 2: The Supposing ‘Outing’ of Elisabeth Elliot by Christianity Today Deserves a Serious Apology",
-      "link": "https://thewartburgwatch.com/2026/10/21/part-2-the-supposing-outing-of-elisabeth-elliot-by-christianity-today-deserves-a-serious-apology/",
-      "date": "2026-10-22T01:33:51Z",
-      "source": "The Wartburg Watch",
-      "cat": "accountability"
-    },
-    {
-      "title": "Part One of On Elisabeth Elliot and Christianity Today: Uneasiness Surrounds an Evangelical Cornerstone.",
-      "link": "https://thewartburgwatch.com/2026/10/19/part-one-of-on-elisabeth-elliot-and-christianity-today-uneasiness-surrounds-an-evangelical-cornerstone/",
-      "date": "2026-10-20T01:21:59Z",
-      "source": "The Wartburg Watch",
-      "cat": "accountability"
-    },
-    {
-      "title": "Jennifer’s Story: How an EPC Judicial Comission Allegedly Claimed That It Would Be Improper to Discipline a Pastor Who Kept Asking a Woman Congregant to Dance for Him.",
-      "link": "https://thewartburgwatch.com/2026/10/16/jennifers-story-how-an-epc-judicial-comission-allegedly-claimed-thaat-it-would-be-improper-to-discipline-a-pastor-who-kept-asking-a-woman-congregant-to-dance-for-him/",
-      "date": "2026-10-17T00:38:45Z",
-      "source": "The Wartburg Watch",
-      "cat": "accountability"
-    },
-    {
-      "title": "Farewell Service",
-      "link": "https://survivingchurch.org/2026/10/16/farewell-service/?utm_source=rss&utm_medium=rss&utm_campaign=farewell-service",
-      "date": "2026-10-16T10:01:16Z",
-      "source": "Surviving Church",
-      "cat": "accountability"
-    },
-    {
-      "title": "When the Church Is an Entertainment Venue and a Rather Bad One at That. The Clueless Pastor Says”I Don’t Know What to Call It.”",
-      "link": "https://thewartburgwatch.com/2026/10/14/when-the-church-is-an-entertainment-venue-and-a-rather-bad-one-at-that-the-clueless-pastor-saysi-dont-know-what-to-call-it/",
-      "date": "2026-10-14T20:00:19Z",
-      "source": "The Wartburg Watch",
-      "cat": "accountability"
-    },
-    {
-      "title": "Charisma and Abusive Power – The Case of Chris Brain",
-      "link": "https://survivingchurch.org/2026/10/09/charisma-and-abusive-power-the-case-of-chris-brain/?utm_source=rss&utm_medium=rss&utm_campaign=charisma-and-abusive-power-the-case-of-chris-brain",
-      "date": "2026-10-09T09:47:39Z",
-      "source": "Surviving Church",
-      "cat": "accountability"
-    },
-    {
-      "title": "Worship Songs and Liturgy in Anglicanism. Towards a New Ecumenism of Worship",
-      "link": "https://survivingchurch.org/2026/10/02/worship-songs-and-liturgy-in-anglicanism-towards-a-new-ecumenism-of-worship/?utm_source=rss&utm_medium=rss&utm_campaign=worship-songs-and-liturgy-in-anglicanism-towards-a-new-ecumenism-of-worship",
-      "date": "2026-10-02T11:09:29Z",
-      "source": "Surviving Church",
-      "cat": "accountability"
-    },
-    {
-      "title": "Journeying with Fr Mark: A PCC Member’s Testimony on Institutional Cruelty",
-      "link": "https://survivingchurch.org/2026/09/25/journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty/?utm_source=rss&utm_medium=rss&utm_campaign=journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty",
-      "date": "2026-09-25T09:03:18Z",
-      "source": "Surviving Church",
-      "cat": "accountability"
-    },
-    {
-      "title": "Responding to Abuse and Harm in Scripture and the Search for a God of Love",
-      "link": "https://survivingchurch.org/2026/09/19/responding-to-abuse-and-harm-in-scripture-and-the-search-for-a-god-of-love/?utm_source=rss&utm_medium=rss&utm_campaign=responding-to-abuse-and-harm-in-scripture-and-the-search-for-a-god-of-love",
-      "date": "2026-09-19T06:46:36Z",
-      "source": "Surviving Church",
-      "cat": "accountability"
-    },
-    {
-      "title": "Iwerne in the 1980s",
-      "link": "https://survivingchurch.org/2026/09/12/iwerne-in-the-1980s/?utm_source=rss&utm_medium=rss&utm_campaign=iwerne-in-the-1980s",
-      "date": "2026-09-12T09:33:11Z",
-      "source": "Surviving Church",
-      "cat": "accountability"
     }
   ]
 }
