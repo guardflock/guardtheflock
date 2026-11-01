@@ -1,7 +1,11 @@
-/* Phase 1 UX - Guard the Flock */
+/* Phase 1–3 UX - Guard the Flock */
+
+/* Landing */
 .landing{display:none;padding-block:28px 40px}
 body.landing-mode .landing{display:block}
-body.landing-mode .nav-tabs,body.landing-mode .section,body.landing-mode .help-now-btn{display:none!important}
+body.landing-mode .nav-tabs,
+body.landing-mode .section,
+body.landing-mode .help-now-btn{display:none!important}
 body:not(.landing-mode) .landing{display:none}
 .landing-intro{font-family:Lora,Georgia,serif;font-size:1.05rem;color:var(--fg-muted);max-width:52ch;margin:0 0 28px;line-height:1.65}
 .path-cards{display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:28px}
@@ -16,9 +20,25 @@ body:not(.landing-mode) .landing{display:none}
 .landing-alt{text-align:center;font-size:.9rem;color:var(--fg-muted)}
 .landing-alt button{background:none;border:none;color:var(--link);font:inherit;font-weight:600;cursor:pointer;text-decoration:underline;padding:0}
 .landing-alt button:hover{color:var(--accent)}
+
+/* Start here nav control */
+.nav-start-here{
+  border-color:var(--accent)!important;
+  color:var(--accent)!important;
+  font-weight:600!important;
+}
+.nav-start-here:hover{
+  background:var(--accent-soft)!important;
+  color:var(--accent)!important;
+}
+
+/* Help Now button */
 .help-now-btn{position:fixed;bottom:20px;right:16px;z-index:90;display:flex;align-items:center;gap:8px;padding:10px 16px;background:var(--accent);color:#fff;border:none;border-radius:28px;font-family:Inter,system-ui,sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;box-shadow:0 4px 18px rgba(139,28,46,.35)}
 .help-now-btn:hover{background:#6e1524}
+.help-now-btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 @media(max-width:380px){.help-now-btn .hn-label{display:none}.help-now-btn{padding:12px;border-radius:50%}}
+
+/* Cases soft gate */
 .cases-soft-gate{border:1px solid var(--border);background:var(--bg-alt);border-radius:8px;padding:18px 20px;margin-bottom:1.5rem;font-size:.9rem}
 .cases-soft-gate p{margin:0 0 12px}
 .cases-show-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:var(--card-bg);border:1px solid var(--border);border-radius:6px;font:inherit;font-size:.85rem;font-weight:600;color:var(--fg);cursor:pointer;margin-top:4px}
@@ -26,3 +46,95 @@ body:not(.landing-mode) .landing{display:none}
 #case-content-wrapper.hidden-cases{display:none}
 .inline-goto{background:none;border:none;padding:0;font:inherit;color:var(--link);font-weight:600;cursor:pointer;text-decoration:underline}
 .inline-goto:hover{color:var(--accent)}
+
+/* Phase 2: Discern progressive disclosure */
+.discern-layers{margin:28px 0 16px}
+.layer-toggle{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:4px;
+  padding:16px 18px;
+  background:var(--card-bg);
+  border:1px solid var(--border);
+  border-radius:10px;
+  cursor:pointer;
+  font:inherit;
+  text-align:left;
+  color:var(--fg);
+  transition:border-color .15s,box-shadow .15s;
+}
+.layer-toggle:hover,.layer-toggle:focus-visible{
+  border-color:var(--accent);
+  box-shadow:0 2px 12px rgba(0,0,0,.06);
+  outline:none;
+}
+.layer-toggle[aria-expanded="true"]{
+  border-color:var(--accent);
+  border-bottom-left-radius:0;
+  border-bottom-right-radius:0;
+}
+.layer-toggle-label{font-family:Lora,Georgia,serif;font-size:1.05rem;font-weight:600}
+.layer-toggle-hint{font-size:.8rem;color:var(--fg-muted)}
+.layer-toggle::after{
+  content:"Show ▾";
+  font-size:.78rem;
+  font-weight:600;
+  color:var(--accent);
+  margin-top:6px;
+}
+.layer-toggle[aria-expanded="true"]::after{content:"Hide ▴"}
+.discern-deeper{
+  border:1px solid var(--border);
+  border-top:none;
+  border-radius:0 0 10px 10px;
+  padding:20px 18px 8px;
+  background:var(--bg);
+}
+.discern-deeper[hidden]{display:none!important}
+
+/* Discussion steps */
+.discussion-steps .step{scroll-margin-top:72px}
+
+/* Phase 2: Mobile More menu for lower-priority tabs */
+@media(max-width:640px){
+  .nav-more-item{display:none!important}
+  .nav-more-item.nav-more-visible{display:inline-flex!important}
+  .nav-more-toggle{display:inline-flex!important}
+  .nav-tabs.nav-more-open .nav-more-item{display:inline-flex!important}
+}
+@media(min-width:641px){
+  .nav-more-toggle{display:none!important}
+}
+
+/* Phase 3 polish */
+.last-reviewed{font-size:.8rem;color:var(--fg-muted)}
+.nav-tab:focus-visible,
+.path-card:focus-visible,
+.help-now-btn:focus-visible,
+.layer-toggle:focus-visible,
+.cases-show-btn:focus-visible{
+  outline:2px solid var(--accent);
+  outline-offset:2px;
+}
+/* Skip link for accessibility */
+.skip-link{
+  position:absolute;
+  left:-9999px;
+  top:auto;
+  width:1px;height:1px;
+  overflow:hidden;
+}
+.skip-link:focus{
+  position:fixed;
+  left:12px;top:12px;
+  z-index:200;
+  width:auto;height:auto;
+  padding:10px 14px;
+  background:var(--accent);
+  color:#fff;
+  border-radius:6px;
+  font-weight:600;
+  text-decoration:none;
+}
