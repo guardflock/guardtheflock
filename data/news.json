@@ -1,68 +1,194 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T06:13:18.409715Z",
+  "updatedAt": "2026-11-01T15:14:26.500563Z",
   "sourcesUpdated": 16,
   "sources": [
     "Spiritual Sounding Board",
-    "Religion News Service",
-    "Abuse Tracker (Bishop Accountability)",
     "Christianity Today",
+    "Religion News Service",
     "Baptist News Global",
+    "The Guardian — Religion",
     "The Wartburg Watch",
+    "National Catholic Reporter",
+    "Crux — Catholic News",
+    "Christian Post",
     "Surviving Church",
     "Christian Headlines",
-    "Crux — Catholic News",
-    "National Catholic Reporter",
-    "The Guardian — Religion",
-    "Christian Post",
-    "Straits Times",
     "Channel NewsAsia",
+    "Straits Times",
     "Charisma News",
+    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Heavy traffic expected at Singapore-Malaysia land checkpoints during Deepavali long weekend",
-      "link": "https://www.channelnewsasia.com/singapore/heavy-traffic-woodlands-tuas-checkpoints-6510666",
-      "date": "2026-11-01T05:50:59Z",
+      "title": "Alcaraz beats De Minaur to win Vienna title",
+      "link": "https://www.channelnewsasia.com/sport/alcaraz-beats-de-minaur-win-vienna-title-6511061",
+      "date": "2026-11-01T15:02:42Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Binance’s US$6b crypto heist: Five things to know about North Korea’s TraderTraitor hackers",
-      "link": "https://www.channelnewsasia.com/east-asia/north-korea-tradertraitor-hackers-pyongyang-binance-crypto-heist-6510661",
-      "date": "2026-11-01T05:38:24Z",
+      "title": "CNA Explains: Why are violent Gen Z protests breaking out across Europe?",
+      "link": "https://www.channelnewsasia.com/world/europe-youth-protests-france-germany-explainer-violence-looting-6510966",
+      "date": "2026-11-01T14:35:48Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Trump says US looking ‘closely’ at report Nvidia CEO is target of China spy plot",
-      "link": "https://www.channelnewsasia.com/asia/trump-says-us-looking-closely-report-nvidia-ceo-target-china-spy-plot-6510641",
-      "date": "2026-11-01T05:06:24Z",
+      "title": "Beyond war, key maritime nations grope for solutions to keep waterways open",
+      "link": "https://www.straitstimes.com/singapore/beyond-war-key-maritime-nations-grope-for-solutions-to-keep-waterways-open",
+      "date": "2026-11-01T14:25:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Man City edge London Lionesses in WSL thriller",
+      "link": "https://www.channelnewsasia.com/sport/man-city-edge-london-lionesses-in-wsl-thriller-6511016",
+      "date": "2026-11-01T14:21:06Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Malaysia Airlines says customers may be affected by Amadeus breach",
-      "link": "https://www.channelnewsasia.com/asia/malaysia-airlines-amadeus-security-breach-6510631",
-      "date": "2026-11-01T05:01:03Z",
+      "title": "Life is full of suffering – but leaning into moments of pleasure can allow the nervous system to rest | Nadine Levy",
+      "link": "https://www.theguardian.com/commentisfree/2026/nov/02/life-is-full-of-suffering-but-leaning-into-moments-of-pleasure-can-allow-the-nervous-system-to-rest",
+      "date": "2026-11-01T14:00:19Z",
+      "source": "The Guardian — Religion",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Election Day Countdown: Subpoenas, Senate Showdowns and a Final Push for Votes",
+      "link": "https://mycharisma.com/news/election-day-countdown-subpoenas-senate-showdowns-and-a-final-push-for-votes/",
+      "date": "2026-11-01T13:00:00Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "She says she was abused by a Maine priest 60 years ago, but wasn’t invited to church settlement process",
+      "link": "https://www.bishop-accountability.org/2026/11/she-says-she-was-abused-by-a-maine-priest-60-years-ago-but-wasnt-invited-to-church-settlement-process/",
+      "date": "2026-11-01T12:50:27Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Activists allege campaign to silence boys who accused Mangaluru Catholic priest of sex abuse",
+      "link": "https://www.bishop-accountability.org/2026/11/activists-allege-campaign-to-silence-boys-who-accused-mangaluru-catholic-priest-of-sex-abuse/",
+      "date": "2026-11-01T12:42:57Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Cincinnati-area church fires pastor after reported sexual misconduct",
+      "link": "https://www.bishop-accountability.org/2026/11/cincinnati-area-church-fires-pastor-after-reported-sexual-misconduct/",
+      "date": "2026-11-01T12:40:26Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Saibari and Gnabry ruled out indefinitely, say Bayern",
+      "link": "https://www.channelnewsasia.com/sport/saibari-and-gnabry-ruled-out-indefinitely-say-bayern-6510926",
+      "date": "2026-11-01T12:33:53Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Indian authorities tighten security ahead of big opposition march in Delhi",
-      "link": "https://www.channelnewsasia.com/asia/indian-authorities-tighten-security-ahead-big-opposition-march-in-delhi-6510591",
-      "date": "2026-11-01T04:42:46Z",
+      "title": "Minnesota Democrat Says Omar’s Fraud ‘Almost Certainly True’",
+      "link": "https://mycharisma.com/news/minnesota-democrat-says-omars-fraud-almost-certainly-true/",
+      "date": "2026-11-01T12:00:00Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Britain's Dart claims first WTA singles title in Guangzhou",
+      "link": "https://www.channelnewsasia.com/sport/britains-dart-claims-first-wta-singles-title-in-guangzhou-6510841",
+      "date": "2026-11-01T11:53:06Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "MotoGP keeps Qatar GP on track after meeting with teams in Malaysia",
-      "link": "https://www.channelnewsasia.com/sport/motogp-keeps-qatar-gp-track-after-meeting-teams-in-malaysia-6510586",
-      "date": "2026-11-01T04:14:06Z",
+      "title": "CAF names Samson Adamu as new general secretary",
+      "link": "https://www.channelnewsasia.com/sport/caf-names-samson-adamu-new-general-secretary-6510836",
+      "date": "2026-11-01T11:45:29Z",
       "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "French school blockades to restart from Monday: Student group",
+      "link": "https://www.channelnewsasia.com/world/france-protest-school-blockade-students-6510796",
+      "date": "2026-11-01T11:22:26Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "European champion Mageean dies aged 34 after cancer battle",
+      "link": "https://www.channelnewsasia.com/sport/european-champion-mageean-dies-aged-34-after-cancer-battle-6510791",
+      "date": "2026-11-01T11:17:55Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Pope’s ballot casting raises real questions",
+      "link": "https://cruxnow.com/news-analysis/2026/11/pope-leo-tells-villanova-and-notre-dame-basketball-teams-he-is-neutral-prevost-has-other-ideas-2/",
+      "date": "2026-11-01T11:12:11Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "Pro-Life Coalition Claims Signatures to Challenge Abortion Law",
+      "link": "https://mycharisma.com/news/pro-life-coalition-claims-signatures-to-challenge-abortion-law/",
+      "date": "2026-11-01T11:00:00Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Vatican Museum exhibit celebrates almost a century of popemobiles",
+      "link": "https://www.ncronline.org/vatican/vatican-museum-exhibit-celebrates-almost-century-popemobiles",
+      "date": "2026-11-01T09:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "On this All Saints' Day, we pray with people killed by ICE",
+      "link": "https://www.ncronline.org/spirituality/all-saints-day-we-pray-people-killed-ice",
+      "date": "2026-11-01T09:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Passing time with the saints: Who would you spend your day with?",
+      "link": "https://www.ncronline.org/spirituality/passing-time-saints-who-would-you-spend-your-day",
+      "date": "2026-11-01T09:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Istana Open House features inclusive employment for the first time",
+      "link": "https://www.straitstimes.com/singapore/community/istana-open-house-features-inclusive-employment-for-the-first-time",
+      "date": "2026-11-01T09:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Motorcyclist dies after accident with car on BKE near Woodlands Checkpoint",
+      "link": "https://www.straitstimes.com/singapore/motorcyclist-dies-after-accident-with-car-on-bke-near-woodlands-checkpoint",
+      "date": "2026-11-01T08:23:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Oil patches spotted in S’pore’s southern waters off Pulau Sebarok, Pulau Semakau and Selat Pauh: MPA",
+      "link": "https://www.straitstimes.com/singapore/oil-patches-spotted-off-pulau-sebarok-pulau-semakau-and-selat-pauh-mpa",
+      "date": "2026-11-01T06:41:57Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Heavy traffic expected at Woodlands, Tuas checkpoints during Deepavali long weekend",
+      "link": "https://www.straitstimes.com/singapore/heavy-traffic-expected-at-woodlands-tuas-checkpoints-during-deepavali-long-weekend",
+      "date": "2026-11-01T06:34:00Z",
+      "source": "Straits Times",
       "cat": "asia"
     },
     {
@@ -108,8 +234,8 @@
       "cat": "asia"
     },
     {
-      "title": "At least 20 S’pore schools hire external manpower to help with student discipline and management",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/at-least-20-spore-schools-hire-external-manpower-to-help-with-student-discipline-and-management",
+      "title": "A ball in your face at 60kmh: Older pickleball players more prone to eye injuries",
+      "link": "https://www.straitstimes.com/singapore/health/in-your-face-at-60kmh-older-pickleball-players-more-prone-to-eye-injuries",
       "date": "2026-11-01T04:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
@@ -118,55 +244,6 @@
       "title": "New MOS Foo Cexiang wants to help workers switch sectors, find jobs more quickly for those who reskill",
       "link": "https://www.straitstimes.com/singapore/politics/new-mos-foo-cexiang-wants-to-help-workers-switch-sectors-find-jobs-quicker-for-those-who-reskill",
       "date": "2026-11-01T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "A ball in your face at 60kmh: Older pickleball players more prone to eye injuries",
-      "link": "https://www.straitstimes.com/singapore/health/in-your-face-at-60kmh-older-pickleball-players-more-prone-to-eye-injuries",
-      "date": "2026-11-01T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "I went on an aerial obstacle course twice with my adult daughter with autism. Here’s what I learnt",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/i-went-on-an-aerial-obstacle-course-twice-with-my-adult-daughter-with-autism-heres-what-i-learnt",
-      "date": "2026-11-01T03:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Bolivia declares state of emergency over El Nino",
-      "link": "https://www.channelnewsasia.com/world/bolivia-state-emergency-el-nino-climate-change-6510571",
-      "date": "2026-11-01T03:33:02Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "German rioters loot shops as ‘Gen Z’ protests turn ugly",
-      "link": "https://www.channelnewsasia.com/world/germany-gen-z-looting-protests-violent-europe-6510521",
-      "date": "2026-11-01T02:56:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "1,310 BTO flats in Sembawang go on sale in November; under three years’ wait for them",
-      "link": "https://www.straitstimes.com/singapore/housing/1310-bto-flats-in-sembawang-go-on-sale-in-november-under-three-years-wait-for-them",
-      "date": "2026-11-01T02:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Police calls will soon come from a new 6000-0999 number to fight impersonation scams",
-      "link": "https://www.straitstimes.com/tech/police-calls-will-soon-come-from-a-new-6000-0999-number-to-fight-impersonation-scams",
-      "date": "2026-11-01T02:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "What if my child picks the wrong secondary school?",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/what-if-my-son-picks-the-wrong-secondary-school",
-      "date": "2026-11-01T00:45:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
@@ -262,27 +339,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Cincinnati Megachurch Pastor Lonnie Snell Fired For Sexual Misconduct",
-      "link": "https://www.bishop-accountability.org/2026/10/cincinnati-megachurch-pastor-lonnie-snell-fired-for-sexual-misconduct/",
-      "date": "2026-10-31T12:45:29Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Second woman sues Arlington pastor over alleged grooming, sexual assault",
-      "link": "https://www.bishop-accountability.org/2026/10/second-woman-sues-arlington-pastor-over-alleged-grooming-sexual-assault/",
-      "date": "2026-10-31T12:40:45Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Mangaluru Catholic priest accused of abusing minor boys gets bail",
-      "link": "https://www.bishop-accountability.org/2026/10/mangaluru-catholic-priest-accused-of-abusing-minor-boys-gets-bail-2/",
-      "date": "2026-10-31T12:38:02Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
       "title": "This rightwing evangelical was one of Trump’s biggest backers. Why isn’t he talking about the midterms?",
       "link": "https://www.theguardian.com/us-news/2026/oct/31/lance-wallnau-donald-trump-evangelicals",
       "date": "2026-10-31T12:00:41Z",
@@ -325,6 +381,13 @@
       "cat": "evangelical"
     },
     {
+      "title": "Catholicism's haunting strangeness warrants celebration, says author",
+      "link": "https://www.ncronline.org/culture/book-reviews/catholicisms-haunting-strangeness-warrants-celebration-says-author",
+      "date": "2026-10-31T08:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
       "title": "Mark Kermode on restoration of 'The Devils' and the director's Catholicism",
       "link": "https://www.ncronline.org/culture/mark-kermode-restoration-devils-and-directors-catholicism",
       "date": "2026-10-31T08:00:00Z",
@@ -334,13 +397,6 @@
     {
       "title": "Remembering the 'forgotten lilies'",
       "link": "https://www.ncronline.org/spirituality/soul-seeing/remembering-forgotten-lilies",
-      "date": "2026-10-31T08:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "Catholicism's haunting strangeness warrants celebration, says author",
-      "link": "https://www.ncronline.org/culture/book-reviews/catholicisms-haunting-strangeness-warrants-celebration-says-author",
       "date": "2026-10-31T08:00:00Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
@@ -416,25 +472,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "After Surviving Botched Execution, Christa Pike Speaks Out for First Time: ‘I Still Struggle to Speak’",
-      "link": "https://mycharisma.com/news/after-surviving-botched-execution-christa-pike-speaks-out-for-first-time-i-still-struggle-to-speak/",
-      "date": "2026-10-30T18:17:53Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
       "title": "One hundred years after his death, Houdini still matters",
       "link": "https://religionnews.com/2026/10/30/one-hundred-years-after-his-death-houdini-still-matters/",
       "date": "2026-10-30T17:56:49Z",
       "source": "Religion News Service",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Is This What They Are Preparing For? ‘Financial Doomsday’ Looms As Cyberattacks And Rogue AI Agents Force Banks To Prepare For A ‘Day After’ Scenario",
-      "link": "https://mycharisma.com/news/is-this-what-they-are-preparing-for-financial-doomsday-looms-as-cyberattacks-and-rogue-ai-agents-force-banks-to-prepare-for-a-day-after-scenario/",
-      "date": "2026-10-30T17:10:04Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
     },
     {
       "title": "Pope Leo votes in US midterms in first known political ballot for any pontiff",
@@ -465,24 +507,10 @@
       "cat": "evangelical"
     },
     {
-      "title": "Ohio Church Goes Up in Flames Hours After Pastor Discovers Signs of Break-In",
-      "link": "https://mycharisma.com/news/ohio-church-goes-up-in-flames-hours-after-pastor-discovers-signs-of-break-in/",
-      "date": "2026-10-30T15:26:54Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
       "title": "Christians have ‘deep roots’ in Jordan, expert tells Crux Now after deadly church attack",
       "link": "https://cruxnow.com/church-in-the-middle-east/2026/10/christians-have-deep-roots-in-jordan-expert-tells-crux-now-after-deadly-church-attack/",
       "date": "2026-10-30T15:14:42Z",
       "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
-      "title": "In a papal first, Leo votes in US midterms",
-      "link": "https://www.ncronline.org/vatican/papal-first-leo-votes-us-midterms",
-      "date": "2026-10-30T15:11:22Z",
-      "source": "National Catholic Reporter",
       "cat": "catholic"
     },
     {
@@ -512,13 +540,6 @@
       "date": "2026-10-30T15:00:08Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
-    },
-    {
-      "title": "Killed almost 430 years ago, 5 Catholic friars will soon be one step from sainthood",
-      "link": "https://www.ncronline.org/news/killed-almost-430-years-ago-5-catholic-friars-will-soon-be-one-step-sainthood",
-      "date": "2026-10-30T14:50:27Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "Teens Admit: They Spend Hours Scrolling but Don’t Enjoy It, Poll Finds",
@@ -605,13 +626,6 @@
       "cat": "catholic"
     },
     {
-      "title": "40 years after Cardinal Ratzinger's 'Halloween Letter,' anti-gay message lingers",
-      "link": "https://www.ncronline.org/opinion/40-years-after-cardinal-ratzingers-halloween-letter-anti-gay-message-lingers",
-      "date": "2026-10-30T08:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
       "title": "Ep. 660: Life Surge Settles, Samuel Sey, Multi-Site Churches, Highland Park Methodist Church",
       "link": "https://ministrywatch.com/ep-660-life-surge-settles-samuel-sey-multi-site-churches-highland-park-methodist-church/",
       "date": "2026-10-30T04:36:44Z",
@@ -671,13 +685,6 @@
       "title": "French riots and pope’s successful visit are ‘two sides of same coin’, bishop tells Crux Now",
       "link": "https://cruxnow.com/church-in-europe/2026/10/french-riots-and-popes-successful-visit-are-two-sides-of-same-coin-bishop-tells-crux-now/",
       "date": "2026-10-29T11:56:47Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
-      "title": "Bill Raftery might have ‘a little kiss’ for the pope’s ring at college hoops season opener in Rome",
-      "link": "https://cruxnow.com/church-in-the-usa/2026/10/bill-raftery-might-have-a-little-kiss-for-the-popes-ring-at-college-hoops-season-opener-in-rome/",
-      "date": "2026-10-29T11:51:02Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
     },
@@ -769,13 +776,6 @@
       "title": "New York archdiocese finalizing $800m settlement with clergy sex abuse survivors",
       "link": "https://www.theguardian.com/us-news/2026/oct/24/new-york-archdiocese-800m-settlement-sexual-abuse",
       "date": "2026-10-24T21:33:24Z",
-      "source": "The Guardian — Religion",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Nine killed and 40 injured after gunmen open fire at church funeral in Jordan",
-      "link": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
-      "date": "2026-10-24T14:24:15Z",
       "source": "The Guardian — Religion",
       "cat": "mainstreamreligion"
     },
