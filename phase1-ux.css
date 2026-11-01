@@ -1,0 +1,28 @@
+/* Phase 1 UX - Guard the Flock */
+.landing{display:none;padding-block:28px 40px}
+body.landing-mode .landing{display:block}
+body.landing-mode .nav-tabs,body.landing-mode .section,body.landing-mode .help-now-btn{display:none!important}
+body:not(.landing-mode) .landing{display:none}
+.landing-intro{font-family:Lora,Georgia,serif;font-size:1.05rem;color:var(--fg-muted);max-width:52ch;margin:0 0 28px;line-height:1.65}
+.path-cards{display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:28px}
+@media(min-width:640px){.path-cards{grid-template-columns:repeat(3,1fr);gap:16px}}
+.path-card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:22px 20px;cursor:pointer;text-align:left;font-family:inherit;color:inherit;transition:border-color .15s,box-shadow .15s,transform .12s;display:flex;flex-direction:column;gap:8px;min-height:100%}
+.path-card:hover,.path-card:focus-visible{border-color:var(--accent);box-shadow:0 4px 16px rgba(0,0,0,.08);outline:none}
+.path-card:active{transform:scale(.985)}
+.path-card .path-icon{font-size:1.6rem;line-height:1}
+.path-card .path-title{font-family:Lora,Georgia,serif;font-size:1.05rem;font-weight:600;margin:0;color:var(--fg)}
+.path-card .path-desc{font-size:.875rem;color:var(--fg-muted);margin:0;line-height:1.5;flex:1}
+.path-card .path-cta{font-size:.78rem;font-weight:600;color:var(--accent);margin-top:6px}
+.landing-alt{text-align:center;font-size:.9rem;color:var(--fg-muted)}
+.landing-alt button{background:none;border:none;color:var(--link);font:inherit;font-weight:600;cursor:pointer;text-decoration:underline;padding:0}
+.landing-alt button:hover{color:var(--accent)}
+.help-now-btn{position:fixed;bottom:20px;right:16px;z-index:90;display:flex;align-items:center;gap:8px;padding:10px 16px;background:var(--accent);color:#fff;border:none;border-radius:28px;font-family:Inter,system-ui,sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;box-shadow:0 4px 18px rgba(139,28,46,.35)}
+.help-now-btn:hover{background:#6e1524}
+@media(max-width:380px){.help-now-btn .hn-label{display:none}.help-now-btn{padding:12px;border-radius:50%}}
+.cases-soft-gate{border:1px solid var(--border);background:var(--bg-alt);border-radius:8px;padding:18px 20px;margin-bottom:1.5rem;font-size:.9rem}
+.cases-soft-gate p{margin:0 0 12px}
+.cases-show-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;background:var(--card-bg);border:1px solid var(--border);border-radius:6px;font:inherit;font-size:.85rem;font-weight:600;color:var(--fg);cursor:pointer;margin-top:4px}
+.cases-show-btn:hover{border-color:var(--accent);color:var(--accent)}
+#case-content-wrapper.hidden-cases{display:none}
+.inline-goto{background:none;border:none;padding:0;font:inherit;color:var(--link);font-weight:600;cursor:pointer;text-decoration:underline}
+.inline-goto:hover{color:var(--accent)}
