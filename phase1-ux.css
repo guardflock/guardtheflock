@@ -140,3 +140,20 @@ body:not(.landing-mode) .landing{display:none}
   font-weight:600;
   text-decoration:none;
 }
+
+/* Keep related-links boxes within the same column as tab content */
+.related-links{
+  box-sizing:border-box;
+  width:100%;
+  max-width:100%;
+  margin-top:32px;
+}
+.related-links-wrap{
+  box-sizing:border-box;
+  width:100%;
+  max-width:100%;
+}
+.faq-standalone .related-links{
+  margin-left:0;
+  margin-right:0;
+}
