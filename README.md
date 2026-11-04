@@ -20,15 +20,23 @@
 - **Get Help** — support contacts for Malaysia, Singapore, and globally
 - **FAQ** — including guidance for cell-group leaders and pastoral workers
 
+## Navigation and accessibility
+
+- **Path chooser:** On a first visit, readers can choose a starting path for discernment, personal support, or church-leader guidance. The section tabs remain available after entering the guide.
+- **Need Help shortcut:** A persistent shortcut opens Get Help / Respond, including when the path chooser is displayed.
+- **Progressive disclosure:** The warning signs remain visible; deeper tests, decision tools, and group-study material can be opened when needed.
+- **Documented Cases content note:** A distressing-content warning appears immediately above the case list. The cases remain visible below it; visitors are not required to click through a separate reveal gate.
+- **Keyboard accessibility:** A skip-to-content link and visible keyboard-focus indicators help visitors navigate the page.
+
 ## Important scope and editorial notes
 
-This site is educational material, not a complaints platform. It does **not** name, rate, or maintain a database of individual churches, pastors, or leaders. Case links are manually curated from independent publishers. A reported allegation is not a finding of guilt; a settlement is not necessarily an admission of wrongdoing. Please read the linked publisher's reporting and verify time-sensitive support contacts before relying on them.
+This site is educational material, not a complaints platform. It does **not** operate a directory or ranking of churches, pastors, or leaders. The Documented Cases section links to selected public reporting; it does not investigate or adjudicate cases independently. Case links are manually curated from independent publishers. A reported allegation is not a finding of guilt; a settlement is not necessarily an admission of wrongdoing. Please read the linked publisher's reporting and verify time-sensitive support contacts before relying on them.
 
 ## Case reporting and latest headlines
 
-**Documented Cases** is manually curated. The maintainer reviews stories and adds selected, specific links with appropriate context under that section. Use FreshRSS privately if helpful for discovering articles, then verify the original publisher's report before adding a case link. Prioritize Christian-authored or Christian-organization reporting about spiritual or sexual abuse, safeguarding, church financial misconduct, or institutional accountability. Keep publisher attribution and bylines where known; distinguish allegations, convictions, and settlements; don't infer guilt or build a database of identifiable people.
+**Documented Cases** is manually curated. The maintainer reviews stories and adds selected, specific links with appropriate context under that section. Use FreshRSS privately if helpful for discovering articles, then verify the original publisher's report before adding a case link. Prioritize Christian-authored or Christian-organization reporting about spiritual or sexual abuse, safeguarding, church financial misconduct, or institutional accountability. Keep publisher attribution and bylines where known; distinguish allegations, convictions, and settlements; do not infer guilt or build a database of identifiable people.
 
-The separate **Latest News** section is an automated headline-discovery feed. A GitHub Actions workflow runs `scripts/update_news.py` every four hours and on relevant workflow/script changes. The script reads public publisher RSS/Atom feeds and writes a static snapshot to `data/news.json`; the website loads that JSON file. Headlines are links to the publishers' original articles, not independently verified case records or endorsements. Feed availability and relevance can vary, so use the original publisher's page and editorial judgement before treating a story as evidence.
+The separate **Latest News** section is an automated headline-discovery feed. It is not a case database or an endorsement of the linked stories. The GitHub Actions workflow runs scripts/update_news.py every four hours, at 17 minutes past each fourth UTC hour, and when the workflow or script changes are pushed to main. The script reads public publisher RSS/Atom feeds and writes a static snapshot to data/news.json; the website loads that JSON file rather than requesting RSS feeds directly from each visitor's browser. Headlines link to publishers' original articles and are not independently verified case records. Feed availability and relevance can vary, so check the original publisher's report and use editorial judgement before adding a story to Documented Cases. Preview branches may show their committed snapshot without independently refreshing it.
 
 ## Development and deployment
 
