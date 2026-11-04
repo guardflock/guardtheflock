@@ -3038,8 +3038,10 @@ footer {
   });
   // ── Latest News RSS feed loader ──────────────────────────────────────────
   // The scheduled GitHub Action builds this static snapshot from publisher RSS.
+  // Load the snapshot from the deployed site. The source GitHub repository is private,
+  // so raw.githubusercontent.com is not a public fallback for anonymous visitors.
   const NEWS_DATA_URL = 'data/news.json';
-  const NEWS_DATA_BACKUP_URL = 'https://raw.githubusercontent.com/guardflock/guardtheflock/main/data/news.json';
+  const NEWS_DATA_BACKUP_URL = 'https://guardtheflock.pages.dev/data/news.json';
   const NEWS_TIMEOUT_MS = 12000;
 
   function timeAgo(dateStr) {
