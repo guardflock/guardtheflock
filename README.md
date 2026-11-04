@@ -2,7 +2,8 @@
 
 **A free, public educational resource on spiritual abuse**—what it is, how to recognise it, and where to find support and further reading.
 
-🌐 **Live site:** [guardflock.github.io/guardtheflock/](https://guardflock.github.io/guardtheflock/)
+🌐 **Live site:** [https://guardtheflock.pages.dev/](https://guardtheflock.pages.dev/)  
+🔒 **Source repository:** Private GitHub repository (`guardflock/guardtheflock`). The website remains publicly accessible; repository privacy does not make the Cloudflare Pages site private.
 
 ## Current version
 
@@ -23,14 +24,25 @@
 
 This site is educational material, not a complaints platform. It does **not** name, rate, or maintain a database of individual churches, pastors, or leaders. Case links are manually curated from independent publishers. A reported allegation is not a finding of guilt; a settlement is not necessarily an admission of wrongdoing. Please read the linked publisher's reporting and verify time-sensitive support contacts before relying on them.
 
-## Curating case reporting
+## Case reporting and latest headlines
 
-The site intentionally has no automated headline feed. The maintainer reviews stories and manually adds selected, specific links under **Documented Cases**. Use FreshRSS privately if helpful for discovering articles, then verify the original publisher's report before adding a link. Prioritize Christian-authored or Christian-organization reporting about spiritual or sexual abuse, safeguarding, church financial misconduct, or institutional accountability. Keep publisher attribution and bylines where known; distinguish allegations, convictions, and settlements; don't infer guilt or build a database of identifiable people.
+**Documented Cases** is manually curated. The maintainer reviews stories and adds selected, specific links with appropriate context under that section. Use FreshRSS privately if helpful for discovering articles, then verify the original publisher's report before adding a case link. Prioritize relevant reporting about spiritual or sexual abuse, safeguarding, church financial misconduct, or institutional accountability. Keep publisher attribution and bylines where known; distinguish allegations, convictions, and settlements; do not infer guilt or build a database of identifiable people.
 
+The separate **Latest News** section is an automated headline-discovery feed, not a case database or an endorsement of the linked stories. The GitHub Actions workflow runs `scripts/update_news.py` on its configured schedule (every four hours, at 17 minutes past the hour, UTC) and when the workflow or script changes are pushed to its configured branch. The script reads public publisher RSS/Atom feeds and writes a static snapshot to `data/news.json`. The website loads that JSON file; it does not request RSS feeds directly from each visitor's browser. Feed availability and relevance can vary, so check the original publisher's report and use editorial judgement before adding a story to **Documented Cases**.
 ## Development and deployment
 
-This is a static site hosted with GitHub Pages. The main page is `index.html`; there is no frontend build step or package install. Open `index.html` in a browser for a visual check. FreshRSS is not part of site hosting: it is an optional private reader on the maintainer's PC.
+The site is a static website published at [guardtheflock.pages.dev](https://guardtheflock.pages.dev/) using **Cloudflare Pages**. The source is maintained in the private GitHub repository `guardflock/guardtheflock`; the public website is served separately by Cloudflare Pages.
 
+- **Production branch:** `main`.
+- **Pre-production branch:** `pre-production-v2` (used for staging changes; it is not the production branch unless Cloudflare Pages is separately configured to publish a preview deployment).
+- **Root directory:** repository root (`/`).
+- **Build command:** none; this is plain HTML, CSS, JavaScript, and static data.
+- **Build output directory:** repository root (`/` or `.` in the Cloudflare Pages setting).
+- **Main page:** `index.html`.
+
+When Cloudflare Pages Git integration is connected to this private repository, commits to the configured production branch trigger production deployments. Preview deployments for other branches depend on the Cloudflare Pages branch/deployment settings. The Git integration must retain permission to access the private repository. If a commit does not appear on the site or preview, check the Cloudflare Pages deployment log.
+
+For a local visual check, open `index.html` in a browser. FreshRSS is not part of site hosting: it is an optional private reader on the maintainer's PC. The Latest News section uses the generated `data/news.json` snapshot. The scheduled workflow is normally run from the repository's default branch; a non-default preview branch may display its committed snapshot without independently refreshing it.
 ## Versioning
 
 The project uses [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`.
