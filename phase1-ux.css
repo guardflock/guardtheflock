@@ -1,0 +1,39 @@
+/* Path chooser, help shortcut, accessibility and progressive disclosure */
+.landing{display:none;padding-block:28px 40px}
+body.landing-mode .landing{display:block}
+body.landing-mode .nav-tabs,body.landing-mode .section{display:none!important}
+body:not(.landing-mode) .landing{display:none}
+.landing-intro{font-family:Lora,Georgia,serif;font-size:1.05rem;color:var(--fg-muted);max-width:52ch;margin:0 0 28px;line-height:1.65}
+.path-cards{display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:28px}
+@media(min-width:640px){.path-cards{grid-template-columns:repeat(3,1fr);gap:16px}}
+.path-card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:22px 20px;cursor:pointer;text-align:left;font-family:inherit;color:inherit;transition:border-color .15s,box-shadow .15s,transform .12s;display:flex;flex-direction:column;gap:8px;min-height:100%}
+.path-card:hover,.path-card:focus-visible{border-color:var(--accent);box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.path-card:focus-visible,.nav-tab:focus-visible,.help-now-btn:focus-visible,.layer-toggle:focus-visible,.inline-goto:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.path-card:active{transform:scale(.985)}
+.path-card .path-icon{font-size:1.6rem;line-height:1;color:var(--accent)}
+.path-card .path-title{font-family:Lora,Georgia,serif;font-size:1.05rem;font-weight:600;margin:0;color:var(--fg)}
+.path-card .path-desc{font-size:.875rem;color:var(--fg-muted);margin:0;line-height:1.5;flex:1}
+.path-card .path-cta{font-size:.78rem;font-weight:600;color:var(--accent);margin-top:6px}
+.landing-alt{text-align:center;font-size:.9rem;color:var(--fg-muted)}
+.landing-alt button{background:none;border:none;color:var(--link);font:inherit;font-weight:600;cursor:pointer;text-decoration:underline;padding:0}
+.nav-start-here{border-color:var(--accent)!important;color:var(--accent)!important;font-weight:600!important}
+.nav-start-here:hover{background:var(--accent-soft)!important;color:var(--accent)!important}
+.help-now-btn{position:fixed;bottom:20px;right:16px;z-index:90;display:flex;align-items:center;gap:8px;padding:10px 16px;background:var(--accent);color:#fff;border:none;border-radius:28px;font-family:Inter,system-ui,sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;box-shadow:0 4px 18px rgba(139,28,46,.35)}
+.help-now-btn:hover{background:#6e1524}
+@media(max-width:380px){.help-now-btn .hn-label{display:none}.help-now-btn{padding:12px;border-radius:50%}}
+.cases-soft-gate{border:1px solid var(--border);background:var(--bg-alt);border-radius:8px;padding:18px 20px;margin-bottom:1.5rem;font-size:.9rem}
+.cases-soft-gate p{margin:0}
+.inline-goto{background:none;border:none;padding:0;font:inherit;color:var(--link);font-weight:600;cursor:pointer;text-decoration:underline}
+.inline-goto:hover{color:var(--accent)}
+.discern-layers{margin:32px 0 8px}
+.layer-toggle{width:100%;display:flex;flex-direction:column;align-items:flex-start;gap:4px;padding:14px 16px;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;cursor:pointer;font:inherit;text-align:left;color:var(--fg);box-sizing:border-box}
+.layer-toggle:hover,.layer-toggle:focus-visible{border-color:var(--accent);box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.layer-toggle-label{font-family:Lora,Georgia,serif;font-size:1.05rem;font-weight:600}
+.layer-toggle-hint{font-size:.8rem;color:var(--fg-muted)}
+.layer-toggle::after{content:"Show ▾";font-size:.78rem;font-weight:600;color:var(--accent);margin-top:6px}
+.layer-toggle[aria-expanded="true"]::after{content:"Hide ▴"}
+.discern-deeper{margin:24px 0 0;padding:0!important;border:none!important;background:transparent!important;max-width:none}
+.discern-deeper[hidden]{display:none!important}
+.discern-deeper>:first-child{margin-top:0}
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{position:fixed;left:12px;top:12px;z-index:200;width:auto;height:auto;padding:10px 14px;background:var(--accent);color:#fff;border-radius:6px;font-weight:600;text-decoration:none}
