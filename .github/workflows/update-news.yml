@@ -1,5 +1,7 @@
 name: Update latest news snapshot
 
+# Refresh the public static news snapshot four times daily (17 minutes past each
+# fourth UTC hour). Scheduled runs execute from the repository's default branch.
 on:
   schedule:
     - cron: "17 */4 * * *"
@@ -30,6 +32,7 @@ jobs:
         with:
           python-version: "3.x"
 
+      # This writes data/news.json only; Cloudflare Pages handles website publishing.
       - name: Fetch and normalize RSS feeds
         run: python scripts/update_news.py
 
