@@ -20,7 +20,7 @@ Notable changes to Guard the Flock are recorded here. This project uses Semantic
 
 ### Changed
 - Corrected confirmed broken, mismatched, or unrelated external resource/case links based on the link audit.
-- Removed the missing social preview image declaration and set the canonical Open Graph URL to the GitHub Pages site.
+- Removed the missing social preview image declaration and set the canonical Open Graph URL to the Cloudflare Pages site.
 - Replaced dead archive paths with verified publisher pages/searches where appropriate; removed unsafe or unverified organization domains.
 - Added the complete `link-audit-report.md` handoff with status, limitations, and remaining human verification items.
 - Documented private FreshRSS as an optional discovery tool only; the public site remains manually curated with no auto-published feed.
@@ -42,7 +42,7 @@ Notable changes to Guard the Flock are recorded here. This project uses Semantic
 - Repaired confirmed broken journalism/resource links and removed unrelated or unsafe destinations.
 - Replaced dead topic URLs with current search pages only where a relevant search is available; relabeled broad destinations honestly.
 - Replaced ProPublica's dead topic/series links with its live church-abuse investigation series.
-- Corrected the Open Graph canonical URL and removed the missing social preview image reference.
+- Corrected the Open Graph canonical URL to the Cloudflare Pages site and removed the missing social preview image reference.
 
 ### Removed
 - Removed links to the CFM loan site, unverified spiritual-abuse domain, and broken general-news/search destinations.
