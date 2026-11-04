@@ -38,6 +38,7 @@
 <meta name="twitter:title" content="Guard the Flock — Understanding Spiritual Abuse">
 <meta name="twitter:description" content="Understand spiritual abuse, recognise warning signs, discern healthy church leadership, and find support through this Christian-focused resource.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="phase1-ux.css">
 
 <style>
 /* ── Design tokens ──────────────────────────────────────────────────────────
@@ -989,6 +990,7 @@ footer {
 </script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
 
 <!-- ── Light / Dark mode toggle ── -->
@@ -997,7 +999,9 @@ footer {
   <span class="tt-label" id="tt-label">Dark</span>
 </button>
 
-<div class="page-wrap">
+<button type="button" class="help-now-btn" id="help-now-btn" aria-label="Need help now" aria-controls="tab-respond"><span aria-hidden="true">🆘</span><span class="hn-label">Need help now?</span></button>
+
+<div class="page-wrap" id="main-content" tabindex="-1">
 
   <!-- Header -->
   <header class="site-header">
@@ -1007,8 +1011,19 @@ footer {
     <p>Sometimes, it’s hard to tell when something isn’t right, especially when it involves someone you trust. Guard the Flock is a resource primarily for the Church and Christian community, helping people recognise spiritual abuse and understand what healthy spiritual leadership looks like. Although our focus is on Christian contexts, spiritual abuse can occur in other faith communities too.</p>
   </header>
 
+  <div class="landing" id="path-landing" aria-label="Choose how to start">
+    <p class="landing-intro">Whether you are trying to make sense of something, looking for practical next steps, or leading others with care — choose the path that fits you best.</p>
+    <div class="path-cards">
+      <button type="button" class="path-card" data-path="discern" aria-label="I think something is wrong"><span class="path-icon" aria-hidden="true">⌕</span><h2 class="path-title">I think something is wrong</h2><p class="path-desc">Warning signs, biblical tests for healthy leadership, and tools to help you discern.</p><span class="path-cta">Start with discernment →</span></button>
+      <button type="button" class="path-card" data-path="respond" aria-label="I need help or support"><span class="path-icon" aria-hidden="true">♡</span><h2 class="path-title">I need help or support</h2><p class="path-desc">Practical next steps, safety guidance, and support contacts in Malaysia, Singapore, and beyond.</p><span class="path-cta">Find help and support →</span></button>
+      <button type="button" class="path-card" data-path="leaders" aria-label="I am a church leader or concerned friend"><span class="path-icon" aria-hidden="true">◎</span><h2 class="path-title">I am a church leader or concerned friend</h2><p class="path-desc">Safeguarding, receiving a disclosure, and responding with care and accountability.</p><span class="path-cta">Explore guidance for leaders →</span></button>
+    </div>
+    <p class="landing-alt">Prefer to browse the whole guide? <button type="button" id="explore-all-btn">Explore all sections</button></p>
+  </div>
+
   <!-- Navigation -->
   <nav class="nav-tabs" role="tablist" aria-label="Guide sections">
+    <button type="button" class="nav-tab nav-start-here" id="start-here-btn" aria-label="Show the path chooser landing again">Start here</button>
     <button class="nav-tab active" role="tab" aria-selected="true" data-tab="understand">Understand</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="discern">Discern</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">Get Help / Respond</button>
@@ -1040,7 +1055,13 @@ footer {
       "Spiritual abuse occurs when a person in religious authority uses that position to manipulate, coerce, or exploit another person in ways that damage their spiritual health, emotional wellbeing, or basic dignity."
     </div>
 
-    <p>Unlike overt physical or financial crimes, spiritual abuse often operates quietly. Victims frequently stay silent because they fear judgment, are told to "submit," or genuinely cannot name what is happening to them. Research on religious and spiritual abuse is still developing, but studies have reported associations with anxiety, depression, trauma-related symptoms, loss of trust, and difficulties in personal relationships. Research focused specifically on clergy-perpetrated abuse also documents psychological, emotional, and spiritual harm. These findings should not be taken to mean that every experience or form of religious coercion has the same effects.</p>
+    <p>Unlike overt physical or financial crimes, spiritual abuse often operates quietly. Victims frequently stay silent because they fear judgment, are told to "submit," or genuinely cannot name what is happening to them.</p>
+
+    <div class="banner safe" role="note" style="margin:20px 0;">
+      <strong>Spiritual abuse is not the same as ordinary pastoral failure.</strong> Leaders can be imperfect, make poor decisions, preach weakly, or handle conflict badly without it being spiritual abuse. Spiritual abuse often involves a pattern of using spiritual authority to control, coerce, silence, or exploit, and may cause lasting harm to a person's dignity, conscience, or relationship with God. A pattern is an important warning sign, but it is not a prerequisite for recognising serious abuse: a single act of physical or sexual violence can itself be abuse and a safeguarding or criminal matter. Assess the conduct, power, context, impact, and response to accountability rather than relying on one indicator alone.
+    </div>
+
+    <p>Research on religious and spiritual abuse is still developing, but studies have reported associations with anxiety, depression, trauma-related symptoms, loss of trust, and difficulties in personal relationships. Research focused specifically on clergy-perpetrated abuse also documents psychological, emotional, and spiritual harm. These findings should not be taken to mean that every experience or form of religious coercion has the same effects.</p>
 
     <div class="research-reading" style="margin: 14px 0 24px; padding: 16px 18px; background: var(--surface, rgba(128,128,128,.07)); border-left: 3px solid var(--accent); border-radius: 6px;">
       <h4 style="margin: 0 0 10px; font-size: 1rem;">Research &amp; further reading</h4>
@@ -1216,7 +1237,9 @@ footer {
     <!-- ── Discernment section ── -->
     <hr style="margin: 40px 0 32px; border: none; border-top: 1px solid var(--border);">
     <p class="eyebrow">Spiritual discernment</p>
-    <h3 id="discern-tests" class="sec-sub" style="font-size: 1.4rem; margin-bottom: 10px; scroll-margin-top: 68px;">How to Test the Fruit</h3>
+        <div class="discern-layers"><button type="button" class="layer-toggle" id="layer-deeper-btn" aria-expanded="false" aria-controls="discern-deeper"><span class="layer-toggle-label">Go deeper — tests, decision tree &amp; study tools</span><span class="layer-toggle-hint">Optional · for careful reflection or groups</span></button></div>
+    <div id="discern-deeper" class="discern-deeper collapsed" hidden>
+<h3 id="discern-tests" class="sec-sub" style="font-size: 1.4rem; margin-bottom: 10px; scroll-margin-top: 68px;">How to Test the Fruit</h3>
 
     <div class="scripture-pull">
       "Watch out for false prophets. They come to you in sheep's clothing, but inwardly they are ferocious wolves. By their fruit you will recognise them."
@@ -1620,6 +1643,7 @@ footer {
     </div>
 
 
+    </div>
   </section>
 
   <!-- ── Tab: Get Help / Respond ──────────────────────────────────────────── -->
@@ -1647,7 +1671,11 @@ footer {
     <div class="triage-box">
       <h4>⚠ Before you proceed — check your situation</h4>
       <p style="font-size:.78rem;color:#92400e;margin-bottom:10px;line-height:1.55;"><strong>Location matters.</strong> Emergency numbers, child-protection obligations, reporting channels, and legal procedures differ by country. The contact details below include services in <strong>Malaysia &amp; Singapore</strong>. If you are in another country, please contact your local emergency services or relevant safeguarding authority — do not rely solely on the numbers listed here.</p>
-      <div class="triage-grid">
+            <p class="global-support-note" style="font-size:.85rem;line-height:1.65;margin:12px 0 16px;padding:12px 14px;background:var(--bg-alt);border-radius:8px;border:1px solid var(--border);">
+        <strong>Outside Malaysia &amp; Singapore:</strong>
+        If you are in immediate danger, contact your local emergency services. For emotional crisis support, use <a href="https://findahelpline.com" target="_blank" rel="noopener noreferrer" style="color:var(--accent);font-weight:600;">Find a Helpline</a> to search for support options in your country. Availability, eligibility, and hours vary by location; check the service's own information before relying on it.
+      </p>
+<div class="triage-grid">
         <div class="triage-item">
           <div class="ti-label">🚨 Immediate danger</div>
           <strong>Call emergency services now</strong>
@@ -1972,7 +2000,11 @@ footer {
     <p style="margin-bottom:2rem;color:var(--fg-muted);">Why document this at all? Because patterns become visible only when cases are collected. Awareness of documented abuse in Christian contexts helps communities ask better questions, spot similar dynamics early, and stop dismissing concerns as "just gossip." The journalism linked here has been verified, published, and, where relevant, updated with legal outcomes.</p>
 
     <!-- ── Individual Named Cases ─────────────────────────────────────────── -->
-    <h3 id="cases-individual" class="sec-sub" style="margin-bottom:.5rem; scroll-margin-top: 68px;">Individual Named Cases</h3>
+        <div class="cases-soft-gate" id="cases-content-note" role="note" aria-label="Content note for documented cases">
+      <p><strong>Content note:</strong> The cases below describe real situations involving spiritual and sexual abuse, coercion, and institutional failure. Some linked reports may include distressing or graphic detail. You can skip this section or leave at any time. If you are currently in a harmful environment or feeling overwhelmed, consider starting with <button type="button" class="inline-goto" data-goto="respond">Get Help</button> or the <button type="button" class="inline-goto" data-goto="discern">warning signs</button>.</p>
+    </div>
+
+<h3 id="cases-individual" class="sec-sub" style="margin-bottom:.5rem; scroll-margin-top: 68px;">Individual Named Cases</h3>
     <p style="font-size:.88rem;color:var(--fg-muted);margin-bottom:1.5rem;">Specific cases drawn from independent journalism and official investigations, most recent first. Each carries an evidence status label — see the FAQ (linked in the footer) for what these mean. An allegation is not a finding; a civil lawsuit is not a conviction; an institutional report is not a criminal charge.</p>
 
     <!-- Filter bar -->
@@ -3028,6 +3060,7 @@ footer {
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
       const target = tab.dataset.tab;
+      if (!target) return;
       tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
       panels.forEach(p => p.classList.remove('active'));
       tab.classList.add('active');
@@ -3329,6 +3362,8 @@ footer {
       });
     } catch(e) {}
   })();
-</script><!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0a4075241ec14b4eba273d1cd1a8001b"}'></script><!-- End Cloudflare Web Analytics -->
+</script>
+<script src="phase1-ux.js"></script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0a4075241ec14b4eba273d1cd1a8001b"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
