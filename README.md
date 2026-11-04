@@ -34,16 +34,16 @@ The separate **Latest News** section is an automated headline-discovery feed. A 
 
 The site is a static website published at [guardtheflock.pages.dev](https://guardtheflock.pages.dev/) using **Cloudflare Pages**. The source is maintained in the private GitHub repository `guardflock/guardtheflock`; the public website is served separately by Cloudflare Pages.
 
-- **Production branch:** `main` (confirm this remains selected in the Cloudflare Pages project settings).
+- **Production branch:** `main`.
+- **Pre-production branch:** `pre-production-v2` (used for staging changes; it is not the production branch unless Cloudflare Pages is separately configured to publish a preview deployment).
 - **Root directory:** repository root (`/`).
 - **Build command:** none; this is plain HTML, CSS, JavaScript, and static data.
 - **Build output directory:** repository root (`/` or `.` in the Cloudflare Pages setting).
 - **Main page:** `index.html`.
 
-When Cloudflare Pages Git integration is connected to this repository, commits merged or pushed to `main` trigger production deployments. The repository being private does not prevent Cloudflare Pages from publishing the configured build output, provided the Cloudflare Git integration retains access to the repository. Check the Cloudflare Pages deployment log if a commit does not appear on the live site.
+When Cloudflare Pages Git integration is connected to this private repository, commits to the configured production branch trigger production deployments. Preview deployments for other branches depend on the Cloudflare Pages branch/deployment settings. The Git integration must retain permission to access the private repository. If a commit does not appear on the site or preview, check the Cloudflare Pages deployment log.
 
-For a local visual check, open `index.html` in a browser. FreshRSS is not part of site hosting: it is an optional private reader on the maintainer's PC. The Latest News section uses the generated `data/news.json` snapshot; it does not fetch publisher feeds directly from each visitor's browser.
-
+For a local visual check, open `index.html` in a browser. FreshRSS is not part of site hosting: it is an optional private reader on the maintainer's PC. The Latest News section uses the generated `data/news.json` snapshot. The scheduled workflow is normally run from the repository's default branch; a non-default preview branch may display its committed snapshot without independently refreshing it.
 ## Versioning
 
 The project uses [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`.
