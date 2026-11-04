@@ -1,23 +1,29 @@
 # Guard the Flock
 
-> An independent educational and support resource for the Christian Church and faith communities to recognize, understand, and recover from spiritual abuse, discern healthy biblical leadership, and find trusted help.
+> An independent educational and support resource for the Christian Church and faith communities to recognise, understand, and recover from spiritual abuse, discern healthy biblical leadership, and find trusted help.
 
 ## About Guard the Flock
-Guard the Flock is a comprehensive resource created to help individuals, church members, and pastoral leaders understand religious coercive control and spiritual abuse. It equips readers with clear definitions, behavioral red flags, biblical discernment frameworks, practical safety and recovery steps, and documented public case studies.
 
-## Key Sections & Direct Links
-- [Understand Spiritual Abuse](https://guardtheflock.pages.dev/#understand): Core definitions, theological manipulation, coercive control, and the distinction between biblical guidance and spiritual coercion.
-- [Warning Signs & Discernment](https://guardtheflock.pages.dev/#discern): Common red flags, isolation tactics, demand for unquestioned obedience, culture of fear, and distinguishing shepherd leadership from authoritarian control.
-- [Get Help / Practical Steps](https://guardtheflock.pages.dev/#help): Practical safety guidelines, trauma-informed support services, documentation tips, and safe exit planning.
-- [For Church Leaders](https://guardtheflock.pages.dev/#leaders): Cultivating healthy pastoral care, independent governance, accountability mechanisms, and safeguarding frameworks.
-- [Documented Cases](https://guardtheflock.pages.dev/#cases): Case studies, independent review findings, and systemic lessons learned from public investigations across various church traditions.
-- [Study & Resources](https://guardtheflock.pages.dev/#study): Recommended books, academic research, partner organisations, and scripture studies (including 1 Peter 5, Ezekiel 34, and Jeremiah 23).
-- [Frequently Asked Questions](https://guardtheflock.pages.dev/#faq): Clear answers regarding orthodoxy vs. abuse, confronting leadership, recovering faith after trauma, and organizational prevention.
+Guard the Flock helps individuals, church members, and pastoral leaders understand spiritual abuse and religious coercive control. It provides definitions, behavioural red flags, biblical discernment frameworks, practical safety and recovery guidance, and documented public case studies.
+
+## Key Sections
+
+The website is a single-page resource with tab-based navigation. These links use section anchors that open the relevant tab:
+
+- [Understand Spiritual Abuse](https://guardtheflock.pages.dev/#understand-what): Definitions, forms of spiritual abuse, theological manipulation, coercive control, and why people may remain silent.
+- [Warning Signs & Discernment](https://guardtheflock.pages.dev/#discern-signs): Common warning signs, patterns of control, and tests for discerning healthy from harmful leadership.
+- [Get Help / Respond](https://guardtheflock.pages.dev/#respond-intro): Practical steps, support options, documentation, and guidance for responding to concerns.
+- [For Church Leaders](https://guardtheflock.pages.dev/#leaders-top): Healthy pastoral care, disclosure response, governance safeguards, and leadership self-audit.
+- [Documented Cases](https://guardtheflock.pages.dev/#cases-top): Publicly documented cases, source material, and lessons about institutional accountability.
+- [Study & Resources](https://guardtheflock.pages.dev/#study-top): Bible study material, recommended resources, and further reading.
+- [Frequently Asked Questions](https://guardtheflock.pages.dev/#faq-anchor): Answers to common questions about spiritual abuse, biblical discernment, and responding to concerns.
 
 ## Biblical Foundations
-- **1 Peter 5:2–3**: "Be shepherds of God's flock that is under your care, watching over them — not because you must, but because you are willing, as God wants you to be; not pursuing dishonest gain, but eager to serve; not lording it over those entrusted to you, but being examples to the flock."
-- **Ezekiel 34**: Prophetic warning against self-serving shepherds who exploit the vulnerable rather than strengthening the weak and healing the sick.
-- **Matthew 20:25–28**: Servant leadership contrasted with secular authoritarian models that lord authority over others.
+
+- **1 Peter 5:2–3**: Shepherd God's flock willingly and eagerly, not for dishonest gain, and do not lord authority over those entrusted to you; be examples to the flock.
+- **Ezekiel 34**: A prophetic warning against self-serving shepherds who exploit the vulnerable instead of strengthening the weak and caring for the wounded.
+- **Matthew 20:25–28**: Jesus contrasts servant leadership with leaders who lord authority over others.
 
 ## Helplines & Support Directory
-The site lists professional, independent support resources for victims of spiritual and emotional abuse, including domestic abuse helplines, church safeguarding bodies, and professional therapy directories.
+
+The website's Get Help / Respond section lists support resources and practical guidance. Availability and suitability vary by location; readers should check the relevant provider's current information. The site is an educational resource, not an emergency service, counselling provider, or independent investigative body.
