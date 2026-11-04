@@ -2,7 +2,7 @@
 
 **A free, public educational resource on spiritual abuse**—what it is, how to recognise it, and where to find support and further reading.
 
-🌐 **Live site:** [guardflock.github.io/guardtheflock/](https://guardflock.github.io/guardtheflock/)
+🌐 **Live site:** [https://guardtheflock.pages.dev/](https://guardtheflock.pages.dev/)
 
 ## Current version
 
