@@ -1,44 +1,191 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T19:31:52.228904Z",
+  "updatedAt": "2026-11-04T00:38:27.186030Z",
   "sourcesUpdated": 19,
   "sources": [
     "Spiritual Sounding Board",
-    "Religion News Service",
     "Christianity Today",
-    "The Guardian — Religion",
+    "Religion News Service",
     "Baptist News Global",
-    "Surviving Church",
     "The Wartburg Watch",
+    "The Guardian — Religion",
     "Christian Post",
-    "National Catholic Reporter",
     "Christian Headlines",
+    "National Catholic Reporter",
+    "Surviving Church",
     "Crux — Catholic News",
     "Channel NewsAsia",
     "Straits Times",
     "The Roys Report",
     "Charisma News",
-    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
-    "ECA Global",
-    "Relevant Magazine"
+    "Abuse Tracker (Bishop Accountability)",
+    "Relevant Magazine",
+    "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Exclusive-Ambani's Jio explores tech-for-equity talks with Comcast and Charter, sources say",
-      "link": "https://www.channelnewsasia.com/business/exclusive-ambanis-jio-explores-tech-equity-talks-comcast-and-charter-sources-say-6517836",
-      "date": "2026-11-03T19:28:04Z",
+      "title": "Serrano hopes to be remembered as a game changer as farewell fight nears",
+      "link": "https://www.channelnewsasia.com/sport/serrano-hopes-be-remembered-game-changer-farewell-fight-nears-6518371",
+      "date": "2026-11-04T00:19:23Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "US lawmakers, in letter, question McDonald’s CEO about algorithmic pricing practices",
-      "link": "https://www.channelnewsasia.com/business/us-lawmakers-in-letter-question-mcdonalds-ceo-about-algorithmic-pricing-practices-6517826",
-      "date": "2026-11-03T19:17:58Z",
+      "title": "How coordinated care can help seniors and vulnerable individuals find independence and purpose",
+      "link": "https://www.channelnewsasia.com/advertorial/how-coordinated-care-can-help-seniors-and-vulnerable-individuals-find-independence-and-purpose-6459306",
+      "date": "2026-11-04T00:13:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
+    },
+    {
+      "title": "Block lifts profit outlook on Cash App strength, reaches preliminary DOJ settlement",
+      "link": "https://www.channelnewsasia.com/business/block-lifts-profit-outlook-cash-app-strength-reaches-preliminary-doj-settlement-6518281",
+      "date": "2026-11-04T00:07:25Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Bayern show steel to underline Champions League credentials",
+      "link": "https://www.channelnewsasia.com/sport/bayern-show-steel-underline-champions-league-credentials-6518286",
+      "date": "2026-11-04T00:06:37Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Celebrity couple Hong Ling and Nick Teo reveal they are having a baby girl",
+      "link": "https://www.channelnewsasia.com/entertainment/hong-ling-nick-teo-reveal-baby-gender-girl-6514696",
+      "date": "2026-11-03T23:57:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Polls begin closing in midterms set to roil Trump presidency",
+      "link": "https://www.channelnewsasia.com/world/donald-trump-us-election-midterms-6518216",
+      "date": "2026-11-03T23:40:26Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Eating less, exercising more but still gaining belly fat – menopause may be the reason",
+      "link": "https://www.channelnewsasia.com/women/menopause-belly-weight-gain-abdominal-fat-women-6478231",
+      "date": "2026-11-03T23:21:43Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Meta raises $15 billion in five-part US bond sale to fund AI expansion",
+      "link": "https://www.channelnewsasia.com/business/meta-raises-15-billion-in-five-part-us-bond-sale-fund-ai-expansion-6518121",
+      "date": "2026-11-03T22:50:11Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Bring Your Bible and Your Shotgun: Meet the Most Florida Church Plant Ever",
+      "link": "https://relevantmagazine.com/current/buzzworthy/bring-your-bible-and-your-shotgun-a-florida-church-plant-meets-at-a-shooting-range/",
+      "date": "2026-11-03T22:04:43Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Sophie Cunningham tells Theo Von: 'I feel like there's a revival happening'",
+      "link": "https://www.christianpost.com/news/sophie-cunningham-believes-there-is-a-revival-happening.html",
+      "date": "2026-11-03T21:58:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Franklin Graham, pro-life leaders urge Americans to vote: 'The stakes have never been higher'",
+      "link": "https://www.christianpost.com/news/christian-pro-life-leaders-urge-americans-to-vote.html",
+      "date": "2026-11-03T21:57:19Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Widespread ‘Ballot Scanning Issues’ Reported in Competitive New York House District",
+      "link": "https://mycharisma.com/news/widespread-ballot-scanning-issues-reported-in-competitive-new-york-house-district/",
+      "date": "2026-11-03T21:55:36Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Polygamous Ohio pastor Israel Ford was convicted of striking stepdaughter with belt — now another stepdaughter alleges sexual abuse",
+      "link": "https://roysreport.com/polygamous-ohio-pastor-israel-ford-was-convicted-of-striking-stepdaughter-with-belt-now-another-stepdaughter-alleges-sexual-abuse/",
+      "date": "2026-11-03T21:50:07Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Judge rules Iowa officials must allow satanic event in state Capitol",
+      "link": "https://www.christianpost.com/news/judge-rules-iowa-must-allow-satanic-event-in-state-capitol.html",
+      "date": "2026-11-03T21:37:28Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Pastor Who Backed Accusers Sentenced for Abusing Children Ex-Chapel pastor John Camardo, who aided women accusing a camp leader, will serve 8 years.",
+      "link": "https://ministrywatch.com/pastor-who-backed-accusers-sentenced-for-abusing-children/",
+      "date": "2026-11-03T21:32:32Z",
+      "source": "MinistryWatch",
+      "cat": "accountability"
+    },
+    {
+      "title": "Bomb Threat at Ohio Polling Location Triggers Evacuation of Elementary School",
+      "link": "https://mycharisma.com/news/bomb-threat-at-ohio-polling-location-triggers-evacuation-of-elementary-school/",
+      "date": "2026-11-03T21:22:49Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Church rejoices as pastor recovers after passing out, hitting head during sermon; ‘It must have been his sugar’",
+      "link": "https://www.christianpost.com/news/church-rejoices-as-pastor-recovers-after-collapsing-during-sermon.html",
+      "date": "2026-11-03T21:13:47Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "On this Date: ACNA Archbishop Steve Wood Takes Leave of Absence Plus, Beverly Heights leaves EPC, Scott Sauls resigns, Village Church moves away from multi-site model and more.",
+      "link": "https://ministrywatch.com/on-this-date-acna-archbishop-steve-wood-takes-leave-of-absence/",
+      "date": "2026-11-03T20:28:10Z",
+      "source": "MinistryWatch",
+      "cat": "accountability"
+    },
+    {
+      "title": "Supreme Court weighs if Colorado program can force Christian preschools to adopt LGBT nondiscrimination rules",
+      "link": "https://www.christianpost.com/news/supreme-court-hears-catholic-preschools-case-over-lgbt-rules.html",
+      "date": "2026-11-03T20:22:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Trump’s Board of Peace Eyes New Leverage Over Netanyahu After Israel’s Election",
+      "link": "https://mycharisma.com/news/trumps-board-of-peace-eyes-new-leverage-over-netanyahu-after-israels-election/",
+      "date": "2026-11-03T19:58:08Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "The Middle East is losing its Christians: We can’t look away",
+      "link": "https://religionnews.com/2026/11/03/the-middle-east-is-losing-its-christians-we-cant-look-away/",
+      "date": "2026-11-03T19:57:34Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Supreme Court hears challenge to Catholic preschools' exclusion from Colorado-funded program",
+      "link": "https://www.ncronline.org/news/supreme-court-hears-challenge-catholic-preschools-exclusion-colorado-funded-program",
+      "date": "2026-11-03T19:35:20Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Ex-Acts 29 CEO Stephen Timmis, wife charged with alleged rape from 18 years ago when he led UK church",
+      "link": "https://www.christianpost.com/news/ex-acts-29-ceo-stephen-timmis-wife-charged-with-alleged-rape.html",
+      "date": "2026-11-03T19:34:14Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
     },
     {
       "title": "Does a Biblical Worldview Demand More Than Voting on Election Night?",
@@ -48,25 +195,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Holders Spain drawn with Norway, Ireland and Switzerland in Women's Nations League",
-      "link": "https://www.channelnewsasia.com/sport/holders-spain-drawn-norway-ireland-and-switzerland-in-womens-nations-league-6517821",
-      "date": "2026-11-03T19:04:50Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "‘Mogging’ Is Collins Dictionary’s 2026 Word of the Year",
       "link": "https://relevantmagazine.com/current/buzzworthy/mogging-is-collins-dictionarys-2026-word-of-the-year/",
       "date": "2026-11-03T19:04:09Z",
       "source": "Relevant Magazine",
       "cat": "evangelical"
-    },
-    {
-      "title": "Stocks wobble on concerns over AI and US midterms",
-      "link": "https://www.channelnewsasia.com/world/stocks-wobble-concerns-over-ai-and-us-midterms-6517776",
-      "date": "2026-11-03T18:24:47Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Secular record labels' influence on CCM industry questioned in documentary series",
@@ -83,32 +216,11 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Sailing-Defending Route du Rhum champion drops out after foil damage",
-      "link": "https://www.channelnewsasia.com/sport/sailing-defending-route-du-rhum-champion-drops-out-after-foil-damage-6517766",
-      "date": "2026-11-03T18:13:33Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Ex-FIFA governance chief says Infantino ineligible for re-election, members urged to act",
-      "link": "https://www.channelnewsasia.com/sport/ex-fifa-governance-chief-says-infantino-ineligible-re-election-members-urged-act-6517771",
-      "date": "2026-11-03T18:11:09Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Norway takes a new (old) look at Synodality",
       "link": "https://cruxnow.com/news-analysis/2026/11/norway-takes-a-new-old-look-at-synodality/",
       "date": "2026-11-03T17:59:35Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "China tells Philippines to stop politicians crossing 'red lines'",
-      "link": "https://www.channelnewsasia.com/world/china-philippines-south-china-sea-wang-yi-6517661",
-      "date": "2026-11-03T17:58:36Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Rena Lee becomes first S’porean elected as International Court of Justice judge",
@@ -123,13 +235,6 @@
       "date": "2026-11-03T17:53:42Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "Argentina name first squad of post-Messi era for November friendlies",
-      "link": "https://www.channelnewsasia.com/sport/argentina-name-first-squad-post-messi-era-november-friendlies-6517726",
-      "date": "2026-11-03T17:46:39Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Nov. 22, 2026: The Solemnity of Christ the King",
@@ -160,6 +265,13 @@
       "cat": "evangelical"
     },
     {
+      "title": "Eric Metaxas: America is ‘living on fumes’ after abandoning biblical roots",
+      "link": "https://www.christianpost.com/video/eric-metaxas-the-us-is-living-on-fumes-after-abandoning-bible.html",
+      "date": "2026-11-03T17:32:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
       "title": "Nov. 15, 2026: Thirty-Third Sunday in Ordinary Time",
       "link": "https://www.ncronline.org/spirituality/nov-15-2026-thirty-third-sunday-ordinary-time",
       "date": "2026-11-03T17:19:15Z",
@@ -174,14 +286,7 @@
       "cat": "evangelical"
     },
     {
-      "title": "Ben Smallbone reveals painful rift with brother Joel, how forgiveness inspired 'Drummer Boy'",
-      "link": "https://www.christianpost.com/news/smallbones-reveal-painful-family-rift-inspired-drummer-boy.html",
-      "date": "2026-11-03T17:05:59Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Your Worth Was Never Up for Debate",
+      "title": "Ally Yost: Your Worth Was Never Up for Debate",
       "link": "https://relevantmagazine.com/life5/your-worth-was-never-up-for-debate/",
       "date": "2026-11-03T17:01:10Z",
       "source": "Relevant Magazine",
@@ -207,13 +312,6 @@
       "date": "2026-11-03T16:44:36Z",
       "source": "The Roys Report",
       "cat": "accountability"
-    },
-    {
-      "title": "How teen murderer who believed God couldn't save him inspired Nativity film 'God With Us'",
-      "link": "https://www.christianpost.com/news/how-an-incarcerated-teen-inspired-jimmy-jenkins-god-with-us.html",
-      "date": "2026-11-03T16:25:30Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "Bread under fire: Pope Leo's envoy witnesses hunger in war-torn Ukraine",
@@ -251,13 +349,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Mickey Mouse actor, other Disney staffers among 281 arrested in child predator, trafficking sting",
-      "link": "https://www.christianpost.com/news/disney-staffers-among-281-arrested-in-sex-trafficking-sting.html",
-      "date": "2026-11-03T16:04:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Federal judge orders Iowa to allow Satanic Temple to hold one-day holiday event in the state Capitol",
       "link": "https://baptistnews.com/article/federal-judge-orders-iowa-to-allow-satanic-temple-to-hold-one-day-holiday-event-in-the-state-capitol/",
       "date": "2026-11-03T16:03:20Z",
@@ -293,13 +384,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Vandal begs forgiveness after damaging Christian prayer hall: 'I don't know what came over me'",
-      "link": "https://www.christianpost.com/news/vandal-begs-forgiveness-after-damaging-christian-prayer-hall.html",
-      "date": "2026-11-03T15:54:14Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "The long train ride home",
       "link": "https://baptistnews.com/article/the-long-train-ride-home/",
       "date": "2026-11-03T15:42:49Z",
@@ -312,13 +396,6 @@
       "date": "2026-11-03T15:39:00Z",
       "source": "Straits Times",
       "cat": "asia"
-    },
-    {
-      "title": "California Earthquake Swarm Strikes as Scientists Warn of San Andreas Threat",
-      "link": "https://mycharisma.com/news/california-earthquake-swarm-strikes-as-scientists-warn-of-san-andreas-threat/",
-      "date": "2026-11-03T15:38:43Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
     },
     {
       "title": "Adam Hamilton takes a pastoral approach in his final days on campaign trail",
@@ -342,13 +419,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "They’re teaching the Bible during public school hours — and it’s 100% legal",
-      "link": "https://www.christianpost.com/video/teaching-the-bible-during-public-school-hours-is-legal.html",
-      "date": "2026-11-03T15:00:19Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "MinistryWatch Database: 50 Largest Christian Ministries Samaritan’s Purse tops the list with $1.6 billion in revenue.",
       "link": "https://ministrywatch.com/ministrywatch-database-50-largest-christian-ministries/",
       "date": "2026-11-03T14:27:59Z",
@@ -356,14 +426,7 @@
       "cat": "accountability"
     },
     {
-      "title": "Convicted Felons Arrested for Voting Illegally in Texas Ahead of Election",
-      "link": "https://mycharisma.com/news/convicted-felons-arrested-for-voting-illegally-in-texas-ahead-of-election/",
-      "date": "2026-11-03T14:18:03Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "US supreme court to hear arguments in Catholic preschools’ LGBTQ+ exclusion case",
+      "title": "US supreme court questions arguments in Catholic preschools’ LGBTQ+ exclusion case",
       "link": "https://www.theguardian.com/us-news/2026/nov/03/lgbtq-catholic-public-preschool-supreme-court",
       "date": "2026-11-03T14:17:52Z",
       "source": "The Guardian — Religion",
@@ -398,7 +461,7 @@
       "cat": "accountability"
     },
     {
-      "title": "Midterm election live updates: Catholic advocacy group rescinds Mike Rogers endorsement over abortion stance",
+      "title": "Midterm election live updates: Faith leaders report calm at polls as Election Day enters final hours",
       "link": "https://religionnews.com/2026/11/03/2026-midterm-election-live-updates/",
       "date": "2026-11-03T14:01:12Z",
       "source": "Religion News Service",
@@ -430,13 +493,6 @@
       "link": "https://www.crosswalk.com/devotionals/breakpoint-daily-commentary/70-million-questions-be-the-one-they-ask.html",
       "date": "2026-11-03T13:40:11Z",
       "source": "Christian Headlines",
-      "cat": "evangelical"
-    },
-    {
-      "title": "More than half of teens turn to Jesus for advice but not more than parents, friends: Barna",
-      "link": "https://www.christianpost.com/news/more-than-half-of-teens-turn-to-jesus-for-advice.html",
-      "date": "2026-11-03T13:27:10Z",
-      "source": "Christian Post",
       "cat": "evangelical"
     },
     {
@@ -480,13 +536,6 @@
       "date": "2026-11-03T12:20:00Z",
       "source": "Straits Times",
       "cat": "asia"
-    },
-    {
-      "title": "Glenn Beck warns of 'serious times' as nonprofit aims to help persecuted Nigerian Christians",
-      "link": "https://www.christianpost.com/news/glenn-becks-mercury-one-aims-to-help-nigerian-christians.html",
-      "date": "2026-11-03T11:56:26Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "3 taken to hospital after multi-vehicle collision on SLE",
@@ -608,13 +657,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Virginia Voters Weigh Abortion Rights Amendment",
-      "link": "https://mycharisma.com/news/virginia-voters-weigh-abortion-rights-amendment/",
-      "date": "2026-11-02T21:34:16Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
       "title": "Catholics work for peace at the polls, as US heads to midterm ballot box",
       "link": "https://www.ncronline.org/news/catholics-work-peace-polls-us-heads-midterm-ballot-box",
       "date": "2026-11-02T21:15:31Z",
@@ -627,13 +669,6 @@
       "date": "2026-11-02T21:08:46Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "Episcopal Bishops Curry and Rowe hold funeral service for enslaved Africans’ reinterment",
-      "link": "https://religionnews.com/2026/11/02/4284208/",
-      "date": "2026-11-02T20:44:35Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
     },
     {
       "title": "What Starbucks Store Closures Reveal about Why We Need Places to Belong",
@@ -669,13 +704,6 @@
       "date": "2026-11-02T18:39:06Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "'Unconquered heralds of Christ': Georgia Martyrs killed in 1597 for defending marriage beatified in Savannah",
-      "link": "https://www.ncronline.org/news/unconquered-heralds-christ-georgia-martyrs-killed-1597-defending-marriage-beatified-savannah",
-      "date": "2026-11-02T17:01:54Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "Lauren Daigle Has Released Christmas Music, So the Holiday Season Is Officially Open",
@@ -836,34 +864,6 @@
       "link": "https://roysreport.com/evangelical-financier-sentenced-to-15-years-for-georgia-investment-fraud/",
       "date": "2026-10-30T20:29:18Z",
       "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
-      "title": "Michael Wurmbrand, son of persecuted Romanian pastor and Voice of the Martyrs critic, dies at 87",
-      "link": "https://roysreport.com/michael-wurmbrand-son-of-persecuted-romanian-pastor-and-voice-of-the-martyrs-critic-dies-at-87/",
-      "date": "2026-10-30T20:20:20Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
-      "title": "WNBA Star Sophie Cunningham to Theo Von: ‘Nothing You Do Is Going to Separate You From God’s Love and Grace and Forgiveness’",
-      "link": "https://relevantmagazine.com/culture/sports/sophie-cunningham-to-theo-von-nothing-you-do-is-going-to-separate-you-from-gods-love-and-grace-and-forgiveness/",
-      "date": "2026-10-30T19:40:56Z",
-      "source": "Relevant Magazine",
-      "cat": "evangelical"
-    },
-    {
-      "title": "UMC Bishop Removes Ministers From Dallas’ Highland Park Church says they will stay.",
-      "link": "https://ministrywatch.com/umc-bishop-removes-ministers-from-dallas-highland-park/",
-      "date": "2026-10-30T13:26:02Z",
-      "source": "MinistryWatch",
-      "cat": "accountability"
-    },
-    {
-      "title": "Evansville Rescue Mission Exits ECFA Plus, other notable ministry happenings from this week.",
-      "link": "https://ministrywatch.com/evansville-rescue-mission-exits-ecfa/",
-      "date": "2026-10-30T13:20:55Z",
-      "source": "MinistryWatch",
       "cat": "accountability"
     }
   ]
