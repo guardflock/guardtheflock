@@ -1,5 +1,7 @@
 name: Update latest news snapshot
 
+# Refresh the public static news snapshot four times daily (17 minutes past each
+# fourth UTC hour). This workflow updates data/news.json; Cloudflare Pages publishes it.
 on:
   schedule:
     - cron: "17 */4 * * *"
@@ -30,6 +32,7 @@ jobs:
         with:
           python-version: "3.x"
 
+      # The script writes only the static JSON snapshot; it does not deploy the website.
       - name: Fetch and normalize RSS feeds
         run: python scripts/update_news.py
 
