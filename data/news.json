@@ -1,31 +1,178 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T08:03:16.315396Z",
+  "updatedAt": "2026-11-04T12:13:04.153995Z",
   "sourcesUpdated": 19,
   "sources": [
     "Spiritual Sounding Board",
-    "Christianity Today",
     "Religion News Service",
     "Baptist News Global",
+    "Christianity Today",
     "The Wartburg Watch",
-    "Christian Headlines",
     "The Guardian — Religion",
-    "National Catholic Reporter",
-    "Crux — Catholic News",
     "Christian Post",
-    "Channel NewsAsia",
-    "Surviving Church",
-    "Straits Times",
+    "Christian Headlines",
+    "Crux — Catholic News",
+    "National Catholic Reporter",
     "The Roys Report",
-    "ECA Global",
+    "Surviving Church",
+    "Channel NewsAsia",
     "Charisma News",
+    "Straits Times",
+    "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
     "Relevant Magazine",
-    "MinistryWatch"
+    "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "The Democratic wave turned into a tsunami",
+      "link": "https://www.ncronline.org/opinion/democratic-wave-turned-tsunami",
+      "date": "2026-11-04T12:03:12Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Rena Lee’s historic election to world’s top court a milestone for Singapore, say observers",
+      "link": "https://www.straitstimes.com/singapore/politics/rena-lees-historic-election-to-worlds-top-court-a-milestone-for-singapore-say-observers",
+      "date": "2026-11-04T11:47:56Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "AI data center stocks dip, renewables surge after Democrat sweep in US midterm elections",
+      "link": "https://www.channelnewsasia.com/business/ai-data-center-stocks-dip-renewables-surge-after-democrat-sweep-in-us-midterm-elections-6523926",
+      "date": "2026-11-04T11:34:27Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "AI sales startup Nooks secures $500 million in funding for expansion",
+      "link": "https://www.channelnewsasia.com/business/ai-sales-startup-nooks-secures-500-million-in-funding-expansion-6523911",
+      "date": "2026-11-04T11:31:49Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Wilson and Rodon return to Wales squad for Nations League fixtures",
+      "link": "https://www.channelnewsasia.com/sport/wilson-and-rodon-return-wales-squad-nations-league-fixtures-6523876",
+      "date": "2026-11-04T11:26:04Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Democrats Won Big. Where Did Faith Fit In?",
+      "link": "https://religionnews.com/2026/11/04/democrats-won-big-where-did-faith-fit-in/",
+      "date": "2026-11-04T11:20:44Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "India's payments authority NPCI forms unit to push into AI, blockchain tech",
+      "link": "https://www.channelnewsasia.com/business/indias-payments-authority-npci-forms-unit-push-ai-blockchain-tech-6523796",
+      "date": "2026-11-04T11:02:15Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "As Christianity Grows in India, Burial Space Shrinks",
+      "link": "https://www.christianitytoday.com/2026/11/india-burial-cementary-christian-limited/",
+      "date": "2026-11-04T11:00:00Z",
+      "source": "Christianity Today",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Funding for Singapore’s first Islamic college will not come at expense of other needs: Zaqy",
+      "link": "https://www.straitstimes.com/singapore/politics/funding-for-singapores-first-islamic-college-will-not-come-at-expense-of-other-needs-zaqy",
+      "date": "2026-11-04T11:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Belgian court backs home-grown player rules, rejects Royal Antwerp challenge",
+      "link": "https://www.channelnewsasia.com/sport/belgian-court-backs-home-grown-player-rules-rejects-royal-antwerp-challenge-6523771",
+      "date": "2026-11-04T10:57:59Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Paul says he will retire from boxing if he loses to Doumbe",
+      "link": "https://www.channelnewsasia.com/sport/paul-says-he-will-retire-boxing-if-he-loses-doumbe-6523776",
+      "date": "2026-11-04T10:54:33Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Andorra teammate defends Owono after collision with Tenerife player De Miguel",
+      "link": "https://www.channelnewsasia.com/sport/andorra-teammate-defends-owono-after-collision-tenerife-player-de-miguel-6523746",
+      "date": "2026-11-04T10:45:27Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears",
+      "link": "https://www.channelnewsasia.com/business/tencent-rolls-out-ai-model-trained-limited-cybersecurity-data-amid-hacking-fears-6523736",
+      "date": "2026-11-04T10:37:24Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Fadli’s questions aim to cast Govt as soft on Israel, says Shanmugam; WP MP rejects characterisation",
+      "link": "https://www.straitstimes.com/singapore/politics/fadlis-questions-aim-to-cast-govt-as-soft-on-israel-says-shanmugam-wp-mp-rejects-characterisation",
+      "date": "2026-11-04T09:34:59Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "More S’pore university, polytechnic graduates land jobs by the one-year mark after leaving school",
+      "link": "https://www.straitstimes.com/singapore/politics/more-spore-university-polytechnic-graduates-land-jobs-by-the-one-year-mark-after-leaving-school",
+      "date": "2026-11-04T09:10:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "From ICE's locked doors to Pope Leo: A year of Chicago Catholics' 'holy rebellion'",
+      "link": "https://www.ncronline.org/news/ices-locked-doors-pope-leo-year-chicago-catholics-holy-rebellion",
+      "date": "2026-11-04T09:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Supreme Court hears challenge to Catholic preschools’ exclusion from Colorado-funded program",
+      "link": "https://cruxnow.com/church-in-the-usa/2026/11/supreme-court-hears-challenge-to-catholic-preschools-exclusion-from-colorado-funded-program/",
+      "date": "2026-11-04T08:54:23Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "Driver, 94, handed 5-year ban and fine after crash; biker suffered fractures in accident",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/driver-94-handed-5-year-ban-and-fine-after-crash-biker-suffered-fractures-in-accident",
+      "date": "2026-11-04T08:54:21Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Cat A COE premium hits all-time high of $139,001; Cat B price also rises",
+      "link": "https://www.straitstimes.com/singapore/transport/cat-a-coe-premiums-hit-all-time-high-of-139001-while-cat-b-premiums-inch-upwards-to-132334",
+      "date": "2026-11-04T08:27:08Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "TP officer among 3 taken to hospital after multi-vehicle accident on PIE",
+      "link": "https://www.straitstimes.com/singapore/tp-officer-among-3-taken-to-hospital-after-multi-vehicle-accident-on-pie",
+      "date": "2026-11-04T08:23:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Fatal Tampines crash: Give.Asia managing nearly $500k raised for couple’s son",
+      "link": "https://www.straitstimes.com/singapore/fatal-tampines-crash-give-asia-managing-nearly-500k-raised-for-couples-son",
+      "date": "2026-11-04T08:20:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
     {
       "title": "On Election night, the religious left is back",
       "link": "https://religionnews.com/2026/11/04/on-election-night-the-religious-left-is-back/",
@@ -34,60 +181,18 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "54% of S’pore residents secured a place in a publicly funded university degree course in 2025",
-      "link": "https://www.straitstimes.com/singapore/politics/54-of-spore-residents-secured-a-place-in-a-publicly-funded-university-degree-in-2025",
-      "date": "2026-11-04T07:55:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
+      "title": "6 highlights from midterm election night",
+      "link": "https://www.christianpost.com/news/6-highlights-from-midterm-election-night.html",
+      "date": "2026-11-04T07:35:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
     },
     {
-      "title": "Crypto dips on Democrat midterm wins, Binance hack dent optimism",
-      "link": "https://www.channelnewsasia.com/business/crypto-dips-democrat-midterm-wins-binance-hack-dent-optimism-6522971",
-      "date": "2026-11-04T07:36:32Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "North Korea fires several missiles into Sea of Japan",
-      "link": "https://www.channelnewsasia.com/east-asia/north-korea-fires-missiles-sea-japan-6522721",
-      "date": "2026-11-04T07:27:36Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Tencent built an empire on WeChat and gaming. Can it keep up in China's AI race?",
-      "link": "https://www.channelnewsasia.com/east-asia/tencent-wechat-gaming-artificial-intelligence-competition-6519631",
-      "date": "2026-11-04T07:26:14Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Arrest powers, criminal trials in absence of accused among proposed changes to Singapore’s haze law",
-      "link": "https://www.channelnewsasia.com/singapore/haze-law-changes-arrest-powers-trials-absence-6522026",
-      "date": "2026-11-04T07:00:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Toxic air pollution surges in Indian capital",
-      "link": "https://www.channelnewsasia.com/asia/toxic-air-pollution-surges-new-delhi-india-6522596",
-      "date": "2026-11-04T06:56:18Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Singapore proposes raising maximum haze penalty from S$2 million to S$20 million",
-      "link": "https://www.channelnewsasia.com/singapore/haze-maximum-fine-increased-grace-fu-6522021",
-      "date": "2026-11-04T06:54:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Errant firms face $20m fine, blocked financial services under proposed changes to S’pore haze law",
-      "link": "https://www.straitstimes.com/singapore/politics/errant-firms-face-20m-fine-blocked-financial-services-under-proposed-changes-to-spore-haze-law",
-      "date": "2026-11-04T06:50:08Z",
-      "source": "Straits Times",
-      "cat": "asia"
+      "title": "Talarico likens himself to Jesus, David in election victory speech: 'Time to start flipping tables'",
+      "link": "https://www.christianpost.com/news/talarico-compares-election-victory-to-david-defeating-goliath.html",
+      "date": "2026-11-04T06:48:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
     },
     {
       "title": "Understanding the blue tsunami of the midterms",
@@ -95,34 +200,6 @@
       "date": "2026-11-04T06:47:15Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
-    },
-    {
-      "title": "Indonesia government says ex-police chief may have committed 'treason' by wiretapping president",
-      "link": "https://www.channelnewsasia.com/asia/indonesia-listyo-sigit-prabowo-treason-wiretapping-6521676",
-      "date": "2026-11-04T06:40:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Top US House Democrat vows to go after those 'enriching themselves'",
-      "link": "https://www.channelnewsasia.com/world/house-minority-leader-hakeem-jeffries-vows-go-after-corruption-6522586",
-      "date": "2026-11-04T06:36:34Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Police investigating case of man who used shell companies to rent landed homes",
-      "link": "https://www.straitstimes.com/singapore/politics/police-investigating-cases-where-man-used-shell-companies-to-rent-landed-homes",
-      "date": "2026-11-04T06:15:02Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Kok Sen Restaurant boss makes police report over alleged ‘cockroach in dish’ blackmail scam",
-      "link": "https://www.straitstimes.com/singapore/kok-sen-restaurant-boss-narrowly-escapes-falling-for-cockroach-in-dish-blackmail-scam",
-      "date": "2026-11-04T05:58:53Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Can guilt ever be silenced? Luther found a way",
@@ -167,20 +244,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Former CEO of GS Holdings, firm behind foodcourts in S’pore, facing false trading charge",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/former-ceo-of-gs-holdings-firm-behind-food-courts-in-spore-facing-false-trading-charge",
-      "date": "2026-11-04T04:59:46Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "RP student, a stroke survivor, wins award for designing tool for people with disabilities",
-      "link": "https://www.straitstimes.com/singapore/rp-student-a-stroke-survivor-wins-award-for-designing-tool-for-people-with-disabilities",
-      "date": "2026-11-04T04:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Lessons from this year’s Theology Beer Camp",
       "link": "https://baptistnews.com/article/lessons-from-this-years-theology-beer-camp/",
       "date": "2026-11-04T04:24:46Z",
@@ -193,20 +256,6 @@
       "date": "2026-11-04T04:22:51Z",
       "source": "Christian Post",
       "cat": "evangelical"
-    },
-    {
-      "title": "Man raped flatmate in her room after asking her to be in a relationship with him",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/man-raped-flatmate-in-her-room-after-asking-her-to-be-in-a-relationship-with-him",
-      "date": "2026-11-04T04:07:19Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "New GovTech-Google DeepMind app flags potential scams by analysing incoming messages",
-      "link": "https://www.straitstimes.com/tech/new-govtech-google-deepmind-app-flags-potential-scams-by-analysing-incoming-messages",
-      "date": "2026-11-04T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Whistleblower: Compassion Ignored Years of Warnings About Child Photos and AI Sextortion",
@@ -230,13 +279,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Franklin Graham, pro-life leaders urge Americans to vote: 'The stakes have never been higher'",
-      "link": "https://www.christianpost.com/news/christian-pro-life-leaders-urge-americans-to-vote.html",
-      "date": "2026-11-03T21:57:19Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Widespread ‘Ballot Scanning Issues’ Reported in Competitive New York House District",
       "link": "https://mycharisma.com/news/widespread-ballot-scanning-issues-reported-in-competitive-new-york-house-district/",
       "date": "2026-11-03T21:55:36Z",
@@ -249,13 +291,6 @@
       "date": "2026-11-03T21:50:07Z",
       "source": "The Roys Report",
       "cat": "accountability"
-    },
-    {
-      "title": "Judge rules Iowa officials must allow satanic event in state Capitol",
-      "link": "https://www.christianpost.com/news/judge-rules-iowa-must-allow-satanic-event-in-state-capitol.html",
-      "date": "2026-11-03T21:37:28Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "Pastor Who Backed Accusers Sentenced for Abusing Children Ex-Chapel pastor John Camardo, who aided women accusing a camp leader, will serve 8 years.",
@@ -538,13 +573,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Midterm election live updates: Hamilton, Talarico notch Senate wins in landmark night for faith-minded Democrats",
-      "link": "https://religionnews.com/2026/11/03/2026-midterm-election-live-updates/",
-      "date": "2026-11-03T14:01:12Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "High-profile sex abuse case brings test for new Ohio anti-grooming law",
       "link": "https://www.bishop-accountability.org/2026/11/high-profile-sex-abuse-case-brings-test-for-new-ohio-anti-grooming-law/",
       "date": "2026-11-03T13:55:40Z",
@@ -662,20 +690,6 @@
       "date": "2026-11-02T22:23:43Z",
       "source": "MinistryWatch",
       "cat": "accountability"
-    },
-    {
-      "title": "Catholics work for peace at the polls, as US heads to midterm ballot box",
-      "link": "https://www.ncronline.org/news/catholics-work-peace-polls-us-heads-midterm-ballot-box",
-      "date": "2026-11-02T21:15:31Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "Pope Leo XIV offers All Souls' Day Mass in cemetery, encouraging Catholics to pray for the dead",
-      "link": "https://www.ncronline.org/vatican/vatican-news/pope-leo-xiv-offers-all-souls-day-mass-cemetery-encouraging-catholics-pray",
-      "date": "2026-11-02T21:08:46Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "What Starbucks Store Closures Reveal about Why We Need Places to Belong",
@@ -818,13 +832,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Pope’s ballot casting raises real questions",
-      "link": "https://cruxnow.com/news-analysis/2026/11/pope-leo-tells-villanova-and-notre-dame-basketball-teams-he-is-neutral-prevost-has-other-ideas-2/",
-      "date": "2026-11-01T11:12:11Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
       "title": "This rightwing evangelical was one of Trump’s biggest backers. Why isn’t he talking about the midterms?",
       "link": "https://www.theguardian.com/us-news/2026/oct/31/lance-wallnau-donald-trump-evangelicals",
       "date": "2026-10-31T12:00:41Z",
@@ -858,13 +865,6 @@
       "date": "2026-10-30T20:59:55Z",
       "source": "Relevant Magazine",
       "cat": "evangelical"
-    },
-    {
-      "title": "Whistleblower: Compassion International has no ‘off ramp’ for sponsors accused of grooming",
-      "link": "https://roysreport.com/whistleblower-compassion-international-has-no-off-ramp-for-sponsors-accused-of-grooming/",
-      "date": "2026-10-30T20:52:13Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
     }
   ]
 }
