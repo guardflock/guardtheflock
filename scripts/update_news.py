@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Build a safe, static JSON snapshot from the configured public RSS feeds."""
+"""Build a safe, static JSON snapshot from the configured public RSS feeds.
+
+The generated data/news.json file is published as a static asset by Cloudflare Pages.
+Keep feed URLs public; never put credentials or private feed URLs in this source file.
+"""
 
 from __future__ import annotations
 
