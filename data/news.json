@@ -1,86 +1,296 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T00:55:51.445416Z",
+  "updatedAt": "2026-11-05T12:26:15.848727Z",
   "sourcesUpdated": 19,
   "sources": [
+    "Abuse Tracker (Bishop Accountability)",
     "Spiritual Sounding Board",
-    "Christianity Today",
     "Religion News Service",
     "Baptist News Global",
+    "Christianity Today",
     "The Wartburg Watch",
     "Christian Headlines",
-    "The Guardian — Religion",
-    "Crux — Catholic News",
-    "Christian Post",
     "National Catholic Reporter",
+    "Christian Post",
+    "Crux — Catholic News",
     "Channel NewsAsia",
-    "Straits Times",
+    "Surviving Church",
+    "The Guardian — Religion",
     "The Roys Report",
     "Charisma News",
+    "Straits Times",
     "MinistryWatch",
-    "Surviving Church",
     "Relevant Magazine",
-    "Abuse Tracker (Bishop Accountability)",
     "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Israel's president takes first steps on building new government after accepting election results",
-      "link": "https://www.channelnewsasia.com/world/israel-president-herzog-accepts-election-results-netanyahu-eisenkot-6525906",
-      "date": "2026-11-05T00:34:34Z",
+      "title": "IHH Healthcare to cut close to 400 jobs across S’pore, Hong Kong and Malaysia",
+      "link": "https://www.straitstimes.com/singapore/ihh-healthcare-to-cut-close-to-400-jobs-across-spore-hong-kong-and-malaysia",
+      "date": "2026-11-05T12:23:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Midterms over, Democrats plunge into wide-open 2028 presidential race",
+      "link": "https://www.channelnewsasia.com/asia/us-midterms-democrats-republicans-2028-presidential-race-6527346",
+      "date": "2026-11-05T12:13:13Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Japan services activity expands for fifth month, PMI shows",
-      "link": "https://www.channelnewsasia.com/business/japan-services-activity-expands-fifth-month-pmi-shows-6525921",
-      "date": "2026-11-05T00:33:07Z",
+      "title": "Mask distribution, haze shelters to cease by Nov 7, haze subsidy scheme to end from Nov 12",
+      "link": "https://www.straitstimes.com/singapore/environment/mask-distribution-haze-shelters-to-cease-by-nov-7-haze-subsidy-scheme-to-end-from-nov-12",
+      "date": "2026-11-05T12:09:15Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "More kiddy train, carousel rides to come as rules relaxed for those that meet safety criteria: Chee",
+      "link": "https://www.straitstimes.com/singapore/housing/more-kiddy-train-carousel-rides-to-come-as-rules-relaxed-for-those-that-meet-safety-criteria-chee",
+      "date": "2026-11-05T12:05:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "A progressive understanding of Christianity won in the US elections | Bill McKibben",
+      "link": "https://www.theguardian.com/commentisfree/2026/nov/05/james-talarico-adam-hamilton-christianity-conservatives",
+      "date": "2026-11-05T12:00:23Z",
+      "source": "The Guardian — Religion",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Thailand bans textbook on national security grounds",
+      "link": "https://www.channelnewsasia.com/asia/thailand-bans-textbook-national-security-6527401",
+      "date": "2026-11-05T11:57:30Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Australia's NEXTDC rallies; calls Goodman, Digital Realty share bid 'opportunistic'",
-      "link": "https://www.channelnewsasia.com/business/australias-nextdc-rallies-calls-goodman-digital-realty-share-bid-opportunistic-6525871",
-      "date": "2026-11-05T00:27:46Z",
+      "title": "A still-recovering pope will head home to Latin America and his beloved Peru for a 12-day trip",
+      "link": "https://cruxnow.com/2026_pope_in_south_america/2026/11/a-still-recovering-pope-will-head-home-to-latin-america-and-his-beloved-peru-for-a-12-day-trip/",
+      "date": "2026-11-05T11:50:20Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "French bank Credit Mutuel Arkea says €100 million missing after cyberattack",
+      "link": "https://www.channelnewsasia.com/business/french-bank-credit-mutuel-arkea-says-eu100-million-missing-after-cyberattack-6527446",
+      "date": "2026-11-05T11:47:32Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Australia data centre inquiry finds inadequate checks, stops short of moratorium",
-      "link": "https://www.channelnewsasia.com/business/australia-data-centre-inquiry-finds-inadequate-checks-stops-short-moratorium-6525851",
-      "date": "2026-11-05T00:20:41Z",
+      "title": "In-form Fuellkrug back in Germany squad after goal rush",
+      "link": "https://www.channelnewsasia.com/sport/in-form-fuellkrug-back-in-germany-squad-after-goal-rush-6527431",
+      "date": "2026-11-05T11:39:41Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "DBS third-quarter net profit falls 5% on year, misses forecasts",
-      "link": "https://www.channelnewsasia.com/singapore/dbs-2026-q3-profit-peter-seah-anthony-lim-6525661",
-      "date": "2026-11-05T00:18:00Z",
+      "title": "Bob Dylan comes knockin’ on pope’s door as Leo welcomes singer-song writer to Vatican",
+      "link": "https://cruxnow.com/vatican/2026/11/bob-dylan-comes-knockin-on-popes-door-as-leo-welcomes-singer-song-writer-to-vatican/",
+      "date": "2026-11-05T11:35:07Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "NCS programme doubles reach, bringing AI and coding skills to more lower-income pupils",
+      "link": "https://www.straitstimes.com/singapore/ncs-programme-doubles-reach-bringing-ai-and-coding-skills-to-more-lower-income-pupils",
+      "date": "2026-11-05T11:35:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "AI, data-center stocks slip as Democratic sweep clouds expansion plans",
+      "link": "https://www.channelnewsasia.com/business/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-6527366",
+      "date": "2026-11-05T11:23:14Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "British sport under-prepared for climate risks as costs rise, report says",
-      "link": "https://www.channelnewsasia.com/sport/british-sport-under-prepared-climate-risks-costs-rise-report-says-6525826",
-      "date": "2026-11-05T00:03:13Z",
+      "title": "Singapore to end N95 mask distribution on Saturday as haze abates",
+      "link": "https://www.channelnewsasia.com/singapore/nea-haze-mask-distribution-6526851",
+      "date": "2026-11-05T11:22:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Pentagon chief tech officer says government will detail laws that apply to AI labs this month",
-      "link": "https://www.channelnewsasia.com/business/pentagon-chief-tech-officer-says-government-will-detail-laws-apply-ai-labs-month-6525806",
-      "date": "2026-11-04T23:37:58Z",
+      "title": "GovTech must keep renewing capabilities, will continue to support retrenched officers: PM Wong",
+      "link": "https://www.channelnewsasia.com/singapore/govtech-renew-capabilities-support-retrenched-workers-pm-wong-6526726",
+      "date": "2026-11-05T11:19:44Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "After Republicans routed, Trump devotes first post-midterm event to White House ballroom",
-      "link": "https://www.channelnewsasia.com/world/donald-trump-us-midterms-white-house-ballroom-6525736",
-      "date": "2026-11-04T23:35:00Z",
+      "title": "Binance, Deribit remove SignalPlus API keys after security issue",
+      "link": "https://www.channelnewsasia.com/business/binance-deribit-remove-signalplus-api-keys-after-security-issue-6527351",
+      "date": "2026-11-05T11:08:58Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
+    },
+    {
+      "title": "Tanzania Pressures Churches to Promote Tax Policies",
+      "link": "https://www.christianitytoday.com/2026/11/tanzania-pressures-churches-to-promote-tax-policies/",
+      "date": "2026-11-05T11:00:00Z",
+      "source": "Christianity Today",
+      "cat": "evangelical"
+    },
+    {
+      "title": "PAP co-opts Jeffrey Siow to top leadership body, along with Ng Chee Meng, Sim Ann and Chan Hui Yuh",
+      "link": "https://www.straitstimes.com/singapore/politics/pap-co-opts-jeffrey-siow-to-top-leadership-body-along-with-ng-chee-meng-sim-ann-and-chan-hui-yuh",
+      "date": "2026-11-05T10:40:11Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Car lands on side after skidding at PIE, man taken to hospital",
+      "link": "https://www.straitstimes.com/singapore/car-lands-on-side-after-skidding-at-pie-man-taken-to-hospital",
+      "date": "2026-11-05T10:15:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "US blood pressure drug recall does not affect Singapore: HSA",
+      "link": "https://www.straitstimes.com/singapore/health/us-blood-pressure-drug-recall-does-not-affect-singapore-hsa",
+      "date": "2026-11-05T10:10:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Rev. Frederick Haynes on election, economy and excitement about congressional win",
+      "link": "https://religionnews.com/2026/11/05/frederick-haynes-congress-texas-election-2026/",
+      "date": "2026-11-05T10:05:14Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Feb 2027 BTO launch to include second Mount Pleasant project, Bishan flats with shorter waiting times",
+      "link": "https://www.straitstimes.com/singapore/housing/feb-2027-bto-launch-to-include-second-mount-pleasant-project-bishan-flats-with-shorter-waiting-times",
+      "date": "2026-11-05T09:50:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "The Vatican communications revolution gets underway",
+      "link": "https://www.ncronline.org/vatican/vatican-communications-revolution-gets-underway",
+      "date": "2026-11-05T09:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Treatment of El-Sayed's faith, language during midterms was deeply un-Catholic",
+      "link": "https://www.ncronline.org/opinion/ncr-voices/treatment-el-sayeds-faith-language-during-midterms-was-deeply-un-catholic",
+      "date": "2026-11-05T09:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "In secular Uruguay, small but active Catholic parish eager to greet Pope Leo",
+      "link": "https://www.ncronline.org/vatican/vatican-news/secular-uruguay-small-active-catholic-parish-eager-greet-pope-leo",
+      "date": "2026-11-05T09:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "When hope and history rhyme but justice hasn’t reached every shore",
+      "link": "https://baptistnews.com/article/when-hope-and-history-rhyme-but-justice-hasnt-reached-every-shore/",
+      "date": "2026-11-05T05:48:24Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Gender madness and the midterms",
+      "link": "https://www.christianpost.com/voices/gender-madness-and-the-midterms.html",
+      "date": "2026-11-05T05:07:35Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Does evangelicalism really exist?",
+      "link": "https://www.christianpost.com/voices/does-evangelicalism-really-exist.html",
+      "date": "2026-11-05T05:04:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "3 takeaways from the midterm exit polls",
+      "link": "https://www.christianpost.com/news/3-takeaways-from-the-midterm-election-exit-polls.html",
+      "date": "2026-11-05T05:00:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Griffen elected county judge in Little Rock",
+      "link": "https://baptistnews.com/article/griffen-elected-county-judge-in-little-rock/",
+      "date": "2026-11-05T04:55:52Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Daughter of BNG columnist helps flip Tarrant County blue",
+      "link": "https://baptistnews.com/article/daughter-of-bng-columnist-helps-flip-tarrant-county-blue/",
+      "date": "2026-11-05T04:35:52Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Ep. 662: Compassion International, ACNA Statistics, and a New Presbyterian Denomination",
+      "link": "https://ministrywatch.com/ep-662-compassion-international-acna-statistics-and-a-new-presbyterian-denomination/",
+      "date": "2026-11-05T03:56:58Z",
+      "source": "MinistryWatch",
+      "cat": "accountability"
+    },
+    {
+      "title": "In Texas, school vouchers will be challenged by new governor",
+      "link": "https://baptistnews.com/article/in-texas-school-vouchers-will-be-challenged-by-new-governor/",
+      "date": "2026-11-05T03:37:27Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "'Glory doesn't mean going to Heaven' but rather 'becoming fully human,' says NT Wright",
+      "link": "https://www.christianpost.com/news/nt-wright-glory-doesnt-mean-going-to-heaven.html",
+      "date": "2026-11-05T03:33:21Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "When democracy begins to look like dictatorship",
+      "link": "https://baptistnews.com/article/when-democracy-begins-to-look-like-dictatorship/",
+      "date": "2026-11-05T03:13:50Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "He refused to stay anonymous: Orlando survivor zings church, denomination and school with lawsuits",
+      "link": "https://roysreport.com/he-refused-to-stay-anonymous-orlando-survivor-zings-church-denomination-and-school-with-lawsuits/",
+      "date": "2026-11-05T02:12:27Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "On Election night, the religious left is back",
+      "link": "https://roysreport.com/on-election-night-the-religious-left-is-back/",
+      "date": "2026-11-05T02:11:15Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Dinesh D’Souza’s ‘The Stones Cry Out’ Reaches No. 10 on New York Times Bestseller List",
+      "link": "https://mycharisma.com/news/dinesh-dsouzas-the-stones-cry-out-reaches-no-10-on-new-york-times-bestseller-list/",
+      "date": "2026-11-05T01:59:07Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "A majority of Michigan Jews voted for El-Sayed, polling suggests, but divisions remain",
+      "link": "https://religionnews.com/2026/11/04/michigan-jews-voted-for-el-sayed-but-the-community-divisions-remain/",
+      "date": "2026-11-05T01:05:19Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
     },
     {
       "title": "Catholics and ‘nones’ played key role in Democrats’ historic victory, exit polls show",
@@ -195,13 +405,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "He refused to stay anonymous: Orlando survivor zings church, denomination and school with lawsuits",
-      "link": "https://roysreport.com/he-refused-to-stay-anonymous-orlando-survivor-zings-church-denomination-and-school-with-lawsuits/",
-      "date": "2026-11-04T20:25:27Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
       "title": "Ordinary people stepped up, and we made history",
       "link": "https://baptistnews.com/article/ordinary-people-stepped-up-and-we-made-history/",
       "date": "2026-11-04T20:23:44Z",
@@ -300,13 +503,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Two-thirds of churchgoers fail Bible knowledge quiz: Lifeway Research",
-      "link": "https://www.christianpost.com/news/two-thirds-of-churchgoers-fail-bible-quiz-lifeway-report.html",
-      "date": "2026-11-04T18:05:15Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Pray: Pastor Mike Stone Announces Death of Teen Daughter",
       "link": "https://mycharisma.com/news/pray-pastor-mike-stone-announces-death-of-teen-daughter/",
       "date": "2026-11-04T17:41:27Z",
@@ -321,20 +517,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Photos of the Week: US midterms, preparing for the pope’s trip",
-      "link": "https://religionnews.com/2026/11/04/photos-of-the-week-u-s-midterms-papal-travel-prep/",
-      "date": "2026-11-04T17:26:58Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Megachurch Pastor Frederick D. Haynes III wins Jasmine Crockett's House seat",
-      "link": "https://www.christianpost.com/news/frederick-douglass-haynes-iii-wins-texas-house-race.html",
-      "date": "2026-11-04T17:14:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Ep. 661: The Holy Spirit At Work in the Middle East and North Africa",
       "link": "https://ministrywatch.com/ep-661-the-holy-spirit-at-work-in-the-middle-east-and-north-africa/",
       "date": "2026-11-04T16:50:36Z",
@@ -342,52 +524,10 @@
       "cat": "accountability"
     },
     {
-      "title": "Are young adults becoming more religious? New findings reveal a complicated picture",
-      "link": "https://www.christianpost.com/news/are-young-adults-more-religious-data-presents-complicated-story.html",
-      "date": "2026-11-04T16:22:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "James Talarico Compares Election Victory to Jesus ‘Flipping Tables’",
       "link": "https://mycharisma.com/news/james-talarico-compares-election-victory-to-jesus-flipping-tables/",
       "date": "2026-11-04T16:20:48Z",
       "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Faith communities may be missing up to $30B in giving annually: study",
-      "link": "https://www.christianpost.com/news/inconsistent-giving-could-cost-churches-up-to-30b-annually-study.html",
-      "date": "2026-11-04T16:18:44Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "6 Jewish takeaways from the midterm elections",
-      "link": "https://baptistnews.com/article/6-jewish-takeaways-from-the-midterm-elections/",
-      "date": "2026-11-04T16:06:57Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Wenatchee interfaith leaders counter anti-LGBTQ+ protests with dance parties",
-      "link": "https://baptistnews.com/article/wenatchee-interfaith-leaders-counter-anti-lgbtq-protests-with-dance-parties/",
-      "date": "2026-11-04T16:04:18Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Leo’s Latin America homecoming will also honor Francis’ legacy",
-      "link": "https://baptistnews.com/article/leos-latin-america-homecoming-will-also-honor-francis-legacy/",
-      "date": "2026-11-04T16:02:02Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Theologian NT Wright: Belief that Israel is fulfillment of Bible prophecy is a ‘totally unbiblical idea’",
-      "link": "https://baptistnews.com/article/theologian-nt-wright-belief-that-israel-is-fulfillment-of-bible-prophecy-is-a-totally-unbiblical-idea/",
-      "date": "2026-11-04T16:00:53Z",
-      "source": "Baptist News Global",
       "cat": "evangelical"
     },
     {
@@ -398,13 +538,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "This is for you, America",
-      "link": "https://baptistnews.com/article/this-is-for-you-america/",
-      "date": "2026-11-04T15:49:41Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
       "title": "Why I Am Still a Christian",
       "link": "https://www.christianitytoday.com/2026/11/why-i-am-still-a-christian/",
       "date": "2026-11-04T15:11:07Z",
@@ -412,39 +545,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Voters deliver abortion rights victories in Missouri, Nevada and Virginia",
-      "link": "https://religionnews.com/2026/11/04/voters-deliver-abortion-rights-victories-in-missouri-nevada-and-virginia/",
-      "date": "2026-11-04T14:51:35Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "MPs raise questions on $20m fine, delay in strengthening haze law, in six-hour debate",
-      "link": "https://www.straitstimes.com/singapore/politics/mps-raise-questions-on-20m-fine-delay-in-strengthening-haze-law-in-six-hour-debate",
-      "date": "2026-11-04T14:45:09Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Spanish bishop will preside over the funeral for soccer player killed after on-field horror collision",
       "link": "https://cruxnow.com/church-in-europe/2026/11/spanish-bishop-will-preside-over-the-funeral-for-soccer-player-killed-after-on-field-horror-collision/",
       "date": "2026-11-04T14:41:50Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Motorcyclist dies after accident on BKE, bus driver arrested",
-      "link": "https://www.straitstimes.com/singapore/motorcyclist-dies-after-accident-on-bke-bus-driver-arrested",
-      "date": "2026-11-04T14:25:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "S’pore exploring adapting web domain name system to track AI agents, need for national registry",
-      "link": "https://www.straitstimes.com/singapore/politics/singapore-explores-adapting-web-domain-name-system-to-track-ai-agents-assesses-need-for-national",
-      "date": "2026-11-04T14:19:05Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Finding Shalom in the City of Man",
@@ -459,20 +564,6 @@
       "date": "2026-11-04T13:53:50Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Adam Hamilton Scores Massive Upset in Kansas, Becomes First Dem to Win Senate Seat There Since 1932",
-      "link": "https://mycharisma.com/news/adam-hamilton-scores-massive-upset-in-kansas-becomes-first-dem-to-win-senate-seat-there-since-1932/",
-      "date": "2026-11-04T13:53:39Z",
-      "source": "Charisma News",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Man to be charged over camera hidden in toilet during flight from Japan to S’pore",
-      "link": "https://www.straitstimes.com/singapore/man-to-be-charged-over-camera-hidden-in-toilet-during-flight-from-japan-to-spore",
-      "date": "2026-11-04T13:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Former head of the German bishops’ conference lectures the Pope: “He must clarify the abuse allegations”",
@@ -510,60 +601,11 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "‘Like 8 immortals crossing the sea’: Chinese leadership programme grads find strength in collaboration",
-      "link": "https://www.straitstimes.com/singapore/community/like-8-immortals-crossing-sea-new-graduates-of-chinese-community-leadership-programme-collaborate",
-      "date": "2026-11-04T13:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Midterm election results suggest the religious left is back",
-      "link": "https://www.ncronline.org/election-night-religious-left-back",
-      "date": "2026-11-04T12:32:16Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "The Democratic wave turned into a tsunami",
-      "link": "https://www.ncronline.org/opinion/democratic-wave-turned-tsunami",
-      "date": "2026-11-04T12:03:12Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "Rena Lee’s historic election to world’s top court a milestone for Singapore, say observers",
-      "link": "https://www.straitstimes.com/singapore/politics/rena-lees-historic-election-to-worlds-top-court-a-milestone-for-singapore-say-observers",
-      "date": "2026-11-04T11:47:56Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "As Christianity Grows in India, Burial Space Shrinks",
       "link": "https://www.christianitytoday.com/2026/11/india-burial-cementary-christian-limited/",
       "date": "2026-11-04T11:00:00Z",
       "source": "Christianity Today",
       "cat": "evangelical"
-    },
-    {
-      "title": "Funding for Singapore’s first Islamic college will not come at expense of other needs: Zaqy",
-      "link": "https://www.straitstimes.com/singapore/politics/funding-for-singapores-first-islamic-college-will-not-come-at-expense-of-other-needs-zaqy",
-      "date": "2026-11-04T11:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Fadli’s questions aim to cast Govt as soft on Israel, says Shanmugam; WP MP rejects characterisation",
-      "link": "https://www.straitstimes.com/singapore/politics/fadlis-questions-aim-to-cast-govt-as-soft-on-israel-says-shanmugam-wp-mp-rejects-characterisation",
-      "date": "2026-11-04T09:34:59Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "From ICE's locked doors to Pope Leo: A year of Chicago Catholics' 'holy rebellion'",
-      "link": "https://www.ncronline.org/news/ices-locked-doors-pope-leo-year-chicago-catholics-holy-rebellion",
-      "date": "2026-11-04T09:00:00Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "Supreme Court hears challenge to Catholic preschools’ exclusion from Colorado-funded program",
@@ -790,13 +832,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Federal Report Finds Banks Shut Out Christian Ministries OCC report says nine major banks limited services over beliefs, including to faith-based nonprofits.",
-      "link": "https://ministrywatch.com/federal-report-finds-banks-shut-out-christian-ministries/",
-      "date": "2026-11-02T19:19:14Z",
-      "source": "MinistryWatch",
-      "cat": "accountability"
-    },
-    {
       "title": "Jim O’Heir and Zachary Levi Are Starring in a New Comedy About a Pastor Working the Grocery Store Checkout",
       "link": "https://relevantmagazine.com/culture/tv/jim-oheir-and-zachary-levi-are-starring-in-a-new-comedy-about-a-pastor-working-the-grocery-store-checkout/",
       "date": "2026-11-02T19:13:09Z",
@@ -818,20 +853,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "One in a Million review – deeply moving film about displacement, freedom and the upheaval of starting again",
-      "link": "https://www.theguardian.com/film/2026/nov/02/one-in-a-million-review-itab-azzam-jack-macinnes",
-      "date": "2026-11-02T13:00:41Z",
-      "source": "The Guardian — Religion",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "The Book of Common Prayer Is Having a Moment",
-      "link": "https://www.christianitytoday.com/2026/11/book-of-common-prayer-evangelicals-liturgy/",
-      "date": "2026-11-02T11:00:00Z",
-      "source": "Christianity Today",
-      "cat": "evangelical"
-    },
-    {
       "title": "Pope Leo’s South American tour raises hopes across Uruguay, Argentina and Peru",
       "link": "https://cruxnow.com/church-in-the-americas/2026/11/pope-leos-south-american-tour-raises-hopes-across-uruguay-argentina-and-peru/",
       "date": "2026-11-02T10:51:43Z",
@@ -844,27 +865,6 @@
       "date": "2026-11-02T10:17:10Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
-    },
-    {
-      "title": "Mexico comes alive during annual Day of the Dead celebrations",
-      "link": "https://cruxnow.com/church-in-the-americas/2026/11/mexico/",
-      "date": "2026-11-02T09:52:31Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
-      "title": "Filipino families keep their loved ones close on All Saints’ Day",
-      "link": "https://cruxnow.com/church-in-asia/2026/11/filipino-families-keep-their-loved-ones-close-on-all-saints-day/",
-      "date": "2026-11-02T09:36:55Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
-      "title": "Inside Indie Tribe’s Plan to Disrupt Christian Hip-Hop",
-      "link": "https://relevantmagazine.com/magazine/inside-indie-tribes-plan-to-disrupt-the-church/",
-      "date": "2026-11-02T04:44:12Z",
-      "source": "Relevant Magazine",
-      "cat": "evangelical"
     }
   ]
 }
