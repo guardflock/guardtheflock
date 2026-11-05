@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page Not Found (404) — Guard the Flock</title>
+<meta name="description" content="The page you were looking for could not be found. Return to Guard the Flock for biblical discernment, guidance on spiritual abuse, and healthy church leadership.">
+<meta name="robots" content="noindex, follow">
+
+<!-- Favicon and Search Result Icons -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="alternate icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Figtree:wght@400;500;600;700&display=swap">
+
+<style>
+:root {
+  --bg:          #F7F4EF;
+  --bg-card:     #FFFFFF;
+  --fg:          #1C1916;
+  --fg-muted:    #5C5550;
+  --accent:      #8B1C2E;
+  --accent-soft: #F0D8DC;
+  --gold:        #D4AF37;
+  --border:      #D4CCC2;
+  --border-card: #E5DFC5;
+  --shadow:      0 4px 20px rgba(28, 25, 22, 0.06);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:          #141210;
+    --bg-card:     #1E1C19;
+    --fg:          #EDE8E0;
+    --fg-muted:    #9C9590;
+    --accent:      #C94B60;
+    --accent-soft: #2D1318;
+    --gold:        #F59E0B;
+    --border:      #302C28;
+    --border-card: #3D3830;
+    --shadow:      0 4px 20px rgba(0, 0, 0, 0.35);
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Figtree', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.5rem;
+  background: var(--bg-card);
+}
+
+.nav-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: var(--fg);
+  font-family: 'Lora', Georgia, serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.brand-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.main-content {
+  flex: 1;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 2.5rem;
+  text-align: center;
+}
+
+.badge-404 {
+  display: inline-block;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.125rem;
+  color: var(--fg-muted);
+  max-width: 560px;
+  margin: 0 auto 2rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 3.5rem;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--accent);
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.btn-primary:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg-card);
+}
+
+.resources-section {
+  text-align: left;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 2.5rem;
+}
+
+.resources-section h2 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  color: var(--fg);
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.resource-card {
+  display: block;
+  text-decoration: none;
+  color: var(--fg);
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  transition: border-color 0.2s, transform 0.1s;
+}
+
+.resource-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.resource-card h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--accent);
+}
+
+.resource-card p {
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  line-height: 1.4;
+}
+
+.scripture {
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--fg-muted);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+  background: var(--bg-card);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <a href="/" class="brand">
+      <svg class="brand-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M32 4 C44 4 54 8 54 18 C54 36 38 52 32 60 C26 52 10 36 10 18 C10 8 20 4 32 4 Z" fill="#1F2937" stroke="#D4AF37" stroke-width="2"/>
+        <path d="M32 20 L32 46" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M32 20 C32 15 39 14 39 18 C39 22 36 24 33 24" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M25 28 L39 28" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <span>Guard the Flock</span>
+    </a>
+    <a href="/" class="btn-secondary" style="padding: 0.4rem 0.9rem; font-size: 0.9rem;">Home</a>
+  </div>
+</header>
+
+<main class="main-content">
+  <div class="badge-404">Error 404</div>
+  <h1>Page Not Found</h1>
+  <p class="lead">The page or resource you were looking for could not be found. It may have been moved, renamed, or is temporarily unavailable.</p>
+
+  <div class="actions">
+    <a href="/" class="btn-primary">← Return to Homepage</a>
+    <a href="/#get-help" class="btn-secondary">Get Support &amp; Help</a>
+  </div>
+
+  <div class="resources-section">
+    <h2>Explore Key Topics</h2>
+    <div class="resource-grid">
+      <a href="/#start-here" class="resource-card">
+        <h3>Start Here</h3>
+        <p>The essential foundational guide on navigating church concerns.</p>
+      </a>
+      <a href="/#understand" class="resource-card">
+        <h3>Understanding Abuse</h3>
+        <p>Clear definitions, biblical context, and power dynamics.</p>
+      </a>
+      <a href="/#warning-signs" class="resource-card">
+        <h3>Warning Signs</h3>
+        <p>Recognisable red flags and discernment benchmarks.</p>
+      </a>
+      <a href="/#get-help" class="resource-card">
+        <h3>Support &amp; Recovery</h3>
+        <p>Safe next steps, pastoral support, and practical care.</p>
+      </a>
+      <a href="/#for-leaders" class="resource-card">
+        <h3>For Church Leaders</h3>
+        <p>Cultivating accountability and healthy shepherd cultures.</p>
+      </a>
+      <a href="/#study" class="resource-card">
+        <h3>Study &amp; Resources</h3>
+        <p>Scripture studies, documentation, and recommended reading.</p>
+      </a>
+    </div>
+  </div>
+
+  <div class="scripture">
+    &ldquo;He restores my soul. He leads me in paths of righteousness for his name&rsquo;s sake.&rdquo; &mdash; Psalm 23:3
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Guard the Flock. A Christian resource for biblical discernment and recovery.</p>
+</footer>
+
+<!-- Cloudflare Web Analytics -->
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0a4075241ec14b4eba273d1cd1a8001b"}'></script>
+<!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>
