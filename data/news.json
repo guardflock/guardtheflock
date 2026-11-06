@@ -1,31 +1,255 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T22:02:13.943927Z",
+  "updatedAt": "2026-11-06T06:53:56.110523Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Spiritual Sounding Board",
+    "Abuse Tracker (Bishop Accountability)",
     "Christianity Today",
+    "Spiritual Sounding Board",
+    "Religion News Service",
     "Baptist News Global",
+    "Surviving Church",
     "The Wartburg Watch",
-    "The Guardian — Religion",
+    "Crux — Catholic News",
+    "Christian Post",
     "Christian Headlines",
     "National Catholic Reporter",
-    "Christian Post",
-    "Crux — Catholic News",
-    "Religion News Service",
-    "The Roys Report",
     "Channel NewsAsia",
-    "Surviving Church",
-    "Charisma News",
+    "The Guardian — Religion",
+    "The Roys Report",
     "Straits Times",
+    "Charisma News",
     "Relevant Magazine",
-    "MinistryWatch",
-    "Abuse Tracker (Bishop Accountability)",
-    "ECA Global"
+    "ECA Global",
+    "MinistryWatch"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "Students from NAFA and HCI celebrate the lives of dementia patients at Jurong Community Hospital",
+      "link": "https://www.straitstimes.com/singapore/students-from-nafa-and-hci-celebrate-the-lives-of-dementia-patients-at-jurong-community-hospital",
+      "date": "2026-11-06T06:47:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Home-based patient care among AI applications being tested at next-gen 5G, 6G research centre",
+      "link": "https://www.straitstimes.com/tech/home-based-patient-care-among-ai-applications-being-tested-at-next-gen-5g-6g-research-centre",
+      "date": "2026-11-06T06:32:08Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "How anime tourism is helping breathe new life into Japan's shrinking towns",
+      "link": "https://www.channelnewsasia.com/asia/anime-manga-pop-culture-tourism-japan-communities-6526746",
+      "date": "2026-11-06T05:56:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Kyivstar lifts yearly revenue guidance as Q3 revenue rises",
+      "link": "https://www.channelnewsasia.com/business/kyivstar-lifts-yearly-revenue-guidance-q3-revenue-rises-6530336",
+      "date": "2026-11-06T05:54:48Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Court of Appeal gives full written reasons for acquitting content creator Lev Panfilov",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/court-of-appeal-gives-full-written-reasons-for-acquitting-content-creator-lev-panfilov",
+      "date": "2026-11-06T05:50:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Letter to the Editor: See the women when you see Iran",
+      "link": "https://baptistnews.com/article/letter-to-the-editor-see-the-women-when-you-see-iran/",
+      "date": "2026-11-06T05:47:40Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "X says takedown notices targeting Indian free-speech groups were fake",
+      "link": "https://www.channelnewsasia.com/business/x-says-takedown-notices-targeting-indian-free-speech-groups-were-fake-6530306",
+      "date": "2026-11-06T05:44:18Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Indonesia names fourth senior police officer as wiretapping suspect amid deepening political rifts",
+      "link": "https://www.channelnewsasia.com/asia/indonesia-fourth-senior-police-officer-wiretapping-suspect-6530131",
+      "date": "2026-11-06T05:41:22Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "The American people put the brakes on the backslide",
+      "link": "https://baptistnews.com/article/the-american-people-put-the-brakes-on-the-backslide/",
+      "date": "2026-11-06T05:37:09Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Singapore Airlines unveils S$2 billion cabin upgrade with new First Class double beds, Business Class seats with privacy doors",
+      "link": "https://www.channelnewsasia.com/travel/singapore-airlines-sia-new-cabin-products-first-class-business-class-2027-6526061",
+      "date": "2026-11-06T05:31:16Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Singapore authorities warn of privacy, security risks from personal AI agents",
+      "link": "https://www.channelnewsasia.com/singapore/personal-ai-agents-assistant-advisory-muse-dots-hermes-grok-openclaw-6529836",
+      "date": "2026-11-06T05:30:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "How SIA’s new first-class seats are customised, down to the last stitch",
+      "link": "https://www.straitstimes.com/singapore/transport/how-sias-new-first-class-seats-are-customised-down-to-the-last-stitch",
+      "date": "2026-11-06T05:30:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Prepare for take-off: SIA unveils new seats in $2b upgrade, rolling out from second half of 2027",
+      "link": "https://www.straitstimes.com/singapore/transport/prepare-for-take-off-sia-unveils-new-seats-in-2b-upgrade-rolling-out-from-second-half-of-2027",
+      "date": "2026-11-06T05:30:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Six prototypes later, SIA adds doors to business class",
+      "link": "https://www.straitstimes.com/singapore/transport/six-prototypes-later-sia-adds-doors-to-business-class",
+      "date": "2026-11-06T05:30:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "More reclining abilities for SIA’s new economy, premium economy seats",
+      "link": "https://www.straitstimes.com/singapore/transport/more-reclining-abilities-for-sias-new-economy-premium-economy-seats",
+      "date": "2026-11-06T05:30:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Former Malaysia PM Najib Razak's US$12.3 million fine paid by UMNO, paving way for house arrest",
+      "link": "https://www.channelnewsasia.com/asia/malaysia-najib-razak-pays-fine-house-arrest-6520376",
+      "date": "2026-11-06T05:25:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Markets fret over growth and inflation despite easing oil prices",
+      "link": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-despite-easing-oil-prices-6530261",
+      "date": "2026-11-06T05:23:43Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Heavy crowds expected in Little India for Deepavali; crossing closures, alcohol curbs in force",
+      "link": "https://www.straitstimes.com/singapore/heavy-crowds-expected-in-little-india-for-deepavali-crossing-closures-alcohol-curbs-in-force",
+      "date": "2026-11-06T05:01:23Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Trump's week in review: Vows to use veto power, cut $4B aid to Israel and Melania brokers ceasefire",
+      "link": "https://www.christianpost.com/news/trump-vows-use-veto-power-cut-4-billion-aid-israel-melania-brokers-ceasefire.html",
+      "date": "2026-11-06T04:43:10Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "A redistricting contradiction in Arkansas",
+      "link": "https://baptistnews.com/article/a-redistricting-contradiction-in-arkansas/",
+      "date": "2026-11-06T04:30:07Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Highland Park Methodist’s story is not a first",
+      "link": "https://baptistnews.com/article/highland-park-methodists-story-is-not-a-first/",
+      "date": "2026-11-06T04:24:41Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "When an Election Doesn’t Go Your Way, What Happens to Your Hope?",
+      "link": "https://www.crosswalk.com/headlines/contributors/guest-commentary/christian-hope-after-election-loss.html",
+      "date": "2026-11-06T04:05:00Z",
+      "source": "Christian Headlines",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Christians react to Equality Caucus celebrating 'gayest Congress in history' as 16 LGBT candidates win seats",
+      "link": "https://www.christianpost.com/news/equality-caucus-celebrates-gayest-congress-in-history.html",
+      "date": "2026-11-06T02:56:33Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Brave Church Bravely Refused to Answer Philip Faustin’s Brave Questions About the Church Finances. It’s All About the Benjamins.",
+      "link": "https://thewartburgwatch.com/2026/11/05/brave-church-bravely-refused-to-answer-philip-faustins-brave-questions-about-the-church-finances-its-all-about-the-benjamins/",
+      "date": "2026-11-06T02:03:56Z",
+      "source": "The Wartburg Watch",
+      "cat": "accountability"
+    },
+    {
+      "title": "Want to Help Fight Poverty? Here Are Five Ways to Start",
+      "link": "https://relevantmagazine.com/justice/unconventional-ways-fight-poverty-0/",
+      "date": "2026-11-06T01:00:00Z",
+      "source": "Relevant Magazine",
+      "cat": "evangelical"
+    },
+    {
+      "title": "4 women accuse former North Point Community Church musician of sexual abuse",
+      "link": "https://roysreport.com/4-women-accuse-former-north-point-community-church-musician-of-sexual-abuse/",
+      "date": "2026-11-06T00:25:02Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Guilty: Baptized comic Russell Brand convicted of rape and sexual assault, taken into custody",
+      "link": "https://roysreport.com/guilty-baptized-comic-russell-brand-convicted-of-rape-and-sexual-assault-taken-into-custody/",
+      "date": "2026-11-05T23:58:53Z",
+      "source": "The Roys Report",
+      "cat": "accountability"
+    },
+    {
+      "title": "Democracy After the Midterms: A special election episode with Rebecca Solnit",
+      "link": "https://religionnews.com/2026/11/05/democracy-after-the-midterms-a-special-election-episode-with-rebecca-solnit/",
+      "date": "2026-11-05T23:37:58Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Nithya Raman, a practicing Hindu, elected as mayor of Los Angeles",
+      "link": "https://religionnews.com/2026/11/05/nithya-raman-a-practicing-hindu-elected-as-mayor-of-los-angeles/",
+      "date": "2026-11-05T23:34:20Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Hating Muslims is becoming a losing strategy",
+      "link": "https://religionnews.com/2026/11/05/hating-muslims-is-becoming-a-losing-strategy/",
+      "date": "2026-11-05T23:33:13Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Muslim advocacy group CAIR shuts Florida chapter as terror designation takes effect",
+      "link": "https://religionnews.com/2026/11/05/cairs-florida-chapter-shuts-down-after-state-terror-designation-takes-effect/",
+      "date": "2026-11-05T23:30:09Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Paraguay’s President Peña offers resignation over bank collapse, then vows to fight impeachment",
+      "link": "https://www.christianpost.com/news/santiago-pena-resigns-president-paraguay-amid-bank-crisis.html",
+      "date": "2026-11-05T22:55:34Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
     {
       "title": "Miracle in the Mountains: Missing 6-Year-Old Found Alive After 44 Hours in Kentucky Wilderness",
       "link": "https://mycharisma.com/news/miracle-in-the-mountains-missing-6-year-old-found-alive-after-44-hours-in-kentucky-wilderness/",
@@ -48,46 +272,11 @@
       "cat": "catholic"
     },
     {
-      "title": "Italy must be unpredictable against Erasmus’s Springboks, says Quesada",
-      "link": "https://www.channelnewsasia.com/sport/italy-must-be-unpredictable-against-erasmuss-springboks-says-quesada-6529086",
-      "date": "2026-11-05T21:42:48Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "California governor says commuting all death sentences in state",
-      "link": "https://www.channelnewsasia.com/world/california-death-row-life-imprisonment-newsom-6529036",
-      "date": "2026-11-05T21:37:12Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Neocloud firm IREN tops quarterly revenue estimates, shares jump",
-      "link": "https://www.channelnewsasia.com/business/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-6529076",
-      "date": "2026-11-05T21:35:43Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Modern-Day Sodom and Gomorrah: California City Moves to Legally Recognize Polyamorous Partnerships",
       "link": "https://mycharisma.com/news/modern-day-sodom-and-gomorrah-california-city-moves-to-legally-recognize-polyamorous-partnerships/",
       "date": "2026-11-05T21:29:15Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "From star maps to meteorites: 9 watches that bring the cosmos to your wrist",
-      "link": "https://www.channelnewsasia.com/obsessions/celestial-watches-star-maps-meteorites-6515016",
-      "date": "2026-11-05T21:22:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "France workers strike, march for 'dignified wage'",
-      "link": "https://www.channelnewsasia.com/world/france-workers-strike-wage-protest-police-macron-6529011",
-      "date": "2026-11-05T21:10:52Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Ohio megachurch suspends leader who knew of pastor Lonnie Snell’s sexual misconduct",
@@ -102,13 +291,6 @@
       "date": "2026-11-05T20:55:00Z",
       "source": "Christian Post",
       "cat": "evangelical"
-    },
-    {
-      "title": "Google plans $17 billion Wyoming data center amid rising threats of curbs",
-      "link": "https://www.channelnewsasia.com/business/google-plans-17-billion-wyoming-data-center-amid-rising-threats-curbs-6529006",
-      "date": "2026-11-05T20:47:30Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "For the first time, Jain American elected to Congress",
@@ -132,39 +314,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Old but not frail: Seniors share how exercise and friendships keep them strong",
-      "link": "https://www.straitstimes.com/singapore/old-but-not-frail-seniors-share-how-exercise-and-friendships-keep-them-strong",
-      "date": "2026-11-05T20:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Her paycheck stopped when cancer hit, her insurance payout didn’t: Now she’s planning a baby and her dream bistro",
-      "link": "https://www.straitstimes.com/singapore/health/cancer-insurance-critical-illness-prulady-prudential",
-      "date": "2026-11-05T20:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Lions’ Jack Campbell Trusting God after Scary Neck Injury: ‘I Know He Has a Plan for Me’",
       "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/lions-jack-campbell-trusting-god-after-scary-neck-injury-i-know-he-has-a-plan-for-me.html",
       "date": "2026-11-05T19:42:11Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "Hamilton says he won't be silenced, still frustrated after Mexico clash",
-      "link": "https://www.channelnewsasia.com/sport/hamilton-says-he-wont-be-silenced-still-frustrated-after-mexico-clash-6528836",
-      "date": "2026-11-05T19:27:26Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Eight dead in mass shooting in rural west Türkiye: officials",
-      "link": "https://www.channelnewsasia.com/world/turkiye-manhunt-gun-shooting-eight-dead-6528826",
-      "date": "2026-11-05T19:25:37Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Adam Hamilton to Remain Senior Pastor after Historic Kansas Senate Victory",
@@ -251,13 +405,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Pastor of polling location church faces pushback for calling Muslims 'evil'",
-      "link": "https://www.christianpost.com/news/pastor-faces-pushback-for-facebook-posts-about-muslims.html",
-      "date": "2026-11-05T17:01:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "On Diwali, Jains honor a man who owned nothing. COP31 should take note.",
       "link": "https://religionnews.com/2026/11/05/on-diwali-jains-honor-a-man-who-owned-nothing-cop31-should-take-note/",
       "date": "2026-11-05T17:00:51Z",
@@ -314,46 +461,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "I study polling failures – this time, pollsters were mostly right, if not precise",
-      "link": "https://baptistnews.com/article/i-study-polling-failures-this-time-pollsters-were-mostly-right-if-not-precise/",
-      "date": "2026-11-05T16:03:29Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "The Military Chaplaincy Was Already Captured, Well Before Hegseth’s Arrival",
-      "link": "https://baptistnews.com/article/the-military-chaplaincy-was-already-captured-well-before-hegseths-arrival/",
-      "date": "2026-11-05T16:02:45Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Bob Dylan comes knockin’ on pope’s door as Leo welcomes legend to Vatican",
-      "link": "https://baptistnews.com/article/bob-dylan-comes-knockin-on-popes-door-as-leo-welcomes-legend-to-vatican/",
-      "date": "2026-11-05T16:01:43Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
       "title": "Catholics and 'nones' played key role in Democrats' historic victory, exit polls show",
       "link": "https://www.ncronline.org/news/catholics-and-nones-played-key-role-democrats-historic-victory-exit-polls-show",
       "date": "2026-11-05T16:01:06Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "Review: Go and Do Likewise",
-      "link": "https://baptistnews.com/article/review-go-and-do-likewise/",
-      "date": "2026-11-05T16:00:04Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "YouVersion launches Bible Loop app to help teens study Scripture",
-      "link": "https://www.christianpost.com/news/youversion-launches-bible-loop-app-to-help-teens-study-scripture.html",
-      "date": "2026-11-05T16:00:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "Chaos in European Skies: Bomb Threats Force Flights Down, Fighter Jets Scramble",
@@ -363,32 +475,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Russell Brand found guilty of rape, sexual assault; faces sentence 'of some length'",
-      "link": "https://www.christianpost.com/news/russell-brand-found-guilty-of-rape-sexual-assault.html",
-      "date": "2026-11-05T15:51:42Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "S’pore media must be credible and trusted observer, interpreter of developments: President Tharman",
-      "link": "https://www.straitstimes.com/singapore/politics/spore-media-must-be-credible-and-trusted-observer-interpreter-of-developments-president-tharman",
-      "date": "2026-11-05T15:42:37Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Ancient Temple Mount Discovery Reveals Striking Connection to Jesus’ Prophetic Warning",
       "link": "https://mycharisma.com/news/ancient-temple-mount-discovery-reveals-striking-connection-to-jesus-prophetic-warning/",
       "date": "2026-11-05T15:29:04Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Woman linked to Cambodia-based scam syndicate Prince Holding Group to be charged",
-      "link": "https://www.straitstimes.com/singapore/woman-linked-to-cambodia-based-scam-syndicate-prince-holding-group-to-be-charged",
-      "date": "2026-11-05T15:25:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Claire Rosinkranz Heard God at 11. Now She’s Learning to Hear Him Differently",
@@ -408,13 +499,6 @@
       "title": "‘A beautifully American story’: El-Sayed’s historic Senate victory resonates with Muslim Americans",
       "link": "https://religionnews.com/2026/11/05/a-beautifully-american-story-el-sayeds-historic-senate-victory-resonates-with-muslim-americans/",
       "date": "2026-11-05T14:59:14Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Federal judge orders Iowa to allow Satanic Temple to hold one-day holiday event in the state Capitol",
-      "link": "https://religionnews.com/2026/11/05/federal-judge-orders-iowa-to-allow-satanic-temple-to-hold-one-day-holiday-event-in-the-state-capitol/",
-      "date": "2026-11-05T14:52:09Z",
       "source": "Religion News Service",
       "cat": "mainstreamreligion"
     },
@@ -489,34 +573,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Policymakers and technologists must design public services together: PM Wong",
-      "link": "https://www.straitstimes.com/tech/policymakers-and-technologists-must-design-public-services-together-pm-wong",
-      "date": "2026-11-05T13:03:50Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "1½ years’ jail for man who imported over 4,300 vape pods, highest sentence to date for such offence",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/11-2-years-jail-for-man-who-imported-over-4300-vape-pods-highest-sentence-to-date-for-such-offence",
-      "date": "2026-11-05T12:49:02Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "IHH Healthcare to cut close to 400 jobs across S’pore, Hong Kong and Malaysia",
-      "link": "https://www.straitstimes.com/singapore/ihh-healthcare-to-cut-close-to-400-jobs-across-spore-hong-kong-and-malaysia",
-      "date": "2026-11-05T12:23:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Mask distribution, haze shelters to cease by Nov 7; haze subsidy scheme to end from Nov 12",
-      "link": "https://www.straitstimes.com/singapore/environment/mask-distribution-haze-shelters-to-cease-by-nov-7-haze-subsidy-scheme-to-end-from-nov-12",
-      "date": "2026-11-05T12:09:15Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "A progressive understanding of Christianity won in the US elections | Bill McKibben",
       "link": "https://www.theguardian.com/commentisfree/2026/nov/05/james-talarico-adam-hamilton-christianity-conservatives",
       "date": "2026-11-05T12:00:23Z",
@@ -543,13 +599,6 @@
       "date": "2026-11-05T11:00:00Z",
       "source": "Christianity Today",
       "cat": "evangelical"
-    },
-    {
-      "title": "After Texas midterm victory, Rev. Frederick Haynes eager to serve with fellow ordained congressmen",
-      "link": "https://religionnews.com/2026/11/05/frederick-haynes-congress-texas-election-2026/",
-      "date": "2026-11-05T10:05:14Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
     },
     {
       "title": "The Vatican communications revolution gets underway",
@@ -594,20 +643,6 @@
       "cat": "accountability"
     },
     {
-      "title": "A majority of Michigan Jews voted for El-Sayed, polling suggests, but divisions remain",
-      "link": "https://religionnews.com/2026/11/04/michigan-jews-voted-for-el-sayed-but-the-community-divisions-remain/",
-      "date": "2026-11-05T01:05:19Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Catholics and ‘nones’ played key role in Democrats’ historic victory, exit polls show",
-      "link": "https://religionnews.com/2026/11/04/catholics-and-nones-played-key-role-in-democrats-historic-victory-exit-polls-show/",
-      "date": "2026-11-04T22:35:33Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "Wednesday and Friday Posts Will Be Combined for a Post on Thursday. No Post Tonight.",
       "link": "https://thewartburgwatch.com/2026/11/04/wednesday-and-friday-post-will-be-combined-for-a-post-on-thursday-no-post-tonight/",
       "date": "2026-11-04T22:13:45Z",
@@ -641,13 +676,6 @@
       "date": "2026-11-04T20:51:23Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "City Gate Studios Paves Way for Christian Creatives, Industry Leaders to Connect at CREATE2026",
-      "link": "https://www.crosswalk.com/headlines/contributors/elizabeth-delaney/city-gate-studios-paves-way-for-christian-creatives-industry-leaders-to-connect-at-create2026.html",
-      "date": "2026-11-04T20:46:53Z",
-      "source": "Christian Headlines",
-      "cat": "evangelical"
     },
     {
       "title": "After the Midterms",
@@ -837,34 +865,6 @@
       "date": "2026-11-03T01:42:44Z",
       "source": "The Wartburg Watch",
       "cat": "accountability"
-    },
-    {
-      "title": "South Carolina minister who backed sex offender now facing charges",
-      "link": "https://roysreport.com/south-carolina-minister-who-backed-sex-offender-now-facing-charges/",
-      "date": "2026-11-02T23:32:34Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
-      "title": "Rod Dreher among prominent conservatives focusing fight on Christian nationalists",
-      "link": "https://roysreport.com/rod-dreher-among-prominent-conservatives-focusing-fight-on-christian-nationalists/",
-      "date": "2026-11-02T23:31:20Z",
-      "source": "The Roys Report",
-      "cat": "accountability"
-    },
-    {
-      "title": "Former Acts 29 CEO Charged with Rape in the UK",
-      "link": "https://www.christianitytoday.com/2026/11/former-acts-29-ceo-charged-rape-uk-spiritual-abuse/",
-      "date": "2026-11-02T23:07:13Z",
-      "source": "Christianity Today",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Jim O’Heir and Zachary Levi Are Starring in a New Comedy About a Pastor Working the Grocery Store Checkout",
-      "link": "https://relevantmagazine.com/culture/tv/jim-oheir-and-zachary-levi-are-starring-in-a-new-comedy-about-a-pastor-working-the-grocery-store-checkout/",
-      "date": "2026-11-02T19:13:09Z",
-      "source": "Relevant Magazine",
-      "cat": "evangelical"
     }
   ]
 }
