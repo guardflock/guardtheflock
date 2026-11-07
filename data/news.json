@@ -1,44 +1,128 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T14:55:50.462212Z",
+  "updatedAt": "2026-11-07T20:15:36.287641Z",
   "sourcesUpdated": 19,
   "sources": [
     "Spiritual Sounding Board",
-    "Christianity Today",
     "Religion News Service",
     "Baptist News Global",
-    "The Wartburg Watch",
-    "Christian Headlines",
-    "The Guardian — Religion",
-    "National Catholic Reporter",
-    "Christian Post",
-    "Crux — Catholic News",
-    "Channel NewsAsia",
+    "Christianity Today",
     "Surviving Church",
-    "Straits Times",
+    "The Guardian — Religion",
+    "The Wartburg Watch",
+    "National Catholic Reporter",
+    "Crux — Catholic News",
+    "Christian Headlines",
+    "Christian Post",
+    "Channel NewsAsia",
     "The Roys Report",
-    "Charisma News",
-    "MinistryWatch",
-    "Relevant Magazine",
+    "Straits Times",
+    "ECA Global",
     "Abuse Tracker (Bishop Accountability)",
-    "ECA Global"
+    "Relevant Magazine",
+    "Charisma News",
+    "MinistryWatch"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Pope ‘proud to be an American’ after US elections, and credits God and doctors with cancer rebound",
-      "link": "https://cruxnow.com/uncategorized/2026/11/pope-leos-south-american-tour-raises-hopes-across-uruguay-argentina-and-peru-2/",
-      "date": "2026-11-07T14:54:36Z",
+      "title": "Rybakina pulls out of WTA Finals due to fitness concerns",
+      "link": "https://www.channelnewsasia.com/sport/rybakina-pulls-out-wta-finals-due-fitness-concerns-6533436",
+      "date": "2026-11-07T20:02:39Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Egypt part ways with coach Hassan, Maher to replace him",
+      "link": "https://www.channelnewsasia.com/sport/egypt-part-ways-coach-hassan-maher-replace-him-6533441",
+      "date": "2026-11-07T20:00:37Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "‘What comes after?’ Father on planning ahead for sons with disabilities",
+      "link": "https://www.straitstimes.com/singapore/what-comes-after-father-on-planning-ahead-for-sons-with-disabilities",
+      "date": "2026-11-07T20:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Sao Paulo qualifying delayed as heavy rain hits Interlagos",
+      "link": "https://www.channelnewsasia.com/sport/sao-paulo-qualifying-delayed-heavy-rain-hits-interlagos-6533421",
+      "date": "2026-11-07T19:27:22Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Iran says forces 'stronger' than at beginning of war",
+      "link": "https://www.channelnewsasia.com/world/iran-says-forces-stronger-beginning-war-6533381",
+      "date": "2026-11-07T19:20:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Trump says he wants UFC chief Dana White for White House press secretary",
+      "link": "https://www.channelnewsasia.com/sport/trump-says-he-wants-ufc-chief-dana-white-white-house-press-secretary-6533411",
+      "date": "2026-11-07T19:13:02Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Too close for comfort for Arteta despite Arsenal's fifth win in a row",
+      "link": "https://www.channelnewsasia.com/sport/too-close-comfort-arteta-despite-arsenals-fifth-win-in-row-6533416",
+      "date": "2026-11-07T19:09:58Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Tesla to add Cybertruck shift to clear orders before dismantling line next year",
+      "link": "https://www.channelnewsasia.com/business/tesla-add-cybertruck-shift-clear-orders-dismantling-line-next-year-6533391",
+      "date": "2026-11-07T18:38:20Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Adams double lifts lacklustre Wales to 28-21 win over Japan",
+      "link": "https://www.channelnewsasia.com/sport/adams-double-lifts-lacklustre-wales-28-21-win-over-japan-6533386",
+      "date": "2026-11-07T18:33:06Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "With ode to mate tea, Pope Leo urges faithful in Uruguay to build bridges of fraternity and faith",
+      "link": "https://www.ncronline.org/vatican/ode-mate-pope-leo-urges-faithful-uruguay-build-bridges-fraternity-and-faith",
+      "date": "2026-11-07T16:42:18Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Pastor celebrates removal of 'Rocky Horror' photos featuring scantily clad students on church steps",
+      "link": "https://www.christianpost.com/news/pastor-celebrates-removal-of-rocky-horror-photos-on-church-steps.html",
+      "date": "2026-11-07T16:35:15Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "With an ode to mate, pope urges faithful in Uruguay to build bridges of fraternity and faith",
+      "link": "https://cruxnow.com/2026_pope_in_south_america/2026/11/pope-south-latin-america/",
+      "date": "2026-11-07T15:22:44Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
     },
     {
-      "title": "Erasmus says plan to strengthen Springbok squad is bearing fruit",
-      "link": "https://www.channelnewsasia.com/sport/erasmus-says-plan-strengthen-springbok-squad-bearing-fruit-6533206",
-      "date": "2026-11-07T14:44:31Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
+      "title": "Democratic candidates with a Christian message help flip Congress",
+      "link": "https://cruxnow.com/church-in-the-usa/2026/11/democratic-candidates-with-a-christian-message-help-flip-congress/",
+      "date": "2026-11-07T15:12:58Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "Pope ‘proud to be an American’ after US elections, and credits God and doctors with cancer rebound",
+      "link": "https://cruxnow.com/2026_pope_in_south_america/2026/11/pope-leos-south-american-tour-raises-hopes-across-uruguay-argentina-and-peru-2/",
+      "date": "2026-11-07T14:54:36Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
     },
     {
       "title": "Court action halted after clergy therapy centre reveals destruction of records related to abusive priest",
@@ -55,13 +139,6 @@
       "cat": "accountability"
     },
     {
-      "title": "Okafor secures Leeds win at home to Tottenham",
-      "link": "https://www.channelnewsasia.com/sport/okafor-secures-leeds-win-home-tottenham-6533186",
-      "date": "2026-11-07T14:38:16Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Archdiocese of New Orleans releases updated report on clergy abuse, list of names of credibly accused",
       "link": "https://www.bishop-accountability.org/2026/11/archdiocese-of-new-orleans-releases-updated-report-on-clergy-abuse-list-of-names-of-credibly-accused/",
       "date": "2026-11-07T14:37:04Z",
@@ -74,13 +151,6 @@
       "date": "2026-11-07T14:35:09Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
-    },
-    {
-      "title": "New Zealand PM sees path back to office but vote 'too close to call'",
-      "link": "https://www.channelnewsasia.com/world/new-zealand-election-pm-christopher-luxon-6533161",
-      "date": "2026-11-07T14:33:08Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Catholic priest pleads guilty to 1970s sexual assault of Baltimore boy",
@@ -118,20 +188,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Heavy rains leave tens of thousands without shelter in Gaza",
-      "link": "https://www.channelnewsasia.com/world/gaza-heavy-rain-without-shelter-humanitarian-aid-6533131",
-      "date": "2026-11-07T14:01:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "South Africa thump Italy to stay perfect in Nations Championship",
-      "link": "https://www.channelnewsasia.com/sport/south-africa-thump-italy-stay-perfect-in-nations-championship-6533146",
-      "date": "2026-11-07T13:51:44Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "KJ Apa, 'Jimmy' cast reveal how Jimmy Stewart's faith sustained him through war, suffering",
       "link": "https://www.christianpost.com/news/kj-apa-jimmy-cast-on-how-jimmy-stewarts-faith-sustained-him.html",
       "date": "2026-11-07T13:40:02Z",
@@ -139,32 +195,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "At 62, the creator of Mr Kiasu is going to art school for the first time",
-      "link": "https://www.channelnewsasia.com/cna-insider/up-close/mr-kiasu-johnny-lau-cartoon-art-school-6497486",
-      "date": "2026-11-07T13:30:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Contract work or full-time employment? What to consider before deciding",
-      "link": "https://www.channelnewsasia.com/cna-insider/adulting/contract-job-work-employment-career-pros-cons-6425916",
-      "date": "2026-11-07T13:30:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Israel Responds After News of Impending Aid Cut",
       "link": "https://mycharisma.com/news/israel-responds-after-news-of-impending-aid-cut/",
       "date": "2026-11-07T13:30:00Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "England ready to counter Perth bounce, says McCullum",
-      "link": "https://www.channelnewsasia.com/sport/england-ready-counter-perth-bounce-says-mccullum-6533116",
-      "date": "2026-11-07T13:29:13Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Thousands pour into a park in Uruguay for Pope Leo’s first Mass in South America",
@@ -300,13 +335,6 @@
       "cat": "asia"
     },
     {
-      "title": "Two taken to hospital after seven-vehicle crash on PIE",
-      "link": "https://www.straitstimes.com/singapore/two-taken-to-hospital-after-seven-vehicle-crash-on-pie",
-      "date": "2026-11-07T03:30:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Pope Leo XIV arrives in Uruguay at start of South American tour less than a month after lung surgery",
       "link": "https://cruxnow.com/2026_pope_in_south_america/2026/11/pope-leo-xiv-arrives-in-uruguay-at-start-of-south-american-tour-less-than-a-month-after-lung-surgery/",
       "date": "2026-11-07T00:44:51Z",
@@ -398,13 +426,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "George W. Bush sides with Texas megachurch that voted to leave UMC: report",
-      "link": "https://www.christianpost.com/news/george-w-bush-sides-with-megachurch-that-voted-to-leave-umc.html",
-      "date": "2026-11-06T21:24:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Secular voters are increasing. Can ‘the nones’ become a political force?",
       "link": "https://religionnews.com/2026/11/06/secular-voters-are-increasing-can-the-nones-become-a-political-force/",
       "date": "2026-11-06T20:38:07Z",
@@ -482,18 +503,18 @@
       "cat": "evangelical"
     },
     {
-      "title": "A Bright Spot for Conservatives on Election Night: Major Wins on Girls' Sports and Voter ID",
-      "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/a-bright-spot-for-conservatives-on-election-night-major-wins-on-girls-sports-and-voter-id.html",
-      "date": "2026-11-06T18:00:00Z",
-      "source": "Christian Headlines",
-      "cat": "evangelical"
-    },
-    {
       "title": "Pope ‘proud to be an American’ after US elections, and credits God and doctors with cancer rebound",
       "link": "https://cruxnow.com/ap/2026/11/pope-proud-to-be-an-american-after-us-elections-and-credits-god-and-doctors-with-cancer-rebound/",
       "date": "2026-11-06T18:00:00Z",
       "source": "Crux — Catholic News",
       "cat": "catholic"
+    },
+    {
+      "title": "A Bright Spot for Conservatives on Election Night: Major Wins on Girls' Sports and Voter ID",
+      "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/a-bright-spot-for-conservatives-on-election-night-major-wins-on-girls-sports-and-voter-id.html",
+      "date": "2026-11-06T18:00:00Z",
+      "source": "Christian Headlines",
+      "cat": "evangelical"
     },
     {
       "title": "Democrats must do things differently this time",
@@ -578,13 +599,6 @@
       "date": "2026-11-06T15:58:35Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
-    },
-    {
-      "title": "A look at how LGBTQ+ issues played out in midterms and faith groups that weighed in",
-      "link": "https://www.ncronline.org/news/look-how-lgbtq-issues-played-out-midterms-and-faith-groups-weighed",
-      "date": "2026-11-06T15:41:07Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
@@ -767,20 +781,6 @@
       "date": "2026-11-05T12:00:23Z",
       "source": "The Guardian — Religion",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "A still-recovering pope will head home to Latin America and his beloved Peru for a 12-day trip",
-      "link": "https://cruxnow.com/2026_pope_in_south_america/2026/11/a-still-recovering-pope-will-head-home-to-latin-america-and-his-beloved-peru-for-a-12-day-trip/",
-      "date": "2026-11-05T11:50:20Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
-      "title": "Bob Dylan comes knockin’ on pope’s door as Leo welcomes singer-song writer to Vatican",
-      "link": "https://cruxnow.com/vatican/2026/11/bob-dylan-comes-knockin-on-popes-door-as-leo-welcomes-singer-song-writer-to-vatican/",
-      "date": "2026-11-05T11:35:07Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
     },
     {
       "title": "Tanzania Pressures Churches to Promote Tax Policies",
