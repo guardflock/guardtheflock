@@ -1,0 +1,57 @@
+name: Notify search engines with IndexNow
+
+# Notify IndexNow only for production content changes.
+# Cloudflare Pages deploys the main branch; staging is deliberately excluded.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "*.html"
+      - "sitemap.xml"
+      - "robots.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-production
+  cancel-in-progress: false
+
+jobs:
+  submit-urls:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Submit changed public URL to IndexNow
+        env:
+          INDEXNOW_KEY: 31d54b708403b17cab38ba6d4f07d0cf
+        run: |
+          set -euo pipefail
+          KEY_FILE="31d54b708403b17cab38ba6d4f07d0cf.txt"
+          test -f "$KEY_FILE"
+          test "$(tr -d '\r\n' < "$KEY_FILE")" = "$INDEXNOW_KEY"
+
+          jq -n \
+            --arg host "guardtheflock.pages.dev" \
+            --arg key "$INDEXNOW_KEY" \
+            --arg keyLocation "https://guardtheflock.pages.dev/$KEY_FILE" \
+            --arg url "https://guardtheflock.pages.dev/" \
+            '{host:$host,key:$key,keyLocation:$keyLocation,urlList:[$url]}' \
+            > indexnow-payload.json
+
+          response_code="$(curl --silent --show-error \
+            --output indexnow-response.txt \
+            --write-out "%{http_code}" \
+            --request POST "https://api.indexnow.org/indexnow" \
+            --header "Content-Type: application/json; charset=utf-8" \
+            --data-binary @indexnow-payload.json)"
+
+          cat indexnow-response.txt
+          echo "IndexNow HTTP response: $response_code"
+          test "$response_code" = "200" || test "$response_code" = "202"
