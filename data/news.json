@@ -1,92 +1,155 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:15:36.287641Z",
+  "updatedAt": "2026-11-07T23:41:23.208258Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Spiritual Sounding Board",
     "Religion News Service",
-    "Baptist News Global",
     "Christianity Today",
-    "Surviving Church",
     "The Guardian — Religion",
+    "Baptist News Global",
+    "Spiritual Sounding Board",
     "The Wartburg Watch",
-    "National Catholic Reporter",
-    "Crux — Catholic News",
-    "Christian Headlines",
     "Christian Post",
+    "Surviving Church",
+    "National Catholic Reporter",
+    "Christian Headlines",
+    "Crux — Catholic News",
     "Channel NewsAsia",
-    "The Roys Report",
     "Straits Times",
-    "ECA Global",
-    "Abuse Tracker (Bishop Accountability)",
-    "Relevant Magazine",
+    "The Roys Report",
     "Charisma News",
-    "MinistryWatch"
+    "MinistryWatch",
+    "Relevant Magazine",
+    "Abuse Tracker (Bishop Accountability)",
+    "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Rybakina pulls out of WTA Finals due to fitness concerns",
-      "link": "https://www.channelnewsasia.com/sport/rybakina-pulls-out-wta-finals-due-fitness-concerns-6533436",
-      "date": "2026-11-07T20:02:39Z",
+      "title": "Four taken to hospital after four-vehicle crash on TPE",
+      "link": "https://www.straitstimes.com/singapore/four-taken-to-hospital-after-four-vehicle-crash-on-tpe",
+      "date": "2026-11-07T23:37:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Russell rages after aborted lap in fight for pole",
+      "link": "https://www.channelnewsasia.com/sport/russell-rages-after-aborted-lap-in-fight-pole-6533601",
+      "date": "2026-11-07T22:57:56Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Egypt part ways with coach Hassan, Maher to replace him",
-      "link": "https://www.channelnewsasia.com/sport/egypt-part-ways-coach-hassan-maher-replace-him-6533441",
-      "date": "2026-11-07T20:00:37Z",
+      "title": "High-scoring Roma move second with 3-0 win over Sassuolo",
+      "link": "https://www.channelnewsasia.com/sport/high-scoring-roma-move-second-3-0-win-over-sassuolo-6533581",
+      "date": "2026-11-07T22:26:13Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
+    },
+    {
+      "title": "Parisian delight as capital clubs head Ligue 1 standings",
+      "link": "https://www.channelnewsasia.com/sport/parisian-delight-capital-clubs-head-ligue-1-standings-6533561",
+      "date": "2026-11-07T22:11:06Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Real Madrid sweep aside Valencia to move level with Barcelona",
+      "link": "https://www.channelnewsasia.com/sport/real-madrid-sweep-aside-valencia-move-level-barcelona-6533566",
+      "date": "2026-11-07T22:11:05Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "France rout Fiji 54-17 to top Nations Championship section",
+      "link": "https://www.channelnewsasia.com/sport/france-rout-fiji-54-17-top-nations-championship-section-6533571",
+      "date": "2026-11-07T22:09:36Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Deepavali in new colours: How Singapore’s rangoli artists are adapting an old craft",
+      "link": "https://www.channelnewsasia.com/singapore/deepavali-rangoli-arts-community-culture-tradition-6530826",
+      "date": "2026-11-07T22:00:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Commentary: US allies need a plan for a lame-duck Trump",
+      "link": "https://www.channelnewsasia.com/commentary/us-midterms-lame-duck-president-trump-foreign-policy-6530601",
+      "date": "2026-11-07T22:00:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "China's 'potato capital' cultivates new crop of data centres as AI boom takes root",
+      "link": "https://www.channelnewsasia.com/east-asia/china-ai-data-centre-boom-inner-mongolia-6526706",
+      "date": "2026-11-07T22:00:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Belarus sentences Catholic priest to 3 years after he opposed Ukraine war",
+      "link": "https://www.ncronline.org/news/belarus-sentences-catholic-priest-3-years-after-he-opposed-ukraine-war",
+      "date": "2026-11-07T21:31:43Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Australia should deepen ties with Asia to give itself more room to pursue its interests: SM Lee",
+      "link": "https://www.straitstimes.com/singapore/australia-should-deepen-ties-with-asia-to-give-itself-more-room-to-pursue-its-interests-sm-lee",
+      "date": "2026-11-07T21:30:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Bear Grylls reflects on Russell Brand’s Christian conversion: ‘It's our calling to love, serve'",
+      "link": "https://www.christianpost.com/news/bear-grylls-reflects-on-russell-brands-christian-conversion.html",
+      "date": "2026-11-07T21:27:47Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Domestic workers helped raise our children. Who helps them care for our parents?",
+      "link": "https://www.straitstimes.com/singapore/domestic-workers-helped-raise-our-children-who-helps-them-care-for-our-parents",
+      "date": "2026-11-07T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Gambling site GemBet hires money mules in S'pore to issue fake invoices as cover for illegal bets",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/gambling-site-gembet-hires-money-mules-in-spore-to-issue-fake-invoices-as-cover-for-illegal-bets",
+      "date": "2026-11-07T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "NUS launches professorship in breast cancer genomics, named after late patient",
+      "link": "https://www.straitstimes.com/singapore/health/nus-launches-professorship-in-breast-cancer-genomics-named-after-late-patient",
+      "date": "2026-11-07T21:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Captain Picard Was Wrong About AI Personhood",
+      "link": "https://religionnews.com/2026/11/07/captain-picard-was-wrong-about-ai-personhood/",
+      "date": "2026-11-07T20:39:16Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "In Uruguay, Pope Leo XIV greets Latin America’s most secular country",
+      "link": "https://religionnews.com/2026/11/07/in-uruguay-pope-leo-xiv-greets-latin-americas-most-secular-country/",
+      "date": "2026-11-07T20:17:04Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
     },
     {
       "title": "‘What comes after?’ Father on planning ahead for sons with disabilities",
       "link": "https://www.straitstimes.com/singapore/what-comes-after-father-on-planning-ahead-for-sons-with-disabilities",
       "date": "2026-11-07T20:00:00Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Sao Paulo qualifying delayed as heavy rain hits Interlagos",
-      "link": "https://www.channelnewsasia.com/sport/sao-paulo-qualifying-delayed-heavy-rain-hits-interlagos-6533421",
-      "date": "2026-11-07T19:27:22Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Iran says forces 'stronger' than at beginning of war",
-      "link": "https://www.channelnewsasia.com/world/iran-says-forces-stronger-beginning-war-6533381",
-      "date": "2026-11-07T19:20:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Trump says he wants UFC chief Dana White for White House press secretary",
-      "link": "https://www.channelnewsasia.com/sport/trump-says-he-wants-ufc-chief-dana-white-white-house-press-secretary-6533411",
-      "date": "2026-11-07T19:13:02Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Too close for comfort for Arteta despite Arsenal's fifth win in a row",
-      "link": "https://www.channelnewsasia.com/sport/too-close-comfort-arteta-despite-arsenals-fifth-win-in-row-6533416",
-      "date": "2026-11-07T19:09:58Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Tesla to add Cybertruck shift to clear orders before dismantling line next year",
-      "link": "https://www.channelnewsasia.com/business/tesla-add-cybertruck-shift-clear-orders-dismantling-line-next-year-6533391",
-      "date": "2026-11-07T18:38:20Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Adams double lifts lacklustre Wales to 28-21 win over Japan",
-      "link": "https://www.channelnewsasia.com/sport/adams-double-lifts-lacklustre-wales-28-21-win-over-japan-6533386",
-      "date": "2026-11-07T18:33:06Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -279,13 +342,6 @@
       "cat": "asia"
     },
     {
-      "title": "Union condemns abuse towards public transport workers after passenger allegedly threatens bus driver",
-      "link": "https://www.straitstimes.com/singapore/union-condemns-abuse-towards-public-transport-workers-after-commuter-allegedly-threatens-bus-driver",
-      "date": "2026-11-07T10:38:49Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "She almost became a nun. Now her voice fills the Metropolitan Opera.",
       "link": "https://www.ncronline.org/culture/she-almost-became-nun-now-her-voice-fills-metropolitan-opera",
       "date": "2026-11-07T09:00:00Z",
@@ -305,34 +361,6 @@
       "date": "2026-11-07T09:00:00Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "Hashtag launched for commuters to share appreciation for public transport workers",
-      "link": "https://www.straitstimes.com/singapore/transport/hashtag-launched-for-commuters-to-share-appreciation-for-public-transport-workers",
-      "date": "2026-11-07T07:06:11Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Two elderly drivers, one passenger taken to hospital after cars skid in separate accidents",
-      "link": "https://www.straitstimes.com/singapore/elderly-driver-passenger-taken-to-hospital-after-car-crashes-into-bus-stop-bollard-in-katong",
-      "date": "2026-11-07T04:15:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "‘My family should not have to leave’: New shelter aims to help S’pore men in crisis",
-      "link": "https://www.straitstimes.com/singapore/community/my-family-should-not-have-to-leave-new-shelter-aims-to-help-spore-men-in-crisis",
-      "date": "2026-11-07T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Former senior parliamentary secretary Lee Yiok Seng, who was behind housing efforts, dies at 87",
-      "link": "https://www.straitstimes.com/singapore/politics/former-senior-parliamentary-secretary-lee-yiok-seng-who-was-behind-housing-efforts-dies-at-87",
-      "date": "2026-11-07T03:49:25Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Pope Leo XIV arrives in Uruguay at start of South American tour less than a month after lung surgery",
@@ -391,13 +419,6 @@
       "cat": "catholic"
     },
     {
-      "title": "Church dismantles homeless encampment after city threatens fines",
-      "link": "https://www.christianpost.com/news/church-dismantles-homeless-encampment-after-city-threatens-fines.html",
-      "date": "2026-11-06T22:26:00Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Russell Brand, convicted of rape, told us who he was. Why didn’t Christian leaders listen?",
       "link": "https://religionnews.com/2026/11/06/russell-brand-convicted-of-rape-told-us-who-he-was-why-didnt-christian-leaders-listen/",
       "date": "2026-11-06T22:24:41Z",
@@ -436,20 +457,6 @@
       "title": "Gov. Shapiro calls Philadelphia bike ride protest targeting Jewish-owned businesses ‘blatant antisemitism’",
       "link": "https://religionnews.com/2026/11/06/pennsylvania-leaders-condemn-bike-boycott-of-philadelphias-jewish-owned-restaurants/",
       "date": "2026-11-06T20:35:21Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Rabbis who came to help Palestinians pick olives say they found a community under siege",
-      "link": "https://religionnews.com/2026/11/06/these-rabbis-came-to-help-palestinians-pick-olives-they-found-a-community-under-siege/",
-      "date": "2026-11-06T20:00:57Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Thousands of students, many Jewish, are joining the Young DSA on campuses across the country. Here’s why.",
-      "link": "https://religionnews.com/2026/11/06/thousands-of-students-many-jewish-are-joining-the-young-dsa-on-campuses-across-the-country-heres-why/",
-      "date": "2026-11-06T20:00:18Z",
       "source": "Religion News Service",
       "cat": "mainstreamreligion"
     },
@@ -503,18 +510,18 @@
       "cat": "evangelical"
     },
     {
-      "title": "Pope ‘proud to be an American’ after US elections, and credits God and doctors with cancer rebound",
-      "link": "https://cruxnow.com/ap/2026/11/pope-proud-to-be-an-american-after-us-elections-and-credits-god-and-doctors-with-cancer-rebound/",
-      "date": "2026-11-06T18:00:00Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
       "title": "A Bright Spot for Conservatives on Election Night: Major Wins on Girls' Sports and Voter ID",
       "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/a-bright-spot-for-conservatives-on-election-night-major-wins-on-girls-sports-and-voter-id.html",
       "date": "2026-11-06T18:00:00Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
+    },
+    {
+      "title": "Pope ‘proud to be an American’ after US elections, and credits God and doctors with cancer rebound",
+      "link": "https://cruxnow.com/ap/2026/11/pope-proud-to-be-an-american-after-us-elections-and-credits-god-and-doctors-with-cancer-rebound/",
+      "date": "2026-11-06T18:00:00Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
     },
     {
       "title": "Democrats must do things differently this time",
@@ -529,13 +536,6 @@
       "date": "2026-11-06T17:31:21Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Faith leaders resist despair as UN summit shows slow progress on conservation goals",
-      "link": "https://www.ncronline.org/news/faith-leaders-resist-despair-un-summit-shows-slow-progress-conservation-goals",
-      "date": "2026-11-06T17:24:39Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "The color of power: What are we fighting to preserve?",
