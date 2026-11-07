@@ -13,7 +13,7 @@
 <!-- End cookieyes banner -->
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FK028TKV57"></script>
+<script async data-cookieyes="cookieyes-analytics" src="https://www.googletagmanager.com/gtag/js?id=G-FK028TKV57"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -21,8 +21,8 @@
   gtag('config', 'G-FK028TKV57');
 </script>
 
-<!-- Microsoft Clarity -->
-<script>
+<!-- Microsoft Clarity: load only after analytics consent -->
+<script data-cookieyes="cookieyes-analytics">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
@@ -3035,7 +3035,7 @@ footer {
   </section>
 
   <!-- ── Tab: Contact ─────────────────────────────────────────────────────── -->
-  <section id="tab-contact" class="section" role="tabpanel" aria-label="Contact Guard the Flock">
+  <section id="tab-contact" class="section" role="tabpanel" aria-label="Contact Guard the Flock" data-clarity-mask="True">
     <div id="contact-top" class="faq-standalone">
     <p class="eyebrow">Correspondence</p>
     <h2>Contact Guard the Flock</h2>
@@ -3380,6 +3380,6 @@ footer {
   })();
 </script>
 <script src="phase1-ux.js"></script>
-<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0a4075241ec14b4eba273d1cd1a8001b"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Cloudflare Web Analytics --><script type='module' data-cookieyes="cookieyes-performance" src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0a4075241ec14b4eba273d1cd1a8001b"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
