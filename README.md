@@ -38,6 +38,10 @@ This site is educational material, not a complaints platform. It does **not** op
 
 The separate **Latest News** section is an automated headline-discovery feed. It is not a case database or an endorsement of the linked stories. The GitHub Actions workflow runs scripts/update_news.py every four hours, at 17 minutes past each fourth UTC hour, and when the workflow or script changes are pushed to main. The script reads public publisher RSS/Atom feeds and writes a static snapshot to data/news.json; the website loads that JSON file rather than requesting RSS feeds directly from each visitor's browser. Headlines link to publishers' original articles and are not independently verified case records. Feed availability and relevance can vary, so check the original publisher's report and use editorial judgement before adding a story to Documented Cases. Preview branches may show their committed snapshot without independently refreshing it.
 
+## IndexNow notifications
+
+The production site uses [IndexNow](https://www.indexnow.org/documentation) to notify participating search engines when the public homepage is updated. The verification key is hosted at [31d54b708403b17cab38ba6d4f07d0cf.txt](https://guardtheflock.pages.dev/31d54b708403b17cab38ba6d4f07d0cf.txt). The `.github/workflows/indexnow.yml` workflow submits the canonical homepage URL to `https://api.indexnow.org/indexnow` after relevant changes are pushed to `main`, or when manually dispatched from `main`. It deliberately does not submit preview/staging URLs. A successful HTTP 200 or 202 response means the URL was received; it does not guarantee indexing or ranking.
+
 ## Development and deployment
 
 The site is a static website published at [guardtheflock.pages.dev](https://guardtheflock.pages.dev/) using **Cloudflare Pages**. The source is maintained in the private GitHub repository `guardflock/guardtheflock`; the public website is served separately by Cloudflare Pages.
