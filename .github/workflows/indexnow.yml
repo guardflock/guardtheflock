@@ -10,6 +10,7 @@ on:
       - "*.html"
       - "sitemap.xml"
       - "robots.txt"
+      - ".github/workflows/indexnow.yml"
   workflow_dispatch:
 
 permissions:
