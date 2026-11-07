@@ -37,6 +37,21 @@ jobs:
           KEY_FILE="31d54b708403b17cab38ba6d4f07d0cf.txt"
           test -f "$KEY_FILE"
           test "$(tr -d '\r\n' < "$KEY_FILE")" = "$INDEXNOW_KEY"
+          KEY_URL="https://guardtheflock.pages.dev/$KEY_FILE"
+          echo "Waiting for Cloudflare Pages to publish the verification file..."
+          for attempt in $(seq 1 12); do
+            remote_key="$(curl --fail --silent --show-error "$KEY_URL" 2>/dev/null | tr -d '\r\n' || true)"
+            if [ "$remote_key" = "$INDEXNOW_KEY" ]; then
+              echo "Verification file is publicly accessible."
+              break
+            fi
+            if [ "$attempt" -eq 12 ]; then
+              echo "Verification file is not available or does not match after 2 minutes."
+              exit 1
+            fi
+            sleep 10
+          done
+
 
           jq -n \
             --arg host "guardtheflock.pages.dev" \
