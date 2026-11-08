@@ -1,92 +1,176 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T23:41:23.208258Z",
+  "updatedAt": "2026-11-08T06:08:30.374281Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Religion News Service",
-    "Christianity Today",
-    "The Guardian — Religion",
-    "Baptist News Global",
     "Spiritual Sounding Board",
-    "The Wartburg Watch",
-    "Christian Post",
-    "Surviving Church",
-    "National Catholic Reporter",
+    "Christianity Today",
+    "Religion News Service",
+    "Baptist News Global",
     "Christian Headlines",
+    "The Wartburg Watch",
+    "The Guardian — Religion",
     "Crux — Catholic News",
+    "National Catholic Reporter",
+    "Christian Post",
     "Channel NewsAsia",
+    "Surviving Church",
     "Straits Times",
     "The Roys Report",
     "Charisma News",
-    "MinistryWatch",
     "Relevant Magazine",
     "Abuse Tracker (Bishop Accountability)",
+    "MinistryWatch",
     "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Four taken to hospital after four-vehicle crash on TPE",
-      "link": "https://www.straitstimes.com/singapore/four-taken-to-hospital-after-four-vehicle-crash-on-tpe",
-      "date": "2026-11-07T23:37:00Z",
+      "title": "Trump’s Fraud Whistleblower Program reveals a Christian problem",
+      "link": "https://www.christianpost.com/voices/trumps-fraud-whistleblower-program-reveals-a-christian-problem.html",
+      "date": "2026-11-08T05:09:50Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Nigeria’s Christian persecution need more than one day of prayer a year",
+      "link": "https://www.christianpost.com/voices/nigerias-christian-persecution-need-more-than-one-day-of-prayer.html",
+      "date": "2026-11-08T05:08:43Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "The Democrats’ real civil war starts now",
+      "link": "https://www.christianpost.com/voices/the-democrats-real-civil-war-starts-now.html",
+      "date": "2026-11-08T05:05:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "West Virginia Supreme Court blocks lawsuit by 33 churches seeking to leave UMC",
+      "link": "https://www.christianpost.com/news/wv-court-blocks-suit-by-33-churches-seeking-to-leave-the-umc.html",
+      "date": "2026-11-08T05:03:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Khawaja denies throwing 'anyone under the bus' with comments about ball-tampering scandal",
+      "link": "https://www.channelnewsasia.com/sport/khawaja-denies-throwing-anyone-under-bus-comments-about-ball-tampering-scandal-6533946",
+      "date": "2026-11-08T05:01:35Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "New Zealand pair could miss Wales clash after injuries",
+      "link": "https://www.channelnewsasia.com/sport/new-zealand-pair-could-miss-wales-clash-after-injuries-6533916",
+      "date": "2026-11-08T04:46:21Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Old trades, new cafes: Can Jalan Besar keep its charm?",
+      "link": "https://www.straitstimes.com/singapore/old-trades-new-cafes-can-jalan-besar-keep-its-charm",
+      "date": "2026-11-08T04:00:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
     {
-      "title": "Russell rages after aborted lap in fight for pole",
-      "link": "https://www.channelnewsasia.com/sport/russell-rages-after-aborted-lap-in-fight-pole-6533601",
-      "date": "2026-11-07T22:57:56Z",
+      "title": "School Spotlight: Students gain confidence and find purpose at NorthLight School",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/school-spotlight-students-gain-confidence-and-find-purpose-at-northlight-school",
+      "date": "2026-11-08T03:45:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Magnitude 5.7 quake injures dozens in central Japan",
+      "link": "https://www.channelnewsasia.com/east-asia/japan-magnitude-57-earthquake-injures-dozens-6533811",
+      "date": "2026-11-08T03:44:50Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "High-scoring Roma move second with 3-0 win over Sassuolo",
-      "link": "https://www.channelnewsasia.com/sport/high-scoring-roma-move-second-3-0-win-over-sassuolo-6533581",
-      "date": "2026-11-07T22:26:13Z",
+      "title": "'Feeling guilty': Price hikes a tough sell in Japan despite inflation",
+      "link": "https://www.channelnewsasia.com/east-asia/japan-inflation-price-hikes-uniqlo-saizeriya-6533786",
+      "date": "2026-11-08T03:33:28Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Parisian delight as capital clubs head Ligue 1 standings",
-      "link": "https://www.channelnewsasia.com/sport/parisian-delight-capital-clubs-head-ligue-1-standings-6533561",
-      "date": "2026-11-07T22:11:06Z",
+      "title": "What fatherhood looks like when you are dying of cancer",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/what-fatherhood-looks-like-when-you-are-dying-of-cancer",
+      "date": "2026-11-08T03:27:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "New Zealand poised for weeks of political wrangling after knife-edge poll",
+      "link": "https://www.channelnewsasia.com/world/new-zealand-political-wrangling-knife-edge-poll-pm-luxon-6533761",
+      "date": "2026-11-08T03:24:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Real Madrid sweep aside Valencia to move level with Barcelona",
-      "link": "https://www.channelnewsasia.com/sport/real-madrid-sweep-aside-valencia-move-level-barcelona-6533566",
-      "date": "2026-11-07T22:11:05Z",
+      "title": "Messi becomes first to win MLS Golden Boot in consecutive seasons",
+      "link": "https://www.channelnewsasia.com/sport/messi-becomes-first-win-mls-golden-boot-in-consecutive-seasons-6533736",
+      "date": "2026-11-08T03:05:53Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "France rout Fiji 54-17 to top Nations Championship section",
-      "link": "https://www.channelnewsasia.com/sport/france-rout-fiji-54-17-top-nations-championship-section-6533571",
-      "date": "2026-11-07T22:09:36Z",
+      "title": "Jokic wins over Mexico City as Nuggets hold off Pacers",
+      "link": "https://www.channelnewsasia.com/sport/jokic-wins-over-mexico-city-nuggets-hold-pacers-6533721",
+      "date": "2026-11-08T02:19:48Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Deepavali in new colours: How Singapore’s rangoli artists are adapting an old craft",
-      "link": "https://www.channelnewsasia.com/singapore/deepavali-rangoli-arts-community-culture-tradition-6530826",
-      "date": "2026-11-07T22:00:00Z",
+      "title": "195 arrested for vice-related activities in islandwide raids",
+      "link": "https://www.straitstimes.com/singapore/195-arrested-for-vice-related-activities-in-islandwide-raids",
+      "date": "2026-11-08T02:15:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Pokemon-themed fun at Changi Airport and Jewel; The Little Players’ puppetry show on bullying",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/pokemon-themed-fun-at-changi-airport-and-jewel-the-little-players-puppetry-show-on-bullying",
+      "date": "2026-11-08T02:03:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Paving way to surprise coalition? Liberman announces support for gov’t with ultra-Orthodox party, Eisenkot bloc",
+      "link": "https://www.christianpost.com/news/liberman-announces-support-for-govt-with-ultra-orthodox-party.html",
+      "date": "2026-11-08T01:50:51Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Israel president taps Eisenkot to form new government",
+      "link": "https://www.channelnewsasia.com/world/israel-president-taps-eisenkot-form-new-government-6533711",
+      "date": "2026-11-08T01:30:00Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
-      "title": "Commentary: US allies need a plan for a lame-duck Trump",
-      "link": "https://www.channelnewsasia.com/commentary/us-midterms-lame-duck-president-trump-foreign-policy-6530601",
-      "date": "2026-11-07T22:00:00Z",
-      "source": "Channel NewsAsia",
+      "title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+      "link": "https://www.straitstimes.com/singapore/old-school-snacks-shop-biscuit-king-in-casuarina-road-to-close-by-end-of-january",
+      "date": "2026-11-08T01:25:00Z",
+      "source": "Straits Times",
       "cat": "asia"
     },
     {
-      "title": "China's 'potato capital' cultivates new crop of data centres as AI boom takes root",
-      "link": "https://www.channelnewsasia.com/east-asia/china-ai-data-centre-boom-inner-mongolia-6526706",
-      "date": "2026-11-07T22:00:00Z",
-      "source": "Channel NewsAsia",
+      "title": "Here’s who’s behind the next Capitol insurrection",
+      "link": "https://baptistnews.com/article/heres-whos-behind-the-next-capitol-insurrection/",
+      "date": "2026-11-08T01:21:06Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Four taken to hospital after four-vehicle crash on TPE",
+      "link": "https://www.straitstimes.com/singapore/four-taken-to-hospital-after-four-vehicle-crash-on-tpe",
+      "date": "2026-11-07T23:37:00Z",
+      "source": "Straits Times",
       "cat": "asia"
     },
     {
@@ -111,27 +195,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Domestic workers helped raise our children. Who helps them care for our parents?",
-      "link": "https://www.straitstimes.com/singapore/domestic-workers-helped-raise-our-children-who-helps-them-care-for-our-parents",
-      "date": "2026-11-07T21:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Gambling site GemBet hires money mules in S'pore to issue fake invoices as cover for illegal bets",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/gambling-site-gembet-hires-money-mules-in-spore-to-issue-fake-invoices-as-cover-for-illegal-bets",
-      "date": "2026-11-07T21:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "NUS launches professorship in breast cancer genomics, named after late patient",
-      "link": "https://www.straitstimes.com/singapore/health/nus-launches-professorship-in-breast-cancer-genomics-named-after-late-patient",
-      "date": "2026-11-07T21:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Captain Picard Was Wrong About AI Personhood",
       "link": "https://religionnews.com/2026/11/07/captain-picard-was-wrong-about-ai-personhood/",
       "date": "2026-11-07T20:39:16Z",
@@ -144,13 +207,6 @@
       "date": "2026-11-07T20:17:04Z",
       "source": "Religion News Service",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "‘What comes after?’ Father on planning ahead for sons with disabilities",
-      "link": "https://www.straitstimes.com/singapore/what-comes-after-father-on-planning-ahead-for-sons-with-disabilities",
-      "date": "2026-11-07T20:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "With ode to mate tea, Pope Leo urges faithful in Uruguay to build bridges of fraternity and faith",
@@ -251,13 +307,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "KJ Apa, 'Jimmy' cast reveal how Jimmy Stewart's faith sustained him through war, suffering",
-      "link": "https://www.christianpost.com/news/kj-apa-jimmy-cast-on-how-jimmy-stewarts-faith-sustained-him.html",
-      "date": "2026-11-07T13:40:02Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Israel Responds After News of Impending Aid Cut",
       "link": "https://mycharisma.com/news/israel-responds-after-news-of-impending-aid-cut/",
       "date": "2026-11-07T13:30:00Z",
@@ -279,39 +328,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "The life lesson Christopher McDonald learned from 'It’s a Wonderful Life'",
-      "link": "https://www.christianpost.com/video/the-life-lesson-christopher-mcdonald-learned-from-jimmy-stewart.html",
-      "date": "2026-11-07T12:23:06Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "West Hollywood’s throuple law shows where the culture is headed",
-      "link": "https://www.christianpost.com/voices/west-hollywoods-throuple-law-shows-where-the-culture-is-headed.html",
-      "date": "2026-11-07T12:14:34Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Israel took a beating in the US midterms | Judith Levine",
       "link": "https://www.theguardian.com/commentisfree/2026/nov/07/midterms-israel-criticism",
       "date": "2026-11-07T12:00:11Z",
       "source": "The Guardian — Religion",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "Why conservatives won’t simply outbreed the Left",
-      "link": "https://www.christianpost.com/voices/why-conservatives-wont-simply-outbreed-the-left.html",
-      "date": "2026-11-07T11:56:34Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Residents flock to Bishan marketplace for near-expiry and imperfect food at discounted prices",
-      "link": "https://www.straitstimes.com/singapore/community/residents-flock-to-bishan-marketplace-for-near-expiry-and-imperfect-food-at-discounted-prices",
-      "date": "2026-11-07T11:35:07Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Democratic Lawmaker Arrested Less Than 24 Hours After Being Reelected",
@@ -326,20 +347,6 @@
       "date": "2026-11-07T11:00:00Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "'God is still on the throne' has become a Christian cop-out",
-      "link": "https://www.christianpost.com/voices/god-is-still-on-the-throne-has-become-a-christian-cop-out.html",
-      "date": "2026-11-07T10:54:31Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Jamiyah Home for the Aged in Tampines updates facilities and training to meet dementia challenge",
-      "link": "https://www.straitstimes.com/singapore/jamiyah-home-for-the-aged-in-tampines-updates-facilities-and-training-to-meet-dementia-challenge",
-      "date": "2026-11-07T10:51:46Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "She almost became a nun. Now her voice fills the Metropolitan Opera.",
@@ -590,13 +597,6 @@
       "title": "This Comedian Had The Perfect Response To An Antisemitic Heckler",
       "link": "https://baptistnews.com/article/this-comedian-had-the-perfect-response-to-an-antisemitic-heckler/",
       "date": "2026-11-06T16:00:02Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "American Jews remain solidly in support of Democrats",
-      "link": "https://baptistnews.com/article/american-jews-remain-solidly-in-support-of-democrats/",
-      "date": "2026-11-06T15:58:35Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
     },
