@@ -1,37 +1,170 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:17:21.293718Z",
+  "updatedAt": "2026-11-08T20:30:21.972911Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Religion News Service",
     "Christianity Today",
+    "Religion News Service",
     "Spiritual Sounding Board",
     "Baptist News Global",
-    "The Guardian — Religion",
     "The Wartburg Watch",
-    "National Catholic Reporter",
+    "The Guardian — Religion",
     "Christian Post",
     "Christian Headlines",
     "Crux — Catholic News",
-    "Channel NewsAsia",
     "The Roys Report",
-    "ECA Global",
-    "Surviving Church",
+    "National Catholic Reporter",
     "Straits Times",
+    "Channel NewsAsia",
     "Charisma News",
     "MinistryWatch",
     "Relevant Magazine",
-    "Abuse Tracker (Bishop Accountability)"
+    "Abuse Tracker (Bishop Accountability)",
+    "Surviving Church",
+    "ECA Global"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "Nvidia launches probe after report CEO Huang was target of foreign intelligence",
+      "link": "https://www.channelnewsasia.com/business/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-6534611",
+      "date": "2026-11-08T20:16:06Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Three weeks apart, two festivals of small lights",
+      "link": "https://baptistnews.com/article/three-weeks-apart-two-festivals-of-small-lights/",
+      "date": "2026-11-08T20:15:53Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Mercedes complete F1 title double in Brazil",
+      "link": "https://www.channelnewsasia.com/sport/mercedes-complete-f1-title-double-in-brazil-6534606",
+      "date": "2026-11-08T20:06:16Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "How music is her way of helping seniors find connection, purpose and strength",
+      "link": "https://www.straitstimes.com/singapore/jobs/music-therapist-help-seniors-find-connection-purpose-strength-aic",
+      "date": "2026-11-08T20:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Leaders Lazio held by Napoli as Inter move within a point at the top",
+      "link": "https://www.channelnewsasia.com/sport/leaders-lazio-held-napoli-inter-move-within-point-top-6534581",
+      "date": "2026-11-08T19:49:33Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Train collision in Egypt kills at least 7, injures dozens, health ministry says",
+      "link": "https://www.channelnewsasia.com/world/train-collision-in-egypt-kills-least-7-injures-dozens-health-ministry-says-6534371",
+      "date": "2026-11-08T19:47:49Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Pressure still on Man United boss Carrick despite dramatic Villa draw",
+      "link": "https://www.channelnewsasia.com/sport/pressure-still-man-united-boss-carrick-despite-dramatic-villa-draw-6534576",
+      "date": "2026-11-08T19:46:29Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Pollock reckons playing on the wing is easy, says Borthwick",
+      "link": "https://www.channelnewsasia.com/sport/pollock-reckons-playing-wing-easy-says-borthwick-6534556",
+      "date": "2026-11-08T18:58:55Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Norris wins in Brazil as Mercedes take constructors' title",
+      "link": "https://www.channelnewsasia.com/sport/norris-wins-in-brazil-mercedes-take-constructors-title-6534546",
+      "date": "2026-11-08T18:51:37Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Poland in shock as mass shooting shatters sense of security",
+      "link": "https://www.channelnewsasia.com/world/poland-in-shock-mass-shooting-shatters-sense-security-6534516",
+      "date": "2026-11-08T18:08:07Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Catholic priest pleads guilty to sex offense at Baltimore Gilman School",
+      "link": "https://www.bishop-accountability.org/2026/11/catholic-priest-pleads-guilty-to-sex-offense-at-baltimore-gilman-school/",
+      "date": "2026-11-08T16:53:47Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Archdiocese of New York Finalizes $800 Million Sex Abuse Settlement",
+      "link": "https://www.bishop-accountability.org/2026/11/archdiocese-of-new-york-finalizes/",
+      "date": "2026-11-08T16:48:10Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Archdiocese Finalizes $804.3 Million Sex Abuse Settlement",
+      "link": "https://www.bishop-accountability.org/2026/11/archdiocese-finalizes-804-3-million-sex-abuse-settlement/",
+      "date": "2026-11-08T16:42:35Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Archdiocese of New Orleans releases another list of priests and clergy credibly accused of sex abuse",
+      "link": "https://www.bishop-accountability.org/2026/11/archdiocese-of-new-orleans-releases/",
+      "date": "2026-11-08T16:36:26Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "Democrats get a religious win. Will they grab hold of it?",
+      "link": "https://cruxnow.com/news-analysis/2026/11/democrats-get-a-religious-win-will-they-grab-hold-of-it/",
+      "date": "2026-11-08T16:07:32Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "Letter Regarding Clergy Abuse Updates",
+      "link": "https://www.bishop-accountability.org/2026/11/letter-regarding-clergy-abuse/",
+      "date": "2026-11-08T16:06:58Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "27 priests added to New Orleans Archdiocese’s list of clergy accused of abuse",
+      "link": "https://www.bishop-accountability.org/2026/11/27-priests-added-to-new-orleans-archdioceses-list-of-clergy-accused-of-abuse/",
+      "date": "2026-11-08T15:39:07Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability"
+    },
+    {
+      "title": "2 men arrested after fight at Chinatown; police looking for third person involved",
+      "link": "https://www.straitstimes.com/singapore/2-men-arrested-after-fight-at-chinatown-police-looking-for-third-person-involved",
+      "date": "2026-11-08T15:25:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
     {
       "title": "Missing: Man last seen near Yishun Ave 2 on Nov 8",
       "link": "https://www.straitstimes.com/singapore/missing-man-last-seen-near-yishun-ave-2-on-nov-8",
       "date": "2026-11-08T15:05:10Z",
       "source": "Straits Times",
       "cat": "asia"
+    },
+    {
+      "title": "Pastors react after Calvary Chapel Costa Mesa says it ordains women pastors",
+      "link": "https://www.christianpost.com/news/pastors-react-to-calvary-chapel-costa-mesas-ordination-of-women.html",
+      "date": "2026-11-08T15:04:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
     },
     {
       "title": "Pope wraps up Uruguay visit and heads to most fraught stop of his tour in Milei’s Argentina",
@@ -41,20 +174,6 @@
       "cat": "catholic"
     },
     {
-      "title": "Rahm marks DP World Tour return with victory in Abu Dhabi",
-      "link": "https://www.channelnewsasia.com/sport/rahm-marks-dp-world-tour-return-victory-in-abu-dhabi-6534311",
-      "date": "2026-11-08T13:54:16Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Bayern keeper Neuer suffers partial foot tendon tear",
-      "link": "https://www.channelnewsasia.com/sport/bayern-keeper-neuer-suffers-partial-foot-tendon-tear-6534301",
-      "date": "2026-11-08T13:44:47Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "This week in Christian history: Mount Holyoke Female Seminary founded; Amy Carmichael arrives in India",
       "link": "https://www.christianpost.com/news/this-week-in-christian-history-mount-holyoke-seminary-founded.html",
       "date": "2026-11-08T13:27:00Z",
@@ -62,31 +181,10 @@
       "cat": "evangelical"
     },
     {
-      "title": "Europe will be represented at US-mediated Ukraine talks in Abu Dhabi: France",
-      "link": "https://www.channelnewsasia.com/world/europe-us-mediated-ukraine-russia-talks-abu-dhabi-6534261",
-      "date": "2026-11-08T13:13:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Anthropic secures $3.4 billion generator deal for AI data centers, FT reports",
-      "link": "https://www.channelnewsasia.com/business/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-6534256",
-      "date": "2026-11-08T12:53:57Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "ComfortDelGro to stop U-turn testing for AVs at Punggol junction after near miss; LTA investigating",
       "link": "https://www.straitstimes.com/singapore/comfortdelgro-to-stop-u-turn-testing-for-avs-at-punggol-junction-after-near-miss-lta-investigating",
       "date": "2026-11-08T12:15:00Z",
       "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "US launches task force to disrupt land transit routes into Iran",
-      "link": "https://www.channelnewsasia.com/world/us-task-force-land-transit-routes-iran-6534181",
-      "date": "2026-11-08T12:13:33Z",
-      "source": "Channel NewsAsia",
       "cat": "asia"
     },
     {
@@ -102,27 +200,6 @@
       "date": "2026-11-08T12:00:00Z",
       "source": "Charisma News",
       "cat": "evangelical"
-    },
-    {
-      "title": "Philippines rebukes officials over public comments about China",
-      "link": "https://www.channelnewsasia.com/asia/philippines-china-rebukes-public-comments-6534176",
-      "date": "2026-11-08T11:46:43Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Rugby league-Australia thrash Samoa to set up World Cup final against NZ",
-      "link": "https://www.channelnewsasia.com/sport/rugby-league-australia-thrash-samoa-set-up-world-cup-final-against-nz-6534171",
-      "date": "2026-11-08T11:29:28Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Japan's Tashima rates FIFA election chances at 20%-30% in challenge to Infantino",
-      "link": "https://www.channelnewsasia.com/sport/japans-tashima-rates-fifa-election-chances-20-30-in-challenge-infantino-6534166",
-      "date": "2026-11-08T11:26:10Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Haze in 2026 estimated to cost Singapore $2.32 billion, up 4% from 2015: Experts",
@@ -195,20 +272,6 @@
       "cat": "asia"
     },
     {
-      "title": "What fatherhood looks like when you are dying of cancer",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/what-fatherhood-looks-like-when-you-are-dying-of-cancer",
-      "date": "2026-11-08T03:27:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "195 arrested for vice-related activities in islandwide raids",
-      "link": "https://www.straitstimes.com/singapore/195-arrested-for-vice-related-activities-in-islandwide-raids",
-      "date": "2026-11-08T02:15:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Paving way to surprise coalition? Liberman announces support for gov’t with ultra-Orthodox party, Eisenkot bloc",
       "link": "https://www.christianpost.com/news/liberman-announces-support-for-govt-with-ultra-orthodox-party.html",
       "date": "2026-11-08T01:50:51Z",
@@ -258,13 +321,6 @@
       "cat": "catholic"
     },
     {
-      "title": "Pastor celebrates removal of 'Rocky Horror' photos featuring scantily clad students on church steps",
-      "link": "https://www.christianpost.com/news/pastor-celebrates-removal-of-rocky-horror-photos-on-church-steps.html",
-      "date": "2026-11-07T16:35:15Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
-    },
-    {
       "title": "Pope urges faithful in Uruguay to build bridges of fraternity and faith",
       "link": "https://cruxnow.com/2026_pope_in_south_america/2026/11/pope-south-latin-america/",
       "date": "2026-11-07T15:22:44Z",
@@ -296,48 +352,6 @@
       "title": "New Orleans Catholic Church adds 27 priests to list of credibly accused in sex abuse scandal",
       "link": "https://www.bishop-accountability.org/2026/11/new-orleans-catholic-church-adds-27-priests-to-list-of-credibly-accused-in-sex-abuse-scandal/",
       "date": "2026-11-07T14:40:43Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Archdiocese of New Orleans releases updated report on clergy abuse, list of names of credibly accused",
-      "link": "https://www.bishop-accountability.org/2026/11/archdiocese-of-new-orleans-releases-updated-report-on-clergy-abuse-list-of-names-of-credibly-accused/",
-      "date": "2026-11-07T14:37:04Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "FSSP mum on Jackson laicization",
-      "link": "https://www.bishop-accountability.org/2026/11/fssp-mum-on-jackson-laicization/",
-      "date": "2026-11-07T14:35:09Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Catholic priest pleads guilty to 1970s sexual assault of Baltimore boy",
-      "link": "https://www.bishop-accountability.org/2026/11/catholic-priest-pleads-guilty-to-1970s-sexual-assault-of-baltimore-boy/",
-      "date": "2026-11-07T14:31:04Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Former Annandale Catholic School Substitute Teacher Sentenced In Child Sex Abuse Case",
-      "link": "https://www.bishop-accountability.org/2026/11/former-annandale-catholic-school-substitute-teacher-sentenced-in-child-sex-abuse-case/",
-      "date": "2026-11-07T14:29:34Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Leader of Kenyan doomsday cult sentenced to 200 years in prison",
-      "link": "https://www.bishop-accountability.org/2026/11/leader-of-kenyan-doomsday-cult-sentenced-to-200-years-in-prison/",
-      "date": "2026-11-07T14:23:26Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability"
-    },
-    {
-      "title": "Warren Perry released, charges against Pawleys Island church employees dismissed",
-      "link": "https://www.bishop-accountability.org/2026/11/warren-perry-released-charges-against-pawleys-island-church-employees-dismissed/",
-      "date": "2026-11-07T14:18:33Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
     },
@@ -545,13 +559,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Pope ‘proud to be an American’ after US elections, and credits God and doctors with cancer rebound",
-      "link": "https://cruxnow.com/ap/2026/11/pope-proud-to-be-an-american-after-us-elections-and-credits-god-and-doctors-with-cancer-rebound/",
-      "date": "2026-11-06T18:00:00Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
       "title": "Democrats must do things differently this time",
       "link": "https://baptistnews.com/article/democrats-must-do-things-differently-this-time/",
       "date": "2026-11-06T17:41:21Z",
@@ -611,13 +618,6 @@
       "title": "Why Don’t Religious Nones Want Kids?",
       "link": "https://baptistnews.com/article/why-dont-religious-nones-want-kids/",
       "date": "2026-11-06T16:00:06Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "This Comedian Had The Perfect Response To An Antisemitic Heckler",
-      "link": "https://baptistnews.com/article/this-comedian-had-the-perfect-response-to-an-antisemitic-heckler/",
-      "date": "2026-11-06T16:00:02Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
     },
