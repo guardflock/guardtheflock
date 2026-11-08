@@ -1,31 +1,157 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T06:08:30.374281Z",
+  "updatedAt": "2026-11-08T15:17:21.293718Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Spiritual Sounding Board",
-    "Christianity Today",
     "Religion News Service",
+    "Christianity Today",
+    "Spiritual Sounding Board",
     "Baptist News Global",
-    "Christian Headlines",
-    "The Wartburg Watch",
     "The Guardian — Religion",
-    "Crux — Catholic News",
+    "The Wartburg Watch",
     "National Catholic Reporter",
     "Christian Post",
+    "Christian Headlines",
+    "Crux — Catholic News",
     "Channel NewsAsia",
+    "The Roys Report",
+    "ECA Global",
     "Surviving Church",
     "Straits Times",
-    "The Roys Report",
     "Charisma News",
-    "Relevant Magazine",
-    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
-    "ECA Global"
+    "Relevant Magazine",
+    "Abuse Tracker (Bishop Accountability)"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
+    {
+      "title": "Missing: Man last seen near Yishun Ave 2 on Nov 8",
+      "link": "https://www.straitstimes.com/singapore/missing-man-last-seen-near-yishun-ave-2-on-nov-8",
+      "date": "2026-11-08T15:05:10Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Pope wraps up Uruguay visit and heads to most fraught stop of his tour in Milei’s Argentina",
+      "link": "https://cruxnow.com/2026_pope_in_south_america/2026/11/pope-wraps-up-uruguay-visit-and-heads-to-most-fraught-stop-of-his-tour-in-mileis-argentina/",
+      "date": "2026-11-08T13:55:40Z",
+      "source": "Crux — Catholic News",
+      "cat": "catholic"
+    },
+    {
+      "title": "Rahm marks DP World Tour return with victory in Abu Dhabi",
+      "link": "https://www.channelnewsasia.com/sport/rahm-marks-dp-world-tour-return-victory-in-abu-dhabi-6534311",
+      "date": "2026-11-08T13:54:16Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Bayern keeper Neuer suffers partial foot tendon tear",
+      "link": "https://www.channelnewsasia.com/sport/bayern-keeper-neuer-suffers-partial-foot-tendon-tear-6534301",
+      "date": "2026-11-08T13:44:47Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "This week in Christian history: Mount Holyoke Female Seminary founded; Amy Carmichael arrives in India",
+      "link": "https://www.christianpost.com/news/this-week-in-christian-history-mount-holyoke-seminary-founded.html",
+      "date": "2026-11-08T13:27:00Z",
+      "source": "Christian Post",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Europe will be represented at US-mediated Ukraine talks in Abu Dhabi: France",
+      "link": "https://www.channelnewsasia.com/world/europe-us-mediated-ukraine-russia-talks-abu-dhabi-6534261",
+      "date": "2026-11-08T13:13:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Anthropic secures $3.4 billion generator deal for AI data centers, FT reports",
+      "link": "https://www.channelnewsasia.com/business/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-6534256",
+      "date": "2026-11-08T12:53:57Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "ComfortDelGro to stop U-turn testing for AVs at Punggol junction after near miss; LTA investigating",
+      "link": "https://www.straitstimes.com/singapore/comfortdelgro-to-stop-u-turn-testing-for-avs-at-punggol-junction-after-near-miss-lta-investigating",
+      "date": "2026-11-08T12:15:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "US launches task force to disrupt land transit routes into Iran",
+      "link": "https://www.channelnewsasia.com/world/us-task-force-land-transit-routes-iran-6534181",
+      "date": "2026-11-08T12:13:33Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "‘Indian Christmas:’ Hindus celebrate and mourn the commercialization of Diwali",
+      "link": "https://religionnews.com/2026/11/08/indian-christmas-hindus-celebrate-and-mourn-the-commercialization-of-diwali/",
+      "date": "2026-11-08T12:00:45Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "US Stock Markets Plunge by Trillions as Data Center Fears Grow",
+      "link": "https://mycharisma.com/news/us-stock-markets-plunge-by-trillions-as-data-center-fears-grow/",
+      "date": "2026-11-08T12:00:00Z",
+      "source": "Charisma News",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Philippines rebukes officials over public comments about China",
+      "link": "https://www.channelnewsasia.com/asia/philippines-china-rebukes-public-comments-6534176",
+      "date": "2026-11-08T11:46:43Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Rugby league-Australia thrash Samoa to set up World Cup final against NZ",
+      "link": "https://www.channelnewsasia.com/sport/rugby-league-australia-thrash-samoa-set-up-world-cup-final-against-nz-6534171",
+      "date": "2026-11-08T11:29:28Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Japan's Tashima rates FIFA election chances at 20%-30% in challenge to Infantino",
+      "link": "https://www.channelnewsasia.com/sport/japans-tashima-rates-fifa-election-chances-20-30-in-challenge-infantino-6534166",
+      "date": "2026-11-08T11:26:10Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Haze in 2026 estimated to cost Singapore $2.32 billion, up 4% from 2015: Experts",
+      "link": "https://www.straitstimes.com/singapore/haze-in-2026-estimated-to-cost-singapore-2-32-billion-up-4-from-2015-experts",
+      "date": "2026-11-08T10:39:29Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+      "link": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
+      "date": "2026-11-08T09:00:35Z",
+      "source": "The Guardian — Religion",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Pope Leo's vote in US, but not Peru, raises questions about papal identity",
+      "link": "https://www.ncronline.org/vatican/vatican-news/pope-leos-vote-us-not-peru-raises-questions-about-papal-identity",
+      "date": "2026-11-08T09:00:00Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "From IMH to the National Centre for Mental Health, and what the new name means for Singapore",
+      "link": "https://www.straitstimes.com/singapore/health/from-imh-to-the-national-centre-for-mental-health-and-what-the-new-name-means-for-singapore",
+      "date": "2026-11-08T09:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
     {
       "title": "Trump’s Fraud Whistleblower Program reveals a Christian problem",
       "link": "https://www.christianpost.com/voices/trumps-fraud-whistleblower-program-reveals-a-christian-problem.html",
@@ -55,20 +181,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Khawaja denies throwing 'anyone under the bus' with comments about ball-tampering scandal",
-      "link": "https://www.channelnewsasia.com/sport/khawaja-denies-throwing-anyone-under-bus-comments-about-ball-tampering-scandal-6533946",
-      "date": "2026-11-08T05:01:35Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "New Zealand pair could miss Wales clash after injuries",
-      "link": "https://www.channelnewsasia.com/sport/new-zealand-pair-could-miss-wales-clash-after-injuries-6533916",
-      "date": "2026-11-08T04:46:21Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "Old trades, new cafes: Can Jalan Besar keep its charm?",
       "link": "https://www.straitstimes.com/singapore/old-trades-new-cafes-can-jalan-besar-keep-its-charm",
       "date": "2026-11-08T04:00:00Z",
@@ -83,20 +195,6 @@
       "cat": "asia"
     },
     {
-      "title": "Magnitude 5.7 quake injures dozens in central Japan",
-      "link": "https://www.channelnewsasia.com/east-asia/japan-magnitude-57-earthquake-injures-dozens-6533811",
-      "date": "2026-11-08T03:44:50Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "'Feeling guilty': Price hikes a tough sell in Japan despite inflation",
-      "link": "https://www.channelnewsasia.com/east-asia/japan-inflation-price-hikes-uniqlo-saizeriya-6533786",
-      "date": "2026-11-08T03:33:28Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "What fatherhood looks like when you are dying of cancer",
       "link": "https://www.straitstimes.com/singapore/parenting-education/what-fatherhood-looks-like-when-you-are-dying-of-cancer",
       "date": "2026-11-08T03:27:00Z",
@@ -104,37 +202,9 @@
       "cat": "asia"
     },
     {
-      "title": "New Zealand poised for weeks of political wrangling after knife-edge poll",
-      "link": "https://www.channelnewsasia.com/world/new-zealand-political-wrangling-knife-edge-poll-pm-luxon-6533761",
-      "date": "2026-11-08T03:24:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Messi becomes first to win MLS Golden Boot in consecutive seasons",
-      "link": "https://www.channelnewsasia.com/sport/messi-becomes-first-win-mls-golden-boot-in-consecutive-seasons-6533736",
-      "date": "2026-11-08T03:05:53Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Jokic wins over Mexico City as Nuggets hold off Pacers",
-      "link": "https://www.channelnewsasia.com/sport/jokic-wins-over-mexico-city-nuggets-hold-pacers-6533721",
-      "date": "2026-11-08T02:19:48Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
       "title": "195 arrested for vice-related activities in islandwide raids",
       "link": "https://www.straitstimes.com/singapore/195-arrested-for-vice-related-activities-in-islandwide-raids",
       "date": "2026-11-08T02:15:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Pokemon-themed fun at Changi Airport and Jewel; The Little Players’ puppetry show on bullying",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/pokemon-themed-fun-at-changi-airport-and-jewel-the-little-players-puppetry-show-on-bullying",
-      "date": "2026-11-08T02:03:00Z",
       "source": "Straits Times",
       "cat": "asia"
     },
@@ -146,20 +216,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Israel president taps Eisenkot to form new government",
-      "link": "https://www.channelnewsasia.com/world/israel-president-taps-eisenkot-form-new-government-6533711",
-      "date": "2026-11-08T01:30:00Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
-      "link": "https://www.straitstimes.com/singapore/old-school-snacks-shop-biscuit-king-in-casuarina-road-to-close-by-end-of-january",
-      "date": "2026-11-08T01:25:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Here’s who’s behind the next Capitol insurrection",
       "link": "https://baptistnews.com/article/heres-whos-behind-the-next-capitol-insurrection/",
       "date": "2026-11-08T01:21:06Z",
@@ -167,25 +223,11 @@
       "cat": "evangelical"
     },
     {
-      "title": "Four taken to hospital after four-vehicle crash on TPE",
-      "link": "https://www.straitstimes.com/singapore/four-taken-to-hospital-after-four-vehicle-crash-on-tpe",
-      "date": "2026-11-07T23:37:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Belarus sentences Catholic priest to 3 years after he opposed Ukraine war",
       "link": "https://www.ncronline.org/news/belarus-sentences-catholic-priest-3-years-after-he-opposed-ukraine-war",
       "date": "2026-11-07T21:31:43Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "Australia should deepen ties with Asia to give itself more room to pursue its interests: SM Lee",
-      "link": "https://www.straitstimes.com/singapore/australia-should-deepen-ties-with-asia-to-give-itself-more-room-to-pursue-its-interests-sm-lee",
-      "date": "2026-11-07T21:30:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Bear Grylls reflects on Russell Brand’s Christian conversion: ‘It's our calling to love, serve'",
@@ -223,7 +265,7 @@
       "cat": "evangelical"
     },
     {
-      "title": "With an ode to mate, pope urges faithful in Uruguay to build bridges of fraternity and faith",
+      "title": "Pope urges faithful in Uruguay to build bridges of fraternity and faith",
       "link": "https://cruxnow.com/2026_pope_in_south_america/2026/11/pope-south-latin-america/",
       "date": "2026-11-07T15:22:44Z",
       "source": "Crux — Catholic News",
@@ -298,13 +340,6 @@
       "date": "2026-11-07T14:18:33Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability"
-    },
-    {
-      "title": "PayPal drops 'hate,' 'intolerance' from rules after ADF challenges debanking policies",
-      "link": "https://www.christianpost.com/news/paypal-agrees-to-change-its-policy-on-hate-and-intolerance.html",
-      "date": "2026-11-07T14:09:18Z",
-      "source": "Christian Post",
-      "cat": "evangelical"
     },
     {
       "title": "Israel Responds After News of Impending Aid Cut",
@@ -461,13 +496,6 @@
       "cat": "mainstreamreligion"
     },
     {
-      "title": "Gov. Shapiro calls Philadelphia bike ride protest targeting Jewish-owned businesses ‘blatant antisemitism’",
-      "link": "https://religionnews.com/2026/11/06/pennsylvania-leaders-condemn-bike-boycott-of-philadelphias-jewish-owned-restaurants/",
-      "date": "2026-11-06T20:35:21Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "Controversial UMC Pastor Adam Hamilton Will Continue to Lead Megachurch While Serving in the US Senate",
       "link": "https://mycharisma.com/news/controversial-umc-pastor-adam-hamilton-will-continue-to-lead-megachurch-while-serving-in-the-us-senate/",
       "date": "2026-11-06T19:53:16Z",
@@ -485,13 +513,6 @@
       "title": "Catholic advocates praise Newsom's decision to commute death sentences",
       "link": "https://www.ncronline.org/news/catholic-advocates-praise-newsoms-decision-commute-death-sentences",
       "date": "2026-11-06T19:14:08Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
-    },
-    {
-      "title": "Editorial: Democrats won big. Now they must shape a more decent America.",
-      "link": "https://www.ncronline.org/opinion/editorial-democrats-won-big-now-they-must-shape-more-decent-america",
-      "date": "2026-11-06T18:52:55Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
     },
@@ -619,13 +640,6 @@
       "link": "https://www.crosswalk.com/headlines/contributors/milton-quintanilla/russell-brand-convicted-of-rape-and-sexual-assault-as-bear-grylls-speaks-out-on-faith-and-justice.html",
       "date": "2026-11-06T14:35:00Z",
       "source": "Christian Headlines",
-      "cat": "evangelical"
-    },
-    {
-      "title": "‘Pro-Palestine’ Protesters Show True Colors By Targeting Jewish Businesses in Philadelphia Day Before Kristallnacht Anniversary",
-      "link": "https://mycharisma.com/news/pro-palestine-protesters-show-true-colors-by-targeting-jewish-businesses-in-philadelphia-day-before-kristallnacht-anniversary/",
-      "date": "2026-11-06T14:05:20Z",
-      "source": "Charisma News",
       "cat": "evangelical"
     },
     {
@@ -769,13 +783,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Taybeh parish priest warns of ‘violent attacks’ on Christians during UK visit",
-      "link": "https://cruxnow.com/church-in-the-middle-east/2026/11/taybeh-parish-priest-warns-of-violent-attacks-on-christians-during-uk-visit/",
-      "date": "2026-11-05T14:00:24Z",
-      "source": "Crux — Catholic News",
-      "cat": "catholic"
-    },
-    {
       "title": "A progressive understanding of Christianity won in the US elections | Bill McKibben",
       "link": "https://www.theguardian.com/commentisfree/2026/nov/05/james-talarico-adam-hamilton-christianity-conservatives",
       "date": "2026-11-05T12:00:23Z",
@@ -856,13 +863,6 @@
       "title": "Bring Your Bible and Your Shotgun: Meet the Most Florida Church Plant Ever",
       "link": "https://relevantmagazine.com/current/buzzworthy/bring-your-bible-and-your-shotgun-a-florida-church-plant-meets-at-a-shooting-range/",
       "date": "2026-11-03T22:04:43Z",
-      "source": "Relevant Magazine",
-      "cat": "evangelical"
-    },
-    {
-      "title": "‘Mogging’ Is Collins Dictionary’s 2026 Word of the Year",
-      "link": "https://relevantmagazine.com/current/buzzworthy/mogging-is-collins-dictionarys-2026-word-of-the-year/",
-      "date": "2026-11-03T19:04:09Z",
       "source": "Relevant Magazine",
       "cat": "evangelical"
     }
