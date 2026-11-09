@@ -1,37 +1,184 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T20:30:21.972911Z",
+  "updatedAt": "2026-11-09T06:42:08.730832Z",
   "sourcesUpdated": 19,
   "sources": [
-    "Christianity Today",
-    "Religion News Service",
     "Spiritual Sounding Board",
+    "Religion News Service",
+    "Christianity Today",
     "Baptist News Global",
     "The Wartburg Watch",
     "The Guardian — Religion",
-    "Christian Post",
     "Christian Headlines",
-    "Crux — Catholic News",
-    "The Roys Report",
+    "Christian Post",
     "National Catholic Reporter",
-    "Straits Times",
-    "Channel NewsAsia",
-    "Charisma News",
-    "MinistryWatch",
-    "Relevant Magazine",
-    "Abuse Tracker (Bishop Accountability)",
+    "Crux — Catholic News",
     "Surviving Church",
-    "ECA Global"
+    "Channel NewsAsia",
+    "Straits Times",
+    "The Roys Report",
+    "ECA Global",
+    "Relevant Magazine",
+    "Charisma News",
+    "Abuse Tracker (Bishop Accountability)",
+    "MinistryWatch"
   ],
   "sourceCount": 24,
   "itemCount": 120,
   "items": [
     {
-      "title": "Nvidia launches probe after report CEO Huang was target of foreign intelligence",
-      "link": "https://www.channelnewsasia.com/business/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-6534611",
-      "date": "2026-11-08T20:16:06Z",
+      "title": "EU sues IBM and two European companies over troubled border system, FT reports",
+      "link": "https://www.channelnewsasia.com/business/eu-sues-ibm-and-two-european-companies-over-troubled-border-system-ft-reports-6535541",
+      "date": "2026-11-09T06:27:34Z",
       "source": "Channel NewsAsia",
       "cat": "asia"
+    },
+    {
+      "title": "Analysis:AI power rush sends data centres hunting for used turbines and jet engines",
+      "link": "https://www.channelnewsasia.com/business/analysisai-power-rush-sends-data-centres-hunting-used-turbines-and-jet-engines-6535516",
+      "date": "2026-11-09T06:13:03Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Sojitz signs agreement to acquire 5% of Vietnam tungsten supplier Masan High-Tech Materials",
+      "link": "https://www.channelnewsasia.com/business/sojitz-signs-agreement-acquire-5-vietnam-tungsten-supplier-masan-high-tech-materials-6535521",
+      "date": "2026-11-09T06:08:44Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Most S’pore parents see tuition as necessary despite wanting less academic pressure: Survey",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/most-spore-parents-see-tuition-as-necessary-despite-wanting-less-academic-pressure-survey",
+      "date": "2026-11-09T06:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Four men to be charged over alleged mortgage loan fraud involving property owner's home",
+      "link": "https://www.channelnewsasia.com/singapore/mortgage-loan-four-men-charged-6535486",
+      "date": "2026-11-09T05:53:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Google says new Australian internet safety bill could cut off under-18s from Gmail",
+      "link": "https://www.channelnewsasia.com/business/google-says-new-australian-internet-safety-bill-could-cut-under-18s-gmail-6535481",
+      "date": "2026-11-09T05:48:18Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Indian capital New Delhi chokes with pollution after Deepavali fireworks",
+      "link": "https://www.channelnewsasia.com/asia/new-delhi-india-air-pollution-deepavali-fireworks-6535416",
+      "date": "2026-11-09T05:05:00Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Digital classrooms: Are our children learning better, or differently?",
+      "link": "https://www.straitstimes.com/singapore/digital-classrooms-are-our-children-learning-better-or-differently",
+      "date": "2026-11-09T05:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Reactions to Nvidia's probe into CEO Jensen Huang",
+      "link": "https://www.channelnewsasia.com/business/reactions-nvidias-probe-ceo-jensen-huang-6535361",
+      "date": "2026-11-09T04:51:03Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Apartment building fire in China's Shanxi province kills 14",
+      "link": "https://www.channelnewsasia.com/east-asia/china-apartment-building-fire-shanxi-deaths-6535211",
+      "date": "2026-11-09T04:31:38Z",
+      "source": "Channel NewsAsia",
+      "cat": "asia"
+    },
+    {
+      "title": "Motorists advised to avoid Mackenzie Road, near Bukit Timah, over risk of flash floods",
+      "link": "https://www.straitstimes.com/singapore/motorists-advised-to-avoid-two-areas-in-singapore-over-risk-of-flash-floods",
+      "date": "2026-11-09T04:28:13Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Easing pre-school worries, giving parents assurance: Goh Pei Ming on supporting families",
+      "link": "https://www.straitstimes.com/singapore/politics/easing-pre-school-worries-giving-parents-assurance-goh-pei-ming-on-supporting-families",
+      "date": "2026-11-09T04:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "From lived experience to expertise: Parents of neurodivergent kids get trained in special education",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/from-lived-experience-to-expertise-more-parents-of-neurodivergent-kids-get-trained-in-special",
+      "date": "2026-11-09T04:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "From military to ministries: Goh Pei Ming talks about shaping policy and making time for family",
+      "link": "https://www.straitstimes.com/singapore/politics/from-military-to-ministries-goh-pei-ming-talks-about-shaping-policy-and-making-time-for-family",
+      "date": "2026-11-09T04:00:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Four men to be charged over ruse to get $6m in home loans, with victim’s property as collateral",
+      "link": "https://www.straitstimes.com/singapore/four-men-set-to-be-charged-over-ruse-to-get-6m-in-home-loans-with-victims-home-as-collateral",
+      "date": "2026-11-09T03:05:49Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Three Singaporeans injured in Taiwan crash after car hits taxi head-on: Reports",
+      "link": "https://www.straitstimes.com/singapore/three-singaporeans-injured-in-taiwan-crash-after-car-hits-taxi-head-on-reports",
+      "date": "2026-11-09T01:23:00Z",
+      "source": "Straits Times",
+      "cat": "asia"
+    },
+    {
+      "title": "Argentina’s Milei embraces Pope Leo XIV, who pushes him on austerity",
+      "link": "https://religionnews.com/2026/11/08/in-argentina-milei-embraces-pope-leo-xiv-who-pushes-him-on-austerity/",
+      "date": "2026-11-09T01:16:10Z",
+      "source": "Religion News Service",
+      "cat": "mainstreamreligion"
+    },
+    {
+      "title": "Pope Leo arrives in Argentina under the shadow of his predecessor",
+      "link": "https://www.ncronline.org/vatican/pope-leo-arrives-argentina-under-shadow-his-predecessor",
+      "date": "2026-11-08T23:42:17Z",
+      "source": "National Catholic Reporter",
+      "cat": "catholic"
+    },
+    {
+      "title": "Supporting families who are raising relatives’ children",
+      "link": "https://baptistnews.com/article/supporting-families-who-are-raising-relatives-children/",
+      "date": "2026-11-08T21:31:55Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "The practice of hypocrisy",
+      "link": "https://baptistnews.com/article/the-practice-of-hypocrisy/",
+      "date": "2026-11-08T21:16:20Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Caring for God’s creation is a chance to move beyond politics",
+      "link": "https://baptistnews.com/article/caring-for-gods-creation-is-a-chance-to-move-beyond-politics/",
+      "date": "2026-11-08T21:02:12Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
+    },
+    {
+      "title": "Understanding the classics as tools for survival",
+      "link": "https://baptistnews.com/article/understanding-the-classics-as-tools-for-survival/",
+      "date": "2026-11-08T20:45:46Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical"
     },
     {
       "title": "Three weeks apart, two festivals of small lights",
@@ -39,62 +186,6 @@
       "date": "2026-11-08T20:15:53Z",
       "source": "Baptist News Global",
       "cat": "evangelical"
-    },
-    {
-      "title": "Mercedes complete F1 title double in Brazil",
-      "link": "https://www.channelnewsasia.com/sport/mercedes-complete-f1-title-double-in-brazil-6534606",
-      "date": "2026-11-08T20:06:16Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "How music is her way of helping seniors find connection, purpose and strength",
-      "link": "https://www.straitstimes.com/singapore/jobs/music-therapist-help-seniors-find-connection-purpose-strength-aic",
-      "date": "2026-11-08T20:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Leaders Lazio held by Napoli as Inter move within a point at the top",
-      "link": "https://www.channelnewsasia.com/sport/leaders-lazio-held-napoli-inter-move-within-point-top-6534581",
-      "date": "2026-11-08T19:49:33Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Train collision in Egypt kills at least 7, injures dozens, health ministry says",
-      "link": "https://www.channelnewsasia.com/world/train-collision-in-egypt-kills-least-7-injures-dozens-health-ministry-says-6534371",
-      "date": "2026-11-08T19:47:49Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Pressure still on Man United boss Carrick despite dramatic Villa draw",
-      "link": "https://www.channelnewsasia.com/sport/pressure-still-man-united-boss-carrick-despite-dramatic-villa-draw-6534576",
-      "date": "2026-11-08T19:46:29Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Pollock reckons playing on the wing is easy, says Borthwick",
-      "link": "https://www.channelnewsasia.com/sport/pollock-reckons-playing-wing-easy-says-borthwick-6534556",
-      "date": "2026-11-08T18:58:55Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Norris wins in Brazil as Mercedes take constructors' title",
-      "link": "https://www.channelnewsasia.com/sport/norris-wins-in-brazil-mercedes-take-constructors-title-6534546",
-      "date": "2026-11-08T18:51:37Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
-    },
-    {
-      "title": "Poland in shock as mass shooting shatters sense of security",
-      "link": "https://www.channelnewsasia.com/world/poland-in-shock-mass-shooting-shatters-sense-security-6534516",
-      "date": "2026-11-08T18:08:07Z",
-      "source": "Channel NewsAsia",
-      "cat": "asia"
     },
     {
       "title": "Catholic priest pleads guilty to sex offense at Baltimore Gilman School",
@@ -146,20 +237,6 @@
       "cat": "accountability"
     },
     {
-      "title": "2 men arrested after fight at Chinatown; police looking for third person involved",
-      "link": "https://www.straitstimes.com/singapore/2-men-arrested-after-fight-at-chinatown-police-looking-for-third-person-involved",
-      "date": "2026-11-08T15:25:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "Missing: Man last seen near Yishun Ave 2 on Nov 8",
-      "link": "https://www.straitstimes.com/singapore/missing-man-last-seen-near-yishun-ave-2-on-nov-8",
-      "date": "2026-11-08T15:05:10Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Pastors react after Calvary Chapel Costa Mesa says it ordains women pastors",
       "link": "https://www.christianpost.com/news/pastors-react-to-calvary-chapel-costa-mesas-ordination-of-women.html",
       "date": "2026-11-08T15:04:00Z",
@@ -181,13 +258,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "ComfortDelGro to stop U-turn testing for AVs at Punggol junction after near miss; LTA investigating",
-      "link": "https://www.straitstimes.com/singapore/comfortdelgro-to-stop-u-turn-testing-for-avs-at-punggol-junction-after-near-miss-lta-investigating",
-      "date": "2026-11-08T12:15:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "‘Indian Christmas:’ Hindus celebrate and mourn the commercialization of Diwali",
       "link": "https://religionnews.com/2026/11/08/indian-christmas-hindus-celebrate-and-mourn-the-commercialization-of-diwali/",
       "date": "2026-11-08T12:00:45Z",
@@ -202,13 +272,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Haze in 2026 estimated to cost Singapore $2.32 billion, up 4% from 2015: Experts",
-      "link": "https://www.straitstimes.com/singapore/haze-in-2026-estimated-to-cost-singapore-2-32-billion-up-4-from-2015-experts",
-      "date": "2026-11-08T10:39:29Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
       "title": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
       "link": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
       "date": "2026-11-08T09:00:35Z",
@@ -221,13 +284,6 @@
       "date": "2026-11-08T09:00:00Z",
       "source": "National Catholic Reporter",
       "cat": "catholic"
-    },
-    {
-      "title": "From IMH to the National Centre for Mental Health, and what the new name means for Singapore",
-      "link": "https://www.straitstimes.com/singapore/health/from-imh-to-the-national-centre-for-mental-health-and-what-the-new-name-means-for-singapore",
-      "date": "2026-11-08T09:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Trump’s Fraud Whistleblower Program reveals a Christian problem",
@@ -256,20 +312,6 @@
       "date": "2026-11-08T05:03:00Z",
       "source": "Christian Post",
       "cat": "evangelical"
-    },
-    {
-      "title": "Old trades, new cafes: Can Jalan Besar keep its charm?",
-      "link": "https://www.straitstimes.com/singapore/old-trades-new-cafes-can-jalan-besar-keep-its-charm",
-      "date": "2026-11-08T04:00:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
-    },
-    {
-      "title": "School Spotlight: Students gain confidence and find purpose at NorthLight School",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/school-spotlight-students-gain-confidence-and-find-purpose-at-northlight-school",
-      "date": "2026-11-08T03:45:00Z",
-      "source": "Straits Times",
-      "cat": "asia"
     },
     {
       "title": "Paving way to surprise coalition? Liberman announces support for gov’t with ultra-Orthodox party, Eisenkot bloc",
@@ -503,13 +545,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "Secular voters are increasing. Can ‘the nones’ become a political force?",
-      "link": "https://religionnews.com/2026/11/06/secular-voters-are-increasing-can-the-nones-become-a-political-force/",
-      "date": "2026-11-06T20:38:07Z",
-      "source": "Religion News Service",
-      "cat": "mainstreamreligion"
-    },
-    {
       "title": "Controversial UMC Pastor Adam Hamilton Will Continue to Lead Megachurch While Serving in the US Senate",
       "link": "https://mycharisma.com/news/controversial-umc-pastor-adam-hamilton-will-continue-to-lead-megachurch-while-serving-in-the-us-senate/",
       "date": "2026-11-06T19:53:16Z",
@@ -522,13 +557,6 @@
       "date": "2026-11-06T19:50:00Z",
       "source": "Christian Headlines",
       "cat": "evangelical"
-    },
-    {
-      "title": "Catholic advocates praise Newsom's decision to commute death sentences",
-      "link": "https://www.ncronline.org/news/catholic-advocates-praise-newsoms-decision-commute-death-sentences",
-      "date": "2026-11-06T19:14:08Z",
-      "source": "National Catholic Reporter",
-      "cat": "catholic"
     },
     {
       "title": "'The Chosen' Cast Opens Up about Brutal Filming of Season 6 and the Crucifixion",
@@ -573,13 +601,6 @@
       "cat": "evangelical"
     },
     {
-      "title": "The color of power: What are we fighting to preserve?",
-      "link": "https://baptistnews.com/article/the-color-of-power-what-are-we-fighting-to-preserve/",
-      "date": "2026-11-06T17:19:25Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
       "title": "'Meryl Is Playing Jesus Christ?': Liam Neeson Reacts to Netflix's Aslan Casting",
       "link": "https://www.crosswalk.com/headlines/contributors/michael-foust/meryl-is-playing-jesus-christ-liam-neeson-reacts-to-netflixs-aslan-casting.html",
       "date": "2026-11-06T17:09:00Z",
@@ -599,27 +620,6 @@
       "date": "2026-11-06T16:38:52Z",
       "source": "The Guardian — Religion",
       "cat": "mainstreamreligion"
-    },
-    {
-      "title": "A still-recovering pope will head home to Latin America and his beloved Peru for a 12-day trip",
-      "link": "https://baptistnews.com/article/a-still-recovering-pope-will-head-home-to-latin-america-and-his-beloved-peru-for-a-12-day-trip/",
-      "date": "2026-11-06T16:00:54Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Nithya Raman, a practicing Hindu, elected as mayor of Los Angeles",
-      "link": "https://baptistnews.com/article/nithya-raman-a-practicing-hindu-elected-as-mayor-of-los-angeles/",
-      "date": "2026-11-06T16:00:33Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
-    },
-    {
-      "title": "Why Don’t Religious Nones Want Kids?",
-      "link": "https://baptistnews.com/article/why-dont-religious-nones-want-kids/",
-      "date": "2026-11-06T16:00:06Z",
-      "source": "Baptist News Global",
-      "cat": "evangelical"
     },
     {
       "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
