@@ -1044,6 +1044,7 @@ footer {
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="respond">Get Help / Respond</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="leaders">For Church Leaders</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="cases">Documented Cases</button>
+    <button class="nav-tab" role="tab" aria-selected="false" data-tab="news">Latest News</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="study-resources">Study &amp; Resources</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="faq">FAQ</button>
     <button class="nav-tab" role="tab" aria-selected="false" data-tab="about">About Us</button>
@@ -2005,7 +2006,7 @@ footer {
     <nav class="tab-toc" aria-label="Jump to section">
       <a href="#cases-individual">Individual named cases</a>
       <a href="#cases-category">Browse by theme</a>
-      <a href="#cases-regional">Regional coverage</a>
+      <a href="#cases-regional">Additional reporting sources</a>
     </nav>
 
     <div class="warn-box" style="margin-bottom:2rem;">
@@ -2410,34 +2411,19 @@ footer {
     </div><!-- /case-theme-index -->
 
     <!-- Regional journalism -->
-    <h3 id="cases-regional" class="sec-sub" style="margin-top:2.5rem;margin-bottom:1rem; scroll-margin-top: 68px;">Regional Coverage</h3>
+    <h3 id="cases-regional" class="sec-sub" style="margin-top:2.5rem;margin-bottom:1rem; scroll-margin-top: 68px;">Additional Reporting Sources</h3>
     <div class="cards">
-
-      <div class="card">
-        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem;">
-          <span style="font-size:1.2rem;">🌏</span>
-          <strong>Asia-Pacific</strong>
-          <!-- Prefer stable publisher topic/search pages; remove links when a destination becomes stale. -->
-        </div>
-        <p style="font-size:.9rem;">Documented cases across South Korea (mega-church leaders), Singapore, Philippines, and Malaysia. Coverage is sparser than Western sources but growing — often broken by local news outlets and amplified by regional Christian media.</p>
-        <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
-          <li><a href="https://www.straitstimes.com/tags/churches" target="_blank" rel="noopener">The Straits Times (SG): Church tag</a></li>
-          <li><a href="https://thestar.com.my/search?q=pastor+abuse" target="_blank" rel="noopener">The Star (MY): Church search</a></li>
-          <li><a href="https://www.malaymail.com/search?q=church+abuse" target="_blank" rel="noopener">Malay Mail (MY): Church abuse search</a></li>
-        </ul>
-      </div>
 
       <div class="card">
         <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem;">
           <span style="font-size:1.2rem;">🌐</span>
           <strong>Global Investigations</strong>
         </div>
-        <p style="font-size:.9rem;">Long-form investigative journalism aggregating cases across denominations and borders. These are the most thorough documented records publicly available.</p>
+        <p style="font-size:.9rem;">Selected publishers reporting on church abuse, safeguarding, and institutional accountability across denominations and regions. Follow the original reporting and assess each article according to its evidence and legal status.</p>
         <ul style="margin-top:.75rem;padding-left:1.2rem;font-size:.9rem;">
           <li><a href="https://www.bbc.co.uk/search?q=church%20abuse" target="_blank" rel="noopener">BBC: Church Abuse — multi-country investigations</a></li>
           <li><a href="https://roysreport.com/" target="_blank" rel="noopener">The Roys Report — Julie Roys; investigative accountability journalism on Christian leaders and organisations</a></li>
           <li><a href="https://thewartburgwatch.com/" target="_blank" rel="noopener">The Wartburg Watch — long-running US evangelical accountability blog</a></li>
-          <li><a href="https://religionnews.com/" target="_blank" rel="noopener">Religion News Service — independent wire service</a></li>
         </ul>
       </div>
 
@@ -2469,6 +2455,40 @@ footer {
     </div>
 
   <div class="related-links" aria-label="Related sections" style="margin-top:32px;padding:18px 20px;background:var(--bg-alt);border-radius:8px;"><h3>Continue exploring</h3><p>Compare documented examples with the warning signs and practical guidance elsewhere on this site:</p><ul><li><a href="#discern-signs" onclick="return navigateToSection('discern','discern-signs')">Review warning signs and patterns</a></li><li><a href="#respond-intro" onclick="return navigateToSection('respond','respond-intro')">Find practical help and response options</a></li><li><a href="#study-top" onclick="return navigateToSection('study-resources','study-top')">Explore study materials and further reading</a></li></ul></div>
+  </section>
+
+  <!-- ── Tab: Latest News ─────────────────────────────────────────────────── -->
+  <section class="section" id="tab-news" role="tabpanel">
+    <p class="eyebrow">Current reporting &amp; developments</p>
+    <h2 id="news-top" class="sec-head">Latest News</h2>
+    <p style="font-size:.9rem;color:var(--fg-muted);line-height:1.7;margin-bottom:1.25rem;">
+      A focused discovery feed for reporting about spiritual abuse, church accountability, investigations, and safeguarding. Headlines link to the original publisher; Guard the Flock does not independently adjudicate the reports.
+    </p>
+
+    <div class="warn-box" style="margin-bottom:1.25rem;">
+      <strong>Read with care:</strong> A headline may describe an allegation, investigation, charge, institutional finding, or conviction. These are different evidence statuses. An allegation is not proof of guilt. Read the original report for its full context and any updates.
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px;">
+      <p id="news-status" aria-live="polite" style="font-size:.78rem;color:var(--fg-muted);margin:0;">The latest news snapshot will load when you open this tab.</p>
+      <button type="button" id="news-refresh" class="nf-btn">Refresh headlines</button>
+    </div>
+
+    <div class="case-filter-bar" aria-label="Filter latest news">
+      <button type="button" class="nf-btn active" data-filter="all" aria-pressed="true">All News</button>
+      <button type="button" class="nf-btn" data-filter="spiritual-abuse" aria-pressed="false">Spiritual Abuse</button>
+      <button type="button" class="nf-btn" data-filter="church-accountability" aria-pressed="false">Church Accountability</button>
+      <button type="button" class="nf-btn" data-filter="investigations" aria-pressed="false">Investigations &amp; Allegations</button>
+      <button type="button" class="nf-btn" data-filter="safeguarding" aria-pressed="false">Safeguarding &amp; Reform</button>
+    </div>
+
+    <div id="news-feed" aria-live="polite">
+      <p style="font-size:.88rem;color:var(--fg-muted);">Open Latest News to load the current headline snapshot.</p>
+    </div>
+
+    <p style="font-size:.78rem;color:var(--fg-muted);line-height:1.6;margin-top:1.25rem;">
+      Stories are selected from public publisher feeds using topic and relevance rules. Feed coverage is not exhaustive, and a story's inclusion is not an endorsement of every claim it contains. For established case records, see <a href="#cases-top" onclick="return navigateToSection('cases', 'cases-top');">Documented Cases</a>.
+    </p>
   </section>
 
   <!-- ── Tab: Study & Resources ──────────────────────────────────────────── -->
@@ -3202,10 +3222,10 @@ footer {
   function renderFeed(items, activeFilter) {
     const feed = document.getElementById('news-feed');
     if (!items.length) {
-      feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines are available right now. Please try Refresh later or use the publisher links in Documented Cases.</div>';
+      feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No relevant headlines are available in the current snapshot. Please try Refresh later.</div>';
       return;
     }
-    const filtered = activeFilter === 'all' ? items : items.filter(i => i.cat === activeFilter);
+    const filtered = activeFilter === 'all' ? items : items.filter(i => i.topic === activeFilter);
     if (!filtered.length) {
       feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">No headlines for this filter yet.</div>';
       return;
@@ -3216,10 +3236,10 @@ footer {
       return sourceOrder || (new Date(b.date) - new Date(a.date));
     });
     feed.innerHTML = filtered.map(item => `
-      <div class="news-item" data-cat="${item.cat}">
+      <div class="news-item" data-topic="${item.topic}">
         <a href="${item.link}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
         <div class="news-meta">
-          <span class="news-source-tag">${item.source}</span>
+          <span class="news-source-tag">${escapeHtml(item.source)}</span>
           ${item.author ? `<span class="news-author">By ${escapeHtml(item.author)}</span>` : ''}
           <span class="news-age">${timeAgo(item.date)}</span>
         </div>
@@ -3264,7 +3284,7 @@ footer {
       try {
         data = await loadNewsData(NEWS_DATA_BACKUP_URL);
       } catch (backupError) {
-        if (feed) feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">The latest news snapshot is temporarily unavailable. Please try again later or use the publisher links in Documented Cases.</div>';
+        if (feed) feed.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--fg-muted);font-size:.9rem;">The latest news snapshot is temporarily unavailable. Please try again later.</div>';
         if (status) status.textContent = 'News data could not be loaded.';
         return;
       }
@@ -3277,7 +3297,7 @@ footer {
         date: item.date || '',
         author: typeof item.author === 'string' ? item.author.substring(0, 100) : '',
         source: item.source || 'Publisher',
-      cat: item.cat || 'accountability'
+      topic: item.topic || 'church-accountability'
       }));
     loaded = Array.isArray(data.sources)
       ? data.sources.length
@@ -3307,9 +3327,9 @@ footer {
   if (refreshBtn) refreshBtn.addEventListener('click', () => { newsLoaded = true; loadAllFeeds(); });
 
   // Filter buttons
-  document.querySelectorAll('.nf-btn').forEach(btn => {
+  document.querySelectorAll('.nf-btn[data-filter]').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.nf-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.nf-btn[data-filter]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       activeFilter = btn.dataset.filter;
       renderFeed(allItems, activeFilter);
