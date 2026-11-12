@@ -1,15 +1,26 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T22:46:07.814723Z",
-  "sourcesUpdated": 3,
+  "updatedAt": "2026-11-12T07:16:53.530017Z",
+  "sourcesUpdated": 6,
   "sources": [
+    "Spiritual Sounding Board",
+    "The Roys Report",
     "ECA Global",
     "MinistryWatch",
-    "The Roys Report"
+    "Surviving Church",
+    "Abuse Tracker (Bishop Accountability)"
   ],
   "sourceCount": 17,
-  "itemCount": 4,
+  "itemCount": 15,
   "items": [
+    {
+      "title": "Judge tosses all charges in Pawleys Island case",
+      "link": "https://roysreport.com/judge-tosses-all-charges-in-pawleys-island-case/",
+      "date": "2026-11-11T23:24:06Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "From Secrecy to Accountability: ECA Challenges the Church’s Approach to Abuse Survivors in Buenos Aires",
       "link": "https://www.ecaglobal.org/from-secrecy-to-accountability-eca-challenges-the-churchs-approach-to-abuse-survivors-in-buenos-aires/",
@@ -19,10 +30,42 @@
       "topic": "safeguarding"
     },
     {
+      "title": "43 Women, Decades of Alleged Exploitation: ECA Calls on Pope Leo XIV to Confront the Opus Dei Case",
+      "link": "https://www.ecaglobal.org/43-women-decades-of-alleged-exploitation-eca-calls-on-pope-leo-xiv-to-confront-the-opus-dei-case/",
+      "date": "2026-11-11T15:12:57Z",
+      "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Vatican investigation into the Sodalitium reveals ovary removals and the use of psychiatric drugs to ‘treat’ homosexuality",
+      "link": "https://www.bishop-accountability.org/2026/11/vatican-investigation-into-the-sodalitium-reveals-ovary-removals-and-the-use-of-psychiatric-drugs-to-treat-homosexuality/",
+      "date": "2026-11-11T14:07:47Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
       "title": "Four Women Accuse North Point Community Church Contractor of Sex Abuse Andy Stanley’s Georgia megachurch says it responded appropriately after hearing the accusations.",
       "link": "https://ministrywatch.com/four-women-accuse-north-point-community-church-contractor-of-sex-abuse/",
       "date": "2026-11-11T03:29:11Z",
       "source": "MinistryWatch",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Keesee Convicted on 27 Counts Faith Life leaders face renewed calls to step down.",
+      "link": "https://ministrywatch.com/keesee-convicted-on-27-counts/",
+      "date": "2026-11-10T21:18:11Z",
+      "source": "MinistryWatch",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Russell Brand gets 10 1/2 years for rape and sexual assault",
+      "link": "https://roysreport.com/russell-brand-gets-10-1-2-years-for-rape-and-sexual-assault/",
+      "date": "2026-11-09T22:09:27Z",
+      "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
     },
@@ -35,12 +78,60 @@
       "topic": "investigations"
     },
     {
-      "title": "OH Megachurch Pastor Fired Over Sexual Misconduct Accusations Pastor Lonnie Snell removed over “sexual misconduct with a subordinate.”",
-      "link": "https://ministrywatch.com/oh-megachurch-pastor-fired-over-sexual-misconduct-accusations/",
-      "date": "2026-11-06T23:23:35Z",
-      "source": "MinistryWatch",
+      "title": "How Untreated Boarding School Survivors Have Run and Harmed the Church",
+      "link": "https://survivingchurch.org/2026/10/30/how-untreated-boarding-school-survivors-have-run-and-harmed-the-church/?utm_source=rss&utm_medium=rss&utm_campaign=how-untreated-boarding-school-survivors-have-run-and-harmed-the-church",
+      "date": "2026-10-30T10:34:16Z",
+      "source": "Surviving Church",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Journeying with Fr Mark: A PCC Member’s Testimony on Institutional Cruelty",
+      "link": "https://survivingchurch.org/2026/09/25/journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty/?utm_source=rss&utm_medium=rss&utm_campaign=journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty",
+      "date": "2026-09-25T09:03:18Z",
+      "source": "Surviving Church",
       "cat": "accountability",
       "topic": "investigations"
+    },
+    {
+      "title": "ECA Global Summit in Buenos Aires: A Landmark Event on Opus Dei Abuses and Survivors’ Search for Justice",
+      "link": "https://www.ecaglobal.org/eca-global-summit-in-buenos-aires-a-landmark-event-on-opus-dei-abuses-and-survivors-search-for-justice/",
+      "date": "2025-12-18T14:58:34Z",
+      "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "ECA Global Holds Historic Meeting with Pope at the Vatican",
+      "link": "https://www.ecaglobal.org/4132-2/",
+      "date": "2025-10-20T12:41:47Z",
+      "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "As Patriarch Bartholomew receives environmental prize tonight, Orthodox survivors & advocates call him out for ignoring clergy-perpetrated sexual abuse in Eastern Orthodoxy",
+      "link": "https://www.ecaglobal.org/as-patriarch-bartholomew-receives-environmental-prize-tonight-orthodox-survivors-advocates-call-him-out-for-ignoring-clergy-perpetrated-sexual-abuse-in-eastern-orthodoxy/",
+      "date": "2025-09-24T14:47:02Z",
+      "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Clerical Sexual Violence in Ecuador: Mapping Impunity",
+      "link": "https://www.ecaglobal.org/clerical-sexual-violence-in-ecuador-mapping-impunity/",
+      "date": "2025-09-05T15:01:17Z",
+      "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Spiritual Headship was Spiritual Abuse in My Family",
+      "link": "https://spiritualsoundingboard.com/2024/03/22/spiritual-headship-was-spiritual-abuse-in-my-family/",
+      "date": "2024-03-23T06:27:13Z",
+      "source": "Spiritual Sounding Board",
+      "cat": "accountability",
+      "topic": "spiritual-abuse"
     }
   ]
 }
