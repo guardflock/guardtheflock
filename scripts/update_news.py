@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a safe, static JSON snapshot from the configured public RSS feeds.
 
-The generated data/news.json file is published as a static asset by Cloudflare Pages.
+The generated data/news.json file is published as a static asset by Cloudflare Pages. Only topic-relevant headlines are included.
 Keep feed URLs public; never put credentials or private feed URLs in this source file.
 """
 
@@ -24,7 +24,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
 ITEMS_PER_FEED = 8
-MAX_ITEMS = 120
+MAX_ITEMS = 80
 REQUEST_TIMEOUT = 15
 USER_AGENT = "GuardTheFlockNewsBot/1.0 (+https://github.com/guardflock/guardtheflock)"
 
@@ -37,9 +37,6 @@ SOURCES = [
     {"name": "Abuse Tracker (Bishop Accountability)", "url": "https://www.bishop-accountability.org/category/news-archive/abusetracker/feed/", "cat": "accountability"},
     {"name": "ECA Global", "url": "https://www.ecaglobal.org/feed/", "cat": "accountability"},
     {"name": "SNAP Network", "url": "https://www.snapnetwork.org/rss.xml", "cat": "accountability"},
-    {"name": "Religion News Service", "url": "https://religionnews.com/feed/", "cat": "mainstreamreligion"},
-    {"name": "The Guardian — Religion", "url": "https://www.theguardian.com/world/religion/rss", "cat": "mainstreamreligion"},
-    {"name": "AP News — Religion", "url": "https://rsshub.app/ap/topics/apf-religion", "cat": "mainstreamreligion"},
     {"name": "Christianity Today", "url": "https://www.christianitytoday.com/feed/", "cat": "evangelical"},
     {"name": "Christian Post", "url": "https://www.christianpost.com/rss", "cat": "evangelical"},
     {"name": "Baptist News Global", "url": "https://baptistnews.com/feed/", "cat": "evangelical"},
@@ -49,11 +46,53 @@ SOURCES = [
     {"name": "Catholic News Agency", "url": "https://www.catholicnewsagency.com/feed", "cat": "catholic"},
     {"name": "National Catholic Reporter", "url": "https://www.ncronline.org/rss.xml", "cat": "catholic"},
     {"name": "Crux — Catholic News", "url": "https://cruxnow.com/feed/", "cat": "catholic"},
-    {"name": "The Star (MY)", "url": "https://www.thestar.com.my/rss/News/Nation/", "cat": "asia"},
-    {"name": "Malay Mail", "url": "https://www.malaymail.com/feed", "cat": "asia"},
-    {"name": "Channel NewsAsia", "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml", "cat": "asia"},
-    {"name": "Straits Times", "url": "https://www.straitstimes.com/news/singapore/rss.xml", "cat": "asia"},
 ]
+
+
+# Only publish headlines with a clear connection to abuse, safeguarding, or church accountability.
+# Publisher feeds are discovery inputs, not proof that every item is relevant.
+SPIRITUAL_ABUSE_RE = re.compile(
+    r"\b(spiritual abuse|religious abuse|pastoral abuse|spiritual coercion|religious coercion|"
+    r"abuse of spiritual authority|high[- ]control church)\b", re.IGNORECASE
+)
+ABUSE_CONTEXT_RE = re.compile(
+    r"\b(abus(?:e|ed|ing)|sex(?:ual(?:ly)?)?|misconduct|harass(?:ment)?|assault|coercion|exploitation)\b",
+    re.IGNORECASE,
+)
+CHURCH_CONTEXT_RE = re.compile(
+    r"\b(church|pastor|clergy|bishop|priest|minister|Christian|congregation|denomination|faith)\b",
+    re.IGNORECASE,
+)
+INVESTIGATION_RE = re.compile(
+    r"\b(accus(?:e|es|ed|ation|ations)?|alleg(?:e|es|ed|ation|ations)?|charg(?:e|es|ed)|"
+    r"investigat(?:e|es|ed|ion|ions)|inquir(?:y|ies)|lawsuit|sued|convict(?:ed|ion)|"
+    r"sentenc(?:ed|ing)|fired|removed|resigned|dismissed)\b",
+    re.IGNORECASE,
+)
+SAFEGUARDING_RE = re.compile(
+    r"\b(safeguard(?:ing)?|survivors?|protection policy|independent review|"
+    r"child protection|trauma-informed)\b", re.IGNORECASE
+)
+ACCOUNTABILITY_RE = re.compile(
+    r"\b(accountability|cover[- ]?up|institutional failure|church governance|"
+    r"pastoral misconduct|clergy misconduct|church misconduct)\b", re.IGNORECASE
+)
+
+
+def classify_topic(title: str, summary: str = "") -> str:
+    text = f"{title} {summary}"
+    if SPIRITUAL_ABUSE_RE.search(text):
+        return "spiritual-abuse"
+    if CHURCH_CONTEXT_RE.search(text) and ABUSE_CONTEXT_RE.search(text) and INVESTIGATION_RE.search(text):
+        return "investigations"
+    if CHURCH_CONTEXT_RE.search(text) and SAFEGUARDING_RE.search(text) and (
+        ABUSE_CONTEXT_RE.search(text) or re.search(r"\bsurvivors?\b", text, re.IGNORECASE)
+    ):
+        return "safeguarding"
+    if CHURCH_CONTEXT_RE.search(text) and ACCOUNTABILITY_RE.search(text) and ABUSE_CONTEXT_RE.search(text):
+        return "church-accountability"
+    return ""
+
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 DC = "{http://purl.org/dc/elements/1.1/}"
@@ -106,12 +145,18 @@ def item_from_element(element: ET.Element, source: dict[str, str]) -> dict[str, 
         if not link:
             link = first_text(element, f"{ATOM}id")
         date = first_text(element, f"{ATOM}published", f"{ATOM}updated")
+        summary = clean_text(first_text(element, f"{ATOM}summary", f"{ATOM}content", "summary"), 1200)
     else:
         link = first_text(element, "link")
         date = first_text(element, "pubDate", "published", "updated", f"{DC}date")
+        summary = clean_text(first_text(element, "description", "summary", "{http://purl.org/rss/1.0/modules/content/}encoded"), 1200)
 
     link = unescape(link.strip())
     if not link.startswith("https://"):
+        return None
+
+    topic = classify_topic(title, summary)
+    if not topic:
         return None
 
     return {
@@ -120,6 +165,7 @@ def item_from_element(element: ET.Element, source: dict[str, str]) -> dict[str, 
         "date": normalized_date(date),
         "source": source["name"],
         "cat": source["cat"],
+        "topic": topic,
     }
 
 
