@@ -1,5 +1,16 @@
 # Changelog
 
+## [8.3.0] - 2026-11-12
+
+### Added
+- Added a dedicated Latest News tab with topical filters for spiritual abuse, church accountability, investigations and allegations, and safeguarding/reform.
+
+### Changed
+- Tightened the RSS collector to exclude unrelated general headlines and classify relevant items by topic.
+- Removed the Asia-Pacific search-directory card and the general Religion News Service directory link from Documented Cases.
+- Clarified that Latest News is a discovery feed, not an independently verified case database.
+
+
 Notable changes to Guard the Flock are recorded here. This project uses Semantic Versioning; see [README.md](README.md#versioning).
 
 ## [8.2.0] - 2026-10-20
