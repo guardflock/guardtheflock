@@ -10,15 +10,14 @@ For the automatic commit to work, Actions must be enabled and repository setting
 
 ## Sources and categories
 
-The source registry is the `SOURCES` list in `scripts/update_news.py`. Each source has a display name, feed URL, and category. Supported category values are:
+The source registry is the `SOURCES` list in `scripts/update_news.py`. Each source has a display name, feed URL, and publisher group. The public filters use a topical category assigned to each accepted article. Supported topic values are:
 
-- `accountability`
-- `mainstreamreligion`
-- `evangelical`
-- `catholic`
-- `asia`
+- `spiritual-abuse`
+- `church-accountability`
+- `investigations`
+- `safeguarding`
 
-Each run attempts feeds independently. A publisher timeout, access denial, or malformed feed is recorded as a warning; other publishers can still update. Headlines are limited per source and overall, deduplicated by HTTPS article URL, normalized, and written to `data/news.json`.
+Each run attempts feeds independently. A publisher timeout, access denial, or malformed feed is recorded as a warning; other publishers can still update. The collector evaluates headline and available RSS summary text, excludes items without a clear connection to spiritual abuse, church-related abuse or misconduct, safeguarding, or institutional accountability, and assigns one topical category. Headlines are limited per source and overall, deduplicated by HTTPS article URL, normalized, and written to `data/news.json`. The filter is deliberately conservative: it reduces unrelated headlines but can miss relevant reporting that uses unexpected wording. Inclusion is not verification or endorsement.
 
 If all publishers fail and a previous snapshot exists, the script preserves it. The page displays the snapshot's update time and an error message if neither the local JSON nor the GitHub raw fallback can be read.
 
