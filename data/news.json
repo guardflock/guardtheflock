@@ -1,18 +1,58 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:16:53.530017Z",
+  "updatedAt": "2026-11-12T16:50:32.675714Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
-    "The Roys Report",
-    "ECA Global",
-    "MinistryWatch",
     "Surviving Church",
-    "Abuse Tracker (Bishop Accountability)"
+    "The Roys Report",
+    "MinistryWatch",
+    "Abuse Tracker (Bishop Accountability)",
+    "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 15,
+  "itemCount": 19,
   "items": [
+    {
+      "title": "Letter to Pope Leo about Clergy Sex Abuse in Chiclayo, Peru",
+      "link": "https://www.bishop-accountability.org/2026/11/letter-to-pope-leo/",
+      "date": "2026-11-12T15:38:13Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Sodalicio victims ask Pope Leo XIV for a meeting in Peru — Tagesschau",
+      "link": "https://www.bishop-accountability.org/2026/11/sodalicio-victims-ask-pope-leo-xiv-for-a-meeting-in-peru-tagesschau/",
+      "date": "2026-11-12T14:55:05Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Dallas criminal case stalls for ex-priest accused of child sex abuse. Victims want to know why",
+      "link": "https://www.bishop-accountability.org/2026/11/dallas-criminal-case-stalls-for-ex-priest-accused-of-child-sex-abuse-victims-want-to-know-why/",
+      "date": "2026-11-12T14:47:35Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Dallas priest case brings attention to practice of housing troubled clergy in treatment centers",
+      "link": "https://www.bishop-accountability.org/2026/11/dallas-priest-case-brings-attention-to-practice-of-housing-troubled-clergy-in-treatment-centers/",
+      "date": "2026-11-12T14:39:12Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "US files Quiboloy extradition bid before a Manila court over human, sex trafficking, cash-smuggling charges",
+      "link": "https://www.bishop-accountability.org/2026/11/us-files-quiboloy-extradition-bid-before-a-manila-court-over-human-sex-trafficking-cash-smuggling-charges/",
+      "date": "2026-11-12T14:27:49Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "Judge tosses all charges in Pawleys Island case",
       "link": "https://roysreport.com/judge-tosses-all-charges-in-pawleys-island-case/",
@@ -34,14 +74,6 @@
       "link": "https://www.ecaglobal.org/43-women-decades-of-alleged-exploitation-eca-calls-on-pope-leo-xiv-to-confront-the-opus-dei-case/",
       "date": "2026-11-11T15:12:57Z",
       "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Vatican investigation into the Sodalitium reveals ovary removals and the use of psychiatric drugs to ‘treat’ homosexuality",
-      "link": "https://www.bishop-accountability.org/2026/11/vatican-investigation-into-the-sodalitium-reveals-ovary-removals-and-the-use-of-psychiatric-drugs-to-treat-homosexuality/",
-      "date": "2026-11-11T14:07:47Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
     },
