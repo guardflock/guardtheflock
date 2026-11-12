@@ -1,9 +1,46 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-11T22:46:07.814723Z",
-  "sourcesUpdated": 0,
-  "sources": [],
-  "sourceCount": 24,
-  "itemCount": 0,
-  "items": []
+  "sourcesUpdated": 3,
+  "sources": [
+    "ECA Global",
+    "MinistryWatch",
+    "The Roys Report"
+  ],
+  "sourceCount": 17,
+  "itemCount": 4,
+  "items": [
+    {
+      "title": "From Secrecy to Accountability: ECA Challenges the Church’s Approach to Abuse Survivors in Buenos Aires",
+      "link": "https://www.ecaglobal.org/from-secrecy-to-accountability-eca-challenges-the-churchs-approach-to-abuse-survivors-in-buenos-aires/",
+      "date": "2026-11-11T15:19:27Z",
+      "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Four Women Accuse North Point Community Church Contractor of Sex Abuse Andy Stanley’s Georgia megachurch says it responded appropriately after hearing the accusations.",
+      "link": "https://ministrywatch.com/four-women-accuse-north-point-community-church-contractor-of-sex-abuse/",
+      "date": "2026-11-11T03:29:11Z",
+      "source": "MinistryWatch",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Former Arizona pastor accused of sexually abusing 8-year-old",
+      "link": "https://roysreport.com/former-arizona-pastor-accused-of-sexually-abusing-8-year-old/",
+      "date": "2026-11-09T22:05:10Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "OH Megachurch Pastor Fired Over Sexual Misconduct Accusations Pastor Lonnie Snell removed over “sexual misconduct with a subordinate.”",
+      "link": "https://ministrywatch.com/oh-megachurch-pastor-fired-over-sexual-misconduct-accusations/",
+      "date": "2026-11-06T23:23:35Z",
+      "source": "MinistryWatch",
+      "cat": "accountability",
+      "topic": "investigations"
+    }
+  ]
 }
