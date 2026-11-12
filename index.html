@@ -3181,8 +3181,18 @@ footer {
       return;
     }
 
-    // Direct tab links, e.g. /#discern or /#cases.
-    if (activateTab(hash, false)) return;
+    // Direct tab links, e.g. /#understand, /#discern or /#cases.
+    if (activateTab(hash, false)) {
+      if (shouldScroll) {
+        requestAnimationFrame(function() {
+          requestAnimationFrame(function() {
+            const nav = document.querySelector('.nav-tabs');
+            if (nav) nav.scrollIntoView({ behavior: 'auto', block: 'start' });
+          });
+        });
+      }
+      return;
+    }
 
     // Preserve deep links to specific content within a tab.
     const target = document.getElementById(hash);
