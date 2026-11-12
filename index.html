@@ -3140,71 +3140,90 @@ footer {
 </div>
 
 <script>
-  // Tab navigation
+  // Tab navigation: keep the selected section in the URL.
   const tabs = document.querySelectorAll('.nav-tab');
   const panels = document.querySelectorAll('.section');
+
+  function activateTab(tabKey, updateUrl) {
+    const button = document.querySelector('.nav-tab[data-tab="' + tabKey + '"]');
+    if (!button) return false;
+
+    tabs.forEach(t => {
+      t.classList.remove('active');
+      t.setAttribute('aria-selected', 'false');
+    });
+    panels.forEach(panel => panel.classList.remove('active'));
+
+    button.classList.add('active');
+    button.setAttribute('aria-selected', 'true');
+
+    const panel = document.getElementById('tab-' + tabKey);
+    if (panel) panel.classList.add('active');
+
+    if (updateUrl && window.location.hash !== '#' + tabKey) {
+      history.pushState({ gtfTab: tabKey }, '', '#' + tabKey);
+    }
+    return true;
+  }
 
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
       const target = tab.dataset.tab;
-      if (!target) return;
-      tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
-      panels.forEach(p => p.classList.remove('active'));
-      tab.classList.add('active');
-      tab.setAttribute('aria-selected', 'true');
-      const panel = document.getElementById('tab-' + target);
-      if (panel) panel.classList.add('active');
-
-      // Remember tab
-      try { localStorage.setItem('gtf-tab', target); } catch(e) {}
+      if (target) activateTab(target, true);
     });
   });
 
+  function activateFromLocation(shouldScroll) {
+    const hash = decodeURIComponent(window.location.hash.slice(1));
+    if (!hash) {
+      // A normal visit to the homepage always starts at Understand.
+      activateTab('understand', false);
+      return;
+    }
+
+    // Direct tab links, e.g. /#discern or /#cases.
+    if (activateTab(hash, false)) return;
+
+    // Preserve deep links to specific content within a tab.
+    const target = document.getElementById(hash);
+    if (target) {
+      const panel = target.closest('.section[id^="tab-"]');
+      if (panel) {
+        const tabKey = panel.id.replace('tab-', '');
+        if (activateTab(tabKey, false) && shouldScroll) {
+          requestAnimationFrame(function() {
+            requestAnimationFrame(function() {
+              target.scrollIntoView({ behavior: 'auto', block: 'start' });
+            });
+          });
+        }
+        return;
+      }
+    }
+
+    // Unknown hashes should not leave the visitor on a stale tab.
+    activateTab('understand', false);
+  }
+
   function navigateToSection(tabKey, targetId) {
-    const button = document.querySelector('[data-tab="' + tabKey + '"]');
     const target = document.getElementById(targetId);
-    if (!button || !target) return true;
-    button.click();
+    if (!target || !activateTab(tabKey, true)) return true;
+
     requestAnimationFrame(function() {
       requestAnimationFrame(function() {
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        if (history.replaceState) history.replaceState(null, '', '#' + targetId);
+        // Replace the tab hash with the more specific deep-link anchor.
+        if (history.replaceState) history.replaceState({ gtfTab: tabKey }, '', '#' + targetId);
       });
     });
     return false;
   }
 
-  // Restore remembered tab or activate tab for a deep-link anchor
-  (function() {
-    // 1. If URL has a #hash, find which tab contains that anchor and activate it
-    const hash = window.location.hash.slice(1);
-    if (hash) {
-      const target = document.getElementById(hash);
-      if (target) {
-        const panel = target.closest('.section[id^="tab-"]');
-        if (panel) {
-          const tabKey = panel.id.replace('tab-', '');
-          const btn = document.querySelector('[data-tab="' + tabKey + '"]');
-          if (btn) {
-            btn.click();
-            // Let the DOM settle, then scroll to the anchor
-            requestAnimationFrame(function() {
-              requestAnimationFrame(function() { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
-            });
-            return; // skip localStorage restore so the anchor wins
-          }
-        }
-      }
-    }
-    // 2. Fall back to remembered tab
-    try {
-      const saved = localStorage.getItem('gtf-tab');
-      if (saved) {
-        const t = document.querySelector('[data-tab="' + saved + '"]');
-        if (t) t.click();
-      }
-    } catch(e) {}
-  })();
+  // Support browser back/forward and direct links on page load.
+  window.addEventListener('popstate', function() {
+    activateFromLocation(true);
+  });
+  activateFromLocation(true);
 
   // ── Case library filter ──────────────────────────────────────────────────
   (function() {
