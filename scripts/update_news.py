@@ -52,30 +52,30 @@ SOURCES = [
 # Only publish headlines with a clear connection to abuse, safeguarding, or church accountability.
 # Publisher feeds are discovery inputs, not proof that every item is relevant.
 SPIRITUAL_ABUSE_RE = re.compile(
-    r"\\b(spiritual abuse|religious abuse|pastoral abuse|spiritual coercion|religious coercion|"
-    r"abuse of spiritual authority|high[- ]control church)\\b", re.IGNORECASE
+    r"\b(spiritual abuse|religious abuse|pastoral abuse|spiritual coercion|religious coercion|"
+    r"abuse of spiritual authority|high[- ]control church)\b", re.IGNORECASE
 )
 ABUSE_CONTEXT_RE = re.compile(
-    r"\\b(abuse|sexual|misconduct|harass(?:ment)?|assault|coercion|exploitation)\\b",
+    r"\b(abus(?:e|ed|ing)|sex(?:ual(?:ly)?)?|misconduct|harass(?:ment)?|assault|coercion|exploitation)\b",
     re.IGNORECASE,
 )
 CHURCH_CONTEXT_RE = re.compile(
-    r"\\b(church|pastor|clergy|bishop|priest|minister|Christian|congregation|denomination|faith)\\b",
+    r"\b(church|pastor|clergy|bishop|priest|minister|Christian|congregation|denomination|faith)\b",
     re.IGNORECASE,
 )
 INVESTIGATION_RE = re.compile(
-    r"\\b(accus(?:e|es|ed|ation|ations)?|alleg(?:e|es|ed|ation|ations)?|charg(?:e|es|ed)|"
+    r"\b(accus(?:e|es|ed|ation|ations)?|alleg(?:e|es|ed|ation|ations)?|charg(?:e|es|ed)|"
     r"investigat(?:e|es|ed|ion|ions)|inquir(?:y|ies)|lawsuit|sued|convict(?:ed|ion)|"
-    r"sentenc(?:ed|ing)|fired|removed|resigned|dismissed)\\b",
+    r"sentenc(?:ed|ing)|fired|removed|resigned|dismissed)\b",
     re.IGNORECASE,
 )
 SAFEGUARDING_RE = re.compile(
-    r"\\b(safeguard(?:ing)?|survivors?|protection policy|independent review|"
-    r"child protection|trauma-informed)\\b", re.IGNORECASE
+    r"\b(safeguard(?:ing)?|survivors?|protection policy|independent review|"
+    r"child protection|trauma-informed)\b", re.IGNORECASE
 )
 ACCOUNTABILITY_RE = re.compile(
-    r"\\b(accountability|cover[- ]?up|institutional failure|church governance|"
-    r"pastoral misconduct|clergy misconduct|church misconduct)\\b", re.IGNORECASE
+    r"\b(accountability|cover[- ]?up|institutional failure|church governance|"
+    r"pastoral misconduct|clergy misconduct|church misconduct)\b", re.IGNORECASE
 )
 
 
@@ -86,7 +86,7 @@ def classify_topic(title: str, summary: str = "") -> str:
     if CHURCH_CONTEXT_RE.search(text) and ABUSE_CONTEXT_RE.search(text) and INVESTIGATION_RE.search(text):
         return "investigations"
     if CHURCH_CONTEXT_RE.search(text) and SAFEGUARDING_RE.search(text) and (
-        ABUSE_CONTEXT_RE.search(text) or re.search(r"\\bsurvivors?\\b", text, re.IGNORECASE)
+        ABUSE_CONTEXT_RE.search(text) or re.search(r"\bsurvivors?\b", text, re.IGNORECASE)
     ):
         return "safeguarding"
     if CHURCH_CONTEXT_RE.search(text) and ACCOUNTABILITY_RE.search(text) and ABUSE_CONTEXT_RE.search(text):
