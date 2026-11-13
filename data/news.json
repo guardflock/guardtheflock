@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T01:08:13.681838Z",
-  "sourcesUpdated": 6,
+  "updatedAt": "2026-11-13T12:16:51.751599Z",
+  "sourcesUpdated": 5,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
     "Abuse Tracker (Bishop Accountability)",
-    "ECA Global",
-    "MinistryWatch"
+    "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 18,
+  "itemCount": 16,
   "items": [
     {
       "title": "Former Colorado youth pastor sentenced to 18 years for child sexual assault",
@@ -82,22 +81,6 @@
       "link": "https://www.ecaglobal.org/43-women-decades-of-alleged-exploitation-eca-calls-on-pope-leo-xiv-to-confront-the-opus-dei-case/",
       "date": "2026-11-11T15:12:57Z",
       "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Four Women Accuse North Point Community Church Contractor of Sex Abuse Andy Stanley’s Georgia megachurch says it responded appropriately after hearing the accusations.",
-      "link": "https://ministrywatch.com/four-women-accuse-north-point-community-church-contractor-of-sex-abuse/",
-      "date": "2026-11-11T03:29:11Z",
-      "source": "MinistryWatch",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Keesee Convicted on 27 Counts Faith Life leaders face renewed calls to step down.",
-      "link": "https://ministrywatch.com/keesee-convicted-on-27-counts/",
-      "date": "2026-11-10T21:18:11Z",
-      "source": "MinistryWatch",
       "cat": "accountability",
       "topic": "investigations"
     },
