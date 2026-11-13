@@ -1,62 +1,55 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T12:16:51.751599Z",
-  "sourcesUpdated": 5,
+  "updatedAt": "2026-11-13T19:52:46.400296Z",
+  "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
-    "The Roys Report",
     "Abuse Tracker (Bishop Accountability)",
-    "ECA Global"
+    "The Roys Report",
+    "ECA Global",
+    "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 16,
+  "itemCount": 15,
   "items": [
     {
-      "title": "Former Colorado youth pastor sentenced to 18 years for child sexual assault",
-      "link": "https://roysreport.com/former-colorado-youth-pastor-sentenced-to-18-years-for-child-sexual-assault/",
-      "date": "2026-11-13T01:01:42Z",
-      "source": "The Roys Report",
+      "title": "Watchdog in letter to Pope Leo: End cover-up in your former diocese",
+      "link": "https://www.bishop-accountability.org/2026/11/watchdog-in-letter-to-pope-leo-end-cover-up-in-your-former-diocese-of-chiclayo/",
+      "date": "2026-11-13T15:36:00Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
     },
     {
-      "title": "Letter to Pope Leo about Clergy Sex Abuse in Chiclayo, Peru",
-      "link": "https://www.bishop-accountability.org/2026/11/letter-to-pope-leo/",
-      "date": "2026-11-12T15:38:13Z",
+      "title": "Pope Leo meets with abuse survivors in Peru",
+      "link": "https://www.bishop-accountability.org/2026/11/pope-leo-meets-with-abuse-survivors-in-peru/",
+      "date": "2026-11-13T15:08:32Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "safeguarding"
     },
     {
-      "title": "Sodalicio victims ask Pope Leo XIV for a meeting in Peru — Tagesschau",
-      "link": "https://www.bishop-accountability.org/2026/11/sodalicio-victims-ask-pope-leo-xiv-for-a-meeting-in-peru-tagesschau/",
-      "date": "2026-11-12T14:55:05Z",
+      "title": "Pope Leo mulls changes in how Church treats abuse victims in Peru meeting",
+      "link": "https://www.bishop-accountability.org/2026/11/pope-leo-mulls-changes-in-how-church-treats-abuse-victims-in-peru-meeting/",
+      "date": "2026-11-13T14:53:49Z",
       "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Ep. 666: North Point Community Church, Teen Challenge, New Life Chapel and Lonnie Snell, Pastors and Planes",
+      "link": "https://ministrywatch.com/ep-666-north-point-community-church-teen-challenge-new-life-chapel-and-lonnie-snell-pastors-and-planes/",
+      "date": "2026-11-13T06:04:10Z",
+      "source": "MinistryWatch",
       "cat": "accountability",
       "topic": "investigations"
     },
     {
-      "title": "Dallas criminal case stalls for ex-priest accused of child sex abuse. Victims want to know why",
-      "link": "https://www.bishop-accountability.org/2026/11/dallas-criminal-case-stalls-for-ex-priest-accused-of-child-sex-abuse-victims-want-to-know-why/",
-      "date": "2026-11-12T14:47:35Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Dallas priest case brings attention to practice of housing troubled clergy in treatment centers",
-      "link": "https://www.bishop-accountability.org/2026/11/dallas-priest-case-brings-attention-to-practice-of-housing-troubled-clergy-in-treatment-centers/",
-      "date": "2026-11-12T14:39:12Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "US files Quiboloy extradition bid before a Manila court over human, sex trafficking, cash-smuggling charges",
-      "link": "https://www.bishop-accountability.org/2026/11/us-files-quiboloy-extradition-bid-before-a-manila-court-over-human-sex-trafficking-cash-smuggling-charges/",
-      "date": "2026-11-12T14:27:49Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
+      "title": "Former Colorado youth pastor sentenced to 18 years for child sexual assault",
+      "link": "https://roysreport.com/former-colorado-youth-pastor-sentenced-to-18-years-for-child-sexual-assault/",
+      "date": "2026-11-13T01:01:42Z",
+      "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
     },
