@@ -1,18 +1,26 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T16:50:32.675714Z",
+  "updatedAt": "2026-11-13T01:08:13.681838Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
-    "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
-    "ECA Global"
+    "ECA Global",
+    "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 19,
+  "itemCount": 18,
   "items": [
+    {
+      "title": "Former Colorado youth pastor sentenced to 18 years for child sexual assault",
+      "link": "https://roysreport.com/former-colorado-youth-pastor-sentenced-to-18-years-for-child-sexual-assault/",
+      "date": "2026-11-13T01:01:42Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "Letter to Pope Leo about Clergy Sex Abuse in Chiclayo, Peru",
       "link": "https://www.bishop-accountability.org/2026/11/letter-to-pope-leo/",
@@ -90,22 +98,6 @@
       "link": "https://ministrywatch.com/keesee-convicted-on-27-counts/",
       "date": "2026-11-10T21:18:11Z",
       "source": "MinistryWatch",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Russell Brand gets 10 1/2 years for rape and sexual assault",
-      "link": "https://roysreport.com/russell-brand-gets-10-1-2-years-for-rape-and-sexual-assault/",
-      "date": "2026-11-09T22:09:27Z",
-      "source": "The Roys Report",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Former Arizona pastor accused of sexually abusing 8-year-old",
-      "link": "https://roysreport.com/former-arizona-pastor-accused-of-sexually-abusing-8-year-old/",
-      "date": "2026-11-09T22:05:10Z",
-      "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
     },
