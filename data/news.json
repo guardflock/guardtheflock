@@ -1,18 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T11:32:40.131920Z",
+  "updatedAt": "2026-11-14T18:09:57.629455Z",
   "sourcesUpdated": 6,
   "sources": [
-    "Abuse Tracker (Bishop Accountability)",
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
+    "Abuse Tracker (Bishop Accountability)",
     "ECA Global",
     "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 16,
+  "itemCount": 15,
   "items": [
+    {
+      "title": "In Peru, some Sodalitium abuse survivors want more from Leo",
+      "link": "https://www.bishop-accountability.org/2026/11/in-peru-some-sodalitium-abuse-survivors-want-more-from-leo/",
+      "date": "2026-11-14T14:55:15Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Pope Leo confronts Catholic Church sexual abuse scandal in Peru",
+      "link": "https://www.bishop-accountability.org/2026/11/pope-leo-confronts-catholic-church-sexual-abuse-scandal-in-peru/",
+      "date": "2026-11-14T14:50:07Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Brother of key LDS apostle asks for leniency ahead of his sentencing for sending sexually explicit letters",
+      "link": "https://www.bishop-accountability.org/2026/11/brother-of-key-lds-apostle-asks-for-leniency-ahead-of-his-sentencing-for-sending-sexually-explicit-letters/",
+      "date": "2026-11-14T14:39:15Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "Whistleblower suspects Cornerstone held phantom meetings to update bylaws",
       "link": "https://roysreport.com/whistleblower-suspects-cornerstone-held-phantom-meetings-to-update-bylaws/",
@@ -20,30 +44,6 @@
       "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
-    },
-    {
-      "title": "Watchdog in letter to Pope Leo: End cover-up in your former diocese",
-      "link": "https://www.bishop-accountability.org/2026/11/watchdog-in-letter-to-pope-leo-end-cover-up-in-your-former-diocese-of-chiclayo/",
-      "date": "2026-11-13T15:36:00Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Pope Leo meets with abuse survivors in Peru",
-      "link": "https://www.bishop-accountability.org/2026/11/pope-leo-meets-with-abuse-survivors-in-peru/",
-      "date": "2026-11-13T15:08:32Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "Pope Leo mulls changes in how Church treats abuse victims in Peru meeting",
-      "link": "https://www.bishop-accountability.org/2026/11/pope-leo-mulls-changes-in-how-church-treats-abuse-victims-in-peru-meeting/",
-      "date": "2026-11-13T14:53:49Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "safeguarding"
     },
     {
       "title": "Ep. 666: North Point Community Church, Teen Challenge, New Life Chapel and Lonnie Snell, Pastors and Planes",
@@ -124,14 +124,6 @@
       "source": "ECA Global",
       "cat": "accountability",
       "topic": "safeguarding"
-    },
-    {
-      "title": "Clerical Sexual Violence in Ecuador: Mapping Impunity",
-      "link": "https://www.ecaglobal.org/clerical-sexual-violence-in-ecuador-mapping-impunity/",
-      "date": "2025-09-05T15:01:17Z",
-      "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "investigations"
     },
     {
       "title": "Spiritual Headship was Spiritual Abuse in My Family",
