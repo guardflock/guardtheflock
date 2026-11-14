@@ -1,18 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T18:09:57.629455Z",
+  "updatedAt": "2026-11-14T23:57:17.540699Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
-    "Surviving Church",
     "The Roys Report",
-    "Abuse Tracker (Bishop Accountability)",
     "ECA Global",
-    "MinistryWatch"
+    "Surviving Church",
+    "MinistryWatch",
+    "Abuse Tracker (Bishop Accountability)"
   ],
   "sourceCount": 17,
-  "itemCount": 15,
+  "itemCount": 16,
   "items": [
+    {
+      "title": "From Apologies to Justice: ECA Stands with Catacaos Community During Pope Leo XIV’s Visit to Peru",
+      "link": "https://www.ecaglobal.org/from-apologies-to-justice-eca-stands-with-catacaos-community-during-pope-leo-xivs-visit-to-peru/",
+      "date": "2026-11-14T18:18:33Z",
+      "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "From Apologies to Justice: ECA Stands with Catacaos During Pope Leo XIV’s Visit to Peru",
+      "link": "https://www.ecaglobal.org/4341-2/",
+      "date": "2026-11-14T18:09:29Z",
+      "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
     {
       "title": "In Peru, some Sodalitium abuse survivors want more from Leo",
       "link": "https://www.bishop-accountability.org/2026/11/in-peru-some-sodalitium-abuse-survivors-want-more-from-leo/",
@@ -113,14 +129,6 @@
       "title": "ECA Global Holds Historic Meeting with Pope at the Vatican",
       "link": "https://www.ecaglobal.org/4132-2/",
       "date": "2025-10-20T12:41:47Z",
-      "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "As Patriarch Bartholomew receives environmental prize tonight, Orthodox survivors & advocates call him out for ignoring clergy-perpetrated sexual abuse in Eastern Orthodoxy",
-      "link": "https://www.ecaglobal.org/as-patriarch-bartholomew-receives-environmental-prize-tonight-orthodox-survivors-advocates-call-him-out-for-ignoring-clergy-perpetrated-sexual-abuse-in-eastern-orthodoxy/",
-      "date": "2025-09-24T14:47:02Z",
       "source": "ECA Global",
       "cat": "accountability",
       "topic": "safeguarding"
