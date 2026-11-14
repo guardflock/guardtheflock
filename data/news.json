@@ -1,18 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T19:52:46.400296Z",
-  "sourcesUpdated": 6,
+  "updatedAt": "2026-11-14T00:54:37.004179Z",
+  "sourcesUpdated": 5,
   "sources": [
     "Spiritual Sounding Board",
-    "Surviving Church",
-    "Abuse Tracker (Bishop Accountability)",
     "The Roys Report",
     "ECA Global",
+    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 15,
+  "itemCount": 14,
   "items": [
+    {
+      "title": "Whistleblower suspects Cornerstone held phantom meetings to update bylaws",
+      "link": "https://roysreport.com/whistleblower-suspects-cornerstone-held-phantom-meetings-to-update-bylaws/",
+      "date": "2026-11-14T00:20:55Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "Watchdog in letter to Pope Leo: End cover-up in your former diocese",
       "link": "https://www.bishop-accountability.org/2026/11/watchdog-in-letter-to-pope-leo-end-cover-up-in-your-former-diocese-of-chiclayo/",
@@ -74,22 +81,6 @@
       "link": "https://www.ecaglobal.org/43-women-decades-of-alleged-exploitation-eca-calls-on-pope-leo-xiv-to-confront-the-opus-dei-case/",
       "date": "2026-11-11T15:12:57Z",
       "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "How Untreated Boarding School Survivors Have Run and Harmed the Church",
-      "link": "https://survivingchurch.org/2026/10/30/how-untreated-boarding-school-survivors-have-run-and-harmed-the-church/?utm_source=rss&utm_medium=rss&utm_campaign=how-untreated-boarding-school-survivors-have-run-and-harmed-the-church",
-      "date": "2026-10-30T10:34:16Z",
-      "source": "Surviving Church",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "Journeying with Fr Mark: A PCC Member’s Testimony on Institutional Cruelty",
-      "link": "https://survivingchurch.org/2026/09/25/journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty/?utm_source=rss&utm_medium=rss&utm_campaign=journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty",
-      "date": "2026-09-25T09:03:18Z",
-      "source": "Surviving Church",
       "cat": "accountability",
       "topic": "investigations"
     },
