@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T00:54:37.004179Z",
-  "sourcesUpdated": 5,
+  "updatedAt": "2026-11-14T11:32:40.131920Z",
+  "sourcesUpdated": 6,
   "sources": [
+    "Abuse Tracker (Bishop Accountability)",
     "Spiritual Sounding Board",
+    "Surviving Church",
     "The Roys Report",
     "ECA Global",
-    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 14,
+  "itemCount": 16,
   "items": [
     {
       "title": "Whistleblower suspects Cornerstone held phantom meetings to update bylaws",
@@ -81,6 +82,22 @@
       "link": "https://www.ecaglobal.org/43-women-decades-of-alleged-exploitation-eca-calls-on-pope-leo-xiv-to-confront-the-opus-dei-case/",
       "date": "2026-11-11T15:12:57Z",
       "source": "ECA Global",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "How Untreated Boarding School Survivors Have Run and Harmed the Church",
+      "link": "https://survivingchurch.org/2026/10/30/how-untreated-boarding-school-survivors-have-run-and-harmed-the-church/?utm_source=rss&utm_medium=rss&utm_campaign=how-untreated-boarding-school-survivors-have-run-and-harmed-the-church",
+      "date": "2026-10-30T10:34:16Z",
+      "source": "Surviving Church",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Journeying with Fr Mark: A PCC Member’s Testimony on Institutional Cruelty",
+      "link": "https://survivingchurch.org/2026/09/25/journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty/?utm_source=rss&utm_medium=rss&utm_campaign=journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty",
+      "date": "2026-09-25T09:03:18Z",
+      "source": "Surviving Church",
       "cat": "accountability",
       "topic": "investigations"
     },
