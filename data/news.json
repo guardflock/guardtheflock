@@ -1,18 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T06:40:19.540655Z",
+  "updatedAt": "2026-11-15T15:41:19.178772Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
-    "ECA Global",
+    "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch"
+    "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 16,
+  "itemCount": 18,
   "items": [
+    {
+      "title": "SNAP Demands the Pope Make Public Records of Peruvian Sexual Abuse",
+      "link": "https://www.bishop-accountability.org/2026/11/snap-demands-the-pope-make-public-records-of-peruvian-sexual-abuse/",
+      "date": "2026-11-15T13:37:29Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "The Catholic Church’s Abuse Scandal: Has Anything Really Changed?",
+      "link": "https://www.bishop-accountability.org/2026/11/the-catholic-churchs-abuse-scandal-has-anything-really-changed/",
+      "date": "2026-11-15T13:29:25Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Belize Catholic Diocese Reviews Records of Priest Convicted of over 100 Sex Offences",
+      "link": "https://www.bishop-accountability.org/2026/11/belize-catholic-diocese-reviews-records-of-priest-convicted-of-over-100-sex-offences/",
+      "date": "2026-11-15T13:23:30Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Bishop Robert J. Mc Manus must release immediately the canon law 489 secret files of sexually abusive priests and religious in the Worcester, MA, Diocese",
+      "link": "https://www.bishop-accountability.org/2026/11/bishop-robert-j-mc-manus-must-release-immediately-the-canon-law-489-secret-files-of-sexually-abusive-priests-and-religious-in-the-worcester-ma-diocese/",
+      "date": "2026-11-15T13:08:21Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
     {
       "title": "From Apologies to Justice: ECA Stands with Catacaos Community During Pope Leo XIV’s Visit to Peru",
       "link": "https://www.ecaglobal.org/from-apologies-to-justice-eca-stands-with-catacaos-community-during-pope-leo-xivs-visit-to-peru/",
@@ -36,22 +68,6 @@
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "safeguarding"
-    },
-    {
-      "title": "Pope Leo confronts Catholic Church sexual abuse scandal in Peru",
-      "link": "https://www.bishop-accountability.org/2026/11/pope-leo-confronts-catholic-church-sexual-abuse-scandal-in-peru/",
-      "date": "2026-11-14T14:50:07Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "Brother of key LDS apostle asks for leniency ahead of his sentencing for sending sexually explicit letters",
-      "link": "https://www.bishop-accountability.org/2026/11/brother-of-key-lds-apostle-asks-for-leniency-ahead-of-his-sentencing-for-sending-sexually-explicit-letters/",
-      "date": "2026-11-14T14:39:15Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
     },
     {
       "title": "Whistleblower suspects Cornerstone held phantom meetings to update bylaws",
