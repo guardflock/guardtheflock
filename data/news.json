@@ -1,18 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T18:36:56.720146Z",
+  "updatedAt": "2026-11-17T02:57:36.709677Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
+    "ECA Global",
     "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch",
-    "ECA Global"
+    "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 19,
+  "itemCount": 20,
   "items": [
+    {
+      "title": "‘We need accountability’ — 3 women allege Chicago-area Salvation Army covered up child sex abuse",
+      "link": "https://roysreport.com/we-need-accountability-3-women-allege-chicago-area-salvation-army-covered-up-child-sex-abuse/",
+      "date": "2026-11-17T01:45:44Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "‘Terrible, terrible tragedy’: Pastor who got life was raised in small Florida church where abuse occurred",
+      "link": "https://roysreport.com/terrible-terrible-tragedy-pastor-who-got-life-was-raised-in-small-florida-church-where-abuse-occurred/",
+      "date": "2026-11-16T22:28:52Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "For Native American boarding school survivors, truth and healing cannot wait",
       "link": "https://www.bishop-accountability.org/2026/11/for-native-american-boarding-school-survivors-truth-and-healing-cannot-wait/",
@@ -97,14 +113,6 @@
       "title": "Former Colorado youth pastor sentenced to 18 years for child sexual assault",
       "link": "https://roysreport.com/former-colorado-youth-pastor-sentenced-to-18-years-for-child-sexual-assault/",
       "date": "2026-11-13T01:01:42Z",
-      "source": "The Roys Report",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Judge tosses all charges in Pawleys Island case",
-      "link": "https://roysreport.com/judge-tosses-all-charges-in-pawleys-island-case/",
-      "date": "2026-11-11T23:24:06Z",
       "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
