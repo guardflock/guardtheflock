@@ -1,18 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T02:57:36.709677Z",
+  "updatedAt": "2026-11-17T13:31:08.703930Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
-    "Surviving Church",
     "The Roys Report",
-    "ECA Global",
     "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch"
+    "MinistryWatch",
+    "Surviving Church",
+    "ECA Global"
   ],
   "sourceCount": 17,
   "itemCount": 20,
   "items": [
+    {
+      "title": "Leo XIV: The road from Buenos Aires to Lima",
+      "link": "https://www.bishop-accountability.org/2026/11/leo-xiv-the-road-from-buenos-aires-to-lima/",
+      "date": "2026-11-17T12:54:00Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "‘Name him’: Clergy abuse survivors call on church to identify N.L. priest sent for treatment in 1975",
+      "link": "https://www.bishop-accountability.org/2026/11/name-him-clergy-abuse-survivors-call-on-church-to-identify-n-l-priest-sent-for-treatment-in-1975/",
+      "date": "2026-11-17T12:52:16Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Hungarian priest was removed by Pope Francis himself for abusing minors, still works around children",
+      "link": "https://www.bishop-accountability.org/2026/11/hungarian-priest-was-removed-by-pope-francis-himself-for-abusing-minors-still-works-around-children/",
+      "date": "2026-11-17T12:29:04Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "‘We need accountability’ — 3 women allege Chicago-area Salvation Army covered up child sex abuse",
       "link": "https://roysreport.com/we-need-accountability-3-women-allege-chicago-area-salvation-army-covered-up-child-sex-abuse/",
@@ -49,30 +73,6 @@
       "title": "Convicted Lafayette priest faces new abuse lawsuit as prison release approaches",
       "link": "https://www.bishop-accountability.org/2026/11/convicted-lafayette-priest-faces-new-abuse-lawsuit-as-prison-release-approaches/",
       "date": "2026-11-16T14:01:28Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Wes Fang blasts Labor over Catholic Church sexual abuse law loophole",
-      "link": "https://www.bishop-accountability.org/2026/11/wes-fang-blasts-labor-over-catholic-church-sexual-abuse-law-loophole/",
-      "date": "2026-11-16T13:59:50Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Mangaluru priest accused of abusing boys: What did the church know?",
-      "link": "https://www.bishop-accountability.org/2026/11/mangaluru-priest-accused-of-abusing-boys-what-did-the-church-know/",
-      "date": "2026-11-16T13:57:47Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Catholic Prelates raise concerns over alleged sexual abuse of minors in schools",
-      "link": "https://www.bishop-accountability.org/2026/11/catholic-prelates-raise-concerns-over-alleged-sexual-abuse-of-minors-in-schools/",
-      "date": "2026-11-16T13:50:23Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
