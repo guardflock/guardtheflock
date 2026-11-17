@@ -1,18 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T13:31:08.703930Z",
+  "updatedAt": "2026-11-17T23:31:59.314613Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
-    "The Roys Report",
-    "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch",
     "Surviving Church",
-    "ECA Global"
+    "The Roys Report",
+    "ECA Global",
+    "Abuse Tracker (Bishop Accountability)",
+    "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 20,
+  "itemCount": 22,
   "items": [
+    {
+      "title": "Itinerant Baptist minister sentenced to 3 life terms for child sexual abuse; wife gets 25 years",
+      "link": "https://roysreport.com/itinerant-baptist-minister-sentenced-to-3-life-terms-for-child-sexual-abuse-wife-gets-25-years/",
+      "date": "2026-11-17T21:05:10Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Assemblies of God invokes First Amendment to shield top leader from questioning in abuse case",
+      "link": "https://roysreport.com/assemblies-of-god-invokes-first-amendment-to-shield-top-leader-from-questioning-in-abuse-case/",
+      "date": "2026-11-17T20:09:55Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Judge Dismisses Charges Against Pawleys Island Church Leaders Magistrate rules evidence fell short in child endangerment case involving a convicted sex offender.",
+      "link": "https://ministrywatch.com/judge-dismisses-charges-against-pawleys-island-church-leaders/",
+      "date": "2026-11-17T13:35:49Z",
+      "source": "MinistryWatch",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "Leo XIV: The road from Buenos Aires to Lima",
       "link": "https://www.bishop-accountability.org/2026/11/leo-xiv-the-road-from-buenos-aires-to-lima/",
@@ -106,14 +130,6 @@
       "link": "https://ministrywatch.com/ep-666-north-point-community-church-teen-challenge-new-life-chapel-and-lonnie-snell-pastors-and-planes/",
       "date": "2026-11-13T06:04:10Z",
       "source": "MinistryWatch",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Former Colorado youth pastor sentenced to 18 years for child sexual assault",
-      "link": "https://roysreport.com/former-colorado-youth-pastor-sentenced-to-18-years-for-child-sexual-assault/",
-      "date": "2026-11-13T01:01:42Z",
-      "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
     },
