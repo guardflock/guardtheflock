@@ -1,30 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T23:31:59.314613Z",
+  "updatedAt": "2026-11-18T07:35:29.347388Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
     "ECA Global",
-    "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch"
+    "MinistryWatch",
+    "Abuse Tracker (Bishop Accountability)"
   ],
   "sourceCount": 17,
   "itemCount": 22,
   "items": [
     {
-      "title": "Itinerant Baptist minister sentenced to 3 life terms for child sexual abuse; wife gets 25 years",
-      "link": "https://roysreport.com/itinerant-baptist-minister-sentenced-to-3-life-terms-for-child-sexual-abuse-wife-gets-25-years/",
-      "date": "2026-11-17T21:05:10Z",
-      "source": "The Roys Report",
+      "title": "Word Network’s Kevin Adell Files for Bankruptcy After $62.2M Discrimination Verdict Jury sided with Bishop George Bloomer, who says Adell mocked him with racist meme, then threaten",
+      "link": "https://ministrywatch.com/word-networks-kevin-adell-files-for-bankruptcy-after-62-2m-discrimination-verdict/",
+      "date": "2026-11-18T01:04:47Z",
+      "source": "MinistryWatch",
       "cat": "accountability",
       "topic": "investigations"
     },
     {
       "title": "Assemblies of God invokes First Amendment to shield top leader from questioning in abuse case",
       "link": "https://roysreport.com/assemblies-of-god-invokes-first-amendment-to-shield-top-leader-from-questioning-in-abuse-case/",
-      "date": "2026-11-17T20:09:55Z",
+      "date": "2026-11-17T23:52:55Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Itinerant Baptist minister sentenced to 3 life terms for child sexual abuse; wife gets 25 years",
+      "link": "https://roysreport.com/itinerant-baptist-minister-sentenced-to-3-life-terms-for-child-sexual-abuse-wife-gets-25-years/",
+      "date": "2026-11-17T21:05:10Z",
       "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
@@ -122,14 +130,6 @@
       "link": "https://roysreport.com/whistleblower-suspects-cornerstone-held-phantom-meetings-to-update-bylaws/",
       "date": "2026-11-14T00:20:55Z",
       "source": "The Roys Report",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Ep. 666: North Point Community Church, Teen Challenge, New Life Chapel and Lonnie Snell, Pastors and Planes",
-      "link": "https://ministrywatch.com/ep-666-north-point-community-church-teen-challenge-new-life-chapel-and-lonnie-snell-pastors-and-planes/",
-      "date": "2026-11-13T06:04:10Z",
-      "source": "MinistryWatch",
       "cat": "accountability",
       "topic": "investigations"
     },
