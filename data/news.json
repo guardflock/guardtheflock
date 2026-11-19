@@ -1,18 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T01:53:27.105928Z",
-  "sourcesUpdated": 6,
+  "updatedAt": "2026-11-19T13:17:41.812797Z",
+  "sourcesUpdated": 7,
   "sources": [
     "Spiritual Sounding Board",
-    "Surviving Church",
+    "Baptist News Global",
     "The Roys Report",
-    "ECA Global",
+    "Surviving Church",
     "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch"
+    "MinistryWatch",
+    "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 20,
+  "itemCount": 21,
   "items": [
+    {
+      "title": "Every church needs its own screening standard",
+      "link": "https://baptistnews.com/article/every-church-needs-its-own-screening-standard/",
+      "date": "2026-11-19T04:17:13Z",
+      "source": "Baptist News Global",
+      "cat": "evangelical",
+      "topic": "investigations"
+    },
     {
       "title": "Nashville Nazarene youth pastor fired over claims he groomed teen",
       "link": "https://roysreport.com/nashville-nazarene-youth-pastor-fired-over-claims-he-groomed-teen/",
