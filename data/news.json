@@ -1,18 +1,26 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T17:18:16.619499Z",
+  "updatedAt": "2026-11-19T01:53:27.105928Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
-    "MinistryWatch",
     "ECA Global",
-    "Abuse Tracker (Bishop Accountability)"
+    "Abuse Tracker (Bishop Accountability)",
+    "MinistryWatch"
   ],
   "sourceCount": 17,
   "itemCount": 20,
   "items": [
+    {
+      "title": "Nashville Nazarene youth pastor fired over claims he groomed teen",
+      "link": "https://roysreport.com/nashville-nazarene-youth-pastor-fired-over-claims-he-groomed-teen/",
+      "date": "2026-11-18T21:33:16Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "N.J. pastor’s 3 daughters accuse him of abuse, say church kept it quiet for years",
       "link": "https://www.bishop-accountability.org/2026/11/n-j-pastors-3-daughters-accuse-him-of-abuse-say-church-kept-it-quiet-for-years/",
@@ -140,14 +148,6 @@
       "source": "Surviving Church",
       "cat": "accountability",
       "topic": "safeguarding"
-    },
-    {
-      "title": "Journeying with Fr Mark: A PCC Member’s Testimony on Institutional Cruelty",
-      "link": "https://survivingchurch.org/2026/09/25/journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty/?utm_source=rss&utm_medium=rss&utm_campaign=journeying-with-fr-mark-a-pcc-members-testimony-on-institutional-cruelty",
-      "date": "2026-09-25T09:03:18Z",
-      "source": "Surviving Church",
-      "cat": "accountability",
-      "topic": "investigations"
     },
     {
       "title": "ECA Global Summit in Buenos Aires: A Landmark Event on Opus Dei Abuses and Survivors’ Search for Justice",
