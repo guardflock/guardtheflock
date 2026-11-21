@@ -1,18 +1,26 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T16:59:28.823211Z",
+  "updatedAt": "2026-11-21T01:33:47.508912Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
-    "ECA Global",
+    "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
-    "MinistryWatch"
+    "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 17,
+  "itemCount": 16,
   "items": [
+    {
+      "title": "Former IHOPKC leader accused of abuse cover-up takes pastoring job in Texas",
+      "link": "https://roysreport.com/former-ihopkc-leader-accused-of-abuse-cover-up-takes-pastoring-job-in-texas/",
+      "date": "2026-11-20T23:20:55Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "Former Rhode Island priest pleads no contest to child molestation charges",
       "link": "https://www.bishop-accountability.org/2026/11/former-rhode-island-priest-pleads-no-contest-to-child-molestation-charges/",
@@ -62,26 +70,10 @@
       "topic": "investigations"
     },
     {
-      "title": "Nashville Nazarene youth pastor fired over claims he groomed teen",
-      "link": "https://roysreport.com/nashville-nazarene-youth-pastor-fired-over-claims-he-groomed-teen/",
-      "date": "2026-11-18T21:33:16Z",
-      "source": "The Roys Report",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
       "title": "Word Network’s Kevin Adell Files for Bankruptcy After $62.2M Discrimination Verdict Jury sided with Bishop George Bloomer, who says Adell mocked him with racist meme, then threaten",
       "link": "https://ministrywatch.com/word-networks-kevin-adell-files-for-bankruptcy-after-62-2m-discrimination-verdict/",
       "date": "2026-11-18T01:04:47Z",
       "source": "MinistryWatch",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Assemblies of God invokes First Amendment to shield top leader from questioning in abuse case",
-      "link": "https://roysreport.com/assemblies-of-god-invokes-first-amendment-to-shield-top-leader-from-questioning-in-abuse-case/",
-      "date": "2026-11-17T23:52:55Z",
-      "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
     },
