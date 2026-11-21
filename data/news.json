@@ -1,18 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T12:43:12.594513Z",
-  "sourcesUpdated": 6,
+  "updatedAt": "2026-11-21T21:40:57.749106Z",
+  "sourcesUpdated": 5,
   "sources": [
     "Spiritual Sounding Board",
-    "Surviving Church",
     "The Roys Report",
-    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
+    "Abuse Tracker (Bishop Accountability)",
     "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 16,
+  "itemCount": 18,
   "items": [
+    {
+      "title": "First $180M paid to clergy abuse survivors after years of bankruptcy proceedings",
+      "link": "https://www.bishop-accountability.org/2026/11/first-180m-paid-to-clergy-abuse-survivors-after-years-of-bankruptcy-proceedings/",
+      "date": "2026-11-21T14:55:26Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "Police investigating safeguarding issues in Presbyterian Church contacted by 168 people",
+      "link": "https://www.bishop-accountability.org/2026/11/police-investigating-safeguarding-issues-in-presbyterian-church-contacted-by-168-people/",
+      "date": "2026-11-21T14:52:30Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Rete L’ABUSO lancia un’inchiesta italiana sugli abusi sessuali nel clero e negli ambienti connessi",
+      "link": "https://www.bishop-accountability.org/2026/11/rete-labuso-lancia-uninchiesta-italiana-sugli-abusi-sessuali-nel-clero-e-negli-ambienti-connessi/",
+      "date": "2026-11-21T14:43:13Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Italian victims of clerical abuse launch an independent investigation",
+      "link": "https://www.bishop-accountability.org/2026/11/italian-victims-of-clerical-abuse-launch-an-independent-investigation/",
+      "date": "2026-11-21T14:29:52Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Are diocesan lists of credibly accused priests ‘illegitimate’?",
+      "link": "https://www.bishop-accountability.org/2026/11/are-diocesan-lists-of-credibly-accused-priests-illegitimate/",
+      "date": "2026-11-21T14:25:40Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Victims of Clerical Sexual Abuse Want More Engagement From Pope Leo",
+      "link": "https://www.bishop-accountability.org/2026/11/victims-of-clerical-sexual-abuse-want-more-engagement-from-pope-leo/",
+      "date": "2026-11-21T14:23:01Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Abuse survivors, Baltimore Archdiocese close to settlement, but talks may drag into 2027",
+      "link": "https://www.bishop-accountability.org/2026/11/abuse-survivors-baltimore-archdiocese-close-to-settlement-but-talks-may-drag-into-2027/",
+      "date": "2026-11-21T14:18:15Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
     {
       "title": "Former IHOPKC leader accused of abuse cover-up takes pastoring job in Texas",
       "link": "https://roysreport.com/former-ihopkc-leader-accused-of-abuse-cover-up-takes-pastoring-job-in-texas/",
@@ -22,42 +77,10 @@
       "topic": "investigations"
     },
     {
-      "title": "Former Rhode Island priest pleads no contest to child molestation charges",
-      "link": "https://www.bishop-accountability.org/2026/11/former-rhode-island-priest-pleads-no-contest-to-child-molestation-charges/",
-      "date": "2026-11-20T14:20:19Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Former Baylor Chi Alpha minister pleads no contest to sexual abuse charges",
-      "link": "https://www.bishop-accountability.org/2026/11/former-baylor-chi-alpha-minister-pleads-no-contest-to-sexual-abuse-charges/",
-      "date": "2026-11-20T14:17:11Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
       "title": "Former Baylor Chi Alpha Minister Pleads No Contest as Assemblies of God Fights Leader’s Deposition Two legal battles highlight continuing fallout from Chi Alpha sexual abuse scanda",
       "link": "https://ministrywatch.com/former-baylor-chi-alpha-minister-pleads-no-contest-as-assemblies-of-god-fights-leaders-deposition/",
       "date": "2026-11-20T14:14:58Z",
       "source": "MinistryWatch",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Former priest accused of sexual assault in Russell area, gets new trial date",
-      "link": "https://www.bishop-accountability.org/2026/11/former-priest-accused-of-sexual-assault-in-russell-area-gets-new-trial-date/",
-      "date": "2026-11-20T13:40:51Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Former minister who served at Baylor pleads no contest to sexually abusing two boys in 2021",
-      "link": "https://www.bishop-accountability.org/2026/11/former-minister-who-served-at-baylor-pleads-no-contest-to-sexually-abusing-two-boys-in-2021/",
-      "date": "2026-11-20T13:38:57Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
     },
@@ -108,14 +131,6 @@
       "source": "ECA Global",
       "cat": "accountability",
       "topic": "investigations"
-    },
-    {
-      "title": "How Untreated Boarding School Survivors Have Run and Harmed the Church",
-      "link": "https://survivingchurch.org/2026/10/30/how-untreated-boarding-school-survivors-have-run-and-harmed-the-church/?utm_source=rss&utm_medium=rss&utm_campaign=how-untreated-boarding-school-survivors-have-run-and-harmed-the-church",
-      "date": "2026-10-30T10:34:16Z",
-      "source": "Surviving Church",
-      "cat": "accountability",
-      "topic": "safeguarding"
     },
     {
       "title": "ECA Global Summit in Buenos Aires: A Landmark Event on Opus Dei Abuses and Survivors’ Search for Justice",
