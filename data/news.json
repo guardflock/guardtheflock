@@ -1,18 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T06:56:05.468528Z",
+  "updatedAt": "2026-11-22T16:19:36.559673Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
-    "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
+    "MinistryWatch",
     "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 19,
+  "itemCount": 18,
   "items": [
+    {
+      "title": "McCall man charged with child sex crimes; police fear more victims",
+      "link": "https://www.bishop-accountability.org/2026/11/mccall-man-charged-with-child-sex-crimes-police-fear-more-victims/",
+      "date": "2026-11-22T13:38:53Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Ex-River Edge Pastor Faced 21 Charges, Including 18 Sex Offenses, Gets 6 Months in Bergen Jail",
+      "link": "https://www.bishop-accountability.org/2026/11/ex-river-edge-pastor-faced-21-charges-including-18-sex-offenses-gets-6-months-in-bergen-jail/",
+      "date": "2026-11-22T13:32:48Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
     {
       "title": "First $180M paid to clergy abuse survivors after years of bankruptcy proceedings",
       "link": "https://www.bishop-accountability.org/2026/11/first-180m-paid-to-clergy-abuse-survivors-after-years-of-bankruptcy-proceedings/",
@@ -44,30 +60,6 @@
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
-    },
-    {
-      "title": "Are diocesan lists of credibly accused priests ‘illegitimate’?",
-      "link": "https://www.bishop-accountability.org/2026/11/are-diocesan-lists-of-credibly-accused-priests-illegitimate/",
-      "date": "2026-11-21T14:25:40Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Victims of Clerical Sexual Abuse Want More Engagement From Pope Leo",
-      "link": "https://www.bishop-accountability.org/2026/11/victims-of-clerical-sexual-abuse-want-more-engagement-from-pope-leo/",
-      "date": "2026-11-21T14:23:01Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Abuse survivors, Baltimore Archdiocese close to settlement, but talks may drag into 2027",
-      "link": "https://www.bishop-accountability.org/2026/11/abuse-survivors-baltimore-archdiocese-close-to-settlement-but-talks-may-drag-into-2027/",
-      "date": "2026-11-21T14:18:15Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "safeguarding"
     },
     {
       "title": "Former IHOPKC leader accused of abuse cover-up takes pastoring job in Texas",
