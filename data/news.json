@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T21:40:57.749106Z",
-  "sourcesUpdated": 5,
+  "updatedAt": "2026-11-22T06:56:05.468528Z",
+  "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
+    "Surviving Church",
     "The Roys Report",
     "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
     "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 18,
+  "itemCount": 19,
   "items": [
     {
       "title": "First $180M paid to clergy abuse survivors after years of bankruptcy proceedings",
@@ -131,6 +132,14 @@
       "source": "ECA Global",
       "cat": "accountability",
       "topic": "investigations"
+    },
+    {
+      "title": "How Untreated Boarding School Survivors Have Run and Harmed the Church",
+      "link": "https://survivingchurch.org/2026/10/30/how-untreated-boarding-school-survivors-have-run-and-harmed-the-church/?utm_source=rss&utm_medium=rss&utm_campaign=how-untreated-boarding-school-survivors-have-run-and-harmed-the-church",
+      "date": "2026-10-30T10:34:16Z",
+      "source": "Surviving Church",
+      "cat": "accountability",
+      "topic": "safeguarding"
     },
     {
       "title": "ECA Global Summit in Buenos Aires: A Landmark Event on Opus Dei Abuses and Survivors’ Search for Justice",
