@@ -1,65 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T00:55:36.575254Z",
+  "updatedAt": "2026-11-23T14:44:43.129393Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
-    "MinistryWatch",
     "Abuse Tracker (Bishop Accountability)",
+    "MinistryWatch",
     "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 18,
+  "itemCount": 17,
   "items": [
     {
-      "title": "McCall man charged with child sex crimes; police fear more victims",
-      "link": "https://www.bishop-accountability.org/2026/11/mccall-man-charged-with-child-sex-crimes-police-fear-more-victims/",
-      "date": "2026-11-22T13:38:53Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Ex-River Edge Pastor Faced 21 Charges, Including 18 Sex Offenses, Gets 6 Months in Bergen Jail",
-      "link": "https://www.bishop-accountability.org/2026/11/ex-river-edge-pastor-faced-21-charges-including-18-sex-offenses-gets-6-months-in-bergen-jail/",
-      "date": "2026-11-22T13:32:48Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "First $180M paid to clergy abuse survivors after years of bankruptcy proceedings",
-      "link": "https://www.bishop-accountability.org/2026/11/first-180m-paid-to-clergy-abuse-survivors-after-years-of-bankruptcy-proceedings/",
-      "date": "2026-11-21T14:55:26Z",
+      "title": "Santiago archbishop asks forgiveness for abuse and failures to protect",
+      "link": "https://www.bishop-accountability.org/2026/11/santiago-archbishop-asks-forgiveness-for-abuse-and-failures-to-protect/",
+      "date": "2026-11-23T11:00:00Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "safeguarding"
     },
     {
-      "title": "Police investigating safeguarding issues in Presbyterian Church contacted by 168 people",
-      "link": "https://www.bishop-accountability.org/2026/11/police-investigating-safeguarding-issues-in-presbyterian-church-contacted-by-168-people/",
-      "date": "2026-11-21T14:52:30Z",
+      "title": "Zimbabwean Preacher Uebert Angel Arrested on Indecent Assault, Sodomy Allegations",
+      "link": "https://www.bishop-accountability.org/2026/11/zimbabwean-preacher-uebert-angel-arrested-on-indecent-assault-sodomy-allegations/",
+      "date": "2026-11-23T11:00:00Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
     },
     {
-      "title": "Rete L’ABUSO lancia un’inchiesta italiana sugli abusi sessuali nel clero e negli ambienti connessi",
-      "link": "https://www.bishop-accountability.org/2026/11/rete-labuso-lancia-uninchiesta-italiana-sugli-abusi-sessuali-nel-clero-e-negli-ambienti-connessi/",
-      "date": "2026-11-21T14:43:13Z",
+      "title": "US-based Christian missionary, Abraham Jaipaul Papabathini, who ran an orphanage in India, charged with sexually exploiting minor girls: All you need to know",
+      "link": "https://www.bishop-accountability.org/2026/11/us-based-christian-missionary-abraham-jaipaul-papabathini-who-ran-an-orphanage-in-india-charged-with-sexually-exploiting-minor-girls-all-you-need-to-know/",
+      "date": "2026-11-23T11:00:00Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
     },
     {
-      "title": "Italian victims of clerical abuse launch an independent investigation",
-      "link": "https://www.bishop-accountability.org/2026/11/italian-victims-of-clerical-abuse-launch-an-independent-investigation/",
-      "date": "2026-11-21T14:29:52Z",
+      "title": "Court upholds rape conviction of Hindu priest, reduces jail term from 17 to 13 years",
+      "link": "https://www.bishop-accountability.org/2026/11/court-upholds-rape-conviction-of-hindu-priest-reduces-jail-term-from-17-to-13-years/",
+      "date": "2026-11-23T11:00:00Z",
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
+    },
+    {
+      "title": "Local pastor charged with felony offenses involving child sexual abuse images",
+      "link": "https://www.bishop-accountability.org/2026/11/local-pastor-charged-with-felony-offenses-involving-child-sexual-abuse-images/",
+      "date": "2026-11-23T11:00:00Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "What Has Pope Leo Done to Tackle Abuse in the Catholic Church?",
+      "link": "https://www.bishop-accountability.org/2026/11/what-has-pope-leo-done-to-tackle-abuse-in-the-catholic-church/",
+      "date": "2026-11-23T11:00:00Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "spiritual-abuse"
     },
     {
       "title": "Former IHOPKC leader accused of abuse cover-up takes pastoring job in Texas",
@@ -82,14 +82,6 @@
       "link": "https://roysreport.com/former-baylor-chi-alpha-minister-pleads-no-contest-in-abuse-of-two-boys/",
       "date": "2026-11-20T00:08:59Z",
       "source": "The Roys Report",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Word Network’s Kevin Adell Files for Bankruptcy After $62.2M Discrimination Verdict Jury sided with Bishop George Bloomer, who says Adell mocked him with racist meme, then threaten",
-      "link": "https://ministrywatch.com/word-networks-kevin-adell-files-for-bankruptcy-after-62-2m-discrimination-verdict/",
-      "date": "2026-11-18T01:04:47Z",
-      "source": "MinistryWatch",
       "cat": "accountability",
       "topic": "investigations"
     },
