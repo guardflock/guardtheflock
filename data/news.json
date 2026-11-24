@@ -1,18 +1,50 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T02:55:40.105838Z",
+  "updatedAt": "2026-11-24T14:55:10.832351Z",
   "sourcesUpdated": 6,
   "sources": [
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
-    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch",
+    "Abuse Tracker (Bishop Accountability)",
     "ECA Global"
   ],
   "sourceCount": 17,
   "itemCount": 17,
   "items": [
+    {
+      "title": "Fairfield Prep retains investigator after second sexual abuse allegation against former teacher",
+      "link": "https://www.bishop-accountability.org/2026/11/fairfield-prep-retains-investigator-after-second-sexual-abuse-allegation-against-former-teacher/",
+      "date": "2026-11-24T14:07:08Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "The Irish Catholic Church’s Abuse Scandal: Another Investigation, More Unanswered Questions",
+      "link": "https://www.bishop-accountability.org/2026/11/the-irish-catholic-churchs-abuse-scandal/",
+      "date": "2026-11-24T13:59:10Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "The U.S. bishops revised their sex abuse charter—but the work remains unfinished",
+      "link": "https://www.bishop-accountability.org/2026/11/the-u-s-bishops-revised-their-sex-abuse-charter-but-the-work-remains-unfinished/",
+      "date": "2026-11-24T13:36:41Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
+    {
+      "title": "What Has Pope Leo Done to Tackle Abuse in the Catholic Church?",
+      "link": "https://www.bishop-accountability.org/2026/11/what-has-pope-leo-done/",
+      "date": "2026-11-24T13:16:29Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "spiritual-abuse"
+    },
     {
       "title": "‘Heinous and disgusting’: Florida pastor accused of repeated child sexual battery, wife charged with neglect",
       "link": "https://roysreport.com/florida-pastor-accused-of-repeated-child-sexual-battery-wife-charged-with-neglect/",
@@ -36,38 +68,6 @@
       "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
-    },
-    {
-      "title": "US-based Christian missionary, Abraham Jaipaul Papabathini, who ran an orphanage in India, charged with sexually exploiting minor girls: All you need to know",
-      "link": "https://www.bishop-accountability.org/2026/11/us-based-christian-missionary-abraham-jaipaul-papabathini-who-ran-an-orphanage-in-india-charged-with-sexually-exploiting-minor-girls-all-you-need-to-know/",
-      "date": "2026-11-23T11:00:00Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Court upholds rape conviction of Hindu priest, reduces jail term from 17 to 13 years",
-      "link": "https://www.bishop-accountability.org/2026/11/court-upholds-rape-conviction-of-hindu-priest-reduces-jail-term-from-17-to-13-years/",
-      "date": "2026-11-23T11:00:00Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Local pastor charged with felony offenses involving child sexual abuse images",
-      "link": "https://www.bishop-accountability.org/2026/11/local-pastor-charged-with-felony-offenses-involving-child-sexual-abuse-images/",
-      "date": "2026-11-23T11:00:00Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "What Has Pope Leo Done to Tackle Abuse in the Catholic Church?",
-      "link": "https://www.bishop-accountability.org/2026/11/what-has-pope-leo-done-to-tackle-abuse-in-the-catholic-church/",
-      "date": "2026-11-23T11:00:00Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "spiritual-abuse"
     },
     {
       "title": "Former IHOPKC leader accused of abuse cover-up takes pastoring job in Texas",
