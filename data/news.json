@@ -1,18 +1,26 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T00:48:18.727267Z",
+  "updatedAt": "2026-11-25T14:28:20.071821Z",
   "sourcesUpdated": 6,
   "sources": [
-    "Spiritual Sounding Board",
     "Abuse Tracker (Bishop Accountability)",
-    "Christian Post",
+    "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
+    "MinistryWatch",
     "ECA Global"
   ],
   "sourceCount": 17,
-  "itemCount": 17,
+  "itemCount": 14,
   "items": [
+    {
+      "title": "Baltimore judge sets Jan. 31 deadline in Archdiocese bankruptcy over church sex abuse claims",
+      "link": "https://www.bishop-accountability.org/2026/11/baltimore-judge-sets-jan-31-deadline-in-archdiocese-bankruptcy-over-church-sex-abuse-claims/",
+      "date": "2026-11-25T13:51:39Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
     {
       "title": "Michael Tait reaches out to accusers 18 months after abuse reports",
       "link": "https://roysreport.com/michael-tait-reaches-out-to-accusers-18-months-after-abuse-reports/",
@@ -30,44 +38,12 @@
       "topic": "safeguarding"
     },
     {
-      "title": "Pastor, teacher gets 10 years prison for seeking sex with 15-year-old in FBI sting",
-      "link": "https://www.christianpost.com/news/pastor-teacher-gets-10-years-prison-for-seeking-sex-with-girl.html",
-      "date": "2026-11-24T19:21:21Z",
-      "source": "Christian Post",
-      "cat": "evangelical",
-      "topic": "investigations"
-    },
-    {
-      "title": "Fairfield Prep retains investigator after second sexual abuse allegation against former teacher",
-      "link": "https://www.bishop-accountability.org/2026/11/fairfield-prep-retains-investigator-after-second-sexual-abuse-allegation-against-former-teacher/",
-      "date": "2026-11-24T14:07:08Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
+      "title": "When Ministry Workers Leave Amid Allegations, Who Keeps the Record? Without criminal charges, ministries face hard choices about records, references, and warning the next employer.",
+      "link": "https://ministrywatch.com/when-ministry-workers-leave-amid-allegations-who-keeps-the-record/",
+      "date": "2026-11-24T21:14:20Z",
+      "source": "MinistryWatch",
       "cat": "accountability",
       "topic": "investigations"
-    },
-    {
-      "title": "The Irish Catholic Church’s Abuse Scandal: Another Investigation, More Unanswered Questions",
-      "link": "https://www.bishop-accountability.org/2026/11/the-irish-catholic-churchs-abuse-scandal/",
-      "date": "2026-11-24T13:59:10Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "The U.S. bishops revised their sex abuse charter—but the work remains unfinished",
-      "link": "https://www.bishop-accountability.org/2026/11/the-u-s-bishops-revised-their-sex-abuse-charter-but-the-work-remains-unfinished/",
-      "date": "2026-11-24T13:36:41Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "What Has Pope Leo Done to Tackle Abuse in the Catholic Church?",
-      "link": "https://www.bishop-accountability.org/2026/11/what-has-pope-leo-done/",
-      "date": "2026-11-24T13:16:29Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "spiritual-abuse"
     },
     {
       "title": "‘Heinous and disgusting’: Florida pastor accused of repeated child sexual battery, wife charged with neglect",
