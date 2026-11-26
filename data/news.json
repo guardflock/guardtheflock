@@ -1,49 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T00:25:41.273546Z",
-  "sourcesUpdated": 6,
+  "updatedAt": "2026-11-26T13:56:59.053389Z",
+  "sourcesUpdated": 4,
   "sources": [
-    "Abuse Tracker (Bishop Accountability)",
     "Spiritual Sounding Board",
     "Surviving Church",
-    "The Roys Report",
-    "ECA Global",
+    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 14,
+  "itemCount": 6,
   "items": [
     {
-      "title": "Ohio pastor accused of covering up son’s abuse receives ‘no confidence’ vote as county commissioner",
-      "link": "https://roysreport.com/ohio-pastor-accused-of-covering-up-sons-abuse-receives-no-confidence-vote-as-county-commissioner/",
-      "date": "2026-11-25T20:33:23Z",
-      "source": "The Roys Report",
+      "title": "At least 356 Italy clerics accused of sex abuse over two decades: Study",
+      "link": "https://www.bishop-accountability.org/2026/11/at-least-356-italy-clerics-accused-of-sex-abuse-over-two-decades-study/",
+      "date": "2026-11-26T13:19:28Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
       "cat": "accountability",
       "topic": "investigations"
     },
     {
-      "title": "Leo XIV’s plan to combat child sexual abuse remains a mystery: ‘They’re trying to hold him back, and he doesn’t know who he can trust’",
-      "link": "https://www.bishop-accountability.org/2026/11/leo-xivs-plan-to-combat-child-sexual-abuse-remains-a-mystery-theyre-trying-to-hold-him-back-and-he-doesnt-know-who-he-can-trust/",
-      "date": "2026-11-25T14:29:51Z",
+      "title": "Nearly 60 Italian priests jailed for child sex abuse over two decades: Report",
+      "link": "https://www.bishop-accountability.org/2026/11/nearly-60-italian-priests-jailed-for-child-sex-abuse-over-two-decades-report/",
+      "date": "2026-11-26T13:16:45Z",
       "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "spiritual-abuse"
-    },
-    {
-      "title": "Baltimore judge sets Jan. 31 deadline in Archdiocese bankruptcy over church sex abuse claims",
-      "link": "https://www.bishop-accountability.org/2026/11/baltimore-judge-sets-jan-31-deadline-in-archdiocese-bankruptcy-over-church-sex-abuse-claims/",
-      "date": "2026-11-25T13:51:39Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "Michael Tait reaches out to accusers 18 months after abuse reports",
-      "link": "https://roysreport.com/michael-tait-reaches-out-to-accusers-18-months-after-abuse-reports/",
-      "date": "2026-11-24T23:34:36Z",
-      "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
+    },
+    {
+      "title": "Nearly 800 German children abused by Catholic clergy, study finds",
+      "link": "https://www.bishop-accountability.org/2026/11/nearly-800-german-children-abused-by-catholic-clergy-study-finds/",
+      "date": "2026-11-26T13:09:46Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "church-accountability"
     },
     {
       "title": "When Ministry Workers Leave Amid Allegations, Who Keeps the Record? Without criminal charges, ministries face hard choices about records, references, and warning the next employer.",
@@ -54,66 +44,10 @@
       "topic": "investigations"
     },
     {
-      "title": "‘Heinous and disgusting’: Florida pastor accused of repeated child sexual battery, wife charged with neglect",
-      "link": "https://roysreport.com/florida-pastor-accused-of-repeated-child-sexual-battery-wife-charged-with-neglect/",
-      "date": "2026-11-24T00:30:31Z",
-      "source": "The Roys Report",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "From Apologies to Justice: ECA Stands with Catacaos Community During Pope Leo XIV’s Visit to Peru",
-      "link": "https://www.ecaglobal.org/from-apologies-to-justice-eca-stands-with-catacaos-community-during-pope-leo-xivs-visit-to-peru/",
-      "date": "2026-11-14T18:18:33Z",
-      "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "From Apologies to Justice: ECA Stands with Catacaos During Pope Leo XIV’s Visit to Peru",
-      "link": "https://www.ecaglobal.org/4341-2/",
-      "date": "2026-11-14T18:09:29Z",
-      "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "From Secrecy to Accountability: ECA Challenges the Church’s Approach to Abuse Survivors in Buenos Aires",
-      "link": "https://www.ecaglobal.org/from-secrecy-to-accountability-eca-challenges-the-churchs-approach-to-abuse-survivors-in-buenos-aires/",
-      "date": "2026-11-11T15:19:27Z",
-      "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "43 Women, Decades of Alleged Exploitation: ECA Calls on Pope Leo XIV to Confront the Opus Dei Case",
-      "link": "https://www.ecaglobal.org/43-women-decades-of-alleged-exploitation-eca-calls-on-pope-leo-xiv-to-confront-the-opus-dei-case/",
-      "date": "2026-11-11T15:12:57Z",
-      "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
       "title": "How Untreated Boarding School Survivors Have Run and Harmed the Church",
       "link": "https://survivingchurch.org/2026/10/30/how-untreated-boarding-school-survivors-have-run-and-harmed-the-church/?utm_source=rss&utm_medium=rss&utm_campaign=how-untreated-boarding-school-survivors-have-run-and-harmed-the-church",
       "date": "2026-10-30T10:34:16Z",
       "source": "Surviving Church",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
-      "title": "ECA Global Summit in Buenos Aires: A Landmark Event on Opus Dei Abuses and Survivors’ Search for Justice",
-      "link": "https://www.ecaglobal.org/eca-global-summit-in-buenos-aires-a-landmark-event-on-opus-dei-abuses-and-survivors-search-for-justice/",
-      "date": "2025-12-18T14:58:34Z",
-      "source": "ECA Global",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "ECA Global Holds Historic Meeting with Pope at the Vatican",
-      "link": "https://www.ecaglobal.org/4132-2/",
-      "date": "2025-10-20T12:41:47Z",
-      "source": "ECA Global",
       "cat": "accountability",
       "topic": "safeguarding"
     },
