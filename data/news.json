@@ -1,18 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T14:28:20.071821Z",
+  "updatedAt": "2026-11-26T00:25:41.273546Z",
   "sourcesUpdated": 6,
   "sources": [
     "Abuse Tracker (Bishop Accountability)",
     "Spiritual Sounding Board",
     "Surviving Church",
     "The Roys Report",
-    "MinistryWatch",
-    "ECA Global"
+    "ECA Global",
+    "MinistryWatch"
   ],
   "sourceCount": 17,
   "itemCount": 14,
   "items": [
+    {
+      "title": "Ohio pastor accused of covering up son’s abuse receives ‘no confidence’ vote as county commissioner",
+      "link": "https://roysreport.com/ohio-pastor-accused-of-covering-up-sons-abuse-receives-no-confidence-vote-as-county-commissioner/",
+      "date": "2026-11-25T20:33:23Z",
+      "source": "The Roys Report",
+      "cat": "accountability",
+      "topic": "investigations"
+    },
+    {
+      "title": "Leo XIV’s plan to combat child sexual abuse remains a mystery: ‘They’re trying to hold him back, and he doesn’t know who he can trust’",
+      "link": "https://www.bishop-accountability.org/2026/11/leo-xivs-plan-to-combat-child-sexual-abuse-remains-a-mystery-theyre-trying-to-hold-him-back-and-he-doesnt-know-who-he-can-trust/",
+      "date": "2026-11-25T14:29:51Z",
+      "source": "Abuse Tracker (Bishop Accountability)",
+      "cat": "accountability",
+      "topic": "spiritual-abuse"
+    },
     {
       "title": "Baltimore judge sets Jan. 31 deadline in Archdiocese bankruptcy over church sex abuse claims",
       "link": "https://www.bishop-accountability.org/2026/11/baltimore-judge-sets-jan-31-deadline-in-archdiocese-bankruptcy-over-church-sex-abuse-claims/",
@@ -30,14 +46,6 @@
       "topic": "investigations"
     },
     {
-      "title": "Australian Catholic insurer to cut its share of abuse payouts as wind-down enters final phase",
-      "link": "https://www.bishop-accountability.org/2026/11/australian-catholic-insurer-to-cut/",
-      "date": "2026-11-24T21:37:13Z",
-      "source": "Abuse Tracker (Bishop Accountability)",
-      "cat": "accountability",
-      "topic": "safeguarding"
-    },
-    {
       "title": "When Ministry Workers Leave Amid Allegations, Who Keeps the Record? Without criminal charges, ministries face hard choices about records, references, and warning the next employer.",
       "link": "https://ministrywatch.com/when-ministry-workers-leave-amid-allegations-who-keeps-the-record/",
       "date": "2026-11-24T21:14:20Z",
@@ -49,14 +57,6 @@
       "title": "‘Heinous and disgusting’: Florida pastor accused of repeated child sexual battery, wife charged with neglect",
       "link": "https://roysreport.com/florida-pastor-accused-of-repeated-child-sexual-battery-wife-charged-with-neglect/",
       "date": "2026-11-24T00:30:31Z",
-      "source": "The Roys Report",
-      "cat": "accountability",
-      "topic": "investigations"
-    },
-    {
-      "title": "Former IHOPKC leader accused of abuse cover-up takes pastoring job in Texas",
-      "link": "https://roysreport.com/former-ihopkc-leader-accused-of-abuse-cover-up-takes-pastoring-job-in-texas/",
-      "date": "2026-11-20T23:20:55Z",
       "source": "The Roys Report",
       "cat": "accountability",
       "topic": "investigations"
