@@ -1,16 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T13:56:59.053389Z",
+  "updatedAt": "2026-11-27T00:37:25.363313Z",
   "sourcesUpdated": 4,
   "sources": [
+    "Abuse Tracker (Bishop Accountability)",
     "Spiritual Sounding Board",
     "Surviving Church",
-    "Abuse Tracker (Bishop Accountability)",
     "MinistryWatch"
   ],
   "sourceCount": 17,
-  "itemCount": 6,
+  "itemCount": 7,
   "items": [
+    {
+      "title": "The Threat of Victims",
+      "link": "https://survivingchurch.org/2026/11/26/the-threat-of-victims/?utm_source=rss&utm_medium=rss&utm_campaign=the-threat-of-victims",
+      "date": "2026-11-26T17:33:54Z",
+      "source": "Surviving Church",
+      "cat": "accountability",
+      "topic": "safeguarding"
+    },
     {
       "title": "At least 356 Italy clerics accused of sex abuse over two decades: Study",
       "link": "https://www.bishop-accountability.org/2026/11/at-least-356-italy-clerics-accused-of-sex-abuse-over-two-decades-study/",
